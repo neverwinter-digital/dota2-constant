@@ -20,6 +20,9 @@ stats:
   - xp_level
   - regions
   - npc_abilities
+  - abilities
+  - heroes
+  - items
 locales:
   en:
     - abilities
