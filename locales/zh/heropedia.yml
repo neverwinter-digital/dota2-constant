@@ -1,0 +1,2333 @@
+---
+herodata:
+  antimage:
+    dname: 敌法师
+    u: Anti-Mage
+    pa: agi
+    attribs:
+      str:
+        b: 22
+        g: '1.20'
+      int:
+        b: 15
+        g: '1.80'
+      agi:
+        b: 22
+        g: '2.80'
+      ms: 315
+      dmg:
+        min: 27
+        max: 31
+      armor: 2.08
+    dac: 近战
+    droles: 核心 - 逃生 - 爆发
+  axe:
+    dname: 斧王
+    u: Axe
+    pa: str
+    attribs:
+      str:
+        b: 25
+        g: '2.50'
+      int:
+        b: 18
+        g: '1.60'
+      agi:
+        b: 20
+        g: '2.20'
+      ms: 290
+      dmg:
+        min: 24
+        max: 28
+      armor: 1.8
+    dac: 近战
+    droles: 先手 - 耐久 - 控制 - 打野
+  bane:
+    dname: 祸乱之源
+    u: Bane
+    pa: int
+    attribs:
+      str:
+        b: 22
+        g: '2.10'
+      int:
+        b: 22
+        g: '2.10'
+      agi:
+        b: 22
+        g: '2.10'
+      ms: 310
+      dmg:
+        min: 33
+        max: 39
+      armor: 4.08
+    dac: 远程
+    droles: 辅助 - 控制 - 爆发 - 耐久
+  bloodseeker:
+    dname: 嗜血狂魔
+    u: Bloodseeker
+    pa: agi
+    attribs:
+      str:
+        b: 23
+        g: '2.40'
+      int:
+        b: 18
+        g: '1.70'
+      agi:
+        b: 24
+        g: '3.00'
+      ms: 290
+      dmg:
+        min: 29
+        max: 35
+      armor: 3.36
+    dac: 近战
+    droles: 核心 - 控制 - 打野 - 爆发 - 先手
+  crystal_maiden:
+    dname: 水晶室女
+    u: Crystal_Maiden
+    pa: int
+    attribs:
+      str:
+        b: 16
+        g: '1.70'
+      int:
+        b: 16
+        g: '2.90'
+      agi:
+        b: 16
+        g: '1.60'
+      ms: 280
+      dmg:
+        min: 19
+        max: 25
+      armor: 1.24
+    dac: 远程
+    droles: 辅助 - 控制 - 爆发 - 打野
+  drow_ranger:
+    dname: 卓尔游侠
+    u: Drow_Ranger
+    pa: agi
+    attribs:
+      str:
+        b: 17
+        g: '1.90'
+      int:
+        b: 15
+        g: '1.40'
+      agi:
+        b: 26
+        g: '1.90'
+      ms: 300
+      dmg:
+        min: 18
+        max: 29
+      armor: 0.64
+    dac: 远程
+    droles: 核心 - 控制 - 推进
+  earthshaker:
+    dname: 撼地者
+    u: Earthshaker
+    pa: str
+    attribs:
+      str:
+        b: 22
+        g: '2.90'
+      int:
+        b: 16
+        g: '1.80'
+      agi:
+        b: 12
+        g: '1.40'
+      ms: 310
+      dmg:
+        min: 24
+        max: 34
+      armor: 2.68
+    dac: 近战
+    droles: 辅助 - 先手 - 控制 - 爆发
+  juggernaut:
+    dname: 主宰
+    u: Juggernaut
+    pa: agi
+    attribs:
+      str:
+        b: 20
+        g: '1.90'
+      int:
+        b: 14
+        g: '1.40'
+      agi:
+        b: 26
+        g: '2.40'
+      ms: 305
+      dmg:
+        min: 24
+        max: 28
+      armor: 3.64
+    dac: 近战
+    droles: 核心 - 推进 - 逃生
+  mirana:
+    dname: 米拉娜
+    u: Mirana
+    pa: agi
+    attribs:
+      str:
+        b: 17
+        g: '1.85'
+      int:
+        b: 17
+        g: '1.65'
+      agi:
+        b: 20
+        g: '3.30'
+      ms: 300
+      dmg:
+        min: 18
+        max: 29
+      armor: 1.8
+    dac: 远程
+    droles: 核心 - 辅助 - 逃生 - 爆发 - 控制
+  nevermore:
+    dname: 影魔
+    u: Shadow_Fiend
+    pa: agi
+    attribs:
+      str:
+        b: 15
+        g: '2.00'
+      int:
+        b: 18
+        g: '2.00'
+      agi:
+        b: 20
+        g: '2.90'
+      ms: 315
+      dmg:
+        min: 15
+        max: 21
+      armor: 0.8
+    dac: 远程
+    droles: 核心 - 爆发
+  morphling:
+    dname: 变体精灵
+    u: Morphling
+    pa: agi
+    attribs:
+      str:
+        b: 19
+        g: '2.00'
+      int:
+        b: 17
+        g: '1.50'
+      agi:
+        b: 24
+        g: '3.70'
+      ms: 285
+      dmg:
+        min: 13
+        max: 22
+      armor: 1.36
+    dac: 远程
+    droles: 核心 - 逃生 - 耐久 - 爆发 - 控制
+  phantom_lancer:
+    dname: 幻影长矛手
+    u: Phantom_Lancer
+    pa: agi
+    attribs:
+      str:
+        b: 21
+        g: '1.70'
+      int:
+        b: 21
+        g: '2.00'
+      agi:
+        b: 29
+        g: '2.60'
+      ms: 290
+      dmg:
+        min: 22
+        max: 44
+      armor: 4.06
+    dac: 近战
+    droles: 核心 - 逃生 - 推进 - 爆发
+  puck:
+    dname: 帕克
+    u: Puck
+    pa: int
+    attribs:
+      str:
+        b: 15
+        g: '1.70'
+      int:
+        b: 25
+        g: '2.40'
+      agi:
+        b: 22
+        g: '1.70'
+      ms: 295
+      dmg:
+        min: 22
+        max: 33
+      armor: 2.08
+    dac: 远程
+    droles: 先手 - 控制 - 逃生 - 爆发
+  pudge:
+    dname: 帕吉
+    u: Pudge
+    pa: str
+    attribs:
+      str:
+        b: 25
+        g: '3.20'
+      int:
+        b: 14
+        g: '1.50'
+      agi:
+        b: 14
+        g: '1.50'
+      ms: 285
+      dmg:
+        min: 27
+        max: 33
+      armor: 0.96
+    dac: 近战
+    droles: 控制 - 先手 - 耐久 - 爆发
+  razor:
+    dname: 剃刀
+    u: Razor
+    pa: agi
+    attribs:
+      str:
+        b: 21
+        g: '2.30'
+      int:
+        b: 19
+        g: '1.80'
+      agi:
+        b: 22
+        g: '2.00'
+      ms: 295
+      dmg:
+        min: 23
+        max: 25
+      armor: 2.08
+    dac: 远程
+    droles: 核心 - 耐久 - 爆发 - 推进
+  sand_king:
+    dname: 沙王
+    u: Sand_King
+    pa: str
+    attribs:
+      str:
+        b: 22
+        g: '2.60'
+      int:
+        b: 16
+        g: '1.80'
+      agi:
+        b: 19
+        g: '2.10'
+      ms: 300
+      dmg:
+        min: 25
+        max: 41
+      armor: 2.66
+    dac: 近战
+    droles: 先手 - 控制 - 爆发 - 逃生 - 打野
+  storm_spirit:
+    dname: 风暴之灵
+    u: Storm_Spirit
+    pa: int
+    attribs:
+      str:
+        b: 19
+        g: '1.50'
+      int:
+        b: 24
+        g: '3.00'
+      agi:
+        b: 22
+        g: '1.80'
+      ms: 285
+      dmg:
+        min: 22
+        max: 32
+      armor: 5.08
+    dac: 远程
+    droles: 核心 - 逃生 - 爆发 - 先手 - 控制
+  sven:
+    dname: 斯温
+    u: Sven
+    pa: str
+    attribs:
+      str:
+        b: 23
+        g: '2.70'
+      int:
+        b: 16
+        g: '1.30'
+      agi:
+        b: 21
+        g: '2.00'
+      ms: 290
+      dmg:
+        min: 41
+        max: 43
+      armor: 4.94
+    dac: 近战
+    droles: 核心 - 控制 - 先手 - 耐久 - 爆发
+  tiny:
+    dname: 小小
+    u: Tiny
+    pa: str
+    attribs:
+      str:
+        b: 26
+        g: '3.00'
+      int:
+        b: 17
+        g: '1.60'
+      agi:
+        b: 9
+        g: '0.90'
+      ms: 285
+      dmg:
+        min: 37
+        max: 43
+      armor: 0.26
+    dac: 近战
+    droles: 核心 - 爆发 - 推进 - 先手 - 耐久 - 控制
+  vengefulspirit:
+    dname: 复仇之魂
+    u: Vengeful_Spirit
+    pa: agi
+    attribs:
+      str:
+        b: 18
+        g: '2.60'
+      int:
+        b: 13
+        g: '1.50'
+      agi:
+        b: 27
+        g: '3.30'
+      ms: 300
+      dmg:
+        min: 12
+        max: 26
+      armor: 3.78
+    dac: 远程
+    droles: 辅助 - 先手 - 控制 - 爆发 - 逃生
+  windrunner:
+    dname: 风行者
+    u: Windranger
+    pa: int
+    attribs:
+      str:
+        b: 15
+        g: '2.50'
+      int:
+        b: 22
+        g: '2.60'
+      agi:
+        b: 17
+        g: '1.40'
+      ms: 295
+      dmg:
+        min: 22
+        max: 34
+      armor: 1.38
+    dac: 远程
+    droles: 核心 - 辅助 - 控制 - 逃生 - 爆发
+  zuus:
+    dname: 宙斯
+    u: Zeus
+    pa: int
+    attribs:
+      str:
+        b: 19
+        g: '2.30'
+      int:
+        b: 20
+        g: '2.70'
+      agi:
+        b: 11
+        g: '1.20'
+      ms: 295
+      dmg:
+        min: 21
+        max: 29
+      armor: 1.54
+    dac: 远程
+    droles: 爆发
+  kunkka:
+    dname: 昆卡
+    u: Kunkka
+    pa: str
+    attribs:
+      str:
+        b: 24
+        g: '3.00'
+      int:
+        b: 18
+        g: '1.50'
+      agi:
+        b: 14
+        g: '1.30'
+      ms: 300
+      dmg:
+        min: 26
+        max: 36
+      armor: 3.96
+    dac: 近战
+    droles: 核心 - 控制 - 先手 - 耐久 - 爆发
+  lina:
+    dname: 莉娜
+    u: Lina
+    pa: int
+    attribs:
+      str:
+        b: 18
+        g: '1.50'
+      int:
+        b: 27
+        g: '3.20'
+      agi:
+        b: 16
+        g: '1.50'
+      ms: 295
+      dmg:
+        min: 13
+        max: 31
+      armor: 1.24
+    dac: 远程
+    droles: 辅助 - 核心 - 爆发 - 控制
+  lich:
+    dname: 巫妖
+    u: Lich
+    pa: int
+    attribs:
+      str:
+        b: 18
+        g: '1.55'
+      int:
+        b: 18
+        g: '3.25'
+      agi:
+        b: 15
+        g: '2.00'
+      ms: 315
+      dmg:
+        min: 24
+        max: 33
+      armor: 1.1
+    dac: 远程
+    droles: 辅助 - 爆发
+  lion:
+    dname: 莱恩
+    u: Lion
+    pa: int
+    attribs:
+      str:
+        b: 16
+        g: '1.70'
+      int:
+        b: 20
+        g: '3.00'
+      agi:
+        b: 15
+        g: '1.50'
+      ms: 290
+      dmg:
+        min: 27
+        max: 33
+      armor: 1.1
+    dac: 远程
+    droles: 辅助 - 控制 - 爆发 - 先手
+  shadow_shaman:
+    dname: 暗影萨满
+    u: Shadow_Shaman
+    pa: int
+    attribs:
+      str:
+        b: 21
+        g: '1.80'
+      int:
+        b: 21
+        g: '3.00'
+      agi:
+        b: 16
+        g: '1.60'
+      ms: 285
+      dmg:
+        min: 26
+        max: 33
+      armor: 1.24
+    dac: 远程
+    droles: 辅助 - 推进 - 控制 - 爆发 - 先手
+  slardar:
+    dname: 斯拉达
+    u: Slardar
+    pa: str
+    attribs:
+      str:
+        b: 21
+        g: '2.80'
+      int:
+        b: 15
+        g: '1.50'
+      agi:
+        b: 17
+        g: '2.40'
+      ms: 290
+      dmg:
+        min: 30
+        max: 38
+      armor: 5.38
+    dac: 近战
+    droles: 核心 - 耐久 - 先手 - 控制 - 逃生
+  tidehunter:
+    dname: 潮汐猎人
+    u: Tidehunter
+    pa: str
+    attribs:
+      str:
+        b: 22
+        g: '3.00'
+      int:
+        b: 16
+        g: '1.70'
+      agi:
+        b: 15
+        g: '1.50'
+      ms: 305
+      dmg:
+        min: 25
+        max: 31
+      armor: 3.1
+    dac: 近战
+    droles: 先手 - 耐久 - 控制 - 爆发
+  witch_doctor:
+    dname: 巫医
+    u: Witch_Doctor
+    pa: int
+    attribs:
+      str:
+        b: 16
+        g: '1.80'
+      int:
+        b: 24
+        g: '2.90'
+      agi:
+        b: 13
+        g: '1.40'
+      ms: 305
+      dmg:
+        min: 27
+        max: 37
+      armor: 0.82
+    dac: 远程
+    droles: 辅助 - 爆发 - 控制
+  riki:
+    dname: 力丸
+    u: Riki
+    pa: agi
+    attribs:
+      str:
+        b: 17
+        g: '1.60'
+      int:
+        b: 14
+        g: '1.30'
+      agi:
+        b: 34
+        g: '2.20'
+      ms: 290
+      dmg:
+        min: 4
+        max: 8
+      armor: 4.76
+    dac: 近战
+    droles: 核心 - 逃生 - 控制
+  enigma:
+    dname: 谜团
+    u: Enigma
+    pa: int
+    attribs:
+      str:
+        b: 17
+        g: '2.10'
+      int:
+        b: 20
+        g: '3.40'
+      agi:
+        b: 14
+        g: '1.00'
+      ms: 300
+      dmg:
+        min: 22
+        max: 28
+      armor: 3.96
+    dac: 远程
+    droles: 控制 - 打野 - 先手 - 推进
+  tinker:
+    dname: 修补匠
+    u: Tinker
+    pa: int
+    attribs:
+      str:
+        b: 17
+        g: '2.00'
+      int:
+        b: 30
+        g: '2.20'
+      agi:
+        b: 13
+        g: '1.20'
+      ms: 305
+      dmg:
+        min: 22
+        max: 28
+      armor: 3.82
+    dac: 远程
+    droles: 核心 - 爆发 - 推进
+  sniper:
+    dname: 狙击手
+    u: Sniper
+    pa: agi
+    attribs:
+      str:
+        b: 16
+        g: '1.70'
+      int:
+        b: 15
+        g: '2.60'
+      agi:
+        b: 21
+        g: '2.50'
+      ms: 290
+      dmg:
+        min: 15
+        max: 21
+      armor: 1.94
+    dac: 远程
+    droles: 核心 - 爆发
+  necrolyte:
+    dname: 瘟疫法师
+    u: Necrophos
+    pa: int
+    attribs:
+      str:
+        b: 16
+        g: '2.00'
+      int:
+        b: 22
+        g: '2.50'
+      agi:
+        b: 15
+        g: '1.70'
+      ms: 290
+      dmg:
+        min: 22
+        max: 26
+      armor: 3.1
+    dac: 远程
+    droles: 核心 - 爆发 - 耐久 - 控制
+  warlock:
+    dname: 术士
+    u: Warlock
+    pa: int
+    attribs:
+      str:
+        b: 22
+        g: '2.50'
+      int:
+        b: 24
+        g: '2.70'
+      agi:
+        b: 10
+        g: '1.00'
+      ms: 295
+      dmg:
+        min: 22
+        max: 32
+      armor: 2.4
+    dac: 远程
+    droles: 辅助 - 先手 - 控制
+  beastmaster:
+    dname: 兽王
+    u: Beastmaster
+    pa: str
+    attribs:
+      str:
+        b: 23
+        g: '2.20'
+      int:
+        b: 16
+        g: '1.90'
+      agi:
+        b: 18
+        g: '1.60'
+      ms: 310
+      dmg:
+        min: 41
+        max: 45
+      armor: 4.52
+    dac: 近战
+    droles: 先手 - 控制 - 耐久 - 爆发
+  queenofpain:
+    dname: 痛苦女王
+    u: Queen_of_Pain
+    pa: int
+    attribs:
+      str:
+        b: 16
+        g: '1.70'
+      int:
+        b: 24
+        g: '2.50'
+      agi:
+        b: 18
+        g: '2.00'
+      ms: 295
+      dmg:
+        min: 25
+        max: 33
+      armor: 1.52
+    dac: 远程
+    droles: 核心 - 爆发 - 逃生
+  venomancer:
+    dname: 剧毒术士
+    u: Venomancer
+    pa: agi
+    attribs:
+      str:
+        b: 18
+        g: '1.85'
+      int:
+        b: 17
+        g: '1.80'
+      agi:
+        b: 22
+        g: '2.60'
+      ms: 285
+      dmg:
+        min: 19
+        max: 21
+      armor: 3.08
+    dac: 远程
+    droles: 辅助 - 爆发 - 先手 - 推进 - 控制
+  faceless_void:
+    dname: 虚空假面
+    u: Faceless_Void
+    pa: agi
+    attribs:
+      str:
+        b: 23
+        g: '1.80'
+      int:
+        b: 15
+        g: '1.50'
+      agi:
+        b: 23
+        g: '2.65'
+      ms: 300
+      dmg:
+        min: 37
+        max: 43
+      armor: 4.22
+    dac: 近战
+    droles: 核心 - 先手 - 控制 - 逃生 - 耐久
+  skeleton_king:
+    dname: 冥魂大帝
+    u: Wraith_King
+    pa: str
+    attribs:
+      str:
+        b: 22
+        g: '2.90'
+      int:
+        b: 18
+        g: '1.60'
+      agi:
+        b: 18
+        g: '1.70'
+      ms: 300
+      dmg:
+        min: 39
+        max: 41
+      armor: 2.52
+    dac: 近战
+    droles: 核心 - 辅助 - 耐久 - 控制 - 先手
+  death_prophet:
+    dname: 死亡先知
+    u: Death_Prophet
+    pa: int
+    attribs:
+      str:
+        b: 17
+        g: '1.90'
+      int:
+        b: 23
+        g: '3.00'
+      agi:
+        b: 14
+        g: '1.40'
+      ms: 310
+      dmg:
+        min: 24
+        max: 36
+      armor: 2.96
+    dac: 远程
+    droles: 核心 - 推进 - 爆发 - 控制
+  phantom_assassin:
+    dname: 幻影刺客
+    u: Phantom_Assassin
+    pa: agi
+    attribs:
+      str:
+        b: 20
+        g: '1.85'
+      int:
+        b: 15
+        g: '1.40'
+      agi:
+        b: 23
+        g: '3.15'
+      ms: 310
+      dmg:
+        min: 23
+        max: 25
+      armor: 4.22
+    dac: 近战
+    droles: 核心 - 逃生
+  pugna:
+    dname: 帕格纳
+    u: Pugna
+    pa: int
+    attribs:
+      str:
+        b: 17
+        g: '1.20'
+      int:
+        b: 26
+        g: '4.50'
+      agi:
+        b: 16
+        g: '1.00'
+      ms: 330
+      dmg:
+        min: 19
+        max: 27
+      armor: 1.24
+    dac: 远程
+    droles: 爆发 - 推进
+  templar_assassin:
+    dname: 圣堂刺客
+    u: Templar_Assassin
+    pa: agi
+    attribs:
+      str:
+        b: 18
+        g: '2.10'
+      int:
+        b: 20
+        g: '2.00'
+      agi:
+        b: 23
+        g: '2.70'
+      ms: 305
+      dmg:
+        min: 30
+        max: 36
+      armor: 4.22
+    dac: 远程
+    droles: 核心 - 逃生
+  viper:
+    dname: 冥界亚龙
+    u: Viper
+    pa: agi
+    attribs:
+      str:
+        b: 20
+        g: '2.10'
+      int:
+        b: 15
+        g: '1.80'
+      agi:
+        b: 21
+        g: '2.90'
+      ms: 285
+      dmg:
+        min: 23
+        max: 25
+      armor: 1.94
+    dac: 远程
+    droles: 核心 - 耐久 - 先手 - 控制
+  luna:
+    dname: 露娜
+    u: Luna
+    pa: agi
+    attribs:
+      str:
+        b: 15
+        g: '2.20'
+      int:
+        b: 16
+        g: '1.85'
+      agi:
+        b: 18
+        g: '3.30'
+      ms: 335
+      dmg:
+        min: 26
+        max: 32
+      armor: 3.52
+    dac: 远程
+    droles: 核心 - 爆发 - 推进
+  dragon_knight:
+    dname: 龙骑士
+    u: Dragon_Knight
+    pa: str
+    attribs:
+      str:
+        b: 19
+        g: '2.80'
+      int:
+        b: 15
+        g: '1.70'
+      agi:
+        b: 19
+        g: '2.20'
+      ms: 290
+      dmg:
+        min: 31
+        max: 37
+      armor: 3.66
+    dac: 近战
+    droles: 核心 - 推进 - 耐久 - 控制 - 先手 - 爆发
+  dazzle:
+    dname: 戴泽
+    u: Dazzle
+    pa: int
+    attribs:
+      str:
+        b: 16
+        g: '1.85'
+      int:
+        b: 27
+        g: '3.40'
+      agi:
+        b: 21
+        g: '1.70'
+      ms: 305
+      dmg:
+        min: 14
+        max: 32
+      armor: 1.94
+    dac: 远程
+    droles: 辅助 - 爆发 - 控制
+  rattletrap:
+    dname: 发条技师
+    u: Clockwerk
+    pa: str
+    attribs:
+      str:
+        b: 24
+        g: '2.90'
+      int:
+        b: 17
+        g: '1.30'
+      agi:
+        b: 13
+        g: '2.30'
+      ms: 315
+      dmg:
+        min: 31
+        max: 33
+      armor: 1.82
+    dac: 近战
+    droles: 先手 - 控制 - 耐久 - 爆发
+  leshrac:
+    dname: 拉席克
+    u: Leshrac
+    pa: int
+    attribs:
+      str:
+        b: 16
+        g: '1.50'
+      int:
+        b: 26
+        g: '3.00'
+      agi:
+        b: 23
+        g: '1.70'
+      ms: 320
+      dmg:
+        min: 15
+        max: 19
+      armor: 3.22
+    dac: 远程
+    droles: 核心 - 辅助 - 爆发 - 推进 - 控制
+  furion:
+    dname: 先知
+    u: Natures_Prophet
+    pa: int
+    attribs:
+      str:
+        b: 19
+        g: '1.80'
+      int:
+        b: 25
+        g: '2.90'
+      agi:
+        b: 18
+        g: '1.90'
+      ms: 295
+      dmg:
+        min: 24
+        max: 38
+      armor: 3.52
+    dac: 远程
+    droles: 核心 - 打野 - 推进 - 逃生 - 爆发
+  life_stealer:
+    dname: 噬魂鬼
+    u: Lifestealer
+    pa: str
+    attribs:
+      str:
+        b: 25
+        g: '3.00'
+      int:
+        b: 15
+        g: '1.75'
+      agi:
+        b: 18
+        g: '1.90'
+      ms: 315
+      dmg:
+        min: 32
+        max: 42
+      armor: 1.52
+    dac: 近战
+    droles: 核心 - 耐久 - 打野 - 逃生 - 控制
+  dark_seer:
+    dname: 黑暗贤者
+    u: Dark_Seer
+    pa: int
+    attribs:
+      str:
+        b: 22
+        g: '2.30'
+      int:
+        b: 25
+        g: '2.70'
+      agi:
+        b: 12
+        g: '1.20'
+      ms: 300
+      dmg:
+        min: 31
+        max: 37
+      armor: 6.68
+    dac: 近战
+    droles: 先手 - 打野 - 逃生 - 控制
+  clinkz:
+    dname: 克林克兹
+    u: Clinkz
+    pa: agi
+    attribs:
+      str:
+        b: 15
+        g: '1.60'
+      int:
+        b: 16
+        g: '1.55'
+      agi:
+        b: 22
+        g: '3.30'
+      ms: 300
+      dmg:
+        min: 15
+        max: 21
+      armor: 2.08
+    dac: 远程
+    droles: 核心 - 逃生 - 推进
+  omniknight:
+    dname: 全能骑士
+    u: Omniknight
+    pa: str
+    attribs:
+      str:
+        b: 22
+        g: '2.80'
+      int:
+        b: 17
+        g: '1.80'
+      agi:
+        b: 15
+        g: '1.75'
+      ms: 305
+      dmg:
+        min: 31
+        max: 41
+      armor: 5.1
+    dac: 近战
+    droles: 辅助 - 耐久 - 爆发
+  enchantress:
+    dname: 魅惑魔女
+    u: Enchantress
+    pa: int
+    attribs:
+      str:
+        b: 16
+        g: '1.00'
+      int:
+        b: 16
+        g: '2.80'
+      agi:
+        b: 19
+        g: '1.80'
+      ms: 335
+      dmg:
+        min: 31
+        max: 41
+      armor: 0.66
+    dac: 远程
+    droles: 辅助 - 打野 - 推进 - 耐久 - 控制
+  huskar:
+    dname: 哈斯卡
+    u: Huskar
+    pa: str
+    attribs:
+      str:
+        b: 21
+        g: '2.40'
+      int:
+        b: 18
+        g: '1.50'
+      agi:
+        b: 15
+        g: '1.40'
+      ms: 300
+      dmg:
+        min: 21
+        max: 30
+      armor: 1.1
+    dac: 远程
+    droles: 核心 - 耐久 - 先手
+  night_stalker:
+    dname: 暗夜魔王
+    u: Night_Stalker
+    pa: str
+    attribs:
+      str:
+        b: 23
+        g: '2.80'
+      int:
+        b: 16
+        g: '1.60'
+      agi:
+        b: 18
+        g: '2.25'
+      ms: 295
+      dmg:
+        min: 38
+        max: 42
+      armor: 5.52
+    dac: 近战
+    droles: 核心 - 先手 - 耐久 - 控制 - 爆发
+  broodmother:
+    dname: 育母蜘蛛
+    u: Broodmother
+    pa: agi
+    attribs:
+      str:
+        b: 17
+        g: '2.50'
+      int:
+        b: 18
+        g: '2.00'
+      agi:
+        b: 18
+        g: '2.20'
+      ms: 295
+      dmg:
+        min: 26
+        max: 32
+      armor: 2.52
+    dac: 近战
+    droles: 核心 - 推进 - 逃生 - 爆发
+  bounty_hunter:
+    dname: 赏金猎人
+    u: Bounty_Hunter
+    pa: agi
+    attribs:
+      str:
+        b: 17
+        g: '1.80'
+      int:
+        b: 19
+        g: '2.00'
+      agi:
+        b: 21
+        g: '3.00'
+      ms: 315
+      dmg:
+        min: 24
+        max: 38
+      armor: 5.94
+    dac: 近战
+    droles: 逃生 - 爆发
+  weaver:
+    dname: 编织者
+    u: Weaver
+    pa: agi
+    attribs:
+      str:
+        b: 15
+        g: '1.50'
+      int:
+        b: 15
+        g: '1.80'
+      agi:
+        b: 14
+        g: '2.50'
+      ms: 290
+      dmg:
+        min: 41
+        max: 51
+      armor: 0.96
+    dac: 远程
+    droles: 核心 - 逃生
+  jakiro:
+    dname: 杰奇洛
+    u: Jakiro
+    pa: int
+    attribs:
+      str:
+        b: 25
+        g: '2.30'
+      int:
+        b: 28
+        g: '2.80'
+      agi:
+        b: 10
+        g: '1.20'
+      ms: 290
+      dmg:
+        min: 25
+        max: 33
+      armor: 2.4
+    dac: 远程
+    droles: 辅助 - 爆发 - 推进 - 控制
+  batrider:
+    dname: 蝙蝠骑士
+    u: Batrider
+    pa: int
+    attribs:
+      str:
+        b: 23
+        g: '2.40'
+      int:
+        b: 24
+        g: '2.50'
+      agi:
+        b: 15
+        g: '1.50'
+      ms: 290
+      dmg:
+        min: 14
+        max: 18
+      armor: 2.1
+    dac: 远程
+    droles: 先手 - 打野 - 控制 - 逃生
+  chen:
+    dname: 陈
+    u: Chen
+    pa: int
+    attribs:
+      str:
+        b: 23
+        g: '1.50'
+      int:
+        b: 21
+        g: '2.80'
+      agi:
+        b: 15
+        g: '2.10'
+      ms: 300
+      dmg:
+        min: 22
+        max: 32
+      armor: 1.1
+    dac: 远程
+    droles: 辅助 - 打野 - 推进
+  spectre:
+    dname: 幽鬼
+    u: Spectre
+    pa: agi
+    attribs:
+      str:
+        b: 19
+        g: '2.00'
+      int:
+        b: 16
+        g: '1.90'
+      agi:
+        b: 23
+        g: '1.80'
+      ms: 290
+      dmg:
+        min: 23
+        max: 27
+      armor: 3.22
+    dac: 近战
+    droles: 核心 - 耐久 - 逃生
+  doom_bringer:
+    dname: 末日使者
+    u: Doom
+    pa: str
+    attribs:
+      str:
+        b: 26
+        g: '3.20'
+      int:
+        b: 13
+        g: '2.10'
+      agi:
+        b: 11
+        g: '0.90'
+      ms: 290
+      dmg:
+        min: 27
+        max: 43
+      armor: 0.54
+    dac: 近战
+    droles: 核心 - 控制 - 先手 - 耐久 - 爆发
+  ancient_apparition:
+    dname: 远古冰魄
+    u: Ancient_Apparition
+    pa: int
+    attribs:
+      str:
+        b: 18
+        g: '1.40'
+      int:
+        b: 25
+        g: '2.60'
+      agi:
+        b: 20
+        g: '2.20'
+      ms: 295
+      dmg:
+        min: 19
+        max: 29
+      armor: 1.8
+    dac: 远程
+    droles: 辅助 - 控制 - 爆发
+  ursa:
+    dname: 熊战士
+    u: Ursa
+    pa: agi
+    attribs:
+      str:
+        b: 23
+        g: '2.70'
+      int:
+        b: 16
+        g: '1.50'
+      agi:
+        b: 18
+        g: '2.10'
+      ms: 310
+      dmg:
+        min: 27
+        max: 31
+      armor: 5.52
+    dac: 近战
+    droles: 核心 - 打野 - 耐久 - 控制
+  spirit_breaker:
+    dname: 裂魂人
+    u: Spirit_Breaker
+    pa: str
+    attribs:
+      str:
+        b: 29
+        g: '2.40'
+      int:
+        b: 14
+        g: '1.80'
+      agi:
+        b: 17
+        g: '1.70'
+      ms: 290
+      dmg:
+        min: 31
+        max: 41
+      armor: 5.38
+    dac: 近战
+    droles: 核心 - 先手 - 控制 - 耐久 - 逃生
+  gyrocopter:
+    dname: 矮人直升机
+    u: Gyrocopter
+    pa: agi
+    attribs:
+      str:
+        b: 18
+        g: '1.80'
+      int:
+        b: 19
+        g: '2.10'
+      agi:
+        b: 24
+        g: '2.80'
+      ms: 315
+      dmg:
+        min: 13
+        max: 23
+      armor: 4.36
+    dac: 远程
+    droles: 核心 - 爆发 - 控制
+  alchemist:
+    dname: 炼金术士
+    u: Alchemist
+    pa: str
+    attribs:
+      str:
+        b: 25
+        g: '1.80'
+      int:
+        b: 25
+        g: '1.80'
+      agi:
+        b: 11
+        g: '1.20'
+      ms: 295
+      dmg:
+        min: 24
+        max: 33
+      armor: 1.54
+    dac: 近战
+    droles: 核心 - 辅助 - 耐久 - 控制 - 先手 - 爆发
+  invoker:
+    dname: 祈求者
+    u: Invoker
+    pa: int
+    attribs:
+      str:
+        b: 17
+        g: '1.70'
+      int:
+        b: 16
+        g: '4.00'
+      agi:
+        b: 14
+        g: '1.90'
+      ms: 280
+      dmg:
+        min: 19
+        max: 25
+      armor: 0.96
+    dac: 远程
+    droles: 核心 - 爆发 - 控制 - 逃生 - 推进
+  silencer:
+    dname: 沉默术士
+    u: Silencer
+    pa: int
+    attribs:
+      str:
+        b: 17
+        g: '2.20'
+      int:
+        b: 27
+        g: '2.50'
+      agi:
+        b: 22
+        g: '3.00'
+      ms: 295
+      dmg:
+        min: 16
+        max: 30
+      armor: 2.08
+    dac: 远程
+    droles: 核心 - 辅助 - 控制 - 先手 - 爆发
+  obsidian_destroyer:
+    dname: 殁境神蚀者
+    u: Outworld_Devourer
+    pa: int
+    attribs:
+      str:
+        b: 19
+        g: '2.30'
+      int:
+        b: 26
+        g: '2.70'
+      agi:
+        b: 24
+        g: '2.00'
+      ms: 315
+      dmg:
+        min: 20
+        max: 35
+      armor: 5.36
+    dac: 远程
+    droles: 核心 - 爆发 - 控制
+  lycan:
+    dname: 狼人
+    u: Lycan
+    pa: str
+    attribs:
+      str:
+        b: 22
+        g: '3.00'
+      int:
+        b: 17
+        g: '1.55'
+      agi:
+        b: 16
+        g: '1.90'
+      ms: 305
+      dmg:
+        min: 36
+        max: 41
+      armor: 3.24
+    dac: 近战
+    droles: 核心 - 推进 - 打野 - 耐久 - 逃生
+  brewmaster:
+    dname: 酒仙
+    u: Brewmaster
+    pa: str
+    attribs:
+      str:
+        b: 23
+        g: '2.90'
+      int:
+        b: 14
+        g: '1.25'
+      agi:
+        b: 22
+        g: '1.95'
+      ms: 300
+      dmg:
+        min: 29
+        max: 36
+      armor: 2.08
+    dac: 近战
+    droles: 核心 - 先手 - 耐久 - 控制 - 爆发
+  shadow_demon:
+    dname: 暗影恶魔
+    u: Shadow_Demon
+    pa: int
+    attribs:
+      str:
+        b: 17
+        g: '1.90'
+      int:
+        b: 23
+        g: '2.70'
+      agi:
+        b: 18
+        g: '2.20'
+      ms: 295
+      dmg:
+        min: 27
+        max: 31
+      armor: 2.52
+    dac: 远程
+    droles: 辅助 - 控制 - 先手 - 爆发
+  lone_druid:
+    dname: 德鲁伊
+    u: Lone_Druid
+    pa: agi
+    attribs:
+      str:
+        b: 17
+        g: '2.10'
+      int:
+        b: 13
+        g: '1.40'
+      agi:
+        b: 24
+        g: '2.70'
+      ms: 325
+      dmg:
+        min: 22
+        max: 26
+      armor: 3.36
+    dac: 远程
+    droles: 核心 - 推进 - 打野 - 耐久
+  chaos_knight:
+    dname: 混沌骑士
+    u: Chaos_Knight
+    pa: str
+    attribs:
+      str:
+        b: 20
+        g: '2.90'
+      int:
+        b: 16
+        g: '1.20'
+      agi:
+        b: 14
+        g: '2.10'
+      ms: 325
+      dmg:
+        min: 29
+        max: 59
+      armor: 3.96
+    dac: 近战
+    droles: 核心 - 控制 - 耐久 - 推进 - 先手
+  meepo:
+    dname: 米波
+    u: Meepo
+    pa: agi
+    attribs:
+      str:
+        b: 23
+        g: '1.60'
+      int:
+        b: 20
+        g: '1.60'
+      agi:
+        b: 23
+        g: '2.20'
+      ms: 315
+      dmg:
+        min: 20
+        max: 26
+      armor: 4.22
+    dac: 近战
+    droles: 核心 - 逃生 - 爆发 - 控制 - 先手 - 推进
+  treant:
+    dname: 树精卫士
+    u: Treant_Protector
+    pa: str
+    attribs:
+      str:
+        b: 25
+        g: '3.30'
+      int:
+        b: 17
+        g: '1.80'
+      agi:
+        b: 15
+        g: '2.00'
+      ms: 300
+      dmg:
+        min: 62
+        max: 70
+      armor: 1.1
+    dac: 近战
+    droles: 辅助 - 先手 - 耐久 - 控制 - 逃生
+  ogre_magi:
+    dname: 食人魔魔法师
+    u: Ogre_Magi
+    pa: int
+    attribs:
+      str:
+        b: 23
+        g: '3.20'
+      int:
+        b: 17
+        g: '2.40'
+      agi:
+        b: 14
+        g: '1.55'
+      ms: 295
+      dmg:
+        min: 41
+        max: 47
+      armor: 7.96
+    dac: 近战
+    droles: 辅助 - 爆发 - 控制 - 耐久 - 先手
+  undying:
+    dname: 不朽尸王
+    u: Undying
+    pa: str
+    attribs:
+      str:
+        b: 22
+        g: '2.10'
+      int:
+        b: 27
+        g: '2.80'
+      agi:
+        b: 10
+        g: '0.80'
+      ms: 310
+      dmg:
+        min: 35
+        max: 43
+      armor: 3.4
+    dac: 近战
+    droles: 辅助 - 耐久 - 控制 - 爆发
+  rubick:
+    dname: 拉比克
+    u: Rubick
+    pa: int
+    attribs:
+      str:
+        b: 19
+        g: '1.50'
+      int:
+        b: 27
+        g: '2.40'
+      agi:
+        b: 14
+        g: '1.60'
+      ms: 290
+      dmg:
+        min: 17
+        max: 27
+      armor: 0.96
+    dac: 远程
+    droles: 辅助 - 控制 - 爆发
+  disruptor:
+    dname: 干扰者
+    u: Disruptor
+    pa: int
+    attribs:
+      str:
+        b: 19
+        g: '1.90'
+      int:
+        b: 22
+        g: '2.50'
+      agi:
+        b: 15
+        g: '1.40'
+      ms: 300
+      dmg:
+        min: 27
+        max: 31
+      armor: 1.1
+    dac: 远程
+    droles: 辅助 - 控制 - 爆发 - 先手
+  nyx_assassin:
+    dname: 司夜刺客
+    u: Nyx_Assassin
+    pa: agi
+    attribs:
+      str:
+        b: 18
+        g: '2.00'
+      int:
+        b: 18
+        g: '2.10'
+      agi:
+        b: 19
+        g: '2.20'
+      ms: 305
+      dmg:
+        min: 30
+        max: 34
+      armor: 3.66
+    dac: 近战
+    droles: 控制 - 爆发 - 先手 - 逃生
+  naga_siren:
+    dname: 娜迦海妖
+    u: Naga_Siren
+    pa: agi
+    attribs:
+      str:
+        b: 21
+        g: '2.50'
+      int:
+        b: 21
+        g: '2.00'
+      agi:
+        b: 21
+        g: '2.75'
+      ms: 320
+      dmg:
+        min: 23
+        max: 25
+      armor: 5.94
+    dac: 近战
+    droles: 核心 - 辅助 - 推进 - 控制 - 先手 - 逃生
+  keeper_of_the_light:
+    dname: 光之守卫
+    u: Keeper_of_the_Light
+    pa: int
+    attribs:
+      str:
+        b: 14
+        g: '1.80'
+      int:
+        b: 25
+        g: '2.80'
+      agi:
+        b: 15
+        g: '1.60'
+      ms: 335
+      dmg:
+        min: 18
+        max: 32
+      armor: 1.1
+    dac: 远程
+    droles: 辅助 - 爆发 - 控制 - 打野
+  wisp:
+    dname: 艾欧
+    u: Io
+    pa: str
+    attribs:
+      str:
+        b: 17
+        g: '1.90'
+      int:
+        b: 23
+        g: '1.70'
+      agi:
+        b: 14
+        g: '1.60'
+      ms: 295
+      dmg:
+        min: 26
+        max: 35
+      armor: -0.04
+    dac: 远程
+    droles: 辅助 - 逃生 - 爆发
+  visage:
+    dname: 维萨吉
+    u: Visage
+    pa: int
+    attribs:
+      str:
+        b: 22
+        g: '2.40'
+      int:
+        b: 24
+        g: '2.50'
+      agi:
+        b: 11
+        g: '1.30'
+      ms: 285
+      dmg:
+        min: 24
+        max: 34
+      armor: -0.46
+    dac: 远程
+    droles: 辅助 - 爆发 - 耐久 - 控制 - 推进
+  slark:
+    dname: 斯拉克
+    u: Slark
+    pa: agi
+    attribs:
+      str:
+        b: 21
+        g: '1.80'
+      int:
+        b: 16
+        g: '1.90'
+      agi:
+        b: 21
+        g: '1.50'
+      ms: 305
+      dmg:
+        min: 33
+        max: 41
+      armor: 1.94
+    dac: 近战
+    droles: 核心 - 逃生 - 控制 - 爆发
+  medusa:
+    dname: 美杜莎
+    u: Medusa
+    pa: agi
+    attribs:
+      str:
+        b: 14
+        g: '1.65'
+      int:
+        b: 19
+        g: '2.10'
+      agi:
+        b: 20
+        g: '2.50'
+      ms: 290
+      dmg:
+        min: 24
+        max: 30
+      armor: 1.8
+    dac: 远程
+    droles: 核心 - 控制 - 耐久
+  troll_warlord:
+    dname: 巨魔战将
+    u: Troll_Warlord
+    pa: agi
+    attribs:
+      str:
+        b: 20
+        g: '2.20'
+      int:
+        b: 13
+        g: '1.00'
+      agi:
+        b: 21
+        g: '2.75'
+      ms: 300
+      dmg:
+        min: 17
+        max: 35
+      armor: 1.94
+    dac: 远程
+    droles: 核心 - 推进 - 控制 - 耐久
+  centaur:
+    dname: 半人马战行者
+    u: Centaur_Warrunner
+    pa: str
+    attribs:
+      str:
+        b: 23
+        g: '4.00'
+      int:
+        b: 15
+        g: '1.60'
+      agi:
+        b: 15
+        g: '2.00'
+      ms: 300
+      dmg:
+        min: 32
+        max: 34
+      armor: 3.1
+    dac: 近战
+    droles: 耐久 - 先手 - 控制 - 爆发 - 逃生
+  magnataur:
+    dname: 马格纳斯
+    u: Magnus
+    pa: str
+    attribs:
+      str:
+        b: 21
+        g: '2.90'
+      int:
+        b: 19
+        g: '1.65'
+      agi:
+        b: 15
+        g: '2.50'
+      ms: 315
+      dmg:
+        min: 32
+        max: 44
+      armor: 4.1
+    dac: 近战
+    droles: 先手 - 控制 - 爆发 - 逃生
+  shredder:
+    dname: 伐木机
+    u: Timbersaw
+    pa: str
+    attribs:
+      str:
+        b: 22
+        g: '1.80'
+      int:
+        b: 21
+        g: '2.40'
+      agi:
+        b: 16
+        g: '1.30'
+      ms: 290
+      dmg:
+        min: 26
+        max: 30
+      armor: 0.24
+    dac: 近战
+    droles: 爆发 - 耐久 - 逃生
+  bristleback:
+    dname: 钢背兽
+    u: Bristleback
+    pa: str
+    attribs:
+      str:
+        b: 22
+        g: '2.20'
+      int:
+        b: 14
+        g: '2.80'
+      agi:
+        b: 17
+        g: '1.80'
+      ms: 290
+      dmg:
+        min: 26
+        max: 36
+      armor: 3.38
+    dac: 近战
+    droles: 核心 - 耐久 - 先手 - 爆发
+  tusk:
+    dname: 巨牙海民
+    u: Tusk
+    pa: str
+    attribs:
+      str:
+        b: 23
+        g: '2.30'
+      int:
+        b: 18
+        g: '1.70'
+      agi:
+        b: 23
+        g: '2.10'
+      ms: 300
+      dmg:
+        min: 27
+        max: 31
+      armor: 3.22
+    dac: 近战
+    droles: 先手 - 控制 - 爆发
+  skywrath_mage:
+    dname: 天怒法师
+    u: Skywrath_Mage
+    pa: int
+    attribs:
+      str:
+        b: 19
+        g: '1.50'
+      int:
+        b: 27
+        g: '3.60'
+      agi:
+        b: 13
+        g: '0.80'
+      ms: 325
+      dmg:
+        min: 12
+        max: 22
+      armor: -0.18
+    dac: 远程
+    droles: 辅助 - 爆发 - 控制
+  abaddon:
+    dname: 亚巴顿
+    u: Abaddon
+    pa: str
+    attribs:
+      str:
+        b: 23
+        g: '2.70'
+      int:
+        b: 21
+        g: '2.00'
+      agi:
+        b: 17
+        g: '1.50'
+      ms: 310
+      dmg:
+        min: 32
+        max: 42
+      armor: 1.38
+    dac: 近战
+    droles: 辅助 - 核心 - 耐久
+  elder_titan:
+    dname: 上古巨神
+    u: Elder_Titan
+    pa: str
+    attribs:
+      str:
+        b: 24
+        g: '2.30'
+      int:
+        b: 23
+        g: '1.60'
+      agi:
+        b: 14
+        g: '1.50'
+      ms: 315
+      dmg:
+        min: 23
+        max: 33
+      armor: 2.96
+    dac: 近战
+    droles: 先手 - 控制 - 爆发 - 耐久
+  legion_commander:
+    dname: 军团指挥官
+    u: Legion_Commander
+    pa: str
+    attribs:
+      str:
+        b: 26
+        g: '2.60'
+      int:
+        b: 20
+        g: '2.20'
+      agi:
+        b: 18
+        g: '1.70'
+      ms: 320
+      dmg:
+        min: 35
+        max: 39
+      armor: 2.52
+    dac: 近战
+    droles: 核心 - 控制 - 先手 - 耐久 - 爆发
+  ember_spirit:
+    dname: 灰烬之灵
+    u: Ember_Spirit
+    pa: agi
+    attribs:
+      str:
+        b: 19
+        g: '2.00'
+      int:
+        b: 20
+        g: '1.80'
+      agi:
+        b: 22
+        g: '1.80'
+      ms: 310
+      dmg:
+        min: 30
+        max: 34
+      armor: 1.08
+    dac: 近战
+    droles: 核心 - 逃生 - 爆发 - 控制 - 先手
+  earth_spirit:
+    dname: 大地之灵
+    u: Earth_Spirit
+    pa: str
+    attribs:
+      str:
+        b: 21
+        g: '2.90'
+      int:
+        b: 18
+        g: '2.10'
+      agi:
+        b: 17
+        g: '1.50'
+      ms: 295
+      dmg:
+        min: 25
+        max: 35
+      armor: 3.38
+    dac: 近战
+    droles: 爆发 - 逃生 - 控制 - 先手 - 耐久
+  terrorblade:
+    dname: 恐怖利刃
+    u: Terrorblade
+    pa: agi
+    attribs:
+      str:
+        b: 15
+        g: '1.40'
+      int:
+        b: 19
+        g: '1.75'
+      agi:
+        b: 22
+        g: '3.20'
+      ms: 315
+      dmg:
+        min: 26
+        max: 32
+      armor: 10.08
+    dac: 近战
+    droles: 核心 - 推进 - 爆发
+  phoenix:
+    dname: 凤凰
+    u: Phoenix
+    pa: str
+    attribs:
+      str:
+        b: 17
+        g: '2.90'
+      int:
+        b: 18
+        g: '1.80'
+      agi:
+        b: 12
+        g: '1.30'
+      ms: 285
+      dmg:
+        min: 26
+        max: 36
+      armor: -0.32
+    dac: 远程
+    droles: 辅助 - 爆发 - 先手 - 逃生 - 控制
+  oracle:
+    dname: 神谕者
+    u: Oracle
+    pa: int
+    attribs:
+      str:
+        b: 18
+        g: '1.90'
+      int:
+        b: 23
+        g: '2.90'
+      agi:
+        b: 15
+        g: '1.70'
+      ms: 305
+      dmg:
+        min: 22
+        max: 28
+      armor: 2.1
+    dac: 远程
+    droles: 辅助 - 爆发 - 控制 - 逃生
+  techies:
+    dname: 工程师
+    u: Techies
+    pa: int
+    attribs:
+      str:
+        b: 17
+        g: '2.00'
+      int:
+        b: 22
+        g: '2.90'
+      agi:
+        b: 14
+        g: '1.30'
+      ms: 270
+      dmg:
+        min: 7
+        max: 9
+      armor: 6.96
+    dac: 远程
+    droles: 爆发 - 控制
+  winter_wyvern:
+    dname: 寒冬飞龙
+    u: Winter_Wyvern
+    pa: int
+    attribs:
+      str:
+        b: 24
+        g: '2.10'
+      int:
+        b: 25
+        g: '3.10'
+      agi:
+        b: 16
+        g: '1.90'
+      ms: 285
+      dmg:
+        min: 13
+        max: 20
+      armor: 1.24
+    dac: 远程
+    droles: 辅助 - 控制 - 爆发
+  arc_warden:
+    dname: 天穹守望者
+    u: Arc_Warden
+    pa: agi
+    attribs:
+      str:
+        b: 24
+        g: '2.30'
+      int:
+        b: 24
+        g: '2.60'
+      agi:
+        b: 15
+        g: '1.80'
+      ms: 295
+      dmg:
+        min: 29
+        max: 39
+      armor: 0.1
+    dac: 远程
+    droles: 核心 - 逃生 - 爆发

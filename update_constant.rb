@@ -2,6 +2,7 @@
 require 'net/http'
 require 'json'
 require 'fileutils'
+require 'yaml'
 
 LANGUAGES = { en: 'english',
               zh: 'schinese',
@@ -24,7 +25,7 @@ def get_pediadata(type, lang_code)
   uri = URI('http://www.dota2.com/jsfeed/heropediadata')
   params = {:l=>LANGUAGES[lang_code], :feeds=>PEDIA_TYPES[type]}
   uri.query = URI.encode_www_form(params)
-  filepath = "json/#{lang_code}/#{type}.json"
+  filepath = "locales/#{lang_code}/#{type}.yml"
   request_and_save(uri, filepath)
 end
 
@@ -32,19 +33,19 @@ def get_jsfeed(jsfeed,lang_code)
   uri = URI(JSFEEDS[jsfeed])
   params = {:l=>LANGUAGES[lang_code]}
   uri.query = URI.encode_www_form(params)
-  filepath = "json/#{lang_code}/#{jsfeed}.json"
+  filepath = "locales/#{lang_code}/#{jsfeed}.yml"
   request_and_save(uri, filepath)
 end
 
 def request_and_save(uri, filepath)
   response = Net::HTTP.get_response(uri)
   File.open(filepath,'wb') do |file|
-    file.puts JSON.parse(response.body.to_json)
+    file.write JSON.parse(response.body).to_yaml
   end if response.is_a?(Net::HTTPSuccess)
 end
 
 LANGUAGES.keys.each do |lang_code|
-  FileUtils.mkdir_p "json/#{lang_code}"
+  FileUtils.mkdir_p "locales/#{lang_code}"
 
   JSFEEDS.keys.each do |jsfeed|
     get_jsfeed(jsfeed, lang_code)
@@ -58,7 +59,7 @@ end
 
 urls.each do |key, url|
   uri = URI(url)
-  filepath = "json/#{key}.json"
+  filepath = "yml/#{key}.yml"
   request_and_save(uri, filepath)
 end
 

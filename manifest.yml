@@ -1,0 +1,51 @@
+---
+stats:
+  - patch
+  - barracks_value
+  - game_mode
+  - gold_reasons
+  - kill_streaks
+  - lane_ids
+  - lane_role
+  - leaver_status
+  - lobby_type
+  - multi_kills
+  - objectives
+  - order_types
+  - parse_status
+  - player_colors
+  - runes
+  - skill
+  - specific
+  - xp_level
+  - regions
+  - npc_abilities
+locales:
+  en:
+    - abilities
+    - abilitypedia
+    - heropedia
+    - heropickerdata
+    - itempedia
+    - items
+  zh:
+    - abilities
+    - abilitypedia
+    - heropedia
+    - heropickerdata
+    - itempedia
+    - items
+  ru:
+    - abilities
+    - abilitypedia
+    - heropedia
+    - heropickerdata
+    - itempedia
+    - items
+  kr:
+    - abilities
+    - abilitypedia
+    - heropedia
+    - heropickerdata
+    - itempedia
+    - items
