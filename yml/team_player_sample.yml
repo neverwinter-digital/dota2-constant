@@ -1,0 +1,21 @@
+---
+:economics_mean: 422.65411436541143
+:economics_standard_deviation: 162.38113065465842
+:attack_mean: 48.76590903669898
+:attack_standard_deviation: 38.87202188076647
+:lane_mean: 11.552531772020908
+:lane_standard_deviation: 10.446950008945944
+:jungle_mean: 1.3796994577506891
+:jungle_standard_deviation: 1.4351692456826612
+:anti_gank_mean: 0.6980277619545103
+:anti_gank_standard_deviation: 0.4946935144305281
+:kda_mean: 18.426299290272883
+:kda_standard_deviation: 19.080899863927044
+:survival_mean: 136.81671317578952
+:survival_standard_deviation: 52.73381314760073
+:push_mean: 40.18065908698157
+:push_standard_deviation: 65.4219806458206
+:damage_mean: 300.42948086111056
+:damage_standard_deviation: 227.31474336312567
+:action_mean: 13.2129804380363
+:action_standard_deviation: 10.761688144916556
