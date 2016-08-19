@@ -25,16 +25,20 @@ class Dota2::Constants
   end
 
   def locale_filepath(lang_code, filename)
-    File.join(Rails.root, '/lib/constants/dota2/locales',"#{lang_code}/#{filename}.yml")
+    File.join(Dota2::Constants.root ,'locales',"#{lang_code}/#{filename}.yml")
   end
 
   def stat_filepath(filename)
-    File.join(Rails.root, '/lib/constants/dota2/yml', "#{filename}.yml")
+    File.join(Dota2::Constants.root, 'yml', "#{filename}.yml")
   end
 
   def manifest
-    path = File.join(Rails.root, '/lib/constants/dota2', 'manifest.yml')
+    path = File.join(Dota2::Constants.root, 'manifest.yml')
     YAML.load_file(path).freeze
+  end
+
+  def self.root
+    File.join(Rails.root, '/lib/constants/dota2')
   end
 
 end

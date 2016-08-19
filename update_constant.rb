@@ -17,9 +17,12 @@ PEDIA_TYPES = { itempedia: 'itemdata',
                 heropedia: 'herodata',
                 abilitypedia: 'abilitydata'}
 
-urls = { uniqueusers: 'http://www.dota2.com/jsfeed/uniqueusers',
-         regions: 'https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/scripts/regions.json',
-         npc_abilities: 'https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/scripts/npc/npc_abilities.json'}
+urls = { regions: 'https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/scripts/regions.json',
+         npc_abilities: 'https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/scripts/npc/npc_abilities.json',
+         items_games: 'https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/scripts/items/items_game.json',
+         leagues: 'https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/scripts/items/leagues.json'}
+
+live_url = { uniqueusers: 'http://www.dota2.com/jsfeed/uniqueusers' }
 
 def get_pediadata(type, lang_code)
   uri = URI('http://www.dota2.com/jsfeed/heropediadata')
