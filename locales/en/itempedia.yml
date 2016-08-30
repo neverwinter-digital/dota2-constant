@@ -2587,7 +2587,7 @@ itemdata:
     desc: "Active: Unholy Rage - Increases Lifesteal percentage to 200% for 4.5 seconds.<br
       />\r\nPassive: Lifesteal - Heals the attacker for a percentage of attack damage
       dealt.<br />\r\n<br />\r\nSatanic is a Unique Attack Modifier, and does not
-      stack with other Unique Attack Modifier."
+      stack with other Unique Attack Modifiers."
     notes: ''
     attrib: |-
       + <span class="attribVal">20</span> <span class="attribValText">Damage</span><br />

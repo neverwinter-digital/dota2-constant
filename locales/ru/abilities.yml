@@ -335,7 +335,7 @@ abilitydata:
     dmg: ''
     attrib: |-
       ДЛИТЕЛЬНОСТЬ: <span class="attribVal">12</span><br />
-      УРОН ПРИ ПЕРЕДВИЖЕНИИ: <span class="attribVal">26% / 42% / 60%</span><br />
+      УРОН ПРИ ПЕРЕДВИЖЕНИИ: <span class="attribVal">30% / 45% / 60%</span><br />
       ДАЛЬНОСТЬ ПРИМЕНЕНИЯ: <span class="attribVal">1000</span><br />
       <span class="scepterVal">ЗАРЯДОВ СО СКИПЕТРОМ:</span> <span class="attribVal">2</span><br />
       <span class="scepterVal">ВРЕМЯ ВОССТАНОВЛЕНИЯ ЗАРЯДА:</span> <span class="attribVal">40</span>
@@ -476,7 +476,7 @@ abilitydata:
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 90</div><div class="cooldown"><img alt="Перезарядка"
       title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 13</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 16/15/14/13</div><br clear="left" /></div>
     lore: Траксес предпочитает физический бой магическому и взывает к корням своей
       расы, чтобы положить конец вражеской магии.
     hurl: Drow_Ranger
@@ -859,9 +859,9 @@ abilitydata:
       <span class="attribVal">магический</span><br />СКВОЗЬ НЕВОСПР. К МАГИИ: <span
       class="attribVal">Нет</span><br />'
     desc: Запускает во врага мощный поток воды, оглушая цель и нанося ей урон, который
-      частично зависит от ловкости Morphling. Если его ловкость выше силы на 50%,
+      частично зависит от ловкости Morphling. Если его ловкости больше силы на 50%,
       способность нанесет врагу максимальный урон, но при этом длительность оглушения
-      минимальна. Если же у Morphling на 50% больше силы, то урон будет минимальным,
+      будет минимальной. Если же у Morphling на 50% больше силы, то урон будет минимальным,
       а длительность оглушения — максимальной.
     notes: Отбрасывает цель на расстояние от 100 до 300 единиц.<br />Снаряд движется
       со скоростью в 1150.
@@ -3442,7 +3442,7 @@ abilitydata:
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 150/225/300</div><div class="cooldown"><img
       alt="Перезарядка" title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 130/115/100</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 140/125/110</div><br clear="left" /></div>
     lore: Когда открывается проход в Класзурем, все бедняги, оказавшиеся в проходе,
       вряд ли могут выбраться из него.
     hurl: Faceless_Void
@@ -6692,9 +6692,8 @@ abilitydata:
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 15/15/15/15</div><br clear="left" /></div>
-    lore: Селекция Нортрома орденом Эол Драяс придала ему недостижимую мудрость, которую
-      он применяет в бою — это с лихвой компенсирует отсутствие у него традиционных
-      заклинаний.
+    lore: Селекция придала Нортрому недостижимую мудрость, которую он и применяет
+      в бою — это с лихвой компенсирует отсутствие у него традиционных заклинаний.
     hurl: Silencer
   silencer_last_word:
     dname: Last Word
@@ -6736,7 +6735,7 @@ abilitydata:
       alt="Перезарядка" title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 130</div><br clear="left" /></div>
     lore: С громким треском вся магия и прочие звуки утихают — Нортром исполняет свое
-      пророчество.
+      предназначение.
     hurl: Silencer
   obsidian_destroyer_arcane_orb:
     dname: Arcane Orb
@@ -7007,7 +7006,7 @@ abilitydata:
       ДЛИТЕЛЬНОСТЬ ИЗГНАНИЯ: <span class="attribVal">2.5 / 2.5 / 2.5 / 2.5</span><br />
       ВРЕМЯ ЖИЗНИ ИЛЛЮЗИЙ: <span class="attribVal">8 / 10 / 12 / 14</span><br />
       УРОН ИЛЛЮЗИЙ: <span class="attribVal">30% / 45% / 60% / 75%</span><br />
-      УРОН ПО ИЛЛЮЗИЯМ: <span class="attribVal">150% / 150% / 150% / 150%</span>
+      УРОН ПО ИЛЛЮЗИЯМ: <span class="attribVal">200%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 120/120/120/120</div><div class="cooldown"><img
@@ -7440,7 +7439,7 @@ abilitydata:
     dmg: ''
     attrib: |-
       ВЫДЕРЖИВАЕТ АТАК: <span class="attribVal">4 / 5 / 6 / 7</span><br />
-      РЕГЕН: <span class="attribVal">4 / 7 / 10 / 13</span><br />
+      РЕГЕН: <span class="attribVal">4 / 8 / 12 / 16</span><br />
       БЛОКИРУЕТ: <span class="attribVal">20 / 40 / 60 / 80</span><br />
       ДЛИТЕЛЬНОСТЬ: <span class="attribVal">15</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
@@ -8978,7 +8977,7 @@ abilitydata:
       ДОПОЛНИТЕЛЬНАЯ БРОНЯ: <span class="attribVal">1 / 1.2 / 1.4 / 1.6</span><br />
       ДОП. РЕГЕН: <span class="attribVal">1 / 1.2 / 1.4 / 1.6</span><br />
       МАКСИМУМ ЭФФЕКТОВ: <span class="attribVal">5 / 10 / 15 / 20</span><br />
-      ДЛИТЕЛЬНОСТЬ ОДНОГО ЭФФЕКТА: <span class="attribVal">14 / 16 / 18 / 20</span>
+      ДЛИТЕЛЬНОСТЬ ОДНОГО ЭФФЕКТА: <span class="attribVal">10 / 13 / 16 / 19</span>
     cmb: ''
     lore: Пил-костюм был сконструирован так, что он моментально реагирует на малейшее
       прикосновение, укрепляя защиту.
@@ -9468,7 +9467,7 @@ abilitydata:
       ВРЕМЯ ПРИМЕНЕНИЯ: <span class="attribVal">1.6</span><br />
       РАДИУС: <span class="attribVal">500</span><br />
       ДЛИТЕЛЬНОСТЬ СНА: <span class="attribVal">2 / 3 / 4 / 5</span><br />
-      УРОН ОТ STOMP: <span class="attribVal">85 / 110 / 135 / 160</span>
+      УРОН ОТ STOMP: <span class="attribVal">70 / 100 / 130 / 160</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 100</div><div class="cooldown"><img alt="Перезарядка"
@@ -9515,7 +9514,7 @@ abilitydata:
     dmg: ''
     attrib: |-
       РАДИУС: <span class="attribVal">275 / 275 / 275 / 275</span><br />
-      СНИЖЕНИЕ ОСН. БРОНИ: <span class="attribVal">40% / 60% / 80% / 100%</span><br />
+      СНИЖЕНИЕ ОСНОВНОЙ БРОНИ: <span class="attribVal">40% / 60% / 80% / 100%</span><br />
       СНИЖЕНИЕ СОПРОТИВЛЕНИЯ: <span class="attribVal">12% / 19% / 26% / 33%</span>
     cmb: ''
     lore: Elder Titan приводит все к первоначальному состоянию.
@@ -10235,7 +10234,7 @@ abilitydata:
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 100</div><div class="cooldown"><img alt="Перезарядка"
       title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 90/60/30</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 100/65/30</div><br clear="left" /></div>
     lore: Лжепророки и неприятели часто ошибаются в своих предсказаниях.
     hurl: Oracle
   techies_land_mines:
@@ -10555,3 +10554,100 @@ abilitydata:
     lore: 'Искаженный мощью своих сверстников, Arc Warden принимает своего злейшего
       врага: внутренний хаос.'
     hurl: Arc_Warden
+  abyssal_underlord_firestorm:
+    dname: Firestorm
+    affects: 'СПОСОБНОСТЬ: <span class="attribVal">направленная на точку</span><br
+      />ТИП УРОНА: <span class="attribVal">магический</span><br />СКВОЗЬ НЕВОСПР.
+      К МАГИИ: <span class="attribVal">Нет</span><br />'
+    desc: Обрушивает на землю волны огня, наносящие урон противникам в области применения;
+      также горящие противники получают дополнительный периодический урон.
+    notes: ''
+    dmg: ''
+    attrib: |-
+      РАДИУС: <span class="attribVal">400</span><br />
+      КОЛИЧЕСТВО ВОЛН: <span class="attribVal">6</span><br />
+      УРОН ОТ ВОЛНЫ: <span class="attribVal">25 / 40 / 55 / 70</span><br />
+      ИНТЕРВАЛ ВОЛН: <span class="attribVal">1</span><br />
+      УРОН ОТ ГОРЕНИЯ: <span class="attribVal">0.75 / 1.5 / 2.25 / 3</span><br />
+      ДЛИТЕЛЬНОСТЬ ГОРЕНИЯ: <span class="attribVal">2</span>
+    cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
+      маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
+      width="16" height="16" border="0" /> 100/110/120/130</div><div class="cooldown"><img
+      alt="Перезарядка" title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
+      width="16" height="16" border="0" /> 12</div><br clear="left" /></div>
+    lore: The flames of conquest blaze forth from the darkest depths of the abyss.
+    hurl: Underlord
+  abyssal_underlord_pit_of_malice:
+    dname: Pit of Malice
+    affects: 'СПОСОБНОСТЬ: <span class="attribVal">направленная на точку</span><br
+      />ТИП УРОНА: <span class="attribVal">магический</span><br />СКВОЗЬ НЕВОСПР.
+      К МАГИИ: <span class="attribVal"><font color="#70EA72">Да</font></span><br />'
+    desc: В земле на месте применения появляется смертоносная дыра; каждый юнит, попавший
+      туда, не может двигаться и получает урон. Способность действует на одного врага
+      только один раз.
+    notes: ''
+    dmg: ''
+    attrib: |-
+      РАДИУС: <span class="attribVal">275</span><br />
+      ДЛИТЕЛЬНОСТЬ: <span class="attribVal">7</span><br />
+      УРОН: <span class="attribVal">100</span><br />
+      ВЫВОД ИЗ СТРОЯ НА: <span class="attribVal">1 / 1.5 / 2 / 2.5</span>
+    cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
+      маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
+      width="16" height="16" border="0" /> 100/115/130/145</div><div class="cooldown"><img
+      alt="Перезарядка" title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
+      width="16" height="16" border="0" /> 21/18/15/12</div><br clear="left" /></div>
+    lore: Twisting into the seams of reality itself, Vrogros' manifest hatred paralyzes
+      those who defy his will.
+    hurl: Underlord
+  abyssal_underlord_atrophy_aura:
+    dname: Atrophy Aura
+    affects: 'СПОСОБНОСТЬ: <span class="attribVal">пассивная, аура</span><br />ДЕЙСТВУЕТ:
+      <span class="attribVal">на врагов</span><br />'
+    desc: Ослабляет врагов рядом с собой, из-за чего те теряют часть базового урона.
+      Если цель способности погибнет под ее действием, Pit Lord получит дополнительный
+      урон.
+    notes: ''
+    dmg: ''
+    attrib: |-
+      РАДИУС: <span class="attribVal">900</span><br />
+      СНИЖЕНИЕ УРОНА: <span class="attribVal">18% / 26% / 34% / 42%</span><br />
+      ДОП. УРОН КРИПАМ: <span class="attribVal">5</span><br />
+      ДОП. УРОН ГЕРОЯМ: <span class="attribVal">30 / 35 / 40 / 45</span><br />
+      ДЛИТЕЛЬНОСТЬ: <span class="attribVal">30 / 40 / 50 / 60</span>
+    cmb: ''
+    lore: To merely stand in the presence of the Underlord is to feel the conviction
+      of battle sapped from one's soul.
+    hurl: Underlord
+  abyssal_underlord_dark_rift:
+    dname: Dark Rift
+    affects: 'СПОСОБНОСТЬ: <span class="attribVal">направленная на юнита, направленная
+      на точку</span><br />ДЕЙСТВУЕТ: <span class="attribVal">на союзных крипов</span><br
+      />'
+    desc: Открывает темный разлом на месте выбранного дружественного юнита. Вскоре
+      после этого Abyssal Underlord и все находящиеся неподалеку союзные герои перемещаются
+      к нему. Прочтение этой способности можно отменить в любой момент. Способность
+      начинает перезаряжаться при отмене либо при смерти цели, даже если она еще не
+      сработала.
+    notes: ''
+    dmg: ''
+    attrib: |-
+      РАДИУС ТЕЛЕПОРТА: <span class="attribVal">450</span><br />
+      ЗАДЕРЖКА ТЕЛЕПОРТА: <span class="attribVal">5 / 4 / 3</span>
+    cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
+      маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
+      width="16" height="16" border="0" /> 75/150/225</div><div class="cooldown"><img
+      alt="Перезарядка" title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
+      width="16" height="16" border="0" /> 130/120/110</div><br clear="left" /></div>
+    lore: They come without warning, leaving fire and blood where kingdoms once flourished.
+    hurl: Underlord
+  abyssal_underlord_cancel_dark_rift:
+    dname: Cancel Dark Rift
+    affects: 'СПОСОБНОСТЬ: <span class="attribVal">ненаправленная</span><br />'
+    desc: Останавливает телепорт.
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Underlord

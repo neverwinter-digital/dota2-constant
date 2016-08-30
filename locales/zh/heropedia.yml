@@ -1064,7 +1064,7 @@ herodata:
       agi:
         b: 23
         g: '1.70'
-      ms: 320
+      ms: 325
       dmg:
         min: 15
         max: 19
@@ -2331,3 +2331,24 @@ herodata:
       armor: 0.1
     dac: 远程
     droles: 核心 - 逃生 - 爆发
+  abyssal_underlord:
+    dname: 孽主
+    u: Underlord
+    pa: str
+    attribs:
+      str:
+        b: 25
+        g: '2.60'
+      int:
+        b: 17
+        g: '2.60'
+      agi:
+        b: 12
+        g: '1.30'
+      ms: 305
+      dmg:
+        min: 37
+        max: 43
+      armor: 3.68
+    dac: 近战
+    droles: 辅助 - 爆发 - 控制 - 耐久 - 逃生

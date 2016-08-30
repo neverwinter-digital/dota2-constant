@@ -1813,11 +1813,11 @@ itemdata:
       интеллекту</span><br />\n+ <span class=\"attribVal\">8</span>/12/16 <span class=\"attribValText\">к
       силе</span><br />\nПРИСПЕШНИК-ВОИН:\r\n• ЗДОРОВЬЕ: <span class=\"attribVal\">700</span>/800/900<br
       />\n• УРОН: <span class=\"attribVal\">45</span>/60/75<br />\n• СЖИГАНИЕ МАНЫ:
-      <span class=\"attribVal\">25</span>/50/75<br />\n• УРОН ПРИ УБИЙСТВЕ: <span
-      class=\"attribVal\">550</span>/675/800<br />\nПРИСПЕШНИК-ЛУЧНИК:\r\n• ЗДОРОВЬЕ:
-      <span class=\"attribVal\">700</span>/800/900<br />\n• УРОН: <span class=\"attribVal\">60</span>/90/120<br
-      />\n• СЖИГАНИЕ МАНЫ: <span class=\"attribVal\">125</span>/175/225<br />\n• АУРА
-      ДОП. СКОРОСТИ: <span class=\"attribVal\">5%</span>/7%/9%"
+      <span class=\"attribVal\">25</span>/50/75<br />\n• УРОН ПРИ СМЕРТИ: <span class=\"attribVal\">550</span>/675/800<br
+      />\nПРИСПЕШНИК-ЛУЧНИК:\r\n• ЗДОРОВЬЕ: <span class=\"attribVal\">700</span>/800/900<br
+      />\n• УРОН: <span class=\"attribVal\">60</span>/90/120<br />\n• СЖИГАНИЕ МАНЫ:
+      <span class=\"attribVal\">125</span>/175/225<br />\n• АУРА ДОП. СКОРОСТИ: <span
+      class=\"attribVal\">5%</span>/7%/9%"
     mc: 50
     cd: 95
     lore: Наиболее полный свод знаний о некромантии и демонологии, скрывающий на своих
@@ -1840,7 +1840,7 @@ itemdata:
       интеллекту</span><br />\n+ 8/<span class=\"attribVal\">12</span>/16 <span class=\"attribValText\">к
       силе</span><br />\nПРИСПЕШНИК-ВОИН:\r\n• ЗДОРОВЬЕ: 700/<span class=\"attribVal\">800</span>/900<br
       />\n• УРОН: 45/<span class=\"attribVal\">60</span>/75<br />\n• СЖИГАНИЕ МАНЫ:
-      25/<span class=\"attribVal\">50</span>/75<br />\n• УРОН ПРИ УБИЙСТВЕ: 550/<span
+      25/<span class=\"attribVal\">50</span>/75<br />\n• УРОН ПРИ СМЕРТИ: 550/<span
       class=\"attribVal\">675</span>/800<br />\nПРИСПЕШНИК-ЛУЧНИК:\r\n• ЗДОРОВЬЕ:
       700/<span class=\"attribVal\">800</span>/900<br />\n• УРОН: 60/<span class=\"attribVal\">90</span>/120<br
       />\n• СЖИГАНИЕ МАНЫ: 125/<span class=\"attribVal\">175</span>/225<br />\n• АУРА
@@ -1867,7 +1867,7 @@ itemdata:
       интеллекту</span><br />\n+ 8/12/<span class=\"attribVal\">16</span> <span class=\"attribValText\">к
       силе</span><br />\nПРИСПЕШНИК-ВОИН:\r\n• ЗДОРОВЬЕ: 700/800/<span class=\"attribVal\">900</span><br
       />\n• УРОН: 45/60/<span class=\"attribVal\">75</span><br />\n• СЖИГАНИЕ МАНЫ:
-      25/50/<span class=\"attribVal\">75</span><br />\n• УРОН ПРИ УБИЙСТВЕ: 550/675/<span
+      25/50/<span class=\"attribVal\">75</span><br />\n• УРОН ПРИ СМЕРТИ: 550/675/<span
       class=\"attribVal\">800</span><br />\nПРИСПЕШНИК-ЛУЧНИК:\r\n• ЗДОРОВЬЕ: 700/800/<span
       class=\"attribVal\">900</span><br />\n• УРОН: 60/90/<span class=\"attribVal\">120</span><br
       />\n• СЖИГАНИЕ МАНЫ: 125/175/<span class=\"attribVal\">225</span><br />\n• АУРА
@@ -2351,13 +2351,12 @@ itemdata:
     notes: Не сочетается с другими источниками оглушения, кроме мини-оглушения (например,
       от Monkey King Bar).<br />У Spirit Breaker, Faceless Void, Slardar и Troll Warlord
       не будет срабатывать Bash.
-    attrib: |-
-      + <span class="attribVal">10</span> <span class="attribValText">к урону</span><br />
-      + <span class="attribVal">10</span> <span class="attribValText">к силе</span><br />
-      ШАНС В БЛИЖНЕМ БОЮ: <span class="attribVal">25%</span><br />
-      ШАНС В ДАЛЬНЕМ БОЮ: <span class="attribVal">10%</span><br />
-      ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ: <span class="attribVal">1.4</span><br />
-      ДОП. УРОН ОТ BASH: <span class="attribVal">85</span>
+    attrib: "+ <span class=\"attribVal\">10</span> <span class=\"attribValText\">к
+      урону</span><br />\n+ <span class=\"attribVal\">10</span> <span class=\"attribValText\">к
+      силе</span><br />\nОГЛУШЕНИЕ ОТ BASH:\r\n• ШАНС В БЛИЖНЕМ БОЮ: <span class=\"attribVal\">25%</span><br
+      />\n• %ШАНС В ДАЛЬНЕМ БОЮ: <span class=\"attribVal\">10</span><br />\nДЛИТЕЛЬНОСТЬ
+      ОГЛУШЕНИЯ: <span class=\"attribVal\">1.4</span><br />\nДОП. УРОН ОТ BASH: <span
+      class=\"attribVal\">85</span>"
     mc: false
     cd: 2
     lore: Устрашающее оружие в умелых руках, этот молот способен уничтожить любую
@@ -2653,14 +2652,13 @@ itemdata:
       другими уникальными модификаторами атаки. Eye of Skadi сочетается с модификаторами
       атаки, дарующими вампиризм."
     notes: Для героев ближнего боя длится 5 секунд, для героев дальнего боя — 3 секунды.
-    attrib: |-
-      + <span class="attribVal">25</span> <span class="attribValText">ко всем атрибутам</span><br />
-      + <span class="attribVal">225</span> <span class="attribValText">к здоровью</span><br />
-      + <span class="attribVal">250</span> <span class="attribValText">к мане</span><br />
-      ЗАМЕДЛЕНИЕ ПЕРЕДВИЖЕНИЯ: <span class="attribVal">35%</span><br />
-      ЗАМЕДЛЕНИЕ АТАКИ: <span class="attribVal">45</span><br />
-      ЗАМЕДЛЕНИЕ В БЛИЖНЕМ БОЮ: <span class="attribVal">5</span><br />
-      ЗАМЕДЛЕНИЕ В ДАЛЬНЕМ БОЮ: <span class="attribVal">2.5</span>
+    attrib: "+ <span class=\"attribVal\">25</span> <span class=\"attribValText\">ко
+      всем атрибутам</span><br />\n+ <span class=\"attribVal\">225</span> <span class=\"attribValText\">к
+      здоровью</span><br />\n+ <span class=\"attribVal\">250</span> <span class=\"attribValText\">к
+      мане</span><br />\nЗАМЕДЛЕНИЕ ПЕРЕДВИЖЕНИЯ: <span class=\"attribVal\">35%</span><br
+      />\nЗАМЕДЛЕНИЕ АТАКИ: <span class=\"attribVal\">45</span><br />\nДЛИТЕЛЬНОСТЬ
+      ЗАМЕДЛЕНИЯ:\r\n• В БЛИЖНЕМ БОЮ: <span class=\"attribVal\">5</span><br />\n•
+      В ДАЛЬНЕМ БОЮ: <span class=\"attribVal\">2.5</span>"
     mc: false
     cd: false
     lore: Невероятно редкий артефакт, охраняемый лазурными драконами.
@@ -3242,7 +3240,7 @@ itemdata:
       <span class=\"attribVal\">40</span><br />\n• НА ГЕРОЯХ ДАЛЬНЕГО БОЯ: <span class=\"attribVal\">20</span><br
       />\n+ <span class=\"attribVal\">10</span> <span class=\"attribValText\">к урону</span><br
       />\n+ <span class=\"attribVal\">10</span> <span class=\"attribValText\">к силе</span><br
-      />\nОГЛУШЕНИЕ BASH:\r\n• ШАНС В БЛИЖНЕМ БОЮ: <span class=\"attribVal\">25%</span><br
+      />\nОГЛУШЕНИЕ ОТ BASH:\r\n• ШАНС В БЛИЖНЕМ БОЮ: <span class=\"attribVal\">25%</span><br
       />\n• ШАНС В ДАЛЬНЕМ БОЮ: <span class=\"attribVal\">10%</span><br />\n• ДЛИТЕЛЬНОСТЬ:
       <span class=\"attribVal\">1.4</span><br />\n• ДОПОЛНИТЕЛЬНЫЙ УРОН: <span class=\"attribVal\">85</span><br
       />\nДЛИТЕЛЬНОСТЬ OVERWHELM: <span class=\"attribVal\">2</span>"

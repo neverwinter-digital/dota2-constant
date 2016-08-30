@@ -276,7 +276,7 @@ abilitydata:
     dmg: ''
     attrib: |-
       持续时间： <span class="attribVal">12</span><br />
-      移动伤害： <span class="attribVal">26% / 42% / 60%</span><br />
+      移动伤害： <span class="attribVal">30% / 45% / 60%</span><br />
       施法距离： <span class="attribVal">1000</span><br />
       <span class="scepterVal">神杖升级能量点数：</span> <span class="attribVal">2</span><br />
       <span class="scepterVal">神杖升级充能时间：</span> <span class="attribVal">40</span>
@@ -397,7 +397,7 @@ abilitydata:
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 90</div><div class="cooldown"><img alt="冷却时间"
       title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 13</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 16/15/14/13</div><br clear="left" /></div>
     lore: 崔西丝特别中意肉搏中蕴含的平静，因此她将她卓尔人的天赋用于终结敌人的魔法咒语。
     hurl: Drow_Ranger
   drow_ranger_trueshot:
@@ -2827,7 +2827,7 @@ abilitydata:
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 150/225/300</div><div class="cooldown"><img
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 130/115/100</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 140/125/110</div><br clear="left" /></div>
     lore: 当超维视界的裂隙突现之时，所有不幸被其困住的可怜灵魂都将万劫不复。
     hurl: Faceless_Void
   skeleton_king_hellfire_blast:
@@ -5724,7 +5724,7 @@ abilitydata:
       禁锢持续时间： <span class="attribVal">2.5 / 2.5 / 2.5 / 2.5</span><br />
       幻象持续时间： <span class="attribVal">8 / 10 / 12 / 14</span><br />
       幻象伤害： <span class="attribVal">30% / 45% / 60% / 75%</span><br />
-      幻象承受伤害： <span class="attribVal">150% / 150% / 150% / 150%</span>
+      幻象承受伤害： <span class="attribVal">200%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 120/120/120/120</div><div class="cooldown"><img
@@ -6080,7 +6080,7 @@ abilitydata:
     dmg: ''
     attrib: |-
       抵挡伤害次数： <span class="attribVal">4 / 5 / 6 / 7</span><br />
-      生命回复速率： <span class="attribVal">4 / 7 / 10 / 13</span><br />
+      生命回复速率： <span class="attribVal">4 / 8 / 12 / 16</span><br />
       格挡伤害量： <span class="attribVal">20 / 40 / 60 / 80</span><br />
       持续时间： <span class="attribVal">15</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
@@ -7164,7 +7164,7 @@ abilitydata:
     dmg: ''
     attrib: |-
       范围： <span class="attribVal">315</span><br />
-      眩晕持续时间 <span class="attribVal">2 / 2.25 / 2.5 / 2.75</span><br />
+      眩晕持续时间： <span class="attribVal">2 / 2.25 / 2.5 / 2.75</span><br />
       践踏伤害： <span class="attribVal">100 / 150 / 200 / 250</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -7347,7 +7347,7 @@ abilitydata:
       额外护甲： <span class="attribVal">1 / 1.2 / 1.4 / 1.6</span><br />
       额外生命恢复速率： <span class="attribVal">1 / 1.2 / 1.4 / 1.6</span><br />
       最大叠加次数： <span class="attribVal">5 / 10 / 15 / 20</span><br />
-      单次效果持续时间： <span class="attribVal">14 / 16 / 18 / 20</span>
+      单次效果持续时间： <span class="attribVal">10 / 13 / 16 / 19</span>
     cmb: ''
     lore: 锯齿机器上的设备可以用强化防御应对轻微的触碰。
     hurl: Timbersaw
@@ -7756,7 +7756,7 @@ abilitydata:
       吟唱时间： <span class="attribVal">1.6</span><br />
       作用范围： <span class="attribVal">500</span><br />
       昏迷时间： <span class="attribVal">2 / 3 / 4 / 5</span><br />
-      践踏伤害： <span class="attribVal">85 / 110 / 135 / 160</span>
+      践踏伤害： <span class="attribVal">70 / 100 / 130 / 160</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 100</div><div class="cooldown"><img alt="冷却时间"
@@ -8395,7 +8395,7 @@ abilitydata:
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 100</div><div class="cooldown"><img alt="冷却时间"
       title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 90/60/30</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 100/65/30</div><br clear="left" /></div>
     lore: 敌人和虚妄的先知一样常常会编造他人的命运。
     hurl: Oracle
   techies_land_mines:
@@ -8660,3 +8660,86 @@ abilitydata:
       width="16" height="16" border="0" /> 40/35/30</div><br clear="left" /></div>
     lore: 被同类的力量扭曲后，天穹守望者变成了自己最为不齿的：大分裂。
     hurl: Arc_Warden
+  abyssal_underlord_firestorm:
+    dname: 火焰风暴
+    affects: 技能： <span class="attribVal">点目标</span><br />伤害类型： <span class="attribVal">魔法</span><br
+      />无视技能免疫： <span class="attribVal">否</span><br />
+    desc: 召唤数波火焰风暴攻击目标区域内的所有单位，风暴还有后续伤害。
+    notes: ''
+    dmg: ''
+    attrib: |-
+      作用范围： <span class="attribVal">400</span><br />
+      风暴波数： <span class="attribVal">6</span><br />
+      每波伤害： <span class="attribVal">25 / 40 / 55 / 70</span><br />
+      每波间隔 <span class="attribVal">1</span><br />
+      烧灼最大生命值百分比： <span class="attribVal">0.75% / 1.5% / 2.25% / 3%</span><br />
+      灼烧持续时间： <span class="attribVal">2</span>
+    cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
+      class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
+      width="16" height="16" border="0" /> 100/110/120/130</div><div class="cooldown"><img
+      alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
+      width="16" height="16" border="0" /> 12</div><br clear="left" /></div>
+    lore: " "
+    hurl: Underlord
+  abyssal_underlord_pit_of_malice:
+    dname: 怨念深渊
+    affects: 技能： <span class="attribVal">点目标</span><br />伤害类型： <span class="attribVal">魔法</span><br
+      />无视技能免疫： <span class="attribVal"><font color="#70EA72">是</font></span><br />
+    desc: 在目标区域制造致命的深渊；踏入深渊的敌方单位将无法移动，并受到伤害。每个敌方单位只能受到一次作用。
+    notes: ''
+    dmg: ''
+    attrib: |-
+      作用范围： <span class="attribVal">275</span><br />
+      深渊持续时间： <span class="attribVal">7</span><br />
+      深渊伤害： <span class="attribVal">100</span><br />
+      控制持续时间： <span class="attribVal">1 / 1.5 / 2 / 2.5</span>
+    cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
+      class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
+      width="16" height="16" border="0" /> 100/115/130/145</div><div class="cooldown"><img
+      alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
+      width="16" height="16" border="0" /> 21/18/15/12</div><br clear="left" /></div>
+    lore: " "
+    hurl: Underlord
+  abyssal_underlord_atrophy_aura:
+    dname: 衰退光环
+    affects: 技能： <span class="attribVal">被动, 光环</span><br />影响： <span class="attribVal">敌方</span><br
+      />
+    desc: 周围所有敌方单位遭到了削弱，损失部分基础攻击力。如果敌人在光环范围内死亡，孽主将获得额外攻击力加成。
+    notes: ''
+    dmg: ''
+    attrib: |-
+      作用范围： <span class="attribVal">900</span><br />
+      基础攻击力降低： <span class="attribVal">18% / 26% / 34% / 42%</span><br />
+      额外攻击力（小兵死亡）： <span class="attribVal">5</span><br />
+      额外攻击力（英雄死亡）： <span class="attribVal">30 / 35 / 40 / 45</span><br />
+      持续时间： <span class="attribVal">30 / 40 / 50 / 60</span>
+    cmb: ''
+    lore: " "
+    hurl: Underlord
+  abyssal_underlord_dark_rift:
+    dname: 黑暗之门
+    affects: 技能： <span class="attribVal">单位目标, 点目标</span><br />影响： <span class="attribVal">友方非英雄单位</span><br
+      />
+    desc: 以友方单位作为目标地点打开黑暗的大门。经过短暂的延迟，孽主和附近所有友方英雄都将传送至目标地点。黑暗之门在传送生效前可以取消。如果在技能生效前取消，或者目标单位死亡，黑暗之门都会进入冷却。
+    notes: ''
+    dmg: ''
+    attrib: |-
+      传送作用范围： <span class="attribVal">450</span><br />
+      传送延迟： <span class="attribVal">5 / 4 / 3</span>
+    cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
+      class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
+      width="16" height="16" border="0" /> 75/150/225</div><div class="cooldown"><img
+      alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
+      width="16" height="16" border="0" /> 130/120/110</div><br clear="left" /></div>
+    lore: " "
+    hurl: Underlord
+  abyssal_underlord_cancel_dark_rift:
+    dname: 取消黑暗之门
+    affects: 技能： <span class="attribVal">无目标</span><br />
+    desc: 取消传送。
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Underlord

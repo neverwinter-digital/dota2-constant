@@ -292,7 +292,7 @@ abilitydata:
     dmg: ''
     attrib: |-
       지속시간: <span class="attribVal">12</span><br />
-      이동 피해: <span class="attribVal">26% / 42% / 60%</span><br />
+      이동 피해: <span class="attribVal">30% / 45% / 60%</span><br />
       시전 범위: <span class="attribVal">1000</span><br />
       <span class="scepterVal">홀 충전 수:</span> <span class="attribVal">2</span><br />
       <span class="scepterVal">홀 충전 시간:</span> <span class="attribVal">40</span>
@@ -417,7 +417,7 @@ abilitydata:
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 90</div><div class="cooldown"><img alt="쿨다운"
       title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 13</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 16/15/14/13</div><br clear="left" /></div>
     lore: 트락젝스는 육탄전도 조용하게 치르기를 좋아하기에 드로우 종족에 전해져 내려오는 기술을 이용하여 상대 마법사가 주문을 외지 못하게
       입을 막습니다.
     hurl: Drow_Ranger
@@ -2975,7 +2975,7 @@ abilitydata:
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 150/225/300</div><div class="cooldown"><img
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 130/115/100</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 140/125/110</div><br clear="left" /></div>
     lore: 클라스주림으로 통하는 틈이 벌어지면 그 안에 갖힌 불행한 영혼들은 되돌아올 가능성이 희박합니다.
     hurl: Faceless_Void
   skeleton_king_hellfire_blast:
@@ -6049,7 +6049,7 @@ abilitydata:
       추방 지속시간: <span class="attribVal">2.5 / 2.5 / 2.5 / 2.5</span><br />
       환영 지속시간: <span class="attribVal">8 / 10 / 12 / 14</span><br />
       환영 피해: <span class="attribVal">30% / 45% / 60% / 75%</span><br />
-      환영이 받는 피해: <span class="attribVal">150% / 150% / 150% / 150%</span>
+      환영이 받는 피해: <span class="attribVal">200%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 120/120/120/120</div><div class="cooldown"><img
@@ -6431,7 +6431,7 @@ abilitydata:
     dmg: ''
     attrib: |-
       피격 횟수: <span class="attribVal">4 / 5 / 6 / 7</span><br />
-      재생: <span class="attribVal">4 / 7 / 10 / 13</span><br />
+      재생: <span class="attribVal">4 / 8 / 12 / 16</span><br />
       방어: <span class="attribVal">20 / 40 / 60 / 80</span><br />
       지속시간: <span class="attribVal">15</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
@@ -7775,7 +7775,7 @@ abilitydata:
       보너스 방어력: <span class="attribVal">1 / 1.2 / 1.4 / 1.6</span><br />
       보너스 체력 재생: <span class="attribVal">1 / 1.2 / 1.4 / 1.6</span><br />
       최대 중첩: <span class="attribVal">5 / 10 / 15 / 20</span><br />
-      중첩 지속시간: <span class="attribVal">14 / 16 / 18 / 20</span>
+      중첩 지속시간: <span class="attribVal">10 / 13 / 16 / 19</span>
     cmb: ''
     lore: 리즈랙의 갑옷은 건드리기만 해도 방어력이 강화됩니다.
     hurl: Timbersaw
@@ -8210,7 +8210,7 @@ abilitydata:
       시전 시간: <span class="attribVal">1.6</span><br />
       반경: <span class="attribVal">500</span><br />
       수면 지속시간: <span class="attribVal">2 / 3 / 4 / 5</span><br />
-      발구르기 피해: <span class="attribVal">85 / 110 / 135 / 160</span>
+      발구르기 피해: <span class="attribVal">70 / 100 / 130 / 160</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 100</div><div class="cooldown"><img alt="쿨다운"
@@ -8888,7 +8888,7 @@ abilitydata:
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 100</div><div class="cooldown"><img alt="쿨다운"
       title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 90/60/30</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 100/65/30</div><br clear="left" /></div>
     lore: 적과 거짓 예언자는 인간의 운명에 대해 거짓말을 합니다.
     hurl: Oracle
   techies_land_mines:
@@ -9174,3 +9174,92 @@ abilitydata:
       width="16" height="16" border="0" /> 40/35/30</div><br clear="left" /></div>
     lore: 동료들의 힘에 뒤틀린 번개 감시자는 자신이 가장 경멸하던 부조화 상태가 되었습니다.
     hurl: Arc_Warden
+  abyssal_underlord_firestorm:
+    dname: 화염폭풍
+    affects: '능력: <span class="attribVal">목표 지점 지정</span><br />피해 유형: <span class="attribVal">마법</span><br
+      />주문 면역 관통: <span class="attribVal">미관통</span><br />'
+    desc: 물결치는 화염을 불러내어 대상 지역에 있는 적들에게 피해를 주고 화상을 남겨 지속 피해를 줍니다.
+    notes: ''
+    dmg: ''
+    attrib: |-
+      반경: <span class="attribVal">400</span><br />
+      화염폭풍 수: <span class="attribVal">6</span><br />
+      화염폭풍 회당 피해: <span class="attribVal">25 / 40 / 55 / 70</span><br />
+      화염폭풍 간격 <span class="attribVal">1</span><br />
+      화상 피해: <span class="attribVal">0.75 / 1.5 / 2.25 / 3</span><br />
+      화상 지속시간: <span class="attribVal">2</span>
+    cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
+      class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
+      width="16" height="16" border="0" /> 100/110/120/130</div><div class="cooldown"><img
+      alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
+      width="16" height="16" border="0" /> 12</div><br clear="left" /></div>
+    lore: The flames of conquest blaze forth from the darkest depths of the abyss.
+    hurl: Underlord
+  abyssal_underlord_pit_of_malice:
+    dname: 악의 구덩이
+    affects: '능력: <span class="attribVal">목표 지점 지정</span><br />피해 유형: <span class="attribVal">마법</span><br
+      />주문 면역 관통: <span class="attribVal"><font color="#70EA72">관통</font></span><br
+      />'
+    desc: 대상 지역에 무시무시한 구덩이를 만들어 냅니다. 구덩이를 밟는 적은 일정 시간 동안 움직이지 못하고 피해를 받습니다. 유닛마다 한
+      번씩만 피해를 받습니다.
+    notes: ''
+    dmg: ''
+    attrib: |-
+      반경: <span class="attribVal">275</span><br />
+      구덩이 지속시간: <span class="attribVal">7</span><br />
+      구덩이 피해: <span class="attribVal">100</span><br />
+      무효화 지속시간: <span class="attribVal">1 / 1.5 / 2 / 2.5</span>
+    cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
+      class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
+      width="16" height="16" border="0" /> 100/115/130/145</div><div class="cooldown"><img
+      alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
+      width="16" height="16" border="0" /> 21/18/15/12</div><br clear="left" /></div>
+    lore: Twisting into the seams of reality itself, Vrogros' manifest hatred paralyzes
+      those who defy his will.
+    hurl: Underlord
+  abyssal_underlord_atrophy_aura:
+    dname: 위축의 오라
+    affects: '능력: <span class="attribVal">지속 효과, 오라</span><br />효과: <span class="attribVal">적군</span><br
+      />'
+    desc: 주위 적 유닛이 힘을 잃고 일정 비율만큼 기본 공격력이 감소합니다. 적이 이 효과를 받은 상태로 죽으면 지하군주는 보너스 공격력을
+      얻습니다.
+    notes: ''
+    dmg: ''
+    attrib: |-
+      반경: <span class="attribVal">900</span><br />
+      피해 감소: <span class="attribVal">18% / 26% / 34% / 42%</span><br />
+      보너스 피해(크립): <span class="attribVal">5</span><br />
+      보너스 피해(영웅): <span class="attribVal">30 / 35 / 40 / 45</span><br />
+      지속시간: <span class="attribVal">30 / 40 / 50 / 60</span>
+    cmb: ''
+    lore: To merely stand in the presence of the Underlord is to feel the conviction
+      of battle sapped from one's soul.
+    hurl: Underlord
+  abyssal_underlord_dark_rift:
+    dname: 어둠의 균열
+    affects: '능력: <span class="attribVal">유닛 지정, 목표 지점 지정</span><br />효과: <span class="attribVal">아군
+      크립</span><br />'
+    desc: 대상 아군 유닛의 위치에 어둠의 균열을 불러냅니다. 짧은 지연시간 후 심연의 지하군주와 주위 아군 영웅들이 해당 위치로 순간이동합니다.
+      어둠의 균열은 시전 중 언제든 취소할 수 있습니다. 시전을 취소하거나 시전 중 대상 유닛이 죽으면 어둠의 균열은 쿨다운이 걸립니다.
+    notes: ''
+    dmg: ''
+    attrib: |-
+      순간이동 반경: <span class="attribVal">450</span><br />
+      순간이동 지연시간: <span class="attribVal">5 / 4 / 3</span>
+    cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
+      class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
+      width="16" height="16" border="0" /> 75/150/225</div><div class="cooldown"><img
+      alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
+      width="16" height="16" border="0" /> 130/120/110</div><br clear="left" /></div>
+    lore: They come without warning, leaving fire and blood where kingdoms once flourished.
+    hurl: Underlord
+  abyssal_underlord_cancel_dark_rift:
+    dname: 어둠의 균열 취소
+    affects: '능력: <span class="attribVal">대상 없음</span><br />'
+    desc: 순간이동 중단
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Underlord
