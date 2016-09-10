@@ -5729,7 +5729,7 @@ abilitydata:
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 120/120/120/120</div><div class="cooldown"><img
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 25/22/19/16</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 27/24/21/18</div><br clear="left" /></div>
     lore: 欺骗的痛苦不是在其发生之时，而是在其被揭露之时。
     hurl: Shadow_Demon
   shadow_demon_soul_catcher:
@@ -7598,12 +7598,12 @@ abilitydata:
     lore: 谁打出第一拳往往不重要，看的就是最后一拳。
     hurl: Tusk
   skywrath_mage_arcane_bolt:
-    dname: 秘法鹰隼
+    dname: 奥法鹰隼
     affects: 技能： <span class="attribVal">单位目标</span><br />影响： <span class="attribVal">敌方单位</span><br
       />伤害类型： <span class="attribVal">魔法</span><br />无视技能免疫： <span class="attribVal">否</span><br
       />
     desc: 天怒法师施放出缓慢移动的奥术鹰群，对敌方单位造成基于天怒法师智力值的伤害。
-    notes: 鹰群移动非常缓慢（500移速），提供325码的范围视野。击中目标后，将给予目标区域的视野，持续3.34秒。<br />秘法鹰隼无法被躲避。
+    notes: 鹰群移动非常缓慢（500移速），提供325码的范围视野。击中目标后，将给予目标区域的视野，持续3.34秒。<br />奥法鹰隼无法被躲避。
     dmg: ''
     attrib: |-
       基础伤害： <span class="attribVal">60 / 80 / 100 / 120</span><br />
@@ -8599,7 +8599,7 @@ abilitydata:
       持续时间： <span class="attribVal">6</span><br />
       每秒伤害： <span class="attribVal">15 / 30 / 45 / 60</span><br />
       友军搜寻范围： <span class="attribVal">225</span><br />
-      移动速度减缓： <span class="attribVal">35% / 40% / 45% / 50%</span><br />
+      移动速度减缓： <span class="attribVal">20% / 30% / 40% / 50%</span><br />
       施法距离： <span class="attribVal">600 / 700 / 800 / 900</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -8679,7 +8679,7 @@ abilitydata:
       width="16" height="16" border="0" /> 100/110/120/130</div><div class="cooldown"><img
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 12</div><br clear="left" /></div>
-    lore: " "
+    lore: 征战的烈焰从深渊最黑暗的深处向外迸发。
     hurl: Underlord
   abyssal_underlord_pit_of_malice:
     dname: 怨念深渊
@@ -8698,7 +8698,7 @@ abilitydata:
       width="16" height="16" border="0" /> 100/115/130/145</div><div class="cooldown"><img
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 21/18/15/12</div><br clear="left" /></div>
-    lore: " "
+    lore: 扭曲成现实本身的接缝，维洛格罗斯昭然的仇恨让蔑视他意志的人动弹不得。
     hurl: Underlord
   abyssal_underlord_atrophy_aura:
     dname: 衰退光环
@@ -8714,13 +8714,13 @@ abilitydata:
       额外攻击力（英雄死亡）： <span class="attribVal">30 / 35 / 40 / 45</span><br />
       持续时间： <span class="attribVal">30 / 40 / 50 / 60</span>
     cmb: ''
-    lore: " "
+    lore: 光是站在孽主面前就能感受到自己的战意从灵魂里被榨干。
     hurl: Underlord
   abyssal_underlord_dark_rift:
     dname: 黑暗之门
     affects: 技能： <span class="attribVal">单位目标, 点目标</span><br />影响： <span class="attribVal">友方非英雄单位</span><br
       />
-    desc: 以友方单位作为目标地点打开黑暗的大门。经过短暂的延迟，孽主和附近所有友方英雄都将传送至目标地点。黑暗之门在传送生效前可以取消。如果在技能生效前取消，或者目标单位死亡，黑暗之门都会进入冷却。
+    desc: 以友方单位作为目标地点打开黑暗的大门。经过短暂的延迟，孽主和附近所有友方英雄都将传送至目标地点。 黑暗之门在传送生效前可以取消。如果在技能生效前取消，或者目标单位死亡，黑暗之门都会进入冷却。
     notes: ''
     dmg: ''
     attrib: |-
@@ -8731,7 +8731,7 @@ abilitydata:
       width="16" height="16" border="0" /> 75/150/225</div><div class="cooldown"><img
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 130/120/110</div><br clear="left" /></div>
-    lore: " "
+    lore: 他们的到来全无征兆，王国曾经繁荣的地方只剩下烈火和血海。
     hurl: Underlord
   abyssal_underlord_cancel_dark_rift:
     dname: 取消黑暗之门

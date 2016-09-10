@@ -835,8 +835,8 @@ herodata:
         g: '2.65'
       ms: 300
       dmg:
-        min: 37
-        max: 43
+        min: 33
+        max: 39
       armor: 4.22
     dac: 近战
     droles: 核心 - 先手 - 控制 - 逃生 - 耐久

@@ -2488,22 +2488,16 @@ arc_warden:
   - 누커
 abyssal_underlord:
   name: 지하군주
-  bio: Neither myth nor song exist to tell of their coming. <br><br>Deep below the
-    surface of the world lay unknown wonders and horrors. Down and down again, well
-    beneath the slithering magma fields and simmering roots of dormant volcanoes stands
-    the obsidian city of Aziyog, its incomparable stonework spanning an endless cavern.
-    Within honeycomb walls mortared with the bones of countless slaves lies the domain
-    of the Abyssal Horde, and their brutal underlord Vrogros. <br><br>Armed by the
-    monstrous forgemasters of his kind and well-practiced in the arts of the Dark
-    Rift, Vrogros is able to conjure forth flame and crippling malice through the
-    twist between worlds. He seeks always to expand his holdings, destroying or enslaving
-    all he encounters. Yet the lands offered by the subterranean realm are few, and
-    so his sights have turned upward. By his command the first waves of abyssal invaders
-    have already marched through the rift, a few doomed legions meant merely to test
-    the might of nations above. Now, as his full force readies itself for unending
-    conquest, Vrogros himself steps into a sunlit world to announce his coming reign.
-    Those who face the Underlord will bow and pay tribute, or be crushed where they
-    stand.
+  bio: 그 어떤 신화도 노래도 군주의 도래를 알리지 아니하였느니.<br><br>세계의 표면 아래 깊은 곳에는 알려지지 않은 경이로움과 공포가
+    숨어 있다. 다시 밑으로 내려가다 보면 미끄러지듯 흘러가는 용암 지대와 휴화산의 끓어오르는 근원이 있고 그 한참 아래에 세워진 흑요석 도시
+    아지요그에는 끝없는 동굴 안에 무엇과도 비교할 수 없는 석조물이 가득하다. 무수히 많은 노예의 뼈가 박힌 벌집 모양의 벽 안으로는 심연의 무리와
+    그들의 잔혹한 지하군주, 브로그로스가 머무르는 영역이 펼쳐져 있다. <br><br>브로그로스는 같은 종족의 괴물 같은 대장장인의 솜씨로 단단히
+    무장하고 어둠의 균열 기술을 잘 연마했기에 불길을 만들어 내릴 수도 있고 세계 사이의 비틀린 공간 사이로 불러온 악을 이용하여 모든 상대를
+    무력하게 할 수도 있다. 지하군주는 늘 자신의 소유를 늘리고자 상대를 파괴하거나 사로잡는다. 그러나 지하계에서 얻을 수 있는 땅은 많지 않기에
+    위쪽으로 시선을 돌렸다. 지하군주의 명령에 따라 첫 번째 심연의 침입자 무리는 균열을 통해 진군했고 시험 삼아 불운한 군단원 몇 명으로 땅
+    위 나라의 힘이 어느 정도인지 확인해 보았다. 이제, 지하군주의 전 병력은 끝없는 정복에 나설 준비를 마쳤고 브로그로스 자신도 햇빛이 비치는
+    세계로 한 걸음 내디디며 앞으로의 통치를 선포한다. 지하군주와 마주치는 자는 누구든 절하고 공물을 바치든지 아니면 선 자리에서 그대로 최후를
+    맞이해야 하리라.
   atk: melee
   atk_l: 근접
   roles:

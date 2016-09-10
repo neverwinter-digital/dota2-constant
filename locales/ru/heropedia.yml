@@ -835,8 +835,8 @@ herodata:
         g: '2.65'
       ms: 300
       dmg:
-        min: 37
-        max: 43
+        min: 33
+        max: 39
       armor: 4.22
     dac: Ближнего боя
     droles: Carry - Initiator - Disabler - Escape - Durable
