@@ -1,4 +1,3 @@
----
 0:
   0 : jungle
   1 : jungle
@@ -233,7 +232,7 @@
   101 : boundary
   102 : boundary
   103 : boundary
-  104 : jungle
+  104 : boundary
   105 : boundary
   106 : boundary
   107 : boundary
@@ -245,7 +244,7 @@
   113 : boundary
   114 : boundary
   115 : boundary
-  116 : jungle
+  116 : boundary
   117 : jungle
   118 : jungle
   119 : jungle
@@ -362,7 +361,7 @@
   101 : boundary
   102 : boundary
   103 : boundary
-  104 : jungle
+  104 : boundary
   105 : boundary
   106 : boundary
   107 : boundary
@@ -374,7 +373,7 @@
   113 : boundary
   114 : boundary
   115 : boundary
-  116 : jungle
+  116 : boundary
   117 : jungle
   118 : jungle
   119 : jungle
@@ -491,7 +490,7 @@
   101 : boundary
   102 : boundary
   103 : boundary
-  104 : jungle
+  104 : boundary
   105 : boundary
   106 : boundary
   107 : boundary
@@ -503,7 +502,7 @@
   113 : boundary
   114 : boundary
   115 : boundary
-  116 : jungle
+  116 : boundary
   117 : jungle
   118 : jungle
   119 : jungle
@@ -620,7 +619,7 @@
   101 : boundary
   102 : boundary
   103 : boundary
-  104 : jungle
+  104 : boundary
   105 : boundary
   106 : boundary
   107 : boundary
@@ -632,7 +631,7 @@
   113 : boundary
   114 : boundary
   115 : boundary
-  116 : jungle
+  116 : boundary
   117 : jungle
   118 : jungle
   119 : jungle
@@ -673,19 +672,19 @@
   25 : high_ground
   26 : high_ground
   27 : high_ground
-  28 : jungle
+  28 : high_ground
   29 : high_ground
   30 : high_ground
   31 : high_ground
-  32 : jungle
+  32 : high_ground
   33 : high_ground
   34 : high_ground
   35 : high_ground
-  36 : jungle
+  36 : high_ground
   37 : high_ground
   38 : high_ground
   39 : high_ground
-  40 : jungle
+  40 : high_ground
   41 : boundary
   42 : boundary
   43 : boundary
@@ -749,7 +748,7 @@
   101 : boundary
   102 : boundary
   103 : boundary
-  104 : jungle
+  104 : boundary
   105 : boundary
   106 : boundary
   107 : boundary
@@ -761,7 +760,7 @@
   113 : boundary
   114 : boundary
   115 : boundary
-  116 : jungle
+  116 : boundary
   117 : boundary
   118 : boundary
   119 : boundary
@@ -769,7 +768,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : jungle
+  124 : boundary
   125 : jungle
   126 : jungle
   127 : jungle
@@ -802,19 +801,19 @@
   25 : high_ground
   26 : high_ground
   27 : high_ground
-  28 : jungle
+  28 : high_ground
   29 : high_ground
   30 : high_ground
   31 : high_ground
-  32 : jungle
+  32 : high_ground
   33 : high_ground
   34 : high_ground
   35 : high_ground
-  36 : jungle
+  36 : high_ground
   37 : high_ground
   38 : high_ground
   39 : high_ground
-  40 : jungle
+  40 : high_ground
   41 : boundary
   42 : boundary
   43 : boundary
@@ -878,7 +877,7 @@
   101 : boundary
   102 : boundary
   103 : boundary
-  104 : jungle
+  104 : boundary
   105 : boundary
   106 : boundary
   107 : boundary
@@ -890,7 +889,7 @@
   113 : boundary
   114 : boundary
   115 : boundary
-  116 : jungle
+  116 : boundary
   117 : boundary
   118 : boundary
   119 : boundary
@@ -898,7 +897,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : jungle
+  124 : boundary
   125 : jungle
   126 : jungle
   127 : jungle
@@ -931,19 +930,19 @@
   25 : high_ground
   26 : high_ground
   27 : high_ground
-  28 : jungle
+  28 : high_ground
   29 : high_ground
   30 : high_ground
   31 : high_ground
-  32 : jungle
+  32 : high_ground
   33 : high_ground
   34 : high_ground
   35 : high_ground
-  36 : jungle
+  36 : high_ground
   37 : high_ground
   38 : high_ground
   39 : high_ground
-  40 : jungle
+  40 : high_ground
   41 : boundary
   42 : boundary
   43 : boundary
@@ -1007,7 +1006,7 @@
   101 : boundary
   102 : boundary
   103 : boundary
-  104 : jungle
+  104 : boundary
   105 : boundary
   106 : boundary
   107 : boundary
@@ -1019,7 +1018,7 @@
   113 : boundary
   114 : boundary
   115 : boundary
-  116 : jungle
+  116 : boundary
   117 : boundary
   118 : boundary
   119 : boundary
@@ -1027,7 +1026,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : jungle
+  124 : boundary
   125 : jungle
   126 : jungle
   127 : jungle
@@ -1060,83 +1059,83 @@
   25 : high_ground
   26 : high_ground
   27 : high_ground
-  28 : jungle
+  28 : high_ground
   29 : high_ground
   30 : high_ground
   31 : high_ground
-  32 : jungle
+  32 : high_ground
   33 : high_ground
   34 : high_ground
   35 : high_ground
-  36 : jungle
+  36 : high_ground
   37 : high_ground
   38 : high_ground
   39 : high_ground
-  40 : jungle
-  41 : jungle
-  42 : jungle
-  43 : jungle
-  44 : jungle
-  45 : jungle
-  46 : jungle
-  47 : jungle
-  48 : jungle
-  49 : jungle
-  50 : jungle
-  51 : jungle
-  52 : jungle
-  53 : jungle
-  54 : jungle
-  55 : jungle
-  56 : jungle
-  57 : jungle
-  58 : jungle
-  59 : jungle
-  60 : jungle
-  61 : jungle
-  62 : jungle
-  63 : jungle
-  64 : jungle
-  65 : jungle
-  66 : jungle
-  67 : jungle
-  68 : jungle
-  69 : jungle
-  70 : jungle
-  71 : jungle
-  72 : jungle
-  73 : jungle
-  74 : jungle
-  75 : jungle
-  76 : jungle
-  77 : jungle
-  78 : jungle
-  79 : jungle
-  80 : jungle
-  81 : jungle
-  82 : jungle
-  83 : jungle
-  84 : jungle
-  85 : jungle
-  86 : jungle
-  87 : jungle
-  88 : jungle
-  89 : jungle
-  90 : jungle
-  91 : jungle
-  92 : jungle
-  93 : jungle
-  94 : jungle
-  95 : jungle
-  96 : jungle
-  97 : jungle
-  98 : jungle
-  99 : jungle
-  100 : jungle
-  101 : jungle
-  102 : jungle
-  103 : jungle
-  104 : jungle
+  40 : high_ground
+  41 : boundary
+  42 : boundary
+  43 : boundary
+  44 : boundary
+  45 : boundary
+  46 : boundary
+  47 : boundary
+  48 : boundary
+  49 : boundary
+  50 : boundary
+  51 : boundary
+  52 : boundary
+  53 : boundary
+  54 : boundary
+  55 : boundary
+  56 : boundary
+  57 : boundary
+  58 : boundary
+  59 : boundary
+  60 : boundary
+  61 : boundary
+  62 : boundary
+  63 : boundary
+  64 : boundary
+  65 : boundary
+  66 : boundary
+  67 : boundary
+  68 : boundary
+  69 : boundary
+  70 : boundary
+  71 : boundary
+  72 : boundary
+  73 : boundary
+  74 : boundary
+  75 : boundary
+  76 : boundary
+  77 : boundary
+  78 : boundary
+  79 : boundary
+  80 : boundary
+  81 : boundary
+  82 : boundary
+  83 : boundary
+  84 : boundary
+  85 : boundary
+  86 : boundary
+  87 : boundary
+  88 : boundary
+  89 : boundary
+  90 : boundary
+  91 : boundary
+  92 : boundary
+  93 : boundary
+  94 : boundary
+  95 : boundary
+  96 : boundary
+  97 : boundary
+  98 : boundary
+  99 : boundary
+  100 : boundary
+  101 : boundary
+  102 : boundary
+  103 : boundary
+  104 : boundary
   105 : boundary
   106 : boundary
   107 : boundary
@@ -1148,7 +1147,7 @@
   113 : boundary
   114 : boundary
   115 : boundary
-  116 : jungle
+  116 : boundary
   117 : boundary
   118 : boundary
   119 : boundary
@@ -1156,7 +1155,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : jungle
+  124 : boundary
   125 : jungle
   126 : jungle
   127 : jungle
@@ -1189,19 +1188,19 @@
   25 : high_ground
   26 : high_ground
   27 : high_ground
-  28 : jungle
+  28 : high_ground
   29 : high_ground
   30 : high_ground
   31 : high_ground
-  32 : jungle
+  32 : high_ground
   33 : high_ground
   34 : high_ground
   35 : high_ground
-  36 : jungle
+  36 : high_ground
   37 : high_ground
   38 : high_ground
   39 : high_ground
-  40 : jungle
+  40 : high_ground
   41 : line
   42 : line
   43 : line
@@ -1265,7 +1264,7 @@
   101 : line
   102 : line
   103 : line
-  104 : jungle
+  104 : line
   105 : boundary
   106 : boundary
   107 : boundary
@@ -1277,7 +1276,7 @@
   113 : boundary
   114 : boundary
   115 : boundary
-  116 : jungle
+  116 : boundary
   117 : boundary
   118 : boundary
   119 : boundary
@@ -1285,7 +1284,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : jungle
+  124 : boundary
   125 : jungle
   126 : jungle
   127 : jungle
@@ -1318,19 +1317,19 @@
   25 : high_ground
   26 : high_ground
   27 : high_ground
-  28 : jungle
+  28 : high_ground
   29 : high_ground
   30 : high_ground
   31 : high_ground
-  32 : jungle
+  32 : high_ground
   33 : high_ground
   34 : high_ground
   35 : high_ground
-  36 : jungle
+  36 : high_ground
   37 : high_ground
   38 : high_ground
   39 : high_ground
-  40 : jungle
+  40 : high_ground
   41 : line
   42 : line
   43 : line
@@ -1394,7 +1393,7 @@
   101 : line
   102 : line
   103 : line
-  104 : jungle
+  104 : line
   105 : boundary
   106 : boundary
   107 : boundary
@@ -1406,7 +1405,7 @@
   113 : boundary
   114 : boundary
   115 : boundary
-  116 : jungle
+  116 : boundary
   117 : boundary
   118 : boundary
   119 : boundary
@@ -1414,7 +1413,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : jungle
+  124 : boundary
   125 : jungle
   126 : jungle
   127 : jungle
@@ -1447,19 +1446,19 @@
   25 : high_ground
   26 : high_ground
   27 : high_ground
-  28 : jungle
+  28 : high_ground
   29 : high_ground
   30 : high_ground
   31 : high_ground
-  32 : jungle
+  32 : high_ground
   33 : high_ground
   34 : high_ground
   35 : high_ground
-  36 : jungle
+  36 : high_ground
   37 : high_ground
   38 : high_ground
   39 : high_ground
-  40 : jungle
+  40 : high_ground
   41 : line
   42 : line
   43 : line
@@ -1523,7 +1522,7 @@
   101 : line
   102 : line
   103 : line
-  104 : jungle
+  104 : line
   105 : boundary
   106 : boundary
   107 : boundary
@@ -1535,7 +1534,7 @@
   113 : boundary
   114 : boundary
   115 : boundary
-  116 : jungle
+  116 : boundary
   117 : boundary
   118 : boundary
   119 : boundary
@@ -1543,7 +1542,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : jungle
+  124 : boundary
   125 : jungle
   126 : jungle
   127 : jungle
@@ -1576,19 +1575,19 @@
   25 : high_ground
   26 : high_ground
   27 : high_ground
-  28 : jungle
+  28 : high_ground
   29 : high_ground
   30 : high_ground
   31 : high_ground
-  32 : jungle
+  32 : high_ground
   33 : high_ground
   34 : high_ground
   35 : high_ground
-  36 : jungle
+  36 : high_ground
   37 : high_ground
   38 : high_ground
   39 : high_ground
-  40 : jungle
+  40 : high_ground
   41 : line
   42 : line
   43 : line
@@ -1652,19 +1651,19 @@
   101 : line
   102 : line
   103 : line
-  104 : jungle
-  105 : jungle
-  106 : jungle
-  107 : jungle
-  108 : jungle
-  109 : jungle
-  110 : jungle
-  111 : jungle
-  112 : jungle
-  113 : jungle
-  114 : jungle
-  115 : jungle
-  116 : jungle
+  104 : line
+  105 : boundary
+  106 : boundary
+  107 : boundary
+  108 : boundary
+  109 : boundary
+  110 : boundary
+  111 : boundary
+  112 : boundary
+  113 : boundary
+  114 : boundary
+  115 : boundary
+  116 : boundary
   117 : boundary
   118 : boundary
   119 : boundary
@@ -1672,7 +1671,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : jungle
+  124 : boundary
   125 : jungle
   126 : jungle
   127 : jungle
@@ -1705,19 +1704,19 @@
   25 : high_ground
   26 : high_ground
   27 : high_ground
-  28 : jungle
+  28 : high_ground
   29 : high_ground
   30 : high_ground
   31 : high_ground
-  32 : jungle
+  32 : high_ground
   33 : high_ground
   34 : high_ground
   35 : high_ground
-  36 : jungle
+  36 : high_ground
   37 : high_ground
   38 : high_ground
   39 : high_ground
-  40 : jungle
+  40 : high_ground
   41 : line
   42 : line
   43 : line
@@ -1781,7 +1780,7 @@
   101 : line
   102 : line
   103 : line
-  104 : jungle
+  104 : line
   105 : line
   106 : line
   107 : line
@@ -1793,7 +1792,7 @@
   113 : line
   114 : line
   115 : line
-  116 : jungle
+  116 : line
   117 : boundary
   118 : boundary
   119 : boundary
@@ -1801,7 +1800,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : jungle
+  124 : boundary
   125 : jungle
   126 : jungle
   127 : jungle
@@ -1834,19 +1833,19 @@
   25 : high_ground
   26 : high_ground
   27 : high_ground
-  28 : jungle
+  28 : high_ground
   29 : high_ground
   30 : high_ground
   31 : high_ground
-  32 : jungle
+  32 : high_ground
   33 : high_ground
   34 : high_ground
   35 : high_ground
-  36 : jungle
+  36 : high_ground
   37 : high_ground
   38 : high_ground
   39 : high_ground
-  40 : jungle
+  40 : high_ground
   41 : line
   42 : line
   43 : line
@@ -1910,7 +1909,7 @@
   101 : line
   102 : line
   103 : line
-  104 : jungle
+  104 : line
   105 : line
   106 : line
   107 : line
@@ -1922,7 +1921,7 @@
   113 : line
   114 : line
   115 : line
-  116 : jungle
+  116 : line
   117 : boundary
   118 : boundary
   119 : boundary
@@ -1930,7 +1929,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : jungle
+  124 : boundary
   125 : jungle
   126 : jungle
   127 : jungle
@@ -1963,19 +1962,19 @@
   25 : high_ground
   26 : high_ground
   27 : high_ground
-  28 : jungle
+  28 : high_ground
   29 : high_ground
   30 : high_ground
   31 : high_ground
-  32 : jungle
+  32 : high_ground
   33 : high_ground
   34 : high_ground
   35 : high_ground
-  36 : jungle
+  36 : high_ground
   37 : high_ground
   38 : high_ground
   39 : high_ground
-  40 : jungle
+  40 : high_ground
   41 : line
   42 : line
   43 : line
@@ -2039,7 +2038,7 @@
   101 : line
   102 : line
   103 : line
-  104 : jungle
+  104 : line
   105 : line
   106 : line
   107 : line
@@ -2051,7 +2050,7 @@
   113 : line
   114 : line
   115 : line
-  116 : jungle
+  116 : line
   117 : boundary
   118 : boundary
   119 : boundary
@@ -2059,7 +2058,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : jungle
+  124 : boundary
   125 : jungle
   126 : jungle
   127 : jungle
@@ -2092,83 +2091,83 @@
   25 : high_ground
   26 : high_ground
   27 : high_ground
-  28 : jungle
+  28 : high_ground
   29 : high_ground
   30 : high_ground
   31 : high_ground
-  32 : jungle
+  32 : high_ground
   33 : high_ground
   34 : high_ground
   35 : high_ground
-  36 : jungle
+  36 : high_ground
   37 : high_ground
   38 : high_ground
   39 : high_ground
-  40 : jungle
-  41 : jungle
-  42 : jungle
-  43 : jungle
-  44 : jungle
-  45 : jungle
-  46 : jungle
-  47 : jungle
-  48 : jungle
-  49 : jungle
-  50 : jungle
-  51 : jungle
-  52 : jungle
-  53 : jungle
-  54 : jungle
-  55 : jungle
-  56 : jungle
-  57 : jungle
-  58 : jungle
-  59 : jungle
-  60 : jungle
-  61 : jungle
-  62 : jungle
-  63 : jungle
-  64 : jungle
-  65 : jungle
-  66 : jungle
-  67 : jungle
-  68 : jungle
-  69 : jungle
-  70 : jungle
-  71 : jungle
-  72 : jungle
-  73 : jungle
-  74 : jungle
-  75 : jungle
-  76 : jungle
-  77 : jungle
-  78 : jungle
-  79 : jungle
-  80 : jungle
-  81 : jungle
-  82 : jungle
-  83 : jungle
-  84 : jungle
-  85 : jungle
-  86 : jungle
-  87 : jungle
-  88 : jungle
-  89 : jungle
-  90 : jungle
-  91 : jungle
-  92 : jungle
-  93 : jungle
-  94 : jungle
-  95 : jungle
-  96 : jungle
-  97 : jungle
-  98 : jungle
-  99 : jungle
-  100 : jungle
-  101 : jungle
-  102 : jungle
-  103 : jungle
-  104 : jungle
+  40 : high_ground
+  41 : line
+  42 : line
+  43 : line
+  44 : line
+  45 : line
+  46 : line
+  47 : line
+  48 : line
+  49 : line
+  50 : line
+  51 : line
+  52 : line
+  53 : line
+  54 : line
+  55 : line
+  56 : line
+  57 : line
+  58 : line
+  59 : line
+  60 : line
+  61 : line
+  62 : line
+  63 : line
+  64 : line
+  65 : line
+  66 : line
+  67 : line
+  68 : line
+  69 : line
+  70 : line
+  71 : line
+  72 : line
+  73 : line
+  74 : line
+  75 : line
+  76 : line
+  77 : line
+  78 : line
+  79 : line
+  80 : line
+  81 : line
+  82 : line
+  83 : line
+  84 : line
+  85 : line
+  86 : line
+  87 : line
+  88 : line
+  89 : line
+  90 : line
+  91 : line
+  92 : line
+  93 : line
+  94 : line
+  95 : line
+  96 : line
+  97 : line
+  98 : line
+  99 : line
+  100 : line
+  101 : line
+  102 : line
+  103 : line
+  104 : line
   105 : line
   106 : line
   107 : line
@@ -2180,7 +2179,7 @@
   113 : line
   114 : line
   115 : line
-  116 : jungle
+  116 : line
   117 : boundary
   118 : boundary
   119 : boundary
@@ -2188,7 +2187,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : jungle
+  124 : boundary
   125 : jungle
   126 : jungle
   127 : jungle
@@ -2221,19 +2220,19 @@
   25 : high_ground
   26 : high_ground
   27 : high_ground
-  28 : jungle
+  28 : high_ground
   29 : high_ground
   30 : high_ground
   31 : high_ground
-  32 : jungle
+  32 : high_ground
   33 : high_ground
   34 : high_ground
   35 : high_ground
-  36 : jungle
+  36 : high_ground
   37 : high_ground
   38 : high_ground
   39 : high_ground
-  40 : jungle
+  40 : high_ground
   41 : jungle
   42 : jungle
   43 : jungle
@@ -2289,7 +2288,7 @@
   93 : line
   94 : line
   95 : line
-  96 : jungle
+  96 : line
   97 : jungle
   98 : jungle
   99 : jungle
@@ -2309,7 +2308,7 @@
   113 : line
   114 : line
   115 : line
-  116 : jungle
+  116 : line
   117 : boundary
   118 : boundary
   119 : boundary
@@ -2317,7 +2316,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : jungle
+  124 : boundary
   125 : jungle
   126 : jungle
   127 : jungle
@@ -2350,19 +2349,19 @@
   25 : high_ground
   26 : high_ground
   27 : high_ground
-  28 : jungle
+  28 : high_ground
   29 : high_ground
   30 : high_ground
   31 : high_ground
-  32 : jungle
+  32 : high_ground
   33 : high_ground
   34 : high_ground
   35 : high_ground
-  36 : jungle
+  36 : high_ground
   37 : high_ground
   38 : high_ground
   39 : high_ground
-  40 : jungle
+  40 : high_ground
   41 : jungle
   42 : jungle
   43 : jungle
@@ -2418,7 +2417,7 @@
   93 : line
   94 : line
   95 : line
-  96 : jungle
+  96 : line
   97 : jungle
   98 : jungle
   99 : jungle
@@ -2438,7 +2437,7 @@
   113 : line
   114 : line
   115 : line
-  116 : jungle
+  116 : line
   117 : boundary
   118 : boundary
   119 : boundary
@@ -2446,7 +2445,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : jungle
+  124 : boundary
   125 : jungle
   126 : jungle
   127 : jungle
@@ -2479,19 +2478,19 @@
   25 : high_ground
   26 : high_ground
   27 : high_ground
-  28 : jungle
+  28 : high_ground
   29 : high_ground
   30 : high_ground
   31 : high_ground
-  32 : jungle
+  32 : high_ground
   33 : high_ground
   34 : high_ground
   35 : high_ground
-  36 : jungle
+  36 : high_ground
   37 : high_ground
   38 : high_ground
   39 : high_ground
-  40 : jungle
+  40 : high_ground
   41 : jungle
   42 : jungle
   43 : jungle
@@ -2547,7 +2546,7 @@
   93 : line
   94 : line
   95 : line
-  96 : jungle
+  96 : line
   97 : jungle
   98 : jungle
   99 : jungle
@@ -2567,7 +2566,7 @@
   113 : line
   114 : line
   115 : line
-  116 : jungle
+  116 : line
   117 : boundary
   118 : boundary
   119 : boundary
@@ -2575,7 +2574,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : jungle
+  124 : boundary
   125 : jungle
   126 : jungle
   127 : jungle
@@ -2608,19 +2607,19 @@
   25 : high_ground
   26 : high_ground
   27 : high_ground
-  28 : jungle
+  28 : high_ground
   29 : high_ground
   30 : high_ground
   31 : high_ground
-  32 : jungle
+  32 : high_ground
   33 : high_ground
   34 : high_ground
   35 : high_ground
-  36 : jungle
+  36 : high_ground
   37 : high_ground
   38 : high_ground
   39 : high_ground
-  40 : jungle
+  40 : high_ground
   41 : jungle
   42 : jungle
   43 : jungle
@@ -2665,18 +2664,18 @@
   82 : jungle
   83 : jungle
   84 : jungle
-  85 : jungle
-  86 : jungle
-  87 : jungle
-  88 : jungle
-  89 : jungle
-  90 : jungle
-  91 : jungle
-  92 : jungle
-  93 : jungle
-  94 : jungle
-  95 : jungle
-  96 : jungle
+  85 : line
+  86 : line
+  87 : line
+  88 : line
+  89 : line
+  90 : line
+  91 : line
+  92 : line
+  93 : line
+  94 : line
+  95 : line
+  96 : line
   97 : jungle
   98 : jungle
   99 : jungle
@@ -2696,7 +2695,7 @@
   113 : line
   114 : line
   115 : line
-  116 : jungle
+  116 : line
   117 : boundary
   118 : boundary
   119 : boundary
@@ -2704,7 +2703,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : jungle
+  124 : boundary
   125 : jungle
   126 : jungle
   127 : jungle
@@ -2737,19 +2736,19 @@
   25 : high_ground
   26 : high_ground
   27 : high_ground
-  28 : jungle
+  28 : high_ground
   29 : high_ground
   30 : high_ground
   31 : high_ground
-  32 : jungle
+  32 : high_ground
   33 : high_ground
   34 : high_ground
   35 : high_ground
-  36 : jungle
+  36 : high_ground
   37 : high_ground
   38 : high_ground
   39 : high_ground
-  40 : jungle
+  40 : high_ground
   41 : jungle
   42 : jungle
   43 : jungle
@@ -2825,7 +2824,7 @@
   113 : line
   114 : line
   115 : line
-  116 : jungle
+  116 : line
   117 : boundary
   118 : boundary
   119 : boundary
@@ -2833,7 +2832,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : jungle
+  124 : boundary
   125 : jungle
   126 : jungle
   127 : jungle
@@ -2866,19 +2865,19 @@
   25 : high_ground
   26 : high_ground
   27 : high_ground
-  28 : jungle
+  28 : high_ground
   29 : high_ground
   30 : high_ground
   31 : high_ground
-  32 : jungle
+  32 : high_ground
   33 : high_ground
   34 : high_ground
   35 : high_ground
-  36 : jungle
+  36 : high_ground
   37 : high_ground
   38 : high_ground
   39 : high_ground
-  40 : jungle
+  40 : high_ground
   41 : jungle
   42 : jungle
   43 : jungle
@@ -2954,7 +2953,7 @@
   113 : line
   114 : line
   115 : line
-  116 : jungle
+  116 : line
   117 : boundary
   118 : boundary
   119 : boundary
@@ -2962,7 +2961,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : jungle
+  124 : boundary
   125 : jungle
   126 : jungle
   127 : jungle
@@ -2995,19 +2994,19 @@
   25 : high_ground
   26 : high_ground
   27 : high_ground
-  28 : jungle
+  28 : high_ground
   29 : high_ground
   30 : high_ground
   31 : high_ground
-  32 : jungle
+  32 : high_ground
   33 : high_ground
   34 : high_ground
   35 : high_ground
-  36 : jungle
+  36 : high_ground
   37 : high_ground
   38 : high_ground
   39 : high_ground
-  40 : jungle
+  40 : high_ground
   41 : jungle
   42 : jungle
   43 : jungle
@@ -3083,7 +3082,7 @@
   113 : line
   114 : line
   115 : line
-  116 : jungle
+  116 : line
   117 : boundary
   118 : boundary
   119 : boundary
@@ -3091,7 +3090,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : jungle
+  124 : boundary
   125 : jungle
   126 : jungle
   127 : jungle
@@ -3124,19 +3123,19 @@
   25 : high_ground
   26 : high_ground
   27 : high_ground
-  28 : jungle
+  28 : high_ground
   29 : high_ground
   30 : high_ground
   31 : high_ground
-  32 : jungle
+  32 : high_ground
   33 : high_ground
   34 : high_ground
   35 : high_ground
-  36 : jungle
-  37 : jungle
-  38 : jungle
-  39 : jungle
-  40 : jungle
+  36 : high_ground
+  37 : high_ground
+  38 : high_ground
+  39 : high_ground
+  40 : high_ground
   41 : jungle
   42 : jungle
   43 : jungle
@@ -3201,18 +3200,18 @@
   102 : jungle
   103 : jungle
   104 : jungle
-  105 : jungle
-  106 : jungle
-  107 : jungle
-  108 : jungle
-  109 : jungle
-  110 : jungle
-  111 : jungle
-  112 : jungle
-  113 : jungle
-  114 : jungle
-  115 : jungle
-  116 : jungle
+  105 : line
+  106 : line
+  107 : line
+  108 : line
+  109 : line
+  110 : line
+  111 : line
+  112 : line
+  113 : line
+  114 : line
+  115 : line
+  116 : line
   117 : boundary
   118 : boundary
   119 : boundary
@@ -3220,7 +3219,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : jungle
+  124 : boundary
   125 : jungle
   126 : jungle
   127 : jungle
@@ -3253,15 +3252,15 @@
   25 : high_ground
   26 : high_ground
   27 : high_ground
-  28 : line
+  28 : high_ground
   29 : high_ground
   30 : high_ground
   31 : high_ground
-  32 : line
+  32 : high_ground
   33 : high_ground
   34 : high_ground
   35 : high_ground
-  36 : line
+  36 : high_ground
   37 : line
   38 : line
   39 : line
@@ -3349,7 +3348,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -3382,15 +3381,15 @@
   25 : high_ground
   26 : high_ground
   27 : high_ground
-  28 : line
+  28 : high_ground
   29 : high_ground
   30 : high_ground
   31 : high_ground
-  32 : line
+  32 : high_ground
   33 : high_ground
   34 : high_ground
   35 : high_ground
-  36 : line
+  36 : high_ground
   37 : line
   38 : line
   39 : line
@@ -3478,7 +3477,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -3511,15 +3510,15 @@
   25 : high_ground
   26 : high_ground
   27 : high_ground
-  28 : line
+  28 : high_ground
   29 : high_ground
   30 : high_ground
   31 : high_ground
-  32 : line
+  32 : high_ground
   33 : high_ground
   34 : high_ground
   35 : high_ground
-  36 : line
+  36 : high_ground
   37 : line
   38 : line
   39 : line
@@ -3607,7 +3606,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -3640,15 +3639,15 @@
   25 : high_ground
   26 : high_ground
   27 : high_ground
-  28 : line
+  28 : high_ground
   29 : high_ground
   30 : high_ground
   31 : high_ground
-  32 : line
-  33 : line
-  34 : line
-  35 : line
-  36 : line
+  32 : high_ground
+  33 : high_ground
+  34 : high_ground
+  35 : high_ground
+  36 : high_ground
   37 : line
   38 : line
   39 : line
@@ -3736,7 +3735,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -3769,11 +3768,11 @@
   25 : high_ground
   26 : high_ground
   27 : high_ground
-  28 : line
+  28 : high_ground
   29 : high_ground
   30 : high_ground
   31 : high_ground
-  32 : line
+  32 : high_ground
   33 : line
   34 : line
   35 : line
@@ -3865,7 +3864,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -3898,11 +3897,11 @@
   25 : high_ground
   26 : high_ground
   27 : high_ground
-  28 : line
+  28 : high_ground
   29 : high_ground
   30 : high_ground
   31 : high_ground
-  32 : line
+  32 : high_ground
   33 : line
   34 : line
   35 : line
@@ -3994,7 +3993,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -4027,11 +4026,11 @@
   25 : high_ground
   26 : high_ground
   27 : high_ground
-  28 : line
+  28 : high_ground
   29 : high_ground
   30 : high_ground
   31 : high_ground
-  32 : line
+  32 : high_ground
   33 : line
   34 : line
   35 : line
@@ -4123,7 +4122,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -4156,11 +4155,11 @@
   25 : high_ground
   26 : high_ground
   27 : high_ground
-  28 : line
-  29 : line
-  30 : line
-  31 : line
-  32 : line
+  28 : high_ground
+  29 : high_ground
+  30 : high_ground
+  31 : high_ground
+  32 : high_ground
   33 : line
   34 : line
   35 : line
@@ -4252,7 +4251,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -4285,7 +4284,7 @@
   25 : high_ground
   26 : high_ground
   27 : high_ground
-  28 : line
+  28 : high_ground
   29 : line
   30 : line
   31 : line
@@ -4341,7 +4340,7 @@
   81 : river
   82 : river
   83 : river
-  84 : line
+  84 : river
   85 : line
   86 : line
   87 : line
@@ -4381,7 +4380,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -4414,7 +4413,7 @@
   25 : high_ground
   26 : high_ground
   27 : high_ground
-  28 : line
+  28 : high_ground
   29 : line
   30 : line
   31 : line
@@ -4470,7 +4469,7 @@
   81 : river
   82 : river
   83 : river
-  84 : line
+  84 : river
   85 : line
   86 : line
   87 : line
@@ -4510,7 +4509,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -4543,7 +4542,7 @@
   25 : high_ground
   26 : high_ground
   27 : high_ground
-  28 : line
+  28 : high_ground
   29 : line
   30 : line
   31 : line
@@ -4599,7 +4598,7 @@
   81 : river
   82 : river
   83 : river
-  84 : line
+  84 : river
   85 : line
   86 : line
   87 : line
@@ -4639,7 +4638,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -4653,26 +4652,26 @@
   6 : line
   7 : line
   8 : line
-  9 : line
-  10 : line
-  11 : line
-  12 : line
-  13 : line
-  14 : line
-  15 : line
-  16 : line
-  17 : line
-  18 : line
-  19 : line
-  20 : line
-  21 : line
-  22 : line
-  23 : line
-  24 : line
-  25 : line
-  26 : line
-  27 : line
-  28 : line
+  9 : high_ground
+  10 : high_ground
+  11 : high_ground
+  12 : high_ground
+  13 : high_ground
+  14 : high_ground
+  15 : high_ground
+  16 : high_ground
+  17 : high_ground
+  18 : high_ground
+  19 : high_ground
+  20 : high_ground
+  21 : high_ground
+  22 : high_ground
+  23 : high_ground
+  24 : high_ground
+  25 : high_ground
+  26 : high_ground
+  27 : high_ground
+  28 : high_ground
   29 : line
   30 : line
   31 : line
@@ -4728,7 +4727,7 @@
   81 : river
   82 : river
   83 : river
-  84 : line
+  84 : river
   85 : line
   86 : line
   87 : line
@@ -4768,7 +4767,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -4785,7 +4784,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -4857,7 +4856,7 @@
   81 : river
   82 : river
   83 : river
-  84 : line
+  84 : river
   85 : line
   86 : line
   87 : line
@@ -4865,7 +4864,7 @@
   89 : river
   90 : river
   91 : river
-  92 : line
+  92 : river
   93 : line
   94 : line
   95 : line
@@ -4897,7 +4896,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -4914,7 +4913,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -4986,7 +4985,7 @@
   81 : river
   82 : river
   83 : river
-  84 : line
+  84 : river
   85 : line
   86 : line
   87 : line
@@ -4994,7 +4993,7 @@
   89 : river
   90 : river
   91 : river
-  92 : line
+  92 : river
   93 : line
   94 : line
   95 : line
@@ -5026,7 +5025,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -5043,7 +5042,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -5115,7 +5114,7 @@
   81 : river
   82 : river
   83 : river
-  84 : line
+  84 : river
   85 : line
   86 : line
   87 : line
@@ -5123,7 +5122,7 @@
   89 : river
   90 : river
   91 : river
-  92 : line
+  92 : river
   93 : line
   94 : line
   95 : line
@@ -5155,7 +5154,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -5172,7 +5171,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -5241,10 +5240,10 @@
   78 : line
   79 : line
   80 : line
-  81 : line
-  82 : line
-  83 : line
-  84 : line
+  81 : river
+  82 : river
+  83 : river
+  84 : river
   85 : line
   86 : line
   87 : line
@@ -5252,7 +5251,7 @@
   89 : river
   90 : river
   91 : river
-  92 : line
+  92 : river
   93 : line
   94 : line
   95 : line
@@ -5284,7 +5283,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -5301,7 +5300,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -5381,7 +5380,7 @@
   89 : river
   90 : river
   91 : river
-  92 : line
+  92 : river
   93 : line
   94 : line
   95 : line
@@ -5413,7 +5412,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -5430,7 +5429,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -5510,7 +5509,7 @@
   89 : river
   90 : river
   91 : river
-  92 : line
+  92 : river
   93 : line
   94 : line
   95 : line
@@ -5542,7 +5541,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -5559,7 +5558,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -5639,7 +5638,7 @@
   89 : river
   90 : river
   91 : river
-  92 : line
+  92 : river
   93 : line
   94 : line
   95 : line
@@ -5671,7 +5670,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -5688,7 +5687,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -5765,10 +5764,10 @@
   86 : line
   87 : line
   88 : line
-  89 : line
-  90 : line
-  91 : line
-  92 : line
+  89 : river
+  90 : river
+  91 : river
+  92 : river
   93 : line
   94 : line
   95 : line
@@ -5800,7 +5799,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -5817,7 +5816,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -5893,7 +5892,7 @@
   85 : river
   86 : river
   87 : river
-  88 : line
+  88 : river
   89 : line
   90 : line
   91 : line
@@ -5929,7 +5928,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -5946,7 +5945,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -6022,7 +6021,7 @@
   85 : river
   86 : river
   87 : river
-  88 : line
+  88 : river
   89 : line
   90 : line
   91 : line
@@ -6058,7 +6057,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -6075,7 +6074,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -6151,7 +6150,7 @@
   85 : river
   86 : river
   87 : river
-  88 : line
+  88 : river
   89 : line
   90 : line
   91 : line
@@ -6187,7 +6186,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -6204,7 +6203,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -6277,10 +6276,10 @@
   82 : line
   83 : line
   84 : line
-  85 : line
-  86 : line
-  87 : line
-  88 : line
+  85 : river
+  86 : river
+  87 : river
+  88 : river
   89 : line
   90 : line
   91 : line
@@ -6316,7 +6315,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -6333,7 +6332,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -6389,7 +6388,7 @@
   65 : river
   66 : river
   67 : river
-  68 : line
+  68 : river
   69 : line
   70 : line
   71 : line
@@ -6405,7 +6404,7 @@
   81 : river
   82 : river
   83 : river
-  84 : line
+  84 : river
   85 : line
   86 : line
   87 : line
@@ -6445,7 +6444,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -6462,7 +6461,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -6518,7 +6517,7 @@
   65 : river
   66 : river
   67 : river
-  68 : line
+  68 : river
   69 : line
   70 : line
   71 : line
@@ -6534,7 +6533,7 @@
   81 : river
   82 : river
   83 : river
-  84 : line
+  84 : river
   85 : line
   86 : line
   87 : line
@@ -6574,7 +6573,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -6591,7 +6590,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -6647,7 +6646,7 @@
   65 : river
   66 : river
   67 : river
-  68 : line
+  68 : river
   69 : line
   70 : line
   71 : line
@@ -6663,7 +6662,7 @@
   81 : river
   82 : river
   83 : river
-  84 : line
+  84 : river
   85 : line
   86 : line
   87 : line
@@ -6703,7 +6702,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -6720,7 +6719,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -6773,10 +6772,10 @@
   62 : line
   63 : line
   64 : line
-  65 : line
-  66 : line
-  67 : line
-  68 : line
+  65 : river
+  66 : river
+  67 : river
+  68 : river
   69 : line
   70 : line
   71 : line
@@ -6789,10 +6788,10 @@
   78 : line
   79 : line
   80 : line
-  81 : line
-  82 : line
-  83 : line
-  84 : line
+  81 : river
+  82 : river
+  83 : river
+  84 : river
   85 : line
   86 : line
   87 : line
@@ -6832,7 +6831,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -6849,7 +6848,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -6917,7 +6916,7 @@
   77 : river
   78 : river
   79 : river
-  80 : line
+  80 : river
   81 : line
   82 : line
   83 : line
@@ -6961,7 +6960,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -6978,7 +6977,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -7046,7 +7045,7 @@
   77 : river
   78 : river
   79 : river
-  80 : line
+  80 : river
   81 : line
   82 : line
   83 : line
@@ -7090,7 +7089,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -7107,7 +7106,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -7175,7 +7174,7 @@
   77 : river
   78 : river
   79 : river
-  80 : line
+  80 : river
   81 : line
   82 : line
   83 : line
@@ -7219,7 +7218,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -7236,7 +7235,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -7301,10 +7300,10 @@
   74 : line
   75 : line
   76 : line
-  77 : line
-  78 : line
-  79 : line
-  80 : line
+  77 : river
+  78 : river
+  79 : river
+  80 : river
   81 : line
   82 : line
   83 : line
@@ -7348,7 +7347,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -7365,7 +7364,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -7477,7 +7476,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -7494,7 +7493,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -7606,7 +7605,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -7623,7 +7622,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -7735,7 +7734,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -7752,7 +7751,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -7864,7 +7863,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -7881,7 +7880,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -7993,7 +7992,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -8010,7 +8009,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -8122,7 +8121,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -8139,7 +8138,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -8251,7 +8250,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -8268,7 +8267,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -8380,7 +8379,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -8397,7 +8396,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -8509,7 +8508,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -8526,7 +8525,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -8638,7 +8637,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -8655,7 +8654,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -8767,7 +8766,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -8784,7 +8783,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -8896,7 +8895,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -8913,7 +8912,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -9025,7 +9024,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -9042,7 +9041,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -9154,7 +9153,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -9171,7 +9170,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -9283,7 +9282,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -9300,7 +9299,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -9412,7 +9411,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -9429,7 +9428,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -9541,7 +9540,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -9558,7 +9557,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -9670,7 +9669,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -9687,7 +9686,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -9799,7 +9798,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -9816,7 +9815,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -9928,7 +9927,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -9945,7 +9944,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -10057,7 +10056,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -10074,7 +10073,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -10186,7 +10185,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -10203,7 +10202,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -10315,7 +10314,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -10332,7 +10331,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -10444,7 +10443,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -10461,7 +10460,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -10505,7 +10504,7 @@
   53 : river
   54 : river
   55 : river
-  56 : line
+  56 : river
   57 : line
   58 : line
   59 : line
@@ -10573,7 +10572,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -10590,7 +10589,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -10634,7 +10633,7 @@
   53 : river
   54 : river
   55 : river
-  56 : line
+  56 : river
   57 : line
   58 : line
   59 : line
@@ -10702,7 +10701,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -10719,7 +10718,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -10763,7 +10762,7 @@
   53 : river
   54 : river
   55 : river
-  56 : line
+  56 : river
   57 : line
   58 : line
   59 : line
@@ -10831,7 +10830,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -10848,7 +10847,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -10892,7 +10891,7 @@
   53 : river
   54 : river
   55 : river
-  56 : line
+  56 : river
   57 : line
   58 : line
   59 : line
@@ -10960,7 +10959,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -10977,7 +10976,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -11009,7 +11008,7 @@
   41 : river
   42 : river
   43 : river
-  44 : line
+  44 : river
   45 : line
   46 : line
   47 : line
@@ -11021,7 +11020,7 @@
   53 : river
   54 : river
   55 : river
-  56 : line
+  56 : river
   57 : line
   58 : line
   59 : line
@@ -11089,7 +11088,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -11106,7 +11105,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -11138,7 +11137,7 @@
   41 : river
   42 : river
   43 : river
-  44 : line
+  44 : river
   45 : line
   46 : line
   47 : line
@@ -11150,7 +11149,7 @@
   53 : river
   54 : river
   55 : river
-  56 : line
+  56 : river
   57 : line
   58 : line
   59 : line
@@ -11218,7 +11217,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
@@ -11235,7 +11234,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : line
+  12 : boundary
   13 : line
   14 : line
   15 : line
@@ -11267,7 +11266,7 @@
   41 : river
   42 : river
   43 : river
-  44 : line
+  44 : river
   45 : line
   46 : line
   47 : line
@@ -11279,7 +11278,7 @@
   53 : river
   54 : river
   55 : river
-  56 : line
+  56 : river
   57 : line
   58 : line
   59 : line
@@ -11347,128 +11346,128 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : line
+  124 : boundary
   125 : line
   126 : line
   127 : line
 88:
-  0 : jungle
-  1 : jungle
-  2 : jungle
-  3 : jungle
-  4 : jungle
-  5 : jungle
-  6 : jungle
-  7 : jungle
-  8 : jungle
+  0 : line
+  1 : line
+  2 : line
+  3 : line
+  4 : line
+  5 : line
+  6 : line
+  7 : line
+  8 : line
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : jungle
+  12 : boundary
   13 : line
   14 : line
   15 : line
-  16 : jungle
+  16 : line
   17 : line
   18 : line
   19 : line
-  20 : jungle
-  21 : jungle
-  22 : jungle
-  23 : jungle
-  24 : jungle
-  25 : jungle
-  26 : jungle
-  27 : jungle
-  28 : jungle
-  29 : jungle
-  30 : jungle
-  31 : jungle
-  32 : jungle
-  33 : jungle
-  34 : jungle
-  35 : jungle
-  36 : jungle
-  37 : jungle
-  38 : jungle
-  39 : jungle
-  40 : jungle
-  41 : jungle
-  42 : jungle
-  43 : jungle
-  44 : jungle
-  45 : jungle
-  46 : jungle
-  47 : jungle
-  48 : jungle
-  49 : jungle
-  50 : jungle
-  51 : jungle
-  52 : jungle
-  53 : jungle
-  54 : jungle
-  55 : jungle
-  56 : jungle
-  57 : jungle
-  58 : jungle
-  59 : jungle
-  60 : jungle
-  61 : jungle
-  62 : jungle
-  63 : jungle
-  64 : jungle
-  65 : jungle
-  66 : jungle
-  67 : jungle
-  68 : jungle
-  69 : jungle
-  70 : jungle
-  71 : jungle
-  72 : jungle
-  73 : jungle
-  74 : jungle
-  75 : jungle
-  76 : jungle
-  77 : jungle
-  78 : jungle
-  79 : jungle
-  80 : jungle
-  81 : jungle
-  82 : jungle
-  83 : jungle
-  84 : jungle
-  85 : jungle
-  86 : jungle
-  87 : jungle
-  88 : jungle
-  89 : jungle
-  90 : jungle
-  91 : jungle
-  92 : jungle
-  93 : jungle
-  94 : jungle
-  95 : jungle
-  96 : jungle
-  97 : jungle
-  98 : jungle
-  99 : jungle
-  100 : jungle
-  101 : jungle
-  102 : jungle
-  103 : jungle
-  104 : jungle
-  105 : jungle
-  106 : jungle
-  107 : jungle
-  108 : jungle
-  109 : jungle
-  110 : jungle
-  111 : jungle
-  112 : jungle
-  113 : jungle
-  114 : jungle
-  115 : jungle
-  116 : jungle
+  20 : line
+  21 : line
+  22 : line
+  23 : line
+  24 : line
+  25 : line
+  26 : line
+  27 : line
+  28 : line
+  29 : line
+  30 : line
+  31 : line
+  32 : line
+  33 : line
+  34 : line
+  35 : line
+  36 : line
+  37 : line
+  38 : line
+  39 : line
+  40 : line
+  41 : river
+  42 : river
+  43 : river
+  44 : river
+  45 : line
+  46 : line
+  47 : line
+  48 : line
+  49 : line
+  50 : line
+  51 : line
+  52 : line
+  53 : river
+  54 : river
+  55 : river
+  56 : river
+  57 : line
+  58 : line
+  59 : line
+  60 : line
+  61 : line
+  62 : line
+  63 : line
+  64 : line
+  65 : line
+  66 : line
+  67 : line
+  68 : line
+  69 : line
+  70 : line
+  71 : line
+  72 : line
+  73 : line
+  74 : line
+  75 : line
+  76 : line
+  77 : line
+  78 : line
+  79 : line
+  80 : line
+  81 : line
+  82 : line
+  83 : line
+  84 : line
+  85 : line
+  86 : line
+  87 : line
+  88 : line
+  89 : line
+  90 : line
+  91 : line
+  92 : line
+  93 : line
+  94 : line
+  95 : line
+  96 : line
+  97 : line
+  98 : line
+  99 : line
+  100 : line
+  101 : line
+  102 : line
+  103 : line
+  104 : line
+  105 : line
+  106 : line
+  107 : line
+  108 : line
+  109 : line
+  110 : line
+  111 : line
+  112 : line
+  113 : line
+  114 : line
+  115 : line
+  116 : line
   117 : boundary
   118 : boundary
   119 : boundary
@@ -11476,10 +11475,10 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : jungle
-  125 : jungle
-  126 : jungle
-  127 : jungle
+  124 : boundary
+  125 : line
+  126 : line
+  127 : line
 89:
   0 : jungle
   1 : jungle
@@ -11493,15 +11492,15 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : jungle
+  12 : boundary
   13 : line
   14 : line
   15 : line
-  16 : jungle
+  16 : line
   17 : line
   18 : line
   19 : line
-  20 : jungle
+  20 : line
   21 : jungle
   22 : jungle
   23 : jungle
@@ -11533,11 +11532,11 @@
   49 : roshan
   50 : roshan
   51 : roshan
-  52 : jungle
+  52 : roshan
   53 : roshan
   54 : roshan
   55 : roshan
-  56 : jungle
+  56 : roshan
   57 : jungle
   58 : jungle
   59 : jungle
@@ -11597,7 +11596,7 @@
   113 : high_ground
   114 : high_ground
   115 : high_ground
-  116 : jungle
+  116 : high_ground
   117 : boundary
   118 : boundary
   119 : boundary
@@ -11605,7 +11604,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : jungle
+  124 : boundary
   125 : jungle
   126 : jungle
   127 : jungle
@@ -11622,15 +11621,15 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : jungle
+  12 : boundary
   13 : line
   14 : line
   15 : line
-  16 : jungle
+  16 : line
   17 : line
   18 : line
   19 : line
-  20 : jungle
+  20 : line
   21 : jungle
   22 : jungle
   23 : jungle
@@ -11662,11 +11661,11 @@
   49 : roshan
   50 : roshan
   51 : roshan
-  52 : jungle
+  52 : roshan
   53 : roshan
   54 : roshan
   55 : roshan
-  56 : jungle
+  56 : roshan
   57 : jungle
   58 : jungle
   59 : jungle
@@ -11726,7 +11725,7 @@
   113 : high_ground
   114 : high_ground
   115 : high_ground
-  116 : jungle
+  116 : high_ground
   117 : boundary
   118 : boundary
   119 : boundary
@@ -11734,7 +11733,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : jungle
+  124 : boundary
   125 : jungle
   126 : jungle
   127 : jungle
@@ -11751,15 +11750,15 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : jungle
+  12 : boundary
   13 : line
   14 : line
   15 : line
-  16 : jungle
+  16 : line
   17 : line
   18 : line
   19 : line
-  20 : jungle
+  20 : line
   21 : jungle
   22 : jungle
   23 : jungle
@@ -11791,11 +11790,11 @@
   49 : roshan
   50 : roshan
   51 : roshan
-  52 : jungle
+  52 : roshan
   53 : roshan
   54 : roshan
   55 : roshan
-  56 : jungle
+  56 : roshan
   57 : jungle
   58 : jungle
   59 : jungle
@@ -11855,7 +11854,7 @@
   113 : high_ground
   114 : high_ground
   115 : high_ground
-  116 : jungle
+  116 : high_ground
   117 : boundary
   118 : boundary
   119 : boundary
@@ -11863,7 +11862,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : jungle
+  124 : boundary
   125 : jungle
   126 : jungle
   127 : jungle
@@ -11880,15 +11879,15 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : jungle
+  12 : boundary
   13 : line
   14 : line
   15 : line
-  16 : jungle
+  16 : line
   17 : line
   18 : line
   19 : line
-  20 : jungle
+  20 : line
   21 : jungle
   22 : jungle
   23 : jungle
@@ -11920,11 +11919,11 @@
   49 : roshan
   50 : roshan
   51 : roshan
-  52 : jungle
+  52 : roshan
   53 : roshan
   54 : roshan
   55 : roshan
-  56 : jungle
+  56 : roshan
   57 : jungle
   58 : jungle
   59 : jungle
@@ -11984,7 +11983,7 @@
   113 : high_ground
   114 : high_ground
   115 : high_ground
-  116 : jungle
+  116 : high_ground
   117 : boundary
   118 : boundary
   119 : boundary
@@ -11992,7 +11991,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : jungle
+  124 : boundary
   125 : jungle
   126 : jungle
   127 : jungle
@@ -12009,15 +12008,15 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : jungle
+  12 : boundary
   13 : line
   14 : line
   15 : line
-  16 : jungle
+  16 : line
   17 : line
   18 : line
   19 : line
-  20 : jungle
+  20 : line
   21 : jungle
   22 : jungle
   23 : jungle
@@ -12045,15 +12044,15 @@
   45 : roshan
   46 : roshan
   47 : roshan
-  48 : jungle
+  48 : roshan
   49 : roshan
   50 : roshan
   51 : roshan
-  52 : jungle
+  52 : roshan
   53 : roshan
   54 : roshan
   55 : roshan
-  56 : jungle
+  56 : roshan
   57 : jungle
   58 : jungle
   59 : jungle
@@ -12093,7 +12092,7 @@
   93 : high_ground
   94 : high_ground
   95 : high_ground
-  96 : jungle
+  96 : high_ground
   97 : high_ground
   98 : high_ground
   99 : high_ground
@@ -12113,7 +12112,7 @@
   113 : high_ground
   114 : high_ground
   115 : high_ground
-  116 : jungle
+  116 : high_ground
   117 : boundary
   118 : boundary
   119 : boundary
@@ -12121,7 +12120,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : jungle
+  124 : boundary
   125 : jungle
   126 : jungle
   127 : jungle
@@ -12138,15 +12137,15 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : jungle
+  12 : boundary
   13 : line
   14 : line
   15 : line
-  16 : jungle
+  16 : line
   17 : line
   18 : line
   19 : line
-  20 : jungle
+  20 : line
   21 : jungle
   22 : jungle
   23 : jungle
@@ -12174,15 +12173,15 @@
   45 : roshan
   46 : roshan
   47 : roshan
-  48 : jungle
+  48 : roshan
   49 : roshan
   50 : roshan
   51 : roshan
-  52 : jungle
+  52 : roshan
   53 : roshan
   54 : roshan
   55 : roshan
-  56 : jungle
+  56 : roshan
   57 : jungle
   58 : jungle
   59 : jungle
@@ -12222,7 +12221,7 @@
   93 : high_ground
   94 : high_ground
   95 : high_ground
-  96 : jungle
+  96 : high_ground
   97 : high_ground
   98 : high_ground
   99 : high_ground
@@ -12242,7 +12241,7 @@
   113 : high_ground
   114 : high_ground
   115 : high_ground
-  116 : jungle
+  116 : high_ground
   117 : boundary
   118 : boundary
   119 : boundary
@@ -12250,7 +12249,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : jungle
+  124 : boundary
   125 : jungle
   126 : jungle
   127 : jungle
@@ -12267,15 +12266,15 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : jungle
+  12 : boundary
   13 : line
   14 : line
   15 : line
-  16 : jungle
+  16 : line
   17 : line
   18 : line
   19 : line
-  20 : jungle
+  20 : line
   21 : jungle
   22 : jungle
   23 : jungle
@@ -12303,15 +12302,15 @@
   45 : roshan
   46 : roshan
   47 : roshan
-  48 : jungle
+  48 : roshan
   49 : roshan
   50 : roshan
   51 : roshan
-  52 : jungle
+  52 : roshan
   53 : roshan
   54 : roshan
   55 : roshan
-  56 : jungle
+  56 : roshan
   57 : jungle
   58 : jungle
   59 : jungle
@@ -12351,7 +12350,7 @@
   93 : high_ground
   94 : high_ground
   95 : high_ground
-  96 : jungle
+  96 : high_ground
   97 : high_ground
   98 : high_ground
   99 : high_ground
@@ -12371,7 +12370,7 @@
   113 : high_ground
   114 : high_ground
   115 : high_ground
-  116 : jungle
+  116 : high_ground
   117 : boundary
   118 : boundary
   119 : boundary
@@ -12379,7 +12378,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : jungle
+  124 : boundary
   125 : jungle
   126 : jungle
   127 : jungle
@@ -12396,15 +12395,15 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : jungle
+  12 : boundary
   13 : line
   14 : line
   15 : line
-  16 : jungle
+  16 : line
   17 : line
   18 : line
   19 : line
-  20 : jungle
+  20 : line
   21 : jungle
   22 : jungle
   23 : jungle
@@ -12432,15 +12431,15 @@
   45 : roshan
   46 : roshan
   47 : roshan
-  48 : jungle
-  49 : jungle
-  50 : jungle
-  51 : jungle
-  52 : jungle
+  48 : roshan
+  49 : roshan
+  50 : roshan
+  51 : roshan
+  52 : roshan
   53 : roshan
   54 : roshan
   55 : roshan
-  56 : jungle
+  56 : roshan
   57 : jungle
   58 : jungle
   59 : jungle
@@ -12480,7 +12479,7 @@
   93 : high_ground
   94 : high_ground
   95 : high_ground
-  96 : jungle
+  96 : high_ground
   97 : high_ground
   98 : high_ground
   99 : high_ground
@@ -12500,7 +12499,7 @@
   113 : high_ground
   114 : high_ground
   115 : high_ground
-  116 : jungle
+  116 : high_ground
   117 : boundary
   118 : boundary
   119 : boundary
@@ -12508,7 +12507,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : jungle
+  124 : boundary
   125 : jungle
   126 : jungle
   127 : jungle
@@ -12525,15 +12524,15 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : jungle
+  12 : boundary
   13 : line
   14 : line
   15 : line
-  16 : jungle
+  16 : line
   17 : line
   18 : line
   19 : line
-  20 : jungle
+  20 : line
   21 : jungle
   22 : jungle
   23 : jungle
@@ -12561,7 +12560,7 @@
   45 : roshan
   46 : roshan
   47 : roshan
-  48 : jungle
+  48 : roshan
   49 : jungle
   50 : jungle
   51 : jungle
@@ -12569,7 +12568,7 @@
   53 : roshan
   54 : roshan
   55 : roshan
-  56 : jungle
+  56 : roshan
   57 : jungle
   58 : jungle
   59 : jungle
@@ -12605,11 +12604,11 @@
   89 : high_ground
   90 : high_ground
   91 : high_ground
-  92 : jungle
+  92 : high_ground
   93 : high_ground
   94 : high_ground
   95 : high_ground
-  96 : jungle
+  96 : high_ground
   97 : high_ground
   98 : high_ground
   99 : high_ground
@@ -12629,7 +12628,7 @@
   113 : high_ground
   114 : high_ground
   115 : high_ground
-  116 : jungle
+  116 : high_ground
   117 : boundary
   118 : boundary
   119 : boundary
@@ -12637,7 +12636,7 @@
   121 : boundary
   122 : boundary
   123 : boundary
-  124 : jungle
+  124 : boundary
   125 : jungle
   126 : jungle
   127 : jungle
@@ -12654,15 +12653,15 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : jungle
+  12 : boundary
   13 : line
   14 : line
   15 : line
-  16 : jungle
+  16 : line
   17 : line
   18 : line
   19 : line
-  20 : jungle
+  20 : line
   21 : jungle
   22 : jungle
   23 : jungle
@@ -12690,7 +12689,7 @@
   45 : roshan
   46 : roshan
   47 : roshan
-  48 : jungle
+  48 : roshan
   49 : jungle
   50 : jungle
   51 : jungle
@@ -12698,7 +12697,7 @@
   53 : roshan
   54 : roshan
   55 : roshan
-  56 : jungle
+  56 : roshan
   57 : jungle
   58 : jungle
   59 : jungle
@@ -12734,11 +12733,11 @@
   89 : high_ground
   90 : high_ground
   91 : high_ground
-  92 : jungle
+  92 : high_ground
   93 : high_ground
   94 : high_ground
   95 : high_ground
-  96 : jungle
+  96 : high_ground
   97 : high_ground
   98 : high_ground
   99 : high_ground
@@ -12758,15 +12757,15 @@
   113 : high_ground
   114 : high_ground
   115 : high_ground
-  116 : jungle
-  117 : jungle
-  118 : jungle
-  119 : jungle
-  120 : jungle
-  121 : jungle
-  122 : jungle
-  123 : jungle
-  124 : jungle
+  116 : high_ground
+  117 : boundary
+  118 : boundary
+  119 : boundary
+  120 : boundary
+  121 : boundary
+  122 : boundary
+  123 : boundary
+  124 : boundary
   125 : jungle
   126 : jungle
   127 : jungle
@@ -12783,15 +12782,15 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : jungle
+  12 : boundary
   13 : line
   14 : line
   15 : line
-  16 : jungle
+  16 : line
   17 : line
   18 : line
   19 : line
-  20 : jungle
+  20 : line
   21 : jungle
   22 : jungle
   23 : jungle
@@ -12819,7 +12818,7 @@
   45 : roshan
   46 : roshan
   47 : roshan
-  48 : jungle
+  48 : roshan
   49 : jungle
   50 : jungle
   51 : jungle
@@ -12827,7 +12826,7 @@
   53 : roshan
   54 : roshan
   55 : roshan
-  56 : jungle
+  56 : roshan
   57 : jungle
   58 : jungle
   59 : jungle
@@ -12863,11 +12862,11 @@
   89 : high_ground
   90 : high_ground
   91 : high_ground
-  92 : jungle
+  92 : high_ground
   93 : high_ground
   94 : high_ground
   95 : high_ground
-  96 : jungle
+  96 : high_ground
   97 : high_ground
   98 : high_ground
   99 : high_ground
@@ -12887,7 +12886,7 @@
   113 : high_ground
   114 : high_ground
   115 : high_ground
-  116 : jungle
+  116 : high_ground
   117 : jungle
   118 : jungle
   119 : jungle
@@ -12912,15 +12911,15 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : jungle
+  12 : boundary
   13 : line
   14 : line
   15 : line
-  16 : jungle
+  16 : line
   17 : line
   18 : line
   19 : line
-  20 : jungle
+  20 : line
   21 : jungle
   22 : jungle
   23 : jungle
@@ -12948,7 +12947,7 @@
   45 : roshan
   46 : roshan
   47 : roshan
-  48 : jungle
+  48 : roshan
   49 : jungle
   50 : jungle
   51 : jungle
@@ -12956,7 +12955,7 @@
   53 : roshan
   54 : roshan
   55 : roshan
-  56 : jungle
+  56 : roshan
   57 : jungle
   58 : jungle
   59 : jungle
@@ -12992,11 +12991,11 @@
   89 : high_ground
   90 : high_ground
   91 : high_ground
-  92 : jungle
+  92 : high_ground
   93 : high_ground
   94 : high_ground
   95 : high_ground
-  96 : jungle
+  96 : high_ground
   97 : high_ground
   98 : high_ground
   99 : high_ground
@@ -13016,7 +13015,7 @@
   113 : high_ground
   114 : high_ground
   115 : high_ground
-  116 : jungle
+  116 : high_ground
   117 : jungle
   118 : jungle
   119 : jungle
@@ -13041,15 +13040,15 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : jungle
+  12 : boundary
   13 : line
   14 : line
   15 : line
-  16 : jungle
+  16 : line
   17 : line
   18 : line
   19 : line
-  20 : jungle
+  20 : line
   21 : jungle
   22 : jungle
   23 : jungle
@@ -13077,7 +13076,7 @@
   45 : roshan
   46 : roshan
   47 : roshan
-  48 : jungle
+  48 : roshan
   49 : jungle
   50 : jungle
   51 : jungle
@@ -13085,7 +13084,7 @@
   53 : roshan
   54 : roshan
   55 : roshan
-  56 : jungle
+  56 : roshan
   57 : jungle
   58 : jungle
   59 : jungle
@@ -13117,15 +13116,15 @@
   85 : high_ground
   86 : high_ground
   87 : high_ground
-  88 : jungle
+  88 : high_ground
   89 : high_ground
   90 : high_ground
   91 : high_ground
-  92 : jungle
+  92 : high_ground
   93 : high_ground
   94 : high_ground
   95 : high_ground
-  96 : jungle
+  96 : high_ground
   97 : high_ground
   98 : high_ground
   99 : high_ground
@@ -13145,7 +13144,7 @@
   113 : high_ground
   114 : high_ground
   115 : high_ground
-  116 : jungle
+  116 : high_ground
   117 : jungle
   118 : jungle
   119 : jungle
@@ -13170,15 +13169,15 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : jungle
+  12 : boundary
   13 : line
   14 : line
   15 : line
-  16 : jungle
+  16 : line
   17 : line
   18 : line
   19 : line
-  20 : jungle
+  20 : line
   21 : jungle
   22 : jungle
   23 : jungle
@@ -13206,7 +13205,7 @@
   45 : roshan
   46 : roshan
   47 : roshan
-  48 : jungle
+  48 : roshan
   49 : jungle
   50 : jungle
   51 : jungle
@@ -13214,7 +13213,7 @@
   53 : roshan
   54 : roshan
   55 : roshan
-  56 : jungle
+  56 : roshan
   57 : jungle
   58 : jungle
   59 : jungle
@@ -13246,15 +13245,15 @@
   85 : high_ground
   86 : high_ground
   87 : high_ground
-  88 : jungle
+  88 : high_ground
   89 : high_ground
   90 : high_ground
   91 : high_ground
-  92 : jungle
+  92 : high_ground
   93 : high_ground
   94 : high_ground
   95 : high_ground
-  96 : jungle
+  96 : high_ground
   97 : high_ground
   98 : high_ground
   99 : high_ground
@@ -13274,7 +13273,7 @@
   113 : high_ground
   114 : high_ground
   115 : high_ground
-  116 : jungle
+  116 : high_ground
   117 : jungle
   118 : jungle
   119 : jungle
@@ -13299,15 +13298,15 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : jungle
+  12 : boundary
   13 : line
   14 : line
   15 : line
-  16 : jungle
+  16 : line
   17 : line
   18 : line
   19 : line
-  20 : jungle
+  20 : line
   21 : jungle
   22 : jungle
   23 : jungle
@@ -13335,7 +13334,7 @@
   45 : roshan
   46 : roshan
   47 : roshan
-  48 : jungle
+  48 : roshan
   49 : jungle
   50 : jungle
   51 : jungle
@@ -13343,7 +13342,7 @@
   53 : roshan
   54 : roshan
   55 : roshan
-  56 : jungle
+  56 : roshan
   57 : jungle
   58 : jungle
   59 : jungle
@@ -13375,15 +13374,15 @@
   85 : high_ground
   86 : high_ground
   87 : high_ground
-  88 : jungle
+  88 : high_ground
   89 : high_ground
   90 : high_ground
   91 : high_ground
-  92 : jungle
+  92 : high_ground
   93 : high_ground
   94 : high_ground
   95 : high_ground
-  96 : jungle
+  96 : high_ground
   97 : high_ground
   98 : high_ground
   99 : high_ground
@@ -13403,7 +13402,7 @@
   113 : high_ground
   114 : high_ground
   115 : high_ground
-  116 : jungle
+  116 : high_ground
   117 : jungle
   118 : jungle
   119 : jungle
@@ -13428,15 +13427,15 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : jungle
+  12 : boundary
   13 : line
   14 : line
   15 : line
-  16 : jungle
+  16 : line
   17 : line
   18 : line
   19 : line
-  20 : jungle
+  20 : line
   21 : jungle
   22 : jungle
   23 : jungle
@@ -13461,18 +13460,18 @@
   42 : jungle
   43 : jungle
   44 : jungle
-  45 : jungle
-  46 : jungle
-  47 : jungle
-  48 : jungle
+  45 : roshan
+  46 : roshan
+  47 : roshan
+  48 : roshan
   49 : jungle
   50 : jungle
   51 : jungle
   52 : jungle
-  53 : jungle
-  54 : jungle
-  55 : jungle
-  56 : jungle
+  53 : roshan
+  54 : roshan
+  55 : roshan
+  56 : roshan
   57 : jungle
   58 : jungle
   59 : jungle
@@ -13504,15 +13503,15 @@
   85 : high_ground
   86 : high_ground
   87 : high_ground
-  88 : jungle
+  88 : high_ground
   89 : high_ground
   90 : high_ground
   91 : high_ground
-  92 : jungle
+  92 : high_ground
   93 : high_ground
   94 : high_ground
   95 : high_ground
-  96 : jungle
+  96 : high_ground
   97 : high_ground
   98 : high_ground
   99 : high_ground
@@ -13532,7 +13531,7 @@
   113 : high_ground
   114 : high_ground
   115 : high_ground
-  116 : jungle
+  116 : high_ground
   117 : jungle
   118 : jungle
   119 : jungle
@@ -13557,19 +13556,19 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : jungle
+  12 : boundary
   13 : line
   14 : line
   15 : line
-  16 : jungle
+  16 : line
   17 : line
   18 : line
   19 : line
-  20 : jungle
+  20 : line
   21 : line
   22 : line
   23 : line
-  24 : jungle
+  24 : line
   25 : jungle
   26 : jungle
   27 : jungle
@@ -13633,15 +13632,15 @@
   85 : high_ground
   86 : high_ground
   87 : high_ground
-  88 : jungle
+  88 : high_ground
   89 : high_ground
   90 : high_ground
   91 : high_ground
-  92 : jungle
+  92 : high_ground
   93 : high_ground
   94 : high_ground
   95 : high_ground
-  96 : jungle
+  96 : high_ground
   97 : high_ground
   98 : high_ground
   99 : high_ground
@@ -13661,7 +13660,7 @@
   113 : high_ground
   114 : high_ground
   115 : high_ground
-  116 : jungle
+  116 : high_ground
   117 : jungle
   118 : jungle
   119 : jungle
@@ -13686,19 +13685,19 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : jungle
+  12 : boundary
   13 : line
   14 : line
   15 : line
-  16 : jungle
+  16 : line
   17 : line
   18 : line
   19 : line
-  20 : jungle
+  20 : line
   21 : line
   22 : line
   23 : line
-  24 : jungle
+  24 : line
   25 : jungle
   26 : jungle
   27 : jungle
@@ -13762,15 +13761,15 @@
   85 : high_ground
   86 : high_ground
   87 : high_ground
-  88 : jungle
+  88 : high_ground
   89 : high_ground
   90 : high_ground
   91 : high_ground
-  92 : jungle
+  92 : high_ground
   93 : high_ground
   94 : high_ground
   95 : high_ground
-  96 : jungle
+  96 : high_ground
   97 : high_ground
   98 : high_ground
   99 : high_ground
@@ -13790,7 +13789,7 @@
   113 : high_ground
   114 : high_ground
   115 : high_ground
-  116 : jungle
+  116 : high_ground
   117 : jungle
   118 : jungle
   119 : jungle
@@ -13815,19 +13814,19 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : jungle
+  12 : boundary
   13 : line
   14 : line
   15 : line
-  16 : jungle
+  16 : line
   17 : line
   18 : line
   19 : line
-  20 : jungle
+  20 : line
   21 : line
   22 : line
   23 : line
-  24 : jungle
+  24 : line
   25 : jungle
   26 : jungle
   27 : jungle
@@ -13891,15 +13890,15 @@
   85 : high_ground
   86 : high_ground
   87 : high_ground
-  88 : jungle
+  88 : high_ground
   89 : high_ground
   90 : high_ground
   91 : high_ground
-  92 : jungle
+  92 : high_ground
   93 : high_ground
   94 : high_ground
   95 : high_ground
-  96 : jungle
+  96 : high_ground
   97 : high_ground
   98 : high_ground
   99 : high_ground
@@ -13919,7 +13918,7 @@
   113 : high_ground
   114 : high_ground
   115 : high_ground
-  116 : jungle
+  116 : high_ground
   117 : jungle
   118 : jungle
   119 : jungle
@@ -13944,19 +13943,19 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : jungle
+  12 : boundary
   13 : line
   14 : line
   15 : line
-  16 : jungle
+  16 : line
   17 : line
   18 : line
   19 : line
-  20 : jungle
+  20 : line
   21 : line
   22 : line
   23 : line
-  24 : jungle
+  24 : line
   25 : jungle
   26 : jungle
   27 : jungle
@@ -14020,15 +14019,15 @@
   85 : high_ground
   86 : high_ground
   87 : high_ground
-  88 : jungle
+  88 : high_ground
   89 : high_ground
   90 : high_ground
   91 : high_ground
-  92 : jungle
+  92 : high_ground
   93 : high_ground
   94 : high_ground
   95 : high_ground
-  96 : jungle
+  96 : high_ground
   97 : high_ground
   98 : high_ground
   99 : high_ground
@@ -14048,7 +14047,7 @@
   113 : high_ground
   114 : high_ground
   115 : high_ground
-  116 : jungle
+  116 : high_ground
   117 : jungle
   118 : jungle
   119 : jungle
@@ -14073,19 +14072,19 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : jungle
+  12 : boundary
   13 : line
   14 : line
   15 : line
-  16 : jungle
+  16 : line
   17 : line
   18 : line
   19 : line
-  20 : jungle
+  20 : line
   21 : line
   22 : line
   23 : line
-  24 : jungle
+  24 : line
   25 : jungle
   26 : jungle
   27 : jungle
@@ -14109,7 +14108,7 @@
   45 : line
   46 : line
   47 : line
-  48 : jungle
+  48 : line
   49 : jungle
   50 : jungle
   51 : jungle
@@ -14149,15 +14148,15 @@
   85 : high_ground
   86 : high_ground
   87 : high_ground
-  88 : jungle
+  88 : high_ground
   89 : high_ground
   90 : high_ground
   91 : high_ground
-  92 : jungle
+  92 : high_ground
   93 : high_ground
   94 : high_ground
   95 : high_ground
-  96 : jungle
+  96 : high_ground
   97 : high_ground
   98 : high_ground
   99 : high_ground
@@ -14177,7 +14176,7 @@
   113 : high_ground
   114 : high_ground
   115 : high_ground
-  116 : jungle
+  116 : high_ground
   117 : jungle
   118 : jungle
   119 : jungle
@@ -14202,19 +14201,19 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : jungle
+  12 : boundary
   13 : line
   14 : line
   15 : line
-  16 : jungle
+  16 : line
   17 : line
   18 : line
   19 : line
-  20 : jungle
+  20 : line
   21 : line
   22 : line
   23 : line
-  24 : jungle
+  24 : line
   25 : jungle
   26 : jungle
   27 : jungle
@@ -14238,7 +14237,7 @@
   45 : line
   46 : line
   47 : line
-  48 : jungle
+  48 : line
   49 : jungle
   50 : jungle
   51 : jungle
@@ -14278,15 +14277,15 @@
   85 : high_ground
   86 : high_ground
   87 : high_ground
-  88 : jungle
+  88 : high_ground
   89 : high_ground
   90 : high_ground
   91 : high_ground
-  92 : jungle
+  92 : high_ground
   93 : high_ground
   94 : high_ground
   95 : high_ground
-  96 : jungle
+  96 : high_ground
   97 : high_ground
   98 : high_ground
   99 : high_ground
@@ -14306,7 +14305,7 @@
   113 : high_ground
   114 : high_ground
   115 : high_ground
-  116 : jungle
+  116 : high_ground
   117 : jungle
   118 : jungle
   119 : jungle
@@ -14331,19 +14330,19 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : jungle
+  12 : boundary
   13 : line
   14 : line
   15 : line
-  16 : jungle
+  16 : line
   17 : line
   18 : line
   19 : line
-  20 : jungle
+  20 : line
   21 : line
   22 : line
   23 : line
-  24 : jungle
+  24 : line
   25 : jungle
   26 : jungle
   27 : jungle
@@ -14367,7 +14366,7 @@
   45 : line
   46 : line
   47 : line
-  48 : jungle
+  48 : line
   49 : jungle
   50 : jungle
   51 : jungle
@@ -14407,15 +14406,15 @@
   85 : high_ground
   86 : high_ground
   87 : high_ground
-  88 : jungle
+  88 : high_ground
   89 : high_ground
   90 : high_ground
   91 : high_ground
-  92 : jungle
+  92 : high_ground
   93 : high_ground
   94 : high_ground
   95 : high_ground
-  96 : jungle
+  96 : high_ground
   97 : high_ground
   98 : high_ground
   99 : high_ground
@@ -14435,7 +14434,7 @@
   113 : high_ground
   114 : high_ground
   115 : high_ground
-  116 : jungle
+  116 : high_ground
   117 : jungle
   118 : jungle
   119 : jungle
@@ -14460,19 +14459,19 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : jungle
+  12 : boundary
   13 : line
   14 : line
   15 : line
-  16 : jungle
+  16 : line
   17 : line
   18 : line
   19 : line
-  20 : jungle
+  20 : line
   21 : line
   22 : line
   23 : line
-  24 : jungle
+  24 : line
   25 : jungle
   26 : jungle
   27 : jungle
@@ -14485,18 +14484,18 @@
   34 : jungle
   35 : jungle
   36 : jungle
-  37 : jungle
-  38 : jungle
-  39 : jungle
-  40 : jungle
-  41 : jungle
-  42 : jungle
-  43 : jungle
-  44 : jungle
-  45 : jungle
-  46 : jungle
-  47 : jungle
-  48 : jungle
+  37 : line
+  38 : line
+  39 : line
+  40 : line
+  41 : line
+  42 : line
+  43 : line
+  44 : line
+  45 : line
+  46 : line
+  47 : line
+  48 : line
   49 : jungle
   50 : jungle
   51 : jungle
@@ -14536,15 +14535,15 @@
   85 : high_ground
   86 : high_ground
   87 : high_ground
-  88 : jungle
+  88 : high_ground
   89 : high_ground
   90 : high_ground
   91 : high_ground
-  92 : jungle
+  92 : high_ground
   93 : high_ground
   94 : high_ground
   95 : high_ground
-  96 : jungle
+  96 : high_ground
   97 : high_ground
   98 : high_ground
   99 : high_ground
@@ -14564,7 +14563,7 @@
   113 : high_ground
   114 : high_ground
   115 : high_ground
-  116 : jungle
+  116 : high_ground
   117 : jungle
   118 : jungle
   119 : jungle
@@ -14589,19 +14588,19 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : jungle
+  12 : boundary
   13 : line
   14 : line
   15 : line
-  16 : jungle
+  16 : line
   17 : line
   18 : line
   19 : line
-  20 : jungle
+  20 : line
   21 : line
   22 : line
   23 : line
-  24 : jungle
+  24 : line
   25 : line
   26 : line
   27 : line
@@ -14661,19 +14660,19 @@
   81 : line
   82 : line
   83 : line
-  84 : jungle
+  84 : line
   85 : high_ground
   86 : high_ground
   87 : high_ground
-  88 : jungle
+  88 : high_ground
   89 : high_ground
   90 : high_ground
   91 : high_ground
-  92 : jungle
+  92 : high_ground
   93 : high_ground
   94 : high_ground
   95 : high_ground
-  96 : jungle
+  96 : high_ground
   97 : high_ground
   98 : high_ground
   99 : high_ground
@@ -14693,7 +14692,7 @@
   113 : high_ground
   114 : high_ground
   115 : high_ground
-  116 : jungle
+  116 : high_ground
   117 : jungle
   118 : jungle
   119 : jungle
@@ -14718,19 +14717,19 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : jungle
+  12 : boundary
   13 : line
   14 : line
   15 : line
-  16 : jungle
+  16 : line
   17 : line
   18 : line
   19 : line
-  20 : jungle
+  20 : line
   21 : line
   22 : line
   23 : line
-  24 : jungle
+  24 : line
   25 : line
   26 : line
   27 : line
@@ -14790,19 +14789,19 @@
   81 : line
   82 : line
   83 : line
-  84 : jungle
+  84 : line
   85 : high_ground
   86 : high_ground
   87 : high_ground
-  88 : jungle
+  88 : high_ground
   89 : high_ground
   90 : high_ground
   91 : high_ground
-  92 : jungle
+  92 : high_ground
   93 : high_ground
   94 : high_ground
   95 : high_ground
-  96 : jungle
+  96 : high_ground
   97 : high_ground
   98 : high_ground
   99 : high_ground
@@ -14822,7 +14821,7 @@
   113 : high_ground
   114 : high_ground
   115 : high_ground
-  116 : jungle
+  116 : high_ground
   117 : jungle
   118 : jungle
   119 : jungle
@@ -14847,19 +14846,19 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : jungle
+  12 : boundary
   13 : line
   14 : line
   15 : line
-  16 : jungle
+  16 : line
   17 : line
   18 : line
   19 : line
-  20 : jungle
+  20 : line
   21 : line
   22 : line
   23 : line
-  24 : jungle
+  24 : line
   25 : line
   26 : line
   27 : line
@@ -14919,19 +14918,19 @@
   81 : line
   82 : line
   83 : line
-  84 : jungle
+  84 : line
   85 : high_ground
   86 : high_ground
   87 : high_ground
-  88 : jungle
+  88 : high_ground
   89 : high_ground
   90 : high_ground
   91 : high_ground
-  92 : jungle
+  92 : high_ground
   93 : high_ground
   94 : high_ground
   95 : high_ground
-  96 : jungle
+  96 : high_ground
   97 : high_ground
   98 : high_ground
   99 : high_ground
@@ -14951,7 +14950,7 @@
   113 : high_ground
   114 : high_ground
   115 : high_ground
-  116 : jungle
+  116 : high_ground
   117 : jungle
   118 : jungle
   119 : jungle
@@ -14976,19 +14975,19 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : jungle
-  13 : jungle
-  14 : jungle
-  15 : jungle
-  16 : jungle
-  17 : jungle
-  18 : jungle
-  19 : jungle
-  20 : jungle
-  21 : jungle
-  22 : jungle
-  23 : jungle
-  24 : jungle
+  12 : boundary
+  13 : line
+  14 : line
+  15 : line
+  16 : line
+  17 : line
+  18 : line
+  19 : line
+  20 : line
+  21 : line
+  22 : line
+  23 : line
+  24 : line
   25 : line
   26 : line
   27 : line
@@ -15048,19 +15047,19 @@
   81 : line
   82 : line
   83 : line
-  84 : jungle
+  84 : line
   85 : high_ground
   86 : high_ground
   87 : high_ground
-  88 : jungle
+  88 : high_ground
   89 : high_ground
   90 : high_ground
   91 : high_ground
-  92 : jungle
+  92 : high_ground
   93 : high_ground
   94 : high_ground
   95 : high_ground
-  96 : jungle
+  96 : high_ground
   97 : high_ground
   98 : high_ground
   99 : high_ground
@@ -15080,7 +15079,7 @@
   113 : high_ground
   114 : high_ground
   115 : high_ground
-  116 : jungle
+  116 : high_ground
   117 : jungle
   118 : jungle
   119 : jungle
@@ -15105,7 +15104,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : jungle
+  12 : boundary
   13 : boundary
   14 : boundary
   15 : boundary
@@ -15117,7 +15116,7 @@
   21 : boundary
   22 : boundary
   23 : boundary
-  24 : jungle
+  24 : boundary
   25 : line
   26 : line
   27 : line
@@ -15177,19 +15176,19 @@
   81 : line
   82 : line
   83 : line
-  84 : jungle
+  84 : line
   85 : high_ground
   86 : high_ground
   87 : high_ground
-  88 : jungle
+  88 : high_ground
   89 : high_ground
   90 : high_ground
   91 : high_ground
-  92 : jungle
+  92 : high_ground
   93 : high_ground
   94 : high_ground
   95 : high_ground
-  96 : jungle
+  96 : high_ground
   97 : high_ground
   98 : high_ground
   99 : high_ground
@@ -15209,7 +15208,7 @@
   113 : high_ground
   114 : high_ground
   115 : high_ground
-  116 : jungle
+  116 : high_ground
   117 : jungle
   118 : jungle
   119 : jungle
@@ -15234,7 +15233,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : jungle
+  12 : boundary
   13 : boundary
   14 : boundary
   15 : boundary
@@ -15246,7 +15245,7 @@
   21 : boundary
   22 : boundary
   23 : boundary
-  24 : jungle
+  24 : boundary
   25 : line
   26 : line
   27 : line
@@ -15306,19 +15305,19 @@
   81 : line
   82 : line
   83 : line
-  84 : jungle
+  84 : line
   85 : high_ground
   86 : high_ground
   87 : high_ground
-  88 : jungle
+  88 : high_ground
   89 : high_ground
   90 : high_ground
   91 : high_ground
-  92 : jungle
+  92 : high_ground
   93 : high_ground
   94 : high_ground
   95 : high_ground
-  96 : jungle
+  96 : high_ground
   97 : high_ground
   98 : high_ground
   99 : high_ground
@@ -15338,7 +15337,7 @@
   113 : high_ground
   114 : high_ground
   115 : high_ground
-  116 : jungle
+  116 : high_ground
   117 : jungle
   118 : jungle
   119 : jungle
@@ -15363,7 +15362,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : jungle
+  12 : boundary
   13 : boundary
   14 : boundary
   15 : boundary
@@ -15375,7 +15374,7 @@
   21 : boundary
   22 : boundary
   23 : boundary
-  24 : jungle
+  24 : boundary
   25 : line
   26 : line
   27 : line
@@ -15435,19 +15434,19 @@
   81 : line
   82 : line
   83 : line
-  84 : jungle
+  84 : line
   85 : high_ground
   86 : high_ground
   87 : high_ground
-  88 : jungle
+  88 : high_ground
   89 : high_ground
   90 : high_ground
   91 : high_ground
-  92 : jungle
+  92 : high_ground
   93 : high_ground
   94 : high_ground
   95 : high_ground
-  96 : jungle
+  96 : high_ground
   97 : high_ground
   98 : high_ground
   99 : high_ground
@@ -15467,7 +15466,7 @@
   113 : high_ground
   114 : high_ground
   115 : high_ground
-  116 : jungle
+  116 : high_ground
   117 : jungle
   118 : jungle
   119 : jungle
@@ -15492,7 +15491,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : jungle
+  12 : boundary
   13 : boundary
   14 : boundary
   15 : boundary
@@ -15504,79 +15503,79 @@
   21 : boundary
   22 : boundary
   23 : boundary
-  24 : jungle
-  25 : jungle
-  26 : jungle
-  27 : jungle
-  28 : jungle
-  29 : jungle
-  30 : jungle
-  31 : jungle
-  32 : jungle
-  33 : jungle
-  34 : jungle
-  35 : jungle
-  36 : jungle
-  37 : jungle
-  38 : jungle
-  39 : jungle
-  40 : jungle
-  41 : jungle
-  42 : jungle
-  43 : jungle
-  44 : jungle
-  45 : jungle
-  46 : jungle
-  47 : jungle
-  48 : jungle
-  49 : jungle
-  50 : jungle
-  51 : jungle
-  52 : jungle
-  53 : jungle
-  54 : jungle
-  55 : jungle
-  56 : jungle
-  57 : jungle
-  58 : jungle
-  59 : jungle
-  60 : jungle
-  61 : jungle
-  62 : jungle
-  63 : jungle
-  64 : jungle
-  65 : jungle
-  66 : jungle
-  67 : jungle
-  68 : jungle
-  69 : jungle
-  70 : jungle
-  71 : jungle
-  72 : jungle
-  73 : jungle
-  74 : jungle
-  75 : jungle
-  76 : jungle
-  77 : jungle
-  78 : jungle
-  79 : jungle
-  80 : jungle
-  81 : jungle
-  82 : jungle
-  83 : jungle
-  84 : jungle
+  24 : boundary
+  25 : line
+  26 : line
+  27 : line
+  28 : line
+  29 : line
+  30 : line
+  31 : line
+  32 : line
+  33 : line
+  34 : line
+  35 : line
+  36 : line
+  37 : line
+  38 : line
+  39 : line
+  40 : line
+  41 : line
+  42 : line
+  43 : line
+  44 : line
+  45 : line
+  46 : line
+  47 : line
+  48 : line
+  49 : line
+  50 : line
+  51 : line
+  52 : line
+  53 : line
+  54 : line
+  55 : line
+  56 : line
+  57 : line
+  58 : line
+  59 : line
+  60 : line
+  61 : line
+  62 : line
+  63 : line
+  64 : line
+  65 : line
+  66 : line
+  67 : line
+  68 : line
+  69 : line
+  70 : line
+  71 : line
+  72 : line
+  73 : line
+  74 : line
+  75 : line
+  76 : line
+  77 : line
+  78 : line
+  79 : line
+  80 : line
+  81 : line
+  82 : line
+  83 : line
+  84 : line
   85 : high_ground
   86 : high_ground
   87 : high_ground
-  88 : jungle
+  88 : high_ground
   89 : high_ground
   90 : high_ground
   91 : high_ground
-  92 : jungle
+  92 : high_ground
   93 : high_ground
   94 : high_ground
   95 : high_ground
-  96 : jungle
+  96 : high_ground
   97 : high_ground
   98 : high_ground
   99 : high_ground
@@ -15596,7 +15595,7 @@
   113 : high_ground
   114 : high_ground
   115 : high_ground
-  116 : jungle
+  116 : high_ground
   117 : jungle
   118 : jungle
   119 : jungle
@@ -15621,7 +15620,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : jungle
+  12 : boundary
   13 : boundary
   14 : boundary
   15 : boundary
@@ -15633,7 +15632,7 @@
   21 : boundary
   22 : boundary
   23 : boundary
-  24 : jungle
+  24 : boundary
   25 : boundary
   26 : boundary
   27 : boundary
@@ -15693,19 +15692,19 @@
   81 : boundary
   82 : boundary
   83 : boundary
-  84 : jungle
+  84 : boundary
   85 : high_ground
   86 : high_ground
   87 : high_ground
-  88 : jungle
+  88 : high_ground
   89 : high_ground
   90 : high_ground
   91 : high_ground
-  92 : jungle
+  92 : high_ground
   93 : high_ground
   94 : high_ground
   95 : high_ground
-  96 : jungle
+  96 : high_ground
   97 : high_ground
   98 : high_ground
   99 : high_ground
@@ -15725,7 +15724,7 @@
   113 : high_ground
   114 : high_ground
   115 : high_ground
-  116 : jungle
+  116 : high_ground
   117 : jungle
   118 : jungle
   119 : jungle
@@ -15750,7 +15749,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : jungle
+  12 : boundary
   13 : boundary
   14 : boundary
   15 : boundary
@@ -15762,7 +15761,7 @@
   21 : boundary
   22 : boundary
   23 : boundary
-  24 : jungle
+  24 : boundary
   25 : boundary
   26 : boundary
   27 : boundary
@@ -15822,19 +15821,19 @@
   81 : boundary
   82 : boundary
   83 : boundary
-  84 : jungle
+  84 : boundary
   85 : high_ground
   86 : high_ground
   87 : high_ground
-  88 : jungle
+  88 : high_ground
   89 : high_ground
   90 : high_ground
   91 : high_ground
-  92 : jungle
+  92 : high_ground
   93 : high_ground
   94 : high_ground
   95 : high_ground
-  96 : jungle
+  96 : high_ground
   97 : high_ground
   98 : high_ground
   99 : high_ground
@@ -15854,7 +15853,7 @@
   113 : high_ground
   114 : high_ground
   115 : high_ground
-  116 : jungle
+  116 : high_ground
   117 : jungle
   118 : jungle
   119 : jungle
@@ -15879,7 +15878,7 @@
   9 : boundary
   10 : boundary
   11 : boundary
-  12 : jungle
+  12 : boundary
   13 : boundary
   14 : boundary
   15 : boundary
@@ -15891,7 +15890,7 @@
   21 : boundary
   22 : boundary
   23 : boundary
-  24 : jungle
+  24 : boundary
   25 : boundary
   26 : boundary
   27 : boundary
@@ -15951,19 +15950,19 @@
   81 : boundary
   82 : boundary
   83 : boundary
-  84 : jungle
+  84 : boundary
   85 : high_ground
   86 : high_ground
   87 : high_ground
-  88 : jungle
+  88 : high_ground
   89 : high_ground
   90 : high_ground
   91 : high_ground
-  92 : jungle
+  92 : high_ground
   93 : high_ground
   94 : high_ground
   95 : high_ground
-  96 : jungle
+  96 : high_ground
   97 : high_ground
   98 : high_ground
   99 : high_ground
@@ -15983,7 +15982,7 @@
   113 : high_ground
   114 : high_ground
   115 : high_ground
-  116 : jungle
+  116 : high_ground
   117 : jungle
   118 : jungle
   119 : jungle
@@ -16005,10 +16004,10 @@
   6 : jungle
   7 : jungle
   8 : jungle
-  9 : jungle
-  10 : jungle
-  11 : jungle
-  12 : jungle
+  9 : boundary
+  10 : boundary
+  11 : boundary
+  12 : boundary
   13 : boundary
   14 : boundary
   15 : boundary
@@ -16020,7 +16019,7 @@
   21 : boundary
   22 : boundary
   23 : boundary
-  24 : jungle
+  24 : boundary
   25 : boundary
   26 : boundary
   27 : boundary
@@ -16080,39 +16079,39 @@
   81 : boundary
   82 : boundary
   83 : boundary
-  84 : jungle
-  85 : jungle
-  86 : jungle
-  87 : jungle
-  88 : jungle
-  89 : jungle
-  90 : jungle
-  91 : jungle
-  92 : jungle
-  93 : jungle
-  94 : jungle
-  95 : jungle
-  96 : jungle
-  97 : jungle
-  98 : jungle
-  99 : jungle
-  100 : jungle
-  101 : jungle
-  102 : jungle
-  103 : jungle
-  104 : jungle
-  105 : jungle
-  106 : jungle
-  107 : jungle
-  108 : jungle
-  109 : jungle
-  110 : jungle
-  111 : jungle
-  112 : jungle
-  113 : jungle
-  114 : jungle
-  115 : jungle
-  116 : jungle
+  84 : boundary
+  85 : high_ground
+  86 : high_ground
+  87 : high_ground
+  88 : high_ground
+  89 : high_ground
+  90 : high_ground
+  91 : high_ground
+  92 : high_ground
+  93 : high_ground
+  94 : high_ground
+  95 : high_ground
+  96 : high_ground
+  97 : high_ground
+  98 : high_ground
+  99 : high_ground
+  100 : high_ground
+  101 : high_ground
+  102 : high_ground
+  103 : high_ground
+  104 : high_ground
+  105 : high_ground
+  106 : high_ground
+  107 : high_ground
+  108 : high_ground
+  109 : high_ground
+  110 : high_ground
+  111 : high_ground
+  112 : high_ground
+  113 : high_ground
+  114 : high_ground
+  115 : high_ground
+  116 : high_ground
   117 : jungle
   118 : jungle
   119 : jungle
@@ -16149,7 +16148,7 @@
   21 : boundary
   22 : boundary
   23 : boundary
-  24 : jungle
+  24 : boundary
   25 : boundary
   26 : boundary
   27 : boundary
@@ -16209,7 +16208,7 @@
   81 : boundary
   82 : boundary
   83 : boundary
-  84 : jungle
+  84 : boundary
   85 : jungle
   86 : jungle
   87 : jungle
@@ -16278,7 +16277,7 @@
   21 : boundary
   22 : boundary
   23 : boundary
-  24 : jungle
+  24 : boundary
   25 : boundary
   26 : boundary
   27 : boundary
@@ -16338,7 +16337,7 @@
   81 : boundary
   82 : boundary
   83 : boundary
-  84 : jungle
+  84 : boundary
   85 : jungle
   86 : jungle
   87 : jungle
@@ -16407,7 +16406,7 @@
   21 : boundary
   22 : boundary
   23 : boundary
-  24 : jungle
+  24 : boundary
   25 : boundary
   26 : boundary
   27 : boundary
@@ -16467,7 +16466,7 @@
   81 : boundary
   82 : boundary
   83 : boundary
-  84 : jungle
+  84 : boundary
   85 : jungle
   86 : jungle
   87 : jungle
