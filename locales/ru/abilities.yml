@@ -7011,7 +7011,7 @@ abilitydata:
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 120/120/120/120</div><div class="cooldown"><img
       alt="Перезарядка" title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 25/22/19/16</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 27/24/21/18</div><br clear="left" /></div>
     lore: Боль от обмана приходит не тогда, когда он случается, а когда о нем узнают.
     hurl: Shadow_Demon
   shadow_demon_soul_catcher:
@@ -8408,7 +8408,7 @@ abilitydata:
       title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 16/14/12/10</div><br clear="left" /></div>
     lore: Тепло солнечного света никогда не просачивалось в темные и холодные коридоры
-      Узкого Лабиринта.
+      Узкого лабиринта.
     hurl: Visage
   visage_soul_assumption:
     dname: Soul Assumption
@@ -8478,7 +8478,7 @@ abilitydata:
       width="16" height="16" border="0" /> 150/150/150</div><div class="cooldown"><img
       alt="Перезарядка" title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 180/160/140</div><br clear="left" /></div>
-    lore: Стражи Узкого Лабиринта, приспешники Некро'лика, неустанно и отрешенно следят
+    lore: Стражи Узкого лабиринта, приспешники Некро'лика, неустанно и отрешенно следят
       за его владениями.
     hurl: Visage
   slark_dark_pact:
@@ -10485,7 +10485,7 @@ abilitydata:
       ДЛИТЕЛЬНОСТЬ: <span class="attribVal">6</span><br />
       УРОН В СЕКУНДУ: <span class="attribVal">15 / 30 / 45 / 60</span><br />
       РАДИУС ПОИСКА СОЮЗНИКОВ: <span class="attribVal">225</span><br />
-      ЗАМЕДЛЕНИЕ ПЕРЕДВИЖЕНИЯ: <span class="attribVal">35% / 40% / 45% / 50%</span><br />
+      ЗАМЕДЛЕНИЕ ПЕРЕДВИЖЕНИЯ: <span class="attribVal">20% / 30% / 40% / 50%</span><br />
       ДАЛЬНОСТЬ ПРИМЕНЕНИЯ: <span class="attribVal">600 / 700 / 800 / 900</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -10559,8 +10559,8 @@ abilitydata:
     affects: 'СПОСОБНОСТЬ: <span class="attribVal">направленная на точку</span><br
       />ТИП УРОНА: <span class="attribVal">магический</span><br />СКВОЗЬ НЕВОСПР.
       К МАГИИ: <span class="attribVal">Нет</span><br />'
-    desc: Обрушивает на землю волны огня, наносящие урон противникам в области применения;
-      также горящие противники получают дополнительный периодический урон.
+    desc: Обрушивает волны пламени на врагов в указанной области, нанося им урон.
+      Жертвы способности загораются, и им постепенно наносится дополнительный урон.
     notes: ''
     dmg: ''
     attrib: |-
@@ -10568,7 +10568,7 @@ abilitydata:
       КОЛИЧЕСТВО ВОЛН: <span class="attribVal">6</span><br />
       УРОН ОТ ВОЛНЫ: <span class="attribVal">25 / 40 / 55 / 70</span><br />
       ИНТЕРВАЛ ВОЛН: <span class="attribVal">1</span><br />
-      УРОН ОТ ГОРЕНИЯ: <span class="attribVal">0.75 / 1.5 / 2.25 / 3</span><br />
+      MAX HP BURN DAMAGE: <span class="attribVal">0.75% / 1.5% / 2.25% / 3%</span><br />
       ДЛИТЕЛЬНОСТЬ ГОРЕНИЯ: <span class="attribVal">2</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -10582,9 +10582,9 @@ abilitydata:
     affects: 'СПОСОБНОСТЬ: <span class="attribVal">направленная на точку</span><br
       />ТИП УРОНА: <span class="attribVal">магический</span><br />СКВОЗЬ НЕВОСПР.
       К МАГИИ: <span class="attribVal"><font color="#70EA72">Да</font></span><br />'
-    desc: В земле на месте применения появляется смертоносная дыра; каждый юнит, попавший
-      туда, не может двигаться и получает урон. Способность действует на одного врага
-      только один раз.
+    desc: Создает разлом в выбранной области. Любое попавшее в него существо получает
+      урон и теряет возможность двигаться. Действует на каждое существо лишь один
+      раз.
     notes: ''
     dmg: ''
     attrib: |-
@@ -10604,16 +10604,15 @@ abilitydata:
     dname: Atrophy Aura
     affects: 'СПОСОБНОСТЬ: <span class="attribVal">пассивная, аура</span><br />ДЕЙСТВУЕТ:
       <span class="attribVal">на врагов</span><br />'
-    desc: Ослабляет врагов рядом с собой, из-за чего те теряют часть базового урона.
-      Если цель способности погибнет под ее действием, Pit Lord получит дополнительный
-      урон.
+    desc: Уменьшает урон всех вражеских существ неподалеку. Если жертва способности
+      погибнет, Underlord временно получит дополнительный урон.
     notes: ''
     dmg: ''
     attrib: |-
       РАДИУС: <span class="attribVal">900</span><br />
       СНИЖЕНИЕ УРОНА: <span class="attribVal">18% / 26% / 34% / 42%</span><br />
-      ДОП. УРОН КРИПАМ: <span class="attribVal">5</span><br />
-      ДОП. УРОН ГЕРОЯМ: <span class="attribVal">30 / 35 / 40 / 45</span><br />
+      ДОП. УРОН ЗА КРИПА: <span class="attribVal">5</span><br />
+      ДОП. УРОН ЗА ГЕРОЯ: <span class="attribVal">30 / 35 / 40 / 45</span><br />
       ДЛИТЕЛЬНОСТЬ: <span class="attribVal">30 / 40 / 50 / 60</span>
     cmb: ''
     lore: To merely stand in the presence of the Underlord is to feel the conviction
@@ -10624,16 +10623,15 @@ abilitydata:
     affects: 'СПОСОБНОСТЬ: <span class="attribVal">направленная на юнита, направленная
       на точку</span><br />ДЕЙСТВУЕТ: <span class="attribVal">на союзных крипов</span><br
       />'
-    desc: Открывает темный разлом на месте выбранного дружественного юнита. Вскоре
-      после этого Abyssal Underlord и все находящиеся неподалеку союзные герои перемещаются
-      к нему. Прочтение этой способности можно отменить в любой момент. Способность
-      начинает перезаряжаться при отмене либо при смерти цели, даже если она еще не
-      сработала.
+    desc: Открывает темную брешь возле выбранного союзного существа. После небольшой
+      задержки Underlord и все стоящие рядом с ним союзные герои телепортируются к
+      этой бреши. Способность уйдет на перезарядку, если Underlord отменит ее или
+      если цель телепортации умрет.
     notes: ''
     dmg: ''
     attrib: |-
-      РАДИУС ТЕЛЕПОРТА: <span class="attribVal">450</span><br />
-      ЗАДЕРЖКА ТЕЛЕПОРТА: <span class="attribVal">5 / 4 / 3</span>
+      РАДИУС ТЕЛЕПОРТАЦИИ: <span class="attribVal">450</span><br />
+      ЗАДЕРЖКА ДО ТЕЛЕПОРТАЦИИ: <span class="attribVal">5 / 4 / 3</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 75/150/225</div><div class="cooldown"><img

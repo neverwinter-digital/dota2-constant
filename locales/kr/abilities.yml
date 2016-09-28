@@ -6054,7 +6054,7 @@ abilitydata:
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 120/120/120/120</div><div class="cooldown"><img
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 25/22/19/16</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 27/24/21/18</div><br clear="left" /></div>
     lore: 기만에서 오는 고통은 속임수가 시작될 때가 아니라 속임수가 드러났을 때 밀려옵니다.
     hurl: Shadow_Demon
   shadow_demon_soul_catcher:
@@ -9110,7 +9110,7 @@ abilitydata:
       지속시간: <span class="attribVal">6</span><br />
       초당 피해: <span class="attribVal">15 / 30 / 45 / 60</span><br />
       아군 검색 반경: <span class="attribVal">225</span><br />
-      이동 속도 둔화: <span class="attribVal">35% / 40% / 45% / 50%</span><br />
+      이동 속도 둔화: <span class="attribVal">20% / 30% / 40% / 50%</span><br />
       시전 범위: <span class="attribVal">600 / 700 / 800 / 900</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -9178,7 +9178,7 @@ abilitydata:
     dname: 화염폭풍
     affects: '능력: <span class="attribVal">목표 지점 지정</span><br />피해 유형: <span class="attribVal">마법</span><br
       />주문 면역 관통: <span class="attribVal">미관통</span><br />'
-    desc: 물결치는 화염을 불러내어 대상 지역에 있는 적들에게 피해를 주고 화상을 남겨 지속 피해를 줍니다.
+    desc: 하늘에서 불을 떨어뜨려 대상 지역에 있는 적에게 피해를 주고 화상을 입혀 추가로 지속 피해를 줍니다.
     notes: ''
     dmg: ''
     attrib: |-
@@ -9186,7 +9186,7 @@ abilitydata:
       화염폭풍 수: <span class="attribVal">6</span><br />
       화염폭풍 회당 피해: <span class="attribVal">25 / 40 / 55 / 70</span><br />
       화염폭풍 간격 <span class="attribVal">1</span><br />
-      화상 피해: <span class="attribVal">0.75 / 1.5 / 2.25 / 3</span><br />
+      최대 체력 화상 피해: <span class="attribVal">0.75% / 1.5% / 2.25% / 3%</span><br />
       화상 지속시간: <span class="attribVal">2</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -9221,7 +9221,7 @@ abilitydata:
     dname: 위축의 오라
     affects: '능력: <span class="attribVal">지속 효과, 오라</span><br />효과: <span class="attribVal">적군</span><br
       />'
-    desc: 주위 적 유닛이 힘을 잃고 일정 비율만큼 기본 공격력이 감소합니다. 적이 이 효과를 받은 상태로 죽으면 지하군주는 보너스 공격력을
+    desc: 주위의 적 유닛이 힘을 잃고 일정 비율만큼 기본 공격력이 감소합니다. 유닛이 이 효과를 받은 상태로 죽으면, 지하군주는 보너스 공격력을
       얻습니다.
     notes: ''
     dmg: ''
@@ -9239,7 +9239,7 @@ abilitydata:
     dname: 어둠의 균열
     affects: '능력: <span class="attribVal">유닛 지정, 목표 지점 지정</span><br />효과: <span class="attribVal">아군
       크립</span><br />'
-    desc: 대상 아군 유닛의 위치에 어둠의 균열을 불러냅니다. 짧은 지연시간 후 심연의 지하군주와 주위 아군 영웅들이 해당 위치로 순간이동합니다.
+    desc: 대상 아군 유닛의 위치에 어둠의 균열을 불러냅니다. 짧은 지연시간 후 지하군주와 주위 아군 영웅들이 해당 위치로 순간이동합니다.
       어둠의 균열은 시전 중 언제든 취소할 수 있습니다. 시전을 취소하거나 시전 중 대상 유닛이 죽으면 어둠의 균열은 쿨다운이 걸립니다.
     notes: ''
     dmg: ''
