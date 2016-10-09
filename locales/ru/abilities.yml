@@ -5,14 +5,14 @@ abilitydata:
     affects: 'СПОСОБНОСТЬ: <span class="attribVal">пассивная</span><br />ТИП УРОНА:
       <span class="attribVal"><font color="#71a9ea">физический</font></span><br />СКВОЗЬ
       НЕВОСПР. К МАГИИ: <span class="attribVal">Нет</span><br />'
-    desc: "Сжигает ману врага с каждым ударом. Mana Break наносит противнику урон
-      в размере 60% от сожженной маны.\r\n\r\nMana Break — уникальный модификатор
-      атаки, он не будет сочетаться с другими уникальными модификаторами атаки."
+    desc: "Каждая атака сжигает ману цели и наносит ей урон, равный 60% сожженной
+      маны.\r\n\r\nMana Break — уникальный модификатор атаки, он не будет сочетаться
+      с другими уникальными модификаторами атаки."
     notes: Блокируется невосприимчивостью к заклинаниям.<br />Если на вас действует
       аура вампиризма, урон, нанесенный этой способностью, будет восстанавливать ваше
       здоровье.
     dmg: ''
-    attrib: 'СЖИГАЕТ МАНЫ ЗА УДАР: <span class="attribVal">28 / 40 / 52 / 64</span>'
+    attrib: 'СЖИГАНИЕ МАНЫ ЗА УДАР: <span class="attribVal">28 / 40 / 52 / 64</span>'
     cmb: ''
     lore: Измененная техника турстаркурийских монахов по обращению волшебной энергии
       против самого чародея.
@@ -36,7 +36,7 @@ abilitydata:
   antimage_spell_shield:
     dname: Spell Shield
     affects: 'СПОСОБНОСТЬ: <span class="attribVal">пассивная</span><br />'
-    desc: Увеличивает сопротивление Anti-Mage магическому урону.
+    desc: Увеличивает сопротивление магическому урону.
     notes: Сочетается по закону убывающей полезности с другими источниками сопротивления
       магии.
     dmg: ''
@@ -58,7 +58,7 @@ abilitydata:
       но урон наносится всем противникам в радиусе действия способности.
     dmg: ''
     attrib: |-
-      УРОН: <span class="attribVal">0.6 / 0.85 / 1.1</span><br />
+      УРОН ЗА ЕДИНИЦУ МАНЫ: <span class="attribVal">0.6 / 0.85 / 1.1</span><br />
       ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ: <span class="attribVal">0.3</span><br />
       РАДИУС: <span class="attribVal">500</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
@@ -121,7 +121,7 @@ abilitydata:
       />'
     desc: Будучи атакован, Axe контратакует, нанося чистый урон всем близстоящим врагам.
     notes: Срабатывает при завершении удара по Axe.
-    dmg: 'к урону: <span class="attribVal">90 / 120 / 150 / 180</span><br />'
+    dmg: 'к урону: <span class="attribVal">75 / 110 / 145 / 180</span><br />'
     attrib: |-
       РАДИУС: <span class="attribVal">275</span><br />
       ШАНС КОНТРАТАКИ: <span class="attribVal">20%</span>
@@ -685,7 +685,7 @@ abilitydata:
     dmg: 'к урону: <span class="attribVal">75 / 150 / 225 / 300</span><br />'
     attrib: |-
       РАДИУС: <span class="attribVal">650</span><br />
-      <span class="scepterVal">ЧАСТОТА ПРИМЕНЕНИЯ СО СКИПЕТРОМ:</span> <span class="attribVal">8</span>
+      <span class="scepterVal">ЧАСТОТА ПРИМЕНЕНИЯ СО СКИПЕТРОМ:</span> <span class="attribVal">9</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 100/120/140/160</div><div class="cooldown"><img
@@ -1916,7 +1916,7 @@ abilitydata:
       врагов в небо, оглушает их, наносит урон, а затем снижает скорость их передвижения.
     notes: Мгновенный эффект на земле виден только союзникам.<br />Юниты, подброшенные
       в воздух, будут оглушены, и их можно будет атаковать.
-    dmg: 'к урону: <span class="attribVal">120 / 180 / 240 / 300</span><br />'
+    dmg: 'к урону: <span class="attribVal">75 / 150 / 225 / 300</span><br />'
     attrib: |-
       РАДИУС: <span class="attribVal">225</span><br />
       ЗАМЕДЛЕНИЕ ПЕРЕДВИЖЕНИЯ: <span class="attribVal">35%</span><br />
@@ -2626,7 +2626,7 @@ abilitydata:
     attrib: |-
       РАДИУС: <span class="attribVal">250 / 275 / 300 / 325</span><br />
       ШАНС ПРОМАХА: <span class="attribVal">40% / 50% / 60% / 70%</span><br />
-      ЗАМЕДЛЕНИЕ ПЕРЕДВИЖЕНИЯ: <span class="attribVal">25%</span><br />
+      ЗАМЕДЛЕНИЕ ПЕРЕДВИЖЕНИЯ: <span class="attribVal">19% / 21% / 23% / 25%</span><br />
       ДЛИТЕЛЬНОСТЬ: <span class="attribVal">6</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -3200,9 +3200,8 @@ abilitydata:
       />ДЕЙСТВУЕТ: <span class="attribVal">на вражеских существ</span><br />ТИП УРОНА:
       <span class="attribVal">магический</span><br />СКВОЗЬ НЕВОСПР. К МАГИИ: <span
       class="attribVal">Нет</span><br />'
-    desc: Бросает отравленный кинжал, поражающий цель и наносящий периодический урон.
-      Скорость передвижения отравленного врага снизится на 15 секунд. Периодический
-      урон наносится каждые 3 секунды.
+    desc: Бросает кинжал, который наносит урон при попадании и отравляет цель на 15
+      секунд. Жертва передвигается медленнее и каждые 3 секунды получает урон от яда.
     notes: Враг под воздействием этой способности со временем восстанавливает потерянную
       скорость.<br />Враги могут добить своего союзника под действием этой способности,
       если уровень его здоровья будет ниже 25%.
@@ -3391,13 +3390,13 @@ abilitydata:
     affects: 'СПОСОБНОСТЬ: <span class="attribVal">ненаправленная</span><br />'
     desc: Faceless Void на 6 секунд замедляет течение времени для всех врагов вокруг
       себя, при этом замораживая перезарядку их способностей и замедляя их передвижение
-      и атаку на 8% за каждую замороженную способность.
+      и атаку на 10% за каждую замороженную способность.
     notes: ''
     dmg: ''
     attrib: |-
       РАДИУС: <span class="attribVal">725</span><br />
       ДЛИТЕЛЬНОСТЬ: <span class="attribVal">6 / 8 / 10 / 12</span><br />
-      ЗАМЕДЛЕНИЕ ЗА СПОСОБНОСТЬ: <span class="attribVal">8%</span>
+      ЗАМЕДЛЕНИЕ ЗА СПОСОБНОСТЬ: <span class="attribVal">10%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 75</div><div class="cooldown"><img alt="Перезарядка"
@@ -3771,10 +3770,8 @@ abilitydata:
       />Мгновенно уничтожает иллюзии.
     dmg: ''
     attrib: |-
-      ЗДОРОВЬЯ В СЕКУНДУ: <span class="attribVal">150 / 200 / 250</span><br />
       ДАЛЬНОСТЬ ПРИМЕНЕНИЯ: <span class="attribVal">900 / 1050 / 1200</span><br />
-      МАКС. ДЛИТЕЛЬНОСТЬ: <span class="attribVal">10</span><br />
-      <span class="scepterVal">ЗДОРОВЬЯ В СЕКУНДУ СО СКИПЕТРОМ:</span> <span class="attribVal">180 / 240 / 300</span>
+      МАКС. ДЛИТЕЛЬНОСТЬ: <span class="attribVal">10</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 125/175/225</div><div class="cooldown"><img
@@ -4574,7 +4571,8 @@ abilitydata:
   life_stealer_assimilate:
     dname: Assimilate
     affects: 'СПОСОБНОСТЬ: <span class="attribVal">направленная на юнита</span><br
-      />ДЕЙСТВУЕТ: <span class="attribVal">на союзных героев</span><br />'
+      />ДЕЙСТВУЕТ: <span class="attribVal">на союзных героев</span><br />ТИП УРОНА:
+      <span class="attribVal">магический</span><br />'
     desc: Lifestealer проглатывает союзника, чтобы спрятать его внутри себя. Проглоченный
       юнит лечится наравне с Lifestealer, и наносит урон ближайшим врагам, когда вырывается
       наружу.
@@ -4592,7 +4590,8 @@ abilitydata:
     hurl: Lifestealer
   life_stealer_assimilate_eject:
     dname: Eject
-    affects: 'СПОСОБНОСТЬ: <span class="attribVal">ненаправленная</span><br />'
+    affects: 'СПОСОБНОСТЬ: <span class="attribVal">ненаправленная</span><br />ТИП
+      УРОНА: <span class="attribVal">магический</span><br />'
     desc: Выплевывает проглоченного героя, нанося урон ближайшим противникам.
     notes: ''
     dmg: ''
@@ -4731,7 +4730,6 @@ abilitydata:
       УРОН: <span class="attribVal">150 / 150 / 150</span><br />
       ВРЕМЯ ДЕЙСТВИЯ СТЕНЫ: <span class="attribVal">45</span><br />
       УРОН ОТ КОПИЙ: <span class="attribVal">60% / 75% / 90%</span><br />
-      УРОН ПО КОПИЯМ: <span class="attribVal">400% / 400% / 400%</span><br />
       ДАЛЬНОСТЬ ПРИМЕНЕНИЯ: <span class="attribVal">500 / 900 / 1300</span><br />
       <span class="scepterVal">УРОН КОПИЙ СО СКИПЕТРОМ:</span> <span class="attribVal">100% / 120% / 140%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
@@ -4850,7 +4848,7 @@ abilitydata:
     notes: Действует так же, как и другие источники невосприимчивости к заклинаниям,
       но может быть снят при помощи очищающих способностей.
     dmg: ''
-    attrib: 'ДЛИТЕЛЬНОСТЬ: <span class="attribVal">6 / 8 / 10 / 12</span>'
+    attrib: 'ДЛИТЕЛЬНОСТЬ: <span class="attribVal">4 / 6 / 8 / 10</span>'
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 50/50/50/50</div><div class="cooldown"><img
@@ -5051,7 +5049,6 @@ abilitydata:
     dmg: ''
     attrib: |-
       УРОН ЦЕЛИ: <span class="attribVal">35%</span><br />
-      УРОН СЕБЕ: <span class="attribVal">35%</span><br />
       ЗАМЕДЛЕНИЕ ПЕРЕДВИЖЕНИЯ: <span class="attribVal">40% / 50% / 60%</span><br />
       ДЛИТЕЛЬНОСТЬ ЗАМЕДЛЕНИЯ: <span class="attribVal">4 / 5 / 6</span><br />
       <span class="scepterVal">УРОН ЦЕЛИ СО СКИПЕТРОМ:</span> <span class="attribVal">65%</span><br />
@@ -5319,7 +5316,7 @@ abilitydata:
       ДАЛЬНОСТЬ ПРИМЕНЕНИЯ: <span class="attribVal">1200</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 50</div><div class="cooldown"><img alt="Перезарядка"
+      width="16" height="16" border="0" /> 65</div><div class="cooldown"><img alt="Перезарядка"
       title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 4</div><br clear="left" /></div>
     lore: Благодаря развитым зрению и обонянию удары Гондора имеют высокий шанс на
@@ -5441,8 +5438,9 @@ abilitydata:
   jakiro_ice_path:
     dname: Ice Path
     affects: 'СПОСОБНОСТЬ: <span class="attribVal">направленная на точку</span><br
-      />ДЕЙСТВУЕТ: <span class="attribVal">на вражеских существ</span><br />СКВОЗЬ
-      НЕВОСПР. К МАГИИ: <span class="attribVal">Нет</span><br />'
+      />ДЕЙСТВУЕТ: <span class="attribVal">на вражеских существ</span><br />ТИП УРОНА:
+      <span class="attribVal">магический</span><br />СКВОЗЬ НЕВОСПР. К МАГИИ: <span
+      class="attribVal">Нет</span><br />'
     desc: Создает ледяную дорожку, которая оглушает и наносит урон врагам, прикоснувшимся
       к ней.
     notes: Задержка до заморозки — 0,5 секунды.
@@ -5510,7 +5508,8 @@ abilitydata:
   batrider_sticky_napalm:
     dname: Sticky Napalm
     affects: 'СПОСОБНОСТЬ: <span class="attribVal">направленная на точку</span><br
-      />СКВОЗЬ НЕВОСПР. К МАГИИ: <span class="attribVal">Нет</span><br />'
+      />ТИП УРОНА: <span class="attribVal">магический</span><br />СКВОЗЬ НЕВОСПР.
+      К МАГИИ: <span class="attribVal">Нет</span><br />'
     desc: Выплескивает на землю вязкое масло, которое увеличивает урон от всех атак
       и способностей Batrider. Масло замедляет скорость передвижения и поворота врагов.
       Эффект от масел складывается до 10 раз, продолжая увеличивать урон. Дополнительный
@@ -5519,7 +5518,6 @@ abilitydata:
       Radiance и Orb of Venom.
     dmg: ''
     attrib: |-
-      ДОП. УРОН: <span class="attribVal">10 / 15 / 20 / 25</span><br />
       РАДИУС: <span class="attribVal">375 / 375 / 375 / 375</span><br />
       ДЛИТЕЛЬНОСТЬ: <span class="attribVal">8 / 8 / 8 / 8</span><br />
       ЗАМЕДЛЕНИЕ ПЕРЕДВИЖЕНИЯ: <span class="attribVal">3% / 5% / 7% / 9%</span><br />
@@ -5544,14 +5542,13 @@ abilitydata:
     dmg: ''
     attrib: |-
       УРОН В СЕКУНДУ: <span class="attribVal">25 / 30 / 35 / 40</span><br />
-      ДЛИТЕЛЬНОСТЬ ГОРЕНИЯ: <span class="attribVal">3 / 4 / 5 / 6</span><br />
       ВСЕГО УРОНА: <span class="attribVal">75 / 120 / 175 / 240</span><br />
       РАДИУС: <span class="attribVal">375 / 375 / 375 / 375</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 110/120/130/140</div><div class="cooldown"><img
       alt="Перезарядка" title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 14</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 17</div><br clear="left" /></div>
     lore: Batrider предпочитает использовать коктейль Молотова.
     hurl: Batrider
   batrider_firefly:
@@ -6558,7 +6555,6 @@ abilitydata:
     attrib: |-
       ВРЕМЯ ДО ПРИЗЕМЛЕНИЯ: <span class="attribVal">1.3</span><br />
       РАДИУС: <span class="attribVal">275</span><br />
-      ВРЕМЯ МЕЖДУ НАНЕСЕНИЕМ УРОНА <span class="attribVal">0.5</span><br />
       ВРЕМЯ ДЕЙСТВИЯ ОЖОГА: <span class="attribVal">3</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -7047,7 +7043,7 @@ abilitydata:
       действия Shadow Poison или при использовании дополнительной способности Release
       Poison.
     notes: Действует на юнитов под эффектом от Disruption.
-    dmg: 'к урону: <span class="attribVal">50 / 50 / 50 / 50</span><br />'
+    dmg: 'к урону: <span class="attribVal">26 / 34 / 42 / 50</span><br />'
     attrib: |-
       БАЗОВЫЙ УРОН: <span class="attribVal">20 / 35 / 50 / 65</span><br />
       КОЛИЧЕСТВО НЕЛИНЕЙНЫХ НАКОПЛЕНИЙ: <span class="attribVal">5</span><br />
@@ -7331,7 +7327,8 @@ abilitydata:
     dname: Poof
     affects: 'СПОСОБНОСТЬ: <span class="attribVal">направленная на юнита, направленная
       на точку</span><br />ДЕЙСТВУЕТ: <span class="attribVal">на союзных героев</span><br
-      />СКВОЗЬ НЕВОСПР. К МАГИИ: <span class="attribVal">Нет</span><br />'
+      />ТИП УРОНА: <span class="attribVal">магический</span><br />СКВОЗЬ НЕВОСПР.
+      К МАГИИ: <span class="attribVal">Нет</span><br />'
     desc: Используя таинственную энергию земли, Meepo может телепортироваться к другому
       Meepo после произнесения заклинания в течение 1,5 секунд, нанося урон как в
       точке отправки, так и в месте прибытия.
@@ -7349,8 +7346,9 @@ abilitydata:
     hurl: Meepo
   meepo_geostrike:
     dname: Geostrike
-    affects: 'СПОСОБНОСТЬ: <span class="attribVal">пассивная</span><br />СКВОЗЬ НЕВОСПР.
-      К МАГИИ: <span class="attribVal"><font color="#70EA72">Да</font></span><br />'
+    affects: 'СПОСОБНОСТЬ: <span class="attribVal">пассивная</span><br />ТИП УРОНА:
+      <span class="attribVal">магический</span><br />СКВОЗЬ НЕВОСПР. К МАГИИ: <span
+      class="attribVal"><font color="#70EA72">Да</font></span><br />'
     desc: Meepo наделяет свое оружие силой земли, нанося врагам урон с течением времени
       и замедляя их. Этот эффект складывается, если одну и ту же цель атакуют несколько
       Meepo.
@@ -7453,7 +7451,7 @@ abilitydata:
   treant_eyes_in_the_forest:
     dname: Eyes In The Forest
     affects: 'СПОСОБНОСТЬ: <span class="attribVal">направленная на юнита</span><br
-      />'
+      />ТИП УРОНА: <span class="attribVal">магический</span><br />'
     desc: Treant Protector зачаровывает дерево, получая беспрепятственный обзор вокруг
       него. При использовании способности Overgrowth существа вокруг зачарованных
       деревьев будут связаны и получат урон.
@@ -7759,9 +7757,6 @@ abilitydata:
     dmg: ''
     attrib: |-
       УРОН: <span class="attribVal">75 / 150 / 225 / 300</span><br />
-      СНИЖЕНИЕ УРОНА ЗА СКАЧОК: <span class="attribVal">4% / 4% / 4% / 4%</span><br />
-      УМЕНЬШЕНИЕ УРОНА ГЕРОЕВ: <span class="attribVal">20 / 25 / 30 / 35</span><br />
-      УМЕНЬШЕНИЕ УРОНА КРИПОВ: <span class="attribVal">10 / 13 / 15 / 17</span><br />
       ДЛИТЕЛЬНОСТЬ ЭФФЕКТА: <span class="attribVal">10 / 10 / 10 / 10</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -8115,7 +8110,7 @@ abilitydata:
     attrib: |-
       УРОНА ЗА СЕКУНДУ ПРОЧТЕНИЯ: <span class="attribVal">100 / 100 / 100 / 100</span><br />
       МАКС. ДЛИТЕЛЬНОСТЬ: <span class="attribVal">2 / 3 / 4 / 5</span><br />
-      ШИРИНА: <span class="attribVal">350 / 350 / 350 / 350</span><br />
+      ШИРИНА: <span class="attribVal">375</span><br />
       РАССТОЯНИЕ: <span class="attribVal">1550</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -8141,8 +8136,8 @@ abilitydata:
       ДАЛЬНОСТЬ ПРИМЕНЕНИЯ: <span class="attribVal">550 / 700 / 850 / 1000</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 75/75/75/75</div><div class="cooldown"><img
-      alt="Перезарядка" title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
+      width="16" height="16" border="0" /> 150</div><div class="cooldown"><img alt="Перезарядка"
+      title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 16/14/12/10</div><br clear="left" /></div>
     lore: Эзалор нарушает гармонию жизни, осушая магическую энергию слабых духом.
     hurl: Keeper_of_the_Light
@@ -8202,7 +8197,7 @@ abilitydata:
       РАДИУС: <span class="attribVal">675 / 675 / 675</span><br />
       ДЛИТЕЛЬНОСТЬ: <span class="attribVal">4 / 5 / 6</span><br />
       ШАНС ПРОМАХА <span class="attribVal">80% / 80% / 80%</span><br />
-      РАССТОЯНИЕ ОТТАЛКИВАНИЯ: <span class="attribVal">400</span>
+      РАССТОЯНИЕ ОТТАЛКИВАНИЯ: <span class="attribVal">525</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 50/50/50</div><div class="cooldown"><img
@@ -8251,7 +8246,7 @@ abilitydata:
     attrib: |-
       УРОНА ЗА СЕКУНДУ ПРОЧТЕНИЯ: <span class="attribVal">100 / 100 / 100 / 100</span><br />
       МАКС. ДЛИТЕЛЬНОСТЬ: <span class="attribVal">2 / 3 / 4 / 5</span><br />
-      ШИРИНА: <span class="attribVal">350 / 350 / 350 / 350</span><br />
+      ШИРИНА: <span class="attribVal">375</span><br />
       ДАЛЬНОСТЬ ПРИМЕНЕНИЯ: <span class="attribVal">1550</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -8357,7 +8352,7 @@ abilitydata:
       с вами.
     dmg: ''
     attrib: |-
-      ЗАДЕРЖКА ДО СОЗДАНИЯ: <span class="attribVal">2.5 / 2.25 / 2</span><br />
+      ЗАДЕРЖКА ДО СОЗДАНИЯ: <span class="attribVal">2.7 / 2.35 / 2</span><br />
       ВРЕМЯ ВОЗВРАТА: <span class="attribVal">12 / 12 / 12</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -8801,17 +8796,16 @@ abilitydata:
     notes: Срабатывает при завершении удара по Centaur Warrunner.<br />Наносит урон
       башням.
     dmg: ''
-    attrib: |-
-      УРОН: <span class="attribVal">16 / 18 / 20 / 22</span><br />
-      ДОПОЛНИТЕЛЬНЫЙ УРОН ОТ СИЛЫ: <span class="attribVal">30% / 45% / 60% / 75%</span>
+    attrib: 'УРОН: <span class="attribVal">16 / 18 / 20 / 22</span>'
     cmb: ''
     lore: Брэдводену даже не нужно парировать атаки противника — его кожа, больше
       похожая на броню, сама отвечает на любое нападение.
     hurl: Centaur_Warrunner
   centaur_stampede:
     dname: Stampede
-    affects: 'СПОСОБНОСТЬ: <span class="attribVal">ненаправленная</span><br />СКВОЗЬ
-      НЕВОСПР. К МАГИИ: <span class="attribVal">Нет</span><br />'
+    affects: 'СПОСОБНОСТЬ: <span class="attribVal">ненаправленная</span><br />ТИП
+      УРОНА: <span class="attribVal">магический</span><br />СКВОЗЬ НЕВОСПР. К МАГИИ:
+      <span class="attribVal">Нет</span><br />'
     desc: "Centaur Warrunner ведет союзников в яростную атаку, что позволяет им проходить
       сквозь врагов на максимальной скорости, при этом останавливая их. Урон зависит
       от силы Centaur Warrunner. Каждый враг может получить урон от этой способности
@@ -8820,7 +8814,6 @@ abilitydata:
     dmg: ''
     attrib: |-
       ДЛИТЕЛЬНОСТЬ СПОСОБНОСТИ: <span class="attribVal">4</span><br />
-      МНОЖИТЕЛЬ УРОНА ЗА СИЛУ: <span class="attribVal">1 / 2 / 3</span><br />
       ДЛИТЕЛЬНОСТЬ ОСТАНОВКИ: <span class="attribVal">1.8</span><br />
       РАДИУС ТОПОТА: <span class="attribVal">105</span><br />
       <span class="scepterVal">УМЕНЬШЕНИЕ УРОНА:</span> <span class="attribVal">60%</span>
@@ -9231,9 +9224,9 @@ abilitydata:
   tusk_walrus_kick:
     dname: Walrus Kick
     affects: 'СПОСОБНОСТЬ: <span class="attribVal">направленная на юнита</span><br
-      />ДЕЙСТВУЕТ: <span class="attribVal">на вражеских существ</span><br />СКВОЗЬ
-      НЕВОСПР. К МАГИИ: <span class="attribVal"><font color="#70EA72">Да</font></span><br
-      />'
+      />ДЕЙСТВУЕТ: <span class="attribVal">на вражеских существ</span><br />ТИП УРОНА:
+      <span class="attribVal">магический</span><br />СКВОЗЬ НЕВОСПР. К МАГИИ: <span
+      class="attribVal"><font color="#70EA72">Да</font></span><br />'
     desc: Отпинывает цель от себя, нанося ей урон и замедляя на некоторое время.
     notes: ''
     dmg: ''
@@ -9283,9 +9276,7 @@ abilitydata:
       в радиусе 325 единиц. По достижении цели территория вокруг нее будет видима
       3,34 секунды.<br />Снаряд этой способности нельзя сбить с цели.
     dmg: ''
-    attrib: |-
-      БАЗОВЫЙ УРОН: <span class="attribVal">60 / 80 / 100 / 120</span><br />
-      МНОЖИТЕЛЬ ИНТЕЛЛЕКТА: <span class="attribVal">1.6</span>
+    attrib: 'БАЗОВЫЙ УРОН: <span class="attribVal">60 / 80 / 100 / 120</span>'
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 70/70/70/70</div><div class="cooldown"><img
@@ -9464,7 +9455,7 @@ abilitydata:
     notes: ''
     dmg: ''
     attrib: |-
-      ВРЕМЯ ПРИМЕНЕНИЯ: <span class="attribVal">1.6</span><br />
+      ВРЕМЯ ПРИМЕНЕНИЯ: <span class="attribVal">1.7</span><br />
       РАДИУС: <span class="attribVal">500</span><br />
       ДЛИТЕЛЬНОСТЬ СНА: <span class="attribVal">2 / 3 / 4 / 5</span><br />
       УРОН ОТ STOMP: <span class="attribVal">70 / 100 / 130 / 160</span>
@@ -9492,9 +9483,7 @@ abilitydata:
       ДЛИТЕЛЬНОСТЬ: <span class="attribVal">8</span><br />
       ДЛИТЕЛЬНОСТЬ ЭФФЕКТА: <span class="attribVal">9</span><br />
       БОНУС К СКОРОСТИ (КРИПЫ): <span class="attribVal">1%</span><br />
-      БОНУС К СКОРОСТИ (ГЕРОИ): <span class="attribVal">5%</span><br />
-      БОНУС К УРОНУ (КРИПЫ): <span class="attribVal">6 / 9 / 12 / 15</span><br />
-      БОНУС К УРОНУ (ГЕРОИ): <span class="attribVal">10 / 20 / 30 / 40</span>
+      БОНУС К СКОРОСТИ (ГЕРОИ): <span class="attribVal">5%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 80/90/100/110</div><div class="cooldown"><img
@@ -9573,7 +9562,6 @@ abilitydata:
       БАЗОВЫЙ УРОН: <span class="attribVal">40 / 80 / 120 / 160</span><br />
       УРОНА ЗА КРИПА: <span class="attribVal">14 / 16 / 18 / 20</span><br />
       УРОН ЗА ГЕРОЯ: <span class="attribVal">20 / 40 / 60 / 80</span><br />
-      УРОН ИЛЛЮЗИЯМ: <span class="attribVal">25%</span><br />
       БОНУС К СКОРОСТИ (КРИПЫ): <span class="attribVal">3%</span><br />
       БОНУС К СКОРОСТИ (ГЕРОИ): <span class="attribVal">9%</span><br />
       ДЛИТЕЛЬНОСТЬ УСКОРЕНИЯ: <span class="attribVal">7</span><br />
@@ -10560,7 +10548,8 @@ abilitydata:
       />ТИП УРОНА: <span class="attribVal">магический</span><br />СКВОЗЬ НЕВОСПР.
       К МАГИИ: <span class="attribVal">Нет</span><br />'
     desc: Обрушивает волны пламени на врагов в указанной области, нанося им урон.
-      Жертвы способности загораются, и им постепенно наносится дополнительный урон.
+      Жертвы способности загораются, и им наносится дополнительный периодический урон,
+      зависящий от их максимального запаса здоровья.
     notes: ''
     dmg: ''
     attrib: |-
@@ -10568,7 +10557,6 @@ abilitydata:
       КОЛИЧЕСТВО ВОЛН: <span class="attribVal">6</span><br />
       УРОН ОТ ВОЛНЫ: <span class="attribVal">25 / 40 / 55 / 70</span><br />
       ИНТЕРВАЛ ВОЛН: <span class="attribVal">1</span><br />
-      MAX HP BURN DAMAGE: <span class="attribVal">0.75% / 1.5% / 2.25% / 3%</span><br />
       ДЛИТЕЛЬНОСТЬ ГОРЕНИЯ: <span class="attribVal">2</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -10583,8 +10571,8 @@ abilitydata:
       />ТИП УРОНА: <span class="attribVal">магический</span><br />СКВОЗЬ НЕВОСПР.
       К МАГИИ: <span class="attribVal"><font color="#70EA72">Да</font></span><br />'
     desc: Создает разлом в выбранной области. Любое попавшее в него существо получает
-      урон и теряет возможность двигаться. Действует на каждое существо лишь один
-      раз.
+      урон и теряет возможность двигаться. Действует на каждое вражеское существо
+      лишь один раз.
     notes: ''
     dmg: ''
     attrib: |-

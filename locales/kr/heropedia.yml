@@ -121,8 +121,8 @@ herodata:
         g: '1.90'
       ms: 300
       dmg:
-        min: 18
-        max: 29
+        min: 14
+        max: 25
       armor: 0.64
     dac: 원거리
     droles: 캐리 - 무력화 - 압박
@@ -163,8 +163,8 @@ herodata:
         g: '2.40'
       ms: 305
       dmg:
-        min: 24
-        max: 28
+        min: 22
+        max: 26
       armor: 3.64
     dac: 근접
     droles: 캐리 - 압박 - 도주기
@@ -220,7 +220,7 @@ herodata:
         g: '2.00'
       int:
         b: 17
-        g: '1.50'
+        g: '1.10'
       agi:
         b: 24
         g: '3.70'
@@ -329,7 +329,7 @@ herodata:
       agi:
         b: 19
         g: '2.10'
-      ms: 300
+      ms: 295
       dmg:
         min: 25
         max: 41
@@ -1572,7 +1572,7 @@ herodata:
       dmg:
         min: 20
         max: 35
-      armor: 5.36
+      armor: 3.86
     dac: 원거리
     droles: 캐리 - 누커 - 무력화
   lycan:
@@ -2022,7 +2022,7 @@ herodata:
     pa: str
     attribs:
       str:
-        b: 22
+        b: 21
         g: '1.80'
       int:
         b: 21
@@ -2263,8 +2263,8 @@ herodata:
         g: '1.70'
       ms: 305
       dmg:
-        min: 22
-        max: 28
+        min: 16
+        max: 22
       armor: 2.1
     dac: 원거리
     droles: 지원 - 누커 - 무력화 - 도주기

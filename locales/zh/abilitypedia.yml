@@ -99,7 +99,7 @@ abilitydata:
       color="#70EA72">是</font></span><br />
     desc: 受攻击时，斧王做出螺旋反击，对附近所有敌方单位造成纯粹伤害。
     notes: 反击螺旋会在斧王受到攻击时触发。
-    dmg: '攻击力: <span class="attribVal">90 / 120 / 150 / 180</span><br />'
+    dmg: '攻击力: <span class="attribVal">75 / 110 / 145 / 180</span><br />'
     attrib: |-
       作用范围： <span class="attribVal">275</span><br />
       反击概率： <span class="attribVal">20%</span>
@@ -565,7 +565,7 @@ abilitydata:
     dmg: '攻击力: <span class="attribVal">75 / 150 / 225 / 300</span><br />'
     attrib: |-
       作用范围： <span class="attribVal">650</span><br />
-      <span class="scepterVal">神杖升级触发间隔：</span> <span class="attribVal">8</span>
+      <span class="scepterVal">神杖升级触发间隔：</span> <span class="attribVal">9</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 100/120/140/160</div><div class="cooldown"><img
@@ -1567,7 +1567,7 @@ abilitydata:
       />无视技能免疫： <span class="attribVal">否</span><br />
     desc: 召唤喷涌的洪流，短暂延迟后，将敌人冲上天，造成伤害、眩晕和减速。
     notes: 初始泡泡效果仅对队友可见。<br />飞到半空的单位将会被眩晕并且可以被攻击。
-    dmg: '攻击力: <span class="attribVal">120 / 180 / 240 / 300</span><br />'
+    dmg: '攻击力: <span class="attribVal">75 / 150 / 225 / 300</span><br />'
     attrib: |-
       作用范围： <span class="attribVal">225</span><br />
       移速减缓： <span class="attribVal">35%</span><br />
@@ -2156,7 +2156,7 @@ abilitydata:
     attrib: |-
       作用范围： <span class="attribVal">250 / 275 / 300 / 325</span><br />
       未命中概率： <span class="attribVal">40% / 50% / 60% / 70%</span><br />
-      移动速度减缓： <span class="attribVal">25%</span><br />
+      移动速度减缓： <span class="attribVal">19% / 21% / 23% / 25%</span><br />
       持续时间： <span class="attribVal">6</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -2784,13 +2784,13 @@ abilitydata:
   faceless_void_time_dilation:
     dname: 时间膨胀
     affects: 技能： <span class="attribVal">无目标</span><br />
-    desc: 虚空假面将附近所有敌人困在一个时间膨胀场中，持续6秒，技能的冷却将会停止，每停止一个技能的冷却，敌人的移动和攻击速度就会降低8%。
+    desc: 虚空假面将附近所有敌人困在一个时间膨胀场中，持续6秒，技能的冷却将会停止，每停止一个技能的冷却，敌人的移动和攻击速度就会降低10%。
     notes: ''
     dmg: ''
     attrib: |-
       作用范围： <span class="attribVal">725</span><br />
       持续时间： <span class="attribVal">6 / 8 / 10 / 12</span><br />
-      每个冷却技能造成减速： <span class="attribVal">8%</span>
+      每个冷却技能造成减速： <span class="attribVal">10%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 75</div><div class="cooldown"><img alt="冷却时间"
@@ -3098,10 +3098,8 @@ abilitydata:
     notes: 生命吸取量与实际造成的伤害相同。<br />幻象在受到第一下伤害后就会被摧毁。
     dmg: ''
     attrib: |-
-      汲取速率： <span class="attribVal">150 / 200 / 250</span><br />
       施法距离： <span class="attribVal">900 / 1050 / 1200</span><br />
-      最大持续时间： <span class="attribVal">10</span><br />
-      <span class="scepterVal">神杖升级每秒吸取生命值：</span> <span class="attribVal">180 / 240 / 300</span>
+      最大持续时间： <span class="attribVal">10</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 125/175/225</div><div class="cooldown"><img
@@ -3745,7 +3743,7 @@ abilitydata:
   life_stealer_assimilate:
     dname: 吸收
     affects: 技能： <span class="attribVal">单位目标</span><br />影响： <span class="attribVal">友方英雄</span><br
-      />
+      />伤害类型： <span class="attribVal">魔法</span><br />
     desc: 噬魂鬼吞下友方目标，使其藏于自己的体内。被吸收的单位将享受噬魂鬼的回复效果。被吸收的英雄离开噬魂鬼时会突然现身，对周围敌人造成伤害。
     notes: ''
     dmg: ''
@@ -3761,7 +3759,8 @@ abilitydata:
     hurl: Lifestealer
   life_stealer_assimilate_eject:
     dname: 喷吐
-    affects: 技能： <span class="attribVal">无目标</span><br />
+    affects: 技能： <span class="attribVal">无目标</span><br />伤害类型： <span class="attribVal">魔法</span><br
+      />
     desc: 吐出吸收的英雄，对周围敌人造成伤害。
     notes: ''
     dmg: ''
@@ -3871,7 +3870,6 @@ abilitydata:
       伤害： <span class="attribVal">150 / 150 / 150</span><br />
       光墙持续时间： <span class="attribVal">45</span><br />
       幻象继承攻击力： <span class="attribVal">60% / 75% / 90%</span><br />
-      复制体承受伤害： <span class="attribVal">400% / 400% / 400%</span><br />
       施法距离： <span class="attribVal">500 / 900 / 1300</span><br />
       <span class="scepterVal">神杖升级幻象继承攻击力：</span> <span class="attribVal">100% / 120% / 140%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
@@ -3972,7 +3970,7 @@ abilitydata:
     desc: 创造出一个神圣守卫环绕目标，使目标获得技能免疫状态和100%的魔法抗性。
     notes: 驱逐的效果与其他技能免疫技能和物品相同，但是驱逐可以被净化。
     dmg: ''
-    attrib: 持续时间： <span class="attribVal">6 / 8 / 10 / 12</span>
+    attrib: 持续时间： <span class="attribVal">4 / 6 / 8 / 10</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 50/50/50/50</div><div class="cooldown"><img
@@ -4133,7 +4131,6 @@ abilitydata:
     dmg: ''
     attrib: |-
       伤害： <span class="attribVal">35%</span><br />
-      生命损耗： <span class="attribVal">35%</span><br />
       移动速度减缓： <span class="attribVal">40% / 50% / 60%</span><br />
       减速持续时间： <span class="attribVal">4 / 5 / 6</span><br />
       <span class="scepterVal">神杖升级造成伤害：</span> <span class="attribVal">65%</span><br />
@@ -4350,7 +4347,7 @@ abilitydata:
       施法距离： <span class="attribVal">1200</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 50</div><div class="cooldown"><img alt="冷却时间"
+      width="16" height="16" border="0" /> 65</div><div class="cooldown"><img alt="冷却时间"
       title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 4</div><br clear="left" /></div>
     lore: 利用他高度敏锐的视觉和嗅觉，刚铎的袭击成功率很高。
@@ -4452,7 +4449,8 @@ abilitydata:
   jakiro_ice_path:
     dname: 冰封路径
     affects: 技能： <span class="attribVal">点目标</span><br />影响： <span class="attribVal">敌方单位</span><br
-      />无视技能免疫： <span class="attribVal">否</span><br />
+      />伤害类型： <span class="attribVal">魔法</span><br />无视技能免疫： <span class="attribVal">否</span><br
+      />
     desc: 在杰奇洛前方制造一条冰封路径，对触及到的敌人造成伤害并眩晕。
     notes: 路径完全成形需要0.5秒。
     dmg: ''
@@ -4511,13 +4509,12 @@ abilitydata:
     hurl: Jakiro
   batrider_sticky_napalm:
     dname: 粘性燃油
-    affects: 技能： <span class="attribVal">点目标</span><br />无视技能免疫： <span class="attribVal">否</span><br
-      />
+    affects: 技能： <span class="attribVal">点目标</span><br />伤害类型： <span class="attribVal">魔法</span><br
+      />无视技能免疫： <span class="attribVal">否</span><br />
     desc: 用粘性油浸透一块区域，蝙蝠骑士的攻击和技能对区域内的敌人造成额外伤害，并降低他们的移动速度和转身速率。再次施法可以继续提高伤害，最多叠加10次。非英雄单位受到的额外伤害减半。
     notes: 所有来自蝙蝠骑士的伤害均会加深，辉耀和淬毒之珠除外。
     dmg: ''
     attrib: |-
-      额外伤害： <span class="attribVal">10 / 15 / 20 / 25</span><br />
       作用范围： <span class="attribVal">375 / 375 / 375 / 375</span><br />
       持续时间： <span class="attribVal">8 / 8 / 8 / 8</span><br />
       移动速度减缓： <span class="attribVal">3% / 5% / 7% / 9%</span><br />
@@ -4538,14 +4535,13 @@ abilitydata:
     dmg: ''
     attrib: |-
       每秒伤害： <span class="attribVal">25 / 30 / 35 / 40</span><br />
-      烧灼持续时间： <span class="attribVal">3 / 4 / 5 / 6</span><br />
       总伤害： <span class="attribVal">75 / 120 / 175 / 240</span><br />
       作用范围： <span class="attribVal">375 / 375 / 375 / 375</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 110/120/130/140</div><div class="cooldown"><img
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 14</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 17</div><br clear="left" /></div>
     lore: 蝙蝠骑士选择用燃烧弹作为武器。
     hurl: Batrider
   batrider_firefly:
@@ -5361,7 +5357,6 @@ abilitydata:
     attrib: |-
       生效延迟： <span class="attribVal">1.3</span><br />
       作用范围： <span class="attribVal">275</span><br />
-      伤害间隔： <span class="attribVal">0.5</span><br />
       燃烧持续时间： <span class="attribVal">3</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -5552,7 +5547,7 @@ abilitydata:
     dmg: ''
     attrib: |-
       作用范围： <span class="attribVal">900</span><br />
-      基础魔法值： <span class="attribVal">125 / 200 / 275 / 350</span><br />
+      魔法上限加成： <span class="attribVal">125 / 200 / 275 / 350</span><br />
       恢复最大魔法值百分比： <span class="attribVal">10% / 15% / 20% / 25%</span><br />
       回复概率： <span class="attribVal">40%</span>
     cmb: ''
@@ -5757,7 +5752,7 @@ abilitydata:
       />无视技能免疫： <span class="attribVal">否</span><br />
     desc: 在一条直线上造成伤害，并以毒咒折磨敌方单位。根据目标身上的叠加层数，毒咒造成1/2/4/8/16倍的叠加伤害，至多5层。更多层的叠加每层造成50点伤害。这部分延缓的伤害在暗影毒的持续时间结束后生效，或者你可以使用附属技能释放立刻造成伤害。
     notes: 暗影剧毒可以作用处于崩裂禁锢的单位。
-    dmg: '攻击力: <span class="attribVal">50 / 50 / 50 / 50</span><br />'
+    dmg: '攻击力: <span class="attribVal">26 / 34 / 42 / 50</span><br />'
     attrib: |-
       叠加伤害： <span class="attribVal">20 / 35 / 50 / 65</span><br />
       伤害加倍最多层数： <span class="attribVal">5</span><br />
@@ -5997,7 +5992,8 @@ abilitydata:
   meepo_poof:
     dname: 忽悠
     affects: 技能： <span class="attribVal">单位目标, 点目标</span><br />影响： <span class="attribVal">友方英雄</span><br
-      />无视技能免疫： <span class="attribVal">否</span><br />
+      />伤害类型： <span class="attribVal">魔法</span><br />无视技能免疫： <span class="attribVal">否</span><br
+      />
     desc: 通过从大地中汲取神秘的能量，一个米波可以在持续施法1.5秒后传送至另一个米波或自身所在之处，在离开和到达的区域都造成伤害。
     notes: 可以点击小地图施放。<br />可以传送至米波的幻象。
     dmg: '攻击力: <span class="attribVal">80 / 100 / 120 / 140</span><br />'
@@ -6011,8 +6007,8 @@ abilitydata:
     hurl: Meepo
   meepo_geostrike:
     dname: 地之突袭
-    affects: 技能： <span class="attribVal">被动</span><br />无视技能免疫： <span class="attribVal"><font
-      color="#70EA72">是</font></span><br />
+    affects: 技能： <span class="attribVal">被动</span><br />伤害类型： <span class="attribVal">魔法</span><br
+      />无视技能免疫： <span class="attribVal"><font color="#70EA72">是</font></span><br />
     desc: 米波强化他的武器，对敌人造成每秒伤害，同时降低受攻击单位的移动速度。多个米波的地之突袭可以叠加。
     notes: 减速效果无视技能免疫。
     dmg: '攻击力: <span class="attribVal">10 / 20 / 30 / 40</span><br />'
@@ -6092,7 +6088,8 @@ abilitydata:
     hurl: Treant_Protector
   treant_eyes_in_the_forest:
     dname: 丛林之眼
-    affects: 技能： <span class="attribVal">单位目标</span><br />
+    affects: 技能： <span class="attribVal">单位目标</span><br />伤害类型： <span class="attribVal">魔法</span><br
+      />
     desc: 树精卫士对目标树木灌注魔力。注魔后树木将拥有周围的顺畅视野。如果树精卫士施放了疯狂生长，这些树木附近800范围内的单位将会被困住，并受到伤害。
     notes: 丛林之眼的树木产生的疯狂生长效果可以造成伤害。树精卫士产生的疯狂生长效果则没有伤害。<br />如果敌人拥有真实视域，他们将会发现被灌注魔力的树木。
     dmg: ''
@@ -6336,9 +6333,6 @@ abilitydata:
     dmg: ''
     attrib: |-
       伤害： <span class="attribVal">75 / 150 / 225 / 300</span><br />
-      每次跳跃伤害降低： <span class="attribVal">4% / 4% / 4% / 4%</span><br />
-      英雄攻击力降低： <span class="attribVal">20 / 25 / 30 / 35</span><br />
-      普通单位攻击力降低： <span class="attribVal">10 / 13 / 15 / 17</span><br />
       削弱持续时间： <span class="attribVal">10 / 10 / 10 / 10</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -6635,7 +6629,7 @@ abilitydata:
     attrib: |-
       每秒积聚伤害： <span class="attribVal">100 / 100 / 100 / 100</span><br />
       最大积聚时间： <span class="attribVal">2 / 3 / 4 / 5</span><br />
-      宽度： <span class="attribVal">350 / 350 / 350 / 350</span><br />
+      宽度： <span class="attribVal">375</span><br />
       射程： <span class="attribVal">1550</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -6658,8 +6652,8 @@ abilitydata:
       施法距离： <span class="attribVal">550 / 700 / 850 / 1000</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 75/75/75/75</div><div class="cooldown"><img
-      alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
+      width="16" height="16" border="0" /> 150</div><div class="cooldown"><img alt="冷却时间"
+      title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 16/14/12/10</div><br clear="left" /></div>
     lore: 伊扎洛打破本源的协调，耗尽那些可怜的构造体身上的魔法能量。
     hurl: Keeper_of_the_Light
@@ -6708,7 +6702,7 @@ abilitydata:
       作用范围： <span class="attribVal">675 / 675 / 675</span><br />
       持续时间： <span class="attribVal">4 / 5 / 6</span><br />
       未命中几率： <span class="attribVal">80% / 80% / 80%</span><br />
-      击退距离： <span class="attribVal">400</span>
+      击退距离： <span class="attribVal">525</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 50/50/50</div><div class="cooldown"><img
@@ -6750,7 +6744,7 @@ abilitydata:
     attrib: |-
       每秒积聚伤害： <span class="attribVal">100 / 100 / 100 / 100</span><br />
       最大积聚时间： <span class="attribVal">2 / 3 / 4 / 5</span><br />
-      宽度： <span class="attribVal">350 / 350 / 350 / 350</span><br />
+      宽度： <span class="attribVal">375</span><br />
       射程： <span class="attribVal">1550</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -6834,7 +6828,7 @@ abilitydata:
     notes: 敌人在施法延迟期间会在大地图和小地图上目标区域都收到视觉特效提示。<br />如果艾欧在施法延迟期间被控制，降临将会取消。<br />如果闪电之链连接了友方英雄，该英雄将和你一起被传送。你可以随时断开连接，防止英雄和你一同传送。
     dmg: ''
     attrib: |-
-      施法延迟： <span class="attribVal">2.5 / 2.25 / 2</span><br />
+      施法延迟： <span class="attribVal">2.7 / 2.35 / 2</span><br />
       返回时间： <span class="attribVal">12 / 12 / 12</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -7197,22 +7191,19 @@ abilitydata:
     desc: 半人马战行者反击攻击他的单位，伤害与半人马战行者的力量值成正比。
     notes: 反击会在受到攻击时触发。<br />反击能对防御塔造成伤害。
     dmg: ''
-    attrib: |-
-      伤害： <span class="attribVal">16 / 18 / 20 / 22</span><br />
-      力量加成伤害： <span class="attribVal">30% / 45% / 60% / 75%</span>
+    attrib: 伤害： <span class="attribVal">16 / 18 / 20 / 22</span>
     cmb: ''
     lore: 布拉德瓦登无需回避对手的攻击；这由他那盔甲般的马皮负责。
     hurl: Centaur_Warrunner
   centaur_stampede:
     dname: 奔袭冲撞
-    affects: 技能： <span class="attribVal">无目标</span><br />无视技能免疫： <span class="attribVal">否</span><br
-      />
+    affects: 技能： <span class="attribVal">无目标</span><br />伤害类型： <span class="attribVal">魔法</span><br
+      />无视技能免疫： <span class="attribVal">否</span><br />
     desc: "半人马战行者带领所有队友向胜利冲锋，所有友方英雄达到极限移动速度，并使踩到的敌人停滞。每个敌人只会受到一次踩踏作用，并受到基于半人马战行者力量值的伤害。\r\n\r\n可用神杖升级。"
     notes: 对技能免疫单位无效。
     dmg: ''
     attrib: |-
       奔袭冲撞持续时间： <span class="attribVal">4</span><br />
-      力量值伤害系数： <span class="attribVal">1 / 2 / 3</span><br />
       停滞持续时间： <span class="attribVal">1.8</span><br />
       踩踏作用范围： <span class="attribVal">105</span><br />
       <span class="scepterVal">神杖升级伤害减少：</span> <span class="attribVal">60%</span>
@@ -7562,7 +7553,8 @@ abilitydata:
   tusk_walrus_kick:
     dname: 海象飞踢
     affects: 技能： <span class="attribVal">单位目标</span><br />影响： <span class="attribVal">敌方单位</span><br
-      />无视技能免疫： <span class="attribVal"><font color="#70EA72">是</font></span><br />
+      />伤害类型： <span class="attribVal">魔法</span><br />无视技能免疫： <span class="attribVal"><font
+      color="#70EA72">是</font></span><br />
     desc: 将目标踢回，造成伤害并且减缓移动速度。
     notes: ''
     dmg: ''
@@ -7605,9 +7597,7 @@ abilitydata:
     desc: 天怒法师施放出缓慢移动的奥术鹰群，对敌方单位造成基于天怒法师智力值的伤害。
     notes: 鹰群移动非常缓慢（500移速），提供325码的范围视野。击中目标后，将给予目标区域的视野，持续3.34秒。<br />奥法鹰隼无法被躲避。
     dmg: ''
-    attrib: |-
-      基础伤害： <span class="attribVal">60 / 80 / 100 / 120</span><br />
-      智力伤害系数： <span class="attribVal">1.6</span>
+    attrib: 基础伤害： <span class="attribVal">60 / 80 / 100 / 120</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 70/70/70/70</div><div class="cooldown"><img
@@ -7753,7 +7743,7 @@ abilitydata:
     notes: ''
     dmg: ''
     attrib: |-
-      吟唱时间： <span class="attribVal">1.6</span><br />
+      吟唱时间： <span class="attribVal">1.7</span><br />
       作用范围： <span class="attribVal">500</span><br />
       昏迷时间： <span class="attribVal">2 / 3 / 4 / 5</span><br />
       践踏伤害： <span class="attribVal">70 / 100 / 130 / 160</span>
@@ -7777,9 +7767,7 @@ abilitydata:
       持续时间： <span class="attribVal">8</span><br />
       加成持续时间： <span class="attribVal">9</span><br />
       移动速度加成（每个小兵）： <span class="attribVal">1%</span><br />
-      移动速度加成（每个英雄）： <span class="attribVal">5%</span><br />
-      攻击力加成（每个小兵）： <span class="attribVal">6 / 9 / 12 / 15</span><br />
-      攻击力加成（每个英雄）： <span class="attribVal">10 / 20 / 30 / 40</span>
+      移动速度加成（每个英雄）： <span class="attribVal">5%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 80/90/100/110</div><div class="cooldown"><img
@@ -7847,7 +7835,6 @@ abilitydata:
       基础伤害： <span class="attribVal">40 / 80 / 120 / 160</span><br />
       每个非英雄单位提供伤害： <span class="attribVal">14 / 16 / 18 / 20</span><br />
       每个英雄提供伤害： <span class="attribVal">20 / 40 / 60 / 80</span><br />
-      对幻象的伤害百分比： <span class="attribVal">25%</span><br />
       移动速度加成（对小兵）： <span class="attribVal">3%</span><br />
       移动速度加成（对英雄）： <span class="attribVal">9%</span><br />
       移速加成持续时间： <span class="attribVal">7</span><br />
@@ -8672,7 +8659,6 @@ abilitydata:
       风暴波数： <span class="attribVal">6</span><br />
       每波伤害： <span class="attribVal">25 / 40 / 55 / 70</span><br />
       每波间隔 <span class="attribVal">1</span><br />
-      烧灼最大生命值百分比： <span class="attribVal">0.75% / 1.5% / 2.25% / 3%</span><br />
       灼烧持续时间： <span class="attribVal">2</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"

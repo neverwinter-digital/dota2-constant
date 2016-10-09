@@ -206,7 +206,7 @@ itemdata:
       MAGIC DAMAGE BLOCK: <span class="attribVal">120</span><br />
       INITIAL CHARGES: <span class="attribVal">5</span>
     mc: false
-    cd: 4
+    cd: 6
     lore: ''
     components: 
     created: false
@@ -1528,7 +1528,7 @@ itemdata:
     id: 250
     img: bloodthorn_lg.png?3
     dname: Bloodthorn
-    qual: rare
+    qual: epic
     cost: 7195
     desc: "Active: Silences a target for 5.0 seconds and amplifies the damage it takes
       by 30.0%. All attacks on the silenced target will have True Strike and land
@@ -1556,7 +1556,7 @@ itemdata:
     id: 252
     img: echo_sabre_lg.png?3
     dname: Echo Sabre
-    qual: rare
+    qual: artifact
     cost: 2650
     desc: 'Passive: Causes melee attacks to attack twice in quick succession. The
       double attacks apply a 0.6 second 100% movement and attack speed slow on each
@@ -1649,7 +1649,7 @@ itemdata:
     id: 263
     img: hurricane_pike_lg.png?3
     dname: Hurricane Pike
-    qual: rare
+    qual: epic
     cost: 4375
     desc: "Active: When used on an enemy, it pushes you both away from each other
       450 units each, and allows you to attack the target without range restrictions
@@ -2453,13 +2453,13 @@ itemdata:
     id: 236
     img: dragon_lance_lg.png?3
     dname: Dragon Lance
-    qual: epic
+    qual: artifact
     cost: 1900
     desc: 'Passive: Increases attack range of ranged heroes by 140.'
     notes: Multiple instances do not stack.
     attrib: |-
       + <span class="attribVal">14</span> <span class="attribValText">Agility</span><br />
-      + <span class="attribVal">14</span> <span class="attribValText">Strength</span><br />
+      + <span class="attribVal">13</span> <span class="attribValText">Strength</span><br />
       + <span class="attribVal">140</span> <span class="attribValText">Attack Range <font color='#7d7d7d'>(Ranged Only)</font></span>
     mc: false
     cd: false
@@ -2831,7 +2831,7 @@ itemdata:
       PURGE SLOW DURATION: <span class="attribVal"><span class="attribVal">4</span></span><br />
       PURGE CAST RANGE: <span class="attribVal"><span class="attribVal">600</span></span>
     mc: false
-    cd: 2
+    cd: 4
     lore: An enchanted blade that allows the user to cut straight into the enemy's
       soul.
     components:
@@ -2858,7 +2858,7 @@ itemdata:
       PURGE SLOW DURATION: <span class="attribVal">4</span><br />
       PURGE CAST RANGE: <span class="attribVal">600</span>
     mc: false
-    cd: 2
+    cd: 4
     lore: An enchanted blade that allows the user to cut straight into the enemy's
       soul.
     components:

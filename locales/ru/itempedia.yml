@@ -206,7 +206,7 @@ itemdata:
       БЛОК МАГИЧЕСКОГО УРОНА: <span class="attribVal">120</span><br />
       ЗАРЯДОВ ПРИ ПОКУПКЕ: <span class="attribVal">5</span>
     mc: false
-    cd: 4
+    cd: 6
     lore: ''
     components: 
     created: false
@@ -537,7 +537,7 @@ itemdata:
     qual: component
     cost: 900
     desc: "Пассивная: True Sight — дает носителю и его союзникам возможность видеть
-      невидимых юнитов и варды в определенном радиусе.<br />\r\nВыпадает при смерти
+      невидимых существ и варды в определенном радиусе.<br />\r\nВыпадает при смерти
       и не может быть уничтожен."
     notes: Не действует, пока находится у курьера.
     attrib: 'РАДИУС TRUE SIGHT: <span class="attribVal">900</span>'
@@ -1533,7 +1533,7 @@ itemdata:
     id: 250
     img: bloodthorn_lg.png?3
     dname: Bloodthorn
-    qual: rare
+    qual: epic
     cost: 7195
     desc: "Активируемая: Silence — запрещает выбранной цели использовать способности
       на 5.0 секунд и увеличивает наносимый ей урон на 30.0%. По цели невозможно промахнуться,
@@ -1562,7 +1562,7 @@ itemdata:
     id: 252
     img: echo_sabre_lg.png?3
     dname: Echo Sabre
-    qual: rare
+    qual: artifact
     cost: 2650
     desc: 'Пассивная: Позволяет героям ближнего боя совершать двойную атаку, которая
       на 0.6 секунды замедляет скорость атаки и передвижения на 100%.'
@@ -1657,7 +1657,7 @@ itemdata:
     id: 263
     img: hurricane_pike_lg.png?3
     dname: Hurricane Pike
-    qual: rare
+    qual: epic
     cost: 4375
     desc: "Активируемая: Push — при использовании на противника отталкивает цель и
       владельца друг от друга на расстояние в 450 единиц. Если владелец сражается
@@ -2354,7 +2354,7 @@ itemdata:
     attrib: "+ <span class=\"attribVal\">10</span> <span class=\"attribValText\">к
       урону</span><br />\n+ <span class=\"attribVal\">10</span> <span class=\"attribValText\">к
       силе</span><br />\nОГЛУШЕНИЕ ОТ BASH:\r\n• ШАНС В БЛИЖНЕМ БОЮ: <span class=\"attribVal\">25%</span><br
-      />\n• %ШАНС В ДАЛЬНЕМ БОЮ: <span class=\"attribVal\">10</span><br />\nДЛИТЕЛЬНОСТЬ
+      />\n• ШАНС В ДАЛЬНЕМ БОЮ: <span class=\"attribVal\">10%</span><br />\nДЛИТЕЛЬНОСТЬ
       ОГЛУШЕНИЯ: <span class=\"attribVal\">1.4</span><br />\nДОП. УРОН ОТ BASH: <span
       class=\"attribVal\">85</span>"
     mc: false
@@ -2457,13 +2457,13 @@ itemdata:
     id: 236
     img: dragon_lance_lg.png?3
     dname: Dragon Lance
-    qual: epic
+    qual: artifact
     cost: 1900
     desc: 'Пассивная: Увеличивает дальность атаки героев дальнего боя на 140.'
     notes: Дальность атаки от нескольких предметов не складывается.
     attrib: |-
       + <span class="attribVal">14</span> <span class="attribValText">к ловкости</span><br />
-      + <span class="attribVal">14</span> <span class="attribValText">к силе</span><br />
+      + <span class="attribVal">13</span> <span class="attribValText">к силе</span><br />
       + <span class="attribVal">140</span> <span class="attribValText">к дальности атаки <font color='#7d7d7d'>(в дальнем бою)</font></span>
     mc: false
     cd: false
@@ -2831,7 +2831,7 @@ itemdata:
       ДЛИТЕЛЬНОСТЬ ЗАМЕДЛЕНИЯ: <span class="attribVal"><span class="attribVal">4</span></span><br />
       ДАЛЬНОСТЬ ПРИМЕНЕНИЯ: <span class="attribVal"><span class="attribVal">600</span></span>
     mc: false
-    cd: 2
+    cd: 4
     lore: Зачарованный меч, позволяющий разрубить врага и добраться прямо до его души.
     components:
     - blade_of_alacrity
@@ -2857,7 +2857,7 @@ itemdata:
       ДЛИТЕЛЬНОСТЬ ЗАМЕДЛЕНИЯ: <span class="attribVal">4</span><br />
       ДАЛЬНОСТЬ ПРИМЕНЕНИЯ: <span class="attribVal">600</span>
     mc: false
-    cd: 2
+    cd: 4
     lore: Зачарованный меч, позволяющий разрубить врага и добраться прямо до его души.
     components:
     - diffusal_blade

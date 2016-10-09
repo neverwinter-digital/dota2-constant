@@ -194,7 +194,7 @@ itemdata:
       魔法伤害抵挡： <span class="attribVal">120</span><br />
       初始能量点数： <span class="attribVal">5</span>
     mc: false
-    cd: 4
+    cd: 6
     lore: ''
     components: 
     created: false
@@ -1409,7 +1409,7 @@ itemdata:
     id: 250
     img: bloodthorn_lg.png?3
     dname: 血棘
-    qual: rare
+    qual: epic
     cost: 7195
     desc: "主动：使目标沉默5.0秒，受到的伤害提高30.0%。所有对其造成的攻击均不会落空，并且造成致命一击伤害。<br />\r\n被动：致命一击 -
       每次攻击时有一定概率造成致命伤害。在攻击建筑时不会触发致命一击。"
@@ -1435,7 +1435,7 @@ itemdata:
     id: 252
     img: echo_sabre_lg.png?3
     dname: 回音战刃
-    qual: rare
+    qual: artifact
     cost: 2650
     desc: 被动：近战攻击可以快速攻击两次。连续攻击将减缓100%的移动速度和攻击速度，持续0.6秒。
     notes: ''
@@ -1519,7 +1519,7 @@ itemdata:
     id: 263
     img: hurricane_pike_lg.png?3
     dname: 飓风长戟
-    qual: rare
+    qual: epic
     cost: 4375
     desc: "主动：对敌人使用时，可将自己和敌人朝相反方向各推开450距离，并且接下来的攻击不受英雄攻击距离的限制，持续4次攻击或5.0秒。攻击过程中提供100的攻击速度加成。对自身或友军使用时效果等同于原力法杖。<br
       />\r\n被动：提升远程英雄140的攻击距离。"
@@ -2235,13 +2235,13 @@ itemdata:
     id: 236
     img: dragon_lance_lg.png?3
     dname: 魔龙枪
-    qual: epic
+    qual: artifact
     cost: 1900
     desc: 被动：远程英雄的攻击距离增加140。
     notes: 多个效果不会叠加。
     attrib: |-
       + <span class="attribVal">14</span> <span class="attribValText">敏捷</span><br />
-      + <span class="attribVal">14</span> <span class="attribValText">力量</span><br />
+      + <span class="attribVal">13</span> <span class="attribValText">力量</span><br />
       + <span class="attribVal">140</span> <span class="attribValText">攻击距离<font color='#7d7d7d'>（仅对远程有效）</font></span>
     mc: false
     cd: false
@@ -2563,7 +2563,7 @@ itemdata:
       净化减速持续时间： <span class="attribVal"><span class="attribVal">4</span></span><br />
       净化施法距离： <span class="attribVal"><span class="attribVal">600</span></span>
     mc: false
-    cd: 2
+    cd: 4
     lore: 一把直接切入敌人灵魂的魔力之刃。
     components:
     - blade_of_alacrity
@@ -2585,7 +2585,7 @@ itemdata:
       净化减速持续时间： <span class="attribVal">4</span><br />
       净化施法距离： <span class="attribVal">600</span>
     mc: false
-    cd: 2
+    cd: 4
     lore: 一把直接切入敌人灵魂的魔力之刃。
     components:
     - diffusal_blade
