@@ -3229,22 +3229,20 @@ arc_warden:
   - Nuker
 abyssal_underlord:
   name: Underlord
-  bio: Neither myth nor song exist to tell of their coming. <br><br>Deep below the
-    surface of the world lay unknown wonders and horrors. Down and down again, well
-    beneath the slithering magma fields and simmering roots of dormant volcanoes stands
-    the obsidian city of Aziyog, its incomparable stonework spanning an endless cavern.
-    Within honeycomb walls mortared with the bones of countless slaves lies the domain
-    of the Abyssal Horde, and their brutal underlord Vrogros. <br><br>Armed by the
-    monstrous forgemasters of his kind and well-practiced in the arts of the Dark
-    Rift, Vrogros is able to conjure forth flame and crippling malice through the
-    twist between worlds. He seeks always to expand his holdings, destroying or enslaving
-    all he encounters. Yet the lands offered by the subterranean realm are few, and
-    so his sights have turned upward. By his command the first waves of abyssal invaders
-    have already marched through the rift, a few doomed legions meant merely to test
-    the might of nations above. Now, as his full force readies itself for unending
-    conquest, Vrogros himself steps into a sunlit world to announce his coming reign.
-    Those who face the Underlord will bow and pay tribute, or be crushed where they
-    stand.
+  bio: Сей рок не предрекала ни одна песнь, ни одна легенда. <br><br>Глубоко под поверхностью
+    внешнего мира лежат неведомые чудеса и ужасы. Закованный в земной тверди, далеко
+    под беспокойными лавовыми полями и подножиями спящих вулканов раскинулся обсидиановый
+    город Азийог, бесподобная каменная кладка которого простирается по безграничной
+    пещере. В ячеистых стенах, построенных на костях бесчисленных рабов, лежат территории
+    полчищ подземных тварей и их жестокого владыки, Врогроша. <br><br>Вооруженный
+    лучшими кузнецами своего вида и обученный управлять самим пространством, в непрерывной
+    жажде власти он несет пламя и отчаяние в каждый мир, уничтожая или порабощая всё
+    встреченное. Тем не менее, подземный мир невелик, и потому Врогрош обратил свой
+    взор ко внешним просторам. Одним своим словом он обрек на погибель легионы своих
+    разведчиков, отправив тех на растерзание обитателям поверхности, дабы оценить
+    их мощь. Теперь же, готовый продолжить свое завоевание, Врогрош лично ступит на
+    освещенную солнцем землю, чтобы показать миру его будущего владыку. Те же, кто
+    встретятся ему, падут ниц и выплатят дань — или умрут на месте.
   atk: melee
   atk_l: Ближнего боя
   roles:
