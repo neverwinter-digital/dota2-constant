@@ -3040,12 +3040,12 @@ abilitydata:
     dmg: ''
     attrib: |-
       SUMMON BLAST RADIUS: <span class="attribVal">600</span><br />
-      GOLEM HEALTH: <span class="attribVal">900 / 1200 / 1500</span><br />
+      GOLEM HEALTH: <span class="attribVal">1000 / 1500 / 2000</span><br />
       GOLEM DAMAGE: <span class="attribVal">75 / 100 / 125</span><br />
       GOLEM ARMOR: <span class="attribVal">6 / 9 / 12</span><br />
       GOLEM HEALTH REGEN: <span class="attribVal">25 / 50 / 75</span><br />
       <span class="scepterVal">SCEPTER NUMBER OF GOLEMS:</span> <span class="attribVal">2</span><br />
-      <span class="scepterVal">SCEPTER GOLEM HEALTH:</span> <span class="attribVal">675 / 900 / 1125</span><br />
+      <span class="scepterVal">SCEPTER GOLEM HEALTH:</span> <span class="attribVal">750 / 1125 / 1500</span><br />
       <span class="scepterVal">SCEPTER GOLEM DAMAGE:</span> <span class="attribVal">56 / 75 / 94</span><br />
       <span class="scepterVal">SCEPTER BOUNTY REDUCTION:</span> <span class="attribVal">50%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana

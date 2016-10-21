@@ -2535,12 +2535,12 @@ abilitydata:
     dmg: ''
     attrib: |-
       召唤冲击作用范围： <span class="attribVal">600</span><br />
-      地狱火生命值： <span class="attribVal">900 / 1200 / 1500</span><br />
+      地狱火生命值： <span class="attribVal">1000 / 1500 / 2000</span><br />
       地狱火攻击力： <span class="attribVal">75 / 100 / 125</span><br />
       地狱火护甲： <span class="attribVal">6 / 9 / 12</span><br />
       地狱火生命恢复速率： <span class="attribVal">25 / 50 / 75</span><br />
       <span class="scepterVal">神杖升级地狱火数量：</span> <span class="attribVal">2</span><br />
-      <span class="scepterVal">神杖升级地狱火血量：</span> <span class="attribVal">675 / 900 / 1125</span><br />
+      <span class="scepterVal">神杖升级地狱火血量：</span> <span class="attribVal">750 / 1125 / 1500</span><br />
       <span class="scepterVal">神杖升级地狱火攻击力：</span> <span class="attribVal">56 / 75 / 94</span><br />
       <span class="scepterVal">神杖升级奖励减少：</span> <span class="attribVal">50%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"

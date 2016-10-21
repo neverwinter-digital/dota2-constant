@@ -2668,12 +2668,12 @@ abilitydata:
     dmg: ''
     attrib: |-
       소환 폭발 반경: <span class="attribVal">600</span><br />
-      골렘 체력: <span class="attribVal">900 / 1200 / 1500</span><br />
+      골렘 체력: <span class="attribVal">1000 / 1500 / 2000</span><br />
       골렘 피해: <span class="attribVal">75 / 100 / 125</span><br />
       골렘 방어력: <span class="attribVal">6 / 9 / 12</span><br />
       골렘 체력 재생: <span class="attribVal">25 / 50 / 75</span><br />
       <span class="scepterVal">홀 골렘 수:</span> <span class="attribVal">2</span><br />
-      <span class="scepterVal">홀 골렘 체력:</span> <span class="attribVal">675 / 900 / 1125</span><br />
+      <span class="scepterVal">홀 골렘 체력:</span> <span class="attribVal">750 / 1125 / 1500</span><br />
       <span class="scepterVal">홀 골렘 피해:</span> <span class="attribVal">56 / 75 / 94</span><br />
       <span class="scepterVal">홀 골렘 사망 시 획득 골드 감소:</span> <span class="attribVal">50%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"

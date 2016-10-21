@@ -3949,9 +3949,9 @@ DOTAAbilities:
     - stun_duration: 1.0
     - aoe: 600
     - golem_hp_tooltip:
-      - 900
-      - 1200
+      - 1000
       - 1500
+      - 2000
     - golem_dmg_tooltip:
       - 75
       - 100
@@ -3966,9 +3966,9 @@ DOTAAbilities:
       - 75
     - number_of_golems_scepter: 2
     - golem_hp_tooltip_scepter:
-      - 675
-      - 900
+      - 750
       - 1125
+      - 1500
     - golem_dmg_tooltip_scepter:
       - 56
       - 75
