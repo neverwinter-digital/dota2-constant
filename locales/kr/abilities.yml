@@ -547,8 +547,8 @@ abilitydata:
     attrib: '초당 회복 체력 비율: <span class="attribVal">2% / 3% / 4% / 5%</span>'
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 120/125/130/135</div><div class="cooldown"><img
-      alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
+      width="16" height="16" border="0" /> 140</div><div class="cooldown"><img alt="쿨다운"
+      title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 60</div><br clear="left" /></div>
     lore: 가면의 섬에서 배운 의식 중 하나입니다. 부두 주술을 활용한 치료법은 상당한 효과가 있습니다.
     hurl: Juggernaut
@@ -598,7 +598,7 @@ abilitydata:
     dmg: '피해: <span class="attribVal">75 / 150 / 225 / 300</span><br />'
     attrib: |-
       반경: <span class="attribVal">650</span><br />
-      <span class="scepterVal">홀 주기:</span> <span class="attribVal">9</span>
+      <span class="scepterVal">홀 주기:</span> <span class="attribVal">10</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 100/120/140/160</div><div class="cooldown"><img
@@ -1677,7 +1677,7 @@ abilitydata:
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 90/100/110/120</div><div class="cooldown"><img
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 10</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 16/14/12/10</div><br clear="left" /></div>
     lore: 고대 급류가 제독의 부름에 응하여 지하의 중심부에서 솟구쳐 오릅니다.
     hurl: Kunkka
   kunkka_tidebringer:
@@ -2275,7 +2275,7 @@ abilitydata:
     attrib: |-
       반경: <span class="attribVal">250 / 275 / 300 / 325</span><br />
       적의 공격 실패율: <span class="attribVal">40% / 50% / 60% / 70%</span><br />
-      이동 둔화: <span class="attribVal">19% / 21% / 23% / 25%</span><br />
+      이동 둔화: <span class="attribVal">13% / 17% / 21% / 25%</span><br />
       지속시간: <span class="attribVal">6</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -3419,7 +3419,7 @@ abilitydata:
       class="attribVal"><font color="#70EA72">관통</font></span><br />'
     desc: "바이퍼가 대상 적 유닛의 공격 및 이동 속도를 감소시키고 지속적인 독 피해를 줍니다. 둔화 효과는 지속시간 동안 점차 약해집니다.\r\n\r\n아가님의
       홀로 강화 가능"
-    notes: 둔화 효과는 주문 면역을 무시합니다.<br />바이퍼의 공습에 중독된 유닛은 체력이 25% 이하로 내려가면 디나이할 수 있습니다.
+    notes: 둔화 효과는 주문 면역을 무시합니다.
     dmg: ''
     attrib: |-
       지속시간: <span class="attribVal">5.1 / 5.1 / 5.1</span><br />
@@ -4173,7 +4173,7 @@ abilitydata:
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 100/120/140/160</div><div class="cooldown"><img
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 10</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 9</div><br clear="left" /></div>
     lore: 전능자를 모시는 사제들은 동료 전사의 부정함을 능숙하게 씻어 냅니다.
     hurl: Omniknight
   omniknight_repel:
@@ -4183,12 +4183,12 @@ abilitydata:
     desc: 대상 유닛에게 신성한 보호막을 걸어 주문 면역 효과를 주고 마법 피해에 100% 면역이 되게 합니다.
     notes: 반발력은 다른 주문 면역 효과와 같은 방식으로 적용되지만 정화할 수 있습니다.
     dmg: ''
-    attrib: '지속시간: <span class="attribVal">4 / 6 / 8 / 10</span>'
+    attrib: '지속시간: <span class="attribVal">5 / 6 / 7 / 8</span>'
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 50/50/50/50</div><div class="cooldown"><img
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 14</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 20/18/16/14</div><br clear="left" /></div>
     lore: 퓨리스트의 마법 저항력은 희생의 구덩이에서 시험을 받고 확인되었습니다.
     hurl: Omniknight
   omniknight_degen_aura:
@@ -4295,7 +4295,7 @@ abilitydata:
     dname: 내면의 활력
     affects: '능력: <span class="attribVal">유닛 지정</span><br />효과: <span class="attribVal">아군
       영웅</span><br />'
-    desc: 아군 유닛의 재생 능력을 각성시켜 주 능력치에 기반하여 치유 효과를 부여합니다. 대상의 체력이 40% 이하일 때 회복이 더욱 빨라집니다.
+    desc: 아군 유닛의 재생 능력을 각성시켜 주 능력치에 기반하여 치유 효과를 부여합니다. 대상의 체력이 35% 이하일 때 회복이 더욱 빨라집니다.
       16초 동안 지속됩니다.
     notes: 매초 현재 체력을 기준으로 체력 회복 효과가 조정됩니다.<br />주문 면역 유닛도 치료할 수 있습니다.
     dmg: ''
@@ -4576,7 +4576,7 @@ abilitydata:
     dmg: ''
     attrib: |-
       가속 범위: <span class="attribVal">900 / 900 / 900</span><br />
-      보너스 속도: <span class="attribVal">20% / 20% / 20%</span><br />
+      보너스 속도: <span class="attribVal">16% / 18% / 20%</span><br />
       자신이 얻는 보너스 골드: <span class="attribVal">150 / 250 / 350</span><br />
       아군이 받는 보너스 골드: <span class="attribVal">40 / 80 / 120</span><br />
       지속시간: <span class="attribVal">30 / 30 / 30</span><br />
@@ -4777,7 +4777,7 @@ abilitydata:
     dmg: ''
     attrib: |-
       초당 피해: <span class="attribVal">25 / 30 / 35 / 40</span><br />
-      총 피해: <span class="attribVal">75 / 120 / 175 / 240</span><br />
+      총 피해: <span class="attribVal">100 / 150 / 210 / 280</span><br />
       반경: <span class="attribVal">375 / 375 / 375 / 375</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -6087,7 +6087,7 @@ abilitydata:
       지속시간: <span class="attribVal">10 / 10 / 10 / 10</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 40</div><div class="cooldown"><img alt="쿨다운"
+      width="16" height="16" border="0" /> 55</div><div class="cooldown"><img alt="쿨다운"
       title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 2.50</div><br clear="left" /></div>
     lore: 아무리 순수하고 용감한 영웅도 그림자 악마의 영향력에 노출되면 오염되어 타락합니다.
@@ -8856,7 +8856,7 @@ abilitydata:
       <span class="scepterVal">홀 쿨다운:</span> <span class="attribVal">1</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 50/60/70/80</div><div class="cooldown"><img
+      width="16" height="16" border="0" /> 80/85/90/95</div><div class="cooldown"><img
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 2.25</div><br clear="left" /></div>
     lore: 거울 회랑이 촛불 하나의 빛을 증폭시키듯, 우주의 부서진 벽은 예언의 빛을 타오르는 횃불로 변형시킵니다.
@@ -9213,7 +9213,7 @@ abilitydata:
     dmg: ''
     attrib: |-
       반경: <span class="attribVal">900</span><br />
-      피해 감소: <span class="attribVal">18% / 26% / 34% / 42%</span><br />
+      피해 감소: <span class="attribVal">10% / 20% / 30% / 40%</span><br />
       보너스 피해(크립): <span class="attribVal">5</span><br />
       보너스 피해(영웅): <span class="attribVal">30 / 35 / 40 / 45</span><br />
       지속시간: <span class="attribVal">30 / 40 / 50 / 60</span>

@@ -112,7 +112,7 @@ herodata:
     attribs:
       str:
         b: 17
-        g: '1.90'
+        g: '1.60'
       int:
         b: 15
         g: '1.40'
@@ -226,8 +226,8 @@ herodata:
         g: '3.70'
       ms: 285
       dmg:
-        min: 13
-        max: 22
+        min: 9
+        max: 18
       armor: 1.36
     dac: 远程
     droles: 核心 - 逃生 - 耐久 - 爆发 - 控制
@@ -837,7 +837,7 @@ herodata:
       dmg:
         min: 33
         max: 39
-      armor: 4.22
+      armor: 3.22
     dac: 近战
     droles: 核心 - 先手 - 控制 - 逃生 - 耐久
   skeleton_king:
@@ -1570,8 +1570,8 @@ herodata:
         g: '2.00'
       ms: 315
       dmg:
-        min: 20
-        max: 35
+        min: 14
+        max: 29
       armor: 3.86
     dac: 远程
     droles: 核心 - 爆发 - 控制
@@ -2324,7 +2324,7 @@ herodata:
       agi:
         b: 15
         g: '1.80'
-      ms: 295
+      ms: 285
       dmg:
         min: 29
         max: 39

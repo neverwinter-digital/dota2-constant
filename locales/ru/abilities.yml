@@ -626,8 +626,8 @@ abilitydata:
     attrib: 'МАКС. ЗДОРОВЬЯ В СЕКУНДУ: <span class="attribVal">2% / 3% / 4% / 5%</span>'
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 120/125/130/135</div><div class="cooldown"><img
-      alt="Перезарядка" title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
+      width="16" height="16" border="0" /> 140</div><div class="cooldown"><img alt="Перезарядка"
+      title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 60</div><br clear="left" /></div>
     lore: Среди ритуалов, выученных на острове Масок, навык залечивания ран с толикой
       магии вуду оказался довольно полезным.
@@ -685,7 +685,7 @@ abilitydata:
     dmg: 'к урону: <span class="attribVal">75 / 150 / 225 / 300</span><br />'
     attrib: |-
       РАДИУС: <span class="attribVal">650</span><br />
-      <span class="scepterVal">ЧАСТОТА ПРИМЕНЕНИЯ СО СКИПЕТРОМ:</span> <span class="attribVal">9</span>
+      <span class="scepterVal">ЧАСТОТА ПРИМЕНЕНИЯ СО СКИПЕТРОМ:</span> <span class="attribVal">10</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 100/120/140/160</div><div class="cooldown"><img
@@ -1927,7 +1927,7 @@ abilitydata:
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 90/100/110/120</div><div class="cooldown"><img
       alt="Перезарядка" title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 10</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 16/14/12/10</div><br clear="left" /></div>
     lore: Адмирал вызывает мощный всплеск воды, который вырывается на поверхность
       прямо из центра мира.
     hurl: Kunkka
@@ -2626,7 +2626,7 @@ abilitydata:
     attrib: |-
       РАДИУС: <span class="attribVal">250 / 275 / 300 / 325</span><br />
       ШАНС ПРОМАХА: <span class="attribVal">40% / 50% / 60% / 70%</span><br />
-      ЗАМЕДЛЕНИЕ ПЕРЕДВИЖЕНИЯ: <span class="attribVal">19% / 21% / 23% / 25%</span><br />
+      ЗАМЕДЛЕНИЕ ПЕРЕДВИЖЕНИЯ: <span class="attribVal">13% / 17% / 21% / 25%</span><br />
       ДЛИТЕЛЬНОСТЬ: <span class="attribVal">6</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -3958,9 +3958,7 @@ abilitydata:
     desc: "Viper замедляет скорость атаки и передвижения выбранного врага, при этом
       нанося ему периодический урон. Скорость врага постепенно восстанавливается в
       течение действия яда.\r\n\r\nУлучшается с Aghanim's Scepter."
-    notes: Замедляет врагов, невосприимчивых к заклинаниям.<br />Враги могут добить
-      своего союзника под действием этой способности, если уровень его здоровья будет
-      ниже 25%.
+    notes: Замедляет врагов, невосприимчивых к заклинаниям.
     dmg: ''
     attrib: |-
       ДЛИТЕЛЬНОСТЬ: <span class="attribVal">5.1 / 5.1 / 5.1</span><br />
@@ -4835,7 +4833,7 @@ abilitydata:
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 100/120/140/160</div><div class="cooldown"><img
       alt="Перезарядка" title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 10</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 9</div><br clear="left" /></div>
     lore: Жрецы Всезнания сведущи в искусстве исцеления братьев по оружию.
     hurl: Omniknight
   omniknight_repel:
@@ -4848,12 +4846,12 @@ abilitydata:
     notes: Действует так же, как и другие источники невосприимчивости к заклинаниям,
       но может быть снят при помощи очищающих способностей.
     dmg: ''
-    attrib: 'ДЛИТЕЛЬНОСТЬ: <span class="attribVal">4 / 6 / 8 / 10</span>'
+    attrib: 'ДЛИТЕЛЬНОСТЬ: <span class="attribVal">5 / 6 / 7 / 8</span>'
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 50/50/50/50</div><div class="cooldown"><img
       alt="Перезарядка" title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 14</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 20/18/16/14</div><br clear="left" /></div>
     lore: Устойчивость Ревнителя к магии была выявлена, когда он оказался у ямы жертвоприношений.
     hurl: Omniknight
   omniknight_degen_aura:
@@ -4977,7 +4975,7 @@ abilitydata:
     affects: 'СПОСОБНОСТЬ: <span class="attribVal">направленная на юнита</span><br
       />ДЕЙСТВУЕТ: <span class="attribVal">на союзных героев</span><br />'
     desc: Раскрывает у союзника скрытые способности к регенерации. Интенсивность лечения
-      зависит от основного атрибута. Если здоровье ниже 40%, цель регенерирует быстрее.
+      зависит от основного атрибута. Если здоровье ниже 35%, цель регенерирует быстрее.
       Действует 16 секунд.
     notes: Процент уровня здоровья проверяется каждую секунду, и регенерация здоровья
       изменяется соответственно.<br />Действует на союзников, невосприимчивых к заклинаниям.
@@ -5309,7 +5307,7 @@ abilitydata:
     dmg: ''
     attrib: |-
       РАДИУС СКОРОСТИ: <span class="attribVal">900 / 900 / 900</span><br />
-      ДОП. СКОРОСТЬ: <span class="attribVal">20% / 20% / 20%</span><br />
+      ДОП. СКОРОСТЬ: <span class="attribVal">16% / 18% / 20%</span><br />
       ДОП. ЗОЛОТО СЕБЕ: <span class="attribVal">150 / 250 / 350</span><br />
       ДОП. ЗОЛОТО СОЮЗНИКАМ: <span class="attribVal">40 / 80 / 120</span><br />
       ДЛИТЕЛЬНОСТЬ: <span class="attribVal">30 / 30 / 30</span><br />
@@ -5542,7 +5540,7 @@ abilitydata:
     dmg: ''
     attrib: |-
       УРОН В СЕКУНДУ: <span class="attribVal">25 / 30 / 35 / 40</span><br />
-      ВСЕГО УРОНА: <span class="attribVal">75 / 120 / 175 / 240</span><br />
+      ВСЕГО УРОНА: <span class="attribVal">100 / 150 / 210 / 280</span><br />
       РАДИУС: <span class="attribVal">375 / 375 / 375 / 375</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -7051,7 +7049,7 @@ abilitydata:
       ДЛИТЕЛЬНОСТЬ: <span class="attribVal">10 / 10 / 10 / 10</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 40</div><div class="cooldown"><img alt="Перезарядка"
+      width="16" height="16" border="0" /> 55</div><div class="cooldown"><img alt="Перезарядка"
       title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 2.50</div><br clear="left" /></div>
     lore: Всё сильнее растущее влияние Shadow Demon может погубить даже самых стойких
@@ -10199,7 +10197,7 @@ abilitydata:
       <span class="scepterVal">ПЕРЕЗАРЯДКА СО СКИПЕТРОМ:</span> <span class="attribVal">1</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 50/60/70/80</div><div class="cooldown"><img
+      width="16" height="16" border="0" /> 80/85/90/95</div><div class="cooldown"><img
       alt="Перезарядка" title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 2.25</div><br clear="left" /></div>
     lore: Как зеркальные залы могут усиливать свет одной свечи, так и разбитые стены
@@ -10598,7 +10596,7 @@ abilitydata:
     dmg: ''
     attrib: |-
       РАДИУС: <span class="attribVal">900</span><br />
-      СНИЖЕНИЕ УРОНА: <span class="attribVal">18% / 26% / 34% / 42%</span><br />
+      СНИЖЕНИЕ УРОНА: <span class="attribVal">10% / 20% / 30% / 40%</span><br />
       ДОП. УРОН ЗА КРИПА: <span class="attribVal">5</span><br />
       ДОП. УРОН ЗА ГЕРОЯ: <span class="attribVal">30 / 35 / 40 / 45</span><br />
       ДЛИТЕЛЬНОСТЬ: <span class="attribVal">30 / 40 / 50 / 60</span>

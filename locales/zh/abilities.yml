@@ -519,8 +519,8 @@ abilitydata:
     attrib: 每秒最大生命值回复： <span class="attribVal">2% / 3% / 4% / 5%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 120/125/130/135</div><div class="cooldown"><img
-      alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
+      width="16" height="16" border="0" /> 140</div><div class="cooldown"><img alt="冷却时间"
+      title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 60</div><br clear="left" /></div>
     lore: 这是主宰在遮面之岛学到的一项惯用技巧，战斗证明会使用一点巫毒魔法治疗伤口是很有效的。
     hurl: Juggernaut
@@ -565,7 +565,7 @@ abilitydata:
     dmg: '攻击力: <span class="attribVal">75 / 150 / 225 / 300</span><br />'
     attrib: |-
       作用范围： <span class="attribVal">650</span><br />
-      <span class="scepterVal">神杖升级触发间隔：</span> <span class="attribVal">9</span>
+      <span class="scepterVal">神杖升级触发间隔：</span> <span class="attribVal">10</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 100/120/140/160</div><div class="cooldown"><img
@@ -1578,7 +1578,7 @@ abilitydata:
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 90/100/110/120</div><div class="cooldown"><img
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 10</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 16/14/12/10</div><br clear="left" /></div>
     lore: 世界中心喷涌出的上古之洪流，应舰队统帅的召唤而来。
     hurl: Kunkka
   kunkka_tidebringer:
@@ -2156,7 +2156,7 @@ abilitydata:
     attrib: |-
       作用范围： <span class="attribVal">250 / 275 / 300 / 325</span><br />
       未命中概率： <span class="attribVal">40% / 50% / 60% / 70%</span><br />
-      移动速度减缓： <span class="attribVal">19% / 21% / 23% / 25%</span><br />
+      移动速度减缓： <span class="attribVal">13% / 17% / 21% / 25%</span><br />
       持续时间： <span class="attribVal">6</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -3249,7 +3249,7 @@ abilitydata:
       />伤害类型： <span class="attribVal">魔法</span><br />无视技能免疫： <span class="attribVal"><font
       color="#70EA72">是</font></span><br />
     desc: "降低目标敌方单位的移动和攻击速度，并造成持续毒性伤害。移动速度会在毒性的持续时间内逐渐恢复。\r\n\r\n可用神杖升级。"
-    notes: 减速效果无视技能免疫。<br />受到蝮蛇突袭作用的单位在生命值低于25%时可以被反补。
+    notes: 减速效果无视技能免疫。
     dmg: ''
     attrib: |-
       持续时间： <span class="attribVal">5.1 / 5.1 / 5.1</span><br />
@@ -3960,7 +3960,7 @@ abilitydata:
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 100/120/140/160</div><div class="cooldown"><img
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 10</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 9</div><br clear="left" /></div>
     lore: 全知的牧师们善于清除己方战士们身心中的污杂。
     hurl: Omniknight
   omniknight_repel:
@@ -3970,12 +3970,12 @@ abilitydata:
     desc: 创造出一个神圣守卫环绕目标，使目标获得技能免疫状态和100%的魔法抗性。
     notes: 驱逐的效果与其他技能免疫技能和物品相同，但是驱逐可以被净化。
     dmg: ''
-    attrib: 持续时间： <span class="attribVal">4 / 6 / 8 / 10</span>
+    attrib: 持续时间： <span class="attribVal">5 / 6 / 7 / 8</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 50/50/50/50</div><div class="cooldown"><img
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 14</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 20/18/16/14</div><br clear="left" /></div>
     lore: 当面对着牺牲之渊时，普里斯特对魔法的适应力得到了测试和证实。
     hurl: Omniknight
   omniknight_degen_aura:
@@ -4078,7 +4078,7 @@ abilitydata:
     dname: 活血术
     affects: 技能： <span class="attribVal">单位目标</span><br />影响： <span class="attribVal">友方英雄</span><br
       />
-    desc: 激发友方单位的恢复力，基于其基础属性治疗目标。如果目标血量低于40%，则恢复速率提高。持续16秒。
+    desc: 激发友方单位的恢复力，基于其基础属性治疗目标。如果目标血量低于35%，则恢复速率提高。持续16秒。
     notes: 每秒都会确认生命的百分比，并对回复速率进行相应调整。<br />可以对技能免疫单位施放。
     dmg: ''
     attrib: |-
@@ -4340,7 +4340,7 @@ abilitydata:
     dmg: ''
     attrib: |-
       加速范围： <span class="attribVal">900 / 900 / 900</span><br />
-      速度提升： <span class="attribVal">20% / 20% / 20%</span><br />
+      速度提升： <span class="attribVal">16% / 18% / 20%</span><br />
       自身金钱奖励： <span class="attribVal">150 / 250 / 350</span><br />
       友军金钱奖励： <span class="attribVal">40 / 80 / 120</span><br />
       持续时间： <span class="attribVal">30 / 30 / 30</span><br />
@@ -4535,7 +4535,7 @@ abilitydata:
     dmg: ''
     attrib: |-
       每秒伤害： <span class="attribVal">25 / 30 / 35 / 40</span><br />
-      总伤害： <span class="attribVal">75 / 120 / 175 / 240</span><br />
+      总伤害： <span class="attribVal">100 / 150 / 210 / 280</span><br />
       作用范围： <span class="attribVal">375 / 375 / 375 / 375</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -5760,7 +5760,7 @@ abilitydata:
       持续时间： <span class="attribVal">10 / 10 / 10 / 10</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 40</div><div class="cooldown"><img alt="冷却时间"
+      width="16" height="16" border="0" /> 55</div><div class="cooldown"><img alt="冷却时间"
       title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 2.50</div><br clear="left" /></div>
     lore: 暗影恶魔不断增长的影响能够玷污最勇敢最纯洁的英雄。
@@ -8365,7 +8365,7 @@ abilitydata:
       <span class="scepterVal">神杖升级冷却时间：</span> <span class="attribVal">1</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 50/60/70/80</div><div class="cooldown"><img
+      width="16" height="16" border="0" /> 80/85/90/95</div><div class="cooldown"><img
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 2.25</div><br clear="left" /></div>
     lore: 一支蜡烛的微光在挂满镜子的厅堂中异常耀眼，无独有偶，破碎的宇宙之壁可以将预言的微光变成炫目的火炬。
@@ -8695,7 +8695,7 @@ abilitydata:
     dmg: ''
     attrib: |-
       作用范围： <span class="attribVal">900</span><br />
-      基础攻击力降低： <span class="attribVal">18% / 26% / 34% / 42%</span><br />
+      基础攻击力降低： <span class="attribVal">10% / 20% / 30% / 40%</span><br />
       额外攻击力（小兵死亡）： <span class="attribVal">5</span><br />
       额外攻击力（英雄死亡）： <span class="attribVal">30 / 35 / 40 / 45</span><br />
       持续时间： <span class="attribVal">30 / 40 / 50 / 60</span>
