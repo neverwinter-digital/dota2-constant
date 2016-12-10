@@ -1721,7 +1721,7 @@ abilitydata:
     affects: '능력: <span class="attribVal">목표 지점 지정</span><br />피해 유형: <span class="attribVal">마법</span><br
       />주문 면역 관통: <span class="attribVal">미관통</span><br />'
     desc: "전장을 가르며 나아가는 유령선을 소환합니다. 유령선은 산산이 부서지면서 좌초하는 곳 근처에 있는 적 유닛 모두에게 피해를 주고
-      기절시킵니다. 유령선에 닿은 아군은 제독의 럼주를 받아 마시고 이동 속도 보너스를 얻으며 모든 피해의 50%를 나중에 받습니다. \r\n\r\n아가님의
+      기절시킵니다. 유령선에 닿은 아군은 제독의 럼주를 받아 마시고 이동 속도 보너스를 얻으며 피해를 나중에 받습니다. \r\n\r\n아가님의
       홀로 강화 가능"
     notes: 아군 영웅은 럼주의 취기가 가신 후 받는 피해로 죽지 않습니다.<br />유령선의 실제 효과 범위는 유령선의 크기보다 넓습니다.<br
       />유령선은 650의 속도로 이동합니다.
@@ -1732,7 +1732,8 @@ abilitydata:
       너비: <span class="attribVal">425 / 425 / 425</span><br />
       럼주 보너스 속도: <span class="attribVal">10% / 10% / 10%</span><br />
       럼주 효과 지속시간: <span class="attribVal">10</span><br />
-      기절 지속시간: <span class="attribVal">1.4 / 1.4 / 1.4</span>
+      기절 지속시간: <span class="attribVal">1.4 / 1.4 / 1.4</span><br />
+      지연된 피해: <span class="attribVal">40% / 45% / 50%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 125/175/225</div><div class="cooldown"><img
@@ -4772,7 +4773,7 @@ abilitydata:
     dname: 화염 폭탄
     affects: '능력: <span class="attribVal">목표 지점 지정</span><br />피해 유형: <span class="attribVal">마법</span><br
       />주문 면역 관통: <span class="attribVal">미관통</span><br />'
-    desc: 대상 지역에 폭발물을 뒤섞어 만든 폭탄을 터뜨립니다. 효과의 범위 내에 있는 적을 밀쳐내고 잠시 기절에 빠뜨리며 피해를 줍니다.
+    desc: 대상 지역에 폭발물을 뒤섞어 만든 폭탄을 터뜨립니다. 효과의 범위 내에 있는 적을 밀쳐내고 지속 피해를 줍니다.
     notes: ''
     dmg: ''
     attrib: |-
@@ -9179,7 +9180,7 @@ abilitydata:
       width="16" height="16" border="0" /> 100/110/120/130</div><div class="cooldown"><img
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 12</div><br clear="left" /></div>
-    lore: The flames of conquest blaze forth from the darkest depths of the abyss.
+    lore: 정복의 불길이 심연의 가장 어둡고 깊은 곳에서 뿜어져 나옵니다.
     hurl: Underlord
   abyssal_underlord_pit_of_malice:
     dname: 악의 구덩이
@@ -9200,8 +9201,7 @@ abilitydata:
       width="16" height="16" border="0" /> 100/115/130/145</div><div class="cooldown"><img
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 21/18/15/12</div><br clear="left" /></div>
-    lore: Twisting into the seams of reality itself, Vrogros' manifest hatred paralyzes
-      those who defy his will.
+    lore: 브로고로스는 확연한 증오로 현실 자체를 비틀고 틈을 만들어 자기 뜻에 거역하는 자들을 마비시킵니다.
     hurl: Underlord
   abyssal_underlord_atrophy_aura:
     dname: 위축의 오라
@@ -9218,8 +9218,7 @@ abilitydata:
       보너스 피해(영웅): <span class="attribVal">30 / 35 / 40 / 45</span><br />
       지속시간: <span class="attribVal">30 / 40 / 50 / 60</span>
     cmb: ''
-    lore: To merely stand in the presence of the Underlord is to feel the conviction
-      of battle sapped from one's soul.
+    lore: 지하군주가 있는 곳에 그저 서 있기만 해도 영혼에서 전투의 신념이 빨려 나가는 느낌이 듭니다.
     hurl: Underlord
   abyssal_underlord_dark_rift:
     dname: 어둠의 균열
@@ -9237,7 +9236,7 @@ abilitydata:
       width="16" height="16" border="0" /> 75/150/225</div><div class="cooldown"><img
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 130/120/110</div><br clear="left" /></div>
-    lore: They come without warning, leaving fire and blood where kingdoms once flourished.
+    lore: 그자들은 경고 없이 나타나 한때 왕국이 번성했던 곳에 불과 피를 뿌립니다.
     hurl: Underlord
   abyssal_underlord_cancel_dark_rift:
     dname: 어둠의 균열 취소

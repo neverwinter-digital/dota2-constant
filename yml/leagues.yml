@@ -5639,6 +5639,10 @@
   ticket: econ/leagues/subscriptions_copa_de_abertura_lbee
   banner: econ/leagues/subscriptions_copa_de_abertura_lbee_ingame
   tier: amateur
+'5018':
+  ticket: econ/leagues/subscriptions_esl_one_genting_2017
+  banner: econ/leagues/subscriptions_esl_one_genting_2017_ingame
+  tier: professional
 '4630':
   ticket: econ/leagues/subscriptions_world_electronic_sports_games
   banner: econ/leagues/subscriptions_world_electronic_sports_games_ingame
@@ -5646,6 +5650,10 @@
 '4651':
   ticket: econ/leagues/subscriptions_stan_dota_2
   banner: econ/leagues/subscriptions_stan_dota_2_ingame
+  tier: amateur
+'4933':
+  ticket: econ/leagues/subscriptions_wldl_season_3
+  banner: econ/leagues/subscriptions_wldl_season_3_ingame
   tier: amateur
 '4613':
   ticket: econ/leagues/subscriptions_kod_league
@@ -5940,7 +5948,7 @@
   banner: econ/leagues/subscriptions_elements_cup_2_ingame
   tier: professional
 '4874':
-  ticket: econ/testitem_slot_empty
+  ticket: econ/leagues/subscriptions_boston_major_2016
   banner: econ/leagues/boston_major_ingame
   tier: premium
 '4872':
@@ -6051,6 +6059,10 @@
   ticket: econ/leagues/subscriptions_world_electronic_sports_games_international
   banner: econ/leagues/subscriptions_world_electronic_sports_games_international_ingame
   tier: premium
+'4952':
+  ticket: econ/leagues/subscriptions_2017_nga_master_league
+  banner: econ/leagues/subscriptions_2017_nga_master_league_ingame
+  tier: amateur
 '4958':
   ticket: econ/leagues/subscriptions_royal_arena
   banner: econ/leagues/subscriptions_royal_arena_ingame
@@ -6102,4 +6114,148 @@
 '5027':
   ticket: econ/testitem_slot_empty
   banner: econ/leagues/boston_major_ingame
+  tier: premium
+'4953':
+  ticket: econ/leagues/subscriptions_the_national_2__movistar
+  banner: econ/leagues/subscriptions_the_national_2__movistar_ingame
+  tier: amateur
+'4962':
+  ticket: econ/leagues/subscriptions_aeons_tournament
+  banner: econ/leagues/subscriptions_aeons_tournament_ingame
+  tier: amateur
+'5008':
+  ticket: econ/leagues/subscriptions_polupro_ladder_league_season_1
+  banner: econ/leagues/subscriptions_polupro_ladder_league_season_1_ingame
+  tier: professional
+'5033':
+  ticket: econ/leagues/subscriptions_indonesia_weekly_series
+  banner: econ/leagues/subscriptions_indonesia_weekly_series_ingame
+  tier: amateur
+'4752':
+  ticket: econ/leagues/subscriptions_dota_2_liga_tournament__season_1
+  banner: econ/leagues/subscriptions_dota_2_liga_tournament__season_1_ingame
+  tier: amateur
+'5026':
+  ticket: econ/leagues/subscriptions_ad2l_season_14
+  banner: econ/leagues/subscriptions_ad2l_season_14_ingame
+  tier: amateur
+'5040':
+  ticket: econ/leagues/subscriptions_high_school_starleague_dota_2_fall_season
+  banner: econ/leagues/subscriptions_high_school_starleague_dota_2_fall_season_ingame
+  tier: amateur
+'5003':
+  ticket: econ/leagues/subscriptions_hungarian_dota_2_leauge
+  banner: econ/leagues/subscriptions_hungarian_dota_2_leauge_ingame
+  tier: amateur
+'5039':
+  ticket: econ/leagues/subscriptions_nfcups_season_5
+  banner: econ/leagues/subscriptions_nfcups_season_5_ingame
+  tier: professional
+'5043':
+  ticket: econ/leagues/subscriptions_south_sumatera_dota_2_amateur_league_2016
+  banner: econ/leagues/subscriptions_south_sumatera_dota_2_amateur_league_2016_ingame
+  tier: amateur
+'5077':
+  ticket: econ/leagues/subscriptions_sl_ileague_starseries_s3
+  banner: econ/leagues/subscriptions_sl_ileague_starseries_s3_ingame
+  tier: professional
+'5038':
+  ticket: econ/leagues/subscriptions_go2olymp
+  banner: econ/leagues/subscriptions_go2olymp_ingame
+  tier: amateur
+'5080':
+  ticket: econ/leagues/subscriptions_revivaltv_weekdays_tournament
+  banner: econ/leagues/subscriptions_revivaltv_weekdays_tournament_ingame
+  tier: amateur
+'5075':
+  ticket: econ/leagues/subscriptions_midas_club_open
+  banner: econ/leagues/subscriptions_midas_club_open_ingame
+  tier: amateur
+'5044':
+  ticket: econ/leagues/subscriptions_dota_2_night
+  banner: econ/leagues/subscriptions_dota_2_night_ingame
+  tier: professional
+'5058':
+  ticket: econ/leagues/subscriptions_slt_esports_championship_2016
+  banner: econ/leagues/subscriptions_slt_esports_championship_2016_ingame
+  tier: amateur
+'5076':
+  ticket: econ/leagues/subscriptions_midas_club_elite_season_2
+  banner: econ/leagues/subscriptions_midas_club_elite_season_2_ingame
+  tier: amateur
+'5065':
+  ticket: econ/leagues/subscriptions_aef_season_1_qualifiers
+  banner: econ/leagues/subscriptions_aef_season_1_qualifiers_ingame
+  tier: professional
+'5028':
+  ticket: econ/leagues/subscriptions_kaskus_fun_dota_2_tournament
+  banner: econ/leagues/subscriptions_kaskus_fun_dota_2_tournament_ingame
+  tier: amateur
+'5067':
+  ticket: econ/leagues/subscriptions_gamesmash_championship_indonesia
+  banner: econ/leagues/subscriptions_gamesmash_championship_indonesia_ingame
+  tier: amateur
+'5064':
+  ticket: econ/leagues/subscriptions_meister_division
+  banner: econ/leagues/subscriptions_meister_division_ingame
+  tier: amateur
+'4891':
+  ticket: econ/leagues/subscriptions_the_battle_fury_2016
+  banner: econ/leagues/subscriptions_the_battle_fury_2016_ingame
+  tier: professional
+'5011':
+  ticket: econ/leagues/subscriptions_tita_dota2_autumn_2016
+  banner: econ/leagues/subscriptions_tita_dota2_autumn_2016_ingame
+  tier: amateur
+'5052':
+  ticket: econ/leagues/subscriptions_montenegrin_national_league_s3
+  banner: econ/leagues/subscriptions_montenegrin_national_league_s3_ingame
+  tier: amateur
+'5053':
+  ticket: econ/leagues/subscriptions_carena_season_1
+  banner: econ/leagues/subscriptions_carena_season_1_ingame
+  tier: amateur
+'5014':
+  ticket: econ/leagues/subscriptions_competionway_bounty_league
+  banner: econ/leagues/subscriptions_competionway_bounty_league_ingame
+  tier: amateur
+'5095':
+  ticket: econ/leagues/subscriptions_dota_2_on_line_league
+  banner: econ/leagues/subscriptions_dota_2_on_line_league_ingame
+  tier: amateur
+'5122':
+  ticket: econ/leagues/subscriptions_rd2l_season_11
+  banner: econ/leagues/subscriptions_rd2l_season_11_ingame
+  tier: amateur
+'5099':
+  ticket: econ/leagues/subscriptions_geforce_esports_xtreme_tournament
+  banner: econ/leagues/subscriptions_geforce_esports_xtreme_tournament_ingame
+  tier: amateur
+'4969':
+  ticket: econ/leagues/subscriptions_the_battle_series_december_2016
+  banner: econ/leagues/subscriptions_the_battle_series_december_2016_ingame
+  tier: amateur
+'5060':
+  ticket: econ/leagues/subscriptions_the_gameloft_sea_international_2016
+  banner: econ/leagues/subscriptions_the_gameloft_sea_international_2016_ingame
+  tier: amateur
+'5101':
+  ticket: econ/leagues/subscriptions_arena_antara_torneo_inaugural_por_claners
+  banner: econ/leagues/subscriptions_arena_antara_torneo_inaugural_por_claners_ingame
+  tier: amateur
+'5106':
+  ticket: econ/leagues/subscriptions_play4series
+  banner: econ/leagues/subscriptions_play4series_ingame
+  tier: amateur
+'5107':
+  ticket: econ/leagues/subscriptions_reach_the_hyperstone_24_
+  banner: econ/leagues/subscriptions_reach_the_hyperstone_24__ingame
+  tier: amateur
+'5088':
+  ticket: econ/leagues/subscriptions_high_school_starleague_winter_season_2016
+  banner: econ/leagues/subscriptions_high_school_starleague_winter_season_2016_ingame
+  tier: amateur
+'5115':
+  ticket: econ/leagues/subscriptions_world_cyber_arena_2016_grand_finals
+  banner: econ/leagues/subscriptions_world_cyber_arena_2016_grand_finals_ingame
   tier: premium

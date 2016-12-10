@@ -188,8 +188,7 @@ itemdata:
       ПОПОЛНЯЕТ ЗДОРОВЬЯ: <span class="attribVal">75</span>
     mc: false
     cd: 5
-    lore: The ethereal flames from the ever-burning ruins of Kindertree ignite across
-      realities.
+    lore: Призрачное пламя с незатухающих останков Древа доброты горит в любом мире.
     components: 
     created: false
   infused_raindrop:
@@ -208,7 +207,7 @@ itemdata:
       ЗАРЯДОВ ПРИ ПОКУПКЕ: <span class="attribVal">5</span>
     mc: false
     cd: 6
-    lore: Elemental protection from magical assaults.
+    lore: Элементальная защита от магических атак.
     components: 
     created: false
   wind_lace:
@@ -223,7 +222,7 @@ itemdata:
       передвижения</span>
     mc: false
     cd: false
-    lore: Hasten to battle on wind-touched heels
+    lore: Да преисполнится скоростью тот, чьи подошвы ощутили касание ветра.
     components: 
     created: false
   ring_of_protection:
@@ -726,7 +725,7 @@ itemdata:
       ЗАМЕДЛЕНИЕ: <span class="attribVal">20%</span>
     mc: 5
     cd: 30
-    lore: One may hide visage, but never volume.
+    lore: От чужих глаз можно скрыться. От чужого меча — едва ли.
     components: 
     created: false
   bottle:
@@ -877,7 +876,7 @@ itemdata:
     attrib: ''
     mc: 75
     cd: 70
-    lore: What a hero truly needs.
+    lore: То, что нужно истинному герою.
     components: 
     created: false
   travel_boots:
@@ -914,7 +913,7 @@ itemdata:
       передвижения</span>
     mc: 75
     cd: 45
-    lore: Winged boots that grant omnipresence.
+    lore: Крылатые сапоги, дарующие вездесущность.
     components:
     - travel_boots
     - recipe_travel_boots
@@ -1357,7 +1356,7 @@ itemdata:
     attrib: ''
     mc: false
     cd: false
-    lore: The faithful mount upon which soar the fortunes of battle.
+    lore: Ваш верный слуга, чьи крылья несут заработанные в бою богатства.
     components: 
     created: false
   buckler:
@@ -1554,8 +1553,8 @@ itemdata:
       <span class=\"attribVal\">145%</span>"
     mc: 100
     cd: 11
-    lore: A reviled blade that bites deeper with each wriggle of its victim's final
-      throes.
+    lore: Этот ненавистный клинок топит врага в агонии, впиваясь в тело извивающейся
+      жертвы всё сильнее и сильнее с каждым ее движением.
     components:
     - orchid
     - lesser_crit
@@ -1580,7 +1579,7 @@ itemdata:
       ДЛИТЕЛЬНОСТЬ ЗАМЕДЛЕНИЯ: <span class="attribVal">0.6</span>
     mc: false
     cd: 5
-    lore: A deceptively swift blade imbued with resonant magic.
+    lore: Обманчиво быстрый клинок, полный магии звука.
     components:
     - ogre_axe
     - oblivion_staff
@@ -1628,8 +1627,8 @@ itemdata:
       ДОП. УРОН СПОСОБНОСТЕЙ: <span class="attribVal">5%</span>
     mc: false
     cd: false
-    lore: Polished with the incantation of his final breath, the gift of a dying mage
-      to his sickly son.
+    lore: Подарок бледному сыну умирающего мага, отполированный заклинанием в его
+      последнем вздохе.
     components:
     - energy_booster
     - ring_of_health
@@ -1682,7 +1681,8 @@ itemdata:
       ЧИСЛО АТАК БЕЗ ОГРАНИЧЕНИЙ: <span class="attribVal">4</span>
     mc: 25
     cd: 14
-    lore: A legendary pike once held as royal sigil of the ancient wyvern riders.
+    lore: Легендарная пика, в далеком прошлом служившая монаршим символом наездников
+      на вивернах.
     components:
     - force_staff
     - dragon_lance
@@ -2470,7 +2470,7 @@ itemdata:
       + <span class="attribVal">140</span> <span class="attribValText">к дальности атаки <font color='#7d7d7d'>(в дальнем бою)</font></span>
     mc: false
     cd: false
-    lore: The forward charge of the wyvern host grants no quarter.
+    lore: Боевой рывок войска виверн не щадит никого.
     components:
     - ogre_axe
     - boots_of_elves
@@ -3000,7 +3000,7 @@ itemdata:
       ДЛИТЕЛЬНОСТЬ: <span class="attribVal">8</span>
     mc: false
     cd: false
-    lore: An unnerving stone unearthed beneath the Fields of Endless Carnage.
+    lore: Лишающий сил камень, обнаруженный на полях Вечной бойни.
     components: 
     created: false
   ancient_janggo:
@@ -3103,7 +3103,8 @@ itemdata:
       ДЛИТЕЛЬНОСТЬ: <span class="attribVal">35</span>
     mc: false
     cd: 1
-    lore: The charlatan wizard Myrddin's only true contribution to the arcane arts.
+    lore: Единственный достойный вклад волшебника-шарлатана Мирддина в колдовское
+      искусство.
     components: 
     created: false
   tome_of_knowledge:
@@ -3117,7 +3118,7 @@ itemdata:
     attrib: 'ДАЕТ ОПЫТА: <span class="attribVal">425</span>'
     mc: false
     cd: 0
-    lore: That which raises beast to man and man to god.
+    lore: Источник силы, превращающей зверя в человека, а человека — в бога.
     components: 
     created: false
   veil_of_discord:
@@ -3345,8 +3346,8 @@ itemdata:
       ВРЕМЯ ДО НЕВИДИМОСТИ: <span class="attribVal">1.5</span>
     mc: false
     cd: 10
-    lore: A small talisman that clouds the senses of one's enemies when held perfectly
-      still.
+    lore: Маленький талисман, затеняющий чувства ваших врагов, но требующий абсолютной
+      неподвижности.
     components: 
     created: false
   glimmer_cape:

@@ -1954,8 +1954,8 @@ abilitydata:
     desc: "Summons a ghostly ship that sails through the battle before smashing apart,
       damaging and stunning all enemies caught near the wreckage. Allied heroes touched
       by the Ghostship are given a swig of The Admiral's Rum, receiving bonus movement
-      speed and a delayed reaction to 50% of all incoming damage.\r\n\r\nUpgradeable
-      by Aghanim's Scepter."
+      speed and a delayed reaction to incoming damage.\r\n\r\nUpgradeable by Aghanim's
+      Scepter."
     notes: Damage dealt after Rum wears off is non-lethal and can never kill a hero.<br
       />Actual area of effect of ship's collision is larger than the boat itself.<br
       />The boat has a movement speed of 650.
@@ -1966,7 +1966,8 @@ abilitydata:
       WIDTH: <span class="attribVal">425 / 425 / 425</span><br />
       RUM BONUS SPEED: <span class="attribVal">10% / 10% / 10%</span><br />
       RUM DURATION: <span class="attribVal">10</span><br />
-      STUN DURATION: <span class="attribVal">1.4 / 1.4 / 1.4</span>
+      STUN DURATION: <span class="attribVal">1.4 / 1.4 / 1.4</span><br />
+      DAMAGE DELAYED: <span class="attribVal">40% / 45% / 50%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 125/175/225</div><div class="cooldown"><img
@@ -5438,8 +5439,7 @@ abilitydata:
       <span class="attribVal">Magical</span><br />PIERCES SPELL IMMUNITY: <span class="attribVal">No</span><br
       />'
     desc: Hurls an explosive cocktail that explodes when it reaches the target location,
-      knocking back, briefly stunning, and dealing damage over time to enemies in
-      the area.
+      knocking back, and dealing damage over time to enemies in the area.
     notes: ''
     dmg: ''
     attrib: |-

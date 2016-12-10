@@ -2164,13 +2164,13 @@ itemdata:
     cost: 4500
     desc: "主动：砍伐/排眼 - 砍伐一根指定树木，或者摧毁一个守卫。摧毁守卫时施放距离较远。<br />\r\n被动：压制 - 对非英雄单位进行物理攻击会造成额外伤害，伤害值取决于你的英雄类型（近战或远程）。攻击Roshan不会造成额外伤害。<br
       />\r\n被动：分裂攻击 - 对目标周围280范围内的敌人造成攻击力一定比例的溅射伤害。远程英雄使用时无效。"
-    notes: 溅射伤害会根据护甲类型有所减少，但是与护甲数值无关。<br />溅射伤害无视技能免疫。<br />如果存在多个溅射效果，每个溅射的伤害都会单独计算。<br
+    notes: 分裂伤害会根据护甲类型有所减少，但是与护甲数值无关。<br />分裂伤害无视技能免疫。<br />如果存在多个溅射效果，每个溅射的伤害都会单独计算。<br
       />砍伐可以用于摧毁工程师的地雷和遥控炸弹。
     attrib: |-
       + <span class="attribVal">55</span> <span class="attribValText">攻击力</span><br />
       + <span class="attribVal">6</span> <span class="attribValText">生命恢复速率</span><br />
       + <span class="attribVal">150%</span> <span class="attribValText">魔法恢复</span><br />
-      溅射伤害： <span class="attribVal">35%</span><br />
+      分裂伤害： <span class="attribVal">35%</span><br />
       压制近战伤害： <span class="attribVal">160%</span><br />
       压制远程伤害： <span class="attribVal">125%</span><br />
       砍伐施法距离： <span class="attribVal">350</span><br />

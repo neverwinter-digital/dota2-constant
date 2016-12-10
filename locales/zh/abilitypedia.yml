@@ -1246,11 +1246,11 @@ abilitydata:
     affects: 技能： <span class="attribVal">被动</span><br />无视技能免疫： <span class="attribVal"><font
       color="#70EA72">是</font></span><br />
     desc: 斯温以巨力攻击，并对所有附近的敌方单位造成分裂攻击伤害。
-    notes: 溅射伤害会根据护甲类型有所减少，但是与护甲数值无关。<br />溅射伤害无视技能免疫。<br />溅射攻击将对斯温前方的圆形区域。
+    notes: 分裂伤害会根据护甲类型有所减少，但是与护甲数值无关。<br />分裂伤害无视技能免疫。<br />分裂攻击将对斯温前方的圆形区域。
     dmg: ''
     attrib: |-
       作用范围： <span class="attribVal">300.000000</span><br />
-      溅射伤害： <span class="attribVal">30% / 42% / 54% / 66%</span>
+      分裂伤害： <span class="attribVal">30% / 42% / 54% / 66%</span>
     cmb: ''
     lore: 守夜骑士团仍然在试图从斯温那里取回被偷走的弃誓之刃，一把能斩开低级勇士的利剑。
     hurl: Sven
@@ -1344,7 +1344,7 @@ abilitydata:
     dname: 长大
     affects: 技能： <span class="attribVal">被动</span><br />
     desc: "小小崎岖的身体体重不断增长，以降低攻击速度的代价提高攻击力。提高对被投掷单位的伤害并提高移动速度。\r\n\r\n可用神杖升级。"
-    notes: 溅射伤害会根据护甲类型有所减少，但是与护甲数值无关。<br />溅射伤害无视技能免疫。
+    notes: 分裂伤害会根据护甲类型有所减少，但是与护甲数值无关。<br />分裂伤害无视技能免疫。
     dmg: ''
     attrib: |-
       攻击力提升： <span class="attribVal">50 / 100 / 150</span><br />
@@ -1587,7 +1587,7 @@ abilitydata:
       />伤害类型： <span class="attribVal"><font color="#71a9ea">物理</font></span><br />无视技能免疫：
       <span class="attribVal"><font color="#70EA72">是</font></span><br />
     desc: 昆卡的传奇之剑使他的下一次攻击附加额外的攻击力并在前方造成大范围的分裂攻击伤害。
-    notes: 溅射伤害会根据护甲类型有所减少，但是与护甲数值无关。<br />溅射伤害无视技能免疫。
+    notes: 分裂伤害会根据护甲类型有所减少，但是与护甲数值无关。<br />分裂伤害无视技能免疫。
     dmg: ''
     attrib: |-
       作用范围： <span class="attribVal">450 / 500 / 550 / 600</span><br />
@@ -1619,7 +1619,7 @@ abilitydata:
     dname: 幽灵船
     affects: 技能： <span class="attribVal">点目标</span><br />伤害类型： <span class="attribVal">魔法</span><br
       />无视技能免疫： <span class="attribVal">否</span><br />
-    desc: "召唤一艘幽灵船驶过战场，直到撞成粉碎，残骸周围的敌人将会因撞击受到伤害并眩晕。友军被泡在上将的朗姆酒中，移动速度提升并对受到的伤害反应麻木，50%的伤害将会延后到持续时间结束时结算。\r\n\r\n可用神杖升级。"
+    desc: "召唤一艘幽灵船驶过战场，直到撞成粉碎，残骸周围的敌人将会因撞击受到伤害并眩晕。友军被泡在上将的朗姆酒中，移动速度提升并对受到的伤害反应麻木，一定百分比的伤害将会延后到持续时间结束时结算。\r\n\r\n可用神杖升级。"
     notes: 在朗姆酒效果消失后造成的伤害不能致死，而且不能杀死英雄。<br />幽灵船实际的碰撞范围比船本身大。<br />幽灵船的移动速度为650。
     dmg: '攻击力: <span class="attribVal">400 / 500 / 600</span><br />'
     attrib: |-
@@ -1628,7 +1628,8 @@ abilitydata:
       作用宽度： <span class="attribVal">425 / 425 / 425</span><br />
       朗姆酒移动速度提升： <span class="attribVal">10% / 10% / 10%</span><br />
       朗姆酒持续时间： <span class="attribVal">10</span><br />
-      眩晕时间： <span class="attribVal">1.4 / 1.4 / 1.4</span>
+      眩晕时间： <span class="attribVal">1.4 / 1.4 / 1.4</span><br />
+      延后结算伤害： <span class="attribVal">40% / 45% / 50%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 125/175/225</div><div class="cooldown"><img
@@ -4530,7 +4531,7 @@ abilitydata:
     dname: 烈焰破击
     affects: 技能： <span class="attribVal">点目标</span><br />伤害类型： <span class="attribVal">魔法</span><br
       />无视技能免疫： <span class="attribVal">否</span><br />
-    desc: 投掷一瓶爆炸性的混合物，到达目标地点时爆炸，击退区域内的敌人并造成短暂晕眩和持续伤害。
+    desc: 投掷一瓶爆炸性的混合物，到达目标地点时爆炸，击退区域内的敌人并造成持续伤害。
     notes: ''
     dmg: ''
     attrib: |-
@@ -7235,7 +7236,7 @@ abilitydata:
     affects: 技能： <span class="attribVal">单位目标</span><br />影响： <span class="attribVal">友方单位</span><br
       />无视技能免疫： <span class="attribVal"><font color="#70EA72">是</font></span><br />
     desc: "给予一个友方单位额外攻击力并且使其获得分裂攻击的能力。\r\n\r\n可用神杖升级。"
-    notes: 攻击力加成根据基础攻击力和主属性加成计算。<br />溅射伤害会根据护甲类型有所减少，但是与护甲数值无关。<br />溅射伤害无视技能免疫。<br
+    notes: 攻击力加成根据基础攻击力和主属性加成计算。<br />分裂伤害会根据护甲类型有所减少，但是与护甲数值无关。<br />分裂伤害无视技能免疫。<br
       />远程单位的攻击没有溅射效果。
     dmg: ''
     attrib: |-
