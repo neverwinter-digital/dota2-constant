@@ -204,12 +204,12 @@ itemdata:
     dname: 风灵之纹
     qual: component
     cost: 235
-    desc: 被动：提升移动速度。
-    notes: 多个物品不会叠加。
-    attrib: + <span class="attribVal">20</span> <span class="attribValText">移动速度</span>
+    desc: ''
+    notes: ''
+    attrib: ''
     mc: false
     cd: false
-    lore: 脚跟经过轻风的吹拂，在战斗中更加轻盈。
+    lore: ''
     components: 
     created: false
   ring_of_protection:
@@ -1437,20 +1437,12 @@ itemdata:
     dname: 回音战刃
     qual: artifact
     cost: 2650
-    desc: 被动：近战攻击可以快速攻击两次。连续攻击将减缓100%的移动速度和攻击速度，持续0.6秒。
+    desc: ''
     notes: ''
-    attrib: |-
-      + <span class="attribVal">10</span> <span class="attribValText">智力</span><br />
-      + <span class="attribVal">10</span> <span class="attribValText">力量</span><br />
-      + <span class="attribVal">10</span> <span class="attribValText">攻击速度</span><br />
-      + <span class="attribVal">15</span> <span class="attribValText">攻击力</span><br />
-      + <span class="attribVal">75%</span> <span class="attribValText">魔法恢复</span><br />
-      移动速度减缓： <span class="attribVal">100%</span><br />
-      攻击速度降低： <span class="attribVal">100</span><br />
-      减速持续时间： <span class="attribVal">0.6</span>
+    attrib: ''
     mc: false
     cd: 5
-    lore: 一把看似迅捷异常的战刃，其中注入了共鸣魔力。
+    lore: ''
     components:
     - ogre_axe
     - oblivion_staff
@@ -1521,21 +1513,12 @@ itemdata:
     dname: 飓风长戟
     qual: epic
     cost: 4375
-    desc: "主动：对敌人使用时，可将自己和敌人朝相反方向各推开450距离，并且接下来的攻击不受英雄攻击距离的限制，持续4次攻击或5.0秒。攻击过程中提供100的攻击速度加成。对自身或友军使用时效果等同于原力法杖。<br
-      />\r\n被动：提升远程英雄140的攻击距离。"
-    notes: 对自身施法会对自己使用飓风长戟。<br />飓风长戟不会打断目标的动作。<br />对时间结界，决斗或黑洞内的单位无效。
-    attrib: |-
-      + <span class="attribVal">10</span> <span class="attribValText">智力</span><br />
-      + <span class="attribVal">4</span> <span class="attribValText">生命恢复速率</span><br />
-      + <span class="attribVal">20</span> <span class="attribValText">敏捷</span><br />
-      + <span class="attribVal">15</span> <span class="attribValText">力量</span><br />
-      + <span class="attribVal">140</span> <span class="attribValText">攻击距离<font color='#7d7d7d'>（仅对远程有效）</font></span><br />
-      无视射程持续时间： <span class="attribVal">5</span><br />
-      施法距离（对敌人）： <span class="attribVal">400</span><br />
-      无视射程攻击次数： <span class="attribVal">4</span>
+    desc: ''
+    notes: ''
+    attrib: ''
     mc: 25
     cd: 14
-    lore: 一柄传奇战戟，曾是远古飞龙骑士的皇家印记。
+    lore: ''
     components:
     - force_staff
     - dragon_lance
@@ -2701,14 +2684,12 @@ itemdata:
     dname: 枯萎之石
     qual: component
     cost: 300
-    desc: "被动：攻击将降低目标护甲，持续8.0秒。<br />\r\n<br />\r\n枯萎之石是攻击特效，不与其他攻击特效叠加。"
+    desc: ''
     notes: ''
-    attrib: |-
-      护甲降低： <span class="attribVal">2</span><br />
-      持续时间： <span class="attribVal">8</span>
+    attrib: ''
     mc: false
     cd: false
-    lore: 一颗让人闻风丧胆的石头，发掘自戮尽之地。
+    lore: ''
     components: 
     created: false
   ancient_janggo:
@@ -2809,12 +2790,12 @@ itemdata:
     dname: 知识之书
     qual: consumable
     cost: 150
-    desc: 使用：直接获得经验值。
+    desc: ''
     notes: ''
-    attrib: 经验奖励： <span class="attribVal">425</span>
+    attrib: ''
     mc: false
     cd: 0
-    lore: 让兽变成人，人变成神的东西。
+    lore: ''
     components: 
     created: false
   veil_of_discord:
@@ -3151,7 +3132,7 @@ itemdata:
   greevil_whistle:
     id: 1007
     img: greevil_whistle_lg.png?3
-    dname: 贪魔口哨
+    dname: DOTA_Tooltip_Ability_item_greevil_whistle
     qual: consumable
     cost: 0
     desc: 使用贪魔口哨，暂时切换成贪魔！
@@ -3165,7 +3146,7 @@ itemdata:
   greevil_whistle_toggle:
     id: 1008
     img: greevil_whistle_toggle_lg.png?3
-    dname: 贪魔口哨
+    dname: DOTA_Tooltip_Ability_item_greevil_whistle_toggle
     qual: consumable
     cost: 0
     desc: 使用贪魔口哨在贪魔和英雄之间切换！
@@ -3193,7 +3174,7 @@ itemdata:
   winter_stocking:
     id: 1010
     img: winter_stocking_lg.png?3
-    dname: 圣诞长袜
+    dname: DOTA_Tooltip_Ability_item_winter_stocking
     qual: consumable
     cost: 0
     desc: 使用：打开长袜，接收礼物！
@@ -3207,7 +3188,7 @@ itemdata:
   winter_skates:
     id: 1011
     img: winter_skates_lg.png?3
-    dname: 滑冰之靴
+    dname: DOTA_Tooltip_Ability_item_winter_skates
     qual: component
     cost: 0
     desc: 移动速度大幅提升100点。在冰上的控制性提升。抄近道来争取最佳成绩！
@@ -3221,7 +3202,7 @@ itemdata:
   winter_cake:
     id: 1012
     img: winter_cake_lg.png?3
-    dname: 水果蛋糕
+    dname: DOTA_Tooltip_Ability_item_winter_cake
     qual: consumable
     cost: 0
     desc: 吃下蛋糕，8秒内回复400点生命和50点魔法。
@@ -3235,7 +3216,7 @@ itemdata:
   winter_cookie:
     id: 1013
     img: winter_cookie_lg.png?3
-    dname: 法师饼干
+    dname: DOTA_Tooltip_Ability_item_winter_cookie
     qual: consumable
     cost: 0
     desc: 吃下饼干，11秒内回复350点生命和100点魔法。
@@ -3249,7 +3230,7 @@ itemdata:
   winter_coco:
     id: 1014
     img: winter_coco_lg.png?3
-    dname: 棉花糖可可
+    dname: DOTA_Tooltip_Ability_item_winter_coco
     qual: consumable
     cost: 0
     desc: 喝掉可可，在14秒内回复300点生命和150点魔法。
@@ -3263,7 +3244,7 @@ itemdata:
   winter_ham:
     id: 1015
     img: winter_ham_lg.png?3
-    dname: 丁香火腿
+    dname: DOTA_Tooltip_Ability_item_winter_ham
     qual: consumable
     cost: 0
     desc: 吃下火腿，在2秒内回复300点生命和75点魔法
@@ -3277,7 +3258,7 @@ itemdata:
   winter_kringle:
     id: 1016
     img: winter_kringle_lg.png?3
-    dname: 甜甜圈
+    dname: DOTA_Tooltip_Ability_item_winter_kringle
     qual: consumable
     cost: 0
     desc: 吃下甜甜圈，在17秒内回复250点生命和200点魔法。
@@ -3291,7 +3272,7 @@ itemdata:
   winter_mushroom:
     id: 1017
     img: winter_mushroom_lg.png?3
-    dname: 白雪蘑菇
+    dname: DOTA_Tooltip_Ability_item_winter_mushroom
     qual: consumable
     cost: 0
     desc: 刷新所有贪魔的技能。
@@ -3305,7 +3286,7 @@ itemdata:
   winter_greevil_treat:
     id: 1018
     img: winter_greevil_treat_lg.png?3
-    dname: 贪魔食物
+    dname: DOTA_Tooltip_Ability_item_winter_greevil_treat
     qual: consumable
     cost: 0
     desc: 使贪魔达到极限速度，持续10秒。
@@ -3319,7 +3300,7 @@ itemdata:
   winter_greevil_garbage:
     id: 1019
     img: winter_greevil_garbage_lg.png?3
-    dname: 贪魔干粮
+    dname: DOTA_Tooltip_Ability_item_winter_greevil_garbage
     qual: consumable
     cost: 0
     desc: 让贪魔吃下干粮，在5秒内回复400点生命和150点魔法。
@@ -3333,7 +3314,7 @@ itemdata:
   winter_greevil_chewy:
     id: 1020
     img: winter_greevil_chewy_lg.png?3
-    dname: 贪魔闪烁之骨
+    dname: DOTA_Tooltip_Ability_item_winter_greevil_chewy
     qual: consumable
     cost: 0
     desc: 经过2秒持续施法后贪魔将跳到新地点。

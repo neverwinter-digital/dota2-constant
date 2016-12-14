@@ -1110,8 +1110,7 @@ abilitydata:
     dmg: '攻击力: <span class="attribVal">25 / 50 / 75 / 100</span><br />'
     attrib: |-
       隐身续存时间： <span class="attribVal">1.5</span><br />
-      作用范围： <span class="attribVal">525</span><br />
-      持续时间： <span class="attribVal">50</span>
+      作用范围： <span class="attribVal">525</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 60/50/40/30</div><div class="cooldown"><img

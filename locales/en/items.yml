@@ -217,13 +217,12 @@ itemdata:
     dname: Wind Lace
     qual: component
     cost: 235
-    desc: 'Passive: Gives increased movement speed.'
-    notes: Multiple instances do not stack.
-    attrib: + <span class="attribVal">20</span> <span class="attribValText">Movement
-      Speed</span>
+    desc: ''
+    notes: ''
+    attrib: ''
     mc: false
     cd: false
-    lore: Hasten to battle on wind-touched heels
+    lore: ''
     components: 
     created: false
   ring_of_protection:
@@ -1560,22 +1559,12 @@ itemdata:
     dname: Echo Sabre
     qual: artifact
     cost: 2650
-    desc: 'Passive: Causes melee attacks to attack twice in quick succession. The
-      double attacks apply a 0.6 second 100% movement and attack speed slow on each
-      strike.'
+    desc: ''
     notes: ''
-    attrib: |-
-      + <span class="attribVal">10</span> <span class="attribValText">Intelligence</span><br />
-      + <span class="attribVal">10</span> <span class="attribValText">Strength</span><br />
-      + <span class="attribVal">10</span> <span class="attribValText">Attack Speed</span><br />
-      + <span class="attribVal">15</span> <span class="attribValText">Damage</span><br />
-      + <span class="attribVal">75%</span> <span class="attribValText">Mana Regeneration</span><br />
-      MOVEMENT SLOW: <span class="attribVal">100%</span><br />
-      ATTACK SLOW: <span class="attribVal">100</span><br />
-      SLOW DURATION: <span class="attribVal">0.6</span>
+    attrib: ''
     mc: false
     cd: 5
-    lore: A deceptively swift blade imbued with resonant magic.
+    lore: ''
     components:
     - ogre_axe
     - oblivion_staff
@@ -1654,26 +1643,12 @@ itemdata:
     dname: Hurricane Pike
     qual: epic
     cost: 4375
-    desc: "Active: When used on an enemy, it pushes you both away from each other
-      450 units each, and allows you to attack the target without range restrictions
-      for 4 attacks for a maximum of 5.0 seconds. Grants 100 Attack Speed during the
-      attacks. Works like Force Staff when used on self or allies.<br />\r\nPassive:
-      Increases attack range of ranged heroes by 140."
-    notes: Self-cast will use Hurricane Pike on yourself.<br />Hurricane Pike doesn't
-      interrupt the target's actions.<br />Will not work on a unit inside Chronosphere,
-      Duel, or Black Hole.
-    attrib: |-
-      + <span class="attribVal">10</span> <span class="attribValText">Intelligence</span><br />
-      + <span class="attribVal">4</span> <span class="attribValText">HP Regeneration</span><br />
-      + <span class="attribVal">20</span> <span class="attribValText">Agility</span><br />
-      + <span class="attribVal">15</span> <span class="attribValText">Strength</span><br />
-      + <span class="attribVal">140</span> <span class="attribValText">Attack Range <font color='#7d7d7d'>(Ranged Only)</font></span><br />
-      UNLIMITED RANGE DURATION: <span class="attribVal">5</span><br />
-      CAST RANGE ON ENEMY: <span class="attribVal">400</span><br />
-      UNLIMITED RANGE ATTACKS: <span class="attribVal">4</span>
+    desc: ''
+    notes: ''
+    attrib: ''
     mc: 25
     cd: 14
-    lore: A legendary pike once held as royal sigil of the ancient wyvern riders.
+    lore: ''
     components:
     - force_staff
     - dragon_lance
@@ -2992,16 +2967,12 @@ itemdata:
     dname: Blight Stone
     qual: component
     cost: 300
-    desc: "Passive: Your attacks reduce target's armor for 8.0 seconds.<br />\r\n<br
-      />\r\nBlight Stone is a Unique Attack Modifier, and does not stack with other
-      Unique Attack Modifiers."
+    desc: ''
     notes: ''
-    attrib: |-
-      ARMOR REDUCTION: <span class="attribVal">2</span><br />
-      DURATION: <span class="attribVal">8</span>
+    attrib: ''
     mc: false
     cd: false
-    lore: An unnerving stone unearthed beneath the Fields of Endless Carnage.
+    lore: ''
     components: 
     created: false
   ancient_janggo:
@@ -3115,12 +3086,12 @@ itemdata:
     dname: Tome of Knowledge
     qual: consumable
     cost: 150
-    desc: 'Use: Grants you experience.'
+    desc: ''
     notes: ''
-    attrib: 'XP BONUS: <span class="attribVal">425</span>'
+    attrib: ''
     mc: false
     cd: 0
-    lore: That which raises beast to man and man to god.
+    lore: ''
     components: 
     created: false
   veil_of_discord:
@@ -3486,7 +3457,7 @@ itemdata:
   greevil_whistle:
     id: 1007
     img: greevil_whistle_lg.png?3
-    dname: Greevil Whistle
+    dname: DOTA_Tooltip_Ability_item_greevil_whistle
     qual: consumable
     cost: 0
     desc: Use the Greevil Whistle to temporarily transform into your Greevil!
@@ -3500,7 +3471,7 @@ itemdata:
   greevil_whistle_toggle:
     id: 1008
     img: greevil_whistle_toggle_lg.png?3
-    dname: Greevil Whistle
+    dname: DOTA_Tooltip_Ability_item_greevil_whistle_toggle
     qual: consumable
     cost: 0
     desc: Use the Greevil Whistle to toggle between Greevil and Hero!
@@ -3528,7 +3499,7 @@ itemdata:
   winter_stocking:
     id: 1010
     img: winter_stocking_lg.png?3
-    dname: Xmas Stocking
+    dname: DOTA_Tooltip_Ability_item_winter_stocking
     qual: consumable
     cost: 0
     desc: 'Use: Open Stocking to receive your gifts!'
@@ -3542,7 +3513,7 @@ itemdata:
   winter_skates:
     id: 1011
     img: winter_skates_lg.png?3
-    dname: Speed Skates
+    dname: DOTA_Tooltip_Ability_item_winter_skates
     qual: component
     cost: 0
     desc: Gives a massive increase of 100 to movespeed. Increases control on the ice.
@@ -3557,7 +3528,7 @@ itemdata:
   winter_cake:
     id: 1012
     img: winter_cake_lg.png?3
-    dname: Fruit-bit Cake
+    dname: DOTA_Tooltip_Ability_item_winter_cake
     qual: consumable
     cost: 0
     desc: Use the cake to heal 400 health and 50 mana over 8 seconds
@@ -3571,7 +3542,7 @@ itemdata:
   winter_cookie:
     id: 1013
     img: winter_cookie_lg.png?3
-    dname: Wizard Cookie
+    dname: DOTA_Tooltip_Ability_item_winter_cookie
     qual: consumable
     cost: 0
     desc: Use the cookie to heal 350 health and 100 mana over 11 seconds
@@ -3585,7 +3556,7 @@ itemdata:
   winter_coco:
     id: 1014
     img: winter_coco_lg.png?3
-    dname: Cocoa with Marshmallows
+    dname: DOTA_Tooltip_Ability_item_winter_coco
     qual: consumable
     cost: 0
     desc: Use the cocoa to heal 300 health and 150 mana over 14 seconds
@@ -3599,7 +3570,7 @@ itemdata:
   winter_ham:
     id: 1015
     img: winter_ham_lg.png?3
-    dname: Clove Studded Ham
+    dname: DOTA_Tooltip_Ability_item_winter_ham
     qual: consumable
     cost: 0
     desc: Use the ham to heal 300 health and 75 mana over 2 seconds
@@ -3613,7 +3584,7 @@ itemdata:
   winter_kringle:
     id: 1016
     img: winter_kringle_lg.png?3
-    dname: Kringle
+    dname: DOTA_Tooltip_Ability_item_winter_kringle
     qual: consumable
     cost: 0
     desc: Use the kringle to heal 250 health and 200 mana over 17 seconds
@@ -3627,7 +3598,7 @@ itemdata:
   winter_mushroom:
     id: 1017
     img: winter_mushroom_lg.png?3
-    dname: Snow Mushroom
+    dname: DOTA_Tooltip_Ability_item_winter_mushroom
     qual: consumable
     cost: 0
     desc: Refreshes all the Greevil's abilities.
@@ -3641,7 +3612,7 @@ itemdata:
   winter_greevil_treat:
     id: 1018
     img: winter_greevil_treat_lg.png?3
-    dname: Greevil Treat
+    dname: DOTA_Tooltip_Ability_item_winter_greevil_treat
     qual: consumable
     cost: 0
     desc: Makes your greevil move at max speed for 10 seconds.
@@ -3655,7 +3626,7 @@ itemdata:
   winter_greevil_garbage:
     id: 1019
     img: winter_greevil_garbage_lg.png?3
-    dname: Greevil Chow
+    dname: DOTA_Tooltip_Ability_item_winter_greevil_garbage
     qual: consumable
     cost: 0
     desc: Use the chow to heal your greevil 400 health and 150 mana over 5 seconds.
@@ -3669,7 +3640,7 @@ itemdata:
   winter_greevil_chewy:
     id: 1020
     img: winter_greevil_chewy_lg.png?3
-    dname: Greevil Blink Bone
+    dname: DOTA_Tooltip_Ability_item_winter_greevil_chewy
     qual: consumable
     cost: 0
     desc: After channeling for 2 seconds the greevil pops to the new location.
