@@ -3258,3 +3258,18 @@ abyssal_underlord:
   - Disabler
   - Durable
   - Escape
+monkey_king:
+  name: npc_dota_hero_monkey_king
+  bio: npc_dota_hero_monkey_king_bio
+  atk: melee
+  atk_l: Ближнего боя
+  roles:
+  - Carry
+  - Escape
+  - Disabler
+  - Initiator
+  roles_l:
+  - Carry
+  - Escape
+  - Disabler
+  - Initiator

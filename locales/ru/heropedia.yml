@@ -119,7 +119,7 @@ herodata:
       agi:
         b: 26
         g: '1.90'
-      ms: 300
+      ms: 290
       dmg:
         min: 14
         max: 25
@@ -1294,7 +1294,7 @@ herodata:
         g: '1.80'
       agi:
         b: 14
-        g: '2.50'
+        g: '2.80'
       ms: 290
       dmg:
         min: 41
@@ -1687,7 +1687,7 @@ herodata:
     attribs:
       str:
         b: 23
-        g: '1.60'
+        g: '1.30'
       int:
         b: 20
         g: '1.60'
@@ -2352,3 +2352,24 @@ herodata:
       armor: 3.68
     dac: Ближнего боя
     droles: Support - Nuker - Disabler - Durable - Escape
+  monkey_king:
+    dname: npc_dota_hero_monkey_king
+    u: MonkeyKing
+    pa: agi
+    attribs:
+      str:
+        b: 18
+        g: '2.20'
+      int:
+        b: 20
+        g: '1.80'
+      agi:
+        b: 22
+        g: '3.20'
+      ms: 305
+      dmg:
+        min: 30
+        max: 36
+      armor: 3.08
+    dac: Ближнего боя
+    droles: Carry - Escape - Disabler - Initiator

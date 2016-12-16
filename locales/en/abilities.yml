@@ -2165,8 +2165,7 @@ abilitydata:
     dmg: 'DAMAGE: <span class="attribVal">25 / 50 / 75 / 100</span><br />'
     attrib: |-
       INVISIBILITY DELAY: <span class="attribVal">1.5</span><br />
-      RADIUS: <span class="attribVal">525</span><br />
-      DURATION: <span class="attribVal">50</span>
+      RADIUS: <span class="attribVal">525</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 60/50/40/30</div><div class="cooldown"><img

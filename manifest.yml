@@ -12,7 +12,6 @@ stats:
   - multi_kills
   - objectives
   - order_types
-  - parse_status
   - player_colors
   - runes
   - skill
