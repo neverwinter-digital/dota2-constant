@@ -20,7 +20,8 @@ PEDIA_TYPES = { itempedia: 'itemdata',
 urls = { regions: 'https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/scripts/regions.json',
          npc_abilities: 'https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/scripts/npc/npc_abilities.json',
          items_games: 'https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/scripts/items/items_game.json',
-         leagues: 'https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/scripts/items/leagues.json'}
+         leagues: 'https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/scripts/items/leagues.json',
+				 abilities: 'https://raw.githubusercontent.com/odota/dotaconstants/master/json/ability_ids.json'}
 
 DOTA2_API_KEY = 'A72DE7D7BE9870C8DA671D67941CCAA7'
 API_BASE_URL = 'https://api.steampowered.com/IDOTA2Match_570'
@@ -80,15 +81,15 @@ end
 LANGUAGES.keys.each do |lang_code|
   FileUtils.mkdir_p "locales/#{lang_code}"
 
-  JSFEEDS.keys.each do |jsfeed|
-    get_jsfeed(jsfeed, lang_code)
-  end
+  #JSFEEDS.keys.each do |jsfeed|
+  #  get_jsfeed(jsfeed, lang_code)
+  #end
 
-  PEDIA_TYPES.keys.each do |type|
-    get_pediadata(type, lang_code)
-  end
+  #PEDIA_TYPES.keys.each do |type|
+  #  get_pediadata(type, lang_code)
+  #end
 
-  get_league(lang_code)
+  #get_league(lang_code)
 
 end
 
