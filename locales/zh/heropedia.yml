@@ -2353,7 +2353,7 @@ herodata:
     dac: 近战
     droles: 辅助 - 爆发 - 控制 - 耐久 - 逃生
   monkey_king:
-    dname: npc_dota_hero_monkey_king
+    dname: 齐天大圣
     u: MonkeyKing
     pa: agi
     attribs:
