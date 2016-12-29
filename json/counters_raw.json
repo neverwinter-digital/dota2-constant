@@ -1,0 +1,2601 @@
+{
+    "windrunner": {
+        "countered_by": [
+            "spectre",
+            "centaur",
+            "axe",
+            "tidehunter",
+            "rattletrap"
+        ],
+        "combos": [
+            "drow_ranger",
+            "lycan",
+            "techies",
+            "phantom_lancer",
+            "broodmother"
+        ],
+        "counters": [
+            "huskar",
+            "life_stealer",
+            "ursa",
+            "sven",
+            "troll_warlord"
+        ]
+    },
+    "dark_seer": {
+        "countered_by": [
+            "sniper",
+            "oracle",
+            "ember_spirit",
+            "antimage",
+            "huskar"
+        ],
+        "combos": [
+            "arc_warden",
+            "earth_spirit",
+            "riki",
+            "brewmaster",
+            "magnataur"
+        ],
+        "counters": [
+            "templar_assassin",
+            "omniknight",
+            "treant",
+            "skeleton_king",
+            "chaos_knight"
+        ]
+    },
+    "vengefulspirit": {
+        "countered_by": [
+            "phantom_lancer",
+            "spectre",
+            "naga_siren",
+            "winter_wyvern",
+            "chaos_knight"
+        ],
+        "combos": [
+            "drow_ranger",
+            "furion",
+            "lone_druid",
+            "chen",
+            "visage"
+        ],
+        "counters": [
+            "clinkz",
+            "legion_commander",
+            "death_prophet",
+            "night_stalker",
+            "omniknight"
+        ]
+    },
+    "night_stalker": {
+        "countered_by": [
+            "meepo",
+            "razor",
+            "chaos_knight",
+            "naga_siren",
+            "treant"
+        ],
+        "combos": [
+            "lycan",
+            "enchantress",
+            "broodmother",
+            "gyrocopter",
+            "winter_wyvern"
+        ],
+        "counters": [
+            "tinker",
+            "phoenix",
+            "clinkz",
+            "visage",
+            "morphling"
+        ]
+    },
+    "medusa": {
+        "countered_by": [
+            "antimage",
+            "keeper_of_the_light",
+            "slark",
+            "sniper",
+            "invoker"
+        ],
+        "combos": [
+            "drow_ranger",
+            "tusk",
+            "vengefulspirit",
+            "nyx_assassin",
+            "riki"
+        ],
+        "counters": [
+            "chaos_knight",
+            "sven",
+            "enigma",
+            "necrolyte",
+            "undying"
+        ]
+    },
+    "undying": {
+        "countered_by": [
+            "sniper",
+            "medusa",
+            "antimage",
+            "ember_spirit",
+            "gyrocopter"
+        ],
+        "combos": [
+            "oracle",
+            "winter_wyvern",
+            "pugna",
+            "obsidian_destroyer",
+            "jakiro"
+        ],
+        "counters": [
+            "spectre",
+            "omniknight",
+            "abaddon",
+            "skeleton_king",
+            "centaur"
+        ]
+    },
+    "riki": {
+        "countered_by": [
+            "bristleback",
+            "techies",
+            "bounty_hunter",
+            "naga_siren",
+            "abyssal_underlord"
+        ],
+        "combos": [
+            "dark_seer",
+            "medusa",
+            "phoenix",
+            "skeleton_king",
+            "slardar"
+        ],
+        "counters": [
+            "medusa",
+            "slark",
+            "life_stealer",
+            "storm_spirit",
+            "huskar"
+        ]
+    },
+    "storm_spirit": {
+        "countered_by": [
+            "antimage",
+            "silencer",
+            "omniknight",
+            "huskar",
+            "riki"
+        ],
+        "combos": [
+            "drow_ranger",
+            "earth_spirit",
+            "ancient_apparition",
+            "elder_titan",
+            "enigma"
+        ],
+        "counters": [
+            "slark",
+            "bloodseeker",
+            "furion",
+            "ancient_apparition",
+            "sniper"
+        ]
+    },
+    "tusk": {
+        "countered_by": [
+            "chaos_knight",
+            "riki",
+            "spectre",
+            "centaur",
+            "phantom_lancer"
+        ],
+        "combos": [
+            "chen",
+            "antimage",
+            "medusa",
+            "phoenix",
+            "lycan"
+        ],
+        "counters": [
+            "arc_warden",
+            "shadow_demon",
+            "oracle",
+            "tinker",
+            "keeper_of_the_light"
+        ]
+    },
+    "sniper": {
+        "countered_by": [
+            "spectre",
+            "slark",
+            "phantom_assassin",
+            "lycan",
+            "pudge"
+        ],
+        "combos": [
+            "ogre_magi",
+            "tidehunter",
+            "skeleton_king",
+            "treant",
+            "chaos_knight"
+        ],
+        "counters": [
+            "abyssal_underlord",
+            "undying",
+            "enigma",
+            "obsidian_destroyer",
+            "medusa"
+        ]
+    },
+    "pugna": {
+        "countered_by": [
+            "antimage",
+            "huskar",
+            "sniper",
+            "pudge",
+            "furion"
+        ],
+        "combos": [
+            "rattletrap",
+            "naga_siren",
+            "pudge",
+            "antimage",
+            "undying"
+        ],
+        "counters": [
+            "obsidian_destroyer",
+            "shredder",
+            "necrolyte",
+            "omniknight",
+            "tidehunter"
+        ]
+    },
+    "ogre_magi": {
+        "countered_by": [
+            "meepo",
+            "visage",
+            "shadow_demon",
+            "undying",
+            "earth_spirit"
+        ],
+        "combos": [
+            "sniper",
+            "templar_assassin",
+            "visage",
+            "medusa",
+            "wisp"
+        ],
+        "counters": [
+            "troll_warlord",
+            "ursa",
+            "phantom_assassin",
+            "enchantress",
+            "shredder"
+        ]
+    },
+    "bane": {
+        "countered_by": [
+            "chaos_knight",
+            "phantom_lancer",
+            "monkey_king",
+            "meepo",
+            "naga_siren"
+        ],
+        "combos": [
+            "meepo",
+            "antimage",
+            "furion",
+            "leshrac",
+            "arc_warden"
+        ],
+        "counters": [
+            "wisp",
+            "techies",
+            "ancient_apparition",
+            "visage",
+            "chen"
+        ]
+    },
+    "crystal_maiden": {
+        "countered_by": [
+            "phoenix",
+            "visage",
+            "silencer",
+            "rattletrap",
+            "zuus"
+        ],
+        "combos": [
+            "chaos_knight",
+            "lycan",
+            "clinkz",
+            "juggernaut",
+            "slark"
+        ],
+        "counters": [
+            "troll_warlord",
+            "phantom_lancer",
+            "antimage",
+            "templar_assassin",
+            "alchemist"
+        ]
+    },
+    "ancient_apparition": {
+        "countered_by": [
+            "antimage",
+            "arc_warden",
+            "brewmaster",
+            "lycan",
+            "visage"
+        ],
+        "combos": [
+            "storm_spirit",
+            "slark",
+            "antimage",
+            "phantom_assassin",
+            "meepo"
+        ],
+        "counters": [
+            "necrolyte",
+            "omniknight",
+            "huskar",
+            "dazzle",
+            "axe"
+        ]
+    },
+    "lone_druid": {
+        "countered_by": [
+            "abyssal_underlord",
+            "bristleback",
+            "huskar",
+            "phantom_assassin",
+            "jakiro"
+        ],
+        "combos": [
+            "monkey_king",
+            "visage",
+            "viper",
+            "bane",
+            "vengefulspirit"
+        ],
+        "counters": [
+            "monkey_king",
+            "visage",
+            "arc_warden",
+            "chen",
+            "silencer"
+        ]
+    },
+    "shadow_demon": {
+        "countered_by": [
+            "phantom_lancer",
+            "shredder",
+            "arc_warden",
+            "ember_spirit",
+            "zuus"
+        ],
+        "combos": [
+            "arc_warden",
+            "meepo",
+            "alchemist",
+            "tinker",
+            "luna"
+        ],
+        "counters": [
+            "omniknight",
+            "ogre_magi",
+            "disruptor",
+            "ursa",
+            "dazzle"
+        ]
+    },
+    "batrider": {
+        "countered_by": [
+            "viper",
+            "weaver",
+            "huskar",
+            "life_stealer",
+            "slark"
+        ],
+        "combos": [
+            "arc_warden",
+            "broodmother",
+            "terrorblade",
+            "lycan",
+            "alchemist"
+        ],
+        "counters": [
+            "templar_assassin",
+            "axe",
+            "sven",
+            "ursa",
+            "warlock"
+        ]
+    },
+    "abaddon": {
+        "countered_by": [
+            "obsidian_destroyer",
+            "antimage",
+            "undying",
+            "lycan",
+            "furion"
+        ],
+        "combos": [
+            "monkey_king",
+            "viper",
+            "enchantress",
+            "obsidian_destroyer",
+            "huskar"
+        ],
+        "counters": [
+            "silencer",
+            "pudge",
+            "life_stealer",
+            "luna",
+            "storm_spirit"
+        ]
+    },
+    "kunkka": {
+        "countered_by": [
+            "monkey_king",
+            "life_stealer",
+            "sniper",
+            "alchemist",
+            "juggernaut"
+        ],
+        "combos": [
+            "doom_bringer",
+            "juggernaut",
+            "storm_spirit",
+            "life_stealer",
+            "meepo"
+        ],
+        "counters": [
+            "meepo",
+            "chaos_knight",
+            "axe",
+            "phantom_lancer",
+            "beastmaster"
+        ]
+    },
+    "phantom_lancer": {
+        "countered_by": [
+            "sand_king",
+            "shredder",
+            "axe",
+            "earthshaker",
+            "sven"
+        ],
+        "combos": [
+            "broodmother",
+            "enchantress",
+            "gyrocopter",
+            "techies",
+            "leshrac"
+        ],
+        "counters": [
+            "skeleton_king",
+            "visage",
+            "arc_warden",
+            "templar_assassin",
+            "ursa"
+        ]
+    },
+    "weaver": {
+        "countered_by": [
+            "faceless_void",
+            "techies",
+            "axe",
+            "bloodseeker",
+            "naga_siren"
+        ],
+        "combos": [
+            "drow_ranger",
+            "visage",
+            "monkey_king",
+            "keeper_of_the_light",
+            "lycan"
+        ],
+        "counters": [
+            "life_stealer",
+            "pudge",
+            "monkey_king",
+            "omniknight",
+            "batrider"
+        ]
+    },
+    "clinkz": {
+        "countered_by": [
+            "phantom_lancer",
+            "spirit_breaker",
+            "phantom_assassin",
+            "skeleton_king",
+            "chaos_knight"
+        ],
+        "combos": [
+            "drow_ranger",
+            "brewmaster",
+            "naga_siren",
+            "batrider",
+            "rattletrap"
+        ],
+        "counters": [
+            "phoenix",
+            "elder_titan",
+            "ember_spirit",
+            "undying",
+            "juggernaut"
+        ]
+    },
+    "earthshaker": {
+        "countered_by": [
+            "spectre",
+            "life_stealer",
+            "rattletrap",
+            "sniper",
+            "phoenix"
+        ],
+        "combos": [
+            "clinkz",
+            "terrorblade",
+            "storm_spirit",
+            "ember_spirit",
+            "antimage"
+        ],
+        "counters": [
+            "chaos_knight",
+            "phantom_lancer",
+            "meepo",
+            "broodmother",
+            "naga_siren"
+        ]
+    },
+    "lion": {
+        "countered_by": [
+            "spectre",
+            "visage",
+            "tidehunter",
+            "medusa",
+            "razor"
+        ],
+        "combos": [
+            "meepo",
+            "lycan",
+            "monkey_king",
+            "arc_warden",
+            "antimage"
+        ],
+        "counters": [
+            "skeleton_king",
+            "ursa",
+            "troll_warlord",
+            "legion_commander",
+            "monkey_king"
+        ]
+    },
+    "chen": {
+        "countered_by": [
+            "chaos_knight",
+            "lone_druid",
+            "phantom_lancer",
+            "razor",
+            "furion"
+        ],
+        "combos": [
+            "drow_ranger",
+            "tusk",
+            "tiny",
+            "obsidian_destroyer",
+            "chaos_knight"
+        ],
+        "counters": [
+            "spectre",
+            "techies",
+            "tidehunter",
+            "oracle",
+            "wisp"
+        ]
+    },
+    "invoker": {
+        "countered_by": [
+            "templar_assassin",
+            "phantom_assassin",
+            "visage",
+            "nyx_assassin",
+            "monkey_king"
+        ],
+        "combos": [
+            "faceless_void",
+            "shadow_demon",
+            "earth_spirit",
+            "slark",
+            "antimage"
+        ],
+        "counters": [
+            "skeleton_king",
+            "medusa",
+            "chaos_knight",
+            "abaddon",
+            "meepo"
+        ]
+    },
+    "phoenix": {
+        "countered_by": [
+            "clinkz",
+            "troll_warlord",
+            "silencer",
+            "antimage",
+            "huskar"
+        ],
+        "combos": [
+            "spirit_breaker",
+            "tusk",
+            "faceless_void",
+            "storm_spirit",
+            "riki"
+        ],
+        "counters": [
+            "axe",
+            "spectre",
+            "chaos_knight",
+            "crystal_maiden",
+            "treant"
+        ]
+    },
+    "rattletrap": {
+        "countered_by": [
+            "antimage",
+            "huskar",
+            "spectre",
+            "phoenix",
+            "phantom_lancer"
+        ],
+        "combos": [
+            "antimage",
+            "chen",
+            "arc_warden",
+            "pugna",
+            "clinkz"
+        ],
+        "counters": [
+            "axe",
+            "crystal_maiden",
+            "luna",
+            "earthshaker",
+            "sven"
+        ]
+    },
+    "viper": {
+        "countered_by": [
+            "chaos_knight",
+            "phantom_lancer",
+            "slark",
+            "legion_commander",
+            "crystal_maiden"
+        ],
+        "combos": [
+            "lycan",
+            "lone_druid",
+            "broodmother",
+            "drow_ranger",
+            "naga_siren"
+        ],
+        "counters": [
+            "batrider",
+            "alchemist",
+            "silencer",
+            "earth_spirit",
+            "venomancer"
+        ]
+    },
+    "juggernaut": {
+        "countered_by": [
+            "meepo",
+            "ursa",
+            "clinkz",
+            "troll_warlord",
+            "legion_commander"
+        ],
+        "combos": [
+            "magnataur",
+            "earth_spirit",
+            "nyx_assassin",
+            "sand_king",
+            "kunkka"
+        ],
+        "counters": [
+            "spectre",
+            "zuus",
+            "phoenix",
+            "centaur",
+            "rattletrap"
+        ]
+    },
+    "leshrac": {
+        "countered_by": [
+            "sniper",
+            "monkey_king",
+            "life_stealer",
+            "pugna",
+            "drow_ranger"
+        ],
+        "combos": [
+            "oracle",
+            "naga_siren",
+            "lycan",
+            "broodmother",
+            "enchantress"
+        ],
+        "counters": [
+            "meepo",
+            "elder_titan",
+            "omniknight",
+            "brewmaster",
+            "phantom_lancer"
+        ]
+    },
+    "ursa": {
+        "countered_by": [
+            "phantom_lancer",
+            "chaos_knight",
+            "slardar",
+            "venomancer",
+            "ogre_magi"
+        ],
+        "combos": [
+            "furion",
+            "naga_siren",
+            "wisp",
+            "enchantress",
+            "gyrocopter"
+        ],
+        "counters": [
+            "life_stealer",
+            "pudge",
+            "juggernaut",
+            "phoenix",
+            "huskar"
+        ]
+    },
+    "lycan": {
+        "countered_by": [
+            "axe",
+            "naga_siren",
+            "troll_warlord",
+            "sven",
+            "slardar"
+        ],
+        "combos": [
+            "monkey_king",
+            "visage",
+            "leshrac",
+            "enchantress",
+            "gyrocopter"
+        ],
+        "counters": [
+            "monkey_king",
+            "silencer",
+            "pudge",
+            "arc_warden",
+            "elder_titan"
+        ]
+    },
+    "meepo": {
+        "countered_by": [
+            "sven",
+            "winter_wyvern",
+            "ember_spirit",
+            "shredder",
+            "lich"
+        ],
+        "combos": [
+            "bane",
+            "shadow_demon",
+            "lion",
+            "rubick",
+            "earth_spirit"
+        ],
+        "counters": [
+            "antimage",
+            "luna",
+            "spirit_breaker",
+            "arc_warden",
+            "spectre"
+        ]
+    },
+    "elder_titan": {
+        "countered_by": [
+            "enchantress",
+            "lycan",
+            "furion",
+            "oracle",
+            "broodmother"
+        ],
+        "combos": [
+            "storm_spirit",
+            "faceless_void",
+            "mirana",
+            "legion_commander",
+            "furion"
+        ],
+        "counters": [
+            "meepo",
+            "chaos_knight",
+            "spectre",
+            "slark",
+            "crystal_maiden"
+        ]
+    },
+    "centaur": {
+        "countered_by": [
+            "necrolyte",
+            "life_stealer",
+            "undying",
+            "witch_doctor",
+            "warlock"
+        ],
+        "combos": [
+            "chen",
+            "monkey_king",
+            "lycan",
+            "visage",
+            "enchantress"
+        ],
+        "counters": [
+            "windrunner",
+            "phantom_assassin",
+            "phantom_lancer",
+            "troll_warlord",
+            "sniper"
+        ]
+    },
+    "tinker": {
+        "countered_by": [
+            "life_stealer",
+            "pudge",
+            "antimage",
+            "nyx_assassin",
+            "slark"
+        ],
+        "combos": [
+            "shadow_demon",
+            "earth_spirit",
+            "slark",
+            "antimage",
+            "oracle"
+        ],
+        "counters": [
+            "obsidian_destroyer",
+            "terrorblade",
+            "phantom_assassin",
+            "sven",
+            "drow_ranger"
+        ]
+    },
+    "broodmother": {
+        "countered_by": [
+            "axe",
+            "earthshaker",
+            "shredder",
+            "sand_king",
+            "slardar"
+        ],
+        "combos": [
+            "enchantress",
+            "furion",
+            "huskar",
+            "gyrocopter",
+            "naga_siren"
+        ],
+        "counters": [
+            "elder_titan",
+            "riki",
+            "arc_warden",
+            "lich",
+            "warlock"
+        ]
+    },
+    "dragon_knight": {
+        "countered_by": [
+            "enigma",
+            "ancient_apparition",
+            "slark",
+            "abyssal_underlord",
+            "undying"
+        ],
+        "combos": [
+            "lycan",
+            "wisp",
+            "drow_ranger",
+            "gyrocopter",
+            "chen"
+        ],
+        "counters": [
+            "templar_assassin",
+            "nyx_assassin",
+            "techies",
+            "puck",
+            "legion_commander"
+        ]
+    },
+    "doom_bringer": {
+        "countered_by": [
+            "viper",
+            "skeleton_king",
+            "monkey_king",
+            "life_stealer",
+            "meepo"
+        ],
+        "combos": [
+            "kunkka",
+            "lich",
+            "huskar",
+            "ember_spirit",
+            "sven"
+        ],
+        "counters": [
+            "axe",
+            "earth_spirit",
+            "omniknight",
+            "arc_warden",
+            "pugna"
+        ]
+    },
+    "huskar": {
+        "countered_by": [
+            "chaos_knight",
+            "ancient_apparition",
+            "troll_warlord",
+            "phantom_lancer",
+            "windrunner"
+        ],
+        "combos": [
+            "oracle",
+            "drow_ranger",
+            "broodmother",
+            "dazzle",
+            "omniknight"
+        ],
+        "counters": [
+            "zuus",
+            "venomancer",
+            "pugna",
+            "abyssal_underlord",
+            "earth_spirit"
+        ]
+    },
+    "techies": {
+        "countered_by": [
+            "skeleton_king",
+            "bane",
+            "chen",
+            "visage",
+            "furion"
+        ],
+        "combos": [
+            "antimage",
+            "chaos_knight",
+            "naga_siren",
+            "phantom_assassin",
+            "phantom_lancer"
+        ],
+        "counters": [
+            "riki",
+            "monkey_king",
+            "weaver",
+            "meepo",
+            "abyssal_underlord"
+        ]
+    },
+    "witch_doctor": {
+        "countered_by": [
+            "riki",
+            "phantom_assassin",
+            "morphling",
+            "sniper",
+            "weaver"
+        ],
+        "combos": [
+            "lycan",
+            "monkey_king",
+            "lone_druid",
+            "terrorblade",
+            "undying"
+        ],
+        "counters": [
+            "centaur",
+            "axe",
+            "crystal_maiden",
+            "necrolyte",
+            "abyssal_underlord"
+        ]
+    },
+    "omniknight": {
+        "countered_by": [
+            "enigma",
+            "obsidian_destroyer",
+            "undying",
+            "monkey_king",
+            "dark_seer"
+        ],
+        "combos": [
+            "huskar",
+            "obsidian_destroyer",
+            "axe",
+            "pudge",
+            "sniper"
+        ],
+        "counters": [
+            "spectre",
+            "slark",
+            "life_stealer",
+            "skeleton_king",
+            "phantom_assassin"
+        ]
+    },
+    "terrorblade": {
+        "countered_by": [
+            "shredder",
+            "axe",
+            "sand_king",
+            "tinker",
+            "dark_seer"
+        ],
+        "combos": [
+            "oracle",
+            "batrider",
+            "disruptor",
+            "enchantress",
+            "bane"
+        ],
+        "counters": [
+            "visage",
+            "templar_assassin",
+            "omniknight",
+            "skeleton_king",
+            "antimage"
+        ]
+    },
+    "alchemist": {
+        "countered_by": [
+            "monkey_king",
+            "viper",
+            "ancient_apparition",
+            "life_stealer",
+            "shredder"
+        ],
+        "combos": [
+            "shadow_demon",
+            "nyx_assassin",
+            "bane",
+            "batrider",
+            "oracle"
+        ],
+        "counters": [
+            "spectre",
+            "tidehunter",
+            "silencer",
+            "elder_titan",
+            "tinker"
+        ]
+    },
+    "life_stealer": {
+        "countered_by": [
+            "enigma",
+            "omniknight",
+            "templar_assassin",
+            "troll_warlord",
+            "weaver"
+        ],
+        "combos": [
+            "earth_spirit",
+            "slardar",
+            "tidehunter",
+            "batrider",
+            "storm_spirit"
+        ],
+        "counters": [
+            "spectre",
+            "zuus",
+            "pudge",
+            "tiny",
+            "centaur"
+        ]
+    },
+    "slark": {
+        "countered_by": [
+            "omniknight",
+            "storm_spirit",
+            "antimage",
+            "elder_titan",
+            "faceless_void"
+        ],
+        "combos": [
+            "wisp",
+            "earth_spirit",
+            "visage",
+            "tinker",
+            "ancient_apparition"
+        ],
+        "counters": [
+            "medusa",
+            "monkey_king",
+            "sniper",
+            "tinker",
+            "silencer"
+        ]
+    },
+    "mirana": {
+        "countered_by": [
+            "spectre",
+            "treant",
+            "zuus",
+            "bounty_hunter",
+            "arc_warden"
+        ],
+        "combos": [
+            "elder_titan",
+            "drow_ranger",
+            "shadow_demon",
+            "meepo",
+            "enigma"
+        ],
+        "counters": [
+            "troll_warlord",
+            "enchantress",
+            "weaver",
+            "sven",
+            "death_prophet"
+        ]
+    },
+    "skeleton_king": {
+        "countered_by": [
+            "phantom_lancer",
+            "keeper_of_the_light",
+            "antimage",
+            "invoker",
+            "omniknight"
+        ],
+        "combos": [
+            "monkey_king",
+            "sniper",
+            "gyrocopter",
+            "riki",
+            "kunkka"
+        ],
+        "counters": [
+            "zuus",
+            "techies",
+            "bloodseeker",
+            "legion_commander",
+            "pudge"
+        ]
+    },
+    "puck": {
+        "countered_by": [
+            "skeleton_king",
+            "monkey_king",
+            "templar_assassin",
+            "spectre",
+            "treant"
+        ],
+        "combos": [
+            "lone_druid",
+            "shadow_demon",
+            "terrorblade",
+            "lycan",
+            "life_stealer"
+        ],
+        "counters": [
+            "obsidian_destroyer",
+            "phantom_lancer",
+            "slark",
+            "morphling",
+            "queenofpain"
+        ]
+    },
+    "arc_warden": {
+        "countered_by": [
+            "phantom_lancer",
+            "monkey_king",
+            "meepo",
+            "chaos_knight",
+            "lycan"
+        ],
+        "combos": [
+            "oracle",
+            "shadow_demon",
+            "batrider",
+            "drow_ranger",
+            "rubick"
+        ],
+        "counters": [
+            "ancient_apparition",
+            "obsidian_destroyer",
+            "silencer",
+            "disruptor",
+            "elder_titan"
+        ]
+    },
+    "morphling": {
+        "countered_by": [
+            "antimage",
+            "obsidian_destroyer",
+            "meepo",
+            "treant",
+            "ancient_apparition"
+        ],
+        "combos": [
+            "drow_ranger",
+            "techies",
+            "earth_spirit",
+            "nyx_assassin",
+            "batrider"
+        ],
+        "counters": [
+            "phantom_assassin",
+            "phoenix",
+            "alchemist",
+            "witch_doctor",
+            "sniper"
+        ]
+    },
+    "luna": {
+        "countered_by": [
+            "meepo",
+            "spectre",
+            "zuus",
+            "rattletrap",
+            "bristleback"
+        ],
+        "combos": [
+            "shadow_demon",
+            "drow_ranger",
+            "wisp",
+            "tusk",
+            "chen"
+        ],
+        "counters": [
+            "omniknight",
+            "slardar",
+            "dazzle",
+            "silencer",
+            "death_prophet"
+        ]
+    },
+    "queenofpain": {
+        "countered_by": [
+            "skeleton_king",
+            "treant",
+            "legion_commander",
+            "puck",
+            "medusa"
+        ],
+        "combos": [
+            "lycan",
+            "naga_siren",
+            "broodmother",
+            "leshrac",
+            "terrorblade"
+        ],
+        "counters": [
+            "brewmaster",
+            "shredder",
+            "lich",
+            "batrider",
+            "shadow_demon"
+        ]
+    },
+    "razor": {
+        "countered_by": [
+            "sniper",
+            "necrolyte",
+            "nevermore",
+            "spectre",
+            "slark"
+        ],
+        "combos": [
+            "drow_ranger",
+            "furion",
+            "broodmother",
+            "leshrac",
+            "brewmaster"
+        ],
+        "counters": [
+            "visage",
+            "wisp",
+            "tidehunter",
+            "night_stalker",
+            "omniknight"
+        ]
+    },
+    "zuus": {
+        "countered_by": [
+            "huskar",
+            "antimage",
+            "life_stealer",
+            "skeleton_king",
+            "juggernaut"
+        ],
+        "combos": [
+            "spectre",
+            "centaur",
+            "slark",
+            "chaos_knight",
+            "faceless_void"
+        ],
+        "counters": [
+            "sand_king",
+            "crystal_maiden",
+            "obsidian_destroyer",
+            "luna",
+            "nevermore"
+        ]
+    },
+    "necrolyte": {
+        "countered_by": [
+            "ancient_apparition",
+            "medusa",
+            "visage",
+            "pugna",
+            "warlock"
+        ],
+        "combos": [
+            "centaur",
+            "monkey_king",
+            "tusk",
+            "axe",
+            "earthshaker"
+        ],
+        "counters": [
+            "bristleback",
+            "spectre",
+            "centaur",
+            "axe",
+            "slark"
+        ]
+    },
+    "skywrath_mage": {
+        "countered_by": [
+            "chaos_knight",
+            "pugna",
+            "lycan",
+            "skeleton_king",
+            "phantom_lancer"
+        ],
+        "combos": [
+            "lycan",
+            "faceless_void",
+            "treant",
+            "broodmother",
+            "furion"
+        ],
+        "counters": [
+            "shredder",
+            "monkey_king",
+            "necrolyte",
+            "lich",
+            "morphling"
+        ]
+    },
+    "tiny": {
+        "countered_by": [
+            "life_stealer",
+            "bristleback",
+            "skeleton_king",
+            "necrolyte",
+            "viper"
+        ],
+        "combos": [
+            "chen",
+            "wisp",
+            "broodmother",
+            "naga_siren",
+            "troll_warlord"
+        ],
+        "counters": [
+            "phantom_lancer",
+            "troll_warlord",
+            "naga_siren",
+            "ursa",
+            "slark"
+        ]
+    },
+    "pudge": {
+        "countered_by": [
+            "lycan",
+            "chaos_knight",
+            "visage",
+            "life_stealer",
+            "weaver"
+        ],
+        "combos": [
+            "pugna",
+            "abyssal_underlord",
+            "tidehunter",
+            "venomancer",
+            "keeper_of_the_light"
+        ],
+        "counters": [
+            "pugna",
+            "tinker",
+            "sniper",
+            "zuus",
+            "abyssal_underlord"
+        ]
+    },
+    "abyssal_underlord": {
+        "countered_by": [
+            "sniper",
+            "shredder",
+            "huskar",
+            "techies",
+            "monkey_king"
+        ],
+        "combos": [
+            "storm_spirit",
+            "obsidian_destroyer",
+            "pudge",
+            "huskar",
+            "juggernaut"
+        ],
+        "counters": [
+            "spirit_breaker",
+            "skeleton_king",
+            "riki",
+            "beastmaster",
+            "templar_assassin"
+        ]
+    },
+    "spirit_breaker": {
+        "countered_by": [
+            "meepo",
+            "abyssal_underlord",
+            "enigma",
+            "chaos_knight",
+            "omniknight"
+        ],
+        "combos": [
+            "phoenix",
+            "monkey_king",
+            "nevermore",
+            "dark_seer",
+            "shredder"
+        ],
+        "counters": [
+            "clinkz",
+            "keeper_of_the_light",
+            "antimage",
+            "tinker",
+            "furion"
+        ]
+    },
+    "phantom_assassin": {
+        "countered_by": [
+            "axe",
+            "omniknight",
+            "shredder",
+            "centaur",
+            "tidehunter"
+        ],
+        "combos": [
+            "techies",
+            "chen",
+            "magnataur",
+            "wisp",
+            "slardar"
+        ],
+        "counters": [
+            "antimage",
+            "drow_ranger",
+            "monkey_king",
+            "sniper",
+            "riki"
+        ]
+    },
+    "nyx_assassin": {
+        "countered_by": [
+            "visage",
+            "life_stealer",
+            "templar_assassin",
+            "viper",
+            "dragon_knight"
+        ],
+        "combos": [
+            "antimage",
+            "alchemist",
+            "ember_spirit",
+            "arc_warden",
+            "juggernaut"
+        ],
+        "counters": [
+            "obsidian_destroyer",
+            "tinker",
+            "shredder",
+            "skeleton_king",
+            "medusa"
+        ]
+    },
+    "gyrocopter": {
+        "countered_by": [
+            "spectre",
+            "life_stealer",
+            "juggernaut",
+            "slark",
+            "ogre_magi"
+        ],
+        "combos": [
+            "broodmother",
+            "lycan",
+            "brewmaster",
+            "drow_ranger",
+            "oracle"
+        ],
+        "counters": [
+            "visage",
+            "undying",
+            "templar_assassin",
+            "arc_warden",
+            "shadow_shaman"
+        ]
+    },
+    "silencer": {
+        "countered_by": [
+            "lycan",
+            "abaddon",
+            "viper",
+            "phantom_lancer",
+            "alchemist"
+        ],
+        "combos": [
+            "meepo",
+            "visage",
+            "batrider",
+            "spirit_breaker",
+            "rattletrap"
+        ],
+        "counters": [
+            "shredder",
+            "enigma",
+            "bristleback",
+            "phoenix",
+            "obsidian_destroyer"
+        ]
+    },
+    "enigma": {
+        "countered_by": [
+            "silencer",
+            "sniper",
+            "medusa",
+            "spectre",
+            "warlock"
+        ],
+        "combos": [
+            "storm_spirit",
+            "slark",
+            "clinkz",
+            "monkey_king",
+            "nyx_assassin"
+        ],
+        "counters": [
+            "omniknight",
+            "life_stealer",
+            "chaos_knight",
+            "spirit_breaker",
+            "slardar"
+        ]
+    },
+    "bounty_hunter": {
+        "countered_by": [
+            "phantom_lancer",
+            "chaos_knight",
+            "huskar",
+            "meepo",
+            "naga_siren"
+        ],
+        "combos": [
+            "shredder",
+            "batrider",
+            "tinker",
+            "ember_spirit",
+            "visage"
+        ],
+        "counters": [
+            "riki",
+            "clinkz",
+            "mirana",
+            "broodmother",
+            "nevermore"
+        ]
+    },
+    "lina": {
+        "countered_by": [
+            "spectre",
+            "monkey_king",
+            "sniper",
+            "centaur",
+            "mirana"
+        ],
+        "combos": [
+            "naga_siren",
+            "lycan",
+            "broodmother",
+            "brewmaster",
+            "terrorblade"
+        ],
+        "counters": [
+            "meepo",
+            "omniknight",
+            "abaddon",
+            "terrorblade",
+            "dark_seer"
+        ]
+    },
+    "antimage": {
+        "countered_by": [
+            "meepo",
+            "phantom_assassin",
+            "slardar",
+            "legion_commander",
+            "bloodseeker"
+        ],
+        "combos": [
+            "techies",
+            "nyx_assassin",
+            "keeper_of_the_light",
+            "bane",
+            "rattletrap"
+        ],
+        "counters": [
+            "rattletrap",
+            "zuus",
+            "skeleton_king",
+            "ancient_apparition",
+            "spectre"
+        ]
+    },
+    "sand_king": {
+        "countered_by": [
+            "zuus",
+            "abyssal_underlord",
+            "phoenix",
+            "sniper",
+            "shredder"
+        ],
+        "combos": [
+            "chen",
+            "juggernaut",
+            "meepo",
+            "arc_warden",
+            "alchemist"
+        ],
+        "counters": [
+            "phantom_lancer",
+            "chaos_knight",
+            "terrorblade",
+            "broodmother",
+            "naga_siren"
+        ]
+    },
+    "brewmaster": {
+        "countered_by": [
+            "shredder",
+            "weaver",
+            "furion",
+            "leshrac",
+            "antimage"
+        ],
+        "combos": [
+            "enchantress",
+            "furion",
+            "gyrocopter",
+            "oracle",
+            "leshrac"
+        ],
+        "counters": [
+            "ancient_apparition",
+            "elder_titan",
+            "venomancer",
+            "skeleton_king",
+            "lich"
+        ]
+    },
+    "wisp": {
+        "countered_by": [
+            "bane",
+            "razor",
+            "chen",
+            "furion",
+            "leshrac"
+        ],
+        "combos": [
+            "drow_ranger",
+            "slark",
+            "tiny",
+            "magnataur",
+            "luna"
+        ],
+        "counters": [
+            "arc_warden",
+            "phoenix",
+            "spectre",
+            "omniknight",
+            "juggernaut"
+        ]
+    },
+    "nevermore": {
+        "countered_by": [
+            "zuus",
+            "tinker",
+            "techies",
+            "bounty_hunter",
+            "templar_assassin"
+        ],
+        "combos": [
+            "tidehunter",
+            "spirit_breaker",
+            "chaos_knight",
+            "elder_titan",
+            "skeleton_king"
+        ],
+        "counters": [
+            "death_prophet",
+            "omniknight",
+            "meepo",
+            "razor",
+            "silencer"
+        ]
+    },
+    "faceless_void": {
+        "countered_by": [
+            "riki",
+            "antimage",
+            "troll_warlord",
+            "monkey_king",
+            "chaos_knight"
+        ],
+        "combos": [
+            "arc_warden",
+            "shadow_demon",
+            "obsidian_destroyer",
+            "skywrath_mage",
+            "wisp"
+        ],
+        "counters": [
+            "weaver",
+            "omniknight",
+            "life_stealer",
+            "slark",
+            "medusa"
+        ]
+    },
+    "bristleback": {
+        "countered_by": [
+            "necrolyte",
+            "keeper_of_the_light",
+            "silencer",
+            "slardar",
+            "legion_commander"
+        ],
+        "combos": [
+            "wisp",
+            "chen",
+            "broodmother",
+            "bloodseeker",
+            "monkey_king"
+        ],
+        "counters": [
+            "riki",
+            "visage",
+            "broodmother",
+            "spectre",
+            "ursa"
+        ]
+    },
+    "lich": {
+        "countered_by": [
+            "oracle",
+            "furion",
+            "antimage",
+            "broodmother",
+            "pugna"
+        ],
+        "combos": [
+            "antimage",
+            "slark",
+            "night_stalker",
+            "doom_bringer",
+            "lycan"
+        ],
+        "counters": [
+            "meepo",
+            "omniknight",
+            "chaos_knight",
+            "medusa",
+            "phantom_assassin"
+        ]
+    },
+    "warlock": {
+        "countered_by": [
+            "monkey_king",
+            "sniper",
+            "broodmother",
+            "furion",
+            "lycan"
+        ],
+        "combos": [
+            "drow_ranger",
+            "tusk",
+            "beastmaster",
+            "spirit_breaker",
+            "arc_warden"
+        ],
+        "counters": [
+            "enigma",
+            "chaos_knight",
+            "axe",
+            "spectre",
+            "centaur"
+        ]
+    },
+    "monkey_king": {
+        "countered_by": [
+            "visage",
+            "lycan",
+            "chaos_knight",
+            "slardar",
+            "lone_druid"
+        ],
+        "combos": [
+            "lycan",
+            "visage",
+            "lone_druid",
+            "chaos_knight",
+            "treant"
+        ],
+        "counters": [
+            "kunkka",
+            "alchemist",
+            "omniknight",
+            "arc_warden",
+            "sven"
+        ]
+    },
+    "visage": {
+        "countered_by": [
+            "naga_siren",
+            "gyrocopter",
+            "phantom_lancer",
+            "razor",
+            "furion"
+        ],
+        "combos": [
+            "lycan",
+            "monkey_king",
+            "drow_ranger",
+            "furion",
+            "rubick"
+        ],
+        "counters": [
+            "monkey_king",
+            "treant",
+            "pudge",
+            "necrolyte",
+            "nyx_assassin"
+        ]
+    },
+    "keeper_of_the_light": {
+        "countered_by": [
+            "huskar",
+            "phantom_assassin",
+            "life_stealer",
+            "spirit_breaker",
+            "meepo"
+        ],
+        "combos": [
+            "antimage",
+            "phantom_lancer",
+            "obsidian_destroyer",
+            "weaver",
+            "lycan"
+        ],
+        "counters": [
+            "skeleton_king",
+            "bristleback",
+            "medusa",
+            "shredder",
+            "abaddon"
+        ]
+    },
+    "legion_commander": {
+        "countered_by": [
+            "dazzle",
+            "skeleton_king",
+            "winter_wyvern",
+            "omniknight",
+            "treant"
+        ],
+        "combos": [
+            "broodmother",
+            "techies",
+            "enchantress",
+            "elder_titan",
+            "dark_seer"
+        ],
+        "counters": [
+            "antimage",
+            "broodmother",
+            "bristleback",
+            "naga_siren",
+            "ember_spirit"
+        ]
+    },
+    "slardar": {
+        "countered_by": [
+            "tidehunter",
+            "venomancer",
+            "enigma",
+            "luna",
+            "visage"
+        ],
+        "combos": [
+            "lycan",
+            "life_stealer",
+            "visage",
+            "wisp",
+            "templar_assassin"
+        ],
+        "counters": [
+            "antimage",
+            "monkey_king",
+            "ursa",
+            "broodmother",
+            "bristleback"
+        ]
+    },
+    "treant": {
+        "countered_by": [
+            "visage",
+            "dark_seer",
+            "phantom_lancer",
+            "death_prophet",
+            "phoenix"
+        ],
+        "combos": [
+            "monkey_king",
+            "visage",
+            "lone_druid",
+            "lycan",
+            "sniper"
+        ],
+        "counters": [
+            "spectre",
+            "skeleton_king",
+            "mirana",
+            "puck",
+            "centaur"
+        ]
+    },
+    "death_prophet": {
+        "countered_by": [
+            "monkey_king",
+            "sniper",
+            "drow_ranger",
+            "nevermore",
+            "luna"
+        ],
+        "combos": [
+            "oracle",
+            "furion",
+            "naga_siren",
+            "broodmother",
+            "gyrocopter"
+        ],
+        "counters": [
+            "treant",
+            "earth_spirit",
+            "shredder",
+            "centaur",
+            "visage"
+        ]
+    },
+    "winter_wyvern": {
+        "countered_by": [
+            "shredder",
+            "undying",
+            "antimage",
+            "spectre",
+            "tinker"
+        ],
+        "combos": [
+            "arc_warden",
+            "antimage",
+            "drow_ranger",
+            "undying",
+            "obsidian_destroyer"
+        ],
+        "counters": [
+            "meepo",
+            "legion_commander",
+            "beastmaster",
+            "riki",
+            "vengefulspirit"
+        ]
+    },
+    "tidehunter": {
+        "countered_by": [
+            "alchemist",
+            "sniper",
+            "razor",
+            "pugna",
+            "undying"
+        ],
+        "combos": [
+            "monkey_king",
+            "sniper",
+            "nevermore",
+            "templar_assassin",
+            "life_stealer"
+        ],
+        "counters": [
+            "slardar",
+            "skeleton_king",
+            "phantom_assassin",
+            "chaos_knight",
+            "crystal_maiden"
+        ]
+    },
+    "earth_spirit": {
+        "countered_by": [
+            "huskar",
+            "lycan",
+            "viper",
+            "death_prophet",
+            "phantom_lancer"
+        ],
+        "combos": [
+            "templar_assassin",
+            "tinker",
+            "storm_spirit",
+            "magnataur",
+            "meepo"
+        ],
+        "counters": [
+            "storm_spirit",
+            "ogre_magi",
+            "morphling",
+            "meepo",
+            "mirana"
+        ]
+    },
+    "furion": {
+        "countered_by": [
+            "spectre",
+            "storm_spirit",
+            "slark",
+            "antimage",
+            "legion_commander"
+        ],
+        "combos": [
+            "broodmother",
+            "enchantress",
+            "brewmaster",
+            "visage",
+            "drow_ranger"
+        ],
+        "counters": [
+            "visage",
+            "elder_titan",
+            "lich",
+            "enigma",
+            "abaddon"
+        ]
+    },
+    "rubick": {
+        "countered_by": [
+            "visage",
+            "templar_assassin",
+            "monkey_king",
+            "phantom_assassin",
+            "lycan"
+        ],
+        "combos": [
+            "arc_warden",
+            "visage",
+            "meepo",
+            "faceless_void",
+            "alchemist"
+        ],
+        "counters": [
+            "omniknight",
+            "enigma",
+            "skeleton_king",
+            "crystal_maiden",
+            "jakiro"
+        ]
+    },
+    "enchantress": {
+        "countered_by": [
+            "phantom_assassin",
+            "ogre_magi",
+            "slark",
+            "legion_commander",
+            "mirana"
+        ],
+        "combos": [
+            "broodmother",
+            "naga_siren",
+            "furion",
+            "brewmaster",
+            "oracle"
+        ],
+        "counters": [
+            "elder_titan",
+            "visage",
+            "omniknight",
+            "abyssal_underlord",
+            "warlock"
+        ]
+    },
+    "dazzle": {
+        "countered_by": [
+            "ancient_apparition",
+            "obsidian_destroyer",
+            "axe",
+            "luna",
+            "warlock"
+        ],
+        "combos": [
+            "huskar",
+            "lycan",
+            "drow_ranger",
+            "monkey_king",
+            "meepo"
+        ],
+        "counters": [
+            "legion_commander",
+            "bristleback",
+            "life_stealer",
+            "skeleton_king",
+            "spectre"
+        ]
+    },
+    "troll_warlord": {
+        "countered_by": [
+            "axe",
+            "crystal_maiden",
+            "sand_king",
+            "ogre_magi",
+            "centaur"
+        ],
+        "combos": [
+            "broodmother",
+            "gyrocopter",
+            "phantom_lancer",
+            "tiny",
+            "axe"
+        ],
+        "counters": [
+            "phoenix",
+            "huskar",
+            "life_stealer",
+            "antimage",
+            "lycan"
+        ]
+    },
+    "chaos_knight": {
+        "countered_by": [
+            "sand_king",
+            "medusa",
+            "sven",
+            "axe",
+            "earthshaker"
+        ],
+        "combos": [
+            "monkey_king",
+            "techies",
+            "chen",
+            "gyrocopter",
+            "wisp"
+        ],
+        "counters": [
+            "monkey_king",
+            "huskar",
+            "viper",
+            "pudge",
+            "skywrath_mage"
+        ]
+    },
+    "shadow_shaman": {
+        "countered_by": [
+            "spectre",
+            "meepo",
+            "sniper",
+            "visage",
+            "silencer"
+        ],
+        "combos": [
+            "meepo",
+            "furion",
+            "lycan",
+            "ursa",
+            "phantom_lancer"
+        ],
+        "counters": [
+            "huskar",
+            "ursa",
+            "templar_assassin",
+            "antimage",
+            "troll_warlord"
+        ]
+    },
+    "venomancer": {
+        "countered_by": [
+            "huskar",
+            "sniper",
+            "lycan",
+            "antimage",
+            "viper"
+        ],
+        "combos": [
+            "spectre",
+            "pudge",
+            "juggernaut",
+            "antimage",
+            "drow_ranger"
+        ],
+        "counters": [
+            "axe",
+            "templar_assassin",
+            "slardar",
+            "ursa",
+            "omniknight"
+        ]
+    },
+    "disruptor": {
+        "countered_by": [
+            "sniper",
+            "arc_warden",
+            "shadow_demon",
+            "huskar",
+            "clinkz"
+        ],
+        "combos": [
+            "terrorblade",
+            "arc_warden",
+            "clinkz",
+            "meepo",
+            "templar_assassin"
+        ],
+        "counters": [
+            "axe",
+            "slark",
+            "crystal_maiden",
+            "omniknight",
+            "enigma"
+        ]
+    },
+    "templar_assassin": {
+        "countered_by": [
+            "dark_seer",
+            "naga_siren",
+            "venomancer",
+            "phantom_lancer",
+            "batrider"
+        ],
+        "combos": [
+            "drow_ranger",
+            "earth_spirit",
+            "shadow_demon",
+            "slardar",
+            "ogre_magi"
+        ],
+        "counters": [
+            "life_stealer",
+            "monkey_king",
+            "oracle",
+            "puck",
+            "nyx_assassin"
+        ]
+    },
+    "beastmaster": {
+        "countered_by": [
+            "axe",
+            "shredder",
+            "abyssal_underlord",
+            "phantom_lancer",
+            "winter_wyvern"
+        ],
+        "combos": [
+            "vengefulspirit",
+            "templar_assassin",
+            "furion",
+            "drow_ranger",
+            "luna"
+        ],
+        "counters": [
+            "skeleton_king",
+            "ancient_apparition",
+            "techies",
+            "visage",
+            "arc_warden"
+        ]
+    },
+    "bloodseeker": {
+        "countered_by": [
+            "skeleton_king",
+            "storm_spirit",
+            "life_stealer",
+            "legion_commander",
+            "techies"
+        ],
+        "combos": [
+            "bristleback",
+            "broodmother",
+            "abaddon",
+            "monkey_king",
+            "abyssal_underlord"
+        ],
+        "counters": [
+            "antimage",
+            "weaver",
+            "shredder",
+            "slark",
+            "lycan"
+        ]
+    },
+    "sven": {
+        "countered_by": [
+            "monkey_king",
+            "medusa",
+            "shredder",
+            "sniper",
+            "tinker"
+        ],
+        "combos": [
+            "wisp",
+            "magnataur",
+            "doom_bringer",
+            "oracle",
+            "omniknight"
+        ],
+        "counters": [
+            "meepo",
+            "chaos_knight",
+            "phantom_lancer",
+            "lycan",
+            "antimage"
+        ]
+    },
+    "drow_ranger": {
+        "countered_by": [
+            "spectre",
+            "phantom_assassin",
+            "phantom_lancer",
+            "slark",
+            "chaos_knight"
+        ],
+        "combos": [
+            "templar_assassin",
+            "visage",
+            "weaver",
+            "huskar",
+            "chen"
+        ],
+        "counters": [
+            "omniknight",
+            "enigma",
+            "antimage",
+            "visage",
+            "undying"
+        ]
+    },
+    "shredder": {
+        "countered_by": [
+            "silencer",
+            "skywrath_mage",
+            "obsidian_destroyer",
+            "pugna",
+            "necrolyte"
+        ],
+        "combos": [
+            "bounty_hunter",
+            "earth_spirit",
+            "chen",
+            "winter_wyvern",
+            "spirit_breaker"
+        ],
+        "counters": [
+            "phantom_lancer",
+            "meepo",
+            "terrorblade",
+            "winter_wyvern",
+            "naga_siren"
+        ]
+    },
+    "jakiro": {
+        "countered_by": [
+            "sniper",
+            "rubick",
+            "pugna",
+            "life_stealer",
+            "silencer"
+        ],
+        "combos": [
+            "lycan",
+            "huskar",
+            "faceless_void",
+            "lone_druid",
+            "phantom_lancer"
+        ],
+        "counters": [
+            "meepo",
+            "chaos_knight",
+            "skeleton_king",
+            "axe",
+            "templar_assassin"
+        ]
+    },
+    "magnataur": {
+        "countered_by": [
+            "sniper",
+            "spectre",
+            "phoenix",
+            "tinker",
+            "templar_assassin"
+        ],
+        "combos": [
+            "ember_spirit",
+            "earth_spirit",
+            "juggernaut",
+            "wisp",
+            "chen"
+        ],
+        "counters": [
+            "chaos_knight",
+            "life_stealer",
+            "meepo",
+            "phantom_lancer",
+            "crystal_maiden"
+        ]
+    },
+    "naga_siren": {
+        "countered_by": [
+            "shredder",
+            "ember_spirit",
+            "sand_king",
+            "legion_commander",
+            "axe"
+        ],
+        "combos": [
+            "enchantress",
+            "leshrac",
+            "broodmother",
+            "oracle",
+            "techies"
+        ],
+        "counters": [
+            "visage",
+            "templar_assassin",
+            "lycan",
+            "riki",
+            "arc_warden"
+        ]
+    },
+    "spectre": {
+        "countered_by": [
+            "undying",
+            "life_stealer",
+            "omniknight",
+            "juggernaut",
+            "antimage"
+        ],
+        "combos": [
+            "techies",
+            "tusk",
+            "bounty_hunter",
+            "zuus",
+            "rattletrap"
+        ],
+        "counters": [
+            "sniper",
+            "windrunner",
+            "drow_ranger",
+            "luna",
+            "enigma"
+        ]
+    },
+    "axe": {
+        "countered_by": [
+            "venomancer",
+            "shredder",
+            "phoenix",
+            "obsidian_destroyer",
+            "warlock"
+        ],
+        "combos": [
+            "broodmother",
+            "monkey_king",
+            "templar_assassin",
+            "clinkz",
+            "troll_warlord"
+        ],
+        "counters": [
+            "phantom_lancer",
+            "troll_warlord",
+            "chaos_knight",
+            "broodmother",
+            "phantom_assassin"
+        ]
+    },
+    "oracle": {
+        "countered_by": [
+            "monkey_king",
+            "templar_assassin",
+            "antimage",
+            "obsidian_destroyer",
+            "shadow_demon"
+        ],
+        "combos": [
+            "arc_warden",
+            "huskar",
+            "leshrac",
+            "enchantress",
+            "broodmother"
+        ],
+        "counters": [
+            "omniknight",
+            "elder_titan",
+            "lich",
+            "dark_seer",
+            "abaddon"
+        ]
+    },
+    "ember_spirit": {
+        "countered_by": [
+            "clinkz",
+            "huskar",
+            "legion_commander",
+            "phantom_assassin",
+            "drow_ranger"
+        ],
+        "combos": [
+            "magnataur",
+            "nyx_assassin",
+            "bounty_hunter",
+            "slark",
+            "centaur"
+        ],
+        "counters": [
+            "meepo",
+            "naga_siren",
+            "phantom_lancer",
+            "chaos_knight",
+            "undying"
+        ]
+    },
+    "obsidian_destroyer": {
+        "countered_by": [
+            "pugna",
+            "sniper",
+            "tinker",
+            "silencer",
+            "arc_warden"
+        ],
+        "combos": [
+            "chen",
+            "earth_spirit",
+            "faceless_void",
+            "wisp",
+            "keeper_of_the_light"
+        ],
+        "counters": [
+            "omniknight",
+            "axe",
+            "abaddon",
+            "shredder",
+            "skeleton_king"
+        ]
+    }
+}
