@@ -25,11 +25,20 @@ urls = { regions: 'https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota
 
 DOTA2_API_KEY = 'A72DE7D7BE9870C8DA671D67941CCAA7'
 API_BASE_URL = 'https://api.steampowered.com/IDOTA2Match_570'
+ABILITY_NAME_BASE = 'DOTA_Tooltip_ability_'
+TALENT_NAME_BASE = 'DOTA_Tooltip_ability_special_bonus_'
+talent_urls = {
+    npc_heroes_url: 'https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/scripts/npc/npc_heroes.json',
+    tooltip_ability_zh_url: 'https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/resource/dota_schinese.json',
+    tooltip_ability_en_url: 'https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/resource/dota_english.json'
+}
+
 API_URLS = {
   get_league: "#{API_BASE_URL}/GetLeagueListing/v1"
 }
 
 live_url = { uniqueusers: 'http://www.dota2.com/jsfeed/uniqueusers' }
+
 
 def get_pediadata(type, lang_code)
   uri = URI('http://www.dota2.com/jsfeed/heropediadata')
@@ -77,6 +86,85 @@ def request_and_save(uri, filepath)
     file.write JSON.parse(response.body).to_yaml
   end if response.is_a?(Net::HTTPSuccess)
 end
+
+def update_talent_name_to_info_worker(info)
+  talent_name_to_info = {}
+  info = JSON.parse(info)
+
+  info['lang']['Tokens'].each do |talent_name, talent_info|
+    if talent_name.start_with?(TALENT_NAME_BASE)
+      talent_name_to_info[talent_name[ABILITY_NAME_BASE.length, talent_name.length]] = talent_info
+    end
+  end
+  talent_name_to_info
+end
+
+# talent name_en to info_en
+# talent name_zh to info_zh
+def update_talent_name_to_info(talent_urls)
+  talent_name_to_info = {}
+  info_en = request(URI(talent_urls[:tooltip_ability_en_url]))
+  info_zh = request(URI(talent_urls[:tooltip_ability_zh_url]))
+  talent_name_to_info_en = update_talent_name_to_info_worker(info_en)
+  talent_name_to_info_zh = update_talent_name_to_info_worker(info_zh)
+
+  talent_name_to_info_en.each do |talent_name, talent_info_en|
+    talent_info_zh = talent_name_to_info_zh[talent_name]
+    talent_name_to_info["#{talent_name}_zh"] = talent_info_zh
+    talent_name_to_info["#{talent_name}_en"] = talent_info_en
+  end
+  talent_name_to_info
+end
+
+def update_talent_worker(talent_urls, talent_name_to_info, talent_name_to_id)
+  hero_id_to_talent_info = {}
+  npc_heroes = request(URI(talent_urls[:npc_heroes_url]))
+  npc_heroes = JSON.parse(npc_heroes)
+  npc_heroes['DOTAHeroes'].each do |hero_name, value|
+    if hero_name != 'Version' && hero_name != 'npc_dota_hero_base'
+      hero_id = value['HeroID']
+      unless hero_id_to_talent_info.key?(hero_id)
+        hero_id_to_talent_info[hero_id] = {}
+      end
+      for i in 0..7
+        talent_name = value["Ability1#{i}"]
+        talent_id = talent_name_to_id[talent_name]
+        level = (i/2 + 2)*5
+        side = i % 2 == 0 ? 'right' : 'left'
+        hero_id_to_talent_info[hero_id][talent_id] = {
+            :type => "level_#{level}_#{side}",
+            :info_en => talent_name_to_info["#{talent_name}_en"],
+            :info_zh => talent_name_to_info["#{talent_name}_zh"]
+        }
+      end
+    end
+  end
+  hero_id_to_talent_info
+end
+
+def update_talent_name_to_id(ability_url)
+  talent_name_to_id = {}
+  abilities = request(URI(ability_url))
+  abilities = JSON.parse(abilities)
+  abilities['DOTAAbilities'].each do |ability_name, value|
+    if ability_name != 'Version' && ability_name != 'ability_base' && ability_name.start_with?('special_bonus_')
+      talent_name_to_id[ability_name] = value['ID']
+    end
+  end
+  talent_name_to_id
+end
+
+# update json/talent_info.json
+def update_talent(ability_url, talent_urls)
+  talent_name_to_id = update_talent_name_to_id(ability_url)
+  talent_name_to_info = update_talent_name_to_info(talent_urls)
+  hero_id_to_talent_info = update_talent_worker(talent_urls, talent_name_to_info, talent_name_to_id)
+  File.open('json/talent_info.json', 'w') do |f|
+    f.write(hero_id_to_talent_info.to_json)
+  end
+end
+
+update_talent(urls[:npc_abilities], talent_urls)
 
 LANGUAGES.keys.each do |lang_code|
   FileUtils.mkdir_p "locales/#{lang_code}"
