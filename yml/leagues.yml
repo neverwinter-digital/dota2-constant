@@ -5642,7 +5642,7 @@
 '5018':
   ticket: econ/leagues/subscriptions_esl_one_genting_2017
   banner: econ/leagues/subscriptions_esl_one_genting_2017_ingame
-  tier: professional
+  tier: premium
 '4630':
   ticket: econ/leagues/subscriptions_world_electronic_sports_games
   banner: econ/leagues/subscriptions_world_electronic_sports_games_ingame
@@ -6259,3 +6259,11 @@
   ticket: econ/leagues/subscriptions_world_cyber_arena_2016_grand_finals
   banner: econ/leagues/subscriptions_world_cyber_arena_2016_grand_finals_ingame
   tier: premium
+'5197':
+  ticket: econ/leagues/subscriptions_dota_2_asia_championships_2017
+  banner: econ/leagues/subscriptions_dota_2_asia_championships_2017_ingame
+  tier: premium
+'5157':
+  ticket: econ/testitem_slot_empty
+  banner: 
+  tier: professional
