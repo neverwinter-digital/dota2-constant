@@ -164,25 +164,54 @@ def update_talent(ability_url, talent_urls)
   end
 end
 
-update_talent(urls[:npc_abilities], talent_urls)
-
-LANGUAGES.keys.each do |lang_code|
-  FileUtils.mkdir_p "locales/#{lang_code}"
-
-  #JSFEEDS.keys.each do |jsfeed|
-  #  get_jsfeed(jsfeed, lang_code)
-  #end
-
-  #PEDIA_TYPES.keys.each do |type|
-  #  get_pediadata(type, lang_code)
-  #end
-
-  #get_league(lang_code)
-
+def run_update_talent(urls, talent_urls)
+  update_talent(urls[:npc_abilities], talent_urls)
 end
 
-urls.each do |key, url|
-  uri = URI(url)
-  filepath = "yml/#{key}.yml"
-  request_and_save(uri, filepath)
+def run_update_locales
+  LANGUAGES.keys.each do |lang_code|
+    FileUtils.mkdir_p "locales/#{lang_code}"
+
+    #JSFEEDS.keys.each do |jsfeed|
+    #  get_jsfeed(jsfeed, lang_code)
+    #end
+
+    #PEDIA_TYPES.keys.each do |type|
+    #  get_pediadata(type, lang_code)
+    #end
+
+    #get_league(lang_code)
+
+  end
 end
+
+def run_update_yml(urls)
+  urls.each do |key, url|
+    puts url
+    uri = URI(url)
+    filepath = "yml/#{key}.yml"
+    request_and_save(uri, filepath)
+  end
+  update_abilities
+end
+
+def update_abilities
+  ability_id_to_name = {}
+  npc_abilities = YAML.load_file('yml/npc_abilities.yml')
+  abilities = npc_abilities['DOTAAbilities']
+  abilities.each do |key, value|
+    if key != 'Version'
+      ability_id_to_name[value['ID'].to_i] = key
+    end
+  end
+
+  File.open('yml/abilities.yml', 'w') do |file|
+    file.write ability_id_to_name.to_yaml
+  end
+end
+
+# make them into single functions, since the slow internet limits us to run one function at a time
+run_update_talent(urls, talent_urls)
+run_update_locales
+run_update_yml(urls)
+

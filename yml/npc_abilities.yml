@@ -735,15 +735,15 @@ DOTAAbilities:
     AbilitySpecial:
     - cleave_starting_width: 150
     - cleave_ending_width:
-      - 450
       - 500
       - 550
       - 600
+      - 650
     - cleave_distance:
-      - 675
-      - 750
-      - 825
-      - 900
+      - 650
+      - 800
+      - 950
+      - 1100
     - damage_bonus:
       - 25
       - 45
@@ -1571,7 +1571,7 @@ DOTAAbilities:
     HasScepterUpgrade: '1'
     AbilityCastRange: '750'
     AbilityCastPoint: 0.1 0.1 0.1
-    AbilityCooldown: '75'
+    AbilityCooldown: 70 65 60
     AbilityManaCost: 100 150 200
     AbilityModifierSupportValue: '0.5'
     AbilitySpecial:
@@ -2668,12 +2668,12 @@ DOTAAbilities:
     HasScepterUpgrade: '1'
     AbilityCastRange: '0'
     AbilityCastPoint: '0.2'
-    AbilityCooldown: '50'
+    AbilityCooldown: '40'
     AbilityManaCost: '275'
     AbilityModifierSupportValue: '0.1'
     AbilitySpecial:
-    - cloud_duration: 50.0
-    - cloud_bolt_interval: 2.5
+    - cloud_duration: 40.0
+    - cloud_bolt_interval: 2.25
     - cloud_radius: 500
   zuus_static_field:
     ID: '5112'
@@ -2741,7 +2741,7 @@ DOTAAbilities:
     AbilityCastRange: '0'
     AbilityCastPoint: 0.35 0.35 0.35 0.35
     AbilityCooldown: '8'
-    AbilityDuration: 1.6 1.9 2.2 2.5
+    AbilityDuration: 1.5 1.75 2 2.25
     AbilityDamage: 75 125 175 225
     AbilityManaCost: 80 95 105 115
     AbilityModifierSupportValue: '0.5'
@@ -2751,10 +2751,10 @@ DOTAAbilities:
     - crush_attack_slow_tooltip: -20
     - crush_extra_slow_duration: 2.0
     - stun_duration:
-      - 1.6
-      - 1.9
-      - 2.2
-      - 2.5
+      - 1.5
+      - 1.75
+      - 2.0
+      - 2.25
   slardar_bash:
     ID: '5116'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
@@ -2788,7 +2788,7 @@ DOTAAbilities:
     AbilityCastRange: '700'
     AbilityCastPoint: 0.35 0.35 0.35
     AbilityCooldown: '5'
-    AbilityManaCost: 25 25 25
+    AbilityManaCost: '25'
     AbilityModifierSupportValue: '6.0'
     AbilitySpecial:
     - armor_reduction:
@@ -3130,9 +3130,9 @@ DOTAAbilities:
     FightRecapLevel: '1'
     AbilityCastRange: '2600'
     AbilityCastPoint: '0.0'
-    AbilityCooldown: 9.0 9.0 9.0 9.0
+    AbilityCooldown: 12 11 10 9
     AbilityChannelTime: 1.0 1.0 1.0 1.0
-    AbilityDamage: 120 220 320 420
+    AbilityDamage: 180 260 340 420
     AbilityManaCost: 90 100 110 120
     AbilitySpecial:
     - damage_reduction: 0.2
@@ -3164,9 +3164,9 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     AbilityCastPoint: 0.3 0.3 0.3 0.3
-    AbilityCooldown: '14'
+    AbilityCooldown: '13'
     AbilityDuration: 3 4 5 6
-    AbilityManaCost: 100 100 100 100
+    AbilityManaCost: '75'
     AbilityModifierSupportValue: '0.1'
     AbilitySpecial:
     - movespeed_bonus_pct:
@@ -3180,11 +3180,7 @@ DOTAAbilities:
       - -16
       - -24
       - -30
-    - radius:
-      - 300
-      - 300
-      - 300
-      - 300
+    - radius: 325
     - duration:
       - 3.0
       - 4.0
@@ -3461,6 +3457,9 @@ DOTAAbilities:
     AbilityType: DOTA_ABILITY_TYPE_ULTIMATE
     AbilityUnitDamageType: DAMAGE_TYPE_PHYSICAL
     AbilityUnitTargetType: DOTA_UNIT_TARGET_HERO
+    AbilityUnitTargetFlags: DOTA_UNIT_TARGET_FLAG_NO_INVIS | DOTA_UNIT_TARGET_FLAG_FOW_VISIBLE
+      | DOTA_UNIT_TARGET_FLAG_NOT_ATTACK_IMMUNE | DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES
+      | DOTA_UNIT_TARGET_FLAG_NOT_CREEP_HERO
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     FightRecapLevel: '2'
     HasScepterUpgrade: '1'
@@ -3508,9 +3507,9 @@ DOTAAbilities:
       - 60
       - 70
     - movement_speed_reduction:
-      - 13
-      - 17
-      - 21
+      - 10
+      - 15
+      - 20
       - 25
     - turn_reduction: 0
     - duration: 6
@@ -3929,10 +3928,10 @@ DOTAAbilities:
     AbilitySpecial:
     - area_of_effect: 475
     - heal:
-      - 70
-      - 90
-      - 110
-      - 130
+      - 60
+      - 80
+      - 100
+      - 120
     - projectile_speed: 400
     - health_regen:
       - 1
@@ -4814,7 +4813,7 @@ DOTAAbilities:
       - 2.0
       - 3.0
       - 4.0
-    - base_damage: 70
+    - base_damage: 65
     - attack_factor:
       - -75
       - -60
@@ -5170,9 +5169,9 @@ DOTAAbilities:
       - 30
       - 38
     - bonus_night_vision:
-      - 1000
-      - 1000
-      - 1000
+      - 250
+      - 500
+      - 750
       - 1000
   luna_eclipse:
     ID: '5225'
@@ -5751,6 +5750,10 @@ DOTAAbilities:
     - treant_health_tooltip: 550
     - treant_min_dmg_tooltip: 30
     - treant_max_dmg_tooltip: 34
+    - treant_hp_bonus: 550
+    - treant_damage_bonus: 32
+    - treant_large_hp_bonus: 1650
+    - treant_large_damage_bonus: 96
   furion_wrath_of_nature:
     ID: '5248'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_POINT
@@ -5981,7 +5984,7 @@ DOTAAbilities:
     AbilityCastRange: '600'
     AbilityCastPoint: 0.4 0.4 0.4 0.4
     AbilityCooldown: '9'
-    AbilityManaCost: 70 90 110 130
+    AbilityManaCost: 100 110 120 130
     AbilityModifierSupportValue: '0.0'
     AbilitySpecial:
     - radius: 250
@@ -6152,7 +6155,7 @@ DOTAAbilities:
     AbilityCastRange: '575'
     AbilityCastPoint: '0.2'
     AbilityCooldown: 11 10 9 8
-    AbilityManaCost: 70 90 110 130
+    AbilityManaCost: 85 100 115 130
     AbilitySpecial:
     - heal:
       - 90
@@ -6205,7 +6208,7 @@ DOTAAbilities:
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '2'
     HasScepterUpgrade: '1'
-    AbilityCooldown: '150'
+    AbilityCooldown: '160'
     AbilityCastPoint: 0.5 0.5 0.5
     AbilityManaCost: 125 175 250
     AbilitySpecial:
@@ -6609,10 +6612,10 @@ DOTAAbilities:
       - 50
       - 60
     - bonus_movespeed:
-      - -10
-      - -20
-      - -30
-      - -40
+      - -14
+      - -24
+      - -34
+      - -44
     - duration:
       - 2.0
       - 2.0
@@ -6666,6 +6669,8 @@ DOTAAbilities:
       - 1000
       - 1000
     - bounce_aoe: 1200
+    - ministun: 0.1
+    - scepter_ministun: 0.75
   bounty_hunter_jinada:
     ID: '5286'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
@@ -6773,7 +6778,11 @@ DOTAAbilities:
     AbilityManaCost: 70 80 90 100
     AbilityModifierSupportValue: '0.2'
     AbilitySpecial:
-    - damage: 20
+    - damage:
+      - 14
+      - 16
+      - 18
+      - 20
     - attack_rate:
       - 1.25
       - 1.1
@@ -6845,7 +6854,7 @@ DOTAAbilities:
     ID: '5291'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
-    AbilityCooldown: 6.0 5.0 4.0 3.0
+    AbilityCooldown: 7.0 6.0 5.0 3.0
     AbilitySpecial:
     - delay: 0.25
   weaver_time_lapse:
@@ -8042,6 +8051,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
     FightRecapLevel: '1'
+    AbilityCastRange: '775'
     AbilityCastPoint: '0.0'
     AbilityCooldown: '16.0'
     AbilityManaCost: '120'
@@ -8146,13 +8156,13 @@ DOTAAbilities:
     AbilityManaCost: '0'
     AbilitySpecial:
     - health_regen_per_instance:
-      - 1.5
+      - 1.0
       - 3.0
-      - 4.5
-      - 6.0
-      - 7.5
+      - 5.0
+      - 7.0
       - 9.0
-      - 10.5
+      - 11.0
+      - 13.0
   invoker_wex:
     ID: '5371'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE
@@ -8915,9 +8925,9 @@ DOTAAbilities:
     ID: '5396'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING
     AbilityCastPoint: 0.3 0.3 0.3 0.3
-    AbilityCooldown: 50 45 40 35
+    AbilityCooldown: 55 50 45 40
     AbilityDuration: '13'
-    AbilityManaCost: 15 20 25 30
+    AbilityManaCost: '40'
     AbilityModifierSupportBonus: '5'
     AbilitySpecial:
     - howl_duration: 13.0
@@ -9400,8 +9410,8 @@ DOTAAbilities:
       - 45.0
       - 60.0
       - 75.0
-    - illusion_incoming_damage: 100.0
-    - tooltip_total_illusion_incoming_damage: 200.0
+    - illusion_incoming_damage: 200.0
+    - tooltip_total_illusion_incoming_damage: 300.0
   shadow_demon_soul_catcher:
     ID: '5422'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING
@@ -9560,10 +9570,10 @@ DOTAAbilities:
       - 650
       - 700
     - armor_reduction:
+      - -1
       - -3
-      - -4
       - -5
-      - -6
+      - -7
     - armor_duration: 8
   chaos_knight_chaos_strike:
     ID: '5428'
@@ -9576,7 +9586,7 @@ DOTAAbilities:
       - 175
       - 225
       - 275
-    - lifesteal: 50
+    - lifesteal: 65
   chaos_knight_phantasm:
     ID: '5429'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET
@@ -9690,15 +9700,15 @@ DOTAAbilities:
       - 3.0
     - radius: 265
     - bonus_move_speed:
-      - 16
-      - 22
-      - 28
+      - 10
+      - 18
+      - 26
       - 34
     - grace_time: 0.75
     - bash_duration:
+      - 0.4
       - 1.0
-      - 1.4
-      - 1.8
+      - 1.6
       - 2.2
   treant_leech_seed:
     ID: '5435'
@@ -9720,7 +9730,11 @@ DOTAAbilities:
       - 30
       - 45
       - 60
-    - movement_slow: -28
+    - movement_slow:
+      - -22
+      - -24
+      - -26
+      - -28
     - radius: 500
     - duration: 4.5
     - projectile_speed: 400
@@ -10899,9 +10913,9 @@ DOTAAbilities:
     AbilityManaCost: 150 150 150
     AbilitySpecial:
     - familiar_hp:
+      - 300
       - 500
-      - 750
-      - 1000
+      - 700
     - familiar_armor:
       - 0
       - 1
@@ -11832,7 +11846,7 @@ DOTAAbilities:
       - 12
     - stack_limit: 4
     - goo_duration_creep: 10.0
-    - radius_scepter: 700
+    - radius_scepter: 750
   bristleback_quill_spray:
     ID: '5549'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE
@@ -11857,7 +11871,7 @@ DOTAAbilities:
       - 34.0
       - 36.0
     - quill_stack_duration: 14.0
-    - max_damage: 450.0
+    - max_damage: 550.0
     - projectile_speed: 2400
   bristleback_bristleback:
     ID: '5550'
@@ -12363,7 +12377,7 @@ DOTAAbilities:
     AbilityUnitTargetType: DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     AbilitySpecial:
-    - radius: 325
+    - radius: 350
     - armor_reduction_pct:
       - 40
       - 60
@@ -12617,6 +12631,7 @@ DOTAAbilities:
   ember_spirit_activate_fire_remnant:
     ID: '5607'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE
+      | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES
     AbilityType: DOTA_ABILITY_TYPE_BASIC
     MaxLevel: '3'
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
@@ -12826,12 +12841,12 @@ DOTAAbilities:
     AbilityCastRange: '750'
     AbilityCastPoint: '0.45'
     FightRecapLevel: '1'
-    AbilityCooldown: 30 26 22 18
+    AbilityCooldown: 32 28 24 20
     AbilityManaCost: 100 115 130 145
     AbilitySpecial:
     - radius: 375
     - pit_duration: 12.0
-    - pit_interval: 3.5
+    - pit_interval: 3.6
     - pit_damage: 0
     - ensnare_duration:
       - 0.9
@@ -12847,9 +12862,9 @@ DOTAAbilities:
     AbilitySpecial:
     - radius: 900
     - damage_reduction_pct:
-      - 10
-      - 20
-      - 30
+      - 4
+      - 16
+      - 28
       - 40
     - bonus_damage_from_creep: 5
     - bonus_damage_from_hero:
@@ -13306,7 +13321,11 @@ DOTAAbilities:
       - 1.0
       - 1.5
       - 2.0
-    - strike_crit_mult: 200
+    - strike_crit_mult:
+      - 140
+      - 160
+      - 180
+      - 200
     - strike_radius: 150
     - strike_cast_range: 1200
   monkey_king_mischief:
@@ -13431,18 +13450,18 @@ DOTAAbilities:
     AbilityCooldown: '0'
     AbilitySpecial:
     - required_hits: 4
-    - counter_duration: 15
+    - counter_duration: 10
     - charges: 4
     - bonus_damage:
-      - 80
-      - 120
-      - 160
-      - 200
+      - 75
+      - 100
+      - 125
+      - 150
     - lifesteal:
-      - 20
+      - 15
       - 30
-      - 40
-      - 50
+      - 45
+      - 60
   backdoor_protection:
     ID: '5350'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
@@ -13609,6 +13628,24 @@ DOTAAbilities:
     AbilityCastRange: '0'
     AbilitySpecial: []
     MaxLevel: '1'
+  courier_go_to_enemy_secretshop:
+    ID: '6329'
+    AbilityType: DOTA_ABILITY_TYPE_BASIC
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_NO_TARGET
+      | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING
+    MaxLevel: '1'
+  courier_go_to_sideshop:
+    ID: '6333'
+    AbilityType: DOTA_ABILITY_TYPE_BASIC
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_NO_TARGET
+      | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING
+    MaxLevel: '1'
+  courier_go_to_sideshop2:
+    ID: '6334'
+    AbilityType: DOTA_ABILITY_TYPE_BASIC
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_NO_TARGET
+      | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING
+    MaxLevel: '1'
   roshan_spell_block:
     ID: '5213'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
@@ -13692,6 +13729,7 @@ DOTAAbilities:
     - armor_reduction_pct: 50
   spawnlord_master_freeze:
     ID: '6278'
+    MaxLevel: '1'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AUTOCAST
       | DOTA_ABILITY_BEHAVIOR_ATTACK
     AbilityUnitDamageType: DAMAGE_TYPE_PHYSICAL
@@ -13986,6 +14024,7 @@ DOTAAbilities:
     - max_targets: 4
   big_thunder_lizard_wardrums_aura:
     ID: '5682'
+    MaxLevel: '1'
     AbilityType: DOTA_ABILITY_TYPE_BASIC
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
@@ -14001,6 +14040,7 @@ DOTAAbilities:
     - radius: 900
   black_dragon_fireball:
     ID: '5689'
+    MaxLevel: '1'
     AbilityType: DOTA_ABILITY_TYPE_BASIC
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
@@ -15462,6 +15502,12 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 200
+  special_bonus_hp_225:
+    ID: '6405'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 225
   special_bonus_hp_250:
     ID: '5903'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -15498,6 +15544,18 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 500
+  special_bonus_hp_600:
+    ID: '6377'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 600
+  special_bonus_hp_700:
+    ID: '6415'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 700
   special_bonus_mp_100:
     ID: '6096'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -15558,6 +15616,12 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 500
+  special_bonus_mp_600:
+    ID: '6382'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 600
   special_bonus_attack_speed_10:
     ID: '6118'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -15690,6 +15754,12 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 25
+  special_bonus_hp_regen_30:
+    ID: '6351'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 30
   special_bonus_hp_regen_40:
     ID: '6022'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -15720,6 +15790,12 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 4
+  special_bonus_mp_regen_5:
+    ID: '6410'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 5
   special_bonus_mp_regen_3:
     ID: '6160'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -15804,6 +15880,18 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 50
+  special_bonus_movement_speed_60:
+    ID: '6373'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 60
+  special_bonus_movement_speed_75:
+    ID: '6355'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 75
   special_bonus_lifesteal_10:
     ID: '6158'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -15936,6 +16024,12 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 15
+  special_bonus_intelligence_16:
+    ID: '6332'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 16
   special_bonus_intelligence_20:
     ID: '5995'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -16098,6 +16192,18 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 25
+  special_bonus_agility_30:
+    ID: '6406'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 30
+  special_bonus_agility_40:
+    ID: '6430'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 40
   special_bonus_armor_2:
     ID: '6110'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -16218,6 +16324,12 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 30
+  special_bonus_magic_resistance_35:
+    ID: '6386'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 35
   special_bonus_day_vision_400:
     ID: '6092'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -16290,6 +16402,18 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 50
+  special_bonus_attack_damage_55:
+    ID: '6396'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 55
+  special_bonus_attack_damage_60:
+    ID: '6366'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 60
   special_bonus_attack_damage_65:
     ID: '6142'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -16446,6 +16570,12 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 300
+  special_bonus_cast_range_400:
+    ID: '6384'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 400
   special_bonus_spell_amplify_3:
     ID: '6162'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -16578,6 +16708,12 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 40
+  special_bonus_respawn_reduction_45:
+    ID: '6375'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 45
   special_bonus_respawn_reduction_50:
     ID: '6269'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -16710,12 +16846,24 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 30
+  special_bonus_exp_boost_35:
+    ID: '6372'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 35
   special_bonus_unique_clockwerk:
     ID: '5977'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 10
+  special_bonus_unique_clockwerk_2:
+    ID: '6364'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 75
   special_bonus_unique_omniknight_1:
     ID: '5981'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -16745,7 +16893,7 @@ DOTAAbilities:
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
-    - value: 150
+    - value: 175
   special_bonus_unique_witch_doctor_2:
     ID: '6298'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -16763,7 +16911,13 @@ DOTAAbilities:
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
-    - value: 2
+    - value: 1
+  special_bonus_unique_antimage_2:
+    ID: '6353'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 50
   special_bonus_unique_mirana_1:
     ID: '6013'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -16776,12 +16930,30 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 2
+  special_bonus_unique_mirana_3:
+    ID: '6397'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 4
   special_bonus_unique_bounty_hunter:
     ID: '6018'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 5
+  special_bonus_unique_queen_of_pain:
+    ID: '6407'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 3
+  special_bonus_unique_bounty_hunter_2:
+    ID: '6358'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 75
   special_bonus_unique_underlord:
     ID: '6019'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -16812,6 +16984,12 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 14
+  special_bonus_unique_razor_2:
+    ID: '6408'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 130
   special_bonus_unique_visage_1:
     ID: '6031'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -16830,12 +17008,18 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 2
+  special_bonus_unique_earthshaker_2:
+    ID: '6425'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 40
   special_bonus_unique_lich_1:
     ID: '6039'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
-    - value: 25
+    - value: 35
   special_bonus_unique_lich_2:
     ID: '6292'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -16843,6 +17027,12 @@ DOTAAbilities:
     AbilitySpecial:
     - value: 30
     - duration: 3.0
+  special_bonus_unique_lich_3:
+    ID: '6387'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 3
   special_bonus_unique_rubick:
     ID: '6041'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -16854,13 +17044,19 @@ DOTAAbilities:
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
-    - value: 5
+    - value: 6
   special_bonus_unique_dark_seer:
     ID: '6047'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
-    - value: 70
+    - value: 80
+  special_bonus_unique_dark_seer_2:
+    ID: '6365'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 75
   special_bonus_unique_dazzle_1:
     ID: '6049'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -16897,6 +17093,12 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 15
+  special_bonus_unique_warlock_3:
+    ID: '6412'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 4
   special_bonus_unique_vengeful_spirit_1:
     ID: '6310'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -16932,7 +17134,7 @@ DOTAAbilities:
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
-    - value: 30
+    - value: 50
   special_bonus_unique_leshrac_1:
     ID: '6063'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -16951,6 +17153,12 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 1.25
+  special_bonus_unique_jakiro_2:
+    ID: '6381'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 25.0
   special_bonus_unique_enigma:
     ID: '6065'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -16998,7 +17206,7 @@ DOTAAbilities:
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
-    - value: 200
+    - value: 250
   special_bonus_unique_doom_1:
     ID: '6073'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -17011,18 +17219,48 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 0
+  special_bonus_unique_doom_3:
+    ID: '6369'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 80
+  special_bonus_unique_doom_4:
+    ID: '6370'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 15
+  special_bonus_unique_doom_5:
+    ID: '6371'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 35
   special_bonus_unique_brewmaster:
     ID: '6082'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
-    - value: 14
+    - value: 20
+  special_bonus_unique_brewmaster_2:
+    ID: '6359'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 75
   special_bonus_unique_bristleback:
     ID: '6083'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 4
+  special_bonus_unique_bristleback_2:
+    ID: '6360'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 20
   special_bonus_unique_furion:
     ID: '6084'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -17041,18 +17279,30 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 1
+  special_bonus_unique_phoenix_3:
+    ID: '6401'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 50
   special_bonus_unique_enchantress_1:
     ID: '6331'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
-    - value: 8
+    - value: 10
   special_bonus_unique_enchantress_2:
     ID: '6086'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
-    - value: 10
+    - value: 12
+  special_bonus_unique_enchantress_3:
+    ID: '6379'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 30
   special_bonus_unique_batrider_1:
     ID: '6087'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -17077,12 +17327,24 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 20
+  special_bonus_unique_wraith_king_3:
+    ID: '6414'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 60
   special_bonus_unique_kunkka:
     ID: '6089'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 200
+  special_bonus_unique_kunkka_2:
+    ID: '6385'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 40
   special_bonus_unique_dragon_knight:
     ID: '6090'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -17106,7 +17368,7 @@ DOTAAbilities:
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
-    - value: 15
+    - value: 18
   special_bonus_unique_abaddon:
     ID: '6100'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -17118,7 +17380,13 @@ DOTAAbilities:
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
-    - value: 4
+    - value: 5
+  special_bonus_unique_alchemist_2:
+    ID: '6350'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 80
   special_bonus_unique_axe:
     ID: '6102'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -17130,7 +17398,7 @@ DOTAAbilities:
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
-    - value: 175
+    - value: 250
   special_bonus_unique_clinkz_1:
     ID: '6104'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -17190,13 +17458,19 @@ DOTAAbilities:
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
-    - value: 6
+    - value: 8
   special_bonus_unique_nyx:
     ID: '6130'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 100
+  special_bonus_unique_nyx_2:
+    ID: '6399'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 50
   special_bonus_unique_weaver_1:
     ID: '6200'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -17238,13 +17512,25 @@ DOTAAbilities:
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
-    - value: 5
+    - value: 6
+  special_bonus_unique_windranger_2:
+    ID: '6413'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 25
   special_bonus_unique_phantom_lancer:
     ID: '6146'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 600
+  special_bonus_unique_phantom_lancer_2:
+    ID: '6400'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 75
   special_bonus_unique_slark:
     ID: '6147'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -17280,7 +17566,7 @@ DOTAAbilities:
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
-    - value: 5
+    - value: 6
   special_bonus_unique_tinker:
     ID: '6152'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -17304,7 +17590,13 @@ DOTAAbilities:
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
-    - value: 40
+    - value: 50
+  special_bonus_unique_undying_2:
+    ID: '6420'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 2
   special_bonus_unique_viper_1:
     ID: '6156'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -17328,7 +17620,13 @@ DOTAAbilities:
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
-    - value: 80
+    - value: 100
+  special_bonus_unique_elder_titan_2:
+    ID: '6378'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 30
   special_bonus_unique_ember_spirit_1:
     ID: '6172'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -17354,6 +17652,12 @@ DOTAAbilities:
     AbilitySpecial:
     - value: 3
     - radius: 400
+  special_bonus_unique_lion_2:
+    ID: '6389'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 80
   special_bonus_unique_skywrath:
     ID: '6181'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -17362,6 +17666,12 @@ DOTAAbilities:
     - value: 4
   special_bonus_unique_medusa:
     ID: '6182'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 1
+  special_bonus_unique_medusa_2:
+    ID: '6392'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
@@ -17377,13 +17687,19 @@ DOTAAbilities:
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
-    - value: -20
+    - value: -25
   special_bonus_unique_death_prophet:
     ID: '6191'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 6
+  special_bonus_unique_death_prophet_2:
+    ID: '6367'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 1
   special_bonus_unique_phantom_assassin:
     ID: '6192'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -17408,6 +17724,12 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 150
+  special_bonus_unique_tusk_2:
+    ID: '6411'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 150
   special_bonus_unique_sniper_1:
     ID: '6305'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -17426,6 +17748,12 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 4
+  special_bonus_unique_magnus_2:
+    ID: '6390'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 15
   special_bonus_unique_drow_ranger_1:
     ID: '6202'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -17437,7 +17765,7 @@ DOTAAbilities:
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
-    - value: 350
+    - value: 400
   special_bonus_unique_drow_ranger_3:
     ID: '6280'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -17456,12 +17784,24 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 400
+  special_bonus_unique_huskar_2:
+    ID: '6380'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 5
   special_bonus_unique_naga_siren:
     ID: '6205'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 1
+  special_bonus_unique_naga_siren_2:
+    ID: '6398'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 3
   special_bonus_unique_oracle:
     ID: '6206'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -17474,6 +17814,12 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 4
+  special_bonus_unique_sand_king_2:
+    ID: '6409'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 50
   special_bonus_unique_shadow_demon_1:
     ID: '6208'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -17485,7 +17831,7 @@ DOTAAbilities:
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
-    - value: 1
+    - value: 6
   special_bonus_unique_slardar:
     ID: '6211'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -17504,6 +17850,12 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 1
+  special_bonus_unique_lina_3:
+    ID: '6388'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 60
   special_bonus_unique_ancient_apparition_1:
     ID: '6214'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -17516,12 +17868,24 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 80
+  special_bonus_unique_ancient_apparition_3:
+    ID: '6352'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 1
   special_bonus_unique_disruptor:
     ID: '6215'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 4
+  special_bonus_unique_disruptor_2:
+    ID: '6368'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 3
   special_bonus_unique_gyrocopter_1:
     ID: '6216'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -17558,6 +17922,12 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 75
+  special_bonus_unique_puck_2:
+    ID: '6402'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 3
   special_bonus_unique_pugna_1:
     ID: '6220'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -17569,7 +17939,13 @@ DOTAAbilities:
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
-    - value: 100
+    - value: 125
+  special_bonus_unique_pugna_3:
+    ID: '6403'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 0.5
   special_bonus_unique_timbersaw:
     ID: '6223'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -17582,6 +17958,18 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 7
+  special_bonus_unique_bloodseeker_2:
+    ID: '6356'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 75
+  special_bonus_unique_bloodseeker_3:
+    ID: '6357'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 14
   special_bonus_unique_broodmother_1:
     ID: '6257'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -17594,6 +17982,18 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 200
+  special_bonus_unique_broodmother_3:
+    ID: '6361'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 60
+  special_bonus_unique_broodmother_4:
+    ID: '6362'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 8
   special_bonus_unique_chen_1:
     ID: '6259'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -17606,6 +18006,12 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 200
+  special_bonus_unique_chen_3:
+    ID: '6363'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 10
   special_bonus_unique_lone_druid_1:
     ID: '6261'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -17617,7 +18023,7 @@ DOTAAbilities:
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
-    - value: 7
+    - value: 12
   special_bonus_unique_lone_druid_3:
     ID: '6263'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -17648,6 +18054,12 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 175
+  special_bonus_unique_arc_warden_2:
+    ID: '6354'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 20
   special_bonus_unique_meepo:
     ID: '6288'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
@@ -17660,3 +18072,9 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
     - value: 100
+  special_bonus_unique_monkey_king_2:
+    ID: '6421'
+    AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
+    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySpecial:
+    - value: 75
