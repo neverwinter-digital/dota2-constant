@@ -102,6 +102,7 @@ end
 # talent name_en to info_en
 # talent name_zh to info_zh
 def update_talent_name_to_info(talent_urls)
+  puts 'update_talent_name_to_info'
   talent_name_to_info = {}
   info_en = request(URI(talent_urls[:tooltip_ability_en_url]))
   info_zh = request(URI(talent_urls[:tooltip_ability_zh_url]))
@@ -117,6 +118,7 @@ def update_talent_name_to_info(talent_urls)
 end
 
 def update_talent_worker(talent_urls, talent_name_to_info, talent_name_to_id)
+  puts 'update_talent_worker'
   hero_id_to_talent_info = {}
   npc_heroes = request(URI(talent_urls[:npc_heroes_url]))
   npc_heroes = JSON.parse(npc_heroes)
@@ -143,6 +145,7 @@ def update_talent_worker(talent_urls, talent_name_to_info, talent_name_to_id)
 end
 
 def update_talent_name_to_id(ability_url)
+  puts 'update_talent_name_to_id'
   talent_name_to_id = {}
   abilities = request(URI(ability_url))
   abilities = JSON.parse(abilities)
@@ -165,10 +168,12 @@ def update_talent(ability_url, talent_urls)
 end
 
 def run_update_talent(urls, talent_urls)
+  puts 'run_update_talent'
   update_talent(urls[:npc_abilities], talent_urls)
 end
 
 def run_update_locales
+  puts 'run_update_locales'
   LANGUAGES.keys.each do |lang_code|
     FileUtils.mkdir_p "locales/#{lang_code}"
 
@@ -186,8 +191,9 @@ def run_update_locales
 end
 
 def run_update_yml(urls)
+  puts 'run_update_yml'
   urls.each do |key, url|
-    puts url
+    puts key, url
     uri = URI(url)
     filepath = "yml/#{key}.yml"
     request_and_save(uri, filepath)
@@ -196,6 +202,7 @@ def run_update_yml(urls)
 end
 
 def update_abilities
+  puts 'update_abilities'
   ability_id_to_name = {}
   npc_abilities = YAML.load_file('yml/npc_abilities.yml')
   abilities = npc_abilities['DOTAAbilities']

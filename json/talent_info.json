@@ -3,7 +3,7 @@
         "5902": {
             "type": "level_10_right",
             "info_en": "+150 Health",
-            "info_zh": "+150 生命值"
+            "info_zh": "+150 生命"
         },
         "5960": {
             "type": "level_10_left",
@@ -18,7 +18,7 @@
         "6012": {
             "type": "level_15_left",
             "info_en": "-1s Blink Cooldown",
-            "info_zh": "-2秒 闪烁冷却时间"
+            "info_zh": "-1秒 闪烁冷却"
         },
         "5972": {
             "type": "level_20_right",
@@ -38,7 +38,7 @@
         "6353": {
             "type": "level_25_left",
             "info_en": "-50s Mana Void Cooldown",
-            "info_zh": null
+            "info_zh": "-50秒 法力虚空冷却"
         }
     },
     "2": {
@@ -60,7 +60,7 @@
         "5903": {
             "type": "level_15_left",
             "info_en": "+250 Health",
-            "info_zh": "+250 生命值"
+            "info_zh": "+250 生命"
         },
         "6308": {
             "type": "level_20_right",
@@ -92,12 +92,12 @@
         "6094": {
             "type": "level_10_left",
             "info_en": "+200 Mana",
-            "info_zh": "+200 魔法值"
+            "info_zh": "+200 魔法"
         },
         "5903": {
             "type": "level_15_right",
             "info_en": "+250 Health",
-            "info_zh": "+250 生命值"
+            "info_zh": "+250 生命"
         },
         "5987": {
             "type": "level_15_left",
@@ -107,17 +107,17 @@
         "6068": {
             "type": "level_20_right",
             "info_en": "+75 Enfeeble Damage Reduction",
-            "info_zh": "+120 虚弱攻击力降低"
+            "info_zh": "+75 虚弱攻击力降低"
         },
         "6120": {
             "type": "level_20_left",
             "info_en": "+175 Cast Range",
             "info_zh": "+175 施法距离"
         },
-        "6355": {
+        "6422": {
             "type": "level_25_right",
-            "info_en": "+75 Movement Speed",
-            "info_zh": null
+            "info_en": "+100 Movement Speed",
+            "info_zh": "+100 移动速度"
         },
         "6069": {
             "type": "level_25_left",
@@ -131,10 +131,10 @@
             "info_en": "+25 Damage",
             "info_zh": "+25 攻击力"
         },
-        "5959": {
+        "6405": {
             "type": "level_10_left",
-            "info_en": "+200 Health",
-            "info_zh": "+200 生命值"
+            "info_en": "+225 Health",
+            "info_zh": "+225 生命"
         },
         "5907": {
             "type": "level_15_right",
@@ -144,12 +144,12 @@
         "6356": {
             "type": "level_15_left",
             "info_en": "+75 Blood Rite Damage",
-            "info_zh": null
+            "info_zh": "+75 血之祭祀伤害"
         },
         "6357": {
             "type": "level_20_right",
             "info_en": "+14% Rupture Damage",
-            "info_zh": null
+            "info_zh": "+14% 割裂伤害"
         },
         "6168": {
             "type": "level_20_left",
@@ -159,7 +159,7 @@
         "6230": {
             "type": "level_25_right",
             "info_en": "-7s Bloodrite Cooldown",
-            "info_zh": "-7秒 血之祭祀冷却时间"
+            "info_zh": "-7秒 血之祭祀冷却"
         },
         "6121": {
             "type": "level_25_left",
@@ -176,7 +176,7 @@
         "6366": {
             "type": "level_10_left",
             "info_en": "+60 Damage",
-            "info_zh": null
+            "info_zh": "+60 攻击力"
         },
         "6197": {
             "type": "level_15_right",
@@ -186,7 +186,7 @@
         "5903": {
             "type": "level_15_left",
             "info_en": "+250 Health",
-            "info_zh": "+250 生命值"
+            "info_zh": "+250 生命"
         },
         "6008": {
             "type": "level_20_right",
@@ -205,8 +205,8 @@
         },
         "6234": {
             "type": "level_25_left",
-            "info_en": "+250 Crystal Nova Damage",
-            "info_zh": "+200 冰霜新星伤害"
+            "info_en": "+300 Crystal Nova Damage",
+            "info_zh": "+300 冰霜新星伤害"
         }
     },
     "6": {
@@ -223,7 +223,7 @@
         "6034": {
             "type": "level_15_right",
             "info_en": "+175 Health",
-            "info_zh": "+175 生命值"
+            "info_zh": "+175 生命"
         },
         "5906": {
             "type": "level_15_left",
@@ -243,7 +243,7 @@
         "6209": {
             "type": "level_25_right",
             "info_en": "+400 Gust Distance/Knockback",
-            "info_zh": "+350 狂风距离/击退"
+            "info_zh": "+400 狂风距离/击退"
         },
         "6280": {
             "type": "level_25_left",
@@ -252,15 +252,15 @@
         }
     },
     "7": {
-        "5982": {
+        "6137": {
             "type": "level_10_right",
-            "info_en": "+8 Strength",
-            "info_zh": "+8 力量"
+            "info_en": "+10 Strength",
+            "info_zh": "+10 力量"
         },
         "6006": {
             "type": "level_10_left",
             "info_en": "+250 Mana",
-            "info_zh": "+250 魔法值"
+            "info_zh": "+250 魔法"
         },
         "5918": {
             "type": "level_15_right",
@@ -275,7 +275,7 @@
         "6425": {
             "type": "level_20_right",
             "info_en": "+40 Echo Damage",
-            "info_zh": null
+            "info_zh": "+40 回音击伤害"
         },
         "6038": {
             "type": "level_20_left",
@@ -285,19 +285,19 @@
         "6377": {
             "type": "level_25_right",
             "info_en": "+600 Health",
-            "info_zh": null
+            "info_zh": "+600 生命"
         },
         "6035": {
             "type": "level_25_left",
             "info_en": "-2s Enchant Totem Cooldown",
-            "info_zh": "-2秒 强化图腾冷却时间"
+            "info_zh": "-2秒 强化图腾冷却"
         }
     },
     "8": {
         "6034": {
             "type": "level_10_right",
             "info_en": "+175 Health",
-            "info_zh": "+175 生命值"
+            "info_zh": "+175 生命"
         },
         "5960": {
             "type": "level_10_left",
@@ -344,7 +344,7 @@
         "5902": {
             "type": "level_10_left",
             "info_en": "+150 Health",
-            "info_zh": "+150 生命值"
+            "info_zh": "+150 生命"
         },
         "5948": {
             "type": "level_15_right",
@@ -364,7 +364,7 @@
         "6397": {
             "type": "level_20_left",
             "info_en": "-4s Sacred Arrow cooldown",
-            "info_zh": null
+            "info_zh": "-4秒 月神之箭冷却"
         },
         "6013": {
             "type": "level_25_right",
@@ -396,7 +396,7 @@
         "6034": {
             "type": "level_15_left",
             "info_en": "+175 Health",
-            "info_zh": "+175 生命值"
+            "info_zh": "+175 生命"
         },
         "6289": {
             "type": "level_20_right",
@@ -415,8 +415,8 @@
         },
         "6070": {
             "type": "level_25_left",
-            "info_en": "-7s Shadow Raze Cooldown",
-            "info_zh": "-7秒 毁灭阴影冷却时间"
+            "info_en": "+125 Shadow Raze Damage",
+            "info_zh": "+125 毁灭阴影伤害"
         }
     },
     "10": {
@@ -428,7 +428,7 @@
         "6094": {
             "type": "level_10_left",
             "info_en": "+200 Mana",
-            "info_zh": "+200 魔法值"
+            "info_zh": "+200 魔法"
         },
         "6016": {
             "type": "level_15_right",
@@ -458,14 +458,14 @@
         "6225": {
             "type": "level_25_left",
             "info_en": "+50% Replicate Damage",
-            "info_zh": "+30% 复制体攻击力"
+            "info_zh": "+50% 复制体攻击力"
         }
     },
     "12": {
         "6400": {
             "type": "level_10_right",
             "info_en": "+75 Spirit Lance Damage",
-            "info_zh": null
+            "info_zh": "+75 灵魂之矛伤害"
         },
         "5906": {
             "type": "level_10_left",
@@ -512,17 +512,17 @@
         "6034": {
             "type": "level_10_left",
             "info_en": "+175 Health",
-            "info_zh": "+175 生命值"
+            "info_zh": "+175 生命"
         },
-        "5940": {
+        "5941": {
             "type": "level_15_right",
-            "info_en": "+40 Damage",
-            "info_zh": "+40 攻击力"
+            "info_en": "+50 Damage",
+            "info_zh": "+50 攻击力"
         },
-        "6138": {
+        "6000": {
             "type": "level_15_left",
-            "info_en": "+15% Magic Resistance",
-            "info_zh": "+15% 魔法抗性"
+            "info_en": "+20% Magic Resistance",
+            "info_zh": "+20% 魔法抗性"
         },
         "5989": {
             "type": "level_20_right",
@@ -532,17 +532,17 @@
         "6402": {
             "type": "level_20_left",
             "info_en": "-3s Waning Rift Cooldown",
-            "info_zh": null
+            "info_zh": "-3秒 新月之痕冷却"
         },
-        "6318": {
+        "6446": {
             "type": "level_25_right",
-            "info_en": "+300 Gold/Min",
-            "info_zh": "+300 金钱/分"
+            "info_en": "+420 Gold/Min",
+            "info_zh": "+420 金钱/分"
         },
         "6219": {
             "type": "level_25_left",
             "info_en": "+75% Illusory Orb Distance/Speed",
-            "info_zh": "+75% 幻象法球距离/速度 "
+            "info_zh": "+75% 幻象法球距离/速度"
         }
     },
     "14": {
@@ -588,20 +588,20 @@
         }
     },
     "15": {
-        "5917": {
+        "5918": {
             "type": "level_10_right",
-            "info_en": "+15 Movement Speed",
-            "info_zh": "+15 移动速度"
+            "info_en": "+20 Movement Speed",
+            "info_zh": "+20 移动速度"
         },
-        "6029": {
+        "5929": {
             "type": "level_10_left",
-            "info_en": "+10 Agility",
-            "info_zh": "+10 敏捷"
+            "info_en": "+15 Agility",
+            "info_zh": "+15 敏捷"
         },
         "6408": {
             "type": "level_15_right",
             "info_en": "+130 Unstable Current Damage",
-            "info_zh": null
+            "info_zh": "+130 不稳定电流伤害"
         },
         "6056": {
             "type": "level_15_left",
@@ -611,7 +611,7 @@
         "6311": {
             "type": "level_20_right",
             "info_en": "+275 Health",
-            "info_zh": "+275 生命值"
+            "info_zh": "+275 生命"
         },
         "5907": {
             "type": "level_20_left",
@@ -643,7 +643,7 @@
         "6409": {
             "type": "level_15_right",
             "info_en": "+50 Sand Storm DPS",
-            "info_zh": null
+            "info_zh": "+50 沙尘暴每秒伤害"
         },
         "5964": {
             "type": "level_15_left",
@@ -653,7 +653,7 @@
         "6195": {
             "type": "level_20_right",
             "info_en": "+350 Health",
-            "info_zh": "+350 生命值"
+            "info_zh": "+350 生命"
         },
         "6008": {
             "type": "level_20_left",
@@ -685,7 +685,7 @@
         "5959": {
             "type": "level_15_right",
             "info_en": "+200 Health",
-            "info_zh": "+200 生命值"
+            "info_zh": "+200 生命"
         },
         "5965": {
             "type": "level_15_left",
@@ -722,7 +722,7 @@
         "6094": {
             "type": "level_10_left",
             "info_en": "+200 Mana",
-            "info_zh": "+200 魔法值"
+            "info_zh": "+200 魔法"
         },
         "5918": {
             "type": "level_15_right",
@@ -752,7 +752,7 @@
         "6045": {
             "type": "level_25_left",
             "info_en": "-6s Storm Hammer Cooldown",
-            "info_zh": "-5秒 风暴之拳冷却时间"
+            "info_zh": "-6秒 风暴之拳冷却"
         }
     },
     "19": {
@@ -766,15 +766,15 @@
             "info_en": "+12 Intelligence",
             "info_zh": "+12 智力"
         },
-        "6253": {
+        "6366": {
             "type": "level_15_right",
-            "info_en": "+45 Damage",
-            "info_zh": "+45 攻击力"
+            "info_en": "+60 Damage",
+            "info_zh": "+60 攻击力"
         },
-        "5918": {
+        "6077": {
             "type": "level_15_left",
-            "info_en": "+20 Movement Speed",
-            "info_zh": "+20 移动速度"
+            "info_en": "+35 Movement Speed",
+            "info_zh": "+35 移动速度"
         },
         "6016": {
             "type": "level_20_right",
@@ -847,8 +847,8 @@
         },
         "6413": {
             "type": "level_10_left",
-            "info_en": "+25% Windrun Slow",
-            "info_zh": null
+            "info_en": "+30% Windrun Slow",
+            "info_zh": "+30% 风行减速"
         },
         "6093": {
             "type": "level_15_right",
@@ -877,8 +877,8 @@
         },
         "6144": {
             "type": "level_25_left",
-            "info_en": "-6s Powershot Cooldown",
-            "info_zh": "-5秒 强力击冷却时间"
+            "info_en": "-7s Powershot Cooldown",
+            "info_zh": "-7秒 强力击冷却"
         }
     },
     "22": {
@@ -887,10 +887,10 @@
             "info_en": "+2 Mana Regen",
             "info_zh": "+2 魔法恢复"
         },
-        "6034": {
+        "5959": {
             "type": "level_10_left",
-            "info_en": "+175 Health",
-            "info_zh": "+175 生命值"
+            "info_en": "+200 Health",
+            "info_zh": "+200 生命"
         },
         "5932": {
             "type": "level_15_right",
@@ -919,8 +919,8 @@
         },
         "6157": {
             "type": "level_25_left",
-            "info_en": "+1.5% Static Field Damage",
-            "info_zh": "+1.5% 静电场伤害"
+            "info_en": "+2% Static Field Damage",
+            "info_zh": "+2% 静电场伤害"
         }
     },
     "23": {
@@ -932,22 +932,22 @@
         "6385": {
             "type": "level_10_left",
             "info_en": "+40 Torrent Damage",
-            "info_zh": null
+            "info_zh": "+40 洪流伤害"
         },
         "5914": {
             "type": "level_15_right",
             "info_en": "+15 Health Regen",
             "info_zh": "+15 生命恢复"
         },
-        "5917": {
+        "5918": {
             "type": "level_15_left",
-            "info_en": "+15 Movement Speed",
-            "info_zh": "+15 移动速度"
+            "info_en": "+20 Movement Speed",
+            "info_zh": "+20 移动速度"
         },
         "5993": {
             "type": "level_20_right",
             "info_en": "+300 Health",
-            "info_zh": "+300 生命值"
+            "info_zh": "+300 生命"
         },
         "6008": {
             "type": "level_20_left",
@@ -957,7 +957,7 @@
         "6386": {
             "type": "level_25_right",
             "info_en": "+35% Magic Resistance",
-            "info_zh": null
+            "info_zh": "+35% 魔法抗性"
         },
         "6089": {
             "type": "level_25_left",
@@ -968,18 +968,18 @@
     "25": {
         "6388": {
             "type": "level_10_right",
-            "info_en": "+60 Light Strike Array Damage",
-            "info_zh": null
+            "info_en": "+80 Light Strike Array Damage",
+            "info_zh": "+80 光击阵伤害"
         },
-        "5954": {
+        "5964": {
             "type": "level_10_left",
-            "info_en": "-25s Respawn Time",
-            "info_zh": "-25秒 复活时间"
+            "info_en": "-30s Respawn Time",
+            "info_zh": "-30秒 复活时间"
         },
-        "5940": {
+        "5941": {
             "type": "level_15_right",
-            "info_en": "+40 Damage",
-            "info_zh": "+40 攻击力"
+            "info_en": "+50 Damage",
+            "info_zh": "+50 攻击力"
         },
         "6197": {
             "type": "level_15_left",
@@ -999,24 +999,24 @@
         "6212": {
             "type": "level_25_right",
             "info_en": "-4s Dragon Slave Cooldown",
-            "info_zh": "-4秒 龙破斩冷却时间"
+            "info_zh": "-4秒 龙破斩冷却"
         },
         "6313": {
             "type": "level_25_left",
-            "info_en": "+1 Firey Soul Max Stacks",
-            "info_zh": "+1 炽魂最大叠加次数"
+            "info_en": "+40/4% Fiery Soul Per Stack",
+            "info_zh": "+40/4% 炽魂叠加效果"
         }
     },
     "31": {
-        "5901": {
+        "6034": {
             "type": "level_10_right",
-            "info_en": "+125 Health",
-            "info_zh": "+125 生命值"
+            "info_en": "+175 Health",
+            "info_zh": "+175 生命"
         },
-        "5917": {
+        "5919": {
             "type": "level_10_left",
-            "info_en": "+15 Movement Speed",
-            "info_zh": "+15 移动速度"
+            "info_en": "+25 Movement Speed",
+            "info_zh": "+25 移动速度"
         },
         "6197": {
             "type": "level_15_right",
@@ -1025,8 +1025,8 @@
         },
         "6387": {
             "type": "level_15_left",
-            "info_en": "-3s Frost Blast Cooldown",
-            "info_zh": null
+            "info_en": "-4s Frost Blast Cooldown",
+            "info_zh": "-4秒 寒霜爆发冷却"
         },
         "6247": {
             "type": "level_20_right",
@@ -1041,29 +1041,29 @@
         "6039": {
             "type": "level_25_right",
             "info_en": "+35 Frost Armor Structure Armor",
-            "info_zh": "+25 霜冻护甲对建筑额外护甲"
+            "info_zh": "+35 霜冻护甲对建筑额外护甲"
         },
         "6292": {
             "type": "level_25_left",
             "info_en": "Attacks Apply 30% MS and AS Slow",
-            "info_zh": "普攻施加30%攻速和移速降低"
+            "info_zh": "普攻减30%攻速和移速"
         }
     },
     "26": {
-        "5954": {
+        "5964": {
             "type": "level_10_right",
-            "info_en": "-25s Respawn Time",
-            "info_zh": "-25秒 复活时间"
+            "info_en": "-30s Respawn Time",
+            "info_zh": "-30秒 复活时间"
         },
-        "6253": {
+        "6366": {
             "type": "level_10_left",
-            "info_en": "+45 Damage",
-            "info_zh": "+45 攻击力"
+            "info_en": "+60 Damage",
+            "info_zh": "+60 攻击力"
         },
         "6389": {
             "type": "level_15_right",
             "info_en": "+80 Earth Spike Damage ",
-            "info_zh": null
+            "info_zh": "+80 裂地尖刺伤害"
         },
         "6007": {
             "type": "level_15_left",
@@ -1092,15 +1092,15 @@
         }
     },
     "27": {
-        "5902": {
+        "6034": {
             "type": "level_10_right",
-            "info_en": "+150 Health",
-            "info_zh": "+150 生命值"
+            "info_en": "+175 Health",
+            "info_zh": "+175 生命"
         },
-        "5917": {
+        "5918": {
             "type": "level_10_left",
-            "info_en": "+15 Movement Speed",
-            "info_zh": "+15 移动速度"
+            "info_en": "+20 Movement Speed",
+            "info_zh": "+20 移动速度"
         },
         "6003": {
             "type": "level_15_right",
@@ -1125,7 +1125,7 @@
         "6052": {
             "type": "level_25_right",
             "info_en": "+1 Serpent Wards Attacks HP",
-            "info_zh": "+1 群蛇守卫可被攻击次数"
+            "info_zh": "+1 群蛇守卫可攻击次数"
         },
         "6295": {
             "type": "level_25_left",
@@ -1142,12 +1142,12 @@
         "6067": {
             "type": "level_10_left",
             "info_en": "+175 Mana",
-            "info_zh": "+175 魔法值"
+            "info_zh": "+175 魔法"
         },
         "6405": {
             "type": "level_15_right",
             "info_en": "+225 Health",
-            "info_zh": null
+            "info_zh": "+225 生命"
         },
         "6016": {
             "type": "level_15_left",
@@ -1184,7 +1184,7 @@
         "5902": {
             "type": "level_10_left",
             "info_en": "+150 Health",
-            "info_zh": "+150 生命值"
+            "info_zh": "+150 生命"
         },
         "5970": {
             "type": "level_15_right",
@@ -1194,7 +1194,7 @@
         "6372": {
             "type": "level_15_left",
             "info_en": "+35% XP Gain",
-            "info_zh": null
+            "info_zh": "+35% 经验获取"
         },
         "5980": {
             "type": "level_20_right",
@@ -1214,14 +1214,14 @@
         "6151": {
             "type": "level_25_left",
             "info_en": "-6 Gush Armor",
-            "info_zh": "-5 巨浪降低护甲"
+            "info_zh": "-6 巨浪降低护甲"
         }
     },
     "30": {
         "5959": {
             "type": "level_10_right",
             "info_en": "+200 Health",
-            "info_zh": "+200 生命值"
+            "info_zh": "+200 生命"
         },
         "5987": {
             "type": "level_10_left",
@@ -1251,7 +1251,7 @@
         "5998": {
             "type": "level_25_right",
             "info_en": "+175 Death Ward Attack Range",
-            "info_zh": "+175 死亡守卫施法距离"
+            "info_zh": "+175 死亡守卫攻击距离"
         },
         "6298": {
             "type": "level_25_left",
@@ -1263,7 +1263,7 @@
         "5902": {
             "type": "level_10_right",
             "info_en": "+150 Health",
-            "info_zh": "+150 生命值"
+            "info_zh": "+150 生命"
         },
         "5917": {
             "type": "level_10_left",
@@ -1298,7 +1298,7 @@
         "6193": {
             "type": "level_25_left",
             "info_en": "-4s Smokescreen Cooldown",
-            "info_zh": "-4秒 烟幕冷却时间"
+            "info_zh": "-4秒 烟幕冷却"
         }
     },
     "33": {
@@ -1325,7 +1325,7 @@
         "5993": {
             "type": "level_20_right",
             "info_en": "+300 Health",
-            "info_zh": "+300 生命值"
+            "info_zh": "+300 生命"
         },
         "6066": {
             "type": "level_20_left",
@@ -1340,7 +1340,7 @@
         "6065": {
             "type": "level_25_left",
             "info_en": "+8 Demonic Conversion Eidolons",
-            "info_zh": "+8 恶魔转化虚灵数量"
+            "info_zh": "+8 恶魔转化虚灵"
         }
     },
     "34": {
@@ -1357,7 +1357,7 @@
         "6405": {
             "type": "level_15_right",
             "info_en": "+225 Health",
-            "info_zh": null
+            "info_zh": "+225 生命"
         },
         "6015": {
             "type": "level_15_left",
@@ -1389,7 +1389,7 @@
         "6410": {
             "type": "level_10_right",
             "info_en": "+5 Mana Regen",
-            "info_zh": null
+            "info_zh": "+5 魔法恢复"
         },
         "6119": {
             "type": "level_10_left",
@@ -1404,7 +1404,7 @@
         "5959": {
             "type": "level_15_left",
             "info_en": "+200 Health",
-            "info_zh": "+200 生命值"
+            "info_zh": "+200 生命"
         },
         "5934": {
             "type": "level_20_right",
@@ -1461,12 +1461,12 @@
         "5976": {
             "type": "level_25_right",
             "info_en": "+400 Health",
-            "info_zh": "+400 生命值"
+            "info_zh": "+400 生命"
         },
         "6010": {
             "type": "level_25_left",
             "info_en": "-1s Death Pulse Cooldown",
-            "info_zh": "-1秒 死亡脉冲冷却时间"
+            "info_zh": "-1秒 死亡脉冲冷却"
         }
     },
     "37": {
@@ -1488,12 +1488,12 @@
         "6412": {
             "type": "level_15_left",
             "info_en": "-4s Shadow Word Cooldown",
-            "info_zh": null
+            "info_zh": "-4秒 暗言术冷却"
         },
         "6195": {
             "type": "level_20_right",
             "info_en": "+350 Health",
-            "info_zh": "+350 生命值"
+            "info_zh": "+350 生命"
         },
         "5964": {
             "type": "level_20_left",
@@ -1503,12 +1503,12 @@
         "6053": {
             "type": "level_25_right",
             "info_en": "Magic Immunity for Chaotic Offering Golems",
-            "info_zh": "混乱之祭地狱火技能免疫"
+            "info_zh": "地狱火技能免疫"
         },
         "6054": {
             "type": "level_25_left",
             "info_en": "+15 Chaotic Offering Golems Armor",
-            "info_zh": "+15 混乱之祭地狱火护甲"
+            "info_zh": "+15 地狱火护甲"
         }
     },
     "38": {
@@ -1537,10 +1537,10 @@
             "info_en": "12% Cooldown Reduction",
             "info_zh": "12% 冷却时间减少"
         },
-        "6195": {
+        "5976": {
             "type": "level_20_left",
-            "info_en": "+350 Health",
-            "info_zh": "+350 生命值"
+            "info_en": "+400 Health",
+            "info_zh": "+400 生命"
         },
         "6112": {
             "type": "level_25_right",
@@ -1550,19 +1550,19 @@
         "6103": {
             "type": "level_25_left",
             "info_en": "+250 Wild Axes Damage",
-            "info_zh": "+175 野性之斧伤害"
+            "info_zh": "+250 野性之斧伤害"
         }
     },
     "39": {
-        "5960": {
+        "6009": {
             "type": "level_10_right",
-            "info_en": "+20 Damage",
-            "info_zh": "+20 攻击力"
+            "info_en": "+25 Damage",
+            "info_zh": "+25 攻击力"
         },
-        "6048": {
+        "6250": {
             "type": "level_10_left",
-            "info_en": "+6 Strength",
-            "info_zh": "+6 力量"
+            "info_en": "+9 Strength",
+            "info_zh": "+9 力量"
         },
         "6190": {
             "type": "level_15_right",
@@ -1579,15 +1579,15 @@
             "info_en": "+100 Attack Range",
             "info_zh": "+100 攻击距离"
         },
-        "5959": {
+        "5993": {
             "type": "level_20_left",
-            "info_en": "+200 Health",
-            "info_zh": "+200 生命值"
+            "info_en": "+300 Health",
+            "info_zh": "+300 生命"
         },
         "6407": {
             "type": "level_25_right",
-            "info_en": "-3s Shadow Strike Cooldown",
-            "info_zh": null
+            "info_en": "Removed Shadow Strike Cooldown",
+            "info_zh": "暗影突袭无冷却"
         },
         "6061": {
             "type": "level_25_left",
@@ -1596,20 +1596,20 @@
         }
     },
     "40": {
-        "6017": {
+        "6317": {
             "type": "level_10_right",
-            "info_en": "+20% XP Gain",
-            "info_zh": "+20% 经验获取"
+            "info_en": "+30% XP Gain",
+            "info_zh": "+30% 经验获取"
         },
-        "5918": {
+        "6141": {
             "type": "level_10_left",
-            "info_en": "+20 Movement Speed",
-            "info_zh": "+20 移动速度"
+            "info_en": "+30 Movement Speed",
+            "info_zh": "+30 移动速度"
         },
         "5959": {
             "type": "level_15_right",
             "info_en": "+200 Health",
-            "info_zh": "+200 生命值"
+            "info_zh": "+200 生命"
         },
         "6056": {
             "type": "level_15_left",
@@ -1634,7 +1634,7 @@
         "6058": {
             "type": "level_25_left",
             "info_en": "3x Plague Ward HP/Damage",
-            "info_zh": "3倍 瘟疫守卫生命值/伤害"
+            "info_zh": "3倍 瘟疫守卫生命/伤害"
         }
     },
     "41": {
@@ -1643,10 +1643,10 @@
             "info_en": "+15 Attack Speed",
             "info_zh": "+15 攻击速度"
         },
-        "6115": {
+        "5982": {
             "type": "level_10_left",
-            "info_en": "+7 Strength",
-            "info_zh": "+7 力量"
+            "info_en": "+8 Strength",
+            "info_zh": "+8 力量"
         },
         "5970": {
             "type": "level_15_right",
@@ -1661,7 +1661,7 @@
         "5993": {
             "type": "level_20_right",
             "info_en": "+300 Health",
-            "info_zh": "+300 生命值"
+            "info_zh": "+300 生命"
         },
         "6008": {
             "type": "level_20_left",
@@ -1698,7 +1698,7 @@
         "6414": {
             "type": "level_15_left",
             "info_en": "+50 Wraithfire Blast DPS",
-            "info_zh": null
+            "info_zh": "+50 冥火爆击每秒伤害"
         },
         "6210": {
             "type": "level_20_right",
@@ -1722,20 +1722,20 @@
         }
     },
     "43": {
-        "6015": {
+        "5948": {
             "type": "level_10_right",
-            "info_en": "+4% Spell Amplification",
-            "info_zh": "+4% 技能增强"
+            "info_en": "+5% Spell Amplification",
+            "info_zh": "+5% 技能增强"
         },
-        "5936": {
+        "5937": {
             "type": "level_10_left",
-            "info_en": "+8% Magic Resistance",
-            "info_zh": "+8% 魔法抗性"
+            "info_en": "+10% Magic Resistance",
+            "info_zh": "+10% 魔法抗性"
         },
         "6367": {
             "type": "level_15_right",
             "info_en": "-1s Crypt Swarm Cooldown",
-            "info_zh": null
+            "info_zh": "-1秒 地穴虫群冷却"
         },
         "6003": {
             "type": "level_15_left",
@@ -1747,27 +1747,27 @@
             "info_en": "10% Cooldown Reduction",
             "info_zh": "10% 冷却时间减少"
         },
-        "5919": {
+        "6306": {
             "type": "level_20_left",
-            "info_en": "+25 Movement Speed",
-            "info_zh": "+25 移动速度"
+            "info_en": "+50 Movement Speed",
+            "info_zh": "+50 移动速度"
         },
-        "5976": {
+        "6377": {
             "type": "level_25_right",
-            "info_en": "+400 Health",
-            "info_zh": "+400 生命值"
+            "info_en": "+600 Health",
+            "info_zh": "+600 生命"
         },
         "6191": {
             "type": "level_25_left",
-            "info_en": "+6 Exorcism Spirits",
-            "info_zh": "+6 驱使恶灵数量"
+            "info_en": "+8 Exorcism Spirits",
+            "info_zh": "+8 驱使恶灵数量"
         }
     },
     "44": {
         "5902": {
             "type": "level_10_right",
             "info_en": "+150 Health",
-            "info_zh": "+150 生命值"
+            "info_zh": "+150 生命"
         },
         "5938": {
             "type": "level_10_left",
@@ -1811,25 +1811,25 @@
             "info_en": "+3 Mana Regen",
             "info_zh": "+3 魔法恢复"
         },
-        "5902": {
+        "6405": {
             "type": "level_10_left",
-            "info_en": "+150 Health",
-            "info_zh": "+150 生命值"
+            "info_en": "+225 Health",
+            "info_zh": "+225 生命"
         },
-        "5954": {
+        "6038": {
             "type": "level_15_right",
-            "info_en": "-25s Respawn Time",
-            "info_zh": "-25秒 复活时间"
+            "info_en": "-35s Respawn Time",
+            "info_zh": "-35秒 复活时间"
         },
-        "5928": {
+        "6448": {
             "type": "level_15_left",
-            "info_en": "+12 Strength",
-            "info_zh": "+12 力量"
+            "info_en": "-1s Netherblast Cooldown",
+            "info_zh": "-1秒 幽冥爆轰冷却"
         },
         "6403": {
             "type": "level_20_right",
             "info_en": "+0.5 Netherward Damage Per Mana",
-            "info_zh": null
+            "info_zh": "+0.5 幽冥守卫伤害系数"
         },
         "6056": {
             "type": "level_20_left",
@@ -1844,7 +1844,7 @@
         "6238": {
             "type": "level_25_left",
             "info_en": "+125 Nether Blast Damage",
-            "info_zh": "+100 幽冥爆轰伤害"
+            "info_zh": "+125 幽冥爆轰伤害"
         }
     },
     "46": {
@@ -1871,7 +1871,7 @@
         "6311": {
             "type": "level_20_right",
             "info_en": "+275 Health",
-            "info_zh": "+275 生命值"
+            "info_zh": "+275 生命"
         },
         "5940": {
             "type": "level_20_left",
@@ -1898,12 +1898,12 @@
         "5902": {
             "type": "level_10_left",
             "info_en": "+150 Health",
-            "info_zh": "+150 生命值"
+            "info_zh": "+150 生命"
         },
-        "6115": {
+        "5982": {
             "type": "level_15_right",
-            "info_en": "+7 Strength",
-            "info_zh": "+7 力量"
+            "info_en": "+8 Strength",
+            "info_zh": "+8 力量"
         },
         "6170": {
             "type": "level_15_left",
@@ -1945,7 +1945,7 @@
         "5902": {
             "type": "level_15_right",
             "info_en": "+150 Health",
-            "info_zh": "+150 生命值"
+            "info_zh": "+150 生命"
         },
         "6180": {
             "type": "level_15_left",
@@ -1970,24 +1970,24 @@
         "6127": {
             "type": "level_25_left",
             "info_en": "-4s Lucent Beam Cooldown",
-            "info_zh": "-4秒 月光冷却时间"
+            "info_zh": "-4秒 月光冷却"
         }
     },
     "49": {
-        "6115": {
+        "6250": {
             "type": "level_10_right",
-            "info_en": "+7 Strength",
-            "info_zh": "+7 力量"
+            "info_en": "+9 Strength",
+            "info_zh": "+9 力量"
         },
-        "5906": {
+        "6016": {
             "type": "level_10_left",
-            "info_en": "+20 Attack Speed",
-            "info_zh": "+20 攻击速度"
+            "info_en": "+25 Attack Speed",
+            "info_zh": "+25 攻击速度"
         },
         "6372": {
             "type": "level_15_right",
             "info_en": "+35% XP Gain",
-            "info_zh": null
+            "info_zh": "+35% 经验获取"
         },
         "5940": {
             "type": "level_15_left",
@@ -2002,12 +2002,12 @@
         "5993": {
             "type": "level_20_left",
             "info_en": "+300 Health",
-            "info_zh": "+300 生命值"
+            "info_zh": "+300 生命"
         },
-        "6373": {
+        "6355": {
             "type": "level_25_right",
-            "info_en": "+60 Movement Speed",
-            "info_zh": null
+            "info_en": "+75 Movement Speed",
+            "info_zh": "+75 移动速度"
         },
         "6090": {
             "type": "level_25_left",
@@ -2024,7 +2024,7 @@
         "5901": {
             "type": "level_10_left",
             "info_en": "+125 Health",
-            "info_zh": "+125 生命值"
+            "info_zh": "+125 生命"
         },
         "6003": {
             "type": "level_15_right",
@@ -2034,7 +2034,7 @@
         "6366": {
             "type": "level_15_left",
             "info_en": "+60 Damage",
-            "info_zh": null
+            "info_zh": "+60 攻击力"
         },
         "5919": {
             "type": "level_20_right",
@@ -2049,7 +2049,7 @@
         "6049": {
             "type": "level_25_right",
             "info_en": "-6s Poison Touch Cooldown",
-            "info_zh": "-6秒 剧毒之触冷却时间"
+            "info_zh": "-6秒 剧毒之触冷却"
         },
         "6232": {
             "type": "level_25_left",
@@ -2066,7 +2066,7 @@
         "6094": {
             "type": "level_10_left",
             "info_en": "+200 Mana",
-            "info_zh": "+200 魔法值"
+            "info_zh": "+200 魔法"
         },
         "5941": {
             "type": "level_15_right",
@@ -2076,7 +2076,7 @@
         "6364": {
             "type": "level_15_left",
             "info_en": "+75 Rocket Flare Damage",
-            "info_zh": null
+            "info_zh": "+75 照明火箭伤害"
         },
         "5954": {
             "type": "level_20_right",
@@ -2091,7 +2091,7 @@
         "5976": {
             "type": "level_25_right",
             "info_en": "+400 Health",
-            "info_zh": "+400 生命值"
+            "info_zh": "+400 生命"
         },
         "5977": {
             "type": "level_25_left",
@@ -2103,7 +2103,7 @@
         "5901": {
             "type": "level_10_right",
             "info_en": "+125 Health",
-            "info_zh": "+125 生命值"
+            "info_zh": "+125 生命"
         },
         "5917": {
             "type": "level_10_left",
@@ -2113,7 +2113,7 @@
         "6321": {
             "type": "level_15_right",
             "info_en": "+400 Mana",
-            "info_zh": "+400 魔法值"
+            "info_zh": "+400 魔法"
         },
         "5937": {
             "type": "level_15_left",
@@ -2137,8 +2137,8 @@
         },
         "6240": {
             "type": "level_25_left",
-            "info_en": "+2s Lightning Storm Slow Duration",
-            "info_zh": "+2秒 闪电风暴持续时间"
+            "info_en": "+3s Lightning Storm Slow Duration",
+            "info_zh": "+3秒 闪电风暴减速"
         }
     },
     "53": {
@@ -2150,17 +2150,17 @@
         "6405": {
             "type": "level_10_left",
             "info_en": "+225 Health",
-            "info_zh": null
+            "info_zh": "+225 生命"
         },
-        "5991": {
+        "5995": {
             "type": "level_15_right",
-            "info_en": "+15 Intelligence",
-            "info_zh": "+15 智力"
+            "info_en": "+20 Intelligence",
+            "info_zh": "+20 智力"
         },
-        "5918": {
+        "6077": {
             "type": "level_15_left",
-            "info_en": "+20 Movement Speed",
-            "info_zh": "+20 移动速度"
+            "info_en": "+35 Movement Speed",
+            "info_zh": "+35 移动速度"
         },
         "6196": {
             "type": "level_20_right",
@@ -2197,7 +2197,7 @@
         "5903": {
             "type": "level_15_right",
             "info_en": "+250 Health",
-            "info_zh": "+250 生命值"
+            "info_zh": "+250 生命"
         },
         "6009": {
             "type": "level_15_left",
@@ -2254,7 +2254,7 @@
         "6365": {
             "type": "level_20_left",
             "info_en": "+75 Vacuum AoE",
-            "info_zh": null
+            "info_zh": "+75 真空范围"
         },
         "5984": {
             "type": "level_25_right",
@@ -2264,7 +2264,7 @@
         "6047": {
             "type": "level_25_left",
             "info_en": "+80 Ion Shell Damage",
-            "info_zh": "+70 离子外壳伤害"
+            "info_zh": "+80 离子外壳伤害"
         }
     },
     "56": {
@@ -2362,47 +2362,47 @@
             "info_en": "+25 Movement Speed",
             "info_zh": "+25 移动速度"
         },
-        "6331": {
+        "6086": {
             "type": "level_15_right",
-            "info_en": "+10s Nature's Attendants Duration",
-            "info_zh": "+8秒 自然之助持续时间"
+            "info_en": "+7 Nature's Attendants Wisps",
+            "info_zh": "+7 自然之助小精灵"
         },
         "5941": {
             "type": "level_15_left",
             "info_en": "+50 Damage",
             "info_zh": "+50 攻击力"
         },
-        "6299": {
+        "6138": {
             "type": "level_20_right",
-            "info_en": "+12% Magic Resistance",
-            "info_zh": "+12% 魔法抗性"
+            "info_en": "+15% Magic Resistance",
+            "info_zh": "+15% 魔法抗性"
         },
         "6379": {
             "type": "level_20_left",
             "info_en": "+60 Untouchable Slow",
-            "info_zh": null
+            "info_zh": "+60 不可侵犯减速"
         },
         "6269": {
             "type": "level_25_right",
             "info_en": "-50s Respawn Time",
             "info_zh": "-50秒 复活时间"
         },
-        "6086": {
+        "6331": {
             "type": "level_25_left",
-            "info_en": "+12 Nature's Attendants Wisps",
-            "info_zh": "+10 自然之助小精灵数量"
+            "info_en": "Enchant Affects Ancients",
+            "info_zh": "魅惑可作用远古"
         }
     },
     "59": {
         "6034": {
             "type": "level_10_right",
             "info_en": "+175 Health",
-            "info_zh": "+175 生命值"
+            "info_zh": "+175 生命"
         },
         "6380": {
             "type": "level_10_left",
             "info_en": "+5 Burning Spears DPS",
-            "info_zh": null
+            "info_zh": "+5 沸血之矛每秒伤害"
         },
         "5939": {
             "type": "level_15_right",
@@ -2431,8 +2431,8 @@
         },
         "6204": {
             "type": "level_25_left",
-            "info_en": "+400 Life Break Cast Range",
-            "info_zh": "+400 牺牲施法距离"
+            "info_en": "+500 Life Break Cast Range",
+            "info_zh": "+500 牺牲施法距离"
         }
     },
     "60": {
@@ -2449,7 +2449,7 @@
         "5990": {
             "type": "level_15_right",
             "info_en": "+300 Mana",
-            "info_zh": "+300 魔法值"
+            "info_zh": "+300 魔法"
         },
         "6016": {
             "type": "level_15_left",
@@ -2474,14 +2474,14 @@
         "6129": {
             "type": "level_25_left",
             "info_en": "-8s Crippling Fear Cooldown",
-            "info_zh": "-6秒 伤残恐惧冷却时间"
+            "info_zh": "-8秒 伤残恐惧冷却"
         }
     },
     "61": {
         "6361": {
             "type": "level_10_right",
             "info_en": "+60 Spawn Spiderling Damage",
-            "info_zh": null
+            "info_zh": "+60 孵化蜘蛛伤害"
         },
         "5987": {
             "type": "level_10_left",
@@ -2493,20 +2493,20 @@
             "info_en": "20% Cooldown Reduction",
             "info_zh": "20% 冷却时间减少"
         },
-        "5903": {
+        "6423": {
             "type": "level_15_left",
-            "info_en": "+250 Health",
-            "info_zh": "+250 生命值"
+            "info_en": "+325 Health",
+            "info_zh": "+325 生命"
         },
         "6362": {
             "type": "level_20_right",
-            "info_en": "+8 Spiderlings Attack Damage",
-            "info_zh": null
+            "info_en": "+12 Spiderlings Attack Damage",
+            "info_zh": "+12 小蜘蛛攻击力"
         },
-        "6020": {
+        "6444": {
             "type": "level_20_left",
-            "info_en": "+50 Attack Speed",
-            "info_zh": "+50 攻击速度"
+            "info_en": "+70 Attack Speed",
+            "info_zh": "+70 攻击速度"
         },
         "6257": {
             "type": "level_25_right",
@@ -2523,7 +2523,7 @@
         "6034": {
             "type": "level_10_right",
             "info_en": "+175 Health",
-            "info_zh": "+175 生命值"
+            "info_zh": "+175 生命"
         },
         "6017": {
             "type": "level_10_left",
@@ -2543,7 +2543,7 @@
         "6358": {
             "type": "level_20_right",
             "info_en": "+75 Shuriken Toss Damage",
-            "info_zh": null
+            "info_zh": "+75 投掷飞镖伤害"
         },
         "6112": {
             "type": "level_20_left",
@@ -2553,12 +2553,12 @@
         "5974": {
             "type": "level_25_right",
             "info_en": "25% Evasion",
-            "info_zh": null
+            "info_zh": "25% 闪避"
         },
         "6018": {
             "type": "level_25_left",
             "info_en": "-5s Jinada Cooldown",
-            "info_zh": "-5秒 忍术冷却时间"
+            "info_zh": "-5秒 忍术冷却"
         }
     },
     "63": {
@@ -2585,17 +2585,17 @@
         "5959": {
             "type": "level_20_right",
             "info_en": "+200 Health",
-            "info_zh": "+200 生命值"
+            "info_zh": "+200 生命"
         },
         "5929": {
             "type": "level_20_left",
             "info_en": "+15 Agility",
             "info_zh": "+15 敏捷"
         },
-        "6091": {
+        "6386": {
             "type": "level_25_right",
-            "info_en": "+25% Magic Resistance",
-            "info_zh": "+25% 魔法抗性"
+            "info_en": "+35% Magic Resistance",
+            "info_zh": "+35% 魔法抗性"
         },
         "6131": {
             "type": "level_25_left",
@@ -2604,10 +2604,10 @@
         }
     },
     "64": {
-        "6017": {
+        "5987": {
             "type": "level_10_right",
-            "info_en": "+20% XP Gain",
-            "info_zh": "+20% 经验获取"
+            "info_en": "+25% XP Gain",
+            "info_zh": "+25% 经验获取"
         },
         "5949": {
             "type": "level_10_left",
@@ -2621,8 +2621,8 @@
         },
         "6381": {
             "type": "level_15_left",
-            "info_en": "+25 Dual Breath Burn Damage",
-            "info_zh": null
+            "info_en": "+35 Dual Breath Burn Damage",
+            "info_zh": "+35 冰火交加烧灼伤害"
         },
         "6307": {
             "type": "level_20_right",
@@ -2664,7 +2664,7 @@
         "5959": {
             "type": "level_15_left",
             "info_en": "+200 Health",
-            "info_zh": "+200 生命值"
+            "info_zh": "+200 生命"
         },
         "5951": {
             "type": "level_20_right",
@@ -2683,8 +2683,8 @@
         },
         "6229": {
             "type": "level_25_left",
-            "info_en": "+200 Flamebreak AoE/Knockback",
-            "info_zh": "+200 烈焰破击范围/击退"
+            "info_en": "+300 Flamebreak AoE/Knockback",
+            "info_zh": "+300 烈焰破击范围/击退"
         }
     },
     "66": {
@@ -2701,12 +2701,12 @@
         "5903": {
             "type": "level_15_right",
             "info_en": "+250 Health",
-            "info_zh": "+250 生命值"
+            "info_zh": "+250 生命"
         },
         "6363": {
             "type": "level_15_left",
             "info_en": "-10s Test of Faith Cooldown",
-            "info_zh": null
+            "info_zh": "-10秒 忠诚考验冷却"
         },
         "6007": {
             "type": "level_20_right",
@@ -2740,47 +2740,47 @@
             "info_en": "+5 Armor",
             "info_zh": "+5 护甲"
         },
-        "5922": {
+        "5923": {
             "type": "level_15_right",
-            "info_en": "+6 All Stats",
-            "info_zh": "+6 全属性"
+            "info_en": "+8 All Stats",
+            "info_zh": "+8 全属性"
         },
-        "5917": {
+        "5918": {
             "type": "level_15_left",
-            "info_en": "+15 Movement Speed",
-            "info_zh": "+15 移动速度"
+            "info_en": "+20 Movement Speed",
+            "info_zh": "+20 移动速度"
         },
-        "6016": {
+        "5907": {
             "type": "level_20_right",
-            "info_en": "+25 Attack Speed",
-            "info_zh": "+25 攻击速度"
+            "info_en": "+30 Attack Speed",
+            "info_zh": "+30 攻击速度"
         },
-        "6145": {
+        "6080": {
             "type": "level_20_left",
-            "info_en": "+15 Strength",
-            "info_zh": "+15 力量"
+            "info_en": "+20 Strength",
+            "info_zh": "+20 力量"
         },
         "5976": {
             "type": "level_25_right",
             "info_en": "+400 Health",
-            "info_zh": "+400 生命值"
+            "info_zh": "+400 生命"
         },
         "6148": {
             "type": "level_25_left",
             "info_en": "-10s Spectral Dagger Cooldown",
-            "info_zh": "-10秒 幽鬼之刃冷却时间"
+            "info_zh": "-10秒 幽鬼之刃冷却"
         }
     },
     "69": {
         "5903": {
             "type": "level_10_right",
             "info_en": "+250 Health",
-            "info_zh": "+250 生命值"
+            "info_zh": "+250 生命"
         },
         "6369": {
             "type": "level_10_left",
             "info_en": "+80 Devour Bonus Gold",
-            "info_zh": null
+            "info_zh": "+80 吞噬额外金钱"
         },
         "5918": {
             "type": "level_15_right",
@@ -2790,12 +2790,12 @@
         "6370": {
             "type": "level_15_left",
             "info_en": "+15 Scorched Earth Damage/Heal",
-            "info_zh": null
+            "info_zh": "+15 焦土伤害/治疗"
         },
         "6371": {
             "type": "level_20_right",
             "info_en": "+35 Doom DPS",
-            "info_zh": null
+            "info_zh": "+35 末日每秒伤害"
         },
         "6308": {
             "type": "level_20_left",
@@ -2827,12 +2827,12 @@
         "6352": {
             "type": "level_15_right",
             "info_en": "-1s Ice Vortex Cooldown",
-            "info_zh": null
+            "info_zh": "-1秒 冰霜漩涡冷却"
         },
         "6351": {
             "type": "level_15_left",
             "info_en": "+30 Health Regen",
-            "info_zh": null
+            "info_zh": "+30 生命恢复"
         },
         "6077": {
             "type": "level_20_right",
@@ -2846,13 +2846,13 @@
         },
         "6214": {
             "type": "level_25_right",
-            "info_en": "3 Charges of Cold Feet",
-            "info_zh": "3 寒霜之足能量点数"
+            "info_en": "4 Charges of Cold Feet",
+            "info_zh": "4 寒霜之足能量点数"
         },
         "6291": {
             "type": "level_25_left",
-            "info_en": "+80 Chilling Touch Damage",
-            "info_zh": "+80 极寒之触伤害"
+            "info_en": "+100 Chilling Touch Damage",
+            "info_zh": "+100 极寒之触伤害"
         }
     },
     "70": {
@@ -2884,7 +2884,7 @@
         "5903": {
             "type": "level_20_left",
             "info_en": "+250 Health",
-            "info_zh": "+250 生命值"
+            "info_zh": "+250 生命"
         },
         "6252": {
             "type": "level_25_right",
@@ -2945,15 +2945,15 @@
             "info_en": "+6% Spell Amplification",
             "info_zh": "+6% 技能增强"
         },
-        "5959": {
+        "6405": {
             "type": "level_10_left",
-            "info_en": "+200 Health",
-            "info_zh": "+200 生命值"
+            "info_en": "+225 Health",
+            "info_zh": "+225 生命"
         },
-        "6299": {
+        "6138": {
             "type": "level_15_right",
-            "info_en": "+12% Magic Resistance",
-            "info_zh": "+12% 魔法抗性"
+            "info_en": "+15% Magic Resistance",
+            "info_zh": "+15% 魔法抗性"
         },
         "5939": {
             "type": "level_15_left",
@@ -2995,7 +2995,7 @@
         "6350": {
             "type": "level_15_right",
             "info_en": "+80 Unstable Concoction Damage",
-            "info_zh": null
+            "info_zh": "+80 不稳定化合物伤害"
         },
         "5922": {
             "type": "level_15_left",
@@ -3010,7 +3010,7 @@
         "5993": {
             "type": "level_20_left",
             "info_en": "+300 Health",
-            "info_zh": "+300 生命值"
+            "info_zh": "+300 生命"
         },
         "6121": {
             "type": "level_25_right",
@@ -3020,7 +3020,7 @@
         "6101": {
             "type": "level_25_left",
             "info_en": "-5 Acid Spray Armor",
-            "info_zh": "-4 酸性喷雾降低护甲"
+            "info_zh": "-5 酸性喷雾降低护甲"
         }
     },
     "74": {
@@ -3049,7 +3049,7 @@
         "5959": {
             "type": "level_15_right",
             "info_en": "+200 Health",
-            "info_zh": "+200 生命值"
+            "info_zh": "+200 生命"
         },
         "5956": {
             "type": "level_15_left",
@@ -3074,14 +3074,14 @@
         "6184": {
             "type": "level_25_left",
             "info_en": "+25% Curse Slow",
-            "info_zh": "+20% 诅咒减速"
+            "info_zh": "+25% 诅咒减速"
         }
     },
     "76": {
         "6006": {
             "type": "level_10_right",
             "info_en": "+250 Mana",
-            "info_zh": "+250 魔法值"
+            "info_zh": "+250 魔法"
         },
         "5958": {
             "type": "level_10_left",
@@ -3106,7 +3106,7 @@
         "6311": {
             "type": "level_20_left",
             "info_en": "+275 Health",
-            "info_zh": "+275 生命值"
+            "info_zh": "+275 生命"
         },
         "6241": {
             "type": "level_25_right",
@@ -3125,10 +3125,10 @@
             "info_en": "+15 Damage",
             "info_zh": "+15 攻击力"
         },
-        "5902": {
+        "6034": {
             "type": "level_10_left",
-            "info_en": "+150 Health",
-            "info_zh": "+150 生命值"
+            "info_en": "+175 Health",
+            "info_zh": "+175 生命"
         },
         "5954": {
             "type": "level_15_right",
@@ -3175,12 +3175,12 @@
         "6359": {
             "type": "level_15_right",
             "info_en": "+75 Thunder Clap Damage",
-            "info_zh": null
+            "info_zh": "+75 雷霆一击伤害"
         },
-        "5937": {
+        "6299": {
             "type": "level_15_left",
-            "info_en": "+10% Magic Resistance",
-            "info_zh": "+10% 魔法抗性"
+            "info_en": "+12% Magic Resistance",
+            "info_zh": "+12% 魔法抗性"
         },
         "6038": {
             "type": "level_20_right",
@@ -3200,7 +3200,7 @@
         "6082": {
             "type": "level_25_left",
             "info_en": "+20 Primal Split Unit Armor",
-            "info_zh": "+14 元素分离单位护甲"
+            "info_zh": "+20 元素分离单位护甲"
         }
     },
     "79": {
@@ -3242,24 +3242,24 @@
         "6293": {
             "type": "level_25_left",
             "info_en": "-6s Soul Catcher Cooldown",
-            "info_zh": "-1秒 暗影剧毒冷却时间"
+            "info_zh": "-6秒 灵魂猎手冷却"
         }
     },
     "80": {
         "5903": {
             "type": "level_10_right",
             "info_en": "+250 Health",
-            "info_zh": "+250 生命值"
+            "info_zh": "+250 生命"
         },
         "6186": {
             "type": "level_10_left",
             "info_en": "+175 Attack Range",
             "info_zh": "+175 攻击距离"
         },
-        "6396": {
+        "5941": {
             "type": "level_15_right",
-            "info_en": "+55 Damage",
-            "info_zh": null
+            "info_en": "+50 Damage",
+            "info_zh": "+50 攻击力"
         },
         "6261": {
             "type": "level_15_left",
@@ -3269,7 +3269,7 @@
         "6262": {
             "type": "level_20_right",
             "info_en": "+12 Spirit Bear Armor",
-            "info_zh": "+7 熊灵护甲"
+            "info_zh": "+12 熊灵护甲"
         },
         "6066": {
             "type": "level_20_left",
@@ -3284,7 +3284,7 @@
         "6268": {
             "type": "level_25_left",
             "info_en": "-10s Savage Roar Cooldown",
-            "info_zh": "-10秒 野蛮咆哮冷却时间"
+            "info_zh": "-10秒 野蛮咆哮冷却"
         }
     },
     "81": {
@@ -3363,12 +3363,12 @@
         "5976": {
             "type": "level_25_right",
             "info_en": "+400 Health",
-            "info_zh": "+400 生命值"
+            "info_zh": "+400 生命"
         },
         "6288": {
             "type": "level_25_left",
             "info_en": "-3s Poof Cooldown",
-            "info_zh": "-3秒 忽悠冷却时间"
+            "info_zh": "-3秒 忽悠冷却"
         }
     },
     "83": {
@@ -3437,7 +3437,7 @@
         "5903": {
             "type": "level_20_right",
             "info_en": "+250 Health",
-            "info_zh": "+250 生命值"
+            "info_zh": "+250 生命"
         },
         "5919": {
             "type": "level_20_left",
@@ -3469,22 +3469,22 @@
         "6372": {
             "type": "level_15_right",
             "info_en": "+35% XP Gain",
-            "info_zh": null
+            "info_zh": "+35% 经验获取"
         },
         "5993": {
             "type": "level_15_left",
             "info_en": "+300 Health",
-            "info_zh": "+300 生命值"
+            "info_zh": "+300 生命"
         },
         "6155": {
             "type": "level_20_right",
             "info_en": "+50 Tombstone Zombie Damage",
-            "info_zh": "+40 墓碑僵尸伤害"
+            "info_zh": "+50 墓碑僵尸攻击力"
         },
-        "5919": {
+        "6141": {
             "type": "level_20_left",
-            "info_en": "+25 Movement Speed",
-            "info_zh": "+25 移动速度"
+            "info_en": "+30 Movement Speed",
+            "info_zh": "+30 移动速度"
         },
         "6175": {
             "type": "level_25_right",
@@ -3494,7 +3494,7 @@
         "6420": {
             "type": "level_25_left",
             "info_en": "-2s Decay Cooldown",
-            "info_zh": null
+            "info_zh": "-2秒 腐朽冷却"
         }
     },
     "86": {
@@ -3511,12 +3511,12 @@
         "6366": {
             "type": "level_15_right",
             "info_en": "+60 Damage",
-            "info_zh": null
+            "info_zh": "+60 攻击力"
         },
         "5902": {
             "type": "level_15_left",
             "info_en": "+150 Health",
-            "info_zh": "+150 生命值"
+            "info_zh": "+150 生命"
         },
         "5991": {
             "type": "level_20_right",
@@ -3553,7 +3553,7 @@
         "6368": {
             "type": "level_15_right",
             "info_en": "-3s Kinetic Field Cooldown",
-            "info_zh": null
+            "info_zh": "-3秒 动能力场冷却"
         },
         "5964": {
             "type": "level_15_left",
@@ -3563,7 +3563,7 @@
         "5976": {
             "type": "level_20_right",
             "info_en": "+400 Health",
-            "info_zh": "+400 生命值"
+            "info_zh": "+400 生命"
         },
         "5989": {
             "type": "level_20_left",
@@ -3590,7 +3590,7 @@
         "6034": {
             "type": "level_10_left",
             "info_en": "+175 Health",
-            "info_zh": "+175 生命值"
+            "info_zh": "+175 生命"
         },
         "6299": {
             "type": "level_15_right",
@@ -3600,7 +3600,7 @@
         "6399": {
             "type": "level_15_left",
             "info_en": "+50 Impale Damage",
-            "info_zh": null
+            "info_zh": "+50 穿刺伤害"
         },
         "6008": {
             "type": "level_20_right",
@@ -3610,7 +3610,7 @@
         "6430": {
             "type": "level_20_left",
             "info_en": "+40 Agility",
-            "info_zh": null
+            "info_zh": "+40 敏捷"
         },
         "6093": {
             "type": "level_25_right",
@@ -3627,12 +3627,12 @@
         "6006": {
             "type": "level_10_right",
             "info_en": "+250 Mana",
-            "info_zh": "+250 魔法值"
+            "info_zh": "+250 魔法"
         },
         "5901": {
             "type": "level_10_left",
             "info_en": "+125 Health",
-            "info_zh": "+125 生命值"
+            "info_zh": "+125 生命"
         },
         "5907": {
             "type": "level_15_right",
@@ -3642,7 +3642,7 @@
         "6398": {
             "type": "level_15_left",
             "info_en": "-3s Ensnare Cooldown",
-            "info_zh": null
+            "info_zh": "-3秒 诱捕冷却"
         },
         "5929": {
             "type": "level_20_right",
@@ -3699,7 +3699,7 @@
         "6384": {
             "type": "level_25_right",
             "info_en": "+400 Cast Range",
-            "info_zh": null
+            "info_zh": "+400 施法距离"
         },
         "6217": {
             "type": "level_25_left",
@@ -3755,10 +3755,10 @@
             "info_en": "+90 Gold/Min",
             "info_zh": "+90 金钱/分"
         },
-        "5987": {
+        "6317": {
             "type": "level_10_left",
-            "info_en": "+25% XP Gain",
-            "info_zh": "+25% 经验获取"
+            "info_en": "+30% XP Gain",
+            "info_zh": "+30% 经验获取"
         },
         "5941": {
             "type": "level_15_right",
@@ -3773,7 +3773,7 @@
         "5993": {
             "type": "level_20_right",
             "info_en": "+300 Health",
-            "info_zh": "+300 生命值"
+            "info_zh": "+300 生命"
         },
         "6066": {
             "type": "level_20_left",
@@ -3857,12 +3857,12 @@
         "6392": {
             "type": "level_20_right",
             "info_en": "+1 Split Shot target",
-            "info_zh": null
+            "info_zh": "+1 分裂箭目标"
         },
         "6382": {
             "type": "level_20_left",
             "info_en": "+600 Mana",
-            "info_zh": null
+            "info_zh": "+600 魔法"
         },
         "6111": {
             "type": "level_25_right",
@@ -3871,8 +3871,8 @@
         },
         "6182": {
             "type": "level_25_left",
-            "info_en": "+1s Stone Gaze Stun",
-            "info_zh": "+1秒 石化凝视眩晕时间"
+            "info_en": "+2s Stone Gaze Stun",
+            "info_zh": "+2秒 石化凝视眩晕"
         }
     },
     "95": {
@@ -3899,7 +3899,7 @@
         "6195": {
             "type": "level_20_right",
             "info_en": "+350 Health",
-            "info_zh": "+350 生命值"
+            "info_zh": "+350 生命"
         },
         "5940": {
             "type": "level_20_left",
@@ -3914,7 +3914,7 @@
         "6154": {
             "type": "level_25_left",
             "info_en": "-7s Whirling Axes Cooldown",
-            "info_zh": "-7秒 旋风飞斧冷却时间"
+            "info_zh": "-7秒 旋风飞斧冷却"
         }
     },
     "96": {
@@ -3983,7 +3983,7 @@
         "6390": {
             "type": "level_20_right",
             "info_en": "+15% Empower Damage/Cleave",
-            "info_zh": null
+            "info_zh": "+15% 授予力量攻击力/分裂"
         },
         "6093": {
             "type": "level_20_left",
@@ -3998,14 +3998,14 @@
         "6199": {
             "type": "level_25_left",
             "info_en": "-4s Shockwave Cooldown",
-            "info_zh": "-4秒 震荡波冷却时间"
+            "info_zh": "-4秒 震荡波冷却"
         }
     },
     "98": {
         "5902": {
             "type": "level_10_right",
             "info_en": "+150 Health",
-            "info_zh": "+150 生命值"
+            "info_zh": "+150 生命"
         },
         "6017": {
             "type": "level_10_left",
@@ -4044,10 +4044,10 @@
         }
     },
     "99": {
-        "6115": {
+        "5982": {
             "type": "level_10_right",
-            "info_en": "+7 Strength",
-            "info_zh": "+7 力量"
+            "info_en": "+8 Strength",
+            "info_zh": "+8 力量"
         },
         "5961": {
             "type": "level_10_left",
@@ -4057,22 +4057,22 @@
         "5959": {
             "type": "level_15_right",
             "info_en": "+200 Health",
-            "info_zh": "+200 生命值"
+            "info_zh": "+200 生命"
         },
         "6083": {
             "type": "level_15_left",
             "info_en": "+4 Max Goo Stacks",
             "info_zh": "+4 鼻液最大叠加次数"
         },
-        "6224": {
+        "6020": {
             "type": "level_20_right",
-            "info_en": "+45 Attack Speed",
-            "info_zh": "+45 攻击速度"
+            "info_en": "+50 Attack Speed",
+            "info_zh": "+50 攻击速度"
         },
-        "6038": {
+        "6066": {
             "type": "level_20_left",
-            "info_en": "-35s Respawn Time",
-            "info_zh": "-35秒 复活时间"
+            "info_en": "-40s Respawn Time",
+            "info_zh": "-40秒 复活时间"
         },
         "6308": {
             "type": "level_25_right",
@@ -4082,14 +4082,14 @@
         "6360": {
             "type": "level_25_left",
             "info_en": "+20 Quill Stack Damage",
-            "info_zh": null
+            "info_zh": "+20 刺针叠加伤害"
         }
     },
     "100": {
-        "6372": {
+        "6447": {
             "type": "level_10_right",
-            "info_en": "+35% XP Gain",
-            "info_zh": null
+            "info_en": "+40% XP Gain",
+            "info_zh": "+40% 经验获取"
         },
         "6164": {
             "type": "level_10_left",
@@ -4099,7 +4099,7 @@
         "6411": {
             "type": "level_15_right",
             "info_en": "+150 Snowball Damage",
-            "info_zh": null
+            "info_zh": "+150 雪球伤害"
         },
         "6007": {
             "type": "level_15_left",
@@ -4119,7 +4119,7 @@
         "6415": {
             "type": "level_25_right",
             "info_en": "+700 Health",
-            "info_zh": null
+            "info_zh": "+700 生命"
         },
         "6194": {
             "type": "level_25_left",
@@ -4131,7 +4131,7 @@
         "5901": {
             "type": "level_10_right",
             "info_en": "+125 Health",
-            "info_zh": "+125 生命值"
+            "info_zh": "+125 生命"
         },
         "6117": {
             "type": "level_10_left",
@@ -4166,7 +4166,7 @@
         "6181": {
             "type": "level_25_left",
             "info_en": "-4s Ancient Seal Cooldown",
-            "info_zh": "-4秒 上古封印冷却时间"
+            "info_zh": "-4秒 上古封印冷却"
         }
     },
     "102": {
@@ -4183,7 +4183,7 @@
         "6094": {
             "type": "level_15_right",
             "info_en": "+200 Mana",
-            "info_zh": "+200 魔法值"
+            "info_zh": "+200 魔法"
         },
         "5932": {
             "type": "level_15_left",
@@ -4207,8 +4207,8 @@
         },
         "6100": {
             "type": "level_25_left",
-            "info_en": "+200 Aphotic Shield Health",
-            "info_zh": "+200 无光之盾吸收量"
+            "info_en": "+300 Aphotic Shield Health",
+            "info_zh": "+300 无光之盾吸收"
         }
     },
     "103": {
@@ -4225,12 +4225,12 @@
         "6311": {
             "type": "level_15_right",
             "info_en": "+275 Health",
-            "info_zh": "+275 生命值"
+            "info_zh": "+275 生命"
         },
         "6378": {
             "type": "level_15_left",
             "info_en": "+30 Echo Stomp Damage",
-            "info_zh": null
+            "info_zh": "+30 回音践踏伤害"
         },
         "6299": {
             "type": "level_20_right",
@@ -4250,7 +4250,7 @@
         "6171": {
             "type": "level_25_left",
             "info_en": "+100 Astral Spirit Hero Attack",
-            "info_zh": "+80 星体游魂触碰英雄攻击力加成"
+            "info_zh": "+100 星体游魂触碰英雄额外攻击力"
         }
     },
     "104": {
@@ -4289,22 +4289,22 @@
             "info_en": "+40 Duel Damage Bonus",
             "info_zh": "+40 决斗攻击力加成"
         },
-        "6222": {
+        "6449": {
             "type": "level_25_left",
-            "info_en": "25% Cooldown Reduction",
-            "info_zh": "25% 冷却时间减少"
+            "info_en": "-8s Press The Attack Cooldown",
+            "info_zh": "-8秒 强攻冷却"
         }
     },
     "106": {
-        "6326": {
+        "5989": {
             "type": "level_10_right",
-            "info_en": "+12% Spell Amplification",
-            "info_zh": "+12% 技能增强"
+            "info_en": "+10% Spell Amplification",
+            "info_zh": "+10% 技能增强"
         },
-        "5960": {
+        "6009": {
             "type": "level_10_left",
-            "info_en": "+20 Damage",
-            "info_zh": "+20 攻击力"
+            "info_en": "+25 Damage",
+            "info_zh": "+25 攻击力"
         },
         "5918": {
             "type": "level_15_right",
@@ -4316,20 +4316,20 @@
             "info_en": "+6 All Stats",
             "info_zh": "+6 全属性"
         },
-        "5951": {
-            "type": "level_20_right",
-            "info_en": "15% Cooldown Reduction",
-            "info_zh": "15% 冷却时间减少"
-        },
-        "5934": {
-            "type": "level_20_left",
-            "info_en": "+8 Armor",
-            "info_zh": "+8 护甲"
-        },
         "6172": {
-            "type": "level_25_right",
+            "type": "level_20_right",
             "info_en": "+500 Flame Guard Absorption",
             "info_zh": "+500 烈火罩吸收伤害"
+        },
+        "6004": {
+            "type": "level_20_left",
+            "info_en": "+10 Armor",
+            "info_zh": "+10 护甲"
+        },
+        "5952": {
+            "type": "level_25_right",
+            "info_en": "20% Cooldown Reduction",
+            "info_zh": "20% 冷却时间减少"
         },
         "6176": {
             "type": "level_25_left",
@@ -4366,12 +4366,12 @@
         "5993": {
             "type": "level_20_left",
             "info_en": "+300 Health",
-            "info_zh": "+300 生命值"
+            "info_zh": "+300 生命"
         },
         "6375": {
             "type": "level_25_right",
             "info_en": "-45s Respawn Time",
-            "info_zh": null
+            "info_zh": "-45秒 复活时间"
         },
         "6203": {
             "type": "level_25_left",
@@ -4398,7 +4398,7 @@
         "5959": {
             "type": "level_15_left",
             "info_en": "+200 Health",
-            "info_zh": "+200 生命值"
+            "info_zh": "+200 生命"
         },
         "5929": {
             "type": "level_20_right",
@@ -4418,7 +4418,7 @@
         "6107": {
             "type": "level_25_left",
             "info_en": "-30s Sunder Cooldown",
-            "info_zh": "-30秒 魂断冷却时间"
+            "info_zh": "-30秒 魂断冷却"
         }
     },
     "110": {
@@ -4430,17 +4430,17 @@
         "6034": {
             "type": "level_10_left",
             "info_en": "+175 Health",
-            "info_zh": "+175 生命值"
+            "info_zh": "+175 生命"
         },
         "6401": {
             "type": "level_15_right",
             "info_en": "+50 Fire Spirits DPS",
-            "info_zh": null
+            "info_zh": "+50 烈火精灵每秒伤害"
         },
-        "6007": {
+        "6008": {
             "type": "level_15_left",
-            "info_en": "+90 Gold/Min",
-            "info_zh": "+90 金钱/分"
+            "info_en": "+120 Gold/Min",
+            "info_zh": "+120 金钱/分"
         },
         "6004": {
             "type": "level_20_right",
@@ -4477,7 +4477,7 @@
         "5959": {
             "type": "level_15_right",
             "info_en": "+200 Health",
-            "info_zh": "+200 生命值"
+            "info_zh": "+200 生命"
         },
         "5956": {
             "type": "level_15_left",
@@ -4560,10 +4560,10 @@
             "info_en": "+8 Intelligence",
             "info_zh": "+8 智力"
         },
-        "6048": {
+        "6115": {
             "type": "level_10_left",
-            "info_en": "+6 Strength",
-            "info_zh": "+6 力量"
+            "info_en": "+7 Strength",
+            "info_zh": "+7 力量"
         },
         "5917": {
             "type": "level_15_right",
@@ -4593,14 +4593,14 @@
         "6297": {
             "type": "level_25_left",
             "info_en": "-3s Splinter Blast Cooldown",
-            "info_zh": "-3秒 碎裂冲击冷却时间"
+            "info_zh": "-3秒 碎裂冲击冷却"
         }
     },
     "113": {
         "6354": {
             "type": "level_10_right",
             "info_en": "+20 Flux DPS",
-            "info_zh": null
+            "info_zh": "+20 乱流每秒伤害"
         },
         "6016": {
             "type": "level_10_left",
@@ -4615,7 +4615,7 @@
         "5959": {
             "type": "level_15_left",
             "info_en": "+200 Health",
-            "info_zh": "+200 生命值"
+            "info_zh": "+200 生命"
         },
         "6021": {
             "type": "level_20_right",
@@ -4634,8 +4634,8 @@
         },
         "6287": {
             "type": "level_25_left",
-            "info_en": "+175 Spark Wraith Damage",
-            "info_zh": "+175 闪光幽魂伤害"
+            "info_en": "+250 Spark Wraith Damage",
+            "info_zh": "+250 闪光幽魂伤害"
         }
     },
     "108": {
@@ -4694,12 +4694,12 @@
         "6311": {
             "type": "level_15_right",
             "info_en": "+275 Health",
-            "info_zh": "+275 生命值"
+            "info_zh": "+275 生命"
         },
         "6421": {
             "type": "level_15_left",
             "info_en": "+75 Jingu Mastery Damage",
-            "info_zh": null
+            "info_zh": "+75 如意棒法攻击力"
         },
         "5940": {
             "type": "level_20_right",

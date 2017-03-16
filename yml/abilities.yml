@@ -717,6 +717,7 @@
 5903: special_bonus_hp_250
 6311: special_bonus_hp_275
 5993: special_bonus_hp_300
+6423: special_bonus_hp_325
 6195: special_bonus_hp_350
 5976: special_bonus_hp_400
 6235: special_bonus_hp_500
@@ -743,6 +744,7 @@
 6224: special_bonus_attack_speed_45
 6020: special_bonus_attack_speed_50
 5908: special_bonus_attack_speed_60
+6444: special_bonus_attack_speed_70
 6030: special_bonus_attack_speed_80
 6037: special_bonus_attack_speed_100
 5909: special_bonus_hp_regen_4
@@ -778,6 +780,7 @@
 6306: special_bonus_movement_speed_50
 6373: special_bonus_movement_speed_60
 6355: special_bonus_movement_speed_75
+6422: special_bonus_movement_speed_100
 6158: special_bonus_lifesteal_10
 6289: special_bonus_lifesteal_15
 6078: special_bonus_lifesteal_20
@@ -908,6 +911,7 @@
 5951: special_bonus_cooldown_reduction_15
 5952: special_bonus_cooldown_reduction_20
 6222: special_bonus_cooldown_reduction_25
+6445: special_bonus_cooldown_reduction_40
 5975: special_bonus_respawn_reduction_15
 5953: special_bonus_respawn_reduction_20
 5954: special_bonus_respawn_reduction_25
@@ -925,6 +929,7 @@
 6026: special_bonus_gold_income_30
 6301: special_bonus_gold_income_40
 6318: special_bonus_gold_income_50
+6446: special_bonus_gold_income_70
 5971: special_bonus_evasion_10
 6239: special_bonus_evasion_12
 5972: special_bonus_evasion_15
@@ -938,6 +943,7 @@
 5987: special_bonus_exp_boost_25
 6317: special_bonus_exp_boost_30
 6372: special_bonus_exp_boost_35
+6447: special_bonus_exp_boost_40
 5977: special_bonus_unique_clockwerk
 6364: special_bonus_unique_clockwerk_2
 5981: special_bonus_unique_omniknight_1
@@ -1115,11 +1121,13 @@
 6241: special_bonus_unique_outworld_devourer
 6217: special_bonus_unique_keeper_of_the_light
 6218: special_bonus_unique_legion_commander
+6449: special_bonus_unique_legion_commander_2
 6219: special_bonus_unique_puck
 6402: special_bonus_unique_puck_2
 6220: special_bonus_unique_pugna_1
 6238: special_bonus_unique_pugna_2
 6403: special_bonus_unique_pugna_3
+6448: special_bonus_unique_pugna_4
 6223: special_bonus_unique_timbersaw
 6230: special_bonus_unique_bloodseeker
 6356: special_bonus_unique_bloodseeker_2
