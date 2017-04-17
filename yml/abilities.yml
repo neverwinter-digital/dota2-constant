@@ -728,6 +728,7 @@
 5905: special_bonus_mp_150
 6067: special_bonus_mp_175
 6094: special_bonus_mp_200
+6504: special_bonus_mp_225
 6006: special_bonus_mp_250
 5990: special_bonus_mp_300
 6254: special_bonus_mp_350
@@ -844,6 +845,7 @@
 6004: special_bonus_armor_10
 6286: special_bonus_armor_12
 6175: special_bonus_armor_15
+6503: special_bonus_armor_20
 5935: special_bonus_magic_resistance_5
 5994: special_bonus_magic_resistance_6
 5936: special_bonus_magic_resistance_8
@@ -982,6 +984,7 @@
 6232: special_bonus_unique_dazzle_2
 6052: special_bonus_unique_shadow_shaman_1
 6295: special_bonus_unique_shadow_shaman_2
+6502: special_bonus_unique_shadow_shaman_3
 6053: special_bonus_unique_warlock_1
 6054: special_bonus_unique_warlock_2
 6412: special_bonus_unique_warlock_3
@@ -1013,6 +1016,7 @@
 6083: special_bonus_unique_bristleback
 6360: special_bonus_unique_bristleback_2
 6084: special_bonus_unique_furion
+6500: special_bonus_unique_furion_2
 6227: special_bonus_unique_phoenix_1
 6085: special_bonus_unique_phoenix_2
 6401: special_bonus_unique_phoenix_3
@@ -1071,6 +1075,7 @@
 6156: special_bonus_unique_viper_1
 6165: special_bonus_unique_viper_2
 6157: special_bonus_unique_zeus
+6501: special_bonus_unique_zeus_2
 6171: special_bonus_unique_elder_titan
 6378: special_bonus_unique_elder_titan_2
 6172: special_bonus_unique_ember_spirit_1
