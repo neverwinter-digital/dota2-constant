@@ -406,7 +406,7 @@
         "6670": {
             "type": "level_20_left",
             "info_en": "+2 Damage Per Soul",
-            "info_zh": "+2 每个灵魂提供攻击力"
+            "info_zh": "+2 攻击力/灵魂"
         },
         "5963": {
             "type": "level_25_right",
@@ -722,7 +722,7 @@
         "6504": {
             "type": "level_10_left",
             "info_en": "+225 Mana",
-            "info_zh": null
+            "info_zh": "+225 魔法"
         },
         "5918": {
             "type": "level_15_right",
@@ -905,7 +905,7 @@
         "6501": {
             "type": "level_20_right",
             "info_en": "+75 Arc Lightning Damage",
-            "info_zh": null
+            "info_zh": "+75 弧形闪电伤害"
         },
         "6066": {
             "type": "level_20_left",
@@ -1041,7 +1041,7 @@
         "6039": {
             "type": "level_25_right",
             "info_en": "+35 Frost Armor Structure Armor",
-            "info_zh": "+35 霜冻护甲对建筑额外护甲"
+            "info_zh": "+35 霜冻护甲对建筑加成"
         },
         "6292": {
             "type": "level_25_left",
@@ -1088,7 +1088,7 @@
         "6174": {
             "type": "level_25_left",
             "info_en": "+3 Mana Drain Multi Target",
-            "info_zh": "+3 多重法力汲取目标"
+            "info_zh": "+3 法力吸取多个目标"
         }
     },
     "27": {
@@ -1125,12 +1125,12 @@
         "6052": {
             "type": "level_25_right",
             "info_en": "+1 Serpent Wards Attacks HP",
-            "info_zh": "+1 群蛇守卫可攻击次数"
+            "info_zh": "+1 群蛇守卫可被攻击次数"
         },
         "6502": {
             "type": "level_25_left",
             "info_en": "+350 Ether Shock Damage",
-            "info_zh": null
+            "info_zh": "+350 苍穹震击伤害"
         }
     },
     "28": {
@@ -1676,7 +1676,7 @@
         "6128": {
             "type": "level_25_left",
             "info_en": "+600 Timewalk Cast Range",
-            "info_zh": "+600 时间漫游施法距离"
+            "info_zh": "+600 时间漫游距离"
         }
     },
     "42": {
@@ -1923,7 +1923,7 @@
         "6503": {
             "type": "level_25_right",
             "info_en": "+20 Armor",
-            "info_zh": null
+            "info_zh": "+20 护甲"
         },
         "6165": {
             "type": "level_25_left",
@@ -2012,7 +2012,7 @@
         "6090": {
             "type": "level_25_left",
             "info_en": "2x Dragon Blood HP Regen/Armor",
-            "info_zh": "2倍 龙族血统生命恢复速率/护甲"
+            "info_zh": "2倍 龙族血统生命恢复/护甲"
         }
     },
     "50": {
@@ -2795,7 +2795,7 @@
         "6371": {
             "type": "level_20_right",
             "info_en": "+40 Doom DPS",
-            "info_zh": null
+            "info_zh": "+40 末日每秒伤害"
         },
         "6314": {
             "type": "level_20_left",
@@ -3200,7 +3200,7 @@
         "6082": {
             "type": "level_25_left",
             "info_en": "+2000 Health to Primal Split Units",
-            "info_zh": null
+            "info_zh": "+2000 元素分离单位生命"
         }
     },
     "79": {
@@ -3951,7 +3951,7 @@
         "6322": {
             "type": "level_25_right",
             "info_en": "Gains Return Aura",
-            "info_zh": "获得反击光环"
+            "info_zh": "反击变成光环"
         },
         "5988": {
             "type": "level_25_left",
@@ -4062,7 +4062,7 @@
         "6083": {
             "type": "level_15_left",
             "info_en": "+4 Max Goo Stacks",
-            "info_zh": "+4 鼻液最大叠加次数"
+            "info_zh": "+4 鼻液叠加上限"
         },
         "6020": {
             "type": "level_20_right",
@@ -4082,7 +4082,7 @@
         "6360": {
             "type": "level_25_left",
             "info_en": "+25 Quill Stack Damage",
-            "info_zh": null
+            "info_zh": "+25 刺针叠加伤害"
         }
     },
     "100": {

@@ -64,6 +64,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilityUnitDamageType: DAMAGE_TYPE_PHYSICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
+    AbilitySound: Hero_Antimage.ManaBreak
     AbilitySpecial:
     - damage_per_burn: 0.6
     - mana_per_hit:
@@ -77,6 +78,7 @@ DOTAAbilities:
     AbilityCastPoint: 0.4 0.4 0.4 0.4
     AbilityCooldown: 12.0 9.0 7.0 5.0
     AbilityManaCost: 60 60 60 60
+    AbilitySound: Hero_Antimage.Blink_out
     AbilitySpecial:
     - blink_range:
       - 925
@@ -105,6 +107,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     FightRecapLevel: '2'
+    AbilitySound: Hero_Antimage.ManaVoid
     AbilityCastRange: '600'
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: 70.0 70.0 70.0
@@ -123,6 +126,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_Axe.Berserkers_Call
     AbilityCastPoint: '0.4'
     AbilityCooldown: 16 14 12 10
     AbilityDamage: 0 0 0 0
@@ -144,6 +148,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_Axe.Battle_Hunger
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: 20.0 15.0 10.0 5.0
     AbilityManaCost: '75'
@@ -163,6 +168,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilityUnitDamageType: DAMAGE_TYPE_PURE
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
+    AbilitySound: Hero_Axe.CounterHelix
     AbilityCooldown: 0.45 0.4 0.35 0.3
     AbilityDamage: 75 110 145 180
     AbilitySpecial:
@@ -184,6 +190,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     FightRecapLevel: '2'
     HasScepterUpgrade: '1'
+    AbilitySound: Hero_Axe.Culling_Blade_Success
     AbilityCastPoint: '0.3'
     AbilityCooldown: 75.0 65.0 55.0
     AbilityManaCost: 60 120 180
@@ -218,6 +225,7 @@ DOTAAbilities:
     AbilityUnitTargetFlags: DOTA_UNIT_TARGET_FLAG_NOT_ANCIENTS
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_NO
+    AbilitySound: Hero_Bane.Enfeeble
     AbilityCastRange: '1000'
     AbilityCastPoint: 0.5 0.5 0.5 0.5
     AbilityCooldown: '8.0'
@@ -237,6 +245,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_PURE
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_Bane.BrainSap
     AbilityCastPoint: 0.5 0.5 0.5 0.5
     AbilityCastRange: '600'
     AbilityCooldown: 14 13 12 11
@@ -263,6 +272,7 @@ DOTAAbilities:
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     FightRecapLevel: '2'
+    AbilitySound: Hero_Bane.FiendsGrip
     HasScepterUpgrade: '1'
     AbilityCastRange: '625'
     AbilityCastPoint: 0.5 0.5 0.5
@@ -295,6 +305,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ALLIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     AbilityUnitDamageType: DAMAGE_TYPE_PURE
+    AbilitySound: Hero_Bane.Nightmare
     AbilityCastRange: 500 550 600 650
     AbilityCastPoint: 0.5 0.5 0.5 0.5
     AbilityCooldown: 22 19 16 13
@@ -334,6 +345,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: hero_bloodseeker.bloodRage
     AbilityCastPoint: '0.2'
     AbilityCooldown: 12 10 8 6
     AbilityManaCost: '0'
@@ -366,6 +378,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_PURE
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: hero_bloodseeker.bloodRite
     AbilityCastRange: '1500'
     AbilityCastPoint: '0.4'
     AbilityCooldown: 25 21 17 13
@@ -414,6 +427,7 @@ DOTAAbilities:
     SpellDispellableType: SPELL_DISPELLABLE_NO
     AbilityUnitDamageType: DAMAGE_TYPE_PURE
     FightRecapLevel: '2'
+    AbilitySound: hero_bloodseeker.rupture
     HasScepterUpgrade: '1'
     AbilityCastPoint: '0.4'
     AbilityCooldown: '60'
@@ -439,6 +453,7 @@ DOTAAbilities:
     AbilityUnitTargetType: DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_DrowRanger.FrostArrows
     AbilityCastRange: '625'
     AbilityCastPoint: 0.0 0.0 0.0 0.0
     AbilityCooldown: 0.0 0.0 0.0 0.0
@@ -478,6 +493,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_DrowRanger.Silence
     AbilityCastRange: '900'
     AbilityCastPoint: '0.25'
     AbilityCooldown: 16 15 14 13
@@ -536,6 +552,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
     FightRecapLevel: '1'
+    AbilitySound: Hero_EarthShaker.Fissure
     AbilityCastRange: '1400'
     AbilityCastPoint: 0.69 0.69 0.69 0.69
     AbilityCooldown: 15.0 15.0 15.0 15.0
@@ -557,6 +574,7 @@ DOTAAbilities:
     AbilityUnitTargetTeam: DOTA_UNIT_TARGET_TEAM_ENEMY
     AbilityUnitTargetType: DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_EarthShaker.Totem
     HasScepterUpgrade: '1'
     AbilityCastRange: '0'
     AbilityCastPoint: 0.69 0.69 0.69 0.69
@@ -602,6 +620,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     FightRecapLevel: '2'
+    AbilitySound: Hero_EarthShaker.EchoSlam
     AbilityCastPoint: 0 0 0 0
     AbilityCooldown: 150.0 130.0 110.0
     AbilityDamage: 160 210 270
@@ -648,6 +667,7 @@ DOTAAbilities:
   juggernaut_healing_ward:
     ID: '5029'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT
+    AbilitySound: Hero_Juggernaut.HealingWard.Cast
     AbilityCastRange: '350'
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: 60.0 60.0 60.0 60.0
@@ -700,6 +720,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Ability.Torrent
     AbilityCastRange: '1500'
     AbilityCastPoint: '0.4'
     AbilityCooldown: 16 14 12 10
@@ -729,6 +750,7 @@ DOTAAbilities:
     AbilityUnitTargetType: DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC
     AbilityUnitTargetFlags: DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
+    AbilitySound: Hero_Kunkka.Tidebringer.Attack
     AbilityCooldown: 13.0 10.0 7.0 4.0
     AbilityCastRange: '150'
     AbilityCastPoint: 0.0 0.0 0.0 0.0
@@ -756,8 +778,9 @@ DOTAAbilities:
     AbilityUnitTargetTeam: DOTA_UNIT_TARGET_TEAM_BOTH
     AbilityUnitTargetType: DOTA_UNIT_TARGET_HERO
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
-    SpellDispellableType: SPELL_DISPELLABLE_YES
+    SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '1'
+    AbilitySound: Ability.XMarksTheSpot.Target
     AbilityCastRange: 400 600 800 1000
     AbilityCastPoint: 0.4 0.4 0.4 0.4
     AbilityCooldown: 26 20 14 8
@@ -777,6 +800,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_NO_TARGET
       | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
+    AbilitySound: Ability.XMarksTheSpot.Return
     AbilityCastPoint: 0.4 0.4 0.4 0.4
     AbilityCooldown: '1.0'
     AbilityManaCost: '0'
@@ -789,6 +813,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '2'
+    AbilitySound: Ability.Ghostship
     HasScepterUpgrade: '1'
     AbilityCastRange: '1000'
     AbilityCastPoint: '0.3'
@@ -829,6 +854,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_Lina.DragonSlave
     AbilityCastRange: '1075'
     AbilityCastPoint: 0.45 0.45 0.45 0.45
     AbilityCooldown: '8.0'
@@ -847,6 +873,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
     FightRecapLevel: '1'
+    AbilitySound: Ability.LightStrikeArray
     AbilityCastRange: '625'
     AbilityCastPoint: 0.45 0.45 0.45 0.45
     AbilityCooldown: 7.0 7.0 7.0 7.0
@@ -888,6 +915,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     FightRecapLevel: '2'
+    AbilitySound: Ability.LagunaBladeImpact
     HasScepterUpgrade: '1'
     AbilityCastRange: '600'
     AbilityCastPoint: 0.45 0.45 0.45
@@ -911,6 +939,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
     FightRecapLevel: '1'
+    AbilitySound: Hero_Lion.Impale
     AbilityCastRange: '500'
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: 12.0 12.0 12.0 12.0
@@ -941,6 +970,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_Lion.Voodoo
     AbilityCastRange: '500'
     AbilityCastPoint: 0 0 0 0
     AbilityCooldown: 30.0 24.0 18.0 12.0
@@ -985,6 +1015,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     FightRecapLevel: '2'
+    AbilitySound: Hero_Lion.FingerOfDeath
     HasScepterUpgrade: '1'
     AbilityCastRange: '900'
     AbilityCastPoint: 0.3 0.3 0.3
@@ -1018,6 +1049,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
     FightRecapLevel: '1'
+    AbilitySound: Hero_Mirana.ArrowCast
     AbilityCastRange: '3000'
     AbilityCastPoint: 0.5 0.5 0.5 0.5
     AbilityCooldown: '17.0'
@@ -1040,6 +1072,7 @@ DOTAAbilities:
       | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '2'
+    AbilitySound: Ability.MoonlightShadow
     AbilityCastRange: '0'
     AbilityCastPoint: 0.5 0.5 0.5
     AbilityCooldown: 140.0 120.0 100.0
@@ -1055,6 +1088,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING
       | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Ability.Leap
     AbilityCastRange: '0'
     AbilityCastPoint: 0.0 0.0 0.0 0.0
     AbilityCooldown: 30.0 26.0 22.0 18.0
@@ -1085,6 +1119,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     FightRecapLevel: '1'
+    AbilitySound: Ability.Starfall
     HasScepterUpgrade: '1'
     AbilityCastPoint: 0.5 0.5 0.5 0.5
     AbilityCooldown: 12.0 12.0 12.0 12.0
@@ -1102,6 +1137,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_Morphling.Waveform
     AbilityCastRange: '1000'
     AbilityCastPoint: '0.25'
     AbilityCooldown: 11.0 11.0 11.0 11.0
@@ -1119,6 +1155,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
     FightRecapLevel: '1'
+    AbilitySound: Hero_Morphling.AdaptiveStrike
     AbilityCastRange: 600 700 800 900
     AbilityCastPoint: '0.25'
     AbilityCooldown: '10'
@@ -1214,6 +1251,7 @@ DOTAAbilities:
     AbilityUnitTargetTeam: DOTA_UNIT_TARGET_TEAM_CUSTOM
     AbilityUnitTargetType: DOTA_UNIT_TARGET_CUSTOM
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
+    AbilitySound: Hero_Morphling.Replicate
     AbilityCastRange: 700 1100 1500
     AbilityCastPoint: '0.25'
     AbilityCooldown: 80.0 80.0 80.0
@@ -1284,6 +1322,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_Nevermore.Shadowraze
     AbilityCastPoint: '0.55'
     AbilityCooldown: '10'
     AbilityDamage: 100 175 250 325
@@ -1364,6 +1403,7 @@ DOTAAbilities:
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '2'
     HasScepterUpgrade: '1'
+    AbilitySound: Hero_Nevermore.RequiemOfSouls
     AbilityCastPoint: 1.67 1.67 1.67
     AbilityCooldown: 120 110 100
     AbilityDuration: 5.0 5.0 5.0
@@ -1404,6 +1444,7 @@ DOTAAbilities:
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
     HasScepterUpgrade: '1'
+    AbilitySound: Hero_PhantomLancer.SpiritLance.Throw
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: 7.0 7.0 7.0 7.0
     AbilityDamage: 100 150 200 250
@@ -1446,6 +1487,7 @@ DOTAAbilities:
     ID: '5066'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE
     FightRecapLevel: '1'
+    AbilitySound: Hero_PhantomLancer.Doppelganger.Cast
     AbilityCastRange: '600'
     AbilityCastPoint: '0.1'
     AbilityCooldown: 25 20 15 10
@@ -1482,6 +1524,7 @@ DOTAAbilities:
   phantom_lancer_phantom_edge:
     ID: '5068'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySound: Hero_PhantomLancer.PhantomEdge
     AbilityCooldown: 16 12 8 4
     AbilitySpecial:
     - min_distance: 250
@@ -1503,6 +1546,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_Puck.Illusory_Orb
     AbilityCastPoint: 0.1 0.1 0.1 0.1
     AbilityCastRange: '3000'
     AbilityCooldown: 14 13 12 11
@@ -1522,6 +1566,7 @@ DOTAAbilities:
     ID: '5070'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE
       | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK
+    AbilitySound: Hero_Puck.EtherealJaunt
     AbilityCastPoint: 0.0 0.0 0.0 0.0
   puck_waning_rift:
     ID: '5071'
@@ -1530,6 +1575,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_Puck.Waning_Rift
     AbilityCastPoint: 0.1 0.1 0.1 0.1
     AbilityCooldown: 16 15 14 13
     AbilityDamage: 100 160 220 280
@@ -1550,6 +1596,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT
       | DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK
       | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES
+    AbilitySound: Hero_Puck.Phase_Shift
     AbilityCastPoint: 0 0 0 0
     AbilityChannelTime: 0.75 1.50 2.25 3.25
     AbilityCooldown: 6.0 6.0 6.0 6.0
@@ -1569,6 +1616,7 @@ DOTAAbilities:
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '2'
     HasScepterUpgrade: '1'
+    AbilitySound: Hero_Puck.Dream_Coil
     AbilityCastRange: '750'
     AbilityCastPoint: 0.1 0.1 0.1
     AbilityCooldown: 70 65 60
@@ -1631,6 +1679,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     FightRecapLevel: '1'
     HasScepterUpgrade: '1'
+    AbilitySound: Hero_Pudge.AttackHookExtend
     AbilityCastRange: 1000 1100 1200 1300
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: 14 13 12 11
@@ -1711,6 +1760,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_ShadowShaman.EtherShock
     AbilityCastRange: '600'
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: 8.0 8.0 8.0 8.0
@@ -1749,6 +1799,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_ShadowShaman.Hex.Target
     AbilityCastRange: '500'
     AbilityCastPoint: 0 0 0 0
     AbilityCooldown: '13'
@@ -1798,6 +1849,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     FightRecapLevel: '2'
     HasScepterUpgrade: '1'
+    AbilitySound: Hero_ShadowShaman.SerpentWard
     AbilityCastRange: '550'
     AbilityCastPoint: '0.3'
     AbilityCooldown: '120'
@@ -1819,6 +1871,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     FightRecapLevel: '1'
+    AbilitySound: Ability.PlasmaField
     AbilityCastRange: '0'
     AbilityCastPoint: 0 0 0 0
     AbilityCooldown: '14'
@@ -1844,6 +1897,7 @@ DOTAAbilities:
     AbilityUnitTargetFlags: DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_NO
+    AbilitySound: Ability.static.start
     AbilityCastRange: '600'
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: 32 30 28 26
@@ -1923,6 +1977,7 @@ DOTAAbilities:
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '1'
     HasScepterUpgrade: '1'
+    AbilitySound: Hero_Razor.Storm.Cast
     AbilityCastPoint: 0.3 0.3 0.3
     AbilityCooldown: 80 70 60
     AbilityManaCost: 100 150 200
@@ -1958,6 +2013,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
     FightRecapLevel: '1'
+    AbilitySound: Hero_SkeletonKing.Hellfire_Blast
     AbilityCastRange: '525'
     AbilityCastPoint: 0.35 0.35 0.35 0.35
     AbilityCooldown: 8.0 8.0 8.0 8.0
@@ -1992,6 +2048,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilityUnitTargetTeam: DOTA_UNIT_TARGET_TEAM_ENEMY
     AbilityUnitTargetType: DOTA_UNIT_TARGET_HERO
+    AbilitySound: Hero_SkeletonKing.CriticalStrike
     AbilitySpecial:
     - crit_mult:
       - 150
@@ -2022,6 +2079,7 @@ DOTAAbilities:
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '2'
     HasScepterUpgrade: '1'
+    AbilitySound: Hero_SkeletonKing.Reincarnate
     AbilityManaCost: '160'
     AbilityCooldown: 240 140 40
     AbilityModifierSupportValue: '0.2'
@@ -2045,6 +2103,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_DeathProphet.CarrionSwarm
     AbilityCastRange: '600'
     AbilityCastPoint: '0.5'
     AbilityCooldown: 8 7 6 5
@@ -2076,6 +2135,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_DeathProphet.Silence
     AbilityCastRange: '900'
     AbilityCastPoint: 0.5 0.5 0.5 0.5
     AbilityCooldown: 15 14 13 12
@@ -2141,6 +2201,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_DeathProphet.SpiritSiphon.Cast
     AbilityCastRange: '500'
     AbilityCastPoint: '0.1'
     AbilityCooldown: '0'
@@ -2173,6 +2234,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '2'
+    AbilitySound: Hero_DeathProphet.Exorcism.Cast
     AbilityCastPoint: 0.5 0.5 0.5
     AbilityCooldown: '145.0'
     AbilityDuration: '35'
@@ -2216,6 +2278,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
     FightRecapLevel: '1'
+    AbilitySound: Hero_Sven.StormBoltImpact
     AbilityCastRange: '600'
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: '13.0'
@@ -2243,6 +2306,7 @@ DOTAAbilities:
     ID: '5096'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_Sven.WarCry
     AbilityCastPoint: 0.0 0.0 0.0 0.0
     AbilityCooldown: 32.0 26.0 20.0 14.0
     AbilityDuration: '8.0'
@@ -2262,6 +2326,7 @@ DOTAAbilities:
     AbilityType: DOTA_ABILITY_TYPE_ULTIMATE
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_Sven.GodsStrength
     HasScepterUpgrade: '1'
     AbilityCastPoint: 0.3 0.3 0.3
     AbilityCooldown: 80.0 80.0 80.0
@@ -2283,6 +2348,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_StormSpirit.StaticRemnantPlant
     AbilityCastPoint: 0 0 0 0
     AbilityCooldown: '3.5'
     AbilityDuration: 12.0 12.0 12.0 12.0
@@ -2305,6 +2371,7 @@ DOTAAbilities:
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
     FightRecapLevel: '1'
     HasScepterUpgrade: '1'
+    AbilitySound: Hero_StormSpirit.ElectricVortex
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCastRange: '300'
     AbilityCooldown: 21 20 19 18
@@ -2327,6 +2394,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_StormSpirit.Overload
     AbilityDuration: 0.6 0.6 0.6 0.6
     AbilityDamage: 40 60 80 100
     AbilityModifierSupportBonus: '40'
@@ -2345,6 +2413,7 @@ DOTAAbilities:
     AbilityType: DOTA_ABILITY_TYPE_ULTIMATE
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
+    AbilitySound: Hero_StormSpirit.BallLightning
     AbilityCastPoint: 0.3 0.3 0.3
     AbilityManaCost: '30'
     AbilityDamage: 8 12 16
@@ -2375,6 +2444,7 @@ DOTAAbilities:
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
     FightRecapLevel: '1'
     HasScepterUpgrade: '1'
+    AbilitySound: Ability.SandKing_BurrowStrike
     AbilityCastRange: 350 450 550 650
     AbilityCastPoint: 0.0 0.0 0.0 0.0
     AbilityCooldown: 11.0 11.0 11.0 11.0
@@ -2404,6 +2474,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '1'
+    AbilitySound: Ability.SandKing_SandStorm.start
     AbilityCastRange: '0'
     AbilityDuration: '50'
     AbilityCooldown: 34 26 18 10
@@ -2421,6 +2492,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Ability.SandKing_CausticFinale
     AbilitySpecial:
     - caustic_finale_radius: 400
     - caustic_finale_damage:
@@ -2447,6 +2519,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '2'
+    AbilitySound: Ability.SandKing_Epicenter
     AbilityCooldown: 120 110 100
     AbilityDuration: 3.0 3.0 3.0
     AbilityChannelTime: 2.0 2.0 2.0
@@ -2490,6 +2563,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
     FightRecapLevel: '1'
+    AbilitySound: Ability.Avalanche
     AbilityCastRange: '600'
     AbilityCastPoint: 0.0 0.0 0.0 0.0
     AbilityCooldown: 17.0 17.0 17.0 17.0
@@ -2556,6 +2630,7 @@ DOTAAbilities:
     ID: '5108'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
+    AbilitySound: Hero_Tiny.CraggyExterior.Stun
     AbilityModifierSupportBonus: '35'
     AbilitySpecial:
     - stun_chance: 25
@@ -2578,6 +2653,7 @@ DOTAAbilities:
     ID: '5109'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilityType: DOTA_ABILITY_TYPE_ULTIMATE
+    AbilitySound: Tiny.Grow
     HasScepterUpgrade: '1'
     AbilitySpecial:
     - bonus_damage:
@@ -2613,6 +2689,7 @@ DOTAAbilities:
     AbilityUnitTargetType: DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
+    AbilitySound: Hero_Zuus.ArcLightning.Cast
     AbilityCastRange: '850'
     AbilityCastPoint: '0.2'
     AbilityDamage: 85 100 115 145
@@ -2642,6 +2719,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_Zuus.LightningBolt
     AbilityCastRange: '700'
     AbilityCastPoint: 0.4 0.4 0.4 0.4
     AbilityDamage: 100 175 275 350
@@ -2663,6 +2741,7 @@ DOTAAbilities:
     FightRecapLevel: '1'
     IsGrantedByScepter: '1'
     HasScepterUpgrade: '1'
+    AbilitySound: Hero_Zuus.Cloud.Cast
     AbilityCastRange: '0'
     AbilityCastPoint: '0.2'
     AbilityCooldown: '35'
@@ -2677,6 +2756,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
+    AbilitySound: Hero_Zuus.StaticField
     AbilityCastRange: '1200'
     AbilitySpecial:
     - radius: 1200
@@ -2692,6 +2772,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     FightRecapLevel: '2'
+    AbilitySound: Hero_Zuus.GodsWrath
     AbilityCastPoint: 0.4 0.4 0.4 0.4
     AbilityCooldown: '90.0'
     AbilityManaCost: 225 325 450
@@ -2717,6 +2798,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE
       | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_Slardar.Sprint
     AbilityCastRange: '0'
     AbilityCastPoint: 0.0 0.0 0.0 0.0
     AbilityCooldown: '17'
@@ -2735,6 +2817,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
     FightRecapLevel: '1'
+    AbilitySound: Hero_Slardar.Slithereen_Crush
     AbilityCastRange: '0'
     AbilityCastPoint: 0.35 0.35 0.35 0.35
     AbilityCooldown: '8'
@@ -2758,6 +2841,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_PHYSICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
+    AbilitySound: Hero_Slardar.Bash
     AbilityModifierSupportBonus: '25'
     AbilitySpecial:
     - chance:
@@ -2782,6 +2866,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_Slardar.Amplify_Damage
     AbilityCastRange: '700'
     AbilityCastPoint: 0.35 0.35 0.35
     AbilityCooldown: '5'
@@ -2803,6 +2888,7 @@ DOTAAbilities:
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
     HasScepterUpgrade: '1'
+    AbilitySound: Ability.GushCast
     AbilityCastRange: '700'
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: '12'
@@ -2828,6 +2914,7 @@ DOTAAbilities:
   tidehunter_kraken_shell:
     ID: '5119'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySound: Hero_Tidehunter.KrakenShell
     AbilitySpecial:
     - damage_reduction:
       - 12
@@ -2851,6 +2938,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_Tidehunter.AnchorSmash
     AbilityCastRange: '375'
     AbilityCastPoint: '0.4'
     AbilityCooldown: 7.0 6.0 5.0 4.0
@@ -2876,6 +2964,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
     FightRecapLevel: '2'
+    AbilitySound: Ability.Ravage
     AbilityCastRange: '0'
     AbilityCastPoint: 0.3 0.3 0.3
     AbilityCooldown: 150.0 150.0 150.0
@@ -2897,6 +2986,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
     FightRecapLevel: '1'
+    AbilitySound: Hero_VengefulSpirit.MagicMissile
     AbilityCastRange: '500'
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: 13 12 11 10
@@ -2931,6 +3021,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_VengefulSpirit.WaveOfTerror
     AbilityCastRange: '1400'
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: '20'
@@ -2964,6 +3055,7 @@ DOTAAbilities:
     AbilityUnitTargetType: DOTA_UNIT_TARGET_CUSTOM
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     FightRecapLevel: '2'
+    AbilitySound: Hero_VengefulSpirit.NetherSwap
     HasScepterUpgrade: '1'
     AbilityCastRange: 700 950 1200
     AbilityCastPoint: 0.3 0.3 0.3
@@ -2985,6 +3077,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_Crystal.CrystalNova
     AbilityCastRange: '700'
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: 12 11 10 9
@@ -3018,6 +3111,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: hero_Crystal.frostbite
     AbilityCastRange: '525'
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: 9 8 7 6
@@ -3066,6 +3160,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     FightRecapLevel: '2'
+    AbilitySound: hero_Crystal.freezingField.wind
     HasScepterUpgrade: '1'
     AbilityChannelTime: '10'
     AbilityCastPoint: 0.3 0.3 0.3
@@ -3096,6 +3191,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
     FightRecapLevel: '1'
+    AbilitySound: Hero_Windrunner.ShackleshotCast
     AbilityCastRange: '800'
     AbilityCastPoint: '0.15'
     AbilityCooldown: 12.0 12.0 12.0 12.0
@@ -3122,6 +3218,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     FightRecapLevel: '1'
+    AbilitySound: Ability.Powershot
     AbilityCastRange: '2600'
     AbilityCastPoint: '0.0'
     AbilityCooldown: 12 11 10 9
@@ -3157,6 +3254,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Ability.Windrun
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: '12'
     AbilityDuration: 3 4 5 6
@@ -3189,6 +3287,7 @@ DOTAAbilities:
     AbilityUnitTargetFlags: DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_NO
+    AbilitySound: Ability.Focusfire
     HasScepterUpgrade: '1'
     AbilityCastRange: '600'
     AbilityCastPoint: '0'
@@ -3219,6 +3318,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Ability.FrostNova
     AbilityCastRange: '600'
     AbilityCastPoint: 0.4 0.4 0.4 0.4
     AbilityCooldown: '8.0'
@@ -3256,6 +3356,7 @@ DOTAAbilities:
     AbilityUnitTargetFlags: DOTA_UNIT_TARGET_FLAG_INVULNERABLE
     SpellImmunityType: SPELL_IMMUNITY_ALLIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_Lich.FrostArmor
     AbilityCastRange: '1000'
     AbilityCastPoint: 0.4 0.4 0.4 0.4
     AbilityCooldown: 5.0 5.0 5.0 5.0
@@ -3291,6 +3392,7 @@ DOTAAbilities:
     AbilityUnitTargetType: DOTA_UNIT_TARGET_BASIC
     AbilityUnitTargetFlags: DOTA_UNIT_TARGET_FLAG_NOT_SUMMONED | DOTA_UNIT_TARGET_FLAG_NOT_ANCIENTS
       | DOTA_UNIT_TARGET_FLAG_NOT_CREEP_HERO
+    AbilitySound: Ability.DarkRitual
     AbilityCastRange: '400'
     AbilityCastPoint: 0.4 0.4 0.4 0.4
     AbilityCooldown: 60 48 36 24
@@ -3312,6 +3414,7 @@ DOTAAbilities:
     SpellDispellableType: SPELL_DISPELLABLE_YES
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     FightRecapLevel: '2'
+    AbilitySound: Hero_Lich.ChainFrost
     HasScepterUpgrade: '1'
     AbilityCastRange: '750'
     AbilityCastPoint: 0.4 0.4 0.4 0.4
@@ -3353,6 +3456,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
     FightRecapLevel: '1'
+    AbilitySound: Hero_WitchDoctor.Paralyzing_Cask_Cast
     AbilityCastRange: '700'
     AbilityCastPoint: 0.35 0.35 0.35 0.35
     AbilityCooldown: 20.0 18.0 16.0 14.0
@@ -3397,6 +3501,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE
       | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL
     SpellDispellableType: SPELL_DISPELLABLE_NO
+    AbilitySound: Hero_WitchDoctor.Voodoo_Restoration
     AbilityCooldown: 0.0 0.0 0.0 0.0
     AbilityManaCost: 20 30 40 50
     AbilitySpecial:
@@ -3424,6 +3529,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_WitchDoctor.Maledict_Cast
     AbilityCastRange: '575'
     AbilityCastPoint: 0.35 0.35 0.35 0.35
     AbilityCooldown: '20.0'
@@ -3451,6 +3557,7 @@ DOTAAbilities:
       | DOTA_UNIT_TARGET_FLAG_NOT_CREEP_HERO
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     FightRecapLevel: '2'
+    AbilitySound: Hero_WitchDoctor.Death_WardBuild
     HasScepterUpgrade: '1'
     AbilityCastRange: '600'
     AbilityCastPoint: 0.35 0.35 0.35
@@ -3479,6 +3586,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_NO
+    AbilitySound: Hero_Riki.Smoke_Screen
     AbilityCastRange: '550'
     AbilityCastPoint: 0.4 0.4 0.4 0.4
     AbilityCooldown: '11'
@@ -3510,6 +3618,7 @@ DOTAAbilities:
     AbilityUnitTargetType: DOTA_UNIT_TARGET_CUSTOM
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
+    AbilitySound: Hero_Riki.Blink_Strike
     AbilityCastRange: '800'
     AbilityCastPoint: '0.3'
     AbilityCooldown: 16 12 8 4
@@ -3558,6 +3667,7 @@ DOTAAbilities:
     AbilityUnitTargetType: DOTA_UNIT_TARGET_HERO
     AbilityUnitTargetFlags: DOTA_UNIT_TARGET_FLAG_NOT_CREEP_HERO
     HasScepterUpgrade: '1'
+    AbilitySound: Hero_Riki.TricksOfTheTrade.Cast
     AbilityCastRange: '1000'
     AbilityCastPoint: '0.3'
     AbilityChannelTime: 3 4 5
@@ -3579,6 +3689,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_Enigma.Malefice
     AbilityCastRange: '600'
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: 15.0 15.0 15.0 15.0
@@ -3616,6 +3727,7 @@ DOTAAbilities:
     AbilityUnitTargetTeam: DOTA_UNIT_TARGET_TEAM_CUSTOM
     AbilityUnitTargetType: DOTA_UNIT_TARGET_CUSTOM
     AbilityUnitTargetFlags: DOTA_UNIT_TARGET_FLAG_NOT_CREEP_HERO
+    AbilitySound: Hero_Enigma.Demonic_Conversion
     AbilityCastRange: '700'
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: 35.0 35.0 35.0 35.0
@@ -3654,6 +3766,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_PURE
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_Enigma.Midnight_Pulse
     AbilityCastRange: '700'
     AbilityCastPoint: '0.1'
     AbilityCooldown: '35'
@@ -3716,6 +3829,7 @@ DOTAAbilities:
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
     HasScepterUpgrade: '1'
+    AbilitySound: Hero_Tinker.Laser
     AbilityCastRange: '650'
     AbilityCastPoint: '0.4'
     AbilityCooldown: 14.0 14.0 14.0 14.0
@@ -3751,6 +3865,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     FightRecapLevel: '1'
     HasScepterUpgrade: '1'
+    AbilitySound: Hero_Tinker.Heat-Seeking_Missile
     AbilityCastPoint: 0 0 0 0
     AbilityCooldown: 25.0 25.0 25.0 25.0
     AbilityDamage: 125 200 275 350
@@ -3781,6 +3896,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
+    AbilitySound: Hero_Tinker.March_of_the_Machines
     AbilityCastRange: '300'
     AbilityCastPoint: 0.53 0.53 0.53 0.53
     AbilityCooldown: 35.0 35.0 35.0 35.0
@@ -3811,6 +3927,7 @@ DOTAAbilities:
     ID: '5153'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED
     AbilityType: DOTA_ABILITY_TYPE_ULTIMATE
+    AbilitySound: Hero_Tinker.Rearm
     AbilityCastPoint: 0.53 0.53 0.53 0.53
     AbilityChannelTime: 3.0 1.5 0.75
     AbilityCooldown: 0.0 0.0 0.0
@@ -3827,6 +3944,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_Sniper.ShrapnelShatter
     AbilityCastRange: '1800'
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: '0'
@@ -3884,6 +4002,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     FightRecapLevel: '2'
     HasScepterUpgrade: '1'
+    AbilitySound: Ability.Assassinate
     AbilityCastRange: 2000 2500 3000
     AbilityCastRangeBuffer: '600'
     AbilityCastPoint: 2.0 2.0 2.0
@@ -3909,6 +4028,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_Necrolyte.DeathPulse
     AbilityCastRange: '0'
     AbilityCastPoint: 0.0 0.0 0.0 0.0
     AbilityCooldown: 8 7 6 5
@@ -3950,6 +4070,7 @@ DOTAAbilities:
   necrolyte_sadist:
     ID: '5160'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE
+    AbilitySound: Hero_Necrolyte.SpiritForm.Cast
     AbilityCastPoint: '0'
     AbilityCooldown: 28 24 20 16
     AbilityManaCost: '50'
@@ -3983,6 +4104,7 @@ DOTAAbilities:
     SpellDispellableType: SPELL_DISPELLABLE_NO
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     FightRecapLevel: '2'
+    AbilitySound: Hero_Necrolyte.ReapersScythe.Target
     HasScepterUpgrade: '1'
     AbilityCastPoint: 0.5 0.5 0.5
     AbilityCooldown: 100 85 70
@@ -4014,6 +4136,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_Warlock.FatalBonds
     AbilityCastPoint: '0.2'
     AbilityCooldown: 24 22 20 18
     AbilityDamage: 0 0 0 0
@@ -4038,6 +4161,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_Warlock.ShadowWordCastGood
     AbilityCastPoint: 0.5 0.5 0.5 0.5
     AbilityCooldown: '16'
     AbilityDamage: 15 25 35 45
@@ -4053,6 +4177,7 @@ DOTAAbilities:
       | DOTA_ABILITY_BEHAVIOR_AOE
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_Warlock.Upheaval
     AbilityCastPoint: 0.5 0.5 0.5 0.5
     AbilityChannelTime: '16.0'
     AbilityCooldown: 50 46 42 38
@@ -4081,6 +4206,7 @@ DOTAAbilities:
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
     FightRecapLevel: '2'
     HasScepterUpgrade: '1'
+    AbilitySound: Hero_Warlock.RainOfChaos
     AbilityCastPoint: 0.5 0.5 0.5
     AbilityCooldown: 165 165 165
     AbilityManaCost: 200 300 400
@@ -4157,6 +4283,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_PHYSICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_Beastmaster.Wild_Axes
     AbilityCastRange: '1300'
     AbilityCastPoint: '0.4'
     AbilityCooldown: '13'
@@ -4181,6 +4308,7 @@ DOTAAbilities:
   beastmaster_call_of_the_wild:
     ID: '5169'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET
+    AbilitySound: Hero_Beastmaster.Call.Hawk
     AbilityCastPoint: '0.3'
     AbilityCooldown: 42 38 34 30
     AbilityManaCost: '25'
@@ -4218,6 +4346,7 @@ DOTAAbilities:
   beastmaster_call_of_the_wild_boar:
     ID: '5580'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET
+    AbilitySound: Hero_Beastmaster.Call.Boar
     AbilityCastPoint: '0.3'
     AbilityCooldown: 42 38 34 30
     AbilityManaCost: '25'
@@ -4314,6 +4443,7 @@ DOTAAbilities:
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     FightRecapLevel: '2'
+    AbilitySound: Hero_Beastmaster.Primal_Roar
     HasScepterUpgrade: '1'
     AbilityCastPoint: 0.5 0.5 0.5
     AbilityCooldown: 80.0 75.0 70.0
@@ -4365,6 +4495,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_QueenOfPain.ShadowStrike
     AbilityCastRange: 450 500 550 600
     AbilityCastPoint: '0.4'
     AbilityCooldown: 16.0 12.0 8.0 4.0
@@ -4396,6 +4527,7 @@ DOTAAbilities:
   queenofpain_blink:
     ID: '5174'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES
+    AbilitySound: Hero_QueenOfPain.Blink_in
     AbilityCastRange: '0'
     AbilityCastPoint: 0.33 0.33 0.33 0.33
     AbilityCooldown: 15.0 12.0 9.0 6.0
@@ -4408,6 +4540,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
+    AbilitySound: Hero_QueenOfPain.ScreamOfPain
     AbilityCastRange: '0'
     AbilityCastPoint: 0.0 0.0 0.0 0.0
     AbilityCooldown: 7.0 7.0 7.0 7.0
@@ -4424,6 +4557,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_PURE
     FightRecapLevel: '2'
     HasScepterUpgrade: '1'
+    AbilitySound: Hero_QueenOfPain.SonicWave
     AbilityCastRange: '700'
     AbilityCastPoint: 0.452 0.452 0.452
     AbilityCooldown: 135 135 135
@@ -4449,6 +4583,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
     FightRecapLevel: '1'
+    AbilitySound: Hero_Venomancer.VenomousGale
     AbilityCastRange: '800'
     AbilityCastPoint: 0.0 0.0 0.0 0.0
     AbilityCooldown: 21 20 19 18
@@ -4513,6 +4648,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_POINT
     AbilityUnitDamageType: DAMAGE_TYPE_PHYSICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
+    AbilitySound: Hero_Venomancer.Plague_Ward
     AbilityCastRange: '850'
     AbilityCastPoint: 0.0 0.0 0.0 0.0
     AbilityCooldown: '5.0'
@@ -4547,6 +4683,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '2'
+    AbilitySound: Hero_Venomancer.PoisonNova
     HasScepterUpgrade: '1'
     AbilityCastPoint: 0.0 0.0 0.0
     AbilityCooldown: 140.0 120.0 100.0
@@ -4578,6 +4715,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_DIRECTIONAL
       | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
+    AbilitySound: Hero_FacelessVoid.TimeWalk
     AbilityCastRange: '0'
     AbilityCastPoint: '0.3'
     AbilityCooldown: 24 18 12 6
@@ -4603,6 +4741,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
+    AbilitySound: Hero_FacelessVoid.TimeLockImpact
     AbilityModifierSupportBonus: '25'
     AbilitySpecial:
     - duration: 1.0
@@ -4621,6 +4760,7 @@ DOTAAbilities:
     ID: '5691'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_FacelessVoid.TimeDilation.Cast
     AbilityCastPoint: '0.1'
     AbilityCooldown: 40 34 28 22
     AbilityManaCost: '75'
@@ -4639,6 +4779,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '2'
+    AbilitySound: Hero_FacelessVoid.Chronosphere
     HasScepterUpgrade: '1'
     AbilityCastRange: '600'
     AbilityCastPoint: 0.35 0.35 0.35
@@ -4664,6 +4805,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_Pugna.NetherBlast
     AbilityCastRange: '400'
     AbilityCastPoint: 0.2 0.2 0.2 0.2
     AbilityCooldown: '5'
@@ -4692,6 +4834,7 @@ DOTAAbilities:
     AbilityUnitTargetType: DOTA_UNIT_TARGET_CUSTOM
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_Pugna.Decrepify
     AbilityCastRange: 700 700 700 700
     AbilityCastPoint: 0.2 0.2 0.2 0.2
     AbilityCooldown: 15.0 12.0 9.0 6.0
@@ -4717,6 +4860,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_Pugna.NetherWard
     AbilityCastPoint: 0.2 0.2 0.2 0.2
     AbilityCastRange: '150'
     AbilityCooldown: 35.0 35.0 35.0 35.0
@@ -4789,6 +4933,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_PHYSICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_PhantomAssassin.Dagger.Cast
     AbilityCastRange: 525 750 975 1200
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: '6'
@@ -4820,6 +4965,7 @@ DOTAAbilities:
     AbilityUnitTargetType: DOTA_UNIT_TARGET_CUSTOM
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_PhantomAssassin.Strike.Start
     AbilityCastRange: 1000 1000 1000 1000
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: 14 11 8 5
@@ -4853,6 +4999,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilityType: DOTA_ABILITY_TYPE_ULTIMATE
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
+    AbilitySound: Hero_PhantomAssassin.CoupDeGrace
     AbilitySpecial:
     - crit_bonus:
       - 230
@@ -4865,6 +5012,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_PHYSICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_NO
+    AbilitySound: Hero_TemplarAssassin.Refraction
     AbilityCastPoint: 0.0 0.0 0.0 0.0
     AbilityCooldown: 17.0 17.0 17.0 17.0
     AbilityManaCost: '100'
@@ -4896,6 +5044,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_PHYSICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_NO
+    AbilitySound: Hero_TemplarAssassin.Meld
     AbilityCastPoint: 0.0 0.0 0.0 0.0
     AbilityCooldown: '6'
     AbilityDuration: 10.0 10.0 10.0 10.0
@@ -4935,6 +5084,7 @@ DOTAAbilities:
     AbilityType: DOTA_ABILITY_TYPE_ULTIMATE
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_TemplarAssassin.Trap
     AbilityCastRange: '2000'
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: 11.0 8.0 5.0
@@ -4991,6 +5141,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: hero_viper.poisonAttack.Cast
     AbilityCastRange: '600'
     AbilityCastPoint: 0.0 0.0 0.0 0.0
     AbilityCooldown: '0.0'
@@ -5044,6 +5195,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: hero_viper.CorrosiveSkin
     AbilityModifierSupportBonus: '10'
     AbilitySpecial:
     - duration: 4.0
@@ -5079,6 +5231,7 @@ DOTAAbilities:
     SpellDispellableType: SPELL_DISPELLABLE_NO
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     FightRecapLevel: '2'
+    AbilitySound: hero_viper.viperStrike
     HasScepterUpgrade: '1'
     AbilityCastRange: '500'
     AbilityCastPoint: 0.3 0.3 0.3
@@ -5119,6 +5272,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
     FightRecapLevel: '1'
+    AbilitySound: Hero_Luna.LucentBeam.Target
     AbilityCastRange: '800'
     AbilityCastPoint: '0.6'
     AbilityCooldown: 6.0 6.0 6.0 6.0
@@ -5135,6 +5289,7 @@ DOTAAbilities:
     ID: '5223'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
+    AbilitySound: Hero_Luna.MoonGlaive.Impact
     AbilitySpecial:
     - range: 500
     - bounces:
@@ -5172,6 +5327,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '2'
+    AbilitySound: Hero_Luna.Eclipse.Cast
     HasScepterUpgrade: '1'
     AbilityCastPoint: 0.6 0.6 0.6
     AbilityCastRange: '0'
@@ -5220,6 +5376,7 @@ DOTAAbilities:
     SpellDispellableType: SPELL_DISPELLABLE_YES
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     FightRecapLevel: '1'
+    AbilitySound: Hero_DragonKnight.BreathFire
     AbilityCastRange: '500'
     AbilityCastPoint: 0.0 0.0 0.0 0.0
     AbilityCooldown: 14 13 12 11
@@ -5253,6 +5410,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
     FightRecapLevel: '1'
+    AbilitySound: Hero_DragonKnight.DragonTail.Target
     AbilityCastRange: '150'
     AbilityCastPoint: 0.0 0.0 0.0 0.0
     AbilityCooldown: 12 11 10 9
@@ -5287,6 +5445,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '2'
+    AbilitySound: Hero_DragonKnight.ElderDragonForm
     AbilityCooldown: 115.0 115.0 115.0
     AbilityManaCost: 50 50 50
     AbilityModifierSupportValue: '0.35'
@@ -5341,6 +5500,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_Dazzle.Poison_Touch
     AbilityCastRange: 600 650 700 750
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: 15 13 11 7
@@ -5382,6 +5542,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ALLIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_Dazzle.Shallow_Grave
     AbilityCastRange: 550 700 850 1000
     AbilityCastPoint: '0.4'
     AbilityCooldown: 60 45 30 15
@@ -5405,6 +5566,7 @@ DOTAAbilities:
     AbilityUnitTargetType: DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC
     AbilityUnitDamageType: DAMAGE_TYPE_PHYSICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
+    AbilitySound: Hero_Dazzle.Shadow_Wave
     AbilityCastRange: '900'
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: 12 10 8 6
@@ -5434,6 +5596,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '2'
+    AbilitySound: Hero_Dazzle.Weave
     HasScepterUpgrade: '1'
     AbilityCastRange: '2000'
     AbilityCastPoint: 0.3 0.3 0.3
@@ -5466,6 +5629,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_Rattletrap.Battery_Assault_Impact
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: 32.0 28.0 24.0 20.0
     AbilityManaCost: 75 75 75 75
@@ -5492,6 +5656,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
+    AbilitySound: Hero_Rattletrap.Power_Cogs
     AbilityCastPoint: '0.2'
     AbilityCooldown: '15'
     AbilityManaCost: 50 60 70 80
@@ -5522,6 +5687,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_Rattletrap.Rocket_Flare.Fire
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCastRange: '0'
     AbilityCooldown: 20.0 18.0 16.0 14.0
@@ -5544,6 +5710,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
     FightRecapLevel: '2'
+    AbilitySound: Hero_Rattletrap.Hookshot.Fire
     HasScepterUpgrade: '1'
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCastRange: 2000 2500 3000
@@ -5587,6 +5754,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
     FightRecapLevel: '1'
+    AbilitySound: Hero_Leshrac.Split_Earth
     AbilityCastRange: '750'
     AbilityCastPoint: 0.7 0.7 0.7 0.7
     AbilityCooldown: 9 9 9 9
@@ -5610,6 +5778,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_Leshrac.Diabolic_Edict
     AbilityCastPoint: '0.5'
     AbilityCooldown: 22 22 22 22
     AbilityManaCost: 95 120 135 155
@@ -5629,6 +5798,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_Leshrac.Lightning_Storm
     AbilityCastRange: '800'
     AbilityCastPoint: '0.45'
     AbilityCooldown: '4'
@@ -5685,6 +5855,7 @@ DOTAAbilities:
     ID: '5245'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_POINT
     FightRecapLevel: '1'
+    AbilitySound: Hero_Furion.Sprout
     AbilityUnitTargetTeam: DOTA_UNIT_TARGET_TEAM_BOTH
     AbilityUnitTargetType: DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC
     AbilityUnitTargetFlags: DOTA_UNIT_TARGET_FLAG_NOT_ANCIENTS
@@ -5709,6 +5880,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_NORMAL_WHEN_STOLEN
       | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES
     SpellDispellableType: SPELL_DISPELLABLE_NO
+    AbilitySound: Hero_Furion.Teleport_Grow
     AbilityCastRange: '0'
     AbilityCastPoint: 3 3 3 3
     AbilityCooldown: 50 40 30 20
@@ -5716,6 +5888,7 @@ DOTAAbilities:
   furion_force_of_nature:
     ID: '5247'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE
+    AbilitySound: Hero_Furion.ForceOfNature
     AbilityCastRange: '750'
     AbilityCastPoint: 0.5 0.5 0.5 0.5
     AbilityCooldown: 37 37 37 37
@@ -5751,6 +5924,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     FightRecapLevel: '2'
+    AbilitySound: Hero_Furion.WrathOfNature_Cast
     HasScepterUpgrade: '1'
     AbilityUnitTargetTeam: DOTA_UNIT_TARGET_TEAM_ENEMY
     AbilityUnitTargetType: DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP
@@ -5779,6 +5953,7 @@ DOTAAbilities:
     ID: '5249'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE
     SpellDispellableType: SPELL_DISPELLABLE_NO
+    AbilitySound: Hero_LifeStealer.Rage
     AbilityCastPoint: '0'
     AbilityCastRange: '0'
     AbilityCooldown: '16'
@@ -5813,6 +5988,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_LifeStealer.OpenWounds.Cast
     AbilityCastPoint: '0.2'
     AbilityCastRange: 200 300 400 500
     AbilityCooldown: 24 20 16 12
@@ -5847,6 +6023,7 @@ DOTAAbilities:
     SpellDispellableType: SPELL_DISPELLABLE_NO
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     FightRecapLevel: '1'
+    AbilitySound: Hero_LifeStealer.Infest
     AbilityCastPoint: '0.2'
     AbilityCooldown: 100 75 50
     AbilityManaCost: 50 50 50
@@ -5907,6 +6084,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_NO_TARGET
       | DOTA_ABILITY_BEHAVIOR_UNRESTRICTED | DOTA_ABILITY_BEHAVIOR_IMMEDIATE
     FightRecapLevel: '1'
+    AbilitySound: Hero_LifeStealer.Consume
     AbilityCastPoint: '0.0'
   life_stealer_control:
     ID: '5655'
@@ -5943,6 +6121,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
     FightRecapLevel: '1'
+    AbilitySound: Hero_Dark_Seer.Vacuum
     AbilityCastRange: '500'
     AbilityCastPoint: 0.4 0.4 0.4 0.4
     AbilityCooldown: '32'
@@ -5970,6 +6149,7 @@ DOTAAbilities:
     SpellDispellableType: SPELL_DISPELLABLE_YES
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     FightRecapLevel: '1'
+    AbilitySound: Hero_Dark_Seer.Ion_Shield_Start
     AbilityCastRange: '600'
     AbilityCastPoint: 0.4 0.4 0.4 0.4
     AbilityCooldown: '9'
@@ -5990,6 +6170,7 @@ DOTAAbilities:
     AbilityUnitTargetType: DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC
     SpellImmunityType: SPELL_IMMUNITY_ALLIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_Dark_Seer.Surge
     AbilityCastRange: '600'
     AbilityCastPoint: '0.4'
     AbilityCooldown: 12.0 11.0 10.0 9.0
@@ -6008,6 +6189,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     FightRecapLevel: '2'
+    AbilitySound: Hero_Dark_Seer.Wall_of_Replica_Start
     HasScepterUpgrade: '1'
     AbilityCastRange: 500 900 1300
     AbilityCastPoint: 0.4 0.4 0.4
@@ -6056,6 +6238,7 @@ DOTAAbilities:
       | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_Clinkz.Strafe
     AbilityCooldown: 40 35 30 25
     AbilityCastPoint: 0.0 0.0 0.0 0.0
     AbilityManaCost: 90 90 90 90
@@ -6075,6 +6258,7 @@ DOTAAbilities:
     AbilityUnitTargetFlags: DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     AbilityUnitDamageType: DAMAGE_TYPE_PHYSICAL
+    AbilitySound: Hero_Clinkz.SearingArrows.Impact
     AbilityCastRange: '640'
     AbilityCastPoint: 0.0 0.0 0.0 0.0
     AbilityCooldown: 0.0 0.0 0.0 0.0
@@ -6090,6 +6274,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE
       | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL
     SpellDispellableType: SPELL_DISPELLABLE_NO
+    AbilitySound: Hero_Clinkz.WindWalk
     AbilityCooldown: 20 19 18 17
     AbilityCastPoint: 0.0 0.0 0.0 0.0
     AbilityManaCost: 75 75 75 75
@@ -6118,6 +6303,7 @@ DOTAAbilities:
       | DOTA_UNIT_TARGET_FLAG_NOT_CREEP_HERO
     AbilityType: DOTA_ABILITY_TYPE_ULTIMATE
     SpellDispellableType: SPELL_DISPELLABLE_NO
+    AbilitySound: Hero_Clinkz.DeathPact
     AbilityCastRange: '400'
     AbilityCastPoint: 0.5 0.5 0.5
     AbilityCooldown: 45.0 30.0 15.0
@@ -6141,6 +6327,7 @@ DOTAAbilities:
     AbilityUnitTargetFlags: DOTA_UNIT_TARGET_FLAG_NOT_MAGIC_IMMUNE_ALLIES
     SpellImmunityType: SPELL_IMMUNITY_ALLIES_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_Omniknight.Purification
     AbilityCastRange: '575'
     AbilityCastPoint: '0.2'
     AbilityCooldown: 11 10 9 8
@@ -6160,6 +6347,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ALLIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_Omniknight.Repel
     AbilityCastRange: '500'
     AbilityCastPoint: '0.35'
     AbilityCooldown: 30 26 22 18
@@ -6196,6 +6384,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ALLIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '2'
+    AbilitySound: Hero_Omniknight.GuardianAngel.Cast
     HasScepterUpgrade: '1'
     AbilityCooldown: '160'
     AbilityCastPoint: 0.5 0.5 0.5
@@ -6231,6 +6420,7 @@ DOTAAbilities:
     AbilityUnitTargetTeam: DOTA_UNIT_TARGET_TEAM_ENEMY
     AbilityUnitTargetType: DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_Enchantress.EnchantCreep
     AbilityCastRange: '700'
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: 30.0 24.0 18.0 12.0
@@ -6252,6 +6442,7 @@ DOTAAbilities:
     ID: '5269'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET
     SpellDispellableType: SPELL_DISPELLABLE_NO
+    AbilitySound: Hero_Enchantress.NaturesAttendantsCast
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: 45.0 45.0 45.0 45.0
     AbilityDuration: '11'
@@ -6284,6 +6475,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     AbilityUnitDamageType: DAMAGE_TYPE_PURE
     FightRecapLevel: '1'
+    AbilitySound: Hero_Enchantress.Impetus
     HasScepterUpgrade: '1'
     AbilityCastRange: '550'
     AbilityCastPoint: 0.0 0.0 0.0
@@ -6306,6 +6498,7 @@ DOTAAbilities:
     AbilityUnitTargetTeam: DOTA_UNIT_TARGET_TEAM_FRIENDLY
     AbilityUnitTargetType: DOTA_UNIT_TARGET_HERO
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_Huskar.Inner_Vitality
     AbilityCastRange: '800'
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: 22 18 14 10
@@ -6344,6 +6537,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_NO
+    AbilitySound: Hero_Huskar.Burning_Spear
     AbilityCastRange: '450'
     AbilityCastPoint: 0.0 0.0 0.0 0.0
     AbilityCooldown: 0.0 0.0 0.0 0.0
@@ -6378,6 +6572,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '2'
+    AbilitySound: Hero_Huskar.Life_Break
     HasScepterUpgrade: '1'
     AbilityCastPoint: 0.3 0.3 0.3
     AbilityCooldown: '12'
@@ -6404,6 +6599,7 @@ DOTAAbilities:
   night_stalker_void:
     ID: '5275'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_UNIT_TARGET
+    AbilitySound: Hero_Nightstalker.Void
     AbilityUnitTargetTeam: DOTA_UNIT_TARGET_TEAM_ENEMY
     AbilityUnitTargetType: DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
@@ -6441,6 +6637,7 @@ DOTAAbilities:
     ID: '5276'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_UNIT_TARGET
     FightRecapLevel: '1'
+    AbilitySound: Hero_Nightstalker.Trickling_Fear
     AbilityUnitTargetTeam: DOTA_UNIT_TARGET_TEAM_ENEMY
     AbilityUnitTargetType: DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
@@ -6485,6 +6682,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET
     AbilityType: DOTA_ABILITY_TYPE_ULTIMATE
     SpellDispellableType: SPELL_DISPELLABLE_NO
+    AbilitySound: Hero_Nightstalker.Darkness
     HasScepterUpgrade: '1'
     AbilityCastPoint: 0.3 0.3 0.3
     AbilityCooldown: 160 120 80
@@ -6500,6 +6698,7 @@ DOTAAbilities:
     ID: '5279'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_UNIT_TARGET
     FightRecapLevel: '1'
+    AbilitySound: Hero_Broodmother.SpawnSpiderlingsImpact
     AbilityUnitTargetTeam: DOTA_UNIT_TARGET_TEAM_ENEMY
     AbilityUnitTargetType: DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
@@ -6555,6 +6754,7 @@ DOTAAbilities:
     ID: '5280'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE
     SpellDispellableType: SPELL_DISPELLABLE_NO
+    AbilitySound: Hero_Broodmother.SpinWebCast
     AbilityCastRange: '1000'
     AbilityCastPoint: '0.4'
     AbilityCooldown: '0.0'
@@ -6635,6 +6835,7 @@ DOTAAbilities:
     ID: '5285'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_UNIT_TARGET
     FightRecapLevel: '1'
+    AbilitySound: Hero_BountyHunter.Shuriken
     AbilityUnitTargetTeam: DOTA_UNIT_TARGET_TEAM_ENEMY
     AbilityUnitTargetType: DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
@@ -6663,6 +6864,7 @@ DOTAAbilities:
     ID: '5286'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_BountyHunter.Jinada
     AbilityCooldown: 12.0 10.0 8.0 6.0
     AbilitySpecial:
     - crit_multiplier:
@@ -6692,6 +6894,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_NO
     AbilityUnitDamageType: DAMAGE_TYPE_PHYSICAL
+    AbilitySound: Hero_BountyHunter.WindWalk
     AbilityCooldown: 15.0 15.0 15.0 15.0
     AbilityCastPoint: 0.0 0.0 0.0 0.0
     AbilityManaCost: '65'
@@ -6718,6 +6921,7 @@ DOTAAbilities:
     AbilityUnitTargetFlags: DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES | DOTA_UNIT_TARGET_FLAG_NOT_CREEP_HERO
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_BountyHunter.Target
     AbilityUnitTargetTeam: DOTA_UNIT_TARGET_TEAM_ENEMY
     AbilityUnitTargetType: DOTA_UNIT_TARGET_HERO
     AbilityCastRange: '1200'
@@ -6760,6 +6964,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_PHYSICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_NO
+    AbilitySound: Hero_Weaver.Swarm.Cast
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCastRange: '3000'
     AbilityCooldown: 35 30 25 20
@@ -6814,6 +7019,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_NO
+    AbilitySound: Hero_Weaver.Shukuchi
     AbilityCastPoint: 0 0 0 0
     AbilityCooldown: 12.0 10.0 8.0 6.0
     AbilityManaCost: 60 60 60 60
@@ -6854,6 +7060,7 @@ DOTAAbilities:
     AbilityUnitTargetType: DOTA_UNIT_TARGET_HERO
     AbilityUnitTargetFlags: DOTA_UNIT_TARGET_FLAG_NOT_CREEP_HERO
     AbilityCastRange: '1000'
+    AbilitySound: Hero_Weaver.TimeLapse
     FightRecapLevel: '2'
     HasScepterUpgrade: '1'
     AbilityCastPoint: 0.3 0.3 0.3 0.3
@@ -6871,6 +7078,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_Jakiro.DualBreath
     AbilityCastRange: '750'
     AbilityCastPoint: 0.65 0.65 0.65 0.65
     AbilityCooldown: 10.0 10.0 10.0 10.0
@@ -6926,6 +7134,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
     FightRecapLevel: '1'
+    AbilitySound: Hero_Jakiro.IcePath
     AbilityCastRange: '1200'
     AbilityCastPoint: '0.65'
     AbilityCooldown: 12.0 11.0 10.0 9.0
@@ -6950,6 +7159,7 @@ DOTAAbilities:
     AbilityUnitTargetFlags: DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_Jakiro.LiquidFire
     AbilityCooldown: 20 15 10 4
     AbilityDuration: 5.0 5.0 5.0 5.0
     AbilityCastRange: '600'
@@ -6981,6 +7191,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     FightRecapLevel: '2'
+    AbilitySound: Hero_Jakiro.Macropyre.Cast
     HasScepterUpgrade: '1'
     AbilityCastRange: '1400'
     AbilityCastPoint: 0.65 0.65 0.65 0.65
@@ -7010,6 +7221,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_Batrider.StickyNapalm.Impact
     AbilityCastRange: '700'
     AbilityCastPoint: 0.2 0.2 0.2 0.2
     AbilityCooldown: 3.0 3.0 3.0 3.0
@@ -7053,6 +7265,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_Batrider.Flamebreak
     AbilityCastRange: '1500'
     AbilityCastPoint: 0.2 0.2 0.2 0.2
     AbilityCooldown: '17.0'
@@ -7146,6 +7359,7 @@ DOTAAbilities:
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
     AbilityType: DOTA_ABILITY_TYPE_ULTIMATE
     FightRecapLevel: '2'
+    AbilitySound: Hero_Batrider.FlamingLasso.Cast
     HasScepterUpgrade: '1'
     AbilityCastPoint: 0.2 0.2 0.2 0.2
     AbilityCastRange: '100'
@@ -7171,6 +7385,7 @@ DOTAAbilities:
     AbilityUnitTargetType: DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_Chen.PenitenceCast
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCastRange: '800'
     AbilityCooldown: 14.0 13.0 12.0 11.0
@@ -7201,6 +7416,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     AbilityUnitDamageType: DAMAGE_TYPE_PURE
     FightRecapLevel: '1'
+    AbilitySound: Hero_Chen.TestOfFaith.Target
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCastRange: 600 600 600 600
     AbilityCooldown: '16'
@@ -7238,6 +7454,7 @@ DOTAAbilities:
     ID: '5330'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK
     SpellDispellableType: SPELL_DISPELLABLE_NO
+    AbilitySound: Hero_Chen.HolyPersuasionCast
     HasScepterUpgrade: '1'
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCastRange: 900 900 900 900
@@ -7260,6 +7477,7 @@ DOTAAbilities:
     AbilityType: DOTA_ABILITY_TYPE_ULTIMATE
     SpellImmunityType: SPELL_IMMUNITY_ALLIES_YES
     FightRecapLevel: '2'
+    AbilitySound: Hero_Chen.HandOfGodHealHero
     AbilityCastPoint: 0.3 0.3 0.3
     AbilityCooldown: 160 140 120
     AbilityManaCost: 200 300 400
@@ -7282,6 +7500,7 @@ DOTAAbilities:
     SpellDispellableType: SPELL_DISPELLABLE_NO
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     FightRecapLevel: '1'
+    AbilitySound: Hero_Spectre.DaggerCast
     AbilityCastRange: 2000 2000 2000 2000
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: 16.0 16.0 16.0 16.0
@@ -7331,6 +7550,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilityUnitDamageType: DAMAGE_TYPE_PURE
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
+    AbilitySound: Hero_Spectre.Desolate
     AbilitySpecial:
     - bonus_damage:
       - 20
@@ -7364,6 +7584,7 @@ DOTAAbilities:
     AbilityType: DOTA_ABILITY_TYPE_ULTIMATE
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     FightRecapLevel: '2'
+    AbilitySound: Hero_Spectre.Haunt
     AbilityCastPoint: 0.3 0.3 0.3
     AbilityCooldown: 140 130 120
     AbilityManaCost: 150 150 150
@@ -7400,6 +7621,7 @@ DOTAAbilities:
     AbilityUnitTargetType: DOTA_UNIT_TARGET_CUSTOM
     AbilityUnitTargetFlags: DOTA_UNIT_TARGET_FLAG_NOT_CREEP_HERO
     SpellDispellableType: SPELL_DISPELLABLE_NO
+    AbilitySound: Hero_DoomBringer.Devour
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCastRange: 300 300 300 300
     AbilityCooldown: 70.0 60.0 50.0 40.0
@@ -7422,6 +7644,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_DoomBringer.ScorchedEarthAura
     AbilityCastPoint: 0.0 0.0 0.0 0.0
     AbilityCastRange: 600 600 600 600
     AbilityCooldown: '55'
@@ -7452,6 +7675,7 @@ DOTAAbilities:
     AbilityUnitTargetType: DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_DoomBringer.InfernalBlade.Target
     AbilityCooldown: 16 12 8 4
     AbilityManaCost: '40'
     AbilityCastRange: '150'
@@ -7517,6 +7741,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_Ancient_Apparition.ColdFeetCast
     AbilityCastRange: 700 800 900 1000
     AbilityCastPoint: 0.01 0.01 0.01 0.01
     AbilityCooldown: 10 9 8 7
@@ -7554,6 +7779,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_NO
+    AbilitySound: Hero_Ancient_Apparition.IceVortexCast
     AbilityCastRange: 1500 1500 1500 1500
     AbilityCastPoint: 0.01 0.01 0.01 0.01
     AbilityCooldown: '4.0'
@@ -7586,6 +7812,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_Ancient_Apparition.ChillingTouchCast
     AbilityCastRange: 800 800 800 800
     AbilityCastPoint: 0.01 0.01 0.01 0.01
     AbilityCooldown: 50.0 42.0 34.0 26.0
@@ -7612,6 +7839,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '2'
+    AbilitySound: Hero_Ancient_Apparition.IceBlast.Target
     HasScepterUpgrade: '1'
     AbilityCastPoint: 0.01 0.01 0.01
     AbilityCastRange: '0'
@@ -7673,6 +7901,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_Spirit_Breaker.ChargeOfDarkness
     AbilityCastPoint: 0.47 0.47 0.47 0.47
     AbilityCastRange: '0'
     AbilityCooldown: '12'
@@ -7710,6 +7939,7 @@ DOTAAbilities:
       | DOTA_ABILITY_BEHAVIOR_AURA
     AbilityUnitTargetTeam: DOTA_UNIT_TARGET_TEAM_FRIENDLY
     SpellDispellableType: SPELL_DISPELLABLE_NO
+    AbilitySound: Hero_Spirit_Breaker.EmpoweringHaste.Cast
     AbilityCooldown: '12'
     AbilitySpecial:
     - bonus_movespeed_pct:
@@ -7734,6 +7964,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
+    AbilitySound: Hero_Spirit_Breaker.GreaterBash
     AbilityCooldown: 1.5 1.5 1.5 1.5
     AbilityModifierSupportBonus: '40'
     AbilitySpecial:
@@ -7788,6 +8019,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     FightRecapLevel: '2'
     HasScepterUpgrade: '1'
+    AbilitySound: Hero_Spirit_Breaker.NetherStrike.Begin
     AbilityCastPoint: '1.2'
     AbilityCastRange: '700'
     AbilityCastRangeBuffer: '500'
@@ -7819,6 +8051,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_Ursa.Earthshock
     AbilityCastRange: '0'
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: '5'
@@ -7836,6 +8069,7 @@ DOTAAbilities:
     ID: '5358'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_Ursa.Overpower
     AbilityCastRange: '0'
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: 10.0 10.0 10.0 10.0
@@ -7874,6 +8108,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_Ursa.Enrage
     HasScepterUpgrade: '1'
     AbilityCastRange: '0'
     AbilityCooldown: 50 40 30
@@ -7963,6 +8198,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_Gyrocopter.FlackCannon
     AbilityCastPoint: 0 0 0 0
     AbilityCooldown: 30 30 30 30
     AbilityManaCost: 50 50 50 50
@@ -7985,6 +8221,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '2'
+    AbilitySound: Hero_Gyrocopter.CallDown.Fire
     HasScepterUpgrade: '1'
     AbilityCastRange: '1000'
     AbilityCastPoint: 0.3 0.3 0.3
@@ -8043,6 +8280,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
     FightRecapLevel: '1'
+    AbilitySound: Hero_Alchemist.UnstableConcoction.Fuse
     AbilityCastRange: '775'
     AbilityCastPoint: '0.0'
     AbilityCooldown: '16.0'
@@ -8115,6 +8353,7 @@ DOTAAbilities:
     AbilityType: DOTA_ABILITY_TYPE_ULTIMATE
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '2'
+    AbilitySound: Hero_Alchemist.ChemicalRage.Cast
     HasScepterUpgrade: '1'
     AbilityCastPoint: '0.0'
     AbilityCooldown: '55.0'
@@ -8209,6 +8448,7 @@ DOTAAbilities:
     AbilityType: DOTA_ABILITY_TYPE_ULTIMATE
     MaxLevel: '1'
     RequiredLevel: '1'
+    AbilitySound: Hero_Invoker.Invoke
     HasScepterUpgrade: '1'
     AbilityCooldown: '6'
     AbilityManaCost: '60'
@@ -8234,6 +8474,7 @@ DOTAAbilities:
     MaxLevel: '1'
     HotKeyOverride: Y
     FightRecapLevel: '1'
+    AbilitySound: Hero_Invoker.ColdSnap
     AbilityUnitTargetTeam: DOTA_UNIT_TARGET_TEAM_ENEMY
     AbilityUnitTargetType: DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
@@ -8280,6 +8521,7 @@ DOTAAbilities:
     SpellDispellableType: SPELL_DISPELLABLE_NO
     MaxLevel: '1'
     HotKeyOverride: V
+    AbilitySound: Hero_Invoker.GhostWalk
     AbilityCooldown: '45'
     AbilityManaCost: '200'
     AbilityCastPoint: '0.05'
@@ -8314,6 +8556,7 @@ DOTAAbilities:
     MaxLevel: '1'
     HotKeyOverride: X
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
+    AbilitySound: Hero_Invoker.Tornado
     AbilityCastRange: '2000'
     AbilityCastPoint: '0.05'
     AbilityCooldown: '30'
@@ -8367,6 +8610,7 @@ DOTAAbilities:
     MaxLevel: '1'
     HotKeyOverride: C
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
+    AbilitySound: Hero_Invoker.EMP.Charge
     AbilityCastRange: '950'
     AbilityCastPoint: '0.05'
     AbilityCooldown: '30'
@@ -8391,6 +8635,7 @@ DOTAAbilities:
       | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING
     MaxLevel: '1'
     HotKeyOverride: Z
+    AbilitySound: Hero_Invoker.Alacrity
     AbilityUnitTargetTeam: DOTA_UNIT_TARGET_TEAM_FRIENDLY
     AbilityUnitTargetType: DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP
     SpellImmunityType: SPELL_IMMUNITY_ALLIES_YES
@@ -8429,6 +8674,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_Invoker.ChaosMeteor.Impact
     AbilityCastRange: '700'
     AbilityCastPoint: '0.05'
     AbilityCooldown: '55'
@@ -8478,6 +8724,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_PURE
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_Invoker.SunStrike.Charge
     AbilityCastRange: '0'
     AbilityCastPoint: '0.05'
     AbilityCooldown: '25'
@@ -8503,6 +8750,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     MaxLevel: '1'
     HotKeyOverride: F
+    AbilitySound: Hero_Invoker.ForgeSpirit
     AbilityCooldown: '30'
     AbilityManaCost: '75'
     AbilityCastPoint: '0.05'
@@ -8582,6 +8830,7 @@ DOTAAbilities:
     HotKeyOverride: G
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     FightRecapLevel: '1'
+    AbilitySound: Hero_Invoker.IceWall.Cast
     AbilityCooldown: '25'
     AbilityManaCost: '175'
     AbilityCastPoint: '0.05'
@@ -8628,6 +8877,7 @@ DOTAAbilities:
     HotKeyOverride: B
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     FightRecapLevel: '1'
+    AbilitySound: Hero_Invoker.DeafeningBlast
     AbilityCastRange: '1000'
     AbilityCastPoint: '0.05'
     AbilityCooldown: '40'
@@ -8674,6 +8924,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_Silencer.Curse.Cast
     AbilityCastRange: '1000'
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: 20 18 16 14
@@ -8701,6 +8952,7 @@ DOTAAbilities:
     AbilityUnitTargetType: DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     AbilityUnitDamageType: DAMAGE_TYPE_PURE
+    AbilitySound: Hero_Silencer.GlaivesOfWisdom
     AbilityDuration: 0.0 0.0 0.0 0.0
     AbilityCastRange: '600'
     AbilityManaCost: 15 15 15 15
@@ -8720,6 +8972,7 @@ DOTAAbilities:
     SpellDispellableType: SPELL_DISPELLABLE_YES
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     FightRecapLevel: '1'
+    AbilitySound: Hero_Silencer.LastWord.Target
     AbilityCastPoint: '0.3'
     AbilityCastRange: '900'
     AbilityCooldown: 30 24 18 12
@@ -8745,6 +8998,7 @@ DOTAAbilities:
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '2'
     HasScepterUpgrade: '1'
+    AbilitySound: Hero_Silencer.GlobalSilence.Cast
     AbilityCastPoint: 0.3 0.3 0.3
     AbilityCooldown: '130.0'
     AbilityDuration: 4.0 5.0 6.0
@@ -8765,6 +9019,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_PURE
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_NO
+    AbilitySound: Hero_ObsidianDestroyer.ArcaneOrb
     AbilityCastRange: '450'
     AbilityManaCost: 100 120 140 160
     AbilityCooldown: '0'
@@ -8794,6 +9049,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_NO
+    AbilitySound: Hero_ObsidianDestroyer.AstralImprisonment
     AbilityDuration: '4.0'
     AbilityCooldown: 22 18 14 10
     AbilityCastRange: 225 300 375 450
@@ -8818,6 +9074,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA
     AbilityUnitTargetTeam: DOTA_UNIT_TARGET_TEAM_FRIENDLY
     AbilityUnitTargetType: DOTA_UNIT_TARGET_HERO
+    AbilitySound: Hero_ObsidianDestroyer.EssenceAura
     AbilitySpecial:
     - radius: 900
     - bonus_mana:
@@ -8862,6 +9119,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     FightRecapLevel: '2'
     HasScepterUpgrade: '1'
+    AbilitySound: Hero_ObsidianDestroyer.SanityEclipse
     AbilityCooldown: '160'
     AbilityManaCost: 175 250 325
     AbilitySpecial:
@@ -8882,6 +9140,7 @@ DOTAAbilities:
   lycan_summon_wolves:
     ID: '5395'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET
+    AbilitySound: Hero_Lycan.SummonWolves
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: 30.0 30.0 30.0 30.0
     AbilityManaCost: '145'
@@ -8916,6 +9175,7 @@ DOTAAbilities:
   lycan_howl:
     ID: '5396'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING
+    AbilitySound: Hero_Lycan.Howl
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: 55 50 45 40
     AbilityDuration: '13'
@@ -8968,6 +9228,7 @@ DOTAAbilities:
     AbilityType: DOTA_ABILITY_TYPE_ULTIMATE
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '2'
+    AbilitySound: Hero_Lycan.Shapeshift.Cast
     AbilityCooldown: 120 90 60
     AbilityManaCost: 100 100 100
     AbilitySpecial:
@@ -9005,6 +9266,7 @@ DOTAAbilities:
     ID: '5412'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET
     DisplayAdditionalHeroes: '1'
+    AbilitySound: Hero_LoneDruid.SpiritBear.Cast
     HasScepterUpgrade: '1'
     AbilityCastPoint: 0.5 0.5 0.5 0.5
     AbilityCooldown: '120.0'
@@ -9037,6 +9299,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_LoneDruid.Rabid
     AbilityCastPoint: 0.5 0.5 0.5 0.5
     AbilityCooldown: '45'
     AbilityManaCost: 50 50 50 50
@@ -9061,6 +9324,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_LoneDruid.SavageRoar.Cast
     AbilityCastPoint: '0.1'
     AbilityCooldown: 38 32 26 20
     AbilityManaCost: '50'
@@ -9093,6 +9357,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET
     AbilityType: DOTA_ABILITY_TYPE_ULTIMATE
     SpellDispellableType: SPELL_DISPELLABLE_NO
+    AbilitySound: Hero_LoneDruid.TrueForm.Cast
     AbilityCooldown: 0.0 0.0 0.0
     AbilityCastPoint: 0 0 0
     AbilityManaCost: 25 25 25
@@ -9127,6 +9392,7 @@ DOTAAbilities:
       | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE
     SpellDispellableType: SPELL_DISPELLABLE_YES
     MaxLevel: '3'
+    AbilitySound: Hero_LoneDruid.BattleCry
     AbilityCastPoint: 0.5 0.5 0.5
     AbilityCooldown: '60.0'
     AbilityManaCost: 50 50 50
@@ -9155,6 +9421,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_PHYSICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: LoneDruid_SpiritBear.Entangle
     AbilityDamage: '60'
     AbilityCooldown: '5.0'
     AbilitySpecial:
@@ -9173,6 +9440,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_Brewmaster.ThunderClap
     AbilityCooldown: '13'
     AbilityCastPoint: 0.4 0.4 0.4
     AbilityManaCost: 90 105 130 150
@@ -9212,6 +9480,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_Brewmaster.DrunkenHaze.Cast
     AbilityCastPoint: '0.3'
     AbilityCooldown: 8 7 6 5
     AbilityManaCost: '25'
@@ -9226,6 +9495,7 @@ DOTAAbilities:
   brewmaster_drunken_brawler:
     ID: '5402'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySound: Hero_Brewmaster.Brawler.Crit
     AbilitySpecial:
     - dodge_chance:
       - 10
@@ -9249,6 +9519,7 @@ DOTAAbilities:
     AbilityType: DOTA_ABILITY_TYPE_ULTIMATE
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '2'
+    AbilitySound: Hero_Brewmaster.PrimalSplit.Spawn
     HasScepterUpgrade: '1'
     AbilityCooldown: 140 120 100
     AbilityCastPoint: '0.65'
@@ -9267,6 +9538,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
+    AbilitySound: Brewmaster_Earth.Boulder.Cast
     AbilityCastRange: 800 800 800 800
     AbilityCooldown: '5'
     AbilityCastPoint: '0.4'
@@ -9303,6 +9575,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT
     AbilityUnitTargetTeam: DOTA_UNIT_TARGET_TEAM_ENEMY
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
+    AbilitySound: Brewmaster_Storm.DispelMagic
     AbilityCastRange: 500 500 500 500
     AbilityCooldown: '4'
     AbilityCastPoint: '0.4'
@@ -9333,6 +9606,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK
       | DOTA_ABILITY_BEHAVIOR_IMMEDIATE
     SpellDispellableType: SPELL_DISPELLABLE_NO
+    AbilitySound: Brewmaster_Storm.WindWalk
     AbilityCooldown: '5'
     AbilityManaCost: 75 75 75 75
     AbilitySpecial:
@@ -9379,6 +9653,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_ShadowDemon.Disruption
     AbilityDuration: 2.5 2.5 2.5 2.5
     AbilityCooldown: 27.0 24.0 21.0 18.0
     AbilityCastRange: '600'
@@ -9414,6 +9689,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_ShadowDemon.Soul_Catcher
     AbilityDuration: 12.0 12.0 12.0 12.0
     AbilityCooldown: 13 12 11 10
     AbilityCastRange: '600'
@@ -9441,6 +9717,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_ShadowDemon.ShadowPoison
     AbilityDuration: 10.0 10.0 10.0 10.0
     AbilityCooldown: '2.5'
     AbilityCastRange: '1500'
@@ -9486,6 +9763,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     FightRecapLevel: '2'
     HasScepterUpgrade: '1'
+    AbilitySound: Hero_ShadowDemon.DemonicPurge.Cast
     AbilityDuration: 5.0 5.0 5.0
     AbilityCooldown: 50.0 50.0 50.0
     AbilityCastRange: '800'
@@ -9520,6 +9798,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
     FightRecapLevel: '1'
+    AbilitySound: Hero_ChaosKnight.ChaosBolt.Cast
     AbilityCastRange: '500'
     AbilityCastPoint: 0.4 0.4 0.4 0.4
     AbilityCooldown: 10.0 10.0 10.0 10.0
@@ -9554,6 +9833,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_ChaosKnight.RealityRift
     AbilityCastRange: 550 600 650 700
     AbilityCastPoint: 0.4 0.4 0.4 0.4
     AbilityCooldown: 24 18 12 6
@@ -9574,6 +9854,7 @@ DOTAAbilities:
     ID: '5428'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_ChaosKnight.ChaosStrike
     AbilitySpecial:
     - crit_chance: 12
     - crit_damage:
@@ -9592,6 +9873,7 @@ DOTAAbilities:
     AbilityUnitTargetFlags: DOTA_UNIT_TARGET_FLAG_NOT_CREEP_HERO
     AbilityCastRange: '1200'
     HasScepterUpgrade: '1'
+    AbilitySound: Hero_ChaosKnight.Phantasm
     AbilityCastPoint: 0.4 0.4 0.4
     AbilityCooldown: '130'
     AbilityManaCost: 125 200 275
@@ -9621,6 +9903,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_Meepo.Earthbind.Cast
     AbilityCastRange: 500 750 1000 1250
     AbilityCastPoint: '0.3'
     AbilityCooldown: 20 16 12 8
@@ -9644,6 +9927,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_Meepo.Poof
     AbilityCastPoint: '1.5'
     AbilityChannelTime: '0.0'
     AbilityCooldown: 12 10 8 6
@@ -9656,6 +9940,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_Meepo.Geostrike
     AbilityDamage: 10 20 30 40
     AbilityDuration: '2'
     AbilityModifierSupportBonus: '5'
@@ -9687,6 +9972,7 @@ DOTAAbilities:
     ID: '5434'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     SpellDispellableType: SPELL_DISPELLABLE_NO
+    AbilitySound: Hero_Treant.NaturesGuise.On
     AbilitySpecial:
     - fade_time:
       - 7.0
@@ -9713,6 +9999,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_Treant.LeechSeed.Cast
     AbilityCastRange: '350'
     AbilityCastPoint: 0.5 0.5 0.5 0.5
     FightRecapLevel: '1'
@@ -9740,6 +10027,7 @@ DOTAAbilities:
     AbilityUnitTargetType: DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_BUILDING
     SpellImmunityType: SPELL_IMMUNITY_ALLIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_Treant.LivingArmor.Cast
     AbilityCastRange: '0'
     AbilityCastPoint: 0.5 0.5 0.5 0.5
     FightRecapLevel: '1'
@@ -9769,6 +10057,7 @@ DOTAAbilities:
     AbilityType: DOTA_ABILITY_TYPE_ULTIMATE
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_Treant.Overgrowth.Cast
     AbilityCastPoint: 0.5 0.5 0.5 0.5
     FightRecapLevel: '2'
     HasScepterUpgrade: '1'
@@ -9790,6 +10079,7 @@ DOTAAbilities:
     FightRecapLevel: '1'
     IsGrantedByScepter: '1'
     HasScepterUpgrade: '1'
+    AbilitySound: Hero_Treant.Eyes.Cast
     AbilityCastRange: '160'
     AbilityCastPoint: '0.2'
     AbilityCooldown: '35'
@@ -9807,6 +10097,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
     FightRecapLevel: '1'
+    AbilitySound: Hero_OgreMagi.Fireblast.Cast
     AbilityCastRange: '475'
     AbilityCastPoint: '0.45'
     AbilityCooldown: '12'
@@ -9845,6 +10136,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_OgreMagi.Ignite.Cast
     AbilityCastRange: '700'
     AbilityCastPoint: '0.45'
     AbilityCooldown: '15'
@@ -9876,6 +10168,7 @@ DOTAAbilities:
     AbilityUnitTargetFlags: DOTA_UNIT_TARGET_FLAG_INVULNERABLE
     SpellImmunityType: SPELL_IMMUNITY_ALLIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_OgreMagi.Bloodlust.Target
     AbilityCastRange: '600'
     AbilityCastPoint: '0.45'
     AbilityCooldown: '20'
@@ -9950,6 +10243,7 @@ DOTAAbilities:
     AbilityUnitTargetType: DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_NO
+    AbilitySound: Hero_Undying.Decay.Cast
     AbilityCastRange: '650'
     AbilityCastPoint: 0.45 0.45 0.45 0.45
     FightRecapLevel: '1'
@@ -9976,6 +10270,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_Undying.SoulRip.Cast
     AbilityCastPoint: 0.45 0.45 0.45 0.45
     AbilityCooldown: 24.0 18.0 12.0 6.0
     AbilityManaCost: 100 110 120 130
@@ -10003,6 +10298,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING
     FightRecapLevel: '1'
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
+    AbilitySound: Hero_Undying.Tombstone
     AbilityCastRange: '600'
     AbilityCastPoint: 0.45 0.45 0.45 0.45
     AbilityCooldown: '70'
@@ -10086,6 +10382,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '2'
+    AbilitySound: Hero_Undying.FleshGolem
     AbilityCooldown: 75.0 75.0 75.0
     AbilityManaCost: 100 100 100
     AbilitySpecial:
@@ -10163,6 +10460,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_Rubick.FadeBolt.Cast
     AbilityCastPoint: 0.1 0.1 0.1 0.1
     AbilityCooldown: 16 14 12 10
     AbilityManaCost: 120 130 140 150
@@ -10214,6 +10512,7 @@ DOTAAbilities:
     AbilityUnitTargetFlags: DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES | DOTA_UNIT_TARGET_FLAG_NOT_CREEP_HERO
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_NO
+    AbilitySound: Hero_Rubick.SpellSteal.Cast
     AbilityType: DOTA_ABILITY_TYPE_ULTIMATE
     FightRecapLevel: '1'
     HasScepterUpgrade: '1'
@@ -10258,6 +10557,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_Disruptor.ThunderStrike.Target
     AbilityCastPoint: 0.05 0.05 0.05 0.05
     AbilityCooldown: 12 11 10 9
     AbilityManaCost: 130 130 130 130
@@ -10288,6 +10588,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_Disruptor.Glimpse.Target
     AbilityCastPoint: 0.05 0.05 0.05 0.05
     AbilityCooldown: 60.0 46.0 32.0 18.0
     AbilityManaCost: '100'
@@ -10308,6 +10609,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_Disruptor.KineticField
     AbilityCastPoint: 0.05 0.05 0.05 0.05
     AbilityCooldown: 13 12 11 10
     AbilityManaCost: 70 70 70 70
@@ -10332,6 +10634,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '2'
+    AbilitySound: Hero_Disruptor.StaticStorm.Cast
     HasScepterUpgrade: '1'
     AbilityCastPoint: 0.05 0.05 0.05 0.05
     AbilityCooldown: 90 80 70
@@ -10356,6 +10659,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
     FightRecapLevel: '1'
+    AbilitySound: Hero_NyxAssassin.Impale
     AbilityCastRange: '700'
     AbilityCastPoint: '0.4'
     AbilityCooldown: '13.0'
@@ -10385,6 +10689,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_NyxAssassin.ManaBurn.Target
     AbilityUnitTargetTeam: DOTA_UNIT_TARGET_TEAM_ENEMY
     AbilityUnitTargetType: DOTA_UNIT_TARGET_HERO
     AbilityCastRange: 600 600 600 600
@@ -10404,6 +10709,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_NyxAssassin.SpikedCarapace
     AbilityCooldown: 25 20 15 10
     AbilityCastPoint: 0 0 0 0
     AbilityManaCost: 40 40 40 40
@@ -10428,6 +10734,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '2'
+    AbilitySound: Hero_NyxAssassin.Vendetta
     AbilityCooldown: 70.0 60.0 50.0
     AbilityManaCost: 160 210 260
     AbilitySpecial:
@@ -10457,6 +10764,7 @@ DOTAAbilities:
     MaxLevel: '1'
     FightRecapLevel: '1'
     IsGrantedByScepter: '1'
+    AbilitySound: Hero_NyxAssassin.Burrow.In
     HasScepterUpgrade: '1'
     AbilityCastPoint: '1.5'
     AbilitySpecial:
@@ -10480,6 +10788,7 @@ DOTAAbilities:
   naga_siren_mirror_image:
     ID: '5467'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET
+    AbilitySound: Hero_NagaSiren.MirrorImage
     AbilityCastPoint: '0.65'
     AbilityCooldown: 40.0 40.0 40.0 40.0
     AbilityManaCost: 70 80 90 100
@@ -10524,6 +10833,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_NagaSiren.Ensnare.Cast
     AbilityCastPoint: '0.65'
     AbilityCooldown: '12'
     AbilityManaCost: 90 100 110 120
@@ -10551,6 +10861,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_NagaSiren.Riptide.Cast
     AbilityCastPoint: 0 0 0 0
     AbilityCooldown: '10.0'
     AbilityManaCost: 80 90 100 110
@@ -10575,6 +10886,7 @@ DOTAAbilities:
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '2'
     HasScepterUpgrade: '1'
+    AbilitySound: Hero_NagaSiren.SongOfTheSiren
     AbilityCastPoint: '0.8'
     AbilityCastRange: 1250 1250 1250
     AbilityCooldown: 180.0 120.0 60.0
@@ -10608,6 +10920,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_KeeperOfTheLight.Illuminate.Discharge
     AbilityCastRange: '1800'
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: 10.0 10.0 10.0 10.0
@@ -10653,6 +10966,7 @@ DOTAAbilities:
     AbilityUnitTargetType: DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_KeeperOfTheLight.ManaLeak.Cast
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: 16 14 12 10
     AbilityManaCost: '160'
@@ -10681,6 +10995,7 @@ DOTAAbilities:
     AbilityUnitTargetType: DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC
     SpellImmunityType: SPELL_IMMUNITY_ALLIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_KeeperOfTheLight.ChakraMagic.Target
     AbilityCastRange: 900 900 900 900
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: 17 16 15 14
@@ -10711,6 +11026,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET
     AbilityType: DOTA_ABILITY_TYPE_ULTIMATE
     SpellDispellableType: SPELL_DISPELLABLE_NO
+    AbilitySound: Hero_KeeperOfTheLight.SpiritForm
     HasScepterUpgrade: '1'
     AbilityCooldown: 80.0 70.0 60.0
     AbilityManaCost: 100 100 100
@@ -10731,6 +11047,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ALLIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_YES
     MaxLevel: '3'
+    AbilitySound: Hero_KeeperOfTheLight.Recall.Cast
     AbilityCastPoint: 0.3 0.3 0.3
     AbilityCastRange: '0'
     AbilityCooldown: '15'
@@ -10746,6 +11063,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     MaxLevel: '3'
+    AbilitySound: Hero_KeeperOfTheLight.BlindingLight
     AbilityCastRange: 900 900 900
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: 20 16 12
@@ -10835,6 +11153,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_Visage.GraveChill.Cast
     AbilityCastPoint: 0.2 0.2 0.2 0.2
     AbilityCooldown: 16.0 14.0 12.0 10.0
     AbilityManaCost: '100'
@@ -10863,6 +11182,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     FightRecapLevel: '1'
+    AbilitySound: Hero_Visage.SoulAssumption.Cast
     AbilityCastPoint: 0.2 0.2 0.2 0.2
     AbilityCooldown: 4.0 4.0 4.0 4.0
     AbilityManaCost: 170 160 150 140
@@ -10903,6 +11223,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE
     AbilityType: DOTA_ABILITY_TYPE_ULTIMATE
     HasScepterUpgrade: '1'
+    AbilitySound: Hero_Visage.SummonFamiliars.Cast
     AbilityCastPoint: 0 0 0
     AbilityCooldown: 160 145 130
     AbilityManaCost: 150 150 150
@@ -10935,6 +11256,7 @@ DOTAAbilities:
     AbilityCastRange: '160'
     AbilityCastPoint: '0.0'
     MaxLevel: '3'
+    AbilitySound: Visage_Familiar.StoneForm.Cast
     AbilityCooldown: '14.0'
     AbilitySpecial:
     - stun_radius: 350
@@ -11004,6 +11326,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_NO
+    AbilitySound: Hero_Wisp.Spirits.Cast
     AbilityCastPoint: '0'
     AbilityCooldown: 20.0 18.0 16.0 14.0
     AbilityDuration: 19.0 19.0 19.0 19.0
@@ -11098,6 +11421,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_POINT
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_Wisp.Relocate
     AbilityCastPoint: 0 0 0
     AbilityCooldown: 100.0 80.0 60.0
     AbilityManaCost: 100 100 100
@@ -11142,6 +11466,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_Slark.DarkPact.Cast
     AbilityCastPoint: 0.001 0.001 0.001 0.001
     AbilityCastRange: '325'
     AbilityCooldown: 9.0 8.0 7.0 6.0
@@ -11164,6 +11489,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_Slark.Pounce.Cast
     AbilityCooldown: 20.0 16.0 12.0 8.0
     AbilityManaCost: 75 75 75 75
     AbilitySpecial:
@@ -11198,6 +11524,7 @@ DOTAAbilities:
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '2'
     HasScepterUpgrade: '1'
+    AbilitySound: Hero_Slark.ShadowDance
     AbilityCooldown: '60.0'
     AbilityManaCost: 120 120 120
     AbilitySpecial:
@@ -11254,6 +11581,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_Medusa.MysticSnake.Cast
     AbilityCastRange: '800'
     AbilityCastPoint: 0.4 0.4 0.4 0.4
     AbilityCooldown: '11'
@@ -11292,6 +11620,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE
       | DOTA_ABILITY_BEHAVIOR_IMMEDIATE
     SpellDispellableType: SPELL_DISPELLABLE_NO
+    AbilitySound: Hero_Medusa.ManaShield.On
     AbilityCastPoint: 0.4 0.4 0.4 0.4
     AbilitySpecial:
     - damage_per_mana:
@@ -11308,6 +11637,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '2'
+    AbilitySound: Hero_Medusa.StoneGaze.Cast
     AbilityCastPoint: 0.4 0.4 0.4
     AbilityCastRange: 1000 1000 1000
     AbilityCooldown: 90.0 90.0 90.0
@@ -11330,6 +11660,7 @@ DOTAAbilities:
     ID: '5508'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE
       | DOTA_ABILITY_BEHAVIOR_IMMEDIATE
+    AbilitySound: Hero_TrollWarlord.BerserkersRage.Toggle
     AbilityCastPoint: 0.2 0.2 0.2 0.2
     AbilitySpecial:
     - bonus_hp: 0
@@ -11362,6 +11693,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_TrollWarlord.WhirlingAxes.Ranged
     AbilityCastRange: '1000'
     AbilityCastPoint: 0.2 0.2 0.2 0.2
     AbilityCooldown: 19 16 13 10
@@ -11387,6 +11719,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_TrollWarlord.WhirlingAxes.Melee
     AbilityCastPoint: '0.0'
     AbilityCooldown: 12.0 12.0 12.0 12.0
     AbilityManaCost: 50 50 50 50
@@ -11424,6 +11757,7 @@ DOTAAbilities:
     SpellDispellableType: SPELL_DISPELLABLE_NO
     MaxLevel: '3'
     FightRecapLevel: '2'
+    AbilitySound: Hero_TrollWarlord.BattleTrance.Cast
     AbilityCastPoint: 0.0 0.0 0.0
     AbilityCooldown: '30'
     AbilityManaCost: 75 75 75
@@ -11440,6 +11774,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
     FightRecapLevel: '1'
+    AbilitySound: Hero_Centaur.HoofStomp
     AbilityCastPoint: 0.5 0.5 0.5 0.5
     AbilityCooldown: 13.0 13.0 13.0 13.0
     AbilityManaCost: '130'
@@ -11463,6 +11798,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_Centaur.DoubleEdge
     AbilityCooldown: '5.0'
     AbilityCastRange: 150 150 150 150
     AbilityCastPoint: 0.5 0.5 0.5 0.5
@@ -11498,6 +11834,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '2'
+    AbilitySound: Hero_Centaur.Stampede
     HasScepterUpgrade: '1'
     AbilityCooldown: 90.0 75.0 60.0
     AbilityManaCost: '100'
@@ -11548,6 +11885,7 @@ DOTAAbilities:
     AbilityUnitTargetType: DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC
     SpellImmunityType: SPELL_IMMUNITY_ALLIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_Magnataur.Empower.Cast
     HasScepterUpgrade: '1'
     AbilityCastRange: '800'
     AbilityCastPoint: 0.3 0.3 0.3 0.3
@@ -11587,6 +11925,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_Magnataur.Skewer.Cast
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: '25'
     AbilityManaCost: 80 80 80 80
@@ -11622,6 +11961,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
     FightRecapLevel: '2'
+    AbilitySound: Hero_Magnataur.ReversePolarity.Cast
     AbilityCastPoint: 0.3 0.3 0.3
     AbilityCooldown: '120'
     AbilityManaCost: 200 250 300
@@ -11653,6 +11993,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_Shredder.WhirlingDeath.Cast
     AbilityCastRange: '300'
     AbilityCastPoint: 0.0 0.0 0.0 0.0
     AbilityCooldown: '6'
@@ -11674,6 +12015,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_PURE
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_Shredder.TimberChain.Cast
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCastRange: 850 1050 1250 1450
     AbilityCooldown: '4'
@@ -11738,6 +12080,7 @@ DOTAAbilities:
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '1'
     HasScepterUpgrade: '1'
+    AbilitySound: Hero_Shredder.Chakram.Cast
     AbilityCastRange: 1200 1200 1200
     AbilityCastPoint: 0.3 0.3 0.3
     AbilityCooldown: 8.0 8.0 8.0
@@ -11820,6 +12163,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_Bristleback.ViscousGoo.Cast
     HasScepterUpgrade: '1'
     AbilityCastRange: '600'
     AbilityCastPoint: '0.3'
@@ -11849,6 +12193,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_Bristleback.QuillSpray
     AbilityCastRange: '650'
     AbilityCastPoint: 0.0 0.0 0.0 0.0
     AbilityCooldown: 3.0 3.0 3.0 3.0
@@ -11871,6 +12216,7 @@ DOTAAbilities:
   bristleback_bristleback:
     ID: '5550'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySound: Hero_Bristleback.Bristleback
     AbilitySpecial:
     - side_damage_reduction:
       - 8
@@ -11922,6 +12268,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_Tusk.IceShards
     AbilityCastRange: '1800'
     AbilityCastPoint: 0.1 0.1 0.1 0.1
     AbilityCooldown: 19.0 16.0 13.0 10.0
@@ -11952,6 +12299,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_Tusk.Snowball.Cast
     AbilityCastRange: '1250'
     AbilityCastPoint: 0.1 0.1 0.1 0.1
     AbilityCooldown: 21 20 19 18
@@ -11989,6 +12337,7 @@ DOTAAbilities:
     ID: '5567'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
+    AbilitySound: Hero_Tusk.FrozenSigil
     AbilityCastPoint: 0.1 0.1 0.1 0.1
     AbilityCooldown: 50.0 50.0 50.0 50.0
     AbilityManaCost: 75 75 75 75
@@ -12016,6 +12365,7 @@ DOTAAbilities:
     SpellDispellableType: SPELL_DISPELLABLE_YES
     AbilityType: DOTA_ABILITY_TYPE_ULTIMATE
     FightRecapLevel: '1'
+    AbilitySound: Hero_Tusk.WalrusPunch.Target
     AbilityCastPoint: '0'
     AbilityCastRange: '150'
     AbilityCooldown: 36 24 12
@@ -12042,6 +12392,7 @@ DOTAAbilities:
     FightRecapLevel: '1'
     IsGrantedByScepter: '1'
     HasScepterUpgrade: '1'
+    AbilitySound: Hero_Tusk.WalrusKick.Target
     AbilityCastPoint: '0.2'
     AbilityCastRange: '150'
     AbilityCooldown: '8'
@@ -12062,6 +12413,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_SkywrathMage.ArcaneBolt.Cast
     AbilityCastRange: '800'
     AbilityCastPoint: 0.1 0.1 0.1 0.1
     AbilityCooldown: 5.0 4.0 3.0 2.0
@@ -12084,6 +12436,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_SkywrathMage.ConcussiveShot.Cast
     AbilityCastPoint: 0.0 0.0 0.0 0.0
     AbilityCastRange: '1600'
     AbilityCooldown: 18.0 16.0 14.0 12.0
@@ -12117,6 +12470,7 @@ DOTAAbilities:
     AbilityUnitTargetType: DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_SkywrathMage.AncientSeal.Target
     AbilityCastRange: '700'
     AbilityCastPoint: 0.1 0.1 0.1 0.1
     AbilityCooldown: '14'
@@ -12163,6 +12517,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ALLIES_YES
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     FightRecapLevel: '1'
+    AbilitySound: Hero_Abaddon.DeathCoil.Cast
     AbilityCastRange: '800'
     AbilityCastPoint: '0.25'
     AbilityCooldown: '4.5'
@@ -12193,6 +12548,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ALLIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_Abaddon.AphoticShield.Cast
     AbilityCastRange: '500'
     AbilityCastPoint: '0.4'
     AbilityCooldown: 12.0 10.0 8.0 6.0
@@ -12236,6 +12592,7 @@ DOTAAbilities:
     AbilityType: DOTA_ABILITY_TYPE_ULTIMATE
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '2'
+    AbilitySound: Hero_Abaddon.BorrowedTime
     HasScepterUpgrade: '1'
     AbilityCooldown: 60.0 50.0 40.0
     AbilityManaCost: 0 0 0
@@ -12259,6 +12616,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
     FightRecapLevel: '1'
+    AbilitySound: Hero_ElderTitan.EchoStomp
     AbilityCastPoint: 0.4 0.4 0.4 0.4
     AbilityCooldown: 14 13 12 11
     AbilityChannelTime: '1.3'
@@ -12312,6 +12670,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_NO
+    AbilitySound: Hero_ElderTitan.AncestralSpirit.Cast
     AbilityCastRange: '1200'
     AbilityCastPoint: 0.4 0.4 0.4 0.4
     AbilityCooldown: '16.0'
@@ -12393,6 +12752,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '2'
+    AbilitySound: Hero_ElderTitan.EarthSplitter.Cast
     HasScepterUpgrade: '1'
     AbilityCastRange: '2400'
     AbilityCastPoint: 0.4 0.4 0.4
@@ -12431,6 +12791,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_LegionCommander.Overwhelming.Location
     AbilityCooldown: '15'
     AbilityCastRange: '1000'
     AbilityCastPoint: 0.3 0.3 0.3 0.3
@@ -12464,6 +12825,7 @@ DOTAAbilities:
     AbilityUnitTargetFlags: DOTA_UNIT_TARGET_FLAG_NOT_MAGIC_IMMUNE_ALLIES
     SpellImmunityType: SPELL_IMMUNITY_ALLIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_LegionCommander.PressTheAttack
     AbilityCastRange: '800'
     AbilityCastPoint: '0.2'
     AbilityCooldown: 16.0 15.0 14.0 13.0
@@ -12484,6 +12846,7 @@ DOTAAbilities:
   legion_commander_moment_of_courage:
     ID: '5597'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
+    AbilitySound: Hero_LegionCommander.Courage
     AbilityCooldown: 2.3 1.8 1.3 0.8
     AbilitySpecial:
     - trigger_chance: 25
@@ -12503,6 +12866,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '2'
+    AbilitySound: Hero_LegionCommander.Duel
     HasScepterUpgrade: '1'
     AbilityCastRange: '150'
     AbilityCastPoint: 0.3 0.3 0.3 0.3
@@ -12529,6 +12893,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_EmberSpirit.SearingChains.Target
     AbilityCastRange: '400'
     AbilityCastPoint: '0'
     AbilityCooldown: 14.0 12.0 10.0 8.0
@@ -12581,6 +12946,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_EmberSpirit.FlameGuard.Cast
     AbilityCastRange: '400'
     AbilityCastPoint: '0'
     AbilityCooldown: '35.0'
@@ -12609,6 +12975,7 @@ DOTAAbilities:
     AbilityType: DOTA_ABILITY_TYPE_ULTIMATE
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
+    AbilitySound: Hero_EmberSpirit.FireRemnant.Cast
     AbilityCastRange: '1500'
     AbilityCastPoint: '0.0'
     AbilityCooldown: '0.0'
@@ -12657,6 +13024,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
     FightRecapLevel: '1'
+    AbilitySound: Hero_EarthSpirit.BoulderSmash.Target
     AbilityCastRange: '150'
     AbilityCastPoint: '0.01'
     AbilityCooldown: 22.0 18.0 14.0 10.0
@@ -12688,6 +13056,7 @@ DOTAAbilities:
       | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
+    AbilitySound: Hero_EarthSpirit.RollingBoulder.Cast
     AbilityCastRange: '3000'
     AbilityCastPoint: '0.01'
     AbilityCooldown: 16.0 12.0 8.0 4.0
@@ -12717,6 +13086,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_EarthSpirit.GeomagneticGrip.Target
     HasScepterUpgrade: '1'
     AbilityCastRange: '1100'
     AbilityCastPoint: '0.01'
@@ -12745,6 +13115,7 @@ DOTAAbilities:
       | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING
     AbilityType: DOTA_ABILITY_TYPE_BASIC
     MaxLevel: '1'
+    AbilitySound: Hero_EarthSpirit.StoneRemnant.Impact
     AbilityCastRange: '1100'
     AbilityCastPoint: '0.0'
     AbilityCooldown: '0.0'
@@ -12764,6 +13135,7 @@ DOTAAbilities:
     MaxLevel: '1'
     FightRecapLevel: '1'
     IsGrantedByScepter: '1'
+    AbilitySound: Hero_EarthSpirit.Petrify
     HasScepterUpgrade: '1'
     AbilityCastRange: '125'
     AbilityCastPoint: '0.2'
@@ -12781,6 +13153,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '2'
+    AbilitySound: Hero_EarthSpirit.Magnetize.Cast
     AbilityCastRange: '300'
     AbilityCastPoint: '0.01'
     AbilityCooldown: 100 90 80
@@ -12833,6 +13206,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_AbyssalUnderlord.PitOfMalice
     AbilityCastRange: '750'
     AbilityCastPoint: '0.45'
     FightRecapLevel: '1'
@@ -12879,6 +13253,7 @@ DOTAAbilities:
     AbilityUnitTargetTeam: DOTA_UNIT_TARGET_TEAM_FRIENDLY
     AbilityUnitTargetType: DOTA_UNIT_TARGET_BUILDING | DOTA_UNIT_TARGET_CREEP
     AbilityUnitTargetFlags: DOTA_UNIT_TARGET_FLAG_INVULNERABLE
+    AbilitySound: Hero_AbyssalUnderlord.DarkRift.Cast
     SpellDispellableType: SPELL_DISPELLABLE_NO
     AbilityCastRange: '0'
     AbilityCastPoint: '0.6'
@@ -12903,6 +13278,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_Terrorblade.Reflection
     AbilityCooldown: 22 20 18 16
     AbilityCastPoint: '0.3'
     AbilityManaCost: '50'
@@ -12928,6 +13304,7 @@ DOTAAbilities:
   terrorblade_conjure_image:
     ID: '5620'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET
+    AbilitySound: Hero_Terrorblade.ConjureImage
     AbilityCastPoint: '0.15'
     AbilityCooldown: '16'
     AbilityManaCost: '70'
@@ -12949,6 +13326,7 @@ DOTAAbilities:
     ID: '5621'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE
     SpellDispellableType: SPELL_DISPELLABLE_NO
+    AbilitySound: Hero_Terrorblade.Metamorphosis
     AbilityCastPoint: '0.'
     AbilityCooldown: '140.0'
     AbilityManaCost: '100'
@@ -12978,6 +13356,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     AbilityType: DOTA_ABILITY_TYPE_ULTIMATE
     FightRecapLevel: '2'
+    AbilitySound: Hero_Terrorblade.Sunder.Target
     AbilityCooldown: 120.0 80.0 40.0
     AbilityCastRange: '550'
     AbilityCastPoint: '0.35'
@@ -12992,6 +13371,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_Phoenix.IcarusDive.Cast
     AbilityCastPoint: '0.2'
     AbilityCooldown: '36'
     AbilityDuration: '2.0'
@@ -13021,6 +13401,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_Phoenix.FireSpirits.Cast
     AbilityCastRange: '1400'
     AbilityCastPoint: 0.01 0.01 0.01 0.01
     AbilityCooldown: 45 40 35 30
@@ -13062,6 +13443,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_Phoenix.SunRay.Cast
     AbilityCastRange: '1300'
     AbilityCastPoint: '0.01'
     AbilityCooldown: '26'
@@ -13124,6 +13506,7 @@ DOTAAbilities:
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '2'
     HasScepterUpgrade: '1'
+    AbilitySound: Hero_Phoenix.SuperNova.Begin
     AbilityCastRange: '500'
     AbilityCastPoint: '0.01'
     AbilityCooldown: 110.0 110.0 110.0
@@ -13159,6 +13542,7 @@ DOTAAbilities:
       | DOTA_ABILITY_BEHAVIOR_HIDDEN
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
+    AbilitySound: Hero_Phoenix.FireSpirits.Launch
     AbilityCastRange: '1400'
     AbilityCastPoint: 0.01 0.01 0.01 0.01
     AbilityCooldown: 0 0 0 0
@@ -13204,6 +13588,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_Oracle.FortunesEnd.Target
     AbilityCastRange: '850'
     AbilityCastPoint: '0'
     AbilityChannelTime: '2.5'
@@ -13228,6 +13613,7 @@ DOTAAbilities:
     AbilityUnitTargetFlags: DOTA_UNIT_TARGET_FLAG_NOT_MAGIC_IMMUNE_ALLIES
     SpellImmunityType: SPELL_IMMUNITY_ALLIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
+    AbilitySound: Hero_Oracle.FatesEdict.Cast
     AbilityCastRange: 500 600 700 800
     AbilityCastPoint: '0.3'
     AbilityCooldown: 16 13 10 7
@@ -13250,6 +13636,7 @@ DOTAAbilities:
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
     HasScepterUpgrade: '1'
+    AbilitySound: Hero_Oracle.PurifyingFlames.Damage
     AbilityCastRange: '800'
     AbilityCastPoint: '0.3'
     AbilityCooldown: '2.25'
@@ -13281,6 +13668,7 @@ DOTAAbilities:
     AbilityUnitTargetTeam: DOTA_UNIT_TARGET_TEAM_FRIENDLY
     AbilityUnitTargetType: DOTA_UNIT_TARGET_HERO
     SpellDispellableType: SPELL_DISPELLABLE_NO
+    AbilitySound: Hero_Oracle.FalsePromise.Cast
     AbilityCastRange: '1000'
     AbilityCastPoint: '0.3'
     AbilityCooldown: 100 65 30
@@ -13329,6 +13717,7 @@ DOTAAbilities:
       | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE
     FightRecapLevel: '2'
     MaxLevel: '1'
+    AbilitySound: Hero_MonkeyKing.Transform.On
     AbilityCastPoint: 0.0 0.0 0.0 0.0
     AbilityCooldown: '3'
     AbilityManaCost: 0 0 0 0
@@ -13340,6 +13729,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT
       | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE
       | DOTA_ABILITY_BEHAVIOR_HIDDEN
+    AbilitySound: Hero_MonkeyKing.Transform.Off
     AbilityCastPoint: 0.0 0.0 0.0 0.0
     MaxLevel: '1'
     AbilityCooldown: '1'
@@ -13350,6 +13740,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES
     AbilityUnitTargetType: DOTA_UNIT_TARGET_TREE
     AbilityUnitTargetTeam: DOTA_UNIT_TARGET_TEAM_ENEMY
+    AbilitySound: Hero_MonkeyKing.TreeJump.Cast
     FightRecapLevel: '1'
     AbilityCastRange: '1000'
     AbilityCastPoint: '0.3'
@@ -13384,6 +13775,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_MonkeyKing.Spring.Channel
     AbilityCastPoint: '0'
     AbilityCastRange: '0'
     AbilityCooldown: 19 17 15 13
@@ -13415,6 +13807,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_PHYSICAL
     AbilityType: DOTA_ABILITY_TYPE_ULTIMATE
     FightRecapLevel: '2'
+    AbilitySound: Hero_MonkeyKing.FurArmy
     AbilityCastPoint: '1.2'
     AbilityCastRange: '0'
     AbilityCooldown: 130 110 90
@@ -13440,6 +13833,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_MonkeyKing.IronCudgel
     AbilityCooldown: '0'
     AbilitySpecial:
     - required_hits: 4
@@ -15265,6 +15659,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
+    AbilitySound: Hero_WinterWyvern.ArcticBurn.Cast
     HasScepterUpgrade: '1'
     AbilityCastPoint: 0.0 0.0 0.0 0.0
     AbilityCooldown: 50.0 40.0 30.0 20.0
@@ -15319,6 +15714,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ALLIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_Winter_Wyvern.ColdEmbrace
     AbilityCastRange: '1000'
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: 24 21 18 15
@@ -15340,6 +15736,7 @@ DOTAAbilities:
     AbilityUnitTargetFlags: DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     FightRecapLevel: '2'
+    AbilitySound: Hero_WinterWyvern.WintersCurse.Target
     AbilityCastRange: '800'
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: '80'
@@ -15376,6 +15773,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     SpellDispellableType: SPELL_DISPELLABLE_YES
     FightRecapLevel: '1'
+    AbilitySound: Hero_ArcWarden.Flux.Target
     AbilityCastRange: 500 600 700 800
     AbilityCastPoint: 0.3 0.3 0.3 0.3
     AbilityCooldown: '18.0'
@@ -15404,6 +15802,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_ArcWarden.MagneticField.Cast
     AbilityCastPoint: '0.3'
     AbilityCooldown: 35 30 25 20
     AbilityManaCost: 80 90 100 110
@@ -15427,6 +15826,7 @@ DOTAAbilities:
     AbilityUnitDamageType: DAMAGE_TYPE_MAGICAL
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     FightRecapLevel: '1'
+    AbilitySound: Hero_ArcWarden.SparkWraith.Activate
     AbilityCastRange: '2000'
     AbilityCastPoint: '0.3'
     AbilityCooldown: 4.0 4.0 4.0 4.0
@@ -15454,6 +15854,7 @@ DOTAAbilities:
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET
     AbilityType: DOTA_ABILITY_TYPE_ULTIMATE
     FightRecapLevel: '2'
+    AbilitySound: Hero_ArcWarden.TempestDouble
     AbilityCastPoint: '0.15'
     AbilityCooldown: 60 50 40
     AbilitySpecial:

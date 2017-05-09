@@ -6267,6 +6267,10 @@
   ticket: econ/leagues/kiev_major_2017
   banner: econ/leagues/kiev_major_2017_ingame
   tier: premium
+'5401':
+  ticket: econ/testitem_slot_empty
+  banner: 
+  tier: premium
 '5270':
   ticket: econ/leagues/subscriptions_czsk_dota_2_league_season_9
   banner: econ/leagues/subscriptions_czsk_dota_2_league_season_9_ingame
@@ -6383,3 +6387,91 @@
   ticket: econ/leagues/subscriptions_the_last_spartans_v_flair_gaming_league
   banner: econ/leagues/subscriptions_the_last_spartans_v_flair_gaming_league_ingame
   tier: amateur
+'5196':
+  ticket: econ/leagues/subscriptions_dota_2_beat_invitational_season_8
+  banner: econ/leagues/subscriptions_dota_2_beat_invitational_season_8_ingame
+  tier: professional
+'5336':
+  ticket: econ/leagues/subscriptions_dreamleague_season_7
+  banner: econ/leagues/subscriptions_dreamleague_season_7_ingame
+  tier: professional
+'5353':
+  ticket: econ/leagues/subscriptions_epicenter_moscow_season_2
+  banner: econ/leagues/subscriptions_epicenter_moscow_season_2_ingame
+  tier: professional
+'5392':
+  ticket: econ/leagues/subscriptions_niu_league_2017_season_2
+  banner: econ/leagues/subscriptions_niu_league_2017_season_2_ingame
+  tier: professional
+'5374':
+  ticket: econ/leagues/subscriptions_godlike_dota_2_online_tournament
+  banner: econ/leagues/subscriptions_godlike_dota_2_online_tournament_ingame
+  tier: amateur
+'5375':
+  ticket: econ/leagues/subscriptions_spring_cup
+  banner: econ/leagues/subscriptions_spring_cup_ingame
+  tier: amateur
+'5381':
+  ticket: econ/leagues/subscriptions_cybermipt_cup
+  banner: econ/leagues/subscriptions_cybermipt_cup_ingame
+  tier: amateur
+'5385':
+  ticket: econ/leagues/subscriptions_zen_icafe_dota_2_lan_tournament_jogja
+  banner: econ/leagues/subscriptions_zen_icafe_dota_2_lan_tournament_jogja_ingame
+  tier: amateur
+'5386':
+  ticket: econ/leagues/subscriptions_vandoors_online_tournament
+  banner: econ/leagues/subscriptions_vandoors_online_tournament_ingame
+  tier: amateur
+'5380':
+  ticket: econ/leagues/subscriptions_tver_cup_team
+  banner: econ/leagues/subscriptions_tver_cup_team_ingame
+  tier: amateur
+'5233':
+  ticket: econ/leagues/subscriptions_dota_2_the_open_tournament_
+  banner: econ/leagues/subscriptions_dota_2_the_open_tournament__ingame
+  tier: professional
+'5396':
+  ticket: econ/leagues/subscriptions_zotac_cup_masters
+  banner: econ/leagues/subscriptions_zotac_cup_masters_ingame
+  tier: professional
+'5364':
+  ticket: econ/leagues/subscriptions_sl_ileague_invitational_season_2
+  banner: econ/leagues/subscriptions_sl_ileague_invitational_season_2_ingame
+  tier: professional
+'5400':
+  ticket: econ/leagues/subscriptions_eu_dota_cup
+  banner: econ/leagues/subscriptions_eu_dota_cup_ingame
+  tier: amateur
+'5383':
+  ticket: econ/leagues/subscriptions_ad2l_season_16
+  banner: econ/leagues/subscriptions_ad2l_season_16_ingame
+  tier: amateur
+'5388':
+  ticket: econ/leagues/subscriptions_kod_league_2017
+  banner: econ/leagues/subscriptions_kod_league_2017_ingame
+  tier: professional
+'5404':
+  ticket: econ/leagues/subscriptions_u_tournament
+  banner: econ/leagues/subscriptions_u_tournament_ingame
+  tier: amateur
+'5407':
+  ticket: econ/leagues/subscriptions_esl_india_premiership__2017_edition
+  banner: econ/leagues/subscriptions_esl_india_premiership__2017_edition_ingame
+  tier: professional
+'5418':
+  ticket: econ/leagues/subscriptions_wca_tournament_platform_classic
+  banner: econ/leagues/subscriptions_wca_tournament_platform_classic_ingame
+  tier: professional
+'5420':
+  ticket: econ/leagues/subscriptions_afm_dota_2_tournament
+  banner: econ/leagues/subscriptions_afm_dota_2_tournament_ingame
+  tier: amateur
+'5413':
+  ticket: econ/leagues/subscriptions_wucg
+  banner: econ/leagues/subscriptions_wucg_ingame
+  tier: amateur
+'5340':
+  ticket: econ/leagues/subscriptions_sea_vs_aus_invitational
+  banner: econ/leagues/subscriptions_sea_vs_aus_invitational_ingame
+  tier: professional
