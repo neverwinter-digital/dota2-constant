@@ -177,15 +177,15 @@ def run_update_locales
   LANGUAGES.keys.each do |lang_code|
     FileUtils.mkdir_p "locales/#{lang_code}"
 
-    #JSFEEDS.keys.each do |jsfeed|
-    #  get_jsfeed(jsfeed, lang_code)
-    #end
+    JSFEEDS.keys.each do |jsfeed|
+     get_jsfeed(jsfeed, lang_code)
+    end
 
-    #PEDIA_TYPES.keys.each do |type|
-    #  get_pediadata(type, lang_code)
-    #end
+    PEDIA_TYPES.keys.each do |type|
+     get_pediadata(type, lang_code)
+    end
 
-    #get_league(lang_code)
+    get_league(lang_code)
 
   end
 end

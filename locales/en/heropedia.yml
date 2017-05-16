@@ -58,8 +58,8 @@ herodata:
         g: '2.10'
       ms: 310
       dmg:
-        min: 33
-        max: 39
+        min: 37
+        max: 43
       armor: 4.08
     dac: Ranged
     droles: Support - Disabler - Nuker - Durable
@@ -161,7 +161,7 @@ herodata:
       agi:
         b: 26
         g: '2.40'
-      ms: 305
+      ms: 300
       dmg:
         min: 22
         max: 26
@@ -268,8 +268,8 @@ herodata:
         g: '1.70'
       ms: 295
       dmg:
-        min: 22
-        max: 33
+        min: 28
+        max: 39
       armor: 2.08
     dac: Ranged
     droles: Initiator - Disabler - Escape - Nuker
@@ -287,7 +287,7 @@ herodata:
       agi:
         b: 14
         g: '1.50'
-      ms: 285
+      ms: 280
       dmg:
         min: 27
         max: 33
@@ -303,7 +303,7 @@ herodata:
         b: 21
         g: '2.30'
       int:
-        b: 19
+        b: 21
         g: '1.80'
       agi:
         b: 22
@@ -394,8 +394,8 @@ herodata:
         g: '0.90'
       ms: 285
       dmg:
-        min: 37
-        max: 43
+        min: 40
+        max: 46
       armor: 0.26
     dac: Melee
     droles: Carry - Nuker - Pusher - Initiator - Durable - Disabler
@@ -450,7 +450,7 @@ herodata:
         b: 19
         g: '2.30'
       int:
-        b: 20
+        b: 22
         g: '2.70'
       agi:
         b: 11
@@ -562,9 +562,9 @@ herodata:
         g: '1.60'
       ms: 285
       dmg:
-        min: 26
-        max: 33
-      armor: 1.24
+        min: 44
+        max: 51
+      armor: 2.24
     dac: Ranged
     droles: Support - Pusher - Disabler - Nuker - Initiator
   slardar:
@@ -727,8 +727,8 @@ herodata:
         g: '2.50'
       agi:
         b: 15
-        g: '1.70'
-      ms: 290
+        g: '1.20'
+      ms: 285
       dmg:
         min: 22
         max: 26
@@ -749,7 +749,7 @@ herodata:
       agi:
         b: 10
         g: '1.00'
-      ms: 295
+      ms: "295\t"
       dmg:
         min: 22
         max: 32
@@ -832,7 +832,7 @@ herodata:
         g: '1.50'
       agi:
         b: 23
-        g: '2.65'
+        g: '2.80'
       ms: 300
       dmg:
         min: 33
@@ -868,7 +868,7 @@ herodata:
     attribs:
       str:
         b: 17
-        g: '1.90'
+        g: '2.30'
       int:
         b: 23
         g: '3.00'
@@ -917,7 +917,7 @@ herodata:
       agi:
         b: 16
         g: '1.00'
-      ms: 330
+      ms: 335
       dmg:
         min: 19
         max: 27
@@ -982,9 +982,9 @@ herodata:
         g: '3.30'
       ms: 335
       dmg:
-        min: 26
-        max: 32
-      armor: 3.52
+        min: 20
+        max: 26
+      armor: 2.52
     dac: Ranged
     droles: Carry - Nuker - Pusher
   dragon_knight:
@@ -1035,7 +1035,7 @@ herodata:
     pa: str
     attribs:
       str:
-        b: 24
+        b: 26
         g: '2.90'
       int:
         b: 17
@@ -1087,8 +1087,8 @@ herodata:
         g: '1.90'
       ms: 295
       dmg:
-        min: 24
-        max: 38
+        min: 30
+        max: 44
       armor: 3.52
     dac: Ranged
     droles: Carry - Jungler - Pusher - Escape - Nuker
@@ -1108,8 +1108,8 @@ herodata:
         g: '1.90'
       ms: 315
       dmg:
-        min: 32
-        max: 42
+        min: 27
+        max: 37
       armor: 1.52
     dac: Melee
     droles: Carry - Durable - Jungler - Escape - Disabler
@@ -1127,7 +1127,7 @@ herodata:
       agi:
         b: 12
         g: '1.20'
-      ms: 300
+      ms: 295
       dmg:
         min: 31
         max: 37
@@ -1185,12 +1185,12 @@ herodata:
         b: 16
         g: '1.00'
       int:
-        b: 16
-        g: '2.80'
+        b: 19
+        g: '3.10'
       agi:
         b: 19
         g: '1.80'
-      ms: 335
+      ms: 340
       dmg:
         min: 31
         max: 41
@@ -1295,10 +1295,10 @@ herodata:
       agi:
         b: 14
         g: '2.80'
-      ms: 290
+      ms: 285
       dmg:
-        min: 41
-        max: 51
+        min: 36
+        max: 46
       armor: 0.96
     dac: Ranged
     droles: Carry - Escape
@@ -1518,8 +1518,8 @@ herodata:
     pa: int
     attribs:
       str:
-        b: 17
-        g: '1.70'
+        b: 16
+        g: '1.90'
       int:
         b: 16
         g: '4.00'
@@ -1581,14 +1581,14 @@ herodata:
     pa: str
     attribs:
       str:
-        b: 22
+        b: 25
         g: '3.00'
       int:
         b: 17
         g: '1.55'
       agi:
         b: 16
-        g: '1.90'
+        g: '1.00'
       ms: 305
       dmg:
         min: 36
@@ -1654,8 +1654,8 @@ herodata:
         g: '2.70'
       ms: 325
       dmg:
-        min: 22
-        max: 26
+        min: 18
+        max: 22
       armor: 3.36
     dac: Ranged
     droles: Carry - Pusher - Jungler - Durable
@@ -1698,7 +1698,7 @@ herodata:
       dmg:
         min: 20
         max: 26
-      armor: 4.22
+      armor: 2.22
     dac: Melee
     droles: Carry - Escape - Nuker - Disabler - Initiator - Pusher
   treant:
@@ -1715,7 +1715,7 @@ herodata:
       agi:
         b: 15
         g: '2.00'
-      ms: 300
+      ms: 290
       dmg:
         min: 62
         max: 70
@@ -1732,11 +1732,11 @@ herodata:
         g: '3.20'
       int:
         b: 17
-        g: '2.40'
+        g: '2.00'
       agi:
         b: 14
         g: '1.55'
-      ms: 295
+      ms: 285
       dmg:
         min: 41
         max: 47
@@ -1865,7 +1865,7 @@ herodata:
       ms: 335
       dmg:
         min: 18
-        max: 32
+        max: 25
       armor: 1.1
     dac: Ranged
     droles: Support - Nuker - Disabler - Jungler
@@ -1906,8 +1906,8 @@ herodata:
         g: '1.30'
       ms: 285
       dmg:
-        min: 24
-        max: 34
+        min: 21
+        max: 31
       armor: -0.46
     dac: Ranged
     droles: Support - Nuker - Durable - Disabler - Pusher
@@ -1917,15 +1917,15 @@ herodata:
     pa: agi
     attribs:
       str:
-        b: 21
-        g: '1.80'
+        b: 20
+        g: '1.60'
       int:
         b: 16
         g: '1.90'
       agi:
         b: 21
         g: '1.50'
-      ms: 305
+      ms: 300
       dmg:
         min: 33
         max: 41
@@ -1987,12 +1987,12 @@ herodata:
         g: '1.60'
       agi:
         b: 15
-        g: '2.00'
+        g: '1.60'
       ms: 300
       dmg:
         min: 32
         max: 34
-      armor: 3.1
+      armor: 2.1
     dac: Melee
     droles: Durable - Initiator - Disabler - Nuker - Escape
   magnataur:
@@ -2093,7 +2093,7 @@ herodata:
       agi:
         b: 13
         g: '0.80'
-      ms: 325
+      ms: 330
       dmg:
         min: 12
         max: 22
@@ -2107,7 +2107,7 @@ herodata:
     attribs:
       str:
         b: 23
-        g: '2.70'
+        g: '2.30'
       int:
         b: 21
         g: '2.00'
@@ -2134,7 +2134,7 @@ herodata:
         g: '1.60'
       agi:
         b: 14
-        g: '1.50'
+        g: '1.80'
       ms: 315
       dmg:
         min: 23
@@ -2170,7 +2170,7 @@ herodata:
     attribs:
       str:
         b: 19
-        g: '2.00'
+        g: '1.80'
       int:
         b: 20
         g: '1.80'
@@ -2198,7 +2198,7 @@ herodata:
       agi:
         b: 17
         g: '1.50'
-      ms: 295
+      ms: 290
       dmg:
         min: 25
         max: 35
@@ -2232,7 +2232,7 @@ herodata:
     pa: str
     attribs:
       str:
-        b: 17
+        b: 19
         g: '2.90'
       int:
         b: 18
@@ -2317,7 +2317,7 @@ herodata:
     attribs:
       str:
         b: 24
-        g: '2.30'
+        g: '2.70'
       int:
         b: 24
         g: '2.60'
@@ -2345,7 +2345,7 @@ herodata:
       agi:
         b: 12
         g: '1.30'
-      ms: 305
+      ms: 290
       dmg:
         min: 37
         max: 43
@@ -2353,13 +2353,13 @@ herodata:
     dac: Melee
     droles: Support - Nuker - Disabler - Durable - Escape
   monkey_king:
-    dname: npc_dota_hero_monkey_king
-    u: MonkeyKing
+    dname: Monkey King
+    u: Monkey_King
     pa: agi
     attribs:
       str:
         b: 18
-        g: '2.20'
+        g: '2.50'
       int:
         b: 20
         g: '1.80'
@@ -2370,6 +2370,6 @@ herodata:
       dmg:
         min: 30
         max: 36
-      armor: 3.08
+      armor: 0.08
     dac: Melee
     droles: Carry - Escape - Disabler - Initiator

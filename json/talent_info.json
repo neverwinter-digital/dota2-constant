@@ -158,7 +158,7 @@
         },
         "6230": {
             "type": "level_25_right",
-            "info_en": "-7s Bloodrite Cooldown",
+            "info_en": "-7s Blood Rite Cooldown",
             "info_zh": "-7秒 血之祭祀冷却"
         },
         "6121": {
@@ -193,10 +193,10 @@
             "info_en": "+120 Gold/Min",
             "info_zh": "+120 金钱/分"
         },
-        "6038": {
+        "6520": {
             "type": "level_20_left",
-            "info_en": "-35s Respawn Time",
-            "info_zh": "-35秒 复活时间"
+            "info_en": "+50 Freezing Field Damage",
+            "info_zh": "+50 极寒领域伤害"
         },
         "6072": {
             "type": "level_25_right",
@@ -277,10 +277,10 @@
             "info_en": "+40 Echo Damage",
             "info_zh": "+40 回音击伤害"
         },
-        "6038": {
+        "6511": {
             "type": "level_20_left",
-            "info_en": "-35s Respawn Time",
-            "info_zh": "-35秒 复活时间"
+            "info_en": "+350 Fissure Range",
+            "info_zh": "+350 沟壑距离"
         },
         "6377": {
             "type": "level_25_right",
@@ -571,10 +571,10 @@
             "info_en": "+150 Gold/Min",
             "info_zh": "+150 金钱/分"
         },
-        "6066": {
+        "6506": {
             "type": "level_20_left",
-            "info_en": "-40s Respawn Time",
-            "info_zh": "-40秒 复活时间"
+            "info_en": "+1s Dismember Duration",
+            "info_zh": "+1秒 肢解持续时间"
         },
         "6023": {
             "type": "level_25_right",
@@ -645,10 +645,10 @@
             "info_en": "+50 Sand Storm DPS",
             "info_zh": "+50 沙尘暴每秒伤害"
         },
-        "5964": {
+        "6530": {
             "type": "level_15_left",
-            "info_en": "-30s Respawn Time",
-            "info_zh": "-30秒 复活时间"
+            "info_en": "-50 Epicenter Attack Slow",
+            "info_zh": "-50 地震攻速降低"
         },
         "6195": {
             "type": "level_20_right",
@@ -860,25 +860,25 @@
             "info_en": "+20 Intelligence",
             "info_zh": "+20 智力"
         },
-        "6055": {
-            "type": "level_20_right",
-            "info_en": "+15% Spell Amplification",
-            "info_zh": "+15% 技能增强"
-        },
-        "6000": {
-            "type": "level_20_left",
-            "info_en": "+20% Magic Resistance",
-            "info_zh": "+20% 魔法抗性"
-        },
-        "5943": {
-            "type": "level_25_right",
-            "info_en": "+100 Attack Range",
-            "info_zh": "+100 攻击距离"
-        },
         "6144": {
+            "type": "level_20_right",
+            "info_en": "Windrun Grants Invisibility",
+            "info_zh": "风行提供隐身效果"
+        },
+        "6562": {
+            "type": "level_20_left",
+            "info_en": "+120 Powershot Damage",
+            "info_zh": "+120 强力击伤害"
+        },
+        "5963": {
+            "type": "level_25_right",
+            "info_en": "+150 Attack Range",
+            "info_zh": "+150 攻击距离"
+        },
+        "6561": {
             "type": "level_25_left",
-            "info_en": "-7s Powershot Cooldown",
-            "info_zh": "-7秒 强力击冷却"
+            "info_en": "30% Cooldown Reduction",
+            "info_zh": "30% 冷却时间减少"
         }
     },
     "22": {
@@ -907,10 +907,10 @@
             "info_en": "+75 Arc Lightning Damage",
             "info_zh": "+75 弧形闪电伤害"
         },
-        "6066": {
+        "6518": {
             "type": "level_20_left",
-            "info_en": "-40s Respawn Time",
-            "info_zh": "-40秒 复活时间"
+            "info_en": "+0.5s Lightning Bolt Ministun",
+            "info_zh": "+0.5秒 雷击眩晕"
         },
         "6114": {
             "type": "level_25_right",
@@ -981,10 +981,10 @@
             "info_en": "+50 Damage",
             "info_zh": "+50 攻击力"
         },
-        "5964": {
+        "6093": {
             "type": "level_15_left",
-            "info_en": "-30s Respawn Time",
-            "info_zh": "-30秒 复活时间"
+            "info_en": "+40 Movement Speed",
+            "info_zh": "+40 移动速度"
         },
         "5996": {
             "type": "level_20_right",
@@ -1050,10 +1050,10 @@
         }
     },
     "26": {
-        "5964": {
+        "5947": {
             "type": "level_10_right",
-            "info_en": "-30s Respawn Time",
-            "info_zh": "-30秒 复活时间"
+            "info_en": "+75 Cast Range",
+            "info_zh": "+75 施法距离"
         },
         "6366": {
             "type": "level_10_left",
@@ -1112,10 +1112,10 @@
             "info_en": "+35% XP Gain",
             "info_zh": "+35% 经验获取"
         },
-        "5964": {
+        "6521": {
             "type": "level_20_right",
-            "info_en": "-30s Respawn Time",
-            "info_zh": "-30秒 复活时间"
+            "info_en": "+4 Wards Summoned",
+            "info_zh": "+4 召唤的守卫"
         },
         "6295": {
             "type": "level_20_left",
@@ -1233,10 +1233,10 @@
             "info_en": "+90 Damage",
             "info_zh": "+90 攻击力"
         },
-        "6066": {
+        "6524": {
             "type": "level_15_left",
-            "info_en": "-40s Respawn Time",
-            "info_zh": "-40秒 复活时间"
+            "info_en": "+2 Cask Bounces",
+            "info_zh": "+2 麻痹药剂弹跳"
         },
         "5934": {
             "type": "level_20_right",
@@ -1327,10 +1327,10 @@
             "info_en": "+300 Health",
             "info_zh": "+300 生命"
         },
-        "6066": {
+        "6510": {
             "type": "level_20_left",
-            "info_en": "-40s Respawn Time",
-            "info_zh": "-40秒 复活时间"
+            "info_en": "+1 Malefice Instance",
+            "info_zh": "+1 憎恶触发次数"
         },
         "6286": {
             "type": "level_25_right",
@@ -1495,10 +1495,10 @@
             "info_en": "+350 Health",
             "info_zh": "+350 生命"
         },
-        "5964": {
+        "6505": {
             "type": "level_20_left",
-            "info_en": "-30s Respawn Time",
-            "info_zh": "-30秒 复活时间"
+            "info_en": "Summons a Golem on death",
+            "info_zh": "死亡时召唤地狱火"
         },
         "6053": {
             "type": "level_25_right",
@@ -1527,10 +1527,10 @@
             "info_en": "+12 Strength",
             "info_zh": "+12 力量"
         },
-        "6038": {
+        "6517": {
             "type": "level_15_left",
-            "info_en": "-35s Respawn Time",
-            "info_zh": "-35秒 复活时间"
+            "info_en": "+1 Boar Summoned",
+            "info_zh": "+1 召唤的豪猪"
         },
         "6190": {
             "type": "level_20_right",
@@ -1586,8 +1586,8 @@
         },
         "6407": {
             "type": "level_25_right",
-            "info_en": "Removed Shadow Strike Cooldown",
-            "info_zh": "暗影突袭无冷却"
+            "info_en": "550 AoE Shadow Strike",
+            "info_zh": "暗影突袭变为550范围技能"
         },
         "6061": {
             "type": "level_25_left",
@@ -1626,10 +1626,10 @@
             "info_en": "+15% Magic Resistance",
             "info_zh": "+15% 魔法抗性"
         },
-        "6059": {
+        "6532": {
             "type": "level_25_right",
-            "info_en": "-60s Respawn Time",
-            "info_zh": "-60秒 复活时间"
+            "info_en": "+14% Poison Sting Slow",
+            "info_zh": "+14% 毒刺减速"
         },
         "6058": {
             "type": "level_25_left",
@@ -1705,20 +1705,20 @@
             "info_en": "+40 Attack Speed",
             "info_zh": "+40 攻击速度"
         },
-        "6080": {
+        "6088": {
             "type": "level_20_left",
-            "info_en": "+20 Strength",
-            "info_zh": "+20 力量"
+            "info_en": "+10% Vampiric Aura Lifesteal",
+            "info_zh": "+10% 吸血光环吸血"
         },
         "6201": {
             "type": "level_25_right",
             "info_en": "No Reincarnation Manacost",
             "info_zh": "重生不消耗魔法"
         },
-        "6088": {
+        "6566": {
             "type": "level_25_left",
-            "info_en": "+20% Vampiric Aura Lifesteal",
-            "info_zh": "+20% 吸血光环吸血"
+            "info_en": "Reincarnation Casts Wraithfire Blast",
+            "info_zh": "重生施放冥火暴击"
         }
     },
     "43": {
@@ -1816,10 +1816,10 @@
             "info_en": "+225 Health",
             "info_zh": "+225 生命"
         },
-        "6038": {
+        "6541": {
             "type": "level_15_right",
-            "info_en": "-35s Respawn Time",
-            "info_zh": "-35秒 复活时间"
+            "info_en": "+1s Decrepify Duration",
+            "info_zh": "+1秒 衰老持续时间"
         },
         "6448": {
             "type": "level_15_left",
@@ -1878,10 +1878,10 @@
             "info_en": "+40 Damage",
             "info_zh": "+40 攻击力"
         },
-        "5964": {
+        "6545": {
             "type": "level_25_right",
-            "info_en": "-30s Respawn Time",
-            "info_zh": "-30秒 复活时间"
+            "info_en": "-8 Meld Armor Reduction",
+            "info_zh": "-8 隐匿降低护甲"
         },
         "6071": {
             "type": "level_25_left",
@@ -2041,10 +2041,10 @@
             "info_en": "+25 Movement Speed",
             "info_zh": "+25 移动速度"
         },
-        "5964": {
+        "6528": {
             "type": "level_20_left",
-            "info_en": "-30s Respawn Time",
-            "info_zh": "-30秒 复活时间"
+            "info_en": "+25 Poison Touch DPS",
+            "info_zh": "+25 剧毒之触每秒伤害"
         },
         "6049": {
             "type": "level_25_right",
@@ -2078,10 +2078,10 @@
             "info_en": "+75 Rocket Flare Damage",
             "info_zh": "+75 照明火箭伤害"
         },
-        "5954": {
+        "6512": {
             "type": "level_20_right",
-            "info_en": "-25s Respawn Time",
-            "info_zh": "-25秒 复活时间"
+            "info_en": "+40 Battery Assault Damage",
+            "info_zh": "+40 弹幕冲击伤害"
         },
         "6299": {
             "type": "level_20_left",
@@ -2172,10 +2172,10 @@
             "info_en": "+10 Armor",
             "info_zh": "+10 护甲"
         },
-        "6066": {
+        "6539": {
             "type": "level_25_right",
-            "info_en": "-40s Respawn Time",
-            "info_zh": "-40秒 复活时间"
+            "info_en": "Removed Teleportation Cooldown",
+            "info_zh": "传送无冷却"
         },
         "6084": {
             "type": "level_25_left",
@@ -2382,10 +2382,10 @@
             "info_en": "+60 Untouchable Slow",
             "info_zh": "+60 不可侵犯减速"
         },
-        "6269": {
+        "6515": {
             "type": "level_25_right",
-            "info_en": "-50s Respawn Time",
-            "info_zh": "-50秒 复活时间"
+            "info_en": "+6% Impetus Damage",
+            "info_zh": "+6% 推进伤害"
         },
         "6331": {
             "type": "level_25_left",
@@ -2634,10 +2634,10 @@
             "info_en": "+150 Gold/Min",
             "info_zh": "+150 金钱/分"
         },
-        "6269": {
+        "6538": {
             "type": "level_25_right",
-            "info_en": "-50s Respawn Time",
-            "info_zh": "-50秒 复活时间"
+            "info_en": "Macropyre Pure and Pierces Immunity",
+            "info_zh": "烈焰焚身为纯粹且无视技能免疫"
         },
         "6064": {
             "type": "level_25_left",
@@ -2713,10 +2713,10 @@
             "info_en": "+90 Gold/Min",
             "info_zh": "+90 金钱/分"
         },
-        "6375": {
+        "6535": {
             "type": "level_20_left",
-            "info_en": "-45s Respawn Time",
-            "info_zh": "-45秒 复活时间"
+            "info_en": "+1000 Creep Health",
+            "info_zh": "+1000 被劝化单位生命"
         },
         "6259": {
             "type": "level_25_right",
@@ -2834,15 +2834,15 @@
             "info_en": "+30 Health Regen",
             "info_zh": "+30 生命恢复"
         },
-        "6077": {
+        "5976": {
             "type": "level_20_right",
-            "info_en": "+35 Movement Speed",
-            "info_zh": "+35 移动速度"
+            "info_en": "+400 Health",
+            "info_zh": "+400 生命"
         },
-        "6038": {
+        "6534": {
             "type": "level_20_left",
-            "info_en": "-35s Respawn Time",
-            "info_zh": "-35秒 复活时间"
+            "info_en": "+8% Ice Vortex Slow/Resistance",
+            "info_zh": "+8% 冰霜漩涡减速/伤害加深"
         },
         "6214": {
             "type": "level_25_right",
@@ -2923,10 +2923,10 @@
             "info_en": "+120 Gold/Min",
             "info_zh": "+120 金钱/分"
         },
-        "6066": {
+        "6543": {
             "type": "level_20_left",
-            "info_en": "-40s Respawn Time",
-            "info_zh": "-40秒 复活时间"
+            "info_en": "+30% Greater Bash Damage",
+            "info_zh": "+30% 巨力重击伤害"
         },
         "6149": {
             "type": "level_25_right",
@@ -3130,10 +3130,10 @@
             "info_en": "+200 Health",
             "info_zh": "+200 生命"
         },
-        "5954": {
+        "6519": {
             "type": "level_15_right",
-            "info_en": "-25s Respawn Time",
-            "info_zh": "-25秒 复活时间"
+            "info_en": "+12 Feral HP Regen",
+            "info_zh": "+12 野性驱使生命恢复"
         },
         "5928": {
             "type": "level_15_left",
@@ -3182,10 +3182,10 @@
             "info_en": "+15% Magic Resistance",
             "info_zh": "+15% 魔法抗性"
         },
-        "6066": {
+        "6516": {
             "type": "level_20_right",
-            "info_en": "-40s Respawn Time",
-            "info_zh": "-40秒 复活时间"
+            "info_en": "+2s Thunderlap Slow",
+            "info_zh": "+2秒 雷霆一击减速"
         },
         "6080": {
             "type": "level_20_left",
@@ -3229,10 +3229,10 @@
             "info_en": "+10% Magic Resistance",
             "info_zh": "+10% 魔法抗性"
         },
-        "5954": {
+        "6542": {
             "type": "level_20_left",
-            "info_en": "-25s Respawn Time",
-            "info_zh": "-25秒 复活时间"
+            "info_en": "-1.5s Shadow Poison Cooldown",
+            "info_zh": "-1.5秒 暗影剧毒冷却"
         },
         "6208": {
             "type": "level_25_right",
@@ -3271,10 +3271,10 @@
             "info_en": "+12 Spirit Bear Armor",
             "info_zh": "+12 熊灵护甲"
         },
-        "6066": {
+        "6508": {
             "type": "level_20_left",
-            "info_en": "-40s Respawn Time",
-            "info_zh": "-40秒 复活时间"
+            "info_en": "+50% Spirit Bear Magic Resistance",
+            "info_zh": "+50% 熊灵魔法抗性"
         },
         "6263": {
             "type": "level_25_right",
@@ -3402,10 +3402,10 @@
             "info_en": "+90 Damage",
             "info_zh": "+90 攻击力"
         },
-        "6269": {
+        "6531": {
             "type": "level_25_right",
-            "info_en": "-50s Respawn Time",
-            "info_zh": "-50秒 复活时间"
+            "info_en": "+40 Leech Seed Damage/Heal",
+            "info_zh": "+40 寄生种子伤害/治疗"
         },
         "6024": {
             "type": "level_25_left",
@@ -3456,10 +3456,10 @@
         }
     },
     "85": {
-        "5964": {
+        "5914": {
             "type": "level_10_right",
-            "info_en": "-30s Respawn Time",
-            "info_zh": "-30秒 复活时间"
+            "info_en": "+15 Health Regen",
+            "info_zh": "+15 生命恢复"
         },
         "6007": {
             "type": "level_10_left",
@@ -3555,10 +3555,10 @@
             "info_en": "-3s Kinetic Field Cooldown",
             "info_zh": "-3秒 动能力场冷却"
         },
-        "5964": {
+        "6536": {
             "type": "level_15_left",
-            "info_en": "-30s Respawn Time",
-            "info_zh": "-30秒 复活时间"
+            "info_en": "+40 Thunder Strike Damage",
+            "info_zh": "+40 雷霆之击伤害"
         },
         "5976": {
             "type": "level_20_right",
@@ -3681,10 +3681,10 @@
             "info_en": "+20% XP Gain",
             "info_zh": "+20% 经验获取"
         },
-        "5954": {
+        "6527": {
             "type": "level_15_left",
-            "info_en": "-25s Respawn Time",
-            "info_zh": "-25秒 复活时间"
+            "info_en": "+300 Chakra Magic Mana",
+            "info_zh": "+300 查克拉魔法回复"
         },
         "5937": {
             "type": "level_20_right",
@@ -3743,10 +3743,10 @@
             "info_en": "+120 Gold/Min",
             "info_zh": "+120 金钱/分"
         },
-        "6269": {
+        "6537": {
             "type": "level_25_left",
-            "info_en": "-50s Respawn Time",
-            "info_zh": "-50秒 复活时间"
+            "info_en": "Tether Stuns",
+            "info_zh": "羁绊造成眩晕"
         }
     },
     "92": {
@@ -3775,10 +3775,10 @@
             "info_en": "+300 Health",
             "info_zh": "+300 生命"
         },
-        "6066": {
+        "6522": {
             "type": "level_20_left",
-            "info_en": "-40s Respawn Time",
-            "info_zh": "-40秒 复活时间"
+            "info_en": "Soul Assumption Double Strike",
+            "info_zh": "灵魂超度攻击两个目标"
         },
         "6236": {
             "type": "level_25_right",
@@ -3990,15 +3990,15 @@
             "info_en": "+40 Movement Speed",
             "info_zh": "+40 移动速度"
         },
-        "6038": {
+        "6507": {
             "type": "level_25_right",
-            "info_en": "-35s Respawn Time",
-            "info_zh": "-35秒 复活时间"
+            "info_en": "+500 Skewer Range",
+            "info_zh": "+500 巨角冲撞距离"
         },
-        "6199": {
+        "6175": {
             "type": "level_25_left",
-            "info_en": "-4s Shockwave Cooldown",
-            "info_zh": "-4秒 震荡波冷却"
+            "info_en": "+15 Armor",
+            "info_zh": "+15 护甲"
         }
     },
     "98": {
@@ -4069,10 +4069,10 @@
             "info_en": "+50 Attack Speed",
             "info_zh": "+50 攻击速度"
         },
-        "6066": {
+        "6564": {
             "type": "level_20_left",
-            "info_en": "-40s Respawn Time",
-            "info_zh": "-40秒 复活时间"
+            "info_en": "10% Spell Lifesteal",
+            "info_zh": "10% 技能吸血"
         },
         "6351": {
             "type": "level_25_right",
@@ -4138,10 +4138,10 @@
             "info_en": "+7 Intelligence",
             "info_zh": "+7 智力"
         },
-        "5942": {
+        "6564": {
             "type": "level_15_right",
-            "info_en": "+75 Damage",
-            "info_zh": "+75 攻击力"
+            "info_en": "10% Spell Lifesteal",
+            "info_zh": "10% 技能吸血"
         },
         "6007": {
             "type": "level_15_left",
@@ -4212,10 +4212,10 @@
         }
     },
     "103": {
-        "5953": {
+        "6094": {
             "type": "level_10_right",
-            "info_en": "-20s Respawn Time",
-            "info_zh": "-20秒 复活时间"
+            "info_en": "+200 Mana",
+            "info_zh": "+200 魔法"
         },
         "6137": {
             "type": "level_10_left",
@@ -4279,10 +4279,10 @@
             "info_en": "+7 Armor",
             "info_zh": "+7 护甲"
         },
-        "5953": {
+        "6526": {
             "type": "level_20_left",
-            "info_en": "-20s Respawn Time",
-            "info_zh": "-20秒 复活时间"
+            "info_en": "+10% Moment Proc Chance",
+            "info_zh": "+10% 勇气之霎触发几率"
         },
         "6218": {
             "type": "level_25_right",
@@ -4368,10 +4368,10 @@
             "info_en": "+300 Health",
             "info_zh": "+300 生命"
         },
-        "6375": {
+        "6514": {
             "type": "level_25_right",
-            "info_en": "-45s Respawn Time",
-            "info_zh": "-45秒 复活时间"
+            "info_en": "Geomagnetic Grip Targets Allies",
+            "info_zh": "地磁之握可作用友军"
         },
         "6203": {
             "type": "level_25_left",
@@ -4422,10 +4422,10 @@
         }
     },
     "110": {
-        "5953": {
+        "6017": {
             "type": "level_10_right",
-            "info_en": "-20s Respawn Time",
-            "info_zh": "-20秒 复活时间"
+            "info_en": "+20% XP Gain",
+            "info_zh": "+20% 经验获取"
         },
         "6034": {
             "type": "level_10_left",
@@ -4464,10 +4464,10 @@
         }
     },
     "111": {
-        "5953": {
+        "6540": {
             "type": "level_10_right",
-            "info_en": "-20s Respawn Time",
-            "info_zh": "-20秒 复活时间"
+            "info_en": "+0.75s Fortune's End Max Duration",
+            "info_zh": "+0.75秒 气运之末最大持续时间"
         },
         "6017": {
             "type": "level_10_left",
@@ -4541,10 +4541,10 @@
             "info_en": "20% Cooldown Reduction",
             "info_zh": "20% 冷却时间减少"
         },
-        "6059": {
+        "6556": {
             "type": "level_25_left",
-            "info_en": "-60s Respawn Time",
-            "info_zh": "-60秒 复活时间"
+            "info_en": "+250 Damage",
+            "info_zh": "+250 攻击力"
         }
     },
     "127": {
@@ -4580,10 +4580,10 @@
             "info_en": "+120 Gold/Min",
             "info_zh": "+120 金钱/分"
         },
-        "6038": {
+        "6523": {
             "type": "level_20_left",
-            "info_en": "-35s Respawn Time",
-            "info_zh": "-35秒 复活时间"
+            "info_en": "+1s Cold Embrace Duration",
+            "info_zh": "+1秒 极寒之拥持续时间"
         },
         "6106": {
             "type": "level_25_right",
