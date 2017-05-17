@@ -415,7 +415,7 @@
         },
         "6070": {
             "type": "level_25_left",
-            "info_en": "+125 Shadow Raze Damage",
+            "info_en": "+150 Shadow Raze Damage",
             "info_zh": "+125 毁灭阴影伤害"
         }
     },
@@ -2720,7 +2720,7 @@
         },
         "6259": {
             "type": "level_25_right",
-            "info_en": "+2 Holy Persuation Max Count",
+            "info_en": "+2 Holy Persuasion Max Count",
             "info_zh": "+2 神圣劝化数量上限"
         },
         "6260": {
