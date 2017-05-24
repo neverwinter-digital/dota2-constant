@@ -229,10 +229,7 @@ abilitydata:
       KILL MOVE SPEED BONUS: <span class="attribVal">30%</span><br />
       KILL ATTACK SPEED BONUS: <span class="attribVal">30</span><br />
       KILL SPEED DURATION: <span class="attribVal">6</span><br />
-      KILL SPEED RADIUS: <span class="attribVal">900</span><br />
-      <span class="scepterVal">SCEPTER COOLDOWN:</span> <span class="attribVal">6 / 6 / 6</span><br />
-      <span class="scepterVal">SCEPTER KILL THRESHOLD:</span> <span class="attribVal">300 / 425 / 550</span><br />
-      <span class="scepterVal">SCEPTER SPEED DURATION:</span> <span class="attribVal">10</span>
+      KILL SPEED RADIUS: <span class="attribVal">900</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 60/120/180</div><div class="cooldown"><img
@@ -270,7 +267,7 @@ abilitydata:
     attrib: ''
     cmb: ''
     lore: ''
-    hurl: Skywrath_Mage
+    hurl: Venomancer
   special_bonus_hp_250:
     dname: "+250 Health"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -396,10 +393,7 @@ abilitydata:
     attrib: |-
       MANA DRAIN: <span class="attribVal">5%</span><br />
       DURATION: <span class="attribVal">5 / 5 / 5</span><br />
-      DAMAGE: <span class="attribVal">100 / 155 / 215</span><br />
-      <span class="scepterVal">SCEPTER MANA DRAIN:</span> <span class="attribVal">10%</span><br />
-      <span class="scepterVal">SCEPTER DURATION:</span> <span class="attribVal">7</span><br />
-      <span class="scepterVal">SCEPTER DAMAGE:</span> <span class="attribVal">155 / 215 / 270</span>
+      DAMAGE: <span class="attribVal">100 / 155 / 215</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 200/300/400</div><div class="cooldown"><img
@@ -437,7 +431,7 @@ abilitydata:
     attrib: ''
     cmb: ''
     lore: ''
-    hurl: Abaddon
+    hurl: Elder_Titan
   special_bonus_exp_boost_30:
     dname: "+30% XP Gain"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -528,7 +522,7 @@ abilitydata:
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 100</div><div class="cooldown"><img alt="Cooldown"
       title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 25/21/17/13</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 18/16/14/12</div><br clear="left" /></div>
     lore: The Flayed Twins are ever willing to aid those who spill blood upon the
       field of battle.
     hurl: Bloodseeker
@@ -729,7 +723,7 @@ abilitydata:
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 200/400/600</div><div class="cooldown"><img
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 90</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 110/100/90</div><br clear="left" /></div>
     lore: Once the place of her exile, Icewrack has become an anchor for Rylai's frigid
       onslaught.
     hurl: Crystal_Maiden
@@ -773,16 +767,16 @@ abilitydata:
     cmb: ''
     lore: ''
     hurl: Winter_Wyvern
-  special_bonus_respawn_reduction_35:
-    dname: "-35s Respawn Time"
+  special_bonus_unique_crystal_maiden_3:
+    dname: special_bonus_unique_crystal_maiden_3
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_respawn_reduction_35_Description
+    desc: DOTA_Tooltip_ability_special_bonus_unique_crystal_maiden_3_Description
     notes: ''
     dmg: ''
     attrib: ''
     cmb: ''
     lore: ''
-    hurl: Winter_Wyvern
+    hurl: Crystal_Maiden
   special_bonus_unique_crystal_maiden_1:
     dname: "+1.5s Frostbite Duration"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -1066,6 +1060,16 @@ abilitydata:
     dname: "+40 Echo Damage"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
     desc: DOTA_Tooltip_ability_special_bonus_unique_earthshaker_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Earthshaker
+  special_bonus_unique_earthshaker_3:
+    dname: special_bonus_unique_earthshaker_3
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_earthshaker_3_Description
     notes: ''
     dmg: ''
     attrib: ''
@@ -1510,8 +1514,8 @@ abilitydata:
       CAST RANGE: <span class="attribVal">600 / 700 / 800 / 900</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 100/90/80/70</div><div class="cooldown"><img
-      alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
+      width="16" height="16" border="0" /> 80</div><div class="cooldown"><img alt="Cooldown"
+      title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 10</div><br clear="left" /></div>
     lore: The Morphling calls upon his elements to crush his opponents with waves.
     hurl: Morphling
@@ -1743,7 +1747,7 @@ abilitydata:
       was triggered upon.
     dmg: ''
     attrib: |-
-      MAX ILLUSIONS: <span class="attribVal">5 / 7 / 9</span><br />
+      MAX ILLUSIONS: <span class="attribVal">6 / 8 / 10</span><br />
       HERO TRIGGER CHANCE: <span class="attribVal">40% / 45% / 50%</span><br />
       ILLUSION TRIGGER CHANCE: <span class="attribVal">8%</span><br />
       ILLUSION DAMAGE: <span class="attribVal">16%</span><br />
@@ -2069,16 +2073,16 @@ abilitydata:
     cmb: ''
     lore: ''
     hurl: Phoenix
-  special_bonus_respawn_reduction_40:
-    dname: "-40s Respawn Time"
+  special_bonus_unique_pudge_3:
+    dname: special_bonus_unique_pudge_3
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_respawn_reduction_40_Description
+    desc: DOTA_Tooltip_ability_special_bonus_unique_pudge_3_Description
     notes: ''
     dmg: ''
     attrib: ''
     cmb: ''
     lore: ''
-    hurl: Bristleback
+    hurl: Pudge
   special_bonus_unique_pudge_1:
     dname: "+1.75 Flesh Heap Stack Str"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -2272,9 +2276,9 @@ abilitydata:
       while hiding him from vision.  The invisibility remains for a short duration
       after the sandstorm ends.
     notes: Sand Storm can be used to dodge projectiles.
-    dmg: 'DAMAGE: <span class="attribVal">25 / 50 / 75 / 100</span><br />'
+    dmg: 'DAMAGE: <span class="attribVal">40 / 60 / 80 / 100</span><br />'
     attrib: |-
-      INVISIBILITY DELAY: <span class="attribVal">1.5</span><br />
+      INVISIBILITY DELAY: <span class="attribVal">0.9 / 1.1 / 1.3 / 1.5</span><br />
       RADIUS: <span class="attribVal">525</span><br />
       DURATION: <span class="attribVal">50</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
@@ -2353,16 +2357,16 @@ abilitydata:
     cmb: ''
     lore: ''
     hurl: Sand_King
-  special_bonus_respawn_reduction_30:
-    dname: "-30s Respawn Time"
+  special_bonus_unique_sand_king_3:
+    dname: special_bonus_unique_sand_king_3
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_respawn_reduction_30_Description
+    desc: DOTA_Tooltip_ability_special_bonus_unique_sand_king_3_Description
     notes: ''
     dmg: ''
     attrib: ''
     cmb: ''
     lore: ''
-    hurl: Disruptor
+    hurl: Sand_King
   special_bonus_hp_350:
     dname: "+350 Health"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -2575,7 +2579,7 @@ abilitydata:
     notes: The bonus damage is based on base damage and the primary attribute of Sven.
     dmg: ''
     attrib: |-
-      BONUS DAMAGE: <span class="attribVal">100% / 150% / 200%</span><br />
+      BONUS DAMAGE: <span class="attribVal">80% / 120% / 160%</span><br />
       <span class="scepterVal">SCEPTER ALLY AURA RADIUS:</span> <span class="attribVal">900</span><br />
       <span class="scepterVal">SCEPTER ALLY BONUS DAMAGE:</span> <span class="attribVal">75% / 100% / 125%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
@@ -2792,7 +2796,7 @@ abilitydata:
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 40/40/40/40</div><div class="cooldown"><img
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 20</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 22/20/18/16</div><br clear="left" /></div>
     lore: Shendel's haunting voice hints at her approaching vindication.
     hurl: Vengeful_Spirit
   vengefulspirit_command_aura:
@@ -2992,30 +2996,30 @@ abilitydata:
     cmb: ''
     lore: ''
     hurl: Oracle
-  special_bonus_spell_amplify_15:
-    dname: "+15% Spell Amplification"
-    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_spell_amplify_15_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Earth_Spirit
-  special_bonus_attack_range_100:
-    dname: "+100 Attack Range"
-    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_attack_range_100_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Arc_Warden
   special_bonus_unique_windranger:
     dname: "-7s Powershot Cooldown"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
     desc: DOTA_Tooltip_ability_special_bonus_unique_windranger_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Windranger
+  special_bonus_unique_windranger_3:
+    dname: special_bonus_unique_windranger_3
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_windranger_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Windranger
+  special_bonus_cooldown_reduction_30:
+    dname: special_bonus_cooldown_reduction_30
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_cooldown_reduction_30_Description
     notes: ''
     dmg: ''
     attrib: ''
@@ -3127,6 +3131,16 @@ abilitydata:
     cmb: ''
     lore: ''
     hurl: Zeus
+  special_bonus_unique_zeus_3:
+    dname: special_bonus_unique_zeus_3
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_zeus_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Zeus
   special_bonus_cast_range_200:
     dname: "+200 Cast Range"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -3227,7 +3241,7 @@ abilitydata:
     dmg: 'DAMAGE: <span class="attribVal">400 / 500 / 600</span><br />'
     attrib: |-
       IMPACT DELAY: <span class="attribVal">2.7</span><br />
-      RANGE: <span class="attribVal">1000 / 1000 / 1000</span><br />
+      RANGE: <span class="attribVal">2000</span><br />
       WIDTH: <span class="attribVal">425 / 425 / 425</span><br />
       RUM BONUS SPEED: <span class="attribVal">10% / 10% / 10%</span><br />
       RUM DURATION: <span class="attribVal">10</span><br />
@@ -3283,7 +3297,7 @@ abilitydata:
     attrib: ''
     cmb: ''
     lore: ''
-    hurl: Kunkka
+    hurl: Undying
   special_bonus_movement_speed_30:
     dname: "+30 Movement Speed"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -3506,8 +3520,8 @@ abilitydata:
       DAMAGE EACH BOUNCE: <span class="attribVal">280 / 370 / 460</span><br />
       BOUNCES: <span class="attribVal">10 / 10 / 10</span><br />
       BOUNCE RANGE: <span class="attribVal">575 / 575 / 575</span><br />
-      MOVEMENT SLOW: <span class="attribVal">50%</span><br />
-      ATTACK SLOW: <span class="attribVal">50</span><br />
+      MOVEMENT SLOW: <span class="attribVal">65%</span><br />
+      ATTACK SLOW: <span class="attribVal">65</span><br />
       SLOW DURATION: <span class="attribVal">2.5</span><br />
       <span class="scepterVal">SCEPTER DAMAGE:</span> <span class="attribVal">370 / 460 / 550</span><br />
       <span class="scepterVal">SCEPTER CAST RANGE:</span> <span class="attribVal">850 / 850 / 850</span>
@@ -3642,6 +3656,16 @@ abilitydata:
     lore: Lion's disfigured hand is also the source of his greatest power, capable
       of flooding victims with malefic force.
     hurl: Lion
+  special_bonus_cast_range_75:
+    dname: "+75 Cast Range"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_cast_range_75_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Rubick
   special_bonus_unique_lion_2:
     dname: "+80 Earth Spike Damage "
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -3792,6 +3816,16 @@ abilitydata:
     cmb: ''
     lore: ''
     hurl: Undying
+  special_bonus_unique_shadow_shaman_4:
+    dname: special_bonus_unique_shadow_shaman_4
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_shadow_shaman_4_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Shadow_Shaman
   special_bonus_unique_shadow_shaman_2:
     dname: "+3s Shackles Duration"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -3954,7 +3988,7 @@ abilitydata:
       <span class="scepterVal">SCEPTER RANGE:</span> <span class="attribVal">1800</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 120/120/120/120</div><div class="cooldown"><img
+      width="16" height="16" border="0" /> 90/100/110/120</div><div class="cooldown"><img
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 12</div><br clear="left" /></div>
     lore: During his championship of the Sunken Isles, Leviathan gained mastery over
@@ -4158,6 +4192,16 @@ abilitydata:
     cmb: ''
     lore: ''
     hurl: Treant_Protector
+  special_bonus_unique_witch_doctor_3:
+    dname: special_bonus_unique_witch_doctor_3
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_witch_doctor_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Witch_Doctor
   special_bonus_unique_witch_doctor_1:
     dname: "+175 Death Ward Attack Range"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -4397,6 +4441,16 @@ abilitydata:
     cmb: ''
     lore: ''
     hurl: Elder_Titan
+  special_bonus_unique_enigma_2:
+    dname: special_bonus_unique_enigma_2
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_enigma_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Enigma
   special_bonus_armor_12:
     dname: "+12 Armor"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -4508,16 +4562,6 @@ abilitydata:
     cmb: ''
     lore: ''
     hurl: Tinker
-  special_bonus_cast_range_75:
-    dname: "+75 Cast Range"
-    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_cast_range_75_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Rubick
   special_bonus_spell_lifesteal_20:
     dname: 20% Spell Lifesteal
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -4649,6 +4693,16 @@ abilitydata:
     cmb: ''
     lore: ''
     hurl: Sniper
+  special_bonus_attack_range_100:
+    dname: "+100 Attack Range"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_attack_range_100_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Arc_Warden
   special_bonus_unique_sniper_2:
     dname: "+4 Shrapnel Charges"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -4695,7 +4749,7 @@ abilitydata:
     dmg: ''
     attrib: |-
       DURATION: <span class="attribVal">3 / 3.5 / 4 / 4.5</span><br />
-      RESTORATION AMPLIFICATION: <span class="attribVal">50%</span><br />
+      RESTORATION AMPLIFICATION: <span class="attribVal">75%</span><br />
       MOVEMENT SLOW: <span class="attribVal">12% / 20% / 28% / 36%</span><br />
       SLOW RADIUS: <span class="attribVal">600</span><br />
       INCREASED MAGIC DAMAGE: <span class="attribVal">20%</span>
@@ -4851,7 +4905,7 @@ abilitydata:
       <span class="scepterVal">SCEPTER BOUNTY REDUCTION:</span> <span class="attribVal">50%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 200/300/400</div><div class="cooldown"><img
+      width="16" height="16" border="0" /> 250/350/450</div><div class="cooldown"><img
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 165</div><br clear="left" /></div>
     lore: Demnok unleashes the captive spirit in his Dreadwood staff, causing destruction
@@ -4881,6 +4935,16 @@ abilitydata:
     dname: "-4s Shadow Word Cooldown"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
     desc: DOTA_Tooltip_ability_special_bonus_unique_warlock_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Warlock
+  special_bonus_unique_warlock_4:
+    dname: special_bonus_unique_warlock_4
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_warlock_4_Description
     notes: ''
     dmg: ''
     attrib: ''
@@ -4917,11 +4981,11 @@ abilitydata:
       enemy units and trees along their path.  Each axe can hit an enemy once.
     notes: This ability hits Spell Immune units.<br />This ability destroys trees.
     dmg: ''
-    attrib: 'RANGE: <span class="attribVal">1300 / 1300 / 1300 / 1300</span>'
+    attrib: 'RANGE: <span class="attribVal">1500</span>'
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 120</div><div class="cooldown"><img alt="Cooldown"
-      title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
+      width="16" height="16" border="0" /> 105/110/115/120</div><div class="cooldown"><img
+      alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 13</div><br clear="left" /></div>
     lore: While learning to maneuver in nature alone, the Beastmaster also mastered
       the use of a pair of tomahawks, adept at cutting down trees as well as adversaries.
@@ -5000,6 +5064,16 @@ abilitydata:
     cmb: ''
     lore: ''
     hurl: Magnus
+  special_bonus_unique_beastmaster_2:
+    dname: special_bonus_unique_beastmaster_2
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_beastmaster_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Beastmaster
   special_bonus_attack_damage_120:
     dname: "+120 Damage"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -5211,16 +5285,16 @@ abilitydata:
     lore: In the Acid Jungles, creatures releasing noxious poison to their attackers
       is common; Venomancer spreads this plague beyond the Jidi Isle.
     hurl: Venomancer
-  special_bonus_respawn_reduction_60:
-    dname: "-60s Respawn Time"
+  special_bonus_unique_venomancer_2:
+    dname: special_bonus_unique_venomancer_2
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_respawn_reduction_60_Description
+    desc: DOTA_Tooltip_ability_special_bonus_unique_venomancer_2_Description
     notes: ''
     dmg: ''
     attrib: ''
     cmb: ''
     lore: ''
-    hurl: Techies
+    hurl: Venomancer
   special_bonus_unique_venomancer:
     dname: 3x Plague Ward HP/Damage
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -5252,14 +5326,14 @@ abilitydata:
     dname: Time Dilation
     affects: 'ABILITY: <span class="attribVal">No Target</span><br />'
     desc: Faceless Void traps all nearby enemies in a time dilation field for 6 seconds,
-      freezing their cooldowns and slowing their movement and attack speed by 10%
+      freezing their cooldowns and slowing their movement and attack speed by 14%
       for each cooldown frozen.
     notes: ''
     dmg: ''
     attrib: |-
       RADIUS: <span class="attribVal">725</span><br />
       DURATION: <span class="attribVal">6 / 8 / 10 / 12</span><br />
-      SLOW PER COOLDOWN: <span class="attribVal">10%</span>
+      SLOW PER COOLDOWN: <span class="attribVal">14%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 75</div><div class="cooldown"><img alt="Cooldown"
@@ -5414,6 +5488,16 @@ abilitydata:
     cmb: ''
     lore: ''
     hurl: Wraith_King
+  special_bonus_unique_wraith_king_2:
+    dname: "+20% Vampiric Aura Lifesteal"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_wraith_king_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Wraith_King
   special_bonus_unique_wraith_king_1:
     dname: No Reincarnation Manacost
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -5424,10 +5508,10 @@ abilitydata:
     cmb: ''
     lore: ''
     hurl: Wraith_King
-  special_bonus_unique_wraith_king_2:
-    dname: "+20% Vampiric Aura Lifesteal"
+  special_bonus_unique_wraith_king_4:
+    dname: special_bonus_unique_wraith_king_4
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_wraith_king_2_Description
+    desc: DOTA_Tooltip_ability_special_bonus_unique_wraith_king_4_Description
     notes: ''
     dmg: ''
     attrib: ''
@@ -5743,7 +5827,7 @@ abilitydata:
       on the first tick of damage.
     dmg: ''
     attrib: |-
-      CAST RANGE: <span class="attribVal">900 / 1050 / 1200</span><br />
+      CAST RANGE: <span class="attribVal">800</span><br />
       MAX DURATION: <span class="attribVal">10</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -5751,6 +5835,16 @@ abilitydata:
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 22</div><br clear="left" /></div>
     lore: Pugna has truly become more powerful than even the grandmaster of Oblivion.
+    hurl: Pugna
+  special_bonus_unique_pugna_5:
+    dname: special_bonus_unique_pugna_5
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_pugna_5_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: Pugna
   special_bonus_unique_pugna_4:
     dname: "-1s Netherblast Cooldown"
@@ -5913,6 +6007,16 @@ abilitydata:
     cmb: ''
     lore: ''
     hurl: Monkey_King
+  special_bonus_unique_templar_assassin_2:
+    dname: special_bonus_unique_templar_assassin_2
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_templar_assassin_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Templar_Assassin
   special_bonus_unique_templar_assassin:
     dname: "+3 Refraction Instances"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -5997,7 +6101,7 @@ abilitydata:
     notes: Slow works on spell immune units.
     dmg: ''
     attrib: |-
-      DURATION: <span class="attribVal">5.1 / 5.1 / 5.1</span><br />
+      DURATION: <span class="attribVal">5</span><br />
       MOVE SLOW: <span class="attribVal">40% / 60% / 80%</span><br />
       ATTACK SLOW: <span class="attribVal">40 / 60 / 80</span><br />
       <span class="scepterVal">SCEPTER MANA COST:</span> <span class="attribVal">125 / 125 / 125</span><br />
@@ -6007,7 +6111,7 @@ abilitydata:
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 125/175/250</div><div class="cooldown"><img
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 70/50/30</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 60/45/30</div><br clear="left" /></div>
     lore: Once used to slay his sadistic summoner, the most powerful of Netherdrake
       infections spreads through the veins of those foolish enough to cross Viper.
     hurl: Viper
@@ -6241,7 +6345,7 @@ abilitydata:
       when the item was used.
     dmg: ''
     attrib: |-
-      DURATION: <span class="attribVal">60 / 60 / 60</span><br />
+      DURATION: <span class="attribVal">60</span><br />
       BONUS MOVE SPEED: <span class="attribVal">25 / 25 / 25</span><br />
       BONUS ATTACK RANGE: <span class="attribVal">350</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
@@ -6366,9 +6470,7 @@ abilitydata:
     attrib: |-
       RADIUS: <span class="attribVal">575 / 575 / 575</span><br />
       ARMOR PER SECOND: <span class="attribVal">0.75 / 1 / 1.25</span><br />
-      DURATION: <span class="attribVal">24</span><br />
-      <span class="scepterVal">SCEPTER RADIUS:</span> <span class="attribVal">775 / 775 / 775</span><br />
-      <span class="scepterVal">SCEPTER ARMOR PER SECOND:</span> <span class="attribVal">1.25 / 1.5 / 1.75</span>
+      DURATION: <span class="attribVal">24</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 100/100/100</div><div class="cooldown"><img
@@ -6387,6 +6489,16 @@ abilitydata:
     cmb: ''
     lore: ''
     hurl: Naga_Siren
+  special_bonus_unique_dazzle_3:
+    dname: special_bonus_unique_dazzle_3
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_dazzle_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Dazzle
   special_bonus_unique_dazzle_1:
     dname: "-6s Poison Touch Cooldown"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -6515,16 +6627,16 @@ abilitydata:
     cmb: ''
     lore: ''
     hurl: Clockwerk
-  special_bonus_respawn_reduction_25:
-    dname: "-25s Respawn Time"
+  special_bonus_unique_clockwerk_3:
+    dname: special_bonus_unique_clockwerk_3
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_respawn_reduction_25_Description
+    desc: DOTA_Tooltip_ability_special_bonus_unique_clockwerk_3_Description
     notes: ''
     dmg: ''
     attrib: ''
     cmb: ''
     lore: ''
-    hurl: Keeper_of_the_Light
+    hurl: Clockwerk
   special_bonus_unique_clockwerk:
     dname: "+10s Battery Assault Duration"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -6753,6 +6865,16 @@ abilitydata:
     cmb: ''
     lore: ''
     hurl: Phoenix
+  special_bonus_unique_furion_3:
+    dname: special_bonus_unique_furion_3
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_furion_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Natures_Prophet
   special_bonus_unique_furion:
     dname: 2x Treant HP/Damage
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -6991,7 +7113,7 @@ abilitydata:
       CAST RANGE: <span class="attribVal">500 / 900 / 1300</span><br />
       <span class="scepterVal">SCEPTER REPLICA DAMAGE:</span> <span class="attribVal">100% / 120% / 140%</span><br />
       MOVEMENT SLOW: <span class="attribVal">75%</span><br />
-      SLOW DURATION: <span class="attribVal">1</span>
+      SLOW DURATION: <span class="attribVal">0.6 / 0.8 / 1</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 125/250/375</div><div class="cooldown"><img
@@ -7106,14 +7228,14 @@ abilitydata:
       max HP returns to normal, but current HP stays the same.
     dmg: ''
     attrib: |-
-      DURATION: <span class="attribVal">35</span><br />
+      DURATION: <span class="attribVal">65</span><br />
       HEALTH GAIN: <span class="attribVal">50% / 65% / 80%</span><br />
       DAMAGE GAIN: <span class="attribVal">5% / 6.5% / 8%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 100/100/100</div><div class="cooldown"><img
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 45/30/15</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 85</div><br clear="left" /></div>
     lore: Sutherex' bond of life and death has become a part of Clinkz, and his old
       bones are refreshed with repetition of the pact on lesser beings.
     hurl: Clinkz
@@ -7283,8 +7405,8 @@ abilitydata:
     dmg: ''
     attrib: |-
       CREEP ENCHANT DURATION: <span class="attribVal">80</span><br />
-      HERO MOVE SLOW: <span class="attribVal">20% / 30% / 40% / 50%</span><br />
-      HERO SLOW DURATION: <span class="attribVal">5.5 / 5.5 / 5.5 / 5.5</span>
+      HERO MOVE SLOW: <span class="attribVal">55%</span><br />
+      HERO SLOW DURATION: <span class="attribVal">2.25 / 3.5 / 4.75 / 6</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 65/65/65/65</div><div class="cooldown"><img
@@ -7355,16 +7477,16 @@ abilitydata:
     cmb: ''
     lore: ''
     hurl: Enchantress
-  special_bonus_respawn_reduction_50:
-    dname: "-50s Respawn Time"
+  special_bonus_unique_enchantress_4:
+    dname: special_bonus_unique_enchantress_4
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_respawn_reduction_50_Description
+    desc: DOTA_Tooltip_ability_special_bonus_unique_enchantress_4_Description
     notes: ''
     dmg: ''
     attrib: ''
     cmb: ''
     lore: ''
-    hurl: Io
+    hurl: Enchantress
   special_bonus_unique_enchantress_1:
     dname: Enchant Affects Ancients
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -7449,7 +7571,7 @@ abilitydata:
       />Life Break cannot be disjointed.
     dmg: ''
     attrib: |-
-      DAMAGE DEALT: <span class="attribVal">35%</span><br />
+      DAMAGE DEALT: <span class="attribVal">34% / 38% / 42%</span><br />
       MOVEMENT SLOW: <span class="attribVal">40% / 50% / 60%</span><br />
       SLOW DURATION: <span class="attribVal">4 / 5 / 6</span><br />
       <span class="scepterVal">SCEPTER DAMAGE DEALT:</span> <span class="attribVal">65%</span><br />
@@ -7537,7 +7659,11 @@ abilitydata:
     attrib: |-
       MOVE SPEED: <span class="attribVal">20% / 25% / 30% / 35%</span><br />
       ATTACK SPEED: <span class="attribVal">45 / 60 / 75 / 90</span>
-    cmb: ''
+    cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
+      Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
+      width="16" height="16" border="0" /> 50</div><div class="cooldown"><img alt="Cooldown"
+      title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
+      width="16" height="16" border="0" /> 26/22/18/14</div><br clear="left" /></div>
     lore: The hunting prowess of Balanar improves as the night beckons.
     hurl: Night_Stalker
   night_stalker_darkness:
@@ -7627,7 +7753,7 @@ abilitydata:
       />If free movement is disabled, you will destroy nearby trees.
     dmg: ''
     attrib: |-
-      HEALTH REGEN: <span class="attribVal">2 / 4 / 6 / 8</span><br />
+      HEALTH REGEN: <span class="attribVal">3 / 5 / 7 / 9</span><br />
       MOVE INCREASE: <span class="attribVal">40% / 50% / 60% / 70%</span><br />
       MAX WEB CHARGES: <span class="attribVal">1 / 2 / 3 / 4</span><br />
       CHARGE RESTORE TIME: <span class="attribVal">40</span>
@@ -7972,8 +8098,8 @@ abilitydata:
       each breath.
     dmg: ''
     attrib: |-
-      START RADIUS: <span class="attribVal">200 / 200 / 200 / 200</span><br />
-      END RADIUS: <span class="attribVal">250 / 250 / 250 / 250</span><br />
+      START RADIUS: <span class="attribVal">225</span><br />
+      END RADIUS: <span class="attribVal">275</span><br />
       BURN DAMAGE: <span class="attribVal">20 / 40 / 60 / 80</span><br />
       MOVE SLOW: <span class="attribVal">28% / 32% / 36% / 40%</span><br />
       ATTACK SLOW: <span class="attribVal">28 / 32 / 36 / 40</span><br />
@@ -8064,6 +8190,16 @@ abilitydata:
     dname: "+400 Attack Range"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
     desc: DOTA_Tooltip_ability_special_bonus_attack_range_400_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Jakiro
+  special_bonus_unique_jakiro_3:
+    dname: special_bonus_unique_jakiro_3
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_jakiro_3_Description
     notes: ''
     dmg: ''
     attrib: ''
@@ -8269,7 +8405,7 @@ abilitydata:
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 100/100/100/100</div><div class="cooldown"><img
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 30/26/22/18</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 10</div><br clear="left" /></div>
     lore: Although they may not be knights, Chen incorporates beasts into the Fold
       in the same way he himself was converted.
     hurl: Chen
@@ -8302,16 +8438,16 @@ abilitydata:
     cmb: ''
     lore: ''
     hurl: Chen
-  special_bonus_respawn_reduction_45:
-    dname: "-45s Respawn Time"
+  special_bonus_unique_chen_4:
+    dname: special_bonus_unique_chen_4
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_respawn_reduction_45_Description
+    desc: DOTA_Tooltip_ability_special_bonus_unique_chen_4_Description
     notes: ''
     dmg: ''
     attrib: ''
     cmb: ''
     lore: ''
-    hurl: Earth_Spirit
+    hurl: Chen
   special_bonus_unique_chen_1:
     dname: "+2 Holy Persuation Max Count"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -8422,7 +8558,7 @@ abilitydata:
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 150/150/150</div><div class="cooldown"><img
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 140/130/120</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 180/150/120</div><br clear="left" /></div>
     lore: At the height of combat, Mercurial's physical manifestation shatters, and
       the shadowy pieces haunt those who still cling to life.
     hurl: Spectre
@@ -8449,8 +8585,8 @@ abilitydata:
     attrib: 'BONUS GOLD: <span class="attribVal">25 / 50 / 75 / 100</span>'
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 60</div><div class="cooldown"><img alt="Cooldown"
-      title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
+      width="16" height="16" border="0" /> 40/50/60/70</div><div class="cooldown"><img
+      alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 70/60/50/40</div><br clear="left" /></div>
     lore: Lucifer's appetite and greed are never sated.
     hurl: Doom
@@ -8465,7 +8601,7 @@ abilitydata:
       Doom controls also benefit from Scorched Earth.
     dmg: ''
     attrib: |-
-      DAMAGE/REGEN: <span class="attribVal">10 / 20 / 30 / 40</span><br />
+      DAMAGE/REGEN: <span class="attribVal">16 / 24 / 32 / 40</span><br />
       RADIUS: <span class="attribVal">600 / 600 / 600 / 600</span><br />
       BONUS MOVE SPEED: <span class="attribVal">14%</span><br />
       DURATION: <span class="attribVal">10 / 12 / 14 / 16</span>
@@ -8709,6 +8845,16 @@ abilitydata:
     cmb: ''
     lore: ''
     hurl: Bristleback
+  special_bonus_unique_ancient_apparition_4:
+    dname: special_bonus_unique_ancient_apparition_4
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_ancient_apparition_4_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Ancient_Apparition
   special_bonus_unique_ancient_apparition_1:
     dname: 4 Charges of Cold Feet
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -8915,6 +9061,16 @@ abilitydata:
     lore: Barathrum temporarily returns to the realm from where he came, bringing
       with him the retribution of both worlds.
     hurl: Spirit_Breaker
+  special_bonus_unique_spirit_breaker_3:
+    dname: special_bonus_unique_spirit_breaker_3
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_spirit_breaker_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Spirit_Breaker
   special_bonus_unique_spirit_breaker_1:
     dname: "+17% Greater Bash Chance"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -9085,12 +9241,12 @@ abilitydata:
     attrib: |-
       MAX STUN: <span class="attribVal">1.75 / 2.5 / 3.25 / 4</span><br />
       MAX DAMAGE: <span class="attribVal">150 / 220 / 290 / 360</span><br />
-      EXPLOSION RADIUS: <span class="attribVal">175</span>
+      EXPLOSION RADIUS: <span class="attribVal">200</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 120</div><div class="cooldown"><img alt="Cooldown"
       title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 16</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 22/20/18/16</div><br clear="left" /></div>
     lore: A silver lining to the failure of turning a mountain into gold, this volatile
       solution has destructive potential.
     hurl: Alchemist
@@ -9106,9 +9262,9 @@ abilitydata:
     dmg: ''
     attrib: |-
       RECENT KILL WINDOW: <span class="attribVal">30</span><br />
-      BASE BONUS GOLD: <span class="attribVal">6 / 8 / 10 / 12</span><br />
-      EXTRA BONUS GOLD: <span class="attribVal">3</span><br />
-      MAX BONUS GOLD PER KILL: <span class="attribVal">12 / 20 / 28 / 36</span><br />
+      BASE BONUS GOLD: <span class="attribVal">4</span><br />
+      EXTRA BONUS GOLD: <span class="attribVal">4</span><br />
+      MAX BONUS GOLD PER KILL: <span class="attribVal">16 / 20 / 24 / 28</span><br />
       BOUNTY RUNE MULTIPLIER: <span class="attribVal">2</span>
     cmb: ''
     lore: While it is not a mountain, Razzil has mastered the conversion of smaller
@@ -9770,6 +9926,16 @@ abilitydata:
     lore: Forever a slave to his lycanthropy, Banehallow has come to accept his curse,
       and embrace his own savagery.
     hurl: Lycan
+  special_bonus_unique_lycan_3:
+    dname: special_bonus_unique_lycan_3
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_lycan_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Lycan
   special_bonus_unique_lycan_1:
     dname: "+15s Shapeshift Duration"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -9823,7 +9989,7 @@ abilitydata:
     notes: Can be disjointed.
     dmg: ''
     attrib: |-
-      DURATION: <span class="attribVal">4</span><br />
+      DURATION: <span class="attribVal">4.5</span><br />
       MOVEMENT SLOW: <span class="attribVal">10% / 20% / 30% / 40%</span><br />
       MISS CHANCE: <span class="attribVal">70%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
@@ -9846,7 +10012,7 @@ abilitydata:
     attrib: |-
       DODGE CHANCE: <span class="attribVal">10% / 15% / 20% / 25%</span><br />
       CRIT CHANCE: <span class="attribVal">10% / 15% / 20% / 25%</span><br />
-      CRIT DAMAGE: <span class="attribVal">200%</span><br />
+      CRIT DAMAGE: <span class="attribVal">230%</span><br />
       CERTAIN TRIGGER TIMER: <span class="attribVal">13 / 12 / 11 / 10</span>
     cmb: ''
     lore: When Mangix won his title as the Brewmaster of the Order of Oyo, he also
@@ -9876,6 +10042,16 @@ abilitydata:
     dname: "+75 Thunder Clap Damage"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
     desc: DOTA_Tooltip_ability_special_bonus_unique_brewmaster_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Brewmaster
+  special_bonus_unique_brewmaster_3:
+    dname: special_bonus_unique_brewmaster_3
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_brewmaster_3_Description
     notes: ''
     dmg: ''
     attrib: ''
@@ -9952,7 +10128,7 @@ abilitydata:
       DURATION: <span class="attribVal">10 / 10 / 10 / 10</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 55</div><div class="cooldown"><img alt="Cooldown"
+      width="16" height="16" border="0" /> 50</div><div class="cooldown"><img alt="Cooldown"
       title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 2.50</div><br clear="left" /></div>
     lore: The ever growing influence of the Shadow Demon can pollute the most valiant
@@ -9994,6 +10170,16 @@ abilitydata:
       width="16" height="16" border="0" /> 50</div><br clear="left" /></div>
     lore: Once Shadow Demon no longer has any need for his collected cultist, he releases
       it from its subservience - and its life.
+    hurl: Shadow_Demon
+  special_bonus_unique_shadow_demon_3:
+    dname: special_bonus_unique_shadow_demon_3
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_shadow_demon_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: Shadow_Demon
   special_bonus_unique_shadow_demon_1:
     dname: "+400 Demonic Purge Damage"
@@ -10050,14 +10236,14 @@ abilitydata:
     notes: ''
     dmg: ''
     attrib: |-
-      ATTACK SPEED: <span class="attribVal">10 / 20 / 30 / 40</span><br />
+      ATTACK SPEED: <span class="attribVal">20 / 30 / 40 / 50</span><br />
       MOVEMENT SPEED: <span class="attribVal">10% / 15% / 20% / 25%</span><br />
-      DURATION: <span class="attribVal">18 / 22 / 26 / 30</span>
+      DURATION: <span class="attribVal">25</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 50/50/50/50</div><div class="cooldown"><img
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 45</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 35</div><br clear="left" /></div>
     lore: Bears are not commonly seen as being agile creatures, but can actually move
       rather quickly, especially when enraged.
     hurl: Lone_Druid
@@ -10161,6 +10347,16 @@ abilitydata:
     cmb: ''
     lore: ''
     hurl: Lone_Druid
+  special_bonus_unique_lone_druid_5:
+    dname: special_bonus_unique_lone_druid_5
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_lone_druid_5_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Lone_Druid
   special_bonus_unique_lone_druid_3:
     dname: "+1.5s Entangle Duration"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -10220,7 +10416,7 @@ abilitydata:
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 50</div><div class="cooldown"><img alt="Cooldown"
       title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 24/18/12/6</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 18/14/10/6</div><br clear="left" /></div>
     lore: Armageddon rides between the planes, bringing Chaos Knight to his victim
       wherever he may hide.
     hurl: Chaos_Knight
@@ -10228,13 +10424,13 @@ abilitydata:
     dname: Chaos Strike
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
     desc: Each of Chaos Knight's attacks has a chance to deal bonus damage, also causing
-      the critical strike to lifesteal for 65% of the damage .
+      the critical strike to lifesteal for 75% of the damage .
     notes: ''
     dmg: ''
     attrib: |-
       CRITICAL CHANCE: <span class="attribVal">12%</span><br />
       CRITICAL DAMAGE: <span class="attribVal">125% / 175% / 225% / 275%</span><br />
-      CRITICAL LIFESTEAL: <span class="attribVal">65%</span>
+      CRITICAL LIFESTEAL: <span class="attribVal">75%</span>
     cmb: ''
     lore: Chaos Knight's unwieldy power bludgeons those who stand before him, crushing
       the thickest of armors.
@@ -10255,7 +10451,7 @@ abilitydata:
       EXTRA PHANTASM CHANCE: <span class="attribVal">50%</span><br />
       PHANTASM DURATION: <span class="attribVal">42</span><br />
       PHANTASM DAMAGE: <span class="attribVal">100% / 100% / 100%</span><br />
-      PHANTASM DAMAGE TAKEN: <span class="attribVal">200%</span><br />
+      PHANTASM DAMAGE TAKEN: <span class="attribVal">260%</span><br />
       <span class="scepterVal">SCEPTER COOLDOWN:</span> <span class="attribVal">110</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -10484,6 +10680,16 @@ abilitydata:
     lore: Rooftrellen calls the ancestral spirit of nature, releasing its power through
       all of his kin.
     hurl: Treant_Protector
+  special_bonus_unique_treant_2:
+    dname: special_bonus_unique_treant_2
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_treant_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Treant_Protector
   special_bonus_unique_treant:
     dname: "+5 Living Armor Block Instances"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -10599,6 +10805,16 @@ abilitydata:
     lore: Despite being largely incapacitated by his IQ, the Ogre Magi's success in
       battle is attributed to pure skill.
     hurl: Ogre_Magi
+  special_bonus_spell_amplify_15:
+    dname: "+15% Spell Amplification"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_spell_amplify_15_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Earth_Spirit
   special_bonus_unique_ogre_magi:
     dname: "+40 Bloodlust AS"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -10921,6 +11137,16 @@ abilitydata:
     cmb: ''
     lore: ''
     hurl: Disruptor
+  special_bonus_unique_disruptor_3:
+    dname: special_bonus_unique_disruptor_3
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_disruptor_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Disruptor
   special_bonus_unique_disruptor:
     dname: "+4 Thunder Strike Hits"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -11102,7 +11328,7 @@ abilitydata:
     attrib: |-
       IMAGE DURATION: <span class="attribVal">30 / 30 / 30 / 30</span><br />
       IMAGE DAMAGE: <span class="attribVal">25% / 30% / 35% / 40%</span><br />
-      IMAGE DAMAGE TAKEN: <span class="attribVal">600% / 500% / 400% / 300%</span>
+      IMAGE DAMAGE TAKEN: <span class="attribVal">550% / 500% / 450% / 400%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 70/80/90/100</div><div class="cooldown"><img
@@ -11122,8 +11348,8 @@ abilitydata:
     attrib: 'DURATION: <span class="attribVal">2 / 3 / 4 / 5</span>'
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 90/100/110/120</div><div class="cooldown"><img
-      alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
+      width="16" height="16" border="0" /> 100</div><div class="cooldown"><img alt="Cooldown"
+      title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 12</div><br clear="left" /></div>
     lore: The only way to escape the onslaught of a Slithereen is to never oppose
       one in the first place.
@@ -11137,7 +11363,7 @@ abilitydata:
       of water that lowers armor for 8 seconds.
     notes: Naga's illusions will also cast Rip Tide, but enemies in multiple areas
       of effect will only be hit once.
-    dmg: 'DAMAGE: <span class="attribVal">100 / 140 / 180 / 220</span><br />'
+    dmg: 'DAMAGE: <span class="attribVal">120 / 160 / 200 / 240</span><br />'
     attrib: |-
       ARMOR REDUCTION: <span class="attribVal">2 / 3 / 4 / 5</span><br />
       DURATION: <span class="attribVal">8 / 8 / 8 / 8</span>
@@ -11161,14 +11387,14 @@ abilitydata:
       will wake up.
     dmg: ''
     attrib: |-
-      RADIUS: <span class="attribVal">1250 / 1250 / 1250</span><br />
+      RADIUS: <span class="attribVal">1000 / 1200 / 1400</span><br />
       DURATION: <span class="attribVal">7 / 7 / 7</span><br />
       <span class="scepterVal">SCEPTER HEALTH REGEN:</span> <span class="attribVal">10%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 100/100/100</div><div class="cooldown"><img
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 180/120/60</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 160/120/80</div><br clear="left" /></div>
     lore: Slithice's powerful voice enchants leagues of opponents, while calling her
       Slithereen kin in a time of need.
     hurl: Naga_Siren
@@ -11366,6 +11592,16 @@ abilitydata:
       width="16" height="16" border="0" /> 10</div><br clear="left" /></div>
     lore: Ezalor's hidden light reveals itself in marvelous fashion.
     hurl: Keeper_of_the_Light
+  special_bonus_unique_keeper_of_the_light_2:
+    dname: special_bonus_unique_keeper_of_the_light_2
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_keeper_of_the_light_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Keeper_of_the_Light
   special_bonus_cast_range_400:
     dname: "+400 Cast Range"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -11529,6 +11765,16 @@ abilitydata:
     cmb: ''
     lore: ''
     hurl: Io
+  special_bonus_unique_wisp_2:
+    dname: special_bonus_unique_wisp_2
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_wisp_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Io
   special_bonus_unique_wisp:
     dname: "+150 Spirits Damage"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -11550,7 +11796,7 @@ abilitydata:
       is independent of the speed lost on the target.
     dmg: ''
     attrib: |-
-      DURATION: <span class="attribVal">3 / 4 / 5 / 6</span><br />
+      DURATION: <span class="attribVal">3.25 / 4.5 / 5.75 / 7</span><br />
       MOVE SPEED DRAIN: <span class="attribVal">32% / 32% / 32% / 32%</span><br />
       ATTACK SPEED DRAIN: <span class="attribVal">64 / 64 / 64 / 64</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
@@ -11626,6 +11872,16 @@ abilitydata:
       width="16" height="16" border="0" /> 160/145/130</div><br clear="left" /></div>
     lore: Guardians of the Narrow Maze, Necro'lic's Familiars stand watch over his
       domain.
+    hurl: Visage
+  special_bonus_unique_visage_3:
+    dname: special_bonus_unique_visage_3
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_visage_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: Visage
   special_bonus_spell_amplify_20:
     dname: "+20% Spell Amplification"
@@ -12143,8 +12399,7 @@ abilitydata:
     attrib: |-
       PULL RADIUS: <span class="attribVal">410</span><br />
       DAMAGE: <span class="attribVal">50 / 125 / 200</span><br />
-      HERO STUN DURATION: <span class="attribVal">2.25 / 3 / 3.75</span><br />
-      CREEP STUN DURATION: <span class="attribVal">3 / 4 / 5</span>
+      HERO STUN DURATION: <span class="attribVal">2.25 / 3 / 3.75</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 200/250/300</div><div class="cooldown"><img
@@ -12162,10 +12417,10 @@ abilitydata:
     cmb: ''
     lore: ''
     hurl: Magnus
-  special_bonus_unique_magnus:
-    dname: "-4s Shockwave Cooldown"
+  special_bonus_unique_magnus_3:
+    dname: special_bonus_unique_magnus_3
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_magnus_Description
+    desc: DOTA_Tooltip_ability_special_bonus_unique_magnus_3_Description
     notes: ''
     dmg: ''
     attrib: ''
@@ -12418,6 +12673,16 @@ abilitydata:
     cmb: ''
     lore: ''
     hurl: Elder_Titan
+  special_bonus_spell_lifesteal_10:
+    dname: special_bonus_spell_lifesteal_10
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_spell_lifesteal_10_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Skywrath_Mage
   special_bonus_unique_bristleback_2:
     dname: "+25 Quill Stack Damage"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -12877,7 +13142,7 @@ abilitydata:
     dmg: ''
     attrib: |-
       EXPLODE DELAY: <span class="attribVal">3.14</span><br />
-      CRACK WIDTH: <span class="attribVal">300</span><br />
+      CRACK WIDTH: <span class="attribVal">315</span><br />
       CRACK LENGTH: <span class="attribVal">2400</span><br />
       MOVEMENT SLOW: <span class="attribVal">30% / 40% / 50%</span><br />
       SLOW DURATION: <span class="attribVal">3 / 4 / 5</span><br />
@@ -12890,16 +13155,6 @@ abilitydata:
       width="16" height="16" border="0" /> 100</div><br clear="left" /></div>
     lore: That which he created, the titan tears asunder.
     hurl: Elder_Titan
-  special_bonus_respawn_reduction_20:
-    dname: "-20s Respawn Time"
-    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_respawn_reduction_20_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Oracle
   special_bonus_unique_elder_titan_2:
     dname: "+30 Echo Stomp Damage"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -12940,7 +13195,7 @@ abilitydata:
       RADIUS: <span class="attribVal">330</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 100/100/100/100</div><div class="cooldown"><img
+      width="16" height="16" border="0" /> 100/110/120/130</div><div class="cooldown"><img
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 15</div><br clear="left" /></div>
     lore: The archers of Stonehall are ready at Tresdin's command.
@@ -13003,6 +13258,16 @@ abilitydata:
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 50</div><br clear="left" /></div>
     lore: To face a soldier of Stonehall in single combat is a challenge few can resist.
+    hurl: Legion_Commander
+  special_bonus_unique_legion_commander_3:
+    dname: special_bonus_unique_legion_commander_3
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_legion_commander_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: Legion_Commander
   special_bonus_unique_legion_commander:
     dname: "+40 Duel Damage Bonus"
@@ -13301,6 +13566,16 @@ abilitydata:
     lore: At the Earth Spirit's call, the minerals in the blood and bones of his enemies
       rebel against the bodies they find themselves in.
     hurl: Earth_Spirit
+  special_bonus_unique_earth_spirit_2:
+    dname: special_bonus_unique_earth_spirit_2
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_earth_spirit_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Earth_Spirit
   special_bonus_unique_earth_spirit:
     dname: "+300 Rolling Boulder Damage"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -13367,7 +13642,7 @@ abilitydata:
       BASE ATTACK TIME: <span class="attribVal">1.5</span><br />
       ATTACK RANGE: <span class="attribVal">550</span><br />
       BONUS DAMAGE: <span class="attribVal">20 / 40 / 60 / 80</span><br />
-      MOVEMENT SPEED LOSS: <span class="attribVal">25</span><br />
+      MOVEMENT SPEED LOSS: <span class="attribVal">30</span><br />
       ILLUSION AURA RADIUS: <span class="attribVal">900</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -13441,7 +13716,7 @@ abilitydata:
     dmg: ''
     attrib: |-
       HP COST: <span class="attribVal">20%</span><br />
-      SPIRIT DURATION: <span class="attribVal">16 / 16 / 16 / 16</span><br />
+      SPIRIT DURATION: <span class="attribVal">20</span><br />
       RADIUS: <span class="attribVal">175 / 175 / 175 / 175</span><br />
       BURN DURATION: <span class="attribVal">4</span><br />
       ATTACK SPEED SLOW: <span class="attribVal">80 / 100 / 120 / 140</span><br />
@@ -13676,6 +13951,16 @@ abilitydata:
       width="16" height="16" border="0" /> 100/65/30</div><br clear="left" /></div>
     lore: Foes and false prophets oft make lies of men's fates.
     hurl: Oracle
+  special_bonus_unique_oracle_2:
+    dname: special_bonus_unique_oracle_2
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_oracle_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Oracle
   special_bonus_unique_oracle:
     dname: "+2 False Promise Duration"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -13818,6 +14103,16 @@ abilitydata:
     cmb: ''
     lore: ''
     hurl: Techies
+  special_bonus_attack_damage_250:
+    dname: special_bonus_attack_damage_250
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_250_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Techies
   winter_wyvern_arctic_burn:
     dname: Arctic Burn
     affects: 'ABILITY: <span class="attribVal">No Target</span><br />DAMAGE TYPE:
@@ -13912,7 +14207,7 @@ abilitydata:
     attrib: |-
       CURSE RADIUS: <span class="attribVal">500</span><br />
       CURSE DAMAGE REDUCTION: <span class="attribVal">100%</span><br />
-      CURSE ATTACK SPEED: <span class="attribVal">70</span><br />
+      CURSE ATTACK SPEED: <span class="attribVal">85</span><br />
       CURSE DURATION: <span class="attribVal">3.25 / 4 / 4.75</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -13921,6 +14216,16 @@ abilitydata:
       width="16" height="16" border="0" /> 80</div><br clear="left" /></div>
     lore: 'The oldest of the bookwurm’s spells, this curse lends truth to the old
       saw: sometimes the enemy of my enemy is my enemy still.'
+    hurl: Winter_Wyvern
+  special_bonus_unique_winter_wyvern_3:
+    dname: special_bonus_unique_winter_wyvern_3
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_winter_wyvern_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: Winter_Wyvern
   special_bonus_unique_winter_wyvern_1:
     dname: "+15% Arctic Burn Slow"
@@ -14099,7 +14404,7 @@ abilitydata:
     dmg: ''
     attrib: |-
       RADIUS: <span class="attribVal">900</span><br />
-      DAMAGE REDUCTION: <span class="attribVal">4% / 16% / 28% / 40%</span><br />
+      DAMAGE REDUCTION: <span class="attribVal">7% / 18% / 29% / 40%</span><br />
       BONUS DAMAGE(CREEP): <span class="attribVal">5</span><br />
       BONUS DAMAGE(HERO): <span class="attribVal">30 / 35 / 40 / 45</span><br />
       DURATION: <span class="attribVal">30 / 40 / 50 / 60</span>
@@ -14302,8 +14607,7 @@ abilitydata:
     notes: Soldiers do not receive Jingu Mastery bonuses.
     dmg: ''
     attrib: |-
-      BONUS DAMAGE: <span class="attribVal">50 / 70 / 90</span><br />
-      SOLDIER ATK SPEED: <span class="attribVal">2</span><br />
+      SOLDIER ATK SPEED: <span class="attribVal">1.6</span><br />
       DURATION: <span class="attribVal">13</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"

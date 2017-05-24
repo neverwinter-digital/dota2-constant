@@ -7,7 +7,7 @@ herodata:
     attribs:
       str:
         b: 22
-        g: '1.20'
+        g: '1.50'
       int:
         b: 15
         g: '1.80'
@@ -28,7 +28,7 @@ herodata:
     attribs:
       str:
         b: 25
-        g: '2.50'
+        g: '2.80'
       int:
         b: 18
         g: '1.60'
@@ -49,13 +49,13 @@ herodata:
     attribs:
       str:
         b: 22
-        g: '2.10'
+        g: '2.40'
       int:
         b: 22
-        g: '2.10'
+        g: '2.40'
       agi:
         b: 22
-        g: '2.10'
+        g: '2.40'
       ms: 310
       dmg:
         min: 37
@@ -70,7 +70,7 @@ herodata:
     attribs:
       str:
         b: 23
-        g: '2.40'
+        g: '2.70'
       int:
         b: 18
         g: '1.70'
@@ -91,7 +91,7 @@ herodata:
     attribs:
       str:
         b: 16
-        g: '1.70'
+        g: '2.00'
       int:
         b: 16
         g: '2.90'
@@ -112,7 +112,7 @@ herodata:
     attribs:
       str:
         b: 17
-        g: '1.60'
+        g: '1.90'
       int:
         b: 15
         g: '1.40'
@@ -133,7 +133,7 @@ herodata:
     attribs:
       str:
         b: 22
-        g: '2.90'
+        g: '3.20'
       int:
         b: 16
         g: '1.80'
@@ -154,7 +154,7 @@ herodata:
     attribs:
       str:
         b: 20
-        g: '1.90'
+        g: '2.20'
       int:
         b: 14
         g: '1.40'
@@ -175,7 +175,7 @@ herodata:
     attribs:
       str:
         b: 17
-        g: '1.85'
+        g: '2.15'
       int:
         b: 17
         g: '1.65'
@@ -184,8 +184,8 @@ herodata:
         g: '3.30'
       ms: 300
       dmg:
-        min: 18
-        max: 29
+        min: 21
+        max: 32
       armor: 1.8
     dac: Ranged
     droles: Carry - Support - Escape - Nuker - Disabler
@@ -196,7 +196,7 @@ herodata:
     attribs:
       str:
         b: 15
-        g: '2.00'
+        g: '2.30'
       int:
         b: 18
         g: '2.00'
@@ -217,7 +217,7 @@ herodata:
     attribs:
       str:
         b: 19
-        g: '2.00'
+        g: '2.30'
       int:
         b: 17
         g: '1.10'
@@ -238,7 +238,7 @@ herodata:
     attribs:
       str:
         b: 21
-        g: '1.70'
+        g: '2.00'
       int:
         b: 21
         g: '2.00'
@@ -259,7 +259,7 @@ herodata:
     attribs:
       str:
         b: 15
-        g: '1.70'
+        g: '2.00'
       int:
         b: 25
         g: '2.40'
@@ -280,7 +280,7 @@ herodata:
     attribs:
       str:
         b: 25
-        g: '3.20'
+        g: '3.50'
       int:
         b: 14
         g: '1.50'
@@ -301,7 +301,7 @@ herodata:
     attribs:
       str:
         b: 21
-        g: '2.30'
+        g: '2.60'
       int:
         b: 21
         g: '1.80'
@@ -322,7 +322,7 @@ herodata:
     attribs:
       str:
         b: 22
-        g: '2.60'
+        g: '2.90'
       int:
         b: 16
         g: '1.80'
@@ -343,7 +343,7 @@ herodata:
     attribs:
       str:
         b: 19
-        g: '1.50'
+        g: '1.80'
       int:
         b: 24
         g: '3.00'
@@ -364,7 +364,7 @@ herodata:
     attribs:
       str:
         b: 23
-        g: '2.70'
+        g: '3.00'
       int:
         b: 16
         g: '1.30'
@@ -385,7 +385,7 @@ herodata:
     attribs:
       str:
         b: 26
-        g: '3.00'
+        g: '3.30'
       int:
         b: 17
         g: '1.60'
@@ -394,8 +394,8 @@ herodata:
         g: '0.90'
       ms: 285
       dmg:
-        min: 40
-        max: 46
+        min: 44
+        max: 50
       armor: 0.26
     dac: Melee
     droles: Carry - Nuker - Pusher - Initiator - Durable - Disabler
@@ -406,7 +406,7 @@ herodata:
     attribs:
       str:
         b: 18
-        g: '2.60'
+        g: '2.90'
       int:
         b: 13
         g: '1.50'
@@ -427,7 +427,7 @@ herodata:
     attribs:
       str:
         b: 15
-        g: '2.50'
+        g: '2.80'
       int:
         b: 22
         g: '2.60'
@@ -448,7 +448,7 @@ herodata:
     attribs:
       str:
         b: 19
-        g: '2.30'
+        g: '2.60'
       int:
         b: 22
         g: '2.70'
@@ -469,7 +469,7 @@ herodata:
     attribs:
       str:
         b: 24
-        g: '3.00'
+        g: '3.30'
       int:
         b: 18
         g: '1.50'
@@ -490,7 +490,7 @@ herodata:
     attribs:
       str:
         b: 18
-        g: '1.50'
+        g: '1.80'
       int:
         b: 27
         g: '3.20'
@@ -511,7 +511,7 @@ herodata:
     attribs:
       str:
         b: 18
-        g: '1.55'
+        g: '1.85'
       int:
         b: 18
         g: '3.25'
@@ -532,7 +532,7 @@ herodata:
     attribs:
       str:
         b: 16
-        g: '1.70'
+        g: '2.00'
       int:
         b: 20
         g: '3.00'
@@ -553,7 +553,7 @@ herodata:
     attribs:
       str:
         b: 21
-        g: '1.80'
+        g: '2.10'
       int:
         b: 21
         g: '3.00'
@@ -562,8 +562,8 @@ herodata:
         g: '1.60'
       ms: 285
       dmg:
-        min: 44
-        max: 51
+        min: 50
+        max: 57
       armor: 2.24
     dac: Ranged
     droles: Support - Pusher - Disabler - Nuker - Initiator
@@ -574,7 +574,7 @@ herodata:
     attribs:
       str:
         b: 21
-        g: '2.80'
+        g: '3.10'
       int:
         b: 15
         g: '1.50'
@@ -595,7 +595,7 @@ herodata:
     attribs:
       str:
         b: 22
-        g: '3.00'
+        g: '3.30'
       int:
         b: 16
         g: '1.70'
@@ -616,7 +616,7 @@ herodata:
     attribs:
       str:
         b: 16
-        g: '1.80'
+        g: '2.10'
       int:
         b: 24
         g: '2.90'
@@ -637,14 +637,14 @@ herodata:
     attribs:
       str:
         b: 17
-        g: '1.60'
+        g: '1.90'
       int:
         b: 14
         g: '1.30'
       agi:
         b: 34
         g: '2.20'
-      ms: 290
+      ms: 285
       dmg:
         min: 4
         max: 8
@@ -658,7 +658,7 @@ herodata:
     attribs:
       str:
         b: 17
-        g: '2.10'
+        g: '2.40'
       int:
         b: 20
         g: '3.40'
@@ -679,7 +679,7 @@ herodata:
     attribs:
       str:
         b: 17
-        g: '2.00'
+        g: '2.30'
       int:
         b: 30
         g: '2.20'
@@ -700,7 +700,7 @@ herodata:
     attribs:
       str:
         b: 16
-        g: '1.70'
+        g: '2.00'
       int:
         b: 15
         g: '2.60'
@@ -721,7 +721,7 @@ herodata:
     attribs:
       str:
         b: 16
-        g: '2.00'
+        g: '2.30'
       int:
         b: 22
         g: '2.50'
@@ -742,7 +742,7 @@ herodata:
     attribs:
       str:
         b: 22
-        g: '2.50'
+        g: '2.80'
       int:
         b: 24
         g: '2.70'
@@ -763,7 +763,7 @@ herodata:
     attribs:
       str:
         b: 23
-        g: '2.20'
+        g: '2.50'
       int:
         b: 16
         g: '1.90'
@@ -784,7 +784,7 @@ herodata:
     attribs:
       str:
         b: 16
-        g: '1.70'
+        g: '2.00'
       int:
         b: 24
         g: '2.50'
@@ -805,7 +805,7 @@ herodata:
     attribs:
       str:
         b: 18
-        g: '1.85'
+        g: '2.15'
       int:
         b: 17
         g: '1.80'
@@ -826,7 +826,7 @@ herodata:
     attribs:
       str:
         b: 23
-        g: '1.80'
+        g: '2.10'
       int:
         b: 15
         g: '1.50'
@@ -847,7 +847,7 @@ herodata:
     attribs:
       str:
         b: 22
-        g: '2.90'
+        g: '3.20'
       int:
         b: 18
         g: '1.60'
@@ -868,7 +868,7 @@ herodata:
     attribs:
       str:
         b: 17
-        g: '2.30'
+        g: '2.60'
       int:
         b: 23
         g: '3.00'
@@ -889,7 +889,7 @@ herodata:
     attribs:
       str:
         b: 20
-        g: '1.85'
+        g: '2.15'
       int:
         b: 15
         g: '1.40'
@@ -910,7 +910,7 @@ herodata:
     attribs:
       str:
         b: 17
-        g: '1.20'
+        g: '1.50'
       int:
         b: 26
         g: '4.50'
@@ -931,13 +931,13 @@ herodata:
     attribs:
       str:
         b: 18
-        g: '2.10'
+        g: '2.40'
       int:
         b: 20
         g: '2.00'
       agi:
         b: 23
-        g: '2.70'
+        g: '2.30'
       ms: 305
       dmg:
         min: 30
@@ -952,7 +952,7 @@ herodata:
     attribs:
       str:
         b: 20
-        g: '2.10'
+        g: '2.40'
       int:
         b: 15
         g: '1.80'
@@ -973,7 +973,7 @@ herodata:
     attribs:
       str:
         b: 15
-        g: '2.20'
+        g: '2.50'
       int:
         b: 16
         g: '1.85'
@@ -994,7 +994,7 @@ herodata:
     attribs:
       str:
         b: 19
-        g: '2.80'
+        g: '3.10'
       int:
         b: 15
         g: '1.70'
@@ -1015,7 +1015,7 @@ herodata:
     attribs:
       str:
         b: 16
-        g: '1.85'
+        g: '2.15'
       int:
         b: 27
         g: '3.40'
@@ -1036,7 +1036,7 @@ herodata:
     attribs:
       str:
         b: 26
-        g: '2.90'
+        g: '3.20'
       int:
         b: 17
         g: '1.30'
@@ -1057,7 +1057,7 @@ herodata:
     attribs:
       str:
         b: 16
-        g: '1.50'
+        g: '1.80'
       int:
         b: 26
         g: '3.00'
@@ -1078,7 +1078,7 @@ herodata:
     attribs:
       str:
         b: 19
-        g: '1.80'
+        g: '2.10'
       int:
         b: 25
         g: '2.90'
@@ -1099,7 +1099,7 @@ herodata:
     attribs:
       str:
         b: 25
-        g: '3.00'
+        g: '3.30'
       int:
         b: 15
         g: '1.75'
@@ -1120,7 +1120,7 @@ herodata:
     attribs:
       str:
         b: 22
-        g: '2.30'
+        g: '2.60'
       int:
         b: 25
         g: '2.70'
@@ -1141,7 +1141,7 @@ herodata:
     attribs:
       str:
         b: 15
-        g: '1.60'
+        g: '1.90'
       int:
         b: 16
         g: '1.55'
@@ -1162,7 +1162,7 @@ herodata:
     attribs:
       str:
         b: 22
-        g: '2.80'
+        g: '3.10'
       int:
         b: 17
         g: '1.80'
@@ -1183,9 +1183,9 @@ herodata:
     attribs:
       str:
         b: 16
-        g: '1.00'
+        g: '1.30'
       int:
-        b: 19
+        b: 21
         g: '3.10'
       agi:
         b: 19
@@ -1204,7 +1204,7 @@ herodata:
     attribs:
       str:
         b: 21
-        g: '2.40'
+        g: '2.70'
       int:
         b: 18
         g: '1.50'
@@ -1225,7 +1225,7 @@ herodata:
     attribs:
       str:
         b: 23
-        g: '2.80'
+        g: '3.10'
       int:
         b: 16
         g: '1.60'
@@ -1246,7 +1246,7 @@ herodata:
     attribs:
       str:
         b: 17
-        g: '2.50'
+        g: '2.80'
       int:
         b: 18
         g: '2.00'
@@ -1267,7 +1267,7 @@ herodata:
     attribs:
       str:
         b: 17
-        g: '1.80'
+        g: '2.10'
       int:
         b: 19
         g: '2.00'
@@ -1288,7 +1288,7 @@ herodata:
     attribs:
       str:
         b: 15
-        g: '1.50'
+        g: '1.80'
       int:
         b: 15
         g: '1.80'
@@ -1309,7 +1309,7 @@ herodata:
     attribs:
       str:
         b: 25
-        g: '2.30'
+        g: '2.60'
       int:
         b: 28
         g: '2.80'
@@ -1330,7 +1330,7 @@ herodata:
     attribs:
       str:
         b: 23
-        g: '2.40'
+        g: '2.70'
       int:
         b: 24
         g: '2.50'
@@ -1351,7 +1351,7 @@ herodata:
     attribs:
       str:
         b: 23
-        g: '1.50'
+        g: '1.80'
       int:
         b: 21
         g: '2.80'
@@ -1372,7 +1372,7 @@ herodata:
     attribs:
       str:
         b: 19
-        g: '2.00'
+        g: '2.30'
       int:
         b: 16
         g: '1.90'
@@ -1393,7 +1393,7 @@ herodata:
     attribs:
       str:
         b: 26
-        g: '3.20'
+        g: '3.50'
       int:
         b: 13
         g: '2.10'
@@ -1414,7 +1414,7 @@ herodata:
     attribs:
       str:
         b: 18
-        g: '1.40'
+        g: '1.70'
       int:
         b: 25
         g: '2.60'
@@ -1435,7 +1435,7 @@ herodata:
     attribs:
       str:
         b: 23
-        g: '2.70'
+        g: '3.00'
       int:
         b: 16
         g: '1.50'
@@ -1444,8 +1444,8 @@ herodata:
         g: '2.10'
       ms: 310
       dmg:
-        min: 27
-        max: 31
+        min: 24
+        max: 28
       armor: 5.52
     dac: Melee
     droles: Carry - Jungler - Durable - Disabler
@@ -1456,7 +1456,7 @@ herodata:
     attribs:
       str:
         b: 29
-        g: '2.40'
+        g: '2.70'
       int:
         b: 14
         g: '1.80'
@@ -1477,14 +1477,14 @@ herodata:
     attribs:
       str:
         b: 18
-        g: '1.80'
+        g: '2.10'
       int:
         b: 19
         g: '2.10'
       agi:
         b: 24
         g: '2.80'
-      ms: 315
+      ms: 320
       dmg:
         min: 13
         max: 23
@@ -1498,7 +1498,7 @@ herodata:
     attribs:
       str:
         b: 25
-        g: '1.80'
+        g: '2.10'
       int:
         b: 25
         g: '1.80'
@@ -1519,7 +1519,7 @@ herodata:
     attribs:
       str:
         b: 16
-        g: '1.90'
+        g: '2.20'
       int:
         b: 16
         g: '4.00'
@@ -1540,7 +1540,7 @@ herodata:
     attribs:
       str:
         b: 17
-        g: '2.20'
+        g: '2.50'
       int:
         b: 27
         g: '2.50'
@@ -1561,7 +1561,7 @@ herodata:
     attribs:
       str:
         b: 19
-        g: '2.30'
+        g: '2.60'
       int:
         b: 26
         g: '2.70'
@@ -1582,7 +1582,7 @@ herodata:
     attribs:
       str:
         b: 25
-        g: '3.00'
+        g: '3.30'
       int:
         b: 17
         g: '1.55'
@@ -1603,7 +1603,7 @@ herodata:
     attribs:
       str:
         b: 23
-        g: '2.90'
+        g: '3.20'
       int:
         b: 14
         g: '1.25'
@@ -1624,7 +1624,7 @@ herodata:
     attribs:
       str:
         b: 17
-        g: '1.90'
+        g: '2.20'
       int:
         b: 23
         g: '2.70'
@@ -1645,7 +1645,7 @@ herodata:
     attribs:
       str:
         b: 17
-        g: '2.10'
+        g: '2.40'
       int:
         b: 13
         g: '1.40'
@@ -1666,7 +1666,7 @@ herodata:
     attribs:
       str:
         b: 20
-        g: '2.90'
+        g: '3.20'
       int:
         b: 16
         g: '1.20'
@@ -1687,7 +1687,7 @@ herodata:
     attribs:
       str:
         b: 23
-        g: '1.30'
+        g: '1.60'
       int:
         b: 20
         g: '1.60'
@@ -1708,7 +1708,7 @@ herodata:
     attribs:
       str:
         b: 25
-        g: '3.30'
+        g: '3.60'
       int:
         b: 17
         g: '1.80'
@@ -1729,7 +1729,7 @@ herodata:
     attribs:
       str:
         b: 23
-        g: '3.20'
+        g: '3.50'
       int:
         b: 17
         g: '2.00'
@@ -1750,7 +1750,7 @@ herodata:
     attribs:
       str:
         b: 22
-        g: '2.10'
+        g: '2.40'
       int:
         b: 27
         g: '2.80'
@@ -1771,7 +1771,7 @@ herodata:
     attribs:
       str:
         b: 19
-        g: '1.50'
+        g: '1.80'
       int:
         b: 27
         g: '2.40'
@@ -1792,7 +1792,7 @@ herodata:
     attribs:
       str:
         b: 19
-        g: '1.90'
+        g: '2.20'
       int:
         b: 22
         g: '2.50'
@@ -1813,7 +1813,7 @@ herodata:
     attribs:
       str:
         b: 18
-        g: '2.00'
+        g: '2.30'
       int:
         b: 18
         g: '2.10'
@@ -1834,7 +1834,7 @@ herodata:
     attribs:
       str:
         b: 21
-        g: '2.50'
+        g: '2.80'
       int:
         b: 21
         g: '2.00'
@@ -1855,7 +1855,7 @@ herodata:
     attribs:
       str:
         b: 14
-        g: '1.80'
+        g: '2.10'
       int:
         b: 25
         g: '2.80'
@@ -1876,7 +1876,7 @@ herodata:
     attribs:
       str:
         b: 17
-        g: '1.90'
+        g: '2.20'
       int:
         b: 23
         g: '1.70'
@@ -1897,7 +1897,7 @@ herodata:
     attribs:
       str:
         b: 22
-        g: '2.40'
+        g: '2.70'
       int:
         b: 24
         g: '2.50'
@@ -1918,10 +1918,10 @@ herodata:
     attribs:
       str:
         b: 20
-        g: '1.60'
+        g: '1.90'
       int:
         b: 16
-        g: '1.90'
+        g: '1.70'
       agi:
         b: 21
         g: '1.50'
@@ -1939,7 +1939,7 @@ herodata:
     attribs:
       str:
         b: 14
-        g: '1.65'
+        g: '1.95'
       int:
         b: 19
         g: '2.10'
@@ -1960,13 +1960,13 @@ herodata:
     attribs:
       str:
         b: 20
-        g: '2.20'
+        g: '2.50'
       int:
         b: 13
         g: '1.00'
       agi:
         b: 21
-        g: '2.75'
+        g: '2.50'
       ms: 300
       dmg:
         min: 17
@@ -1981,7 +1981,7 @@ herodata:
     attribs:
       str:
         b: 23
-        g: '4.00'
+        g: '4.30'
       int:
         b: 15
         g: '1.60'
@@ -2002,14 +2002,14 @@ herodata:
     attribs:
       str:
         b: 21
-        g: '2.90'
+        g: '3.20'
       int:
         b: 19
         g: '1.65'
       agi:
         b: 15
         g: '2.50'
-      ms: 315
+      ms: 310
       dmg:
         min: 32
         max: 44
@@ -2023,7 +2023,7 @@ herodata:
     attribs:
       str:
         b: 21
-        g: '1.80'
+        g: '2.10'
       int:
         b: 21
         g: '2.40'
@@ -2044,7 +2044,7 @@ herodata:
     attribs:
       str:
         b: 22
-        g: '2.20'
+        g: '2.50'
       int:
         b: 14
         g: '2.80'
@@ -2065,7 +2065,7 @@ herodata:
     attribs:
       str:
         b: 23
-        g: '2.30'
+        g: '2.60'
       int:
         b: 18
         g: '1.70'
@@ -2086,7 +2086,7 @@ herodata:
     attribs:
       str:
         b: 19
-        g: '1.50'
+        g: '1.80'
       int:
         b: 27
         g: '3.60'
@@ -2107,7 +2107,7 @@ herodata:
     attribs:
       str:
         b: 23
-        g: '2.30'
+        g: '2.60'
       int:
         b: 21
         g: '2.00'
@@ -2128,7 +2128,7 @@ herodata:
     attribs:
       str:
         b: 24
-        g: '2.30'
+        g: '2.60'
       int:
         b: 23
         g: '1.60'
@@ -2149,7 +2149,7 @@ herodata:
     attribs:
       str:
         b: 26
-        g: '2.60'
+        g: '2.90'
       int:
         b: 20
         g: '2.20'
@@ -2170,7 +2170,7 @@ herodata:
     attribs:
       str:
         b: 19
-        g: '1.80'
+        g: '2.10'
       int:
         b: 20
         g: '1.80'
@@ -2191,7 +2191,7 @@ herodata:
     attribs:
       str:
         b: 21
-        g: '2.90'
+        g: '3.20'
       int:
         b: 18
         g: '2.10'
@@ -2212,7 +2212,7 @@ herodata:
     attribs:
       str:
         b: 15
-        g: '1.40'
+        g: '1.70'
       int:
         b: 19
         g: '1.75'
@@ -2233,7 +2233,7 @@ herodata:
     attribs:
       str:
         b: 19
-        g: '2.90'
+        g: '3.20'
       int:
         b: 18
         g: '1.80'
@@ -2254,7 +2254,7 @@ herodata:
     attribs:
       str:
         b: 18
-        g: '1.90'
+        g: '2.20'
       int:
         b: 23
         g: '2.90'
@@ -2275,7 +2275,7 @@ herodata:
     attribs:
       str:
         b: 17
-        g: '2.00'
+        g: '2.30'
       int:
         b: 22
         g: '2.90'
@@ -2296,7 +2296,7 @@ herodata:
     attribs:
       str:
         b: 24
-        g: '2.10'
+        g: '2.40'
       int:
         b: 25
         g: '3.10'
@@ -2317,7 +2317,7 @@ herodata:
     attribs:
       str:
         b: 24
-        g: '2.70'
+        g: '3.00'
       int:
         b: 24
         g: '2.60'
@@ -2338,7 +2338,7 @@ herodata:
     attribs:
       str:
         b: 25
-        g: '2.60'
+        g: '2.90'
       int:
         b: 17
         g: '2.60'
@@ -2359,7 +2359,7 @@ herodata:
     attribs:
       str:
         b: 18
-        g: '2.50'
+        g: '2.80'
       int:
         b: 20
         g: '1.80'

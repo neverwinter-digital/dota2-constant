@@ -174,7 +174,7 @@ itemdata:
     img: faerie_fire_lg.png?3
     dname: 요정 불꽃
     qual: consumable
-    cost: 75
+    cost: 70
     desc: '사용: 아이템을 소모하여 즉시 체력을 %hp_restore%만큼 회복합니다.'
     notes: ''
     attrib: |-
@@ -458,12 +458,12 @@ itemdata:
     img: lifesteal_lg.png?3
     dname: 섬뜩한 가면
     qual: component
-    cost: 1200
+    cost: 1100
     desc: "지속 효과: 흡혈 - 가한 피해의 일정 비율만큼 공격자를 치유합니다.<br />\r\n<br />\r\n섬뜩한 가면은 고유 공격
       변형 요인입니다. 다른 고유 공격 변형 요인과 중첩되지 않습니다."
     notes: ''
     attrib: |-
-      + <span class="attribVal">15</span> <span class="attribValText">피해</span><br />
+      + <span class="attribVal">10</span> <span class="attribValText">피해</span><br />
       흡혈: <span class="attribVal">15%</span>
     mc: false
     cd: false
@@ -649,7 +649,7 @@ itemdata:
     img: enchanted_mango_lg.png?3
     dname: 마력 깃든 망고
     qual: consumable
-    cost: 110
+    cost: 100
     desc: "사용: 망고를 먹고 즉시 %replenish_amount% 마나를 회복합니다.<br />\r\n<br />\r\nCtrl 키를
       누르고 아군에게 사용할 수 있습니다."
     notes: ''
@@ -699,7 +699,7 @@ itemdata:
     img: bottle_lg.png?3
     dname: 물병
     qual: consumable
-    cost: 660
+    cost: 650
     desc: "사용: 재생 - 내용물 일부를 소모하고 체력과 마나를 지속해서 회복합니다. 공격을 받으면 치유 효과가 중단됩니다. 병은 아군의
       분수에서 다시 채울 수 있습니다. 룬을 병에 담았다가 나중에 사용할 수도 있습니다. 담아둔 룬은 2분이 지나면 자동으로 사용됩니다. 가득
       차지 않은 물병을 운반하는 짐꾼은 이동 속도가 30% 감소합니다.<br />\r\n<br />\r\nCtrl 키를 누르고 물병을 클릭하면
@@ -719,7 +719,7 @@ itemdata:
     img: ward_observer_lg.png?3
     dname: 관찰 와드
     qual: consumable
-    cost: 65
+    cost: 60
     desc: "사용: 눈에 보이지 않는 관찰 와드를 설치합니다. 아군은 와드 주위의 시야를 얻습니다. %duration_minutes_tooltip%분
       동안 지속합니다.<br />\r\n<br />\r\nCtrl 키를 누르고 아군을 클릭하면 관찰 와드 하나를 넣어줄 수 있습니다."
     notes: ''
@@ -754,14 +754,14 @@ itemdata:
     img: ward_dispenser_lg.png?3
     dname: 관찰 및 감시 와드
     qual: common
-    cost: 165
+    cost: 160
     desc: "두 번 클릭하여 소지한 와드가 보이는 순서를 바꿀 수 있습니다.<br />\r\n<br />\r\n사용: 현재 활성화된 와드를
       설치하여 임의의 지점에서 시야를 밝힙니다. 관찰 와드는 팀에 주위 지역의 시야를 제공하며 감시 와드는 범위 내에서 아군에게 투명 유닛과
       와드를 볼 수 있는 진실의 시야를 제공합니다."
     notes: ''
     attrib: |-
       관찰 시야 범위: <span class="attribVal">1600</span><br />
-      관찰 지속시간(분): <span class="attribVal">6</span><br />
+      관찰 지속시간(분): <span class="attribVal">8</span><br />
       감시 진실의 시야 범위: <span class="attribVal">850</span><br />
       감시 지속시간(분): <span class="attribVal">4</span>
     mc: false
@@ -897,10 +897,10 @@ itemdata:
     img: demon_edge_lg.png?3
     dname: 악마의 검
     qual: secret_shop
-    cost: 2400
+    cost: 2200
     desc: ''
     notes: ''
-    attrib: + <span class="attribVal">46</span> <span class="attribValText">피해</span>
+    attrib: + <span class="attribVal">42</span> <span class="attribValText">피해</span>
     mc: false
     cd: false
     lore: 악마 대장장이 아브지디안이 만든 오래된 무기 중 하나입니다. 아브지디안은 칼날이 얼마나 예리한지 시험하던 도중 날에 베어 죽음을
@@ -1076,7 +1076,7 @@ itemdata:
     img: hand_of_midas_lg.png?3
     dname: 미다스의 손
     qual: common
-    cost: 2050
+    cost: 2150
     desc: '시전 기술: 금 변환 - 영웅이 아닌 대상을 처치하고 %bonus_gold%골드와 1.75배의 경험치를 획득합니다. 고대 크립에게는
       사용할 수 없습니다.'
     notes: 제공되는 골드는 안전 골드입니다. 크립을 처치했을 때 받는 일반 현상금은 받을 수 없습니다.<br />금 변환 기술로 획득한 경험치는
@@ -1157,7 +1157,7 @@ itemdata:
     img: bracer_lg.png?3
     dname: 전투 팔찌
     qual: common
-    cost: 505
+    cost: 490
     desc: ''
     notes: ''
     attrib: |-
@@ -1242,7 +1242,7 @@ itemdata:
     img: vladmir_lg.png?3
     dname: 블라드미르의 공물
     qual: rare
-    cost: 2375
+    cost: 2275
     desc: "지속 효과: 블라드미르의 오라 - %aura_radius% 반경에 있는 아군에게 흡혈, 체력 재생, 마나 재생, 보너스 공격 피해,
       방어력을 제공합니다. 오라에 영향을 받는 영웅이 근접인지 원거리인지에 따라 흡혈 효과의 비율이 달라집니다. <br />\r\n<br />\r\n블라드미르의
       오라는 서로 중첩되지 않습니다."
@@ -1356,8 +1356,7 @@ itemdata:
       에너지를 충전합니다. 죽은 영웅에게서 가장 가까운 항아리 하나만 충전됩니다."
     notes: 빈 항아리는 2회 충전됩니다.<br />이미 영혼 해방 효과가 걸린 영웅에게 사용할 경우 효과의 지속시간을 초기화합니다.
     attrib: |-
-      + <span class="attribVal">50%</span> <span class="attribValText">마나 재생</span><br />
-      + <span class="attribVal">6</span> <span class="attribValText">힘</span><br />
+      + <span class="attribVal">1%</span> <span class="attribValText">마나 재생</span><br />
       아군에게 준 총 치유: <span class="attribVal">400</span><br />
       적에게 준 총 피해: <span class="attribVal">150</span><br />
       영혼 해방 지속시간: <span class="attribVal">8</span><br />
@@ -1366,9 +1365,9 @@ itemdata:
     cd: 7
     lore: 강력한 악마들의 재가 들어 있습니다.
     components:
-    - sobi_mask
-    - gauntlets
-    - gauntlets
+    - infused_raindrop
+    - circlet
+    - ring_of_protection
     created: true
   headdress:
     id: 94
@@ -1405,7 +1404,7 @@ itemdata:
       + <span class="attribVal">150%</span> <span class="attribValText">마나 재생</span><br />
       주술 지속시간: <span class="attribVal">3.5</span>
     mc: 100
-    cd: 25
+    cd: 22
     lore: 바이스 교단이 가장 소중하게 지키는 유물이며, 마법사들이 가장 탐내는 유물이기도 합니다.
     components:
     - mystic_staff
@@ -1456,7 +1455,7 @@ itemdata:
       침묵 지속시간: <span class="attribVal">5</span><br />
       침묵 치명타 피해: <span class="attribVal">145%</span>
     mc: 100
-    cd: 14
+    cd: 18
     lore: 능멸의 검은 희생자가 마지막 고통으로 신음할 때마다 더 깊이 파고듭니다.
     components:
     - orchid
@@ -1520,42 +1519,41 @@ itemdata:
     notes: ''
     attrib: |-
       + <span class="attribVal">250</span> <span class="attribValText">마나</span><br />
-      + <span class="attribVal">8</span> <span class="attribValText">체력 재생</span><br />
       + <span class="attribVal">220</span> <span class="attribValText">시전 범위</span><br />
-      주문 피해 증폭: <span class="attribVal">5%</span>
+      주문 피해 증폭: <span class="attribVal">6%</span>
     mc: false
     cd: false
     lore: 죽어가는 마법사가 마지막 숨결과 함께 읊은 주문으로 다듬어 병약한 아들에게 남긴 선물입니다.
     components:
     - energy_booster
-    - ring_of_health
+    - void_stone
     created: true
   force_staff:
     id: 102
     img: force_staff_lg.png?3
     dname: 염동력 지팡이
     qual: rare
-    cost: 2225
+    cost: 2250
     desc: '시전 기술: 염동력 - 대상이 바라보는 방향으로 대상을 %push_length% 유닛 거리만큼 밀어냅니다. 두 번 클릭하면 즉시
       자신에게 염동력을 시전합니다.'
     notes: 자신에게 시전 시 염동력 효과가 자신에게 적용됩니다.<br />염동력 지팡이는 대상의 행동을 방해하지 않습니다.<br />시간의
       구슬이나 블랙홀에 갇힌 유닛, 결투 상태인 유닛에게는 효과가 없습니다.
     attrib: |-
       + <span class="attribVal">10</span> <span class="attribValText">지능</span><br />
-      + <span class="attribVal">4</span> <span class="attribValText">체력 재생</span>
+      + <span class="attribVal">6</span> <span class="attribValText">체력 재생</span>
     mc: 25
     cd: 20
     lore: 다른 사람의 몸을 움직입니다. 좋든 싫든 거부할 수 없습니다.
     components:
     - staff_of_wizardry
-    - ring_of_regen
+    - ring_of_health
     created: true
   hurricane_pike:
     id: 263
     img: hurricane_pike_lg.png?3
     dname: 허리케인 창
     qual: epic
-    cost: 4625
+    cost: 4650
     desc: "시전 기술: 적에게 사용하면 시전자와 적을 서로 %enemy_length% 유닛 거리만큼 밀어냅니다. 시전자는 최대 %range_duration%초
       동안 범위 제한 없이 대상을 %max_attacks%회 공격할 수 있습니다. 공격하는 동안 공격 속도가 %bonus_attack_speed%
       늘어납니다. 자신이나 아군에게 시전하면 염동력 지팡이처럼 사용할 수 있습니다.<br />\r\n지속 효과: 원거리 영웅의 공격 범위가 %base_attack_range%
@@ -1564,7 +1562,7 @@ itemdata:
       구슬이나 블랙홀에 갇힌 유닛, 결투 상태인 유닛에게는 효과가 없습니다.
     attrib: |-
       + <span class="attribVal">10</span> <span class="attribValText">지능</span><br />
-      + <span class="attribVal">4</span> <span class="attribValText">체력 재생</span><br />
+      + <span class="attribVal">6</span> <span class="attribValText">체력 재생</span><br />
       + <span class="attribVal">20</span> <span class="attribValText">민첩</span><br />
       + <span class="attribVal">15</span> <span class="attribValText">힘</span><br />
       + <span class="attribVal">140</span> <span class="attribValText">공격 범위<font color='#7d7d7d'>(원거리만)</font></span><br />
@@ -1833,19 +1831,20 @@ itemdata:
     img: heart_lg.png?3
     dname: 타라스크의 심장
     qual: epic
-    cost: 5500
+    cost: 5200
     desc: '지속 효과: 체력 재생 - 매초 최대 체력의 일정 비율만큼 체력을 회복합니다. 적 영웅 또는 로샨에게 피해를 받으면 근접 영웅은
       %cooldown_melee%초 동안, 원거리 영웅은 %cooldown_ranged_tooltip%초 동안 체력 회복 효과가 중단됩니다.'
     notes: ''
     attrib: |-
-      + <span class="attribVal">45</span> <span class="attribValText">힘</span><br />
-      + <span class="attribVal">250</span> <span class="attribValText">체력</span><br />
+      + <span class="attribVal">40</span> <span class="attribValText">힘</span><br />
+      + <span class="attribVal">500</span> <span class="attribValText">체력</span><br />
       초당 회복 체력: <span class="attribVal">7%</span>
     mc: false
     cd: 7
     lore: 지금은 멸종한 괴물의 심장을 보존한 것으로 이 물건을 소지한 자는 강인한 힘을 얻습니다.
     components:
     - reaver
+    - vitality_booster
     - vitality_booster
     created: true
   black_king_bar:
@@ -1890,7 +1889,7 @@ itemdata:
     img: shivas_guard_lg.png?3
     dname: 시바의 은총
     qual: epic
-    cost: 4700
+    cost: 4750
     desc: "시전 기술: 극지의 돌풍 - 차가운 바람을 내뿜어 적에게 %blast_damage%의 마법 피해를 주고 %blast_debuff_duration%초
       동안 적의 이동 속도를 %blast_movement_speed%%만큼 느려지게 합니다.<br />\r\n지속 효과: 빙결의 오라 - %aura_radius%
       반경에 있는 적 모두의 공격 속도를 감소시킵니다.<br />\r\n<br />\r\n빙결의 오라는 서로 중첩되지 않습니다."
@@ -1915,7 +1914,7 @@ itemdata:
     img: bloodstone_lg.png?3
     dname: 혈석
     qual: epic
-    cost: 4900
+    cost: 4850
     desc: "사용 효과: 간편 디나이 - 즉시 자살합니다.<br />\r\n지속 효과: 피의 서약 - 아이템 획득 시 12회 충전되어 있습니다.
       1675의 범위 내에서 적 영웅이 죽을 때마다 1회 충전이 더해집니다. 충전 횟수마다 초당 회복하는 마나가 1씩 증가하고, 부활 대기 시간이
       %respawn_time_reduction%초씩 감소합니다. 소지자가 사망할 경우 %heal_on_death_range% 범위 내에 있는
@@ -2010,7 +2009,7 @@ itemdata:
     qual: epic
     cost: 3550
     desc: "시전 기술: 핏빛 수호 - 주위 아군 영웅과 건물에 %bonus_aoe_armor%의 방어력을 부여하고 공격을 받을 때마다 %block_chance_active%%
-      확률로 %block_damage_melee_active%의 피해를 방어하는 효과를 줍니다. 10초 동안 지속됩니다.<br />\r\n지속
+      확률로 %block_damage_melee_active%의 피해를 방어하는 효과를 줍니다. 12초 동안 지속됩니다.<br />\r\n지속
       효과: 피해 방어 - %block_chance%%의 확률로 받는 공격을 방어합니다. 근접 영웅이 사용할 때와 원거리 영웅이 사용할 때 방어하는
       피해량이 달라집니다."
     notes: 다수의 피해 방어 효과는 서로 중첩되지 않습니다.<br />핏빛 수호 효과를 받은 후 46초가 지나지 않은 유닛에게는 효과가 없습니다.
@@ -2023,7 +2022,7 @@ itemdata:
       원거리 피해 방어: <span class="attribVal">35</span><br />
       방어 확률: <span class="attribVal">50</span><br />
       핏빛 수호 방어력: <span class="attribVal">2</span><br />
-      핏빛 수호 지속시간: <span class="attribVal">10</span><br />
+      핏빛 수호 지속시간: <span class="attribVal">12</span><br />
       핏빛 수호 반경: <span class="attribVal">900</span><br />
       핏빛 수호 피해 방어: <span class="attribVal">60</span>
     mc: false
@@ -2048,7 +2047,7 @@ itemdata:
       + <span class="attribVal">10</span> <span class="attribValText">지능</span><br />
       피해 반사 지속시간: <span class="attribVal">4.5</span>
     mc: 25
-    cd: 18
+    cd: 20
     lore: 칼날을 두른 이 갑옷은 전투에서 희생을 마다하지 않는 순교자들이 입는 방어구입니다.
     components:
     - broadsword
@@ -2100,7 +2099,7 @@ itemdata:
     img: rapier_lg.png?3
     dname: 신의 양날검
     qual: epic
-    cost: 6200
+    cost: 6000
     desc: 사망 시 바닥에 떨어집니다. 아군이 습득하면 사용할 수 없는 상태가 됩니다. 적군이 습득하면 바로 사용할 수 있습니다. 떨어뜨린
       신의 양날검은 짐꾼으로 주울 수 없습니다.
     notes: 상대편이 떨어뜨린 신의 양날검을 획득한 경우, 죽기 전까지는 신의 양날검을 떨어뜨릴 수 없습니다.
@@ -2117,7 +2116,7 @@ itemdata:
     img: monkey_king_bar_lg.png?3
     dname: 여의봉
     qual: epic
-    cost: 5400
+    cost: 5200
     desc: "지속 효과: 소형 강타 - 매 공격 시 일정 확률로 보너스 피해를 주고 짧은 시간 동안 적을 기절시킵니다.<br />\r\n지속
       효과: 정밀 타격 - 공격이 빗나가지 않습니다. 적의 구조물을 공격할 때는 정밀 타격 효과가 적용되지 않습니다."
     notes: ''
@@ -2182,11 +2181,11 @@ itemdata:
     img: greater_crit_lg.png?3
     dname: 다이달로스
     qual: epic
-    cost: 5520
+    cost: 5320
     desc: '지속 효과: 치명타 - 매 공격 시 일정 확률로 추가 피해를 줍니다. 건물에는 치명타가 적용되지 않습니다.'
     notes: ''
     attrib: |-
-      + <span class="attribVal">76</span> <span class="attribValText">피해</span><br />
+      + <span class="attribVal">80</span> <span class="attribValText">피해</span><br />
       치명타 확률: <span class="attribVal">30%</span><br />
       치명타 피해: <span class="attribVal">235%</span>
     mc: false
@@ -2373,7 +2372,7 @@ itemdata:
     img: silver_edge_lg.png?3
     dname: 은빛 칼날
     qual: epic
-    cost: 5350
+    cost: 5550
     desc: '시전 기술: 그림자 보행 - 몸이 투명해집니다. 지속시간이 다하거나 적을 공격하거나 주문을 시전하면 투명화가 풀립니다. 그림자
       보행 중에는 이동 속도가 %windwalk_movement_speed%% 증가하며 유닛을 통과하여 움직일 수 있습니다. 투명화 상태에서
       적을 공격하면 투명화가 풀리고 %windwalk_bonus_damage%의 보너스 피해가 더해지며 지속 능력을 무력화함과 동시에 공격력을
@@ -2399,7 +2398,7 @@ itemdata:
     img: sange_and_yasha_lg.png?3
     dname: 산화와 야차
     qual: artifact
-    cost: 4100
+    cost: 3900
     desc: "지속 효과: 중상 - 매 공격 시 일정 확률로 적의 이동을 %maim_duration%초 동안 느려지게 합니다.<br />\r\n<br
       />\r\n야차의 아이템 이동 속도 보너스는 서로 중첩되지 않습니다."
     notes: ''
@@ -2427,7 +2426,7 @@ itemdata:
     img: satanic_lg.png?3
     dname: 사탄의 손아귀
     qual: artifact
-    cost: 5800
+    cost: 5700
     desc: "시전 기술: 부정한 분노 - %unholy_duration%초 동안 흡혈 비율이 %unholy_lifesteal_total_tooltip%%로
       증가합니다.<br />\r\n지속 효과: 흡혈 - 가한 피해의 일정 비율만큼 공격자를 치유합니다.<br />\r\n<br />\r\n사탄의
       손아귀는 고유 공격 변형 요인입니다. 다른 고유 공격 변형 요인과 중첩되지 않습니다."
@@ -2507,7 +2506,7 @@ itemdata:
     img: sange_lg.png?3
     dname: 산화
     qual: artifact
-    cost: 2050
+    cost: 1950
     desc: '지속 효과: 경상 - 매 공격 시 일정 확률로 적의 이동을 %maim_duration%초 동안 느려지게 합니다.'
     notes: ''
     attrib: |-
@@ -2531,7 +2530,7 @@ itemdata:
     img: helm_of_the_dominator_lg.png?3
     dname: 지배자의 투구
     qual: artifact
-    cost: 1975
+    cost: 2025
     desc: '시전 기술: 지배 - 대상 유닛을 조종하고 이동 속도를 %speed_base%|으로|로| 고정시킵니다. 단, 영웅이나 고대 유닛은
       지배할 수 없습니다. 지배된 크립의 기본 체력이 최소 체력보다 낮을 경우 기본 체력은 최소 체력에 맞게 증가합니다.'
     notes: 한 번에 한 마리의 유닛만 지배할 수 있습니다. 새로운 유닛을 지배하면 기존 지배하던 유닛은 죽습니다.<br />지배자의 투구를
@@ -2540,7 +2539,7 @@ itemdata:
       + <span class="attribVal">2</span> <span class="attribValText">모든 능력치</span><br />
       + <span class="attribVal">10</span> <span class="attribValText">공격 속도</span><br />
       오라 공격 속도: <span class="attribVal">10</span><br />
-      오라 체력 재생: <span class="attribVal">8</span><br />
+      오라 체력 재생: <span class="attribVal">10</span><br />
       지배 최소 체력: <span class="attribVal">1400</span><br />
       크립 이동 속도: <span class="attribVal">425</span>
     mc: false
@@ -2549,7 +2548,7 @@ itemdata:
     components:
     - gloves
     - headdress
-    - false
+    - ring_of_health
     created: true
   maelstrom:
     id: 166
@@ -2599,12 +2598,12 @@ itemdata:
     img: yasha_lg.png?3
     dname: 야차
     qual: artifact
-    cost: 2050
+    cost: 1950
     desc: 야차의 아이템 이동 속도 보너스는 서로 중첩되지 않습니다.
     notes: ''
     attrib: |-
       + <span class="attribVal">16</span> <span class="attribValText">민첩</span><br />
-      + <span class="attribVal">15</span> <span class="attribValText">공격 속도</span><br />
+      + <span class="attribVal">10</span> <span class="attribValText">공격 속도</span><br />
       + <span class="attribVal">8%</span> <span class="attribValText">이동 속도</span>
     mc: false
     cd: false
@@ -2618,16 +2617,16 @@ itemdata:
     img: mask_of_madness_lg.png?3
     dname: 광기의 가면
     qual: artifact
-    cost: 1900
+    cost: 1975
     desc: "시전 기술: 광포화 - 공격 속도가 %berserk_bonus_attack_speed% 증가하고 이동 속도가 %berserk_bonus_movement_speed%%
       증가합니다. 동시에 방어력이 %berserk_armor_reduction% 감소하고 침묵합니다. %berserk_duration%초 동안
       지속합니다.<br />\r\n지속 효과: 흡혈 - 가한 피해의 일정 비율만큼 공격자를 치유합니다.<br />\r\n<br />\r\n광기의
       가면은 고유 공격 변형 요인입니다. 다른 고유 공격 변형 요인과 중첩되지 않습니다."
     notes: ''
     attrib: |-
-      + <span class="attribVal">15</span> <span class="attribValText">피해</span><br />
+      + <span class="attribVal">20</span> <span class="attribValText">피해</span><br />
       흡혈: <span class="attribVal">15%</span><br />
-      광포화 공격 속도: <span class="attribVal">120</span><br />
+      광포화 공격 속도: <span class="attribVal">110</span><br />
       광포화 이동 속도: <span class="attribVal">17%</span><br />
       광폭화 방어력 감소: <span class="attribVal">5</span><br />
       광포화 지속시간: <span class="attribVal">8</span>
@@ -2636,6 +2635,7 @@ itemdata:
     lore: 이 가면을 쓴 자는 주체할 수 없는 공격성을 띱니다.
     components:
     - lifesteal
+    - quarterstaff
     created: true
   diffusal_blade:
     id: 174
@@ -2717,7 +2717,7 @@ itemdata:
     img: soul_ring_lg.png?3
     dname: 영혼의 반지
     qual: common
-    cost: 800
+    cost: 750
     desc: '시전 기술: 희생 - %health_sacrifice% 체력을 소모하여 일시적으로 %mana_gain% 마나를 회복합니다. 10초
       동안 지속합니다.'
     notes: 반지로 회복하는 마나가 최대 마나를 초과할 경우 초과 분량의 임시 마나 공간에 저장되어 본 마나를 소모하기 전에 임시 마나를 소모합니다.
@@ -2732,6 +2732,7 @@ itemdata:
     components:
     - ring_of_regen
     - sobi_mask
+    - enchanted_mango
     created: true
   arcane_boots:
     id: 180
@@ -2818,7 +2819,7 @@ itemdata:
     img: ancient_janggo_lg.png?3
     dname: 지구력의 북
     qual: rare
-    cost: 1655
+    cost: 1640
     desc: "시전 기술: 인내 - 900 반경에 있는 아군의 공격 속도가 %bonus_attack_speed_pct% 증가하고 이동 속도가
       %bonus_movement_speed_pct%% 증가합니다.<br />\r\n지속 효과: 신속의 오라 - 900 반경에 있는 아군의 이동
       속도가 상승합니다.<br />\r\n<br />\r\n신속의 오라는 서로 중첩되지 않습니다."
@@ -2876,13 +2877,9 @@ itemdata:
       감소시키고 눈을 멀게 만들어 %miss_chance%% 확률로 공격이 빗나가게 합니다. 마법 면역인 적은 대상으로 지정할 수 없습니다.'
     notes: ''
     attrib: |-
-      + <span class="attribVal">12</span> <span class="attribValText">방어력</span><br />
+      + <span class="attribVal">10</span> <span class="attribValText">방어력</span><br />
       + <span class="attribVal">75%</span> <span class="attribValText">마나 재생</span><br />
       + <span class="attribVal">25%</span> <span class="attribValText">회피</span><br />
-      발광 아군 보너스 방어력: <span class="attribVal">12</span><br />
-      발광 아군 회피: <span class="attribVal">25%</span><br />
-      발광 적 방어력 손실: <span class="attribVal">12</span><br />
-      발광 적 빗나갈 확률: <span class="attribVal">25%</span><br />
       발광 지속시간: <span class="attribVal">7</span><br />
       발광 시전 범위: <span class="attribVal">1000</span>
     mc: false
@@ -2990,20 +2987,19 @@ itemdata:
     img: rod_of_atos_lg.png?3
     dname: 에이토스의 마법봉
     qual: rare
-    cost: 3100
+    cost: 3080
     desc: '시전 기술: 마비 - 대상을 2.0초 동안 묶어 움직이지 못하게 합니다.'
     notes: ''
     attrib: |-
-      + <span class="attribVal">30</span> <span class="attribValText">지능</span><br />
-      + <span class="attribVal">350</span> <span class="attribValText">체력</span><br />
+      + <span class="attribVal">20</span> <span class="attribValText">지능</span><br />
       마비 지속시간: <span class="attribVal">2</span>
     mc: 50
     cd: 16
     lore: 부패의 군주 에이토스는 이 믿을 수 없을 정도로 단순한 지팡이에 그의 정수를 담았습니다.
     components:
-    - vitality_booster
     - staff_of_wizardry
-    - staff_of_wizardry
+    - bracer
+    - bracer
     created: true
   iron_talon:
     id: 239
@@ -3065,7 +3061,7 @@ itemdata:
     img: heavens_halberd_lg.png?3
     dname: 천상의 미늘창
     qual: artifact
-    cost: 3500
+    cost: 3400
     desc: "시전 기술: 무장 해제 - 대상을 공격 불능 상태에 빠트립니다. 대상이 근접 영웅이면 %disarm_melee%초 동안, 원거리
       영웅이면 %disarm_range%초 동안 지속합니다. <br />\r\n지속 효과: 경상 - 매 공격 시 일정 확률로 %maim_duration%초
       동안 이동 및 공격 둔화 효과를 겁니다.<br />\r\n<br />\r\n다른 회피 효과와 중첩 시 효율이 점차 감소합니다."

@@ -461,8 +461,6 @@
 5489: wisp_tether_break
 5490: wisp_spirits_in
 5493: wisp_spirits_out
-5498: wisp_empty1
-5499: wisp_empty2
 5494: slark_dark_pact
 5495: slark_pounce
 5496: slark_essence_shift
@@ -547,7 +545,6 @@
 5626: phoenix_sun_ray
 5627: phoenix_sun_ray_stop
 5628: phoenix_sun_ray_toggle_move
-5629: phoenix_sun_ray_toggle_move_empty
 5630: phoenix_supernova
 5631: phoenix_launch_fire_spirit
 5637: oracle_fortunes_end

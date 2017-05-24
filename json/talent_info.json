@@ -416,7 +416,7 @@
         "6070": {
             "type": "level_25_left",
             "info_en": "+150 Shadow Raze Damage",
-            "info_zh": "+125 毁灭阴影伤害"
+            "info_zh": "+150 毁灭阴影伤害"
         }
     },
     "10": {
@@ -2715,8 +2715,8 @@
         },
         "6535": {
             "type": "level_20_left",
-            "info_en": "+1000 Creep Health",
-            "info_zh": "+1000 被劝化单位生命"
+            "info_en": "+1000 Creep Min Health",
+            "info_zh": "+1000 被劝化单位最低生命"
         },
         "6259": {
             "type": "level_25_right",

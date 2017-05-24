@@ -2314,7 +2314,7 @@ DOTAAbilities:
     AbilitySound: Hero_Sven.GodsStrength
     HasScepterUpgrade: '1'
     AbilityCastPoint: 0.3 0.3 0.3
-    AbilityCooldown: 80.0 80.0 80.0
+    AbilityCooldown: '80'
     AbilityDuration: 25.0 25.0 25.0
     AbilityManaCost: 100 150 200
     AbilitySpecial:
@@ -2323,9 +2323,9 @@ DOTAAbilities:
       - 120
       - 160
     - gods_strength_bonus_str:
-      - 16
-      - 28
-      - 40
+      - 12
+      - 24
+      - 36
     - radius_scepter: 900
     - gods_strength_damage_scepter:
       - 75
@@ -6760,10 +6760,10 @@ DOTAAbilities:
       - 6
       - 8
     - heath_regen:
-      - 2
-      - 4
-      - 6
-      - 8
+      - 3
+      - 5
+      - 7
+      - 9
     - bonus_movespeed:
       - 20
       - 25
@@ -7950,6 +7950,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     SpellDispellableType: SPELL_DISPELLABLE_YES_STRONG
     AbilitySound: Hero_Spirit_Breaker.GreaterBash
+    AbilityCooldown: 1.5 1.5 1.5 1.5
     AbilityModifierSupportBonus: '40'
     AbilitySpecial:
     - chance_pct:
@@ -11418,23 +11419,15 @@ DOTAAbilities:
   wisp_spirits_in:
     ID: '5490'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE
-      | DOTA_ABILITY_BEHAVIOR_HIDDEN
+      | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE
     MaxLevel: '1'
     AbilityCastPoint: 0 0 0 0
   wisp_spirits_out:
     ID: '5493'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE
-      | DOTA_ABILITY_BEHAVIOR_HIDDEN
+      | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE
     MaxLevel: '1'
     AbilityCastPoint: 0 0 0 0
-  wisp_empty1:
-    ID: '5498'
-    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE
-    MaxLevel: '0'
-  wisp_empty2:
-    ID: '5499'
-    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE
-    MaxLevel: '0'
   slark_dark_pact:
     ID: '5494'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE
@@ -13466,13 +13459,9 @@ DOTAAbilities:
   phoenix_sun_ray_toggle_move:
     ID: '5628'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE
-      | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK |
-      DOTA_ABILITY_BEHAVIOR_IMMEDIATE
+      | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK | DOTA_ABILITY_BEHAVIOR_IMMEDIATE
+    MaxLevel: '1'
     AbilityCastPoint: 0.0 0.0 0.0 0.0
-  phoenix_sun_ray_toggle_move_empty:
-    ID: '5629'
-    AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE
-    MaxLevel: '0'
   phoenix_supernova:
     ID: '5630'
     AbilityType: DOTA_ABILITY_TYPE_ULTIMATE
@@ -13802,7 +13791,7 @@ DOTAAbilities:
       - 8
       - 14
       - 20
-    - attack_speed: 1.7
+    - attack_speed: 1.6
     - duration: 13.0
     - leadership_radius: 780
     - cast_range: 550
