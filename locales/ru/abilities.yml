@@ -11823,6 +11823,28 @@ abilitydata:
       width="16" height="16" border="0" /> 2</div><br clear="left" /></div>
     lore: Привлекая энергию мироздания из всех миров, Ио начинает расплетать время.
     hurl: Io
+  wisp_spirits_in:
+    dname: Spirits In
+    affects: 'СПОСОБНОСТЬ: <span class="attribVal">ненаправленная, переключаемая</span><br
+      />'
+    desc: Призывает духов ближе к вам. Может быть включено и выключено.
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Io
+  wisp_spirits_out:
+    dname: Spirits Out
+    affects: 'СПОСОБНОСТЬ: <span class="attribVal">ненаправленная, переключаемая</span><br
+      />'
+    desc: Отправляет духов дальше от вас. Повторное применение останавливает отдаление.
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Io
   wisp_relocate:
     dname: Relocate
     affects: 'СПОСОБНОСТЬ: <span class="attribVal">направленная на точку</span><br
@@ -11845,28 +11867,6 @@ abilitydata:
       alt="Перезарядка" title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 100/80/60</div><br clear="left" /></div>
     lore: Ио есть воплощение тайн вселенной.
-    hurl: Io
-  wisp_spirits_in:
-    dname: Spirits In
-    affects: 'СПОСОБНОСТЬ: <span class="attribVal">ненаправленная, переключаемая</span><br
-      />'
-    desc: Призывает духов ближе к вам. Может быть включено и выключено.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Io
-  wisp_spirits_out:
-    dname: Spirits Out
-    affects: 'СПОСОБНОСТЬ: <span class="attribVal">ненаправленная, переключаемая</span><br
-      />'
-    desc: Отправляет духов дальше от вас. Повторное применение останавливает отдаление.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Io
   special_bonus_mp_regen_10:
     dname: "+10 маны в секунду"
@@ -13893,6 +13893,16 @@ abilitydata:
       width="16" height="16" border="0" /> 26</div><br clear="left" /></div>
     lore: Каналы, по которым течет энергия звезды, шириной всего в несколько атомов.
     hurl: Phoenix
+  phoenix_sun_ray_toggle_move:
+    dname: Toggle Movement
+    affects: 'СПОСОБНОСТЬ: <span class="attribVal">ненаправленная</span><br />'
+    desc: Включает медленное передвижение вперед во время действия Sun Ray.
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: КАР!
+    hurl: Phoenix
   phoenix_supernova:
     dname: Supernova
     affects: 'СПОСОБНОСТЬ: <span class="attribVal">ненаправленная</span><br />ДЕЙСТВУЕТ:
@@ -13963,16 +13973,6 @@ abilitydata:
     attrib: ''
     cmb: ''
     lore: ЧИРИК!
-    hurl: Phoenix
-  phoenix_sun_ray_toggle_move:
-    dname: Toggle Movement
-    affects: 'СПОСОБНОСТЬ: <span class="attribVal">ненаправленная</span><br />'
-    desc: Включает медленное передвижение вперед во время действия Sun Ray.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: КАР!
     hurl: Phoenix
   special_bonus_unique_phoenix_3:
     dname: "+65 к урону в секунду от Fire Spirits"

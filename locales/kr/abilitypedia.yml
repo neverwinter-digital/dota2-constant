@@ -10710,25 +10710,6 @@ abilitydata:
       width="16" height="16" border="0" /> 2</div><br clear="left" /></div>
     lore: 이오가 모든 세계에서 물질 에너지를 이끌어내어 시간을 풀어내기 시작합니다.
     hurl: Io
-  wisp_relocate:
-    dname: 재배치
-    affects: '능력: <span class="attribVal">목표 지점 지정</span><br />'
-    desc: 이오와 이오에 연결된 아군을 지도상 임의의 지점으로 순간이동시킵니다. 주문의 효과가 다하면 이오와 이오에게 연결된 아군은 원래 지점으로
-      다시 돌아갑니다. 두 번 클릭하면 아군 기지의 분수로 순간이동합니다.
-    notes: 이오가 정신 집중 상태일 동안 적군도 이오가 이동하려는 지점을 미니맵과 게임 화면에서 볼 수 있습니다.<br />시전 지연시간
-      중 이오가 방해를 받으면 재배치가 취소됩니다.<br />연결된 아군과 함께 지정 장소로 순간이동합니다. 언제라도 연결을 끊으면 아군과 함께
-      순간이동하지 않습니다.
-    dmg: ''
-    attrib: |-
-      시전 지연시간: <span class="attribVal">2.7 / 2.35 / 2</span><br />
-      복귀 시간: <span class="attribVal">12 / 12 / 12</span>
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
-      class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 100/100/100</div><div class="cooldown"><img
-      alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 100/80/60</div><br clear="left" /></div>
-    lore: 이오는 우주의 신비 그 자체입니다.
-    hurl: Io
   wisp_spirits_in:
     dname: 영혼 모으기
     affects: '능력: <span class="attribVal">대상 없음, 전환</span><br />'
@@ -10748,6 +10729,25 @@ abilitydata:
     attrib: ''
     cmb: ''
     lore: ''
+    hurl: Io
+  wisp_relocate:
+    dname: 재배치
+    affects: '능력: <span class="attribVal">목표 지점 지정</span><br />'
+    desc: 이오와 이오에 연결된 아군을 지도상 임의의 지점으로 순간이동시킵니다. 주문의 효과가 다하면 이오와 이오에게 연결된 아군은 원래 지점으로
+      다시 돌아갑니다. 두 번 클릭하면 아군 기지의 분수로 순간이동합니다.
+    notes: 이오가 정신 집중 상태일 동안 적군도 이오가 이동하려는 지점을 미니맵과 게임 화면에서 볼 수 있습니다.<br />시전 지연시간
+      중 이오가 방해를 받으면 재배치가 취소됩니다.<br />연결된 아군과 함께 지정 장소로 순간이동합니다. 언제라도 연결을 끊으면 아군과 함께
+      순간이동하지 않습니다.
+    dmg: ''
+    attrib: |-
+      시전 지연시간: <span class="attribVal">2.7 / 2.35 / 2</span><br />
+      복귀 시간: <span class="attribVal">12 / 12 / 12</span>
+    cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
+      class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
+      width="16" height="16" border="0" /> 100/100/100</div><div class="cooldown"><img
+      alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
+      width="16" height="16" border="0" /> 100/80/60</div><br clear="left" /></div>
+    lore: 이오는 우주의 신비 그 자체입니다.
     hurl: Io
   special_bonus_mp_regen_10:
     dname: 마나 재생 +10
@@ -12571,6 +12571,16 @@ abilitydata:
       width="16" height="16" border="0" /> 26</div><br clear="left" /></div>
     lore: 원자 하나만한 구멍에서 그토록 강력한 별의 기운이 흘러 나옵니다.
     hurl: Phoenix
+  phoenix_sun_ray_toggle_move:
+    dname: 이동/중단
+    affects: '능력: <span class="attribVal">대상 없음</span><br />'
+    desc: 태양 광선을 내뿜는 동안 천천히 앞으로 이동합니다. 또는 이동을 중단합니다.
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: 끼익!
+    hurl: Phoenix
   phoenix_supernova:
     dname: 초신성
     affects: '능력: <span class="attribVal">대상 없음</span><br />효과: <span class="attribVal">아군
@@ -12635,16 +12645,6 @@ abilitydata:
     attrib: ''
     cmb: ''
     lore: 째짹!
-    hurl: Phoenix
-  phoenix_sun_ray_toggle_move:
-    dname: 이동/중단
-    affects: '능력: <span class="attribVal">대상 없음</span><br />'
-    desc: 태양 광선을 내뿜는 동안 천천히 앞으로 이동합니다. 또는 이동을 중단합니다.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: 끼익!
     hurl: Phoenix
   special_bonus_unique_phoenix_3:
     dname: 불의 영혼 초당 피해 +65

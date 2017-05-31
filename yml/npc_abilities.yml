@@ -1089,10 +1089,10 @@ DOTAAbilities:
     - leap_acceleration: 7000.0
     - leap_radius: 775
     - leap_speedbonus:
-      - 4
       - 8
       - 12
       - 16
+      - 20
     - leap_speedbonus_as:
       - 16
       - 32
@@ -3392,7 +3392,7 @@ DOTAAbilities:
     AbilitySound: Ability.DarkRitual
     AbilityCastRange: '400'
     AbilityCastPoint: 0.4 0.4 0.4 0.4
-    AbilityCooldown: 60 48 36 24
+    AbilityCooldown: 60 46 32 18
     AbilityManaCost: 25 25 25 25
     AbilitySpecial:
     - health_conversion:
@@ -4083,7 +4083,7 @@ DOTAAbilities:
       - 20
       - 28
       - 36
-    - slow_aoe: 600
+    - slow_aoe: 750
     - bonus_damage: -20
   necrolyte_sadist_stop:
     ID: '6316'
@@ -4205,8 +4205,8 @@ DOTAAbilities:
     HasScepterUpgrade: '1'
     AbilitySound: Hero_Warlock.RainOfChaos
     AbilityCastPoint: 0.5 0.5 0.5
-    AbilityCooldown: 165 165 165
-    AbilityManaCost: 250 350 450
+    AbilityCooldown: '170'
+    AbilityManaCost: 250 375 500
     AbilityCastRange: '1200'
     AbilityModifierSupportValue: '0.5'
     AbilitySpecial:
@@ -4628,9 +4628,9 @@ DOTAAbilities:
       - 15.0
     - damage:
       - 6
-      - 12
-      - 18
-      - 24
+      - 14
+      - 22
+      - 30
     - movement_speed:
       - -11
       - -12
@@ -4915,7 +4915,7 @@ DOTAAbilities:
       - 0.25
       - 0.25
       - 0.25
-    - drain_buffer: 100
+    - drain_buffer: 200
   phantom_assassin_stifling_dagger:
     ID: '5190'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_UNIT_TARGET
@@ -6272,10 +6272,10 @@ DOTAAbilities:
       - 0.6
       - 0.6
     - move_speed_bonus_pct:
-      - 11
-      - 22
-      - 33
-      - 44
+      - 15
+      - 25
+      - 35
+      - 45
   clinkz_death_pact:
     ID: '5262'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK
@@ -6294,12 +6294,12 @@ DOTAAbilities:
     - duration: 65.0
     - health_gain_pct:
       - 50
-      - 65
-      - 80
+      - 70
+      - 90
     - damage_gain_pct:
       - 5.0
-      - 6.5
-      - 8.0
+      - 7.0
+      - 9.0
   omniknight_purification:
     ID: '5263'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AOE
@@ -7677,7 +7677,7 @@ DOTAAbilities:
       - 3.75
       - 5.0
     - burn_duration: 4.0
-    - ministun_duration: 0.4
+    - ministun_duration: 0.6
   doom_bringer_doom:
     ID: '5342'
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_UNIT_TARGET
@@ -7745,9 +7745,9 @@ DOTAAbilities:
       - 740
       - 740
     - stun_duration:
-      - 1.25
       - 2.0
-      - 2.75
+      - 2.5
+      - 3.0
       - 3.5
     - cast_range_tooltip:
       - 700
@@ -8151,10 +8151,10 @@ DOTAAbilities:
       - 8
       - 10
     - stun_duration:
-      - 2.2
-      - 2.4
-      - 2.6
-      - 2.8
+      - 2.25
+      - 2.5
+      - 2.75
+      - 3.0
     - attack_speed_bonus_pct:
       - 400
       - 400
@@ -8189,7 +8189,7 @@ DOTAAbilities:
     AbilityManaCost: 50 50 50 50
     AbilityDuration: 15 15 15 15
     AbilitySpecial:
-    - radius: 1000
+    - radius: 1250
     - max_attacks:
       - 3
       - 4
@@ -9697,7 +9697,7 @@ DOTAAbilities:
     AbilityDuration: 10.0 10.0 10.0 10.0
     AbilityCooldown: '2.5'
     AbilityCastRange: '1500'
-    AbilityCastPoint: 0.3 0.3 0.3 0.3
+    AbilityCastPoint: '0.25'
     AbilityManaCost: '50'
     AbilityDamage: 26 34 42 50
     AbilityModifierSupportValue: '0.0'
@@ -10638,7 +10638,7 @@ DOTAAbilities:
     AbilitySound: Hero_NyxAssassin.Impale
     AbilityCastRange: '700'
     AbilityCastPoint: '0.4'
-    AbilityCooldown: '13.0'
+    AbilityCooldown: '14.0'
     AbilityManaCost: 95 115 135 155
     AbilityDamage: 80 140 200 260
     AbilitySpecial:
@@ -11381,16 +11381,8 @@ DOTAAbilities:
       - 0.2
       - 0.2
       - 0.2
-    - drain_pct:
-      - 0.045
-      - 0.045
-      - 0.045
-      - 0.045
-    - drain_pct_tooltip:
-      - 4.5
-      - 4.5
-      - 4.5
-      - 4.5
+    - drain_pct: 0.06
+    - drain_pct_tooltip: 6.0
   wisp_relocate:
     ID: '5488'
     AbilityType: DOTA_ABILITY_TYPE_ULTIMATE
@@ -11730,7 +11722,7 @@ DOTAAbilities:
     FightRecapLevel: '2'
     AbilitySound: Hero_TrollWarlord.BattleTrance.Cast
     AbilityCastPoint: 0.0 0.0 0.0
-    AbilityCooldown: '30'
+    AbilityCooldown: '35'
     AbilityManaCost: 75 75 75
     AbilitySpecial:
     - trance_duration: 5.0
@@ -12383,7 +12375,7 @@ DOTAAbilities:
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     FightRecapLevel: '1'
     AbilitySound: Hero_SkywrathMage.ArcaneBolt.Cast
-    AbilityCastRange: '800'
+    AbilityCastRange: '875'
     AbilityCastPoint: 0.1 0.1 0.1 0.1
     AbilityCooldown: 5.0 4.0 3.0 2.0
     AbilityManaCost: 70 70 70 70
@@ -13162,10 +13154,10 @@ DOTAAbilities:
       - 70
     - wave_interval: 1.0
     - burn_damage:
-      - 0.75
-      - 1.5
-      - 2.25
-      - 3.0
+      - 0.8
+      - 1.6
+      - 2.4
+      - 3.2
     - burn_interval: 1.0
     - burn_duration: 2.0
     - first_wave_delay: 0.0
@@ -13643,9 +13635,9 @@ DOTAAbilities:
     AbilityManaCost: '100'
     AbilitySpecial:
     - duration:
-      - 7.0
       - 8.0
       - 9.0
+      - 10.0
     - radius: 400.0
   broodmother_spin_web_destroy:
     ID: '5643'
@@ -13712,7 +13704,7 @@ DOTAAbilities:
     FightRecapLevel: '1'
     AbilityCastRange: '1000'
     AbilityCastPoint: '0.3'
-    AbilityCooldown: '1.4'
+    AbilityCooldown: '1.2'
     AbilityManaCost: '0'
     AbilitySpecial:
     - leap_speed: 700
@@ -15633,7 +15625,7 @@ DOTAAbilities:
     AbilityCooldown: 50.0 40.0 30.0 20.0
     AbilityManaCost: 120 110 100 90
     AbilitySpecial:
-    - duration: 6.0
+    - duration: 8.0
     - attack_range_bonus:
       - 275
       - 375
@@ -18634,7 +18626,7 @@ DOTAAbilities:
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES
     AbilityBehavior: DOTA_ABILITY_BEHAVIOR_PASSIVE
     AbilitySpecial:
-    - value: 0.5
+    - value: 0.75
   special_bonus_unique_pugna_4:
     ID: '6448'
     AbilityType: DOTA_ABILITY_TYPE_ATTRIBUTES

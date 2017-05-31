@@ -1828,7 +1828,7 @@
         },
         "6403": {
             "type": "level_20_right",
-            "info_en": "+0.5 Netherward Damage Per Mana",
+            "info_en": "+0.75 Netherward Damage Per Mana",
             "info_zh": "+0.5 幽冥守卫伤害系数"
         },
         "6056": {
@@ -1900,10 +1900,10 @@
             "info_en": "+175 Health",
             "info_zh": "+175 生命"
         },
-        "6137": {
+        "6145": {
             "type": "level_15_right",
-            "info_en": "+10 Strength",
-            "info_zh": "+10 力量"
+            "info_en": "+15 Strength",
+            "info_zh": "+15 力量"
         },
         "6169": {
             "type": "level_15_left",
@@ -3204,30 +3204,30 @@
         }
     },
     "79": {
-        "6048": {
+        "6137": {
             "type": "level_10_right",
-            "info_en": "+6 Strength",
-            "info_zh": "+6 力量"
+            "info_en": "+10 Strength",
+            "info_zh": "+10 力量"
         },
-        "5958": {
+        "5918": {
             "type": "level_10_left",
-            "info_en": "+10 Movement Speed",
-            "info_zh": "+10 移动速度"
+            "info_en": "+20 Movement Speed",
+            "info_zh": "+20 移动速度"
         },
         "5947": {
             "type": "level_15_right",
             "info_en": "+75 Cast Range",
             "info_zh": "+75 施法距离"
         },
-        "5996": {
+        "5949": {
             "type": "level_15_left",
-            "info_en": "+6% Spell Amplification",
-            "info_zh": "+6% 技能增强"
+            "info_en": "+8% Spell Amplification",
+            "info_zh": "+8% 技能增强"
         },
-        "5937": {
+        "6138": {
             "type": "level_20_right",
-            "info_en": "+10% Magic Resistance",
-            "info_zh": "+10% 魔法抗性"
+            "info_en": "+15% Magic Resistance",
+            "info_zh": "+15% 魔法抗性"
         },
         "6542": {
             "type": "level_20_left",
@@ -4148,15 +4148,15 @@
             "info_en": "+90 Gold/Min",
             "info_zh": "+90 金钱/分"
         },
-        "5918": {
+        "6093": {
             "type": "level_20_right",
-            "info_en": "+20 Movement Speed",
-            "info_zh": "+20 移动速度"
+            "info_en": "+40 Movement Speed",
+            "info_zh": "+40 移动速度"
         },
-        "6138": {
+        "6000": {
             "type": "level_20_left",
-            "info_en": "+15% Magic Resistance",
-            "info_zh": "+15% 魔法抗性"
+            "info_en": "+20% Magic Resistance",
+            "info_zh": "+20% 魔法抗性"
         },
         "6255": {
             "type": "level_25_right",
@@ -4296,15 +4296,15 @@
         }
     },
     "106": {
-        "5989": {
+        "5949": {
             "type": "level_10_right",
-            "info_en": "+10% Spell Amplification",
-            "info_zh": "+10% 技能增强"
+            "info_en": "+8% Spell Amplification",
+            "info_zh": "+8% 技能增强"
         },
-        "6009": {
+        "5939": {
             "type": "level_10_left",
-            "info_en": "+25 Damage",
-            "info_zh": "+25 攻击力"
+            "info_en": "+30 Damage",
+            "info_zh": "+30 攻击力"
         },
         "5918": {
             "type": "level_15_right",
@@ -4686,10 +4686,10 @@
             "info_en": "+20 Attack Speed",
             "info_zh": "+20 攻击速度"
         },
-        "5932": {
+        "5971": {
             "type": "level_10_left",
-            "info_en": "+5 Armor",
-            "info_zh": "+5 护甲"
+            "info_en": "10% Evasion",
+            "info_zh": "10% 闪避"
         },
         "6311": {
             "type": "level_15_right",

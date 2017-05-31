@@ -11703,6 +11703,26 @@ abilitydata:
     lore: Drawing on the energy of matter from all worlds, Io begins the unravelling
       of time.
     hurl: Io
+  wisp_spirits_in:
+    dname: Spirits In
+    affects: 'ABILITY: <span class="attribVal">No Target, Toggle</span><br />'
+    desc: Calls the spirits closer to you. Can be toggled on and off.
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Io
+  wisp_spirits_out:
+    dname: Spirits Out
+    affects: 'ABILITY: <span class="attribVal">No Target, Toggle</span><br />'
+    desc: Sends the spirits farther away from you. Can be toggled on and off.
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Io
   wisp_relocate:
     dname: Relocate
     affects: 'ABILITY: <span class="attribVal">Point Target</span><br />'
@@ -11724,26 +11744,6 @@ abilitydata:
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 100/80/60</div><br clear="left" /></div>
     lore: Io is the embodiment of the mystery of the universe.
-    hurl: Io
-  wisp_spirits_in:
-    dname: Spirits In
-    affects: 'ABILITY: <span class="attribVal">No Target, Toggle</span><br />'
-    desc: Calls the spirits closer to you. Can be toggled on and off.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Io
-  wisp_spirits_out:
-    dname: Spirits Out
-    affects: 'ABILITY: <span class="attribVal">No Target, Toggle</span><br />'
-    desc: Sends the spirits farther away from you. Can be toggled on and off.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Io
   special_bonus_mp_regen_10:
     dname: "+10 Mana Regen"
@@ -13753,6 +13753,16 @@ abilitydata:
       width="16" height="16" border="0" /> 26</div><br clear="left" /></div>
     lore: The vent through which such stellar energy flows is mere atoms wide.
     hurl: Phoenix
+  phoenix_sun_ray_toggle_move:
+    dname: Toggle Movement
+    affects: 'ABILITY: <span class="attribVal">No Target</span><br />'
+    desc: Toggles slow forward movement during Sun Ray firing.
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: SQAWRK!
+    hurl: Phoenix
   phoenix_supernova:
     dname: Supernova
     affects: 'ABILITY: <span class="attribVal">No Target</span><br />AFFECTS: <span
@@ -13823,16 +13833,6 @@ abilitydata:
     attrib: ''
     cmb: ''
     lore: CHIRP!
-    hurl: Phoenix
-  phoenix_sun_ray_toggle_move:
-    dname: Toggle Movement
-    affects: 'ABILITY: <span class="attribVal">No Target</span><br />'
-    desc: Toggles slow forward movement during Sun Ray firing.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: SQAWRK!
     hurl: Phoenix
   special_bonus_unique_phoenix_3:
     dname: "+65 Fire Spirits DPS"
