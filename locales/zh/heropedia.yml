@@ -79,8 +79,8 @@ herodata:
         g: '3.00'
       ms: 290
       dmg:
-        min: 29
-        max: 35
+        min: 33
+        max: 39
       armor: 3.36
     dac: 近战
     droles: 核心 - 控制 - 打野 - 爆发 - 先手
@@ -98,7 +98,7 @@ herodata:
       agi:
         b: 16
         g: '1.60'
-      ms: 280
+      ms: 275
       dmg:
         min: 19
         max: 25
@@ -455,7 +455,7 @@ herodata:
       agi:
         b: 11
         g: '1.20'
-      ms: 295
+      ms: 300
       dmg:
         min: 21
         max: 29
@@ -811,7 +811,7 @@ herodata:
         g: '1.80'
       agi:
         b: 22
-        g: '2.60'
+        g: '2.80'
       ms: 285
       dmg:
         min: 19
@@ -1715,7 +1715,7 @@ herodata:
       agi:
         b: 15
         g: '2.00'
-      ms: 290
+      ms: 280
       dmg:
         min: 62
         max: 70

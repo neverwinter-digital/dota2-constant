@@ -57,86 +57,6 @@ abilitydata:
       width="16" height="16" border="0" /> 70</div><br clear="left" /></div>
     lore: 항마사는 적을 무릎 꿇린 뒤 신비한 술법을 쓴 죄를 물어 처벌합니다.
     hurl: Anti-Mage
-  special_bonus_hp_150:
-    dname: 체력 +150
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_hp_150_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Skywrath_Mage
-  special_bonus_attack_damage_20:
-    dname: 피해 +20
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_20_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Alchemist
-  special_bonus_attack_speed_20:
-    dname: 공격 속도 +20
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_attack_speed_20_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Monkey_King
-  special_bonus_unique_antimage:
-    dname: 점멸 쿨다운 -1초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_antimage_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Anti-Mage
-  special_bonus_evasion_15:
-    dname: 회피 15%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_evasion_15_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Medusa
-  special_bonus_all_stats_10:
-    dname: 모든 능력치 +10
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_all_stats_10_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Clinkz
-  special_bonus_agility_25:
-    dname: 민첩 +25
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_agility_25_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Phantom_Assassin
-  special_bonus_unique_antimage_2:
-    dname: 마나 공허 쿨다운 -50초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_antimage_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Anti-Mage
   axe_berserkers_call:
     dname: 광전사의 외침
     affects: '능력: <span class="attribVal">대상 없음</span><br />주문 면역 관통: <span class="attribVal"><font
@@ -160,14 +80,15 @@ abilitydata:
     affects: '능력: <span class="attribVal">유닛 지정</span><br />효과: <span class="attribVal">적
       유닛</span><br />피해 유형: <span class="attribVal">마법</span><br />주문 면역 관통: <span
       class="attribVal">미관통</span><br />'
-    desc: 적 유닛을 격분시켜 둔화 상태로 만들고 지속적인 피해를 줍니다. 투쟁욕 효과는 해당 적 유닛이 다른 유닛을 죽이거나 효과의 시간이
-      다할 때까지 지속됩니다. 투쟁욕 효과에 걸린 적이 늘어날 때마다 도끼전사의 이동 속도가 증가합니다.
+    desc: "적 유닛을 격분시켜 둔화 상태로 만들고 지속적인 피해를 줍니다. 투쟁욕 효과는 해당 적 유닛이 다른 유닛을 죽이거나 효과의 시간이
+      다할 때까지 지속됩니다. 투쟁욕 효과에 걸린 적이 늘어날 때마다 도끼전사의 이동 속도가 증가합니다. \r\n\r\n아가님의 홀로 강화 가능"
     notes: 건물을 파괴할 때도 이 약화 효과를 제거할 수 있습니다.<br />투쟁욕이 걸린 유닛은 디나이할 수 없습니다.
     dmg: ''
     attrib: |-
       지속시간: <span class="attribVal">10</span><br />
       이동 둔화: <span class="attribVal">12%</span><br />
-      속도 보너스: <span class="attribVal">12%</span>
+      속도 보너스: <span class="attribVal">12%</span><br />
+      <span class="scepterVal">홀 착용 시 피해 감소:</span> <span class="attribVal">30%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 75</div><div class="cooldown"><img alt="쿨다운"
@@ -197,9 +118,8 @@ abilitydata:
     affects: '능력: <span class="attribVal">유닛 지정</span><br />효과: <span class="attribVal">적
       유닛</span><br />피해 유형: <span class="attribVal">마법</span><br />주문 면역 관통: <span
       class="attribVal"><font color="#70EA72">관통</font></span><br />'
-    desc: "도끼전사가 적의 약점을 찾아내어 공격합니다. 체력이 낮은 적 유닛은 즉시 쓰러뜨리고, 그렇지 않을 경우 일반적인 피해를 줍니다.
-      이 공격으로 적 영웅이 죽으면 쿨다운이 초기화되며, 도끼전사와 주위 아군이 이동 속도 보너스를 얻습니다.\r\n\r\n아가님의 홀로 강화
-      가능"
+    desc: 도끼전사가 적의 약점을 찾아내어 공격합니다. 체력이 낮은 적 유닛은 즉시 쓰러뜨리고, 그렇지 않을 경우 일반적인 피해를 줍니다.
+      이 공격으로 적 영웅이 죽으면 쿨다운이 초기화되며, 도끼전사와 주위 아군이 이동 속도 보너스를 얻습니다.
     notes: ''
     dmg: ''
     attrib: |-
@@ -215,86 +135,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 75/65/55</div><br clear="left" /></div>
     lore: 모굴 칸은 전투와 분노의 화신으로, 겁도 없이 전장에서 자기에게 덤비는 자에게 잔혹한 최후를 선사합니다.
-    hurl: Axe
-  special_bonus_strength_6:
-    dname: 힘 +6
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_strength_6_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Shadow_Demon
-  special_bonus_mp_regen_3:
-    dname: 마나 재생 +3
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_mp_regen_3_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Brewmaster
-  special_bonus_attack_damage_75:
-    dname: 피해 +75
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_75_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Venomancer
-  special_bonus_hp_250:
-    dname: 체력 +250
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_hp_250_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Ogre_Magi
-  special_bonus_hp_regen_25:
-    dname: 체력 재생 +25
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_hp_regen_25_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Axe
-  special_bonus_movement_speed_35:
-    dname: 이동 속도 +35
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_movement_speed_35_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Gyrocopter
-  special_bonus_armor_15:
-    dname: 방어력 +15
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_armor_15_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Elder_Titan
-  special_bonus_unique_axe:
-    dname: 투쟁욕 초당 피해 +100
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_axe_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Axe
   bane_enfeeble:
     dname: 약화
@@ -316,10 +156,10 @@ abilitydata:
     affects: '능력: <span class="attribVal">유닛 지정</span><br />효과: <span class="attribVal">적
       유닛</span><br />피해 유형: <span class="attribVal"><font color="#d61107">순수</font></span><br
       />주문 면역 관통: <span class="attribVal">미관통</span><br />'
-    desc: 적 유닛의 정기를 흡수하여 자신의 체력을 회복하고 피해를 줍니다.
+    desc: "적 유닛의 정기를 흡수하여 자신의 체력을 회복하고 피해를 줍니다. \r\n\r\n아가님의 홀로 강화 가능"
     notes: ''
     dmg: ''
-    attrib: ''
+    attrib: <span class="scepterVal">홀 착용 시 쿨다운:</span> <span class="attribVal">1.5</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 70/100/130/160</div><div class="cooldown"><img
@@ -353,8 +193,8 @@ abilitydata:
     affects: '능력: <span class="attribVal">집중 기술, 유닛 지정</span><br />효과: <span class="attribVal">적
       유닛</span><br />피해 유형: <span class="attribVal">마법</span><br />주문 면역 관통: <span
       class="attribVal"><font color="#70EA72">관통</font></span><br />'
-    desc: "집중 기술 - 적 유닛을 움켜쥐어 무력화하고 지속해서 큰 피해를 줍니다. 또한, 적 유닛의 최대 마나에 비례하여 매초 마나를 훔쳐옵니다.\r\n\r\n아가님의
-      홀로 강화 가능"
+    desc: 집중 기술 - 적 유닛을 움켜쥐어 무력화하고 지속해서 큰 피해를 줍니다. 또한, 적 유닛의 최대 마나에 비례하여 0.5초마다 마나를
+      훔칩니다.
     notes: 악몽의 손아귀에 걸린 대상이 주문 면역일 경우, 대상을 무력화하고 마나를 흡수하지만 피해를 주지는 못합니다.
     dmg: ''
     attrib: |-
@@ -372,76 +212,6 @@ abilitydata:
     dname: 악몽의 끝
     affects: '능력: <span class="attribVal">대상 없음, 전환</span><br />'
     desc: 모든 악몽을 끝냅니다.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Bane
-  special_bonus_armor_6:
-    dname: 방어력 +6
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_armor_6_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Tusk
-  special_bonus_mp_200:
-    dname: 마나 +200
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_mp_200_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Elder_Titan
-  special_bonus_exp_boost_30:
-    dname: 경험치 획득 +30%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_exp_boost_30_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Techies
-  special_bonus_unique_bane_1:
-    dname: 약화 피해 감소 +90
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_bane_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Bane
-  special_bonus_cast_range_175:
-    dname: 시전 범위 +175
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_cast_range_175_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Razor
-  special_bonus_movement_speed_100:
-    dname: 이동 속도 +100
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_movement_speed_100_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Bane
-  special_bonus_unique_bane_2:
-    dname: 정기 흡수 피해/치유 +200
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_bane_2_Description
     notes: ''
     dmg: ''
     attrib: ''
@@ -528,76 +298,6 @@ abilitydata:
       width="16" height="16" border="0" /> 60</div><br clear="left" /></div>
     lore: 혈귀에게 쫓길 때는 사소한 상처라도 치명적입니다.
     hurl: Bloodseeker
-  special_bonus_attack_damage_25:
-    dname: 피해 +25
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_25_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Terrorblade
-  special_bonus_hp_225:
-    dname: 체력 +225
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_hp_225_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Bristleback
-  special_bonus_attack_speed_30:
-    dname: 공격 속도 +30
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_attack_speed_30_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Naga_Siren
-  special_bonus_unique_bloodseeker_2:
-    dname: 피의 의식 피해 +75
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_bloodseeker_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Bloodseeker
-  special_bonus_unique_bloodseeker_3:
-    dname: 파열 피해 +14%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_bloodseeker_3_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Bloodseeker
-  special_bonus_unique_bloodseeker:
-    dname: 피의 의식 쿨다운 -7초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_bloodseeker_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Bloodseeker
-  special_bonus_lifesteal_30:
-    dname: 흡혈 30%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_lifesteal_30_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Arc_Warden
   crystal_maiden_crystal_nova:
     dname: 수정 회오리
     affects: '능력: <span class="attribVal">목표 지점 지정</span><br />피해 유형: <span class="attribVal">마법</span><br
@@ -673,82 +373,12 @@ abilitydata:
       width="16" height="16" border="0" /> 110/100/90</div><br clear="left" /></div>
     lore: 한때 그녀의 유배지였던 얼음 폐허는 라일라이가 냉혹한 맹공을 퍼부을 수 있는 기반이 되었습니다.
     hurl: Crystal_Maiden
-  special_bonus_magic_resistance_15:
-    dname: 마법 저항력 +15%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_magic_resistance_15_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Earth_Spirit
-  special_bonus_attack_damage_60:
-    dname: 피해 +60
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_60_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Rubick
-  special_bonus_cast_range_125:
-    dname: 시전 범위 +125
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_cast_range_125_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Underlord
-  special_bonus_gold_income_20:
-    dname: 분당 골드 +120
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_gold_income_20_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Winter_Wyvern
-  special_bonus_unique_crystal_maiden_3:
-    dname: special_bonus_unique_crystal_maiden_3
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_crystal_maiden_3_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Crystal_Maiden
-  special_bonus_unique_crystal_maiden_1:
-    dname: 동상 지속시간 +1.5초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_crystal_maiden_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Crystal_Maiden
-  special_bonus_unique_crystal_maiden_2:
-    dname: 수정 회오리 피해 +300
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_crystal_maiden_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Crystal_Maiden
   drow_ranger_frost_arrows:
     dname: 얼음 화살
     affects: '능력: <span class="attribVal">자동 시전, 유닛 지정</span><br />효과: <span class="attribVal">적
       유닛</span><br />주문 면역 관통: <span class="attribVal">미관통</span><br />'
-    desc: "드로우 레인저의 공격에 적의 이동 속도를 늦추는 빙결 효과를 추가합니다. 빙결 효과는 영웅에게는 1.5초 동안, 크립에게는 7초
-      동안 유지됩니다.\r\n\r\n얼음 화살은 고유 공격 변형 요인입니다. 다른 고유 공격 변형 요인과 중첩되지 않습니다."
+    desc: 드로우 레인저의 공격에 적의 이동 속도를 늦추는 빙결 효과를 추가합니다. 빙결 효과는 영웅에게는 1.5초 동안, 크립에게는 7초
+      동안 유지됩니다.
     notes: 타격 성공 시 둔화의 지속시간이 초기화됩니다.
     dmg: '피해: <span class="attribVal">0 / 0 / 0 / 0</span><br />'
     attrib: |-
@@ -809,76 +439,6 @@ abilitydata:
     cmb: ''
     lore: 드로우 레인저는 뛰어난 궁술의 완벽한 본보기입니다.
     hurl: Drow_Ranger
-  special_bonus_movement_speed_15:
-    dname: 이동 속도 +15
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_movement_speed_15_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Troll_Warlord
-  special_bonus_all_stats_5:
-    dname: 모든 능력치 +5
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_all_stats_5_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Spirit_Breaker
-  special_bonus_hp_175:
-    dname: 체력 +175
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_hp_175_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Phoenix
-  special_bonus_unique_drow_ranger_1:
-    dname: 명중의 오라 피해 +6%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_drow_ranger_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Drow_Ranger
-  special_bonus_strength_14:
-    dname: 힘 +14
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_strength_14_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Drow_Ranger
-  special_bonus_unique_drow_ranger_2:
-    dname: 돌풍 거리/밀치기 +400
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_drow_ranger_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Drow_Ranger
-  special_bonus_unique_drow_ranger_3:
-    dname: 명사수 민첩 +25
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_drow_ranger_3_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Drow_Ranger
   earthshaker_fissure:
     dname: 균열
     affects: '능력: <span class="attribVal">목표 지점 지정</span><br />효과: <span class="attribVal">적
@@ -904,7 +464,7 @@ abilitydata:
       유닛</span><br />'
     desc: "지진술사의 토템을 강화하여 다음 공격 시 추가 피해를 줍니다.\r\n\r\n아가님의 홀로 강화 가능"
     notes: 보너스 피해는 지진술사의 기본 공격력과 주 능력치에 비례하여 증가합니다.<br />홀을 장착한 상태에서 자기에게 시전하면 홀을
-      장착하지 않았을 때처럼 뛰어오르지 않고 동작합니다.
+      장착하지 않았을 때처럼 뛰어오르지 않고 동작합니다.<br />토템 강화가 정밀 타격 효과를 얻습니다.
     dmg: '피해: <span class="attribVal">0 / 0 / 0 / 0</span><br />'
     attrib: |-
       보너스: <span class="attribVal">100% / 200% / 300% / 400%</span><br />
@@ -947,86 +507,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 150/130/110</div><br clear="left" /></div>
     lore: 지진파의 위력으로 지각이 갈라지고, 산이 무너지고, 적들이 쓰러집니다.
-    hurl: Earthshaker
-  special_bonus_strength_10:
-    dname: 힘 +10
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_strength_10_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Elder_Titan
-  special_bonus_mp_250:
-    dname: 마나 +250
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_mp_250_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Naga_Siren
-  special_bonus_movement_speed_20:
-    dname: 이동 속도 +20
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_movement_speed_20_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Winter_Wyvern
-  special_bonus_attack_damage_50:
-    dname: 피해 +50
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_50_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Winter_Wyvern
-  special_bonus_unique_earthshaker_2:
-    dname: 지진파 공명 피해 +40
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_earthshaker_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Earthshaker
-  special_bonus_unique_earthshaker_3:
-    dname: special_bonus_unique_earthshaker_3
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_earthshaker_3_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Earthshaker
-  special_bonus_hp_600:
-    dname: 체력 +600
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_hp_600_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Death_Prophet
-  special_bonus_unique_earthshaker:
-    dname: 토템 강화 쿨다운 -2초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_earthshaker_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Earthshaker
   juggernaut_blade_fury:
     dname: 분노의 칼날
@@ -1096,52 +576,12 @@ abilitydata:
       width="16" height="16" border="0" /> 130/120/110</div><br clear="left" /></div>
     lore: "'연습한 자만이 힘을 얻어 훈련의 과실을 맛볼 수 있습니다.'"
     hurl: Juggernaut
-  special_bonus_armor_7:
-    dname: 방어력 +7
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_armor_7_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Legion_Commander
-  special_bonus_all_stats_8:
-    dname: 모든 능력치 +8
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_all_stats_8_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Spectre
-  special_bonus_agility_20:
-    dname: 민첩 +20
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_agility_20_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Juggernaut
-  special_bonus_unique_juggernaut:
-    dname: 분노의 칼날 초당 피해 +175
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_juggernaut_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Juggernaut
   mirana_starfall:
     dname: 유성우
     affects: '능력: <span class="attribVal">대상 없음</span><br />피해 유형: <span class="attribVal">마법</span><br
       />주문 면역 관통: <span class="attribVal">미관통</span><br />'
-    desc: "하늘에서 유성을 떨어뜨려 주위 적들에게 피해를 줍니다.  %dstarfall_secondary_radius% 반경 내에서 미라나와
-      가장 가까운 적 유닛은 피해의 75%에 해당하는 2차 피해를 받습니다.\r\n\r\n아가님의 홀로 강화 가능"
+    desc: "하늘에서 유성을 떨어뜨려 주위 적들에게 피해를 줍니다. 425 반경 내에서 미라나와 가장 가까운 적 유닛은 피해의 75%에 해당하는
+      2차 피해를 받습니다.\r\n\r\n아가님의 홀로 강화 가능"
     notes: 유성우는 린켄의 구슬로 막을 수 없습니다.<br />유성우는 투명 유닛에게 효과가 없습니다.<br />첫 번째 대상이 유성우에
       맞기 전에 사망하면 다른 영웅이 두 번째 별의 타격 대상으로 선택됩니다.
     dmg: '피해: <span class="attribVal">75 / 150 / 225 / 300</span><br />'
@@ -1180,12 +620,12 @@ abilitydata:
     dname: 도약
     affects: '능력: <span class="attribVal">대상 없음</span><br />'
     desc: 미라나가 전장에 뛰어듭니다. 격렬한 포효를 내질러 아군의 공격 속도와 이동 속도를 증가시킵니다. 공격 및 이동 속도 증가 효과는
-      10초 동안 지속됩니다.
+      5초 동안 지속합니다.
     notes: ''
     dmg: ''
     attrib: |-
       거리: <span class="attribVal">600 / 700 / 800 / 900</span><br />
-      이동 속도 보너스: <span class="attribVal">4% / 8% / 12% / 16%</span>
+      이동 속도 보너스: <span class="attribVal">8% / 12% / 16% / 20%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 40/35/30/20</div><div class="cooldown"><img
@@ -1209,56 +649,6 @@ abilitydata:
       title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 140/120/100</div><br clear="left" /></div>
     lore: 셀레메네와 함께한 동안 미라나는 땅 위에 그림자를 드리워 아군을 숨기는 능력을 익혔습니다.
-    hurl: Mirana
-  special_bonus_agility_8:
-    dname: 민첩 +8
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_agility_8_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Morphling
-  special_bonus_spell_amplify_5:
-    dname: 주문 증폭 +5%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_spell_amplify_5_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Timbersaw
-  special_bonus_unique_mirana_3:
-    dname: 신성한 화살 쿨다운 -4초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_mirana_3_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Mirana
-  special_bonus_unique_mirana_1:
-    dname: 도약 공격 속도 +100
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_mirana_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Mirana
-  special_bonus_unique_mirana_2:
-    dname: 신성한 화살 다발 사격 +2
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_mirana_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Mirana
   nevermore_shadowraze1:
     dname: 그림자 휩쓸기
@@ -1326,56 +716,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 120/110/100</div><br clear="left" /></div>
     lore: 예전에 살해당한 자들의 영혼이 사로잡혔다가 방출되면서 옛 동료를 짓밟습니다.
-    hurl: Shadow_Fiend
-  special_bonus_spell_amplify_6:
-    dname: 주문 증폭 +6%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_spell_amplify_6_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Shadow_Demon
-  special_bonus_lifesteal_15:
-    dname: 흡혈 15%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_lifesteal_15_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Meepo
-  special_bonus_unique_nevermore_1:
-    dname: 영혼당 피해 +2
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_nevermore_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Shadow_Fiend
-  special_bonus_attack_range_150:
-    dname: 공격 범위 +150
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_attack_range_150_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Lina
-  special_bonus_unique_nevermore_2:
-    dname: 그림자 휩쓸기 피해 +125
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_nevermore_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Shadow_Fiend
   morphling_waveform:
     dname: 파도 형상
@@ -1500,66 +840,6 @@ abilitydata:
       width="16" height="16" border="0" /> 150/150/150</div><br clear="left" /></div>
     lore: ''
     hurl: Morphling
-  special_bonus_attack_speed_25:
-    dname: 공격 속도 +25
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_attack_speed_25_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Arc_Warden
-  special_bonus_cooldown_reduction_12:
-    dname: 쿨다운 감소 12%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_cooldown_reduction_12_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Queen_of_Pain
-  special_bonus_movement_speed_25:
-    dname: 이동 속도 +25
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_movement_speed_25_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Oracle
-  special_bonus_attack_damage_40:
-    dname: 피해 +40
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_40_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Monkey_King
-  special_bonus_unique_morphling_1:
-    dname: 파도 형상 범위 +400
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_morphling_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Morphling
-  special_bonus_unique_morphling_2:
-    dname: 형상 복제 피해 +50%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_morphling_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Morphling
   phantom_lancer_spirit_lance:
     dname: 영혼의 창
     affects: '능력: <span class="attribVal">유닛 지정</span><br />효과: <span class="attribVal">적
@@ -1636,46 +916,6 @@ abilitydata:
     cmb: ''
     lore: 아즈레이스의 공격은 단 한 번이라 할지라도 평범한 전사의 두 배, 세 배, 네 배, 아니 그 이상으로 느껴집니다.
     hurl: Phantom_Lancer
-  special_bonus_unique_phantom_lancer_2:
-    dname: 영혼의 창 피해 +75
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_phantom_lancer_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Phantom_Lancer
-  special_bonus_cooldown_reduction_15:
-    dname: 쿨다운 감소 15%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_cooldown_reduction_15_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Abaddon
-  special_bonus_strength_20:
-    dname: 힘 +20
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_strength_20_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Timbersaw
-  special_bonus_unique_phantom_lancer:
-    dname: 환영 돌격 범위 +600
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_phantom_lancer_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Phantom_Lancer
   puck_illusory_orb:
     dname: 신비로운 구슬
     affects: '능력: <span class="attribVal">목표 지점 지정</span><br />피해 유형: <span class="attribVal">마법</span><br
@@ -1738,8 +978,8 @@ abilitydata:
     dname: 꿈의 고리
     affects: '능력: <span class="attribVal">목표 지점 지정</span><br />피해 유형: <span class="attribVal">마법</span><br
       />주문 면역 관통: <span class="attribVal">미관통</span><br />'
-    desc: "적 영웅을 붙드는 불안정한 마법의 고리를 만들어 내어 피해를 주고 %dstun_duration%초 동안 기절시킵니다. 적 영웅이
-      꿈의 고리에서 일정 거리 이상 벗어나면 고리가 끊어지면서 기절하고 추가 피해를 받습니다.\r\n\r\n아가님의 홀로 강화 가능"
+    desc: "적 영웅을 붙드는 불안정한 마법의 고리를 만들어 내어 피해를 주고 0.5초 동안 기절시킵니다. 적 영웅이 꿈의 고리에서 일정 거리
+      이상 벗어나면 고리가 끊어지면서 기절하고 추가 피해를 받습니다.\r\n\r\n아가님의 홀로 강화 가능"
     notes: ''
     dmg: ''
     attrib: |-
@@ -1757,66 +997,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 70/65/60</div><br clear="left" /></div>
     lore: 요정용 퍽은 적을 생생한 죽음의 꿈으로 몰아넣으며 혼란을 선사합니다.
-    hurl: Puck
-  special_bonus_intelligence_8:
-    dname: 지능 +8
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_intelligence_8_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Winter_Wyvern
-  special_bonus_magic_resistance_20:
-    dname: 마법 저항력 +20%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_magic_resistance_20_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Monkey_King
-  special_bonus_spell_amplify_10:
-    dname: 주문 증폭 +10%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_spell_amplify_10_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Ember_Spirit
-  special_bonus_unique_puck_2:
-    dname: 균열 메우기 쿨다운 -3초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_puck_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Puck
-  special_bonus_gold_income_70:
-    dname: 분당 골드 +420
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_gold_income_70_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Puck
-  special_bonus_unique_puck:
-    dname: 신비로운 구슬 거리/속도 +75%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_puck_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Puck
   pudge_meat_hook:
     dname: 고기 갈고리
@@ -1887,76 +1067,6 @@ abilitydata:
       width="16" height="16" border="0" /> 30/25/20</div><br clear="left" /></div>
     lore: "'이 벌레들도 손만 좀 봐주면 쓸만한 재료가 되겠어!'"
     hurl: Pudge
-  special_bonus_strength_8:
-    dname: 힘 +8
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_strength_8_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Bristleback
-  special_bonus_mp_regen_2:
-    dname: 마나 재생 +2
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_mp_regen_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Underlord
-  special_bonus_armor_5:
-    dname: 방어력 +5
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_armor_5_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Monkey_King
-  special_bonus_gold_income_25:
-    dname: 분당 골드 +150
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_gold_income_25_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Phoenix
-  special_bonus_unique_pudge_3:
-    dname: special_bonus_unique_pudge_3
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_pudge_3_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Pudge
-  special_bonus_unique_pudge_1:
-    dname: 살점 무더기 힘 중첩 +1.75
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_pudge_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Pudge
-  special_bonus_unique_pudge_2:
-    dname: 썩은 내 피해 +120
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_pudge_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Pudge
   razor_plasma_field:
     dname: 플라스마 장막
     affects: '능력: <span class="attribVal">대상 없음</span><br />피해 유형: <span class="attribVal">마법</span><br
@@ -2001,7 +1111,7 @@ abilitydata:
       />주문 면역 관통: <span class="attribVal">미관통</span><br />'
     desc: "레이저의 이동 속도가 증가하며, 적이 레이저를 대상으로 능력을 사용하면 즉시 전기를 방출하여 피해를 주고 강화 효과를 제거하며
       움직임을 둔화합니다.\r\n\r\n해제 유형: 기본 해제"
-    notes: 레이저에게 주문이 시전되는 시점에 피해 효과가 발동합니다.<br />마법 시전자가 영웅일 때만 효과가 발동합니다.
+    notes: 레이저에게 주문이 시전되는 시점에 피해 효과가 발동합니다.
     dmg: '피해: <span class="attribVal">40 / 70 / 100 / 130</span><br />'
     attrib: |-
       보너스 속도: <span class="attribVal">4% / 8% / 12% / 16%</span><br />
@@ -2016,7 +1126,7 @@ abilitydata:
       color="#70EA72">관통</font></span><br />'
     desc: "강력한 번개 폭풍을 일으켜 체력이 가장 낮은 적 유닛을 공격합니다. 피해를 받은 대상은 방어력이 감소합니다.\r\n\r\n아가님의
       홀로 강화 가능"
-    notes: 범위 내에서 체력이 가장 낮은 유닛부터 타격합니다.
+    notes: 범위 내에서 체력이 가장 낮은 유닛부터 타격합니다.<br />폭풍의 눈이 정전기 연결로 이어진 영웅을 먼저 타격합니다.
     dmg: ''
     attrib: |-
       반경: <span class="attribVal">500 / 500 / 500</span><br />
@@ -2031,66 +1141,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 80/70/60</div><br clear="left" /></div>
     lore: 처형 시간입니다.
-    hurl: Razor
-  special_bonus_agility_15:
-    dname: 민첩 +15
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_agility_15_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Terrorblade
-  special_bonus_unique_razor_2:
-    dname: 불안정한 전류 피해 +130
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_razor_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Razor
-  special_bonus_hp_400:
-    dname: 체력 +400
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_hp_400_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Disruptor
-  special_bonus_attack_speed_40:
-    dname: 공격 속도 +40
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_attack_speed_40_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Bounty_Hunter
-  special_bonus_attack_range_175:
-    dname: 공격 범위 +175
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_attack_range_175_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Lone_Druid
-  special_bonus_unique_razor:
-    dname: 정전기 연결 공격력 훔치기 +14
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_razor_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Razor
   sandking_burrowstrike:
     dname: 지하 습격
@@ -2135,9 +1185,8 @@ abilitydata:
     dname: 부식성 독
     affects: '능력: <span class="attribVal">지속 효과</span><br />피해 유형: <span class="attribVal">마법</span><br
       />주문 면역 관통: <span class="attribVal">미관통</span><br />'
-    desc: "모래 제왕의 공격이 적에게 독을 주입합니다. 중독된 적이 죽거나 독의 지속시간이 다하면, 독은 크게 폭발하면서 주변에 피해를 줍니다.
-      지속시간이 다하면 50%의 피해를 줍니다. \r\n\r\n부식성 독은 고유 공격 변형 요인입니다. 다른 고유 공격 변형 요인과 중첩되지
-      않습니다."
+    desc: 모래 제왕의 공격이 적에게 독을 주입합니다. 중독된 적이 죽거나 독의 지속시간이 다하면, 독은 크게 폭발하면서 주변에 피해를 줍니다.
+      지속시간이 다하면 50%의 피해를 줍니다.
     notes: 부식성 독에 감염된 유닛은 모래 제왕이 마지막 일격을 가하지 않아도 폭발합니다.<br />아군 유닛은 감염시킬 수 없습니다.
     dmg: ''
     attrib: |-
@@ -2170,66 +1219,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 120/110/100</div><br clear="left" /></div>
     lore: 수많은 탐험가가 불꽃 황무지의 모래늪에서 명을 달리했습니다.
-    hurl: Sand_King
-  special_bonus_magic_resistance_10:
-    dname: 마법 저항력 +10%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_magic_resistance_10_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Centaur_Warrunner
-  special_bonus_unique_sand_king_2:
-    dname: 모래 폭풍 초당 피해 +50
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_sand_king_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Sand_King
-  special_bonus_unique_sand_king_3:
-    dname: special_bonus_unique_sand_king_3
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_sand_king_3_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Sand_King
-  special_bonus_hp_350:
-    dname: 체력 +350
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_hp_350_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Troll_Warlord
-  special_bonus_hp_regen_50:
-    dname: 체력 재생 +50
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_hp_regen_50_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Underlord
-  special_bonus_unique_sand_king:
-    dname: 땅울리기 진동 수 +4
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_sand_king_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Sand_King
   storm_spirit_static_remnant:
     dname: 정전기 잔영
@@ -2302,46 +1291,6 @@ abilitydata:
       width="16" height="16" border="0" /> 30</div><br clear="left" /></div>
     lore: 폭풍이 몰려옵니다.
     hurl: Storm_Spirit
-  special_bonus_hp_200:
-    dname: 체력 +200
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_hp_200_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Arc_Warden
-  special_bonus_intelligence_10:
-    dname: 지능 +10
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_intelligence_10_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Earth_Spirit
-  special_bonus_armor_8:
-    dname: 방어력 +8
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_armor_8_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Sniper
-  special_bonus_unique_storm_spirit:
-    dname: 전기 소용돌이 +0.75초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_storm_spirit_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Storm_Spirit
   sven_storm_bolt:
     dname: 폭풍 망치
     affects: '능력: <span class="attribVal">유닛 지정</span><br />효과: <span class="attribVal">적
@@ -2398,6 +1347,7 @@ abilitydata:
     dmg: ''
     attrib: |-
       보너스 피해: <span class="attribVal">80% / 120% / 160%</span><br />
+      보너스 힘: <span class="attribVal">12 / 24 / 36</span><br />
       <span class="scepterVal">홀 아군 오라 반경:</span> <span class="attribVal">900</span><br />
       <span class="scepterVal">홀 아군 보너스 피해:</span> <span class="attribVal">75% / 100% / 125%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
@@ -2406,46 +1356,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 80</div><br clear="left" /></div>
     lore: 떠돌이 기사는 신성한 투구를 박살 내는 그 힘 덕분에 근접전에서 무적입니다.
-    hurl: Sven
-  special_bonus_mp_225:
-    dname: 마나 +225
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_mp_225_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Sven
-  special_bonus_evasion_20:
-    dname: 회피 20%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_evasion_20_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Clinkz
-  special_bonus_attack_damage_65:
-    dname: 피해 +65
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_65_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Vengeful_Spirit
-  special_bonus_unique_sven:
-    dname: 폭풍 망치 쿨다운 -8초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_sven_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Sven
   tiny_avalanche:
     dname: 산사태
@@ -2489,7 +1399,8 @@ abilitydata:
     dname: 바위투성이 피부
     affects: '능력: <span class="attribVal">지속 효과</span><br />피해 유형: <span class="attribVal">마법</span><br
       />'
-    desc: 타이니가 공격자에게 피해를 반사합니다. 타이니를 공격하는 근접 유형 적은 일정 확률로 기절합니다.
+    desc: 타이니가 공격자에게 피해를 반사합니다. 타이니를 공격하는 근접 유형 적은 일정 확률로 기절합니다. 발동 확률은 성장 레벨이 오를
+      때마다 증가합니다.
     notes: 피해 및 기절 효과는 공격이 닿았을 때 발동합니다.
     dmg: ''
     attrib: |-
@@ -2504,7 +1415,7 @@ abilitydata:
     dname: 성장
     affects: '능력: <span class="attribVal">지속 효과</span><br />'
     desc: "타이니가 바윗덩어리를 끌어모아서 힘을 더욱 키웁니다. 단, 공격 속도가 감소합니다. 던지기로 주는 피해가 증가하고 이동 속도가
-      증가합니다.\r\n\r\n아가님의 홀로 강화 가능"
+      증가하며 바위투성이 피부의 발동 확률이 증가합니다.\r\n\r\n아가님의 홀로 강화 가능"
     notes: 가르기 피해는 방어력이 아닌 방어 유형에 따라 감소합니다.<br />가르기 피해는 주문 면역을 무시합니다.<br />우회 공격
       방지 상태에서는 건물이 아가님의 홀 보너스 피해를 받지 않습니다.
     dmg: ''
@@ -2519,56 +1430,6 @@ abilitydata:
       <span class="scepterVal">홀 던지기 보너스:</span> <span class="attribVal">50% / 65% / 80%</span>
     cmb: ''
     lore: 언덕이 산으로 변하는 것은 경이로운 장관입니다. 특히 그 산이 적을 쳐부수기 시작할 때는요.
-    hurl: Tiny
-  special_bonus_intelligence_12:
-    dname: 지능 +12
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_intelligence_12_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Medusa
-  special_bonus_movement_speed_40:
-    dname: 이동 속도 +40
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_movement_speed_40_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Underlord
-  special_bonus_mp_regen_14:
-    dname: 마나 재생 +14
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_mp_regen_14_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Skywrath_Mage
-  special_bonus_cooldown_reduction_20:
-    dname: 쿨다운 감소 20%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_cooldown_reduction_20_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Techies
-  special_bonus_unique_tiny:
-    dname: 산사태 피해 +200
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_tiny_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Tiny
   vengefulspirit_magic_missile:
     dname: 마법의 화살
@@ -2638,46 +1499,6 @@ abilitydata:
       width="16" height="16" border="0" /> 45</div><br clear="left" /></div>
     lore: 복수를 위해서라면 순교도 마다하지 않습니다.
     hurl: Vengeful_Spirit
-  special_bonus_magic_resistance_8:
-    dname: 마법 저항력 +8%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_magic_resistance_8_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Ogre_Magi
-  special_bonus_unique_vengeful_spirit_1:
-    dname: 마법의 화살 피해 +100
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_vengeful_spirit_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Vengeful_Spirit
-  special_bonus_unique_vengeful_spirit_2:
-    dname: 복수의 오라 피해 +20%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_vengeful_spirit_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Vengeful_Spirit
-  special_bonus_unique_vengeful_spirit_3:
-    dname: 마법의 화살이 주문 면역 관통
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_vengeful_spirit_3_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Vengeful_Spirit
   windrunner_shackleshot:
     dname: 올가미 투척
     affects: '능력: <span class="attribVal">유닛 지정</span><br />효과: <span class="attribVal">적
@@ -2716,7 +1537,7 @@ abilitydata:
     affects: '능력: <span class="attribVal">대상 없음</span><br />주문 면역 관통: <span class="attribVal">미관통</span><br
       />'
     desc: 이동 속도가 증가하고 모든 물리 공격에 회피 확률이 증가합니다. 동시에 주위 적의 움직임을 둔화합니다.
-    notes: 둔화 효과는 주문 면역을 무시합니다.<br />바람질주를 활성화하면 접근하는 투사체를 피할 수 있습니다.
+    notes: 바람질주를 활성화하면 접근하는 투사체를 피할 수 있습니다.
     dmg: ''
     attrib: |-
       이동 속도 보너스: <span class="attribVal">50% / 50% / 50% / 50%</span><br />
@@ -2752,66 +1573,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 60</div><br clear="left" /></div>
     lore: 질풍처럼 화살을 쏘아 보내는 리랄레이의 능력은 비할 데 없는 위력을 자랑합니다. 명중률은 다소 감소하지만 충분히 강력합니다.
-    hurl: Windranger
-  special_bonus_mp_regen_4:
-    dname: 마나 재생 +4
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_mp_regen_4_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Windranger
-  special_bonus_unique_windranger_2:
-    dname: 바람질주 둔화 +30%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_windranger_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Windranger
-  special_bonus_intelligence_20:
-    dname: 지능 +20
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_intelligence_20_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Oracle
-  special_bonus_unique_windranger:
-    dname: 강화사격 쿨다운 -7초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_windranger_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Windranger
-  special_bonus_unique_windranger_3:
-    dname: special_bonus_unique_windranger_3
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_windranger_3_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Windranger
-  special_bonus_cooldown_reduction_30:
-    dname: special_bonus_cooldown_reduction_30
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_cooldown_reduction_30_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Windranger
   zuus_arc_lightning:
     dname: 연쇄 번개
@@ -2895,46 +1656,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 90</div><br clear="left" /></div>
     lore: 천상의 군주에게 맞서는 자는 어디에 있더라도 천벌을 면치 못합니다.
-    hurl: Zeus
-  special_bonus_unique_zeus_2:
-    dname: 연쇄 번개 피해 +75
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_zeus_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Zeus
-  special_bonus_unique_zeus_3:
-    dname: special_bonus_unique_zeus_3
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_zeus_3_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Zeus
-  special_bonus_cast_range_200:
-    dname: 시전 범위 +200
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_cast_range_200_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Techies
-  special_bonus_unique_zeus:
-    dname: 전기장 피해 +2%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_zeus_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Zeus
   kunkka_torrent:
     dname: 급류
@@ -3029,76 +1750,6 @@ abilitydata:
       width="16" height="16" border="0" /> 1</div><br clear="left" /></div>
     lore: ''
     hurl: Kunkka
-  special_bonus_attack_damage_30:
-    dname: 피해 +30
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_30_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Arc_Warden
-  special_bonus_unique_kunkka_2:
-    dname: 급류 피해 +40
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_kunkka_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Kunkka
-  special_bonus_hp_regen_15:
-    dname: 체력 재생 +15
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_hp_regen_15_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Undying
-  special_bonus_movement_speed_30:
-    dname: 이동 속도 +30
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_movement_speed_30_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Undying
-  special_bonus_hp_300:
-    dname: 체력 +300
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_hp_300_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Earth_Spirit
-  special_bonus_magic_resistance_35:
-    dname: 마법 저항력 +35%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_magic_resistance_35_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Weaver
-  special_bonus_unique_kunkka:
-    dname: 급류 효과 범위 +200
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_kunkka_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Kunkka
   lina_dragon_slave:
     dname: 용의 숨결
     affects: '능력: <span class="attribVal">유닛 지정, 목표 지점 지정</span><br />효과: <span class="attribVal">적
@@ -3142,7 +1793,8 @@ abilitydata:
     attrib: |-
       공격 속도 보너스: <span class="attribVal">40 / 55 / 70 / 85</span><br />
       이동 속도 보너스: <span class="attribVal">5% / 6% / 7% / 8%</span><br />
-      최대 중첩: <span class="attribVal">3</span>
+      최대 중첩: <span class="attribVal">3</span><br />
+      지속시간: <span class="attribVal">10</span>
     cmb: ''
     lore: 춤추는 불꽃은 장난기 넘치는 본성을 닮아, 리나의 불타는 열정을 끌어냅니다.
     hurl: Lina
@@ -3161,36 +1813,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 70/60/50</div><br clear="left" /></div>
     lore: 리나는 주위 공기를 뜨겁게 달구어, 새하얗게 타오르는 번개로 다가오는 적을 불태웁니다.
-    hurl: Lina
-  special_bonus_unique_lina_3:
-    dname: 눈부신 일격 피해 +80
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_lina_3_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Lina
-  special_bonus_unique_lina_1:
-    dname: 용의 숨결 쿨다운 -4초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_lina_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Lina
-  special_bonus_unique_lina_2:
-    dname: 불타는 영혼 중첩당 +40/4%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_lina_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Lina
   lich_frost_nova:
     dname: 서리 폭발
@@ -3244,7 +1866,7 @@ abilitydata:
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 25/25/25/25</div><div class="cooldown"><img
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 60/48/36/24</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 60/46/32/18</div><br clear="left" /></div>
     lore: 에트레아인이 인간이었을 때 자신의 통치에 이의를 제기하는 자를 본보기로 처벌했다는 이야기는 유명합니다.
     hurl: Lich
   lich_chain_frost:
@@ -3264,8 +1886,7 @@ abilitydata:
       이동 둔화: <span class="attribVal">65%</span><br />
       공격 둔화: <span class="attribVal">65</span><br />
       둔화 지속시간: <span class="attribVal">2.5</span><br />
-      <span class="scepterVal">홀 피해:</span> <span class="attribVal">370 / 460 / 550</span><br />
-      <span class="scepterVal">홀 시전 범위:</span> <span class="attribVal">850 / 850 / 850</span>
+      <span class="scepterVal">홀 피해:</span> <span class="attribVal">370 / 460 / 550</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 200/325/500</div><div class="cooldown"><img
@@ -3273,46 +1894,6 @@ abilitydata:
       width="16" height="16" border="0" /> 100/80/60</div><br clear="left" /></div>
     lore: 많은 이들이 서리 마법의 결정판으로 여기는 기술입니다. 에트레아인이 얼어붙은 죽음의 구체를 날려, 감히 자신에게 대적하는 자에게
       공포를 선사합니다.
-    hurl: Lich
-  special_bonus_unique_lich_3:
-    dname: 서리 폭발 쿨다운 -4초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_lich_3_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Lich
-  special_bonus_attack_damage_150:
-    dname: 피해 +150
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_150_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Lich
-  special_bonus_unique_lich_1:
-    dname: 얼음 갑옷 건물 방어력 +35
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_lich_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Lich
-  special_bonus_unique_lich_2:
-    dname: 공격 시 이속 및 공속 둔화 30%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_lich_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Lich
   lion_impale:
     dname: 대지의 가시
@@ -3335,8 +1916,8 @@ abilitydata:
     affects: '능력: <span class="attribVal">유닛 지정</span><br />효과: <span class="attribVal">적
       유닛</span><br />주문 면역 관통: <span class="attribVal">미관통</span><br />'
     desc: 적 유닛을 무해한 동물로 바꿔 놓습니다. 모습이 바뀐 상대는 능력을 사용할 수 없습니다.
-    notes: 환영을 즉시 파괴합니다.<br />주술에 걸린 대상은 이동 속도가 100으로 감소하지만, 최고 이동 속도를 부여하는 효과를 얻으면
-      이동 속도 감소 효과는 무효화됩니다.<br />주술은 대상의 피해 방어를 무효화합니다.
+    notes: 환영을 즉시 파괴합니다.<br />주술에 걸린 대상은 이동 속도가 140으로 감소하지만, 최고 이동 속도를 부여하는 효과를 얻으면
+      이동 속도 감소 효과는 무효화됩니다.
     dmg: ''
     attrib: '지속시간: <span class="attribVal">2.5 / 3 / 3.5 / 4</span>'
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
@@ -3384,66 +1965,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 160/100/40</div><br clear="left" /></div>
     lore: 라이온의 뒤틀린 손은 그가 지닌 가장 강력한 능력의 근원입니다. 이 손은 희생자를 사악한 힘으로 압도할 수 있습니다.
-    hurl: Lion
-  special_bonus_cast_range_75:
-    dname: 시전 범위 +75
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_cast_range_75_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Rubick
-  special_bonus_unique_lion_2:
-    dname: 대지의 가시 피해 +80
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_lion_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Lion
-  special_bonus_gold_income_15:
-    dname: 분당 골드 +90
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_gold_income_15_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Earth_Spirit
-  special_bonus_spell_amplify_8:
-    dname: 주문 증폭 +8%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_spell_amplify_8_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Phoenix
-  special_bonus_all_stats_20:
-    dname: 모든 능력치 +20
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_all_stats_20_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Lion
-  special_bonus_unique_lion:
-    dname: 여러 대상 마나 흡수 +3
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_lion_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Lion
   shadow_shaman_ether_shock:
     dname: 에테르 충격
@@ -3515,66 +2036,6 @@ abilitydata:
       width="16" height="16" border="0" /> 120</div><br clear="left" /></div>
     lore: 뱀 묘기는 그림자 주술사의 공연에 자주 등장했습니다. 이제 라스타는 뱀에 힘을 실어 자신의 명령을 따르게 합니다.
     hurl: Shadow_Shaman
-  special_bonus_cast_range_100:
-    dname: 시전 범위 +100
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_cast_range_100_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Visage
-  special_bonus_exp_boost_35:
-    dname: 경험치 획득 +35%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_exp_boost_35_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Undying
-  special_bonus_unique_shadow_shaman_4:
-    dname: special_bonus_unique_shadow_shaman_4
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_shadow_shaman_4_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Shadow_Shaman
-  special_bonus_unique_shadow_shaman_2:
-    dname: 족쇄 지속시간 +3초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_shadow_shaman_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Shadow_Shaman
-  special_bonus_unique_shadow_shaman_1:
-    dname: 뱀 와드 처치 횟수 +1
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_shadow_shaman_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Shadow_Shaman
-  special_bonus_unique_shadow_shaman_3:
-    dname: 에테르 충격 피해 +350
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_shadow_shaman_3_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Shadow_Shaman
   slardar_sprint:
     dname: 수호의 질주
     affects: '능력: <span class="attribVal">대상 없음</span><br />'
@@ -3643,46 +2104,6 @@ abilitydata:
       title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 5</div><br clear="left" /></div>
     lore: 가장 강력한 방어력도 짠 바닷물에 닿으면 쓸모없어질 뿐입니다.
-    hurl: Slardar
-  special_bonus_hp_regen_6:
-    dname: 체력 재생 +6
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_hp_regen_6_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Terrorblade
-  special_bonus_mp_175:
-    dname: 마나 +175
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_mp_175_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Slardar
-  special_bonus_attack_damage_35:
-    dname: 피해 +35
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_35_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Tusk
-  special_bonus_unique_slardar:
-    dname: 강타 확률 +10%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_slardar_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Slardar
   tidehunter_gush:
     dname: 분출
@@ -3756,36 +2177,6 @@ abilitydata:
       width="16" height="16" border="0" /> 150</div><br clear="left" /></div>
     lore: 심연의 신 마엘론을 불러내자 바다 위 함대가 모조리 흔적도 없이 사라졌습니다.
     hurl: Tidehunter
-  special_bonus_mp_regen_6:
-    dname: 마나 재생 +6
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_mp_regen_6_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Omniknight
-  special_bonus_strength_15:
-    dname: 힘 +15
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_strength_15_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Centaur_Warrunner
-  special_bonus_unique_tidehunter:
-    dname: 분출 방어력 -6
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_tidehunter_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Tidehunter
   witch_doctor_paralyzing_cask:
     dname: 마비 약통
     affects: '능력: <span class="attribVal">유닛 지정</span><br />효과: <span class="attribVal">적
@@ -3846,8 +2237,8 @@ abilitydata:
     affects: '능력: <span class="attribVal">집중 기술, 목표 지점 지정</span><br />피해 유형: <span
       class="attribVal"><font color="#71a9ea">물리</font></span><br />주문 면역 관통: <span
       class="attribVal"><font color="#70EA72">관통</font></span><br />'
-    desc: "집중 기술 - 치명적인 와드를 소환해 700범위 내 적 영웅을 공격합니다. 최대 8초 동안 유지됩니다.\r\n\r\n아가님의 홀로
-      강화 가능"
+    desc: "집중 기술 - 치명적이고 정밀 타격 효과가 있는 와드를 소환해 700범위 내 적 영웅을 공격합니다. 최대 8초 동안 유지됩니다.\r\n\r\n아가님의
+      홀로 강화 가능"
     notes: 죽음의 와드는 무적이며, 저주술사가 방해당하거나 지속시간이 끝나야 사라집니다.<br />죽음의 와드를 조종하여 특정 유닛을 공격하게
       할 수 있습니다.<br />죽음의 와드는 0.22초마다 적을 공격합니다.
     dmg: ''
@@ -3860,56 +2251,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 80</div><br clear="left" /></div>
     lore: 저주술사가 의식의 춤을 춥니다. 살아남아 이 춤을 이야기하는 자는 악몽에 시달립니다.
-    hurl: Witch_Doctor
-  special_bonus_exp_boost_25:
-    dname: 경험치 획득 +25%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_exp_boost_25_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Jakiro
-  special_bonus_attack_damage_90:
-    dname: 피해 +90
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_90_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Treant_Protector
-  special_bonus_unique_witch_doctor_3:
-    dname: special_bonus_unique_witch_doctor_3
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_witch_doctor_3_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Witch_Doctor
-  special_bonus_unique_witch_doctor_1:
-    dname: 죽음의 와드 공격 범위 +175
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_witch_doctor_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Witch_Doctor
-  special_bonus_unique_witch_doctor_2:
-    dname: 치유 부두술 치유 +20
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_witch_doctor_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Witch_Doctor
   riki_smoke_screen:
     dname: 연막
@@ -3982,46 +2323,6 @@ abilitydata:
       title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 40/35/30</div><br clear="left" /></div>
     lore: 은신 암살자는 비열한 싸움을 꺼리지 않으며, 뒤에서 적을 공격하는 데 도가 텄습니다.
-    hurl: Riki
-  special_bonus_agility_10:
-    dname: 민첩 +10
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_agility_10_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Troll_Warlord
-  special_bonus_cast_range_250:
-    dname: 시전 범위 +250
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_cast_range_250_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Oracle
-  special_bonus_unique_riki_1:
-    dname: 배후 공격 배수 +0.4
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_riki_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Riki
-  special_bonus_unique_riki_2:
-    dname: 연막 쿨다운 -4초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_riki_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Riki
   enigma_malefice:
     dname: 악의
@@ -4100,46 +2401,6 @@ abilitydata:
       width="16" height="16" border="0" /> 200/180/160</div><br clear="left" /></div>
     lore: 에니그마가 궁극의 힘으로 세상을 멸망시킬 만큼 강력한 파멸의 소용돌이를 불러내면 온 대지가 전율합니다.
     hurl: Enigma
-  special_bonus_magic_resistance_12:
-    dname: 마법 저항력 +12%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_magic_resistance_12_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Elder_Titan
-  special_bonus_unique_enigma_2:
-    dname: special_bonus_unique_enigma_2
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_enigma_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Enigma
-  special_bonus_armor_12:
-    dname: 방어력 +12
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_armor_12_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Night_Stalker
-  special_bonus_unique_enigma:
-    dname: 마의 형상 분열체 +8
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_enigma_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Enigma
   tinker_laser:
     dname: 레이저
     affects: '능력: <span class="attribVal">유닛 지정</span><br />효과: <span class="attribVal">적
@@ -4211,36 +2472,6 @@ abilitydata:
       width="16" height="16" border="0" /> 0</div><br clear="left" /></div>
     lore: "'새 전지는 여기에, 또 다른 로켓은 저기에…' 바우시는 기존 기술을 개선하는 노력을 게을리하지 않습니다."
     hurl: Tinker
-  special_bonus_spell_amplify_4:
-    dname: 주문 증폭 +4%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_spell_amplify_4_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Tinker
-  special_bonus_spell_lifesteal_20:
-    dname: 주문 흡혈 20%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_spell_lifesteal_20_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Tinker
-  special_bonus_unique_tinker:
-    dname: 레이저 피해 +100
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_tinker_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Tinker
   sniper_shrapnel:
     dname: 유산탄
     affects: '능력: <span class="attribVal">목표 지점 지정</span><br />피해 유형: <span class="attribVal">마법</span><br
@@ -4301,66 +2532,6 @@ abilitydata:
       width="16" height="16" border="0" /> 20/15/10</div><br clear="left" /></div>
     lore: 카르델이 예언을 실현하고 고향으로 돌아가려면, 오래전 시험에서 해냈던 만큼 완벽한 한 발을 쏘아야 합니다.
     hurl: Sniper
-  special_bonus_mp_regen_5:
-    dname: 마나 재생 +5
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_mp_regen_5_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Sniper
-  special_bonus_attack_speed_15:
-    dname: 공격 속도 +15
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_attack_speed_15_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Terrorblade
-  special_bonus_unique_sniper_1:
-    dname: 유산탄 초당 피해 +20
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_sniper_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Sniper
-  special_bonus_cooldown_reduction_25:
-    dname: 쿨다운 감소 25%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_cooldown_reduction_25_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Sniper
-  special_bonus_attack_range_100:
-    dname: 공격 범위 +100
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_attack_range_100_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Arc_Warden
-  special_bonus_unique_sniper_2:
-    dname: 유산탄 충전 수 +4
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_sniper_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Sniper
   necrolyte_death_pulse:
     dname: 죽음의 파동
     affects: '능력: <span class="attribVal">대상 없음</span><br />피해 유형: <span class="attribVal">마법</span><br
@@ -4394,7 +2565,7 @@ abilitydata:
       지속시간: <span class="attribVal">3 / 3.5 / 4 / 4.5</span><br />
       회복 증폭: <span class="attribVal">75%</span><br />
       이동 둔화: <span class="attribVal">12% / 20% / 28% / 36%</span><br />
-      둔화 반경: <span class="attribVal">600</span><br />
+      둔화 반경: <span class="attribVal">750</span><br />
       마법 피해 증가: <span class="attribVal">20%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -4437,26 +2608,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 100/85/70</div><br clear="left" /></div>
     lore: 강령사제가 발휘하는 역병 마법은 죽음과 고통이 더해질수록 더욱 강해집니다.
-    hurl: Necrophos
-  special_bonus_all_stats_6:
-    dname: 모든 능력치 +6
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_all_stats_6_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Ember_Spirit
-  special_bonus_unique_necrophos:
-    dname: 죽음의 파동 쿨다운 -1초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_necrophos_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Necrophos
   warlock_fatal_bonds:
     dname: 죽음의 결속
@@ -4530,70 +2681,10 @@ abilitydata:
       <span class="scepterVal">홀 골렘 사망 시 획득 골드 감소:</span> <span class="attribVal">50%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 250/350/450</div><div class="cooldown"><img
+      width="16" height="16" border="0" /> 250/375/500</div><div class="cooldown"><img
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 165</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 170</div><br clear="left" /></div>
     lore: 뎀녹은 자신의 공포나무 지팡이에 구속된 영혼을 해방시켜 적 진영에 재앙을 불러냅니다.
-    hurl: Warlock
-  special_bonus_exp_boost_20:
-    dname: 경험치 획득 +20%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_exp_boost_20_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Oracle
-  special_bonus_cast_range_150:
-    dname: 시전 범위 +150
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_cast_range_150_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Timbersaw
-  special_bonus_unique_warlock_3:
-    dname: 어둠의 주문 쿨다운 -4초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_warlock_3_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Warlock
-  special_bonus_unique_warlock_4:
-    dname: special_bonus_unique_warlock_4
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_warlock_4_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Warlock
-  special_bonus_unique_warlock_1:
-    dname: 혼돈의 제물 골렘이 마법 면역
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_warlock_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Warlock
-  special_bonus_unique_warlock_2:
-    dname: 혼돈의 제물 골렘 방어력 +15
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_warlock_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Warlock
   beastmaster_wild_axes:
     dname: 도끼 던지기
@@ -4669,46 +2760,6 @@ abilitydata:
       width="16" height="16" border="0" /> 80/75/70</div><br clear="left" /></div>
     lore: 야수지배자는 태곳적부터 있었던 본능을 야수와 같은 울음으로 토해내어 적의 무리를 완전히 짓밟아버리는 법을 배웠습니다.
     hurl: Beastmaster
-  special_bonus_strength_12:
-    dname: 힘 +12
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_strength_12_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Magnus
-  special_bonus_unique_beastmaster_2:
-    dname: special_bonus_unique_beastmaster_2
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_beastmaster_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Beastmaster
-  special_bonus_attack_damage_120:
-    dname: 피해 +120
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_120_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Brewmaster
-  special_bonus_unique_beastmaster:
-    dname: 도끼 던지기 피해 +250
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_beastmaster_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Beastmaster
   queenofpain_shadow_strike:
     dname: 그림자 일격
     affects: '능력: <span class="attribVal">유닛 지정</span><br />효과: <span class="attribVal">적
@@ -4781,26 +2832,6 @@ abilitydata:
       width="16" height="16" border="0" /> 135</div><br clear="left" /></div>
     lore: 여왕이 선사하는 가장 강렬한 고통입니다. 불운한 적은 아카샤의 초음파 비명으로 고통에서 벗어나 영원한 안식에 듭니다.
     hurl: Queen_of_Pain
-  special_bonus_unique_queen_of_pain:
-    dname: 그림자 일격 쿨다운 없음
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_queen_of_pain_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Queen_of_Pain
-  special_bonus_spell_lifesteal_70:
-    dname: 주문 흡혈 70%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_spell_lifesteal_70_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Queen_of_Pain
   venomancer_venomous_gale:
     dname: 맹독 숨결
     affects: '능력: <span class="attribVal">목표 지점 지정</span><br />피해 유형: <span class="attribVal">마법</span><br
@@ -4833,7 +2864,7 @@ abilitydata:
     dmg: ''
     attrib: |-
       지속시간: <span class="attribVal">6 / 9 / 12 / 15</span><br />
-      초당 피해: <span class="attribVal">6 / 12 / 18 / 24</span><br />
+      초당 피해: <span class="attribVal">6 / 14 / 22 / 30</span><br />
       둔화: <span class="attribVal">11% / 12% / 13% / 14%</span>
     cmb: ''
     lore: 맹독사는 자신의 몸을 변화시켰던 마비 침을 자신의 것으로 삼았습니다.
@@ -4880,31 +2911,11 @@ abilitydata:
       width="16" height="16" border="0" /> 140/120/100</div><br clear="left" /></div>
     lore: 산성 밀림에서는 공격자에게 유해한 독을 퍼붓는 생명체를 많이 볼 수 있습니다. 맹독사는 이 독을 지디 섬 바깥으로 퍼뜨립니다.
     hurl: Venomancer
-  special_bonus_unique_venomancer_2:
-    dname: special_bonus_unique_venomancer_2
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_venomancer_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Venomancer
-  special_bonus_unique_venomancer:
-    dname: 역병 와드 체력/피해 3배
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_venomancer_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Venomancer
   faceless_void_time_walk:
     dname: 시간 이동
     affects: '능력: <span class="attribVal">목표 지점 지정</span><br />주문 면역 관통: <span class="attribVal">미관통</span><br
       />'
-    desc: 대상 지점으로 달려가며 마지막 2초 동안 받은 모든 피해를 회피합니다.
+    desc: 대상 지점으로 달려가며 마지막 2초 동안 받은 모든 피해를 되돌립니다.
     notes: 시간 이동 중인 얼굴없는 전사는 무적 상태가 됩니다.
     dmg: ''
     attrib: '시간 되감기 지속시간: <span class="attribVal">2</span>'
@@ -4967,16 +2978,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 140/125/110</div><br clear="left" /></div>
     lore: 클라스주림으로 통하는 틈이 벌어지면 그 안에 갖힌 불행한 영혼들은 되돌아올 가능성이 희박합니다.
-    hurl: Faceless_Void
-  special_bonus_unique_faceless_void:
-    dname: 시간 이동 시전 범위 +600
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_faceless_void_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Faceless_Void
   skeleton_king_hellfire_blast:
     dname: 망령의 불꽃
@@ -5046,56 +3047,6 @@ abilitydata:
       title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 240/140/40</div><br clear="left" /></div>
     lore: 망령 제왕을 암살하려 했던 자들은 어째서 제왕이 죽지 않는지 의아해합니다.
-    hurl: Wraith_King
-  special_bonus_attack_damage_15:
-    dname: 피해 +15
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_15_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Medusa
-  special_bonus_unique_wraith_king_3:
-    dname: 망령의 불꽃 초당 피해 +50
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_wraith_king_3_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Wraith_King
-  special_bonus_unique_wraith_king_2:
-    dname: 흡혈의 오라 흡혈 효과 +20%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_wraith_king_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Wraith_King
-  special_bonus_unique_wraith_king_1:
-    dname: 부활 소모 마나 없음
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_wraith_king_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Wraith_King
-  special_bonus_unique_wraith_king_4:
-    dname: special_bonus_unique_wraith_king_4
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_wraith_king_4_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Wraith_King
   death_prophet_carrion_swarm:
     dname: 무덤박쥐 떼
@@ -5170,46 +3121,6 @@ abilitydata:
       width="16" height="16" border="0" /> 145</div><br clear="left" /></div>
     lore: 시간이 지나면서 전생에 밴시였던 모습이 현생에까지 이어져 나타났습니다.
     hurl: Death_Prophet
-  special_bonus_unique_death_prophet_2:
-    dname: 무덤박쥐 떼 쿨다운 -1.5초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_death_prophet_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Death_Prophet
-  special_bonus_cooldown_reduction_10:
-    dname: 쿨다운 감소 10%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_cooldown_reduction_10_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Arc_Warden
-  special_bonus_movement_speed_50:
-    dname: 이동 속도 +50
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_movement_speed_50_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Death_Prophet
-  special_bonus_unique_death_prophet:
-    dname: 퇴마술 혼령 +8
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_death_prophet_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Death_Prophet
   phantom_assassin_stifling_dagger:
     dname: 질식의 단검
     affects: '능력: <span class="attribVal">유닛 지정</span><br />효과: <span class="attribVal">적
@@ -5275,36 +3186,6 @@ abilitydata:
     cmb: ''
     lore: 모르트레드는 신성한 일격에 죽음을 맞이할 대상을 직접 선택하는 방식으로 적을 예우합니다.
     hurl: Phantom_Assassin
-  special_bonus_lifesteal_10:
-    dname: 흡혈 10%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_lifesteal_10_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Slark
-  special_bonus_attack_speed_35:
-    dname: 공격 속도 +35
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_attack_speed_35_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Invoker
-  special_bonus_unique_phantom_assassin:
-    dname: 질식의 단검 2회 타격
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_phantom_assassin_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Phantom_Assassin
   pugna_nether_blast:
     dname: 황천의 폭발
     affects: '능력: <span class="attribVal">목표 지점 지정</span><br />피해 유형: <span class="attribVal">마법</span><br
@@ -5328,7 +3209,8 @@ abilitydata:
       />'
     desc: 대상 유닛의 속도를 느리게 하는 강력한 추방 주문을 시전합니다. 효과를 받은 대상은 공격할 수 없고 공격을 받지도 않습니다. 마법
       공격에는 추가 피해를 받습니다.
-    notes: 무력화 효과를 받은 유닛에게는 마법과 순수 피해만 적용됩니다.<br />아군 유닛을 둔화시키지 않습니다.
+    notes: 무력화 효과를 받은 유닛에게는 마법과 순수 피해만 적용됩니다.<br />아군 유닛을 둔화시키지 않습니다.<br />Can be
+      used on your Nether Ward.
     dmg: ''
     attrib: |-
       아군 마법 피해 증가 <span class="attribVal">25%</span><br />
@@ -5372,9 +3254,9 @@ abilitydata:
     affects: '능력: <span class="attribVal">집중 기술, 유닛 지정</span><br />효과: <span class="attribVal">영웅</span><br
       />피해 유형: <span class="attribVal">마법</span><br />주문 면역 관통: <span class="attribVal"><font
       color="#70EA72">관통</font></span><br />'
-    desc: "집중 기술 - 적에게 시전하여 대상 적 유닛에게서 체력을 흡수합니다. 퍼그나의 체력이 가득 차 있고 대상이 유닛이 영웅이라면 체력
-      흡수로 마나가 회복됩니다.\r\n\r\n아군에게 사용하면 퍼그나는 자신의 체력을 희생하여 아군을 치유합니다.\r\n\r\n아가님의 홀로
-      강화 가능"
+    desc: "집중 기술 - 적에게 시전하면 대상 적 유닛에게서 체력을 흡수하여 자신을 치유하고 대상 주위의 시야를 제공합니다. 퍼그나의 체력이
+      가득 차 있고 대상이 유닛이 영웅이라면 체력 흡수로 마나가 회복됩니다.\r\n\r\n아군에게 사용하면 퍼그나는 자신의 체력을 희생하여 아군을
+      치유합니다.\r\n\r\n아가님의 홀로 강화 가능"
     notes: 흡수하는 체력은 실제로 주는 피해와 비례합니다.<br />환영은 효과의 첫 적용 시점에 파괴됩니다.
     dmg: ''
     attrib: |-
@@ -5386,56 +3268,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 22</div><br clear="left" /></div>
     lore: 퍼그나는 망각의 술법을 쓰는 이들 중 진정한 일인자가 되었습니다.
-    hurl: Pugna
-  special_bonus_unique_pugna_5:
-    dname: special_bonus_unique_pugna_5
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_pugna_5_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Pugna
-  special_bonus_unique_pugna_4:
-    dname: 황천의 폭발 쿨다운 -1초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_pugna_4_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Pugna
-  special_bonus_unique_pugna_3:
-    dname: 황천의 와드 마나당 피해 +0.5
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_pugna_3_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Pugna
-  special_bonus_unique_pugna_1:
-    dname: 체력 흡수 치유 +50%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_pugna_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Pugna
-  special_bonus_unique_pugna_2:
-    dname: 황천의 폭발 피해 +150
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_pugna_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Pugna
   templar_assassin_refraction:
     dname: 굴절의 보호막
@@ -5524,46 +3356,6 @@ abilitydata:
       width="16" height="16" border="0" /> 11/8/5</div><br clear="left" /></div>
     lore: 기사단이 숨겨진 사원의 힘을 불러내면 누구도 그 시야에서 벗어날 수 없습니다.
     hurl: Templar_Assassin
-  special_bonus_evasion_12:
-    dname: 회피 12%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_evasion_12_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Dark_Seer
-  special_bonus_hp_275:
-    dname: 체력 +275
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_hp_275_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Monkey_King
-  special_bonus_unique_templar_assassin_2:
-    dname: special_bonus_unique_templar_assassin_2
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_templar_assassin_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Templar_Assassin
-  special_bonus_unique_templar_assassin:
-    dname: 굴절의 보호막 횟수 +3
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_templar_assassin_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Templar_Assassin
   viper_poison_attack:
     dname: 맹독 공격
     affects: '능력: <span class="attribVal">자동 시전, 유닛 지정</span><br />효과: <span class="attribVal">적
@@ -5642,56 +3434,6 @@ abilitydata:
     lore: 과거에 황천기룡은 가장 강력한 독소로 가학적인 소환사를 죽였습니다. 이제 이 독소는 바이퍼를 거스르는 멍청한 자들의 핏줄로 퍼져
       나갑니다.
     hurl: Viper
-  special_bonus_agility_16:
-    dname: 민첩 +16
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_agility_16_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Viper
-  special_bonus_unique_viper_1:
-    dname: 맹독 공격이 건물에 영향
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_viper_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Viper
-  special_bonus_attack_range_75:
-    dname: 공격 범위 +75
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_attack_range_75_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Viper
-  special_bonus_armor_20:
-    dname: 방어력 +20
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_armor_20_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Viper
-  special_bonus_unique_viper_2:
-    dname: 바이퍼의 공습 초당 피해 +80
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_viper_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Viper
   luna_lucent_beam:
     dname: 월광선
     affects: '능력: <span class="attribVal">유닛 지정</span><br />효과: <span class="attribVal">적
@@ -5761,36 +3503,6 @@ abilitydata:
       width="16" height="16" border="0" /> 140</div><br clear="left" /></div>
     lore: 셀레메네는 큰 위기가 닥쳤을 때 직접 세상에 내려와 적의 빛과 희망을 봉쇄합니다.
     hurl: Luna
-  special_bonus_unique_luna_1:
-    dname: 월광선 피해 +40
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_luna_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Luna
-  special_bonus_all_stats_15:
-    dname: 모든 능력치 +15
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_all_stats_15_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Terrorblade
-  special_bonus_unique_luna_2:
-    dname: 월광선 쿨다운 -4초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_luna_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Luna
   dragon_knight_breathe_fire:
     dname: 불꽃 숨결
     affects: '능력: <span class="attribVal">유닛 지정, 목표 지점 지정</span><br />효과: <span class="attribVal">적
@@ -5843,7 +3555,7 @@ abilitydata:
       color=\"#9acd32\">1레벨 녹룡</font> - 부식의 숨결: 공격 시 5초 동안 20의 독 피해를 줍니다. 구조물에 작용합니다.\r\n<font
       color=\"#ff0000\">2레벨 적룡</font> - 범위 공격: 300반경 내에 있는 적 유닛을 모두 공격합니다. 해당 대상에게는
       부식의 숨결 효과가 더해집니다. \r\n<font color=\"#87ceeb\">3레벨 청룡</font> - 냉기 숨결: 범위 공격 내
-      대상 유닛에게 3초 동안 공격 속도 20 감소 및 이동 속도 30% 감소 둔화 효과를 줍니다. 해당 대상에게는 부식의 숨결 효과가 더해집니다."
+      대상 유닛에게 3초 동안 공격 속도 30 감소 및 이동 속도 30% 감소 둔화 효과를 줍니다. 해당 대상에게는 부식의 숨결 효과가 더해집니다."
     notes: 부식의 숨결이 주는 독 피해로 적 영웅을 죽일 수 있습니다.<br />범위 공격은 150/225/300의 범위 안에 있는 적들에게
       100/75/50%의 피해를 줍니다. 범위 공격 피해는 건물에 영향을 주지 않습니다.<br />냉기 숨결은 고유 공격 변형 요인과 중첩됩니다.<br
       />만타 도끼의 쿨다운은 사용 시 용기사가 원거리 형상인지 근접 형상인지에 따라 결정됩니다.
@@ -5858,36 +3570,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 115</div><br clear="left" /></div>
     lore: 다비온이 잠재된 용의 능력을 발현하면, 전설적인 기사와 전설적인 장로고룡의 힘이 하나가 됩니다.
-    hurl: Dragon_Knight
-  special_bonus_exp_boost_40:
-    dname: 경험치 획득 +40%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_exp_boost_40_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Tusk
-  special_bonus_movement_speed_75:
-    dname: 이동 속도 +75
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_movement_speed_75_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Dragon_Knight
-  special_bonus_unique_dragon_knight:
-    dname: 용의 혈통으로 체력 재생/방어력 2배
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_dragon_knight_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Dragon_Knight
   dazzle_poison_touch:
     dname: 맹독의 손길
@@ -5916,12 +3598,13 @@ abilitydata:
     affects: '능력: <span class="attribVal">유닛 지정</span><br />효과: <span class="attribVal">아군
       영웅</span><br />주문 면역 관통: <span class="attribVal"><font color="#70EA72">관통</font></span><br
       />'
-    desc: 얕은 무덤의 축복을 받은 아군은 효과가 유지되는 한 결코 죽지 않습니다.
+    desc: "얕은 무덤의 축복을 받은 아군은 효과가 유지되는 한 결코 죽지 않습니다. \r\n\r\n아가님의 홀로 강화 가능"
     notes: 얕은 무덤의 축복을 받은 유닛은 체력이 1 이하로 내려갈 수 없습니다. 단, 도끼전사의 도태의 도끼날에는 죽을 수 있습니다.
     dmg: ''
     attrib: |-
       지속시간: <span class="attribVal">5 / 5 / 5 / 5</span><br />
-      범위: <span class="attribVal">550 / 700 / 850 / 1000</span>
+      범위: <span class="attribVal">550 / 700 / 850 / 1000</span><br />
+      홀 착용 시 반경: <span class="attribVal">450</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 150</div><div class="cooldown"><img alt="쿨다운"
@@ -5955,8 +3638,7 @@ abilitydata:
     dname: 주문 엮기
     affects: '능력: <span class="attribVal">목표 지점 지정</span><br />주문 면역 관통: <span class="attribVal"><font
       color="#70EA72">관통</font></span><br />'
-    desc: "일정 시간에 걸쳐 지정 범위 내에 있는 아군 영웅의 방어력을 증가시키고 적군 영웅의 방어력을 감소시키는 주문을 외웁니다.\r\n\r\n아가님의
-      홀로 강화 가능"
+    desc: 일정 시간에 걸쳐 지정 범위 내에 있는 아군 영웅의 방어력을 증가시키고 적군 영웅의 방어력을 감소시키는 주문을 외웁니다.
     notes: 유닛에게 이로운 효과를 부여하는 주문이므로, 시전한 다음에 범위 안에 들어와도 효과를 받지 않으며, 범위 밖으로 나가도 효과가
       사라지지 않습니다.
     dmg: ''
@@ -5970,46 +3652,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 40</div><br clear="left" /></div>
     lore: 대즐은 에테르 형태로 노슬의 영역을 여행할 때 빛과 어둠의 힘을 엮어 움직이는 마법 물결을 만드는 방법을 깨우쳤습니다.
-    hurl: Dazzle
-  special_bonus_hp_125:
-    dname: 체력 +125
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_hp_125_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Naga_Siren
-  special_bonus_unique_dazzle_3:
-    dname: special_bonus_unique_dazzle_3
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_dazzle_3_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Dazzle
-  special_bonus_unique_dazzle_1:
-    dname: 맹독의 손길 쿨다운 -6초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_dazzle_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Dazzle
-  special_bonus_unique_dazzle_2:
-    dname: 어둠의 물결 치유 +60
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_dazzle_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Dazzle
   rattletrap_battery_assault:
     dname: 동력원 폭발
@@ -6086,46 +3728,6 @@ abilitydata:
       width="16" height="16" border="0" /> 70/55/40</div><br clear="left" /></div>
     lore: 조금 거추장스러운 기구이지만, 갈고리탄은 태엽장이의 투박한 갑옷을 공중으로 날려 보냅니다.
     hurl: Clockwerk
-  special_bonus_armor_4:
-    dname: 방어력 +4
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_armor_4_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Earth_Spirit
-  special_bonus_unique_clockwerk_2:
-    dname: 조명탄 피해 +75
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_clockwerk_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Clockwerk
-  special_bonus_unique_clockwerk_3:
-    dname: special_bonus_unique_clockwerk_3
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_clockwerk_3_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Clockwerk
-  special_bonus_unique_clockwerk:
-    dname: 동력원 폭발 지속시간 +10초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_clockwerk_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Clockwerk
   leshrac_split_earth:
     dname: 대지 부수기
     affects: '능력: <span class="attribVal">목표 지점 지정</span><br />효과: <span class="attribVal">적
@@ -6169,13 +3771,16 @@ abilitydata:
     affects: '능력: <span class="attribVal">유닛 지정</span><br />효과: <span class="attribVal">적
       유닛</span><br />피해 유형: <span class="attribVal">마법</span><br />주문 면역 관통: <span
       class="attribVal">미관통</span><br />'
-    desc: 대상 적 유닛을 번개로 내려치고 인근 적 유닛을 타격하는 번개 폭풍을 불러냅니다. 타격당한 적은 둔화 효과에 걸립니다.
+    desc: "대상 적 유닛을 번개로 내려치고 인근 적 유닛을 타격하는 번개 폭풍을 불러냅니다. 타격당한 적은 둔화 효과에 걸립니다.\r\n\r\n아가님의
+      홀로 강화 가능"
     notes: ''
     dmg: '피해: <span class="attribVal">50 / 100 / 150 / 200</span><br />'
     attrib: |-
       번개 타격 횟수: <span class="attribVal">4 / 6 / 8 / 10</span><br />
       번개 건너뛰기 반경: <span class="attribVal">475</span><br />
-      이동 둔화: <span class="attribVal">75%</span>
+      이동 둔화: <span class="attribVal">75%</span><br />
+      <span class="scepterVal">홀 착용 시 번개 타격 간격:</span> <span class="attribVal">1.75</span><br />
+      <span class="scepterVal">홀 착용 시 반경:</span> <span class="attribVal">750</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 90/100/110/120</div><div class="cooldown"><img
@@ -6188,50 +3793,19 @@ abilitydata:
     affects: '능력: <span class="attribVal">대상 없음, 전환</span><br />효과: <span class="attribVal">적
       유닛</span><br />피해 유형: <span class="attribVal">마법</span><br />주문 면역 관통: <span
       class="attribVal">미관통</span><br />'
-    desc: "레슈락이 인근 적 유닛에게 피해를 주는 에너지 파장을 매초 하나씩 내뿜습니다.\r\n\r\n아가님의 홀로 강화 가능"
+    desc: 레슈락이 인근 적 유닛에게 피해를 주는 에너지 파장을 매초 하나씩 내뿜습니다.
     notes: ''
     dmg: ''
     attrib: |-
       초당 마나 소모: <span class="attribVal">20 / 40 / 60</span><br />
       반경: <span class="attribVal">450</span><br />
-      피해: <span class="attribVal">100 / 130 / 160</span><br />
-      <span class="scepterVal">홀 피해:</span> <span class="attribVal">160 / 190 / 220</span>
+      피해: <span class="attribVal">100 / 130 / 160</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 70/90/110</div><div class="cooldown"><img
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 1</div><br clear="left" /></div>
     lore: 고통받는 영혼 레슈락은 유사시 시공간 자체를 조작하여 열등한 존재를 유린할 수 있습니다.
-    hurl: Leshrac
-  special_bonus_mp_400:
-    dname: 마나 +400
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_mp_400_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Leshrac
-  special_bonus_unique_leshrac_1:
-    dname: 마성의 칙령 폭발 +50
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_leshrac_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Leshrac
-  special_bonus_unique_leshrac_2:
-    dname: 번개 폭풍 둔화 지속시간 +3초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_leshrac_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Leshrac
   furion_sprout:
     dname: 발아
@@ -6305,46 +3879,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 90/75/60</div><br clear="left" /></div>
     lore: 자연의 예언자는 자연을 해치려는 자에게 베로디시아의 분노를 선사합니다.
-    hurl: Natures_Prophet
-  special_bonus_unique_furion_2:
-    dname: 소환하는 나무정령 +4
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_furion_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Natures_Prophet
-  special_bonus_armor_10:
-    dname: 방어력 +10
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_armor_10_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Phoenix
-  special_bonus_unique_furion_3:
-    dname: special_bonus_unique_furion_3
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_furion_3_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Natures_Prophet
-  special_bonus_unique_furion:
-    dname: 나무정령 체력/피해  2배
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_furion_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Natures_Prophet
   life_stealer_rage:
     dname: 격노
@@ -6468,16 +4002,6 @@ abilitydata:
     cmb: ''
     lore: ''
     hurl: Lifestealer
-  special_bonus_unique_lifestealer:
-    dname: 격노 지속시간 +1초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_lifestealer_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Lifestealer
   dark_seer_vacuum:
     dname: 진공
     affects: '능력: <span class="attribVal">목표 지점 지정</span><br />피해 유형: <span class="attribVal">마법</span><br
@@ -6537,7 +4061,7 @@ abilitydata:
       />주문 면역 관통: <span class="attribVal">미관통</span><br />'
     desc: "뒤틀린 빛의 벽을 세워 벽을 통과하는 적을 둔화하고 통과한 적 영웅의 형체를 복제합니다. 복제된 적은 어둠 현자의 명령을 따릅니다.
       복제 유닛은 파괴되거나 복제의 벽이 사라지기 전까지 유지됩니다.\r\n\r\n아가님의 홀로 강화 가능"
-    notes: 복제 미포 또는 환영은 복제하지 않습니다.<br />어둠 현자와 대상 사이에 1,000 유닛 길이의 벽을 가로로 배치합니다.
+    notes: 환영은 복제하지 않습니다.<br />어둠 현자와 대상 사이에 1,000 유닛 길이의 벽을 가로로 배치합니다.
     dmg: ''
     attrib: |-
       벽 지속시간: <span class="attribVal">45</span><br />
@@ -6552,46 +4076,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 100</div><br clear="left" /></div>
     lore: 어둠 현자는 자기의 원래 세계로 돌아가지는 못하지만 강력한 정신력으로 밝고 선명한 벽 일부를 불러와 적을 혼돈에 빠뜨릴 수 있습니다.
-    hurl: Dark_Seer
-  special_bonus_hp_regen_14:
-    dname: 체력 재생 +14
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_hp_regen_14_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Timbersaw
-  special_bonus_unique_dark_seer_2:
-    dname: 진공 효과 범위 +75
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_dark_seer_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Dark_Seer
-  special_bonus_strength_25:
-    dname: 힘 +25
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_strength_25_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Monkey_King
-  special_bonus_unique_dark_seer:
-    dname: 이온막 피해 +80
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_dark_seer_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Dark_Seer
   clinkz_strafe:
     dname: 다발 사격
@@ -6633,7 +4117,7 @@ abilitydata:
     dmg: ''
     attrib: |-
       지속시간: <span class="attribVal">20 / 25 / 30 / 35</span><br />
-      보너스 이동 속도: <span class="attribVal">11% / 22% / 33% / 44%</span>
+      보너스 이동 속도: <span class="attribVal">15% / 25% / 35% / 45%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 75/75/75/75</div><div class="cooldown"><img
@@ -6651,8 +4135,8 @@ abilitydata:
     dmg: ''
     attrib: |-
       지속시간: <span class="attribVal">65</span><br />
-      체력 획득: <span class="attribVal">50% / 65% / 80%</span><br />
-      피해 증가: <span class="attribVal">5% / 6.5% / 8%</span>
+      체력 획득: <span class="attribVal">50% / 70% / 90%</span><br />
+      피해 증가: <span class="attribVal">5% / 7% / 9%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 100/100/100</div><div class="cooldown"><img
@@ -6660,36 +4144,6 @@ abilitydata:
       width="16" height="16" border="0" /> 85</div><br clear="left" /></div>
     lore: 삶과 죽음을 아우르는 수더렉스의 굴레는 클링츠의 일부분이 되었습니다. 클링츠의 오래된 뼈는 열등한 존재와 서약을 되풀이해 맺으면서
       새로워집니다.
-    hurl: Clinkz
-  special_bonus_unique_clinkz_1:
-    dname: 불타는 화살 피해 +30
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_clinkz_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Clinkz
-  special_bonus_attack_range_125:
-    dname: 공격 범위 +125
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_attack_range_125_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Clinkz
-  special_bonus_unique_clinkz_2:
-    dname: 다발 사격 공격 속도 +70
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_clinkz_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Clinkz
   omniknight_purification:
     dname: 정화
@@ -6752,53 +4206,13 @@ abilitydata:
       width="16" height="16" border="0" /> 160</div><br clear="left" /></div>
     lore: 모든 것을 보는 자가 퓨리스트의 친구들 위로 보호의 날개를 펼칩니다.
     hurl: Omniknight
-  special_bonus_gold_income_10:
-    dname: 분당 골드 +60
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_gold_income_10_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Oracle
-  special_bonus_attack_damage_100:
-    dname: 피해 +100
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_100_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Omniknight
-  special_bonus_unique_omniknight_1:
-    dname: 정화 피해/치유 +200
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_omniknight_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Omniknight
-  special_bonus_unique_omniknight_2:
-    dname: 약화의 오라 -16%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_omniknight_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Omniknight
   enchantress_untouchable:
     dname: 불가촉
     affects: '능력: <span class="attribVal">지속 효과</span><br />주문 면역 관통: <span class="attribVal">미관통</span><br
       />'
     desc: 요술사가 적을 현혹하여 공격자들의 공격 속도를 늦춥니다.
-    notes: 요술사에게 주문을 시전하거나 직접 공격을 시도하는 유닛은 모두 둔화 효과를 받습니다.<br />공격 유닛에게 둔화 효과가 적용되는
-      시점은 피해를 주는 시점이 아니라 공격을 시작한 시점입니다.
+    notes: 요술사에게 직접 공격을 시도하는 유닛은 모두 둔화 효과를 받습니다.<br />공격 유닛에게 둔화 효과가 적용되는 시점은 피해를
+      주는 시점이 아니라 공격을 시작한 시점입니다.
     dmg: ''
     attrib: '공격 둔화: <span class="attribVal">40 / 70 / 100 / 130</span>'
     cmb: ''
@@ -6858,46 +4272,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 0</div><br clear="left" /></div>
     lore: 아이우시타는 평화적 수단을 좋아하지만 주위 자연 생명체의 힘을 창에 끌어모아 먼 거리에서 마법 공격을 맹렬히 퍼부을 수 있습니다.
-    hurl: Enchantress
-  special_bonus_unique_enchantress_2:
-    dname: 자연의 조력자 위습 +8
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_enchantress_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Enchantress
-  special_bonus_unique_enchantress_3:
-    dname: 불가촉 둔화 +60
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_enchantress_3_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Enchantress
-  special_bonus_unique_enchantress_4:
-    dname: special_bonus_unique_enchantress_4
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_enchantress_4_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Enchantress
-  special_bonus_unique_enchantress_1:
-    dname: 매혹이 고대 크립에게 적용
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_enchantress_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Enchantress
   huskar_inner_vitality:
     dname: 내면의 활력
@@ -6973,26 +4347,6 @@ abilitydata:
       width="16" height="16" border="0" /> 12</div><br clear="left" /></div>
     lore: 허스카는 아무리 위험한 상황이라도 마다치 않고 근접전을 펼치고는 홀로 살아남습니다.
     hurl: Huskar
-  special_bonus_unique_huskar_2:
-    dname: 불타는 창 초당 피해 +5
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_huskar_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Huskar
-  special_bonus_unique_huskar:
-    dname: 일격필살 시전 범위 +500
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_huskar_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Huskar
   night_stalker_void:
     dname: 공허
     affects: '능력: <span class="attribVal">유닛 지정</span><br />효과: <span class="attribVal">적
@@ -7036,7 +4390,7 @@ abilitydata:
   night_stalker_hunter_in_the_night:
     dname: 밤의 사냥꾼
     affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: 밤의 추격자는 밤에 본질을 둔 존재로, 밤이 되면 공격과 이동이 매우 민첩해집니다.
+    desc: 밤의 추격자는 밤에 본질을 둔 존재로, 밤이 되면 공격과 이동이 매우 민첩해집니다. 밤에 활성화하면 2초 동안 비행 상태로 움직입니다.
     notes: ''
     dmg: ''
     attrib: |-
@@ -7066,36 +4420,6 @@ abilitydata:
       width="16" height="16" border="0" /> 160/120/80</div><br clear="left" /></div>
     lore: 최강의 전사들마저 어둠을 두려워하는 모습은 초라하기 짝이 없습니다.
     hurl: Night_Stalker
-  special_bonus_strength_7:
-    dname: 힘 +7
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_strength_7_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Winter_Wyvern
-  special_bonus_mp_300:
-    dname: 마나 +300
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_mp_300_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Night_Stalker
-  special_bonus_unique_night_stalker:
-    dname: 끔찍한 위협 쿨다운 -8초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_night_stalker_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Night_Stalker
   broodmother_spawn_spiderlings:
     dname: 새끼거미 소환
     affects: '능력: <span class="attribVal">유닛 지정</span><br />효과: <span class="attribVal">적
@@ -7120,10 +4444,10 @@ abilitydata:
     dname: 거미줄 치기
     affects: '능력: <span class="attribVal">목표 지점 지정</span><br />'
     desc: 거미여왕이 거대한 거미줄을 칩니다. 거미여왕은 거미줄 안에 있는 동안 투명해지고, 이동 속도가 증가하며, 지형에 제약받지 않고 이동할
-      수 있습니다. 또한 거미줄 주변에서는 체력 재생이 증가합니다. %dcharge_restore_time%초마다 거미줄 치기 효과가 1개 충전됩니다.
-      거미여왕이 피해를 받으면 6초 동안 이동 제약 무시 효과가 사라지고 6초 동안 이동 속도 증가 효과가 절반으로 감소합니다. 새로운 거미줄이
-      기존 거미줄과 이어지기만 한다면 어디든 거미줄을 칠 수 있습니다. 거미줄은 시간이 지나도 사라지지 않지만 거미여왕이 직접 제거할 수 있습니다.
-      최대 거미줄 개수를 초과하면 가장 오래된 거미줄이 사라집니다.
+      수 있습니다. 또한 거미줄 주변에서는 체력 재생이 증가합니다. 40초마다 거미줄 치기 효과가 1개 충전됩니다. 거미여왕이 피해를 받으면
+      6초 동안 이동 제약 무시 효과가 사라지고 6초 동안 이동 속도 증가 효과가 절반으로 감소합니다. 새로운 거미줄이 기존 거미줄과 이어지기만
+      한다면 어디든 거미줄을 칠 수 있습니다. 거미줄은 시간이 지나도 사라지지 않지만 거미여왕이 직접 제거할 수 있습니다. 최대 거미줄 개수를
+      초과하면 가장 오래된 거미줄이 사라집니다.
     notes: 2초 후에 투명 상태로 진입합니다.<br />새끼거미와 약한 새끼거미도 투명화 효과를 받습니다.<br />자유로운 이동이 막혀
       있을 경우 주위 나무를 파괴합니다.
     dmg: ''
@@ -7168,56 +4492,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 45</div><br clear="left" /></div>
     lore: 거미여왕은 사냥한 먹이 대부분을 새끼들이 먹게 새하얀 고치로 싸 두고 자신은 돌아다니는 영웅의 살코기를 즐깁니다.
-    hurl: Broodmother
-  special_bonus_unique_broodmother_3:
-    dname: 새끼거미 소환 피해 +60
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_broodmother_3_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Broodmother
-  special_bonus_unique_broodmother_4:
-    dname: 소환 거미 공격력 +12
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_broodmother_4_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Broodmother
-  special_bonus_attack_speed_70:
-    dname: 공격 속도 +70
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_attack_speed_70_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Broodmother
-  special_bonus_unique_broodmother_1:
-    dname: 최대 거미줄 +8
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_broodmother_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Broodmother
-  special_bonus_unique_broodmother_2:
-    dname: 거미 체력 +225
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_broodmother_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Broodmother
   bounty_hunter_shuriken_toss:
     dname: 수리검 투척
@@ -7299,36 +4573,6 @@ abilitydata:
       width="16" height="16" border="0" /> 4</div><br clear="left" /></div>
     lore: 곤다르는 고도로 발달한 시각과 후각을 활용하여 공격의 성공률을 크게 높입니다.
     hurl: Bounty_Hunter
-  special_bonus_unique_bounty_hunter_2:
-    dname: 수리검 투척 피해 +75
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_bounty_hunter_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Bounty_Hunter
-  special_bonus_evasion_25:
-    dname: 회피 25%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_evasion_25_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Bounty_Hunter
-  special_bonus_unique_bounty_hunter:
-    dname: 지나다 쿨다운 -5초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_bounty_hunter_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Bounty_Hunter
   weaver_the_swarm:
     dname: 벌레 무리
     affects: '능력: <span class="attribVal">목표 지점 지정</span><br />피해 유형: <span class="attribVal"><font
@@ -7403,43 +4647,13 @@ abilitydata:
       width="16" height="16" border="0" /> 60/50/40</div><br clear="left" /></div>
     lore: 스킷스쿠르는 세상의 현재 상황이 자신이 바라는 대로 흘러가지 않는다는 생각이 들면 그저 시간을 거슬러 올라가 잘못된 것을 바로잡습니다.
     hurl: Weaver
-  special_bonus_unique_weaver_1:
-    dname: 축지술 피해 +30
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_weaver_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Weaver
-  special_bonus_all_stats_7:
-    dname: 모든 능력치 +7
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_all_stats_7_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Invoker
-  special_bonus_unique_weaver_2:
-    dname: 축지술 이동 속도 +200
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_weaver_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Weaver
   jakiro_dual_breath:
     dname: 이중 숨결
     affects: '능력: <span class="attribVal">유닛 지정, 목표 지점 지정</span><br />효과: <span class="attribVal">적
       유닛</span><br />피해 유형: <span class="attribVal">마법</span><br />주문 면역 관통: <span
       class="attribVal">미관통</span><br />'
     desc: 자키로가 정면을 향해 얼음과 불의 숨결을 차례로 내뿜습니다. 얼음에 닿은 적은 둔화에 걸리며 불에 닿은 적은 지속적인 피해를 받습니다.
-    notes: 최대 1000범위에 있는 유닛을 공격합니다.<br />얼음 숨결을 뿜어내고 0.3초 후 불의 숨결을 뿜어냅니다.
+    notes: 최대 1,025범위에 있는 유닛을 공격합니다.<br />얼음 숨결을 뿜어내고 0.3초 후 불의 숨결을 뿜어냅니다.
     dmg: ''
     attrib: |-
       시작 반경: <span class="attribVal">225</span><br />
@@ -7516,46 +4730,6 @@ abilitydata:
       width="16" height="16" border="0" /> 60</div><br clear="left" /></div>
     lore: 얼음과 불이 결합하여 극도의 저온과 고온으로 전장을 초토화합니다.
     hurl: Jakiro
-  special_bonus_unique_jakiro_2:
-    dname: 이중 숨결 화상 피해 +35
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_jakiro_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Jakiro
-  special_bonus_attack_range_400:
-    dname: 공격 범위 +400
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_attack_range_400_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Jakiro
-  special_bonus_unique_jakiro_3:
-    dname: special_bonus_unique_jakiro_3
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_jakiro_3_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Jakiro
-  special_bonus_unique_jakiro:
-    dname: 얼음 길 지속시간 +1.25초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_jakiro_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Jakiro
   batrider_sticky_napalm:
     dname: 끈적이는 네이팜
     affects: '능력: <span class="attribVal">목표 지점 지정</span><br />주문 면역 관통: <span class="attribVal">미관통</span><br
@@ -7563,7 +4737,7 @@ abilitydata:
     desc: 끈적이는 기름으로 대상 지역을 적셔 박쥐기수의 공격과 능력으로 주는 피해를 증가시키며 적들의 이동 속도 및 방향 전환 속도를 감소시킵니다.
       끈적이는 네이팜을 반복적으로 사용하여 피해를 더욱 증가시킬 수 있습니다. 최대 10회까지 중첩됩니다. 비영웅 유닛에게는 추가 피해가 절반만
       적용됩니다.
-    notes: 박쥐기수가 가하는 모든 피해가 증폭됩니다. 단, 신광검과 독사의 구슬로 인한 피해는 예외입니다.
+    notes: 박쥐기수가 가하는 모든 피해가 증폭됩니다. 단, 신광검과 독사의 구슬, 혼의 항아리로 인한 피해는 예외입니다.
     dmg: ''
     attrib: |-
       반경: <span class="attribVal">375 / 375 / 375 / 375</span><br />
@@ -7634,26 +4808,6 @@ abilitydata:
       title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 90/75/60</div><br clear="left" /></div>
     lore: 박쥐기수가 그냥 태워준다고는 하지만 감히 먼저 태워 달라고 말하는 사람은 없습니다.
-    hurl: Batrider
-  special_bonus_unique_batrider_1:
-    dname: 불꽃 질주 지속시간 +8초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_batrider_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Batrider
-  special_bonus_unique_batrider_2:
-    dname: 화염 폭탄 효과 범위/밀치기 +300
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_batrider_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Batrider
   chen_penitence:
     dname: 참회
@@ -7739,46 +4893,6 @@ abilitydata:
       width="16" height="16" border="0" /> 160/140/120</div><br clear="left" /></div>
     lore: 첸은 자신에게 예속된 생명체와의 정신 연결을 이용하여 열렬한 믿음을 함께 나누는 자에게 치유와 안식을 내려줍니다.
     hurl: Chen
-  special_bonus_unique_chen_3:
-    dname: 신념의 시험 쿨다운 -10초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_chen_3_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Chen
-  special_bonus_unique_chen_4:
-    dname: special_bonus_unique_chen_4
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_chen_4_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Chen
-  special_bonus_unique_chen_1:
-    dname: 성스러운 설득 최대 수 +2
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_chen_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Chen
-  special_bonus_unique_chen_2:
-    dname: 신의 손길 치유 +200
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_chen_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Chen
   spectre_spectral_dagger:
     dname: 악령의 단검
     affects: '능력: <span class="attribVal">유닛 지정, 목표 지점 지정</span><br />효과: <span class="attribVal">적
@@ -7859,16 +4973,6 @@ abilitydata:
       width="16" height="16" border="0" /> 180/150/120</div><br clear="left" /></div>
     lore: 전투가 최고조에 다다르면 머큐리얼의 물리적 현신은 사방으로 흩어지며, 어슴푸레한 조각들이 살아남으려는 자를 괴롭힙니다.
     hurl: Spectre
-  special_bonus_unique_spectre:
-    dname: 악령의 단검 쿨다운 -10초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_spectre_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Spectre
   doom_bringer_devour:
     dname: 삼키기
     affects: '능력: <span class="attribVal">유닛 지정</span><br />'
@@ -7910,14 +5014,14 @@ abilitydata:
     affects: '능력: <span class="attribVal">자동 시전, 유닛 지정</span><br />효과: <span class="attribVal">적
       유닛</span><br />피해 유형: <span class="attribVal">마법</span><br />주문 면역 관통: <span
       class="attribVal">미관통</span><br />'
-    desc: 파멸의 사도가 불타는 검을 휘둘러 적에게 불을 붙입니다. 적은 0.4초 동안 기절하고 4초 동안 화상을 입어 초당 25 + 최대
+    desc: 파멸의 사도가 불타는 검을 휘둘러 적에게 불을 붙입니다. 적은 0.6초 동안 기절하고 4초 동안 화상을 입어 초당 25 + 최대
       체력의 %burn_damage_pct%%를 피해로 받습니다.
     notes: 정신 집중을 방해합니다.
     dmg: ''
     attrib: |-
       기본 화상 피해: <span class="attribVal">25 / 30 / 35 / 40</span><br />
       화상 지속시간: <span class="attribVal">4</span><br />
-      기절 지속시간: <span class="attribVal">0.4</span>
+      기절 지속시간: <span class="attribVal">0.6</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 40</div><div class="cooldown"><img alt="쿨다운"
@@ -7946,66 +5050,6 @@ abilitydata:
       width="16" height="16" border="0" /> 145</div><br clear="left" /></div>
     lore: 바슌돌의 종이 누군가를 부르면 반드시 파멸이 찾아옵니다.
     hurl: Doom
-  special_bonus_unique_doom_3:
-    dname: 삼키기 보너스 골드 +80
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_doom_3_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Doom
-  special_bonus_unique_doom_4:
-    dname: 불타는 대지 피해/치유 +15
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_doom_4_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Doom
-  special_bonus_unique_doom_5:
-    dname: 파멸 초당 피해 +40
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_doom_5_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Doom
-  special_bonus_unique_doom_2:
-    dname: 고대 유닛을 대상으로 삼키기 가능
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_doom_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Doom
-  special_bonus_unique_doom_1:
-    dname: 불지옥 검 피해 +2%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_doom_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Doom
-  special_bonus_hp_regen_40:
-    dname: 체력 재생 +40
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_hp_regen_40_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Doom
   ancient_apparition_cold_feet:
     dname: 발 얼리기
     affects: '능력: <span class="attribVal">유닛 지정</span><br />효과: <span class="attribVal">적
@@ -8013,12 +5057,12 @@ abilitydata:
       class="attribVal">미관통</span><br />'
     desc: 얼음의 마법으로 적의 발을 얼려 지속적인 피해를 줍니다. 대상이 최초 시전 지점에서 멀리 벗어나면 효과를 해제할 수 있습니다. 대상이
       4초 동안 효과 범위 바깥으로 나가지 않으면 그 자리에서 기절하고 얼어붙습니다.
-    notes: '최대 피해: 120/200/280/360<br />0.8초마다 피해를 줍니다.'
+    notes: '최대 피해: 120/200/280/360<br />1초마다 피해를 줍니다.'
     dmg: ''
     attrib: |-
       적용 1회당 피해: <span class="attribVal">30 / 50 / 70 / 90</span><br />
       단절 거리: <span class="attribVal">740 / 740 / 740 / 740</span><br />
-      기절 지속시간: <span class="attribVal">1.25 / 2 / 2.75 / 3.5</span><br />
+      기절 지속시간: <span class="attribVal">2 / 2.5 / 3 / 3.5</span><br />
       시전 범위: <span class="attribVal">700 / 800 / 900 / 1000</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -8103,56 +5147,6 @@ abilitydata:
       width="16" height="16" border="0" /> 1</div><br clear="left" /></div>
     lore: ''
     hurl: Ancient_Apparition
-  special_bonus_unique_ancient_apparition_3:
-    dname: 얼음 소용돌이 쿨다운 -1초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_ancient_apparition_3_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Ancient_Apparition
-  special_bonus_hp_regen_30:
-    dname: 체력 재생 +30
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_hp_regen_30_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Bristleback
-  special_bonus_unique_ancient_apparition_4:
-    dname: special_bonus_unique_ancient_apparition_4
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_ancient_apparition_4_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Ancient_Apparition
-  special_bonus_unique_ancient_apparition_1:
-    dname: 발 얼리기 4회 충전
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_ancient_apparition_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Ancient_Apparition
-  special_bonus_unique_ancient_apparition_2:
-    dname: 오한의 손길 피해 +100
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_ancient_apparition_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Ancient_Apparition
   ursa_earthshock:
     dname: 대지 충격
     affects: '능력: <span class="attribVal">대상 없음</span><br />피해 유형: <span class="attribVal">마법</span><br
@@ -8221,26 +5215,6 @@ abilitydata:
       title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 50/40/30</div><br clear="left" /></div>
     lore: "자신의 고대 영혼에 몸을 내맡긴 울프사르는 전장에서 가장 흉포한 짐승으로 변모합니다.\r\n\r\n해제 유형: 강한 해제"
-    hurl: Ursa
-  special_bonus_all_stats_14:
-    dname: 모든 능력치 +14
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_all_stats_14_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Ursa
-  special_bonus_unique_ursa:
-    dname: 분노의 발톱 피해 +10
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_ursa_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Ursa
   spirit_breaker_charge_of_darkness:
     dname: 어둠의 돌진
@@ -8319,36 +5293,6 @@ abilitydata:
       width="16" height="16" border="0" /> 80/70/60</div><br clear="left" /></div>
     lore: 바라스룸이 잠시 자신이 왔던 세계로 돌아갔다가 다시 나타나면서 두 세계의 징벌을 내립니다.
     hurl: Spirit_Breaker
-  special_bonus_unique_spirit_breaker_3:
-    dname: special_bonus_unique_spirit_breaker_3
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_spirit_breaker_3_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Spirit_Breaker
-  special_bonus_unique_spirit_breaker_1:
-    dname: 혼신의 강타 확률 +17%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_spirit_breaker_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Spirit_Breaker
-  special_bonus_unique_spirit_breaker_2:
-    dname: 돌진 속도 +500
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_spirit_breaker_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Spirit_Breaker
   gyrocopter_rocket_barrage:
     dname: 로켓 폭격
     affects: '능력: <span class="attribVal">대상 없음</span><br />피해 유형: <span class="attribVal">마법</span><br
@@ -8379,7 +5323,7 @@ abilitydata:
     attrib: |-
       격추에 필요한 타격 횟수: <span class="attribVal">3 / 3 / 4 / 5</span><br />
       격추에 필요한 포탑 타격 횟수: <span class="attribVal">6 / 6 / 8 / 10</span><br />
-      기절 지속시간: <span class="attribVal">2.2 / 2.4 / 2.6 / 2.8</span><br />
+      기절 지속시간: <span class="attribVal">2.25 / 2.5 / 2.75 / 3</span><br />
       최소 피해: <span class="attribVal">50</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -8397,7 +5341,7 @@ abilitydata:
       또는 지정된 공격 횟수를 모두 사용할 때까지 지속됩니다.
     notes: 자이로콥터의 주 공격 범위가 그대로 적용됩니다.
     dmg: ''
-    attrib: '반경: <span class="attribVal">1000</span>'
+    attrib: '반경: <span class="attribVal">1250</span>'
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 50/50/50/50</div><div class="cooldown"><img
@@ -8426,26 +5370,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 55/50/45</div><br clear="left" /></div>
     lore: 폭탄 투척!
-    hurl: Gyrocopter
-  special_bonus_unique_gyrocopter_1:
-    dname: 유도탄 충전 수 3
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_gyrocopter_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Gyrocopter
-  special_bonus_unique_gyrocopter_2:
-    dname: 대공포 공격 +4
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_gyrocopter_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Gyrocopter
   alchemist_acid_spray:
     dname: 산성 스프레이
@@ -8530,26 +5454,6 @@ abilitydata:
     affects: '능력: <span class="attribVal">유닛 지정</span><br />효과: <span class="attribVal">적
       영웅</span><br />주문 면역 관통: <span class="attribVal">미관통</span><br />'
     desc: 폭발하기 전에 던지세요!
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Alchemist
-  special_bonus_unique_alchemist_2:
-    dname: 불안정한 혼합물 피해 +80
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_alchemist_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Alchemist
-  special_bonus_unique_alchemist:
-    dname: 산성 스프레이 방어력 -5
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_alchemist_Description
     notes: ''
     dmg: ''
     attrib: ''
@@ -8798,26 +5702,6 @@ abilitydata:
       width="16" height="16" border="0" /> 40</div><br clear="left" /></div>
     lore: 불루폰트의 음향 공격 주문입니다.
     hurl: Invoker
-  special_bonus_unique_invoker_1:
-    dname: 달구어진 영혼 소환 +1
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_invoker_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Invoker
-  special_bonus_unique_invoker_2:
-    dname: 굉음 폭발 범위 적용
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_invoker_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Invoker
   silencer_curse_of_the_silent:
     dname: 신비의 저주
     affects: '능력: <span class="attribVal">목표 지점 지정</span><br />피해 유형: <span class="attribVal">마법</span><br
@@ -8844,7 +5728,7 @@ abilitydata:
     affects: '능력: <span class="attribVal">자동 시전, 유닛 지정</span><br />효과: <span class="attribVal">적
       유닛</span><br />피해 유형: <span class="attribVal"><font color="#d61107">순수</font></span><br
       />주문 면역 관통: <span class="attribVal">미관통</span><br />'
-    desc: 침묵술사가 무기에 자신의 지혜를 부여하여 지능에 비례하는 추가 피해를 줍니다.
+    desc: "침묵술사가 무기에 자신의 지혜를 부여하여 지능에 비례하는 추가 피해를 줍니다.\r\n\r\n아가님의 홀로 강화 가능"
     notes: ''
     dmg: ''
     attrib: '지능 대비 공격력: <span class="attribVal">35% / 50% / 65% / 80%</span>'
@@ -8876,7 +5760,7 @@ abilitydata:
     dname: 광역 침묵
     affects: '능력: <span class="attribVal">대상 없음</span><br />주문 면역 관통: <span class="attribVal"><font
       color="#70EA72">관통</font></span><br />'
-    desc: "침묵술사가 모든 소리를 막아 지도상의 모든 적 영웅과 유닛이 주문을 외지 못하게 합니다.\r\n\r\n아가님의 홀로 강화 가능"
+    desc: 침묵술사가 모든 소리를 막아 지도상의 모든 적 영웅과 유닛이 주문을 외지 못하게 합니다.
     notes: 광역 침묵은 주문 면역과 투명 유닛에게도 적용됩니다. 그러나 침묵에 걸린 후 주문 면역을 사용하면 그 유닛에게 부여된 침묵 효과는
       정화됩니다.
     dmg: ''
@@ -8887,36 +5771,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 130</div><br clear="left" /></div>
     lore: 노르트롬이 땅에 충격을 주어 모든 마법과 소리를 정지시킴으로써 예언을 이룹니다.
-    hurl: Silencer
-  special_bonus_intelligence_7:
-    dname: 지능 +7
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_intelligence_7_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Skywrath_Mage
-  special_bonus_attack_range_200:
-    dname: 공격 범위 +200
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_attack_range_200_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Silencer
-  special_bonus_unique_silencer:
-    dname: 저주 둔화 +25%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_silencer_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Silencer
   obsidian_destroyer_arcane_orb:
     dname: 비전 구체
@@ -8941,15 +5795,17 @@ abilitydata:
     dname: 이계 감옥
     affects: '능력: <span class="attribVal">유닛 지정</span><br />피해 유형: <span class="attribVal">마법</span><br
       />주문 면역 관통: <span class="attribVal">미관통</span><br />'
-    desc: 대상 유닛을 이계의 감옥에 가둡니다. 갇힌 유닛은 무적인 동시에 무력화 상태가 됩니다. 이계 감옥이 폭발하면, 대상 주위 400반경에
-      있는 적에게 100의 피해를 줍니다.
+    desc: "대상 유닛을 이계의 감옥에 가둡니다. 갇힌 유닛은 무적인 동시에 무력화 상태가 됩니다. 이계 감옥이 폭발하면, 대상 주위 400반경에
+      있는 적에게 100의 피해를 줍니다.\r\n\r\n아가님의 홀로 강화 가능"
     notes: 갇힌 유닛은 숨겨지며 무적 상태가 됩니다.<br />갇힌 유닛도 이성 붕괴의 효과를 받습니다.
     dmg: ''
     attrib: |-
       감옥 지속시간: <span class="attribVal">4</span><br />
       반경: <span class="attribVal">400</span><br />
       피해: <span class="attribVal">100 / 175 / 250 / 325</span><br />
-      시전 범위: <span class="attribVal">225 / 300 / 375 / 450</span>
+      시전 범위: <span class="attribVal">225 / 300 / 375 / 450</span><br />
+      <span class="scepterVal">홀 착용 시 최대 충전 수:</span> <span class="attribVal">2</span><br />
+      <span class="scepterVal">홀 착용 시 충전 회복 시간:</span> <span class="attribVal">12</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 120/140/160/180</div><div class="cooldown"><img
@@ -8977,9 +5833,9 @@ abilitydata:
     dname: 이성 붕괴
     affects: '능력: <span class="attribVal">목표 지점 지정</span><br />피해 유형: <span class="attribVal">마법</span><br
       />주문 면역 관통: <span class="attribVal">미관통</span><br />'
-    desc: "정신적 폭발을 일으켜 영향받은 적 영웅의 마나를 40%만큼 소진시키고 외계 침략자와 영향받은 적 영웅의 지능 차이에 비례하는 피해를
+    desc: 정신적 폭발을 일으켜 영향받은 적 영웅의 마나를 40%만큼 소진시키고 외계 침략자와 영향받은 적 영웅의 지능 차이에 비례하는 피해를
       줍니다. 만약 적 영웅이 외계 침략자와 동등하거나 더 높은 지능을 보유한 경우 이성 붕괴의 피해를 받지 않습니다. 이성 붕괴는 이계 감옥에
-      갇힌 적을 공격합니다.\r\n\r\n아가님의 홀로 강화 가능"
+      갇힌 적을 공격합니다.
     notes: ''
     dmg: ''
     attrib: |-
@@ -8992,36 +5848,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 160</div><br clear="left" /></div>
     lore: 외계의 수정은 분열할 때 가공할 만한 에너지를 분출하며, 그 에너지의 반향은 다른 차원에까지 전해집니다.
-    hurl: Outworld_Devourer
-  special_bonus_movement_speed_10:
-    dname: 이동 속도 +10
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_movement_speed_10_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Shadow_Demon
-  special_bonus_intelligence_15:
-    dname: 지능 +15
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_intelligence_15_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Rubick
-  special_bonus_unique_outworld_devourer:
-    dname: 비전 구체 지능 훔치기 지속시간 +60초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_outworld_devourer_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Outworld_Devourer
   lycan_summon_wolves:
     dname: 늑대 소환
@@ -9094,36 +5920,6 @@ abilitydata:
       width="16" height="16" border="0" /> 120/90/60</div><br clear="left" /></div>
     lore: 늑대인간으로 변하는 마법에 영원히 묶인 베인할로우는 자신에게 내려진 저주와 야만성을 받아들였습니다.
     hurl: Lycan
-  special_bonus_unique_lycan_3:
-    dname: special_bonus_unique_lycan_3
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_lycan_3_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Lycan
-  special_bonus_unique_lycan_1:
-    dname: 변신 지속시간 +15초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_lycan_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Lycan
-  special_bonus_unique_lycan_2:
-    dname: 늑대 소환 +2
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_lycan_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Lycan
   brewmaster_thunder_clap:
     dname: 천둥벽력
     affects: '능력: <span class="attribVal">대상 없음</span><br />피해 유형: <span class="attribVal">마법</span><br
@@ -9195,36 +5991,6 @@ abilitydata:
       width="16" height="16" border="0" /> 140/120/100</div><br clear="left" /></div>
     lore: 망긱스는 항상 잔뜩 취한 채로 대자연과 결합하기에, 자신이 결합했다는 사실을 아는지조차 확실하지 않습니다.
     hurl: Brewmaster
-  special_bonus_unique_brewmaster_2:
-    dname: 천둥벽력 피해 +75
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_brewmaster_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Brewmaster
-  special_bonus_unique_brewmaster_3:
-    dname: special_bonus_unique_brewmaster_3
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_brewmaster_3_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Brewmaster
-  special_bonus_unique_brewmaster:
-    dname: 원시의 분리 유닛 체력 +2000
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_brewmaster_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Brewmaster
   shadow_demon_disruption:
     dname: 분열
     affects: '능력: <span class="attribVal">유닛 지정</span><br />주문 면역 관통: <span class="attribVal">미관통</span><br
@@ -9250,7 +6016,8 @@ abilitydata:
     affects: '능력: <span class="attribVal">목표 지점 지정</span><br />피해 유형: <span class="attribVal"><font
       color="#d61107">순수</font></span><br />주문 면역 관통: <span class="attribVal">미관통</span><br
       />'
-    desc: 범위 내 무작위 적이 받는 피해를 증가시킵니다. 분열에 걸린 유닛에게도 같은 효과를 줍니다.
+    desc: 범위 내 적이 주문 증폭 효과를  받습니다. 증폭은 해당 지역의 모든 적에게 똑같이 적용됩니다. 분열에 걸린 유닛에게도 같은 효과를
+      줍니다.
     notes: ''
     dmg: ''
     attrib: |-
@@ -9316,36 +6083,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 50</div><br clear="left" /></div>
     lore: 그림자 악마는 거두어들인 추종자가 쓸모가 없어지면 지배를 푸는 동시에 육체에서 해방시켜 버립니다.
-    hurl: Shadow_Demon
-  special_bonus_unique_shadow_demon_3:
-    dname: special_bonus_unique_shadow_demon_3
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_shadow_demon_3_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Shadow_Demon
-  special_bonus_unique_shadow_demon_1:
-    dname: 악마의 정화 피해 +400
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_shadow_demon_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Shadow_Demon
-  special_bonus_unique_shadow_demon_2:
-    dname: 영혼 사냥꾼 쿨다운 -6초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_shadow_demon_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Shadow_Demon
   lone_druid_spirit_bear:
     dname: 영혼 곰 소환
@@ -9459,56 +6196,6 @@ abilitydata:
       width="16" height="16" border="0" /> 0</div><br clear="left" /></div>
     lore: ''
     hurl: Lone_Druid
-  special_bonus_unique_lone_druid_1:
-    dname: 영혼 곰 피해 +50
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_lone_druid_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Lone_Druid
-  special_bonus_unique_lone_druid_2:
-    dname: 영혼 곰 방어력 +12
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_lone_druid_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Lone_Druid
-  special_bonus_unique_lone_druid_5:
-    dname: special_bonus_unique_lone_druid_5
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_lone_druid_5_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Lone_Druid
-  special_bonus_unique_lone_druid_3:
-    dname: 휘감기 지속시간 +1.5초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_lone_druid_3_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Lone_Druid
-  special_bonus_unique_lone_druid_4:
-    dname: 사나운 포효 쿨다운 -10초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_lone_druid_4_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Lone_Druid
   chaos_knight_chaos_bolt:
     dname: 혼돈의 화살
     affects: '능력: <span class="attribVal">유닛 지정</span><br />효과: <span class="attribVal">적
@@ -9565,8 +6252,8 @@ abilitydata:
     dname: 환상
     affects: '능력: <span class="attribVal">대상 없음</span><br />효과: <span class="attribVal">아군
       영웅</span><br />'
-    desc: "다른 차원으로부터 혼돈 기사의 환상을 소환합니다. 50%의 확률로 추가 환상이 생성됩니다. 이 환상은 혼돈 기사와 동일한 피해를
-      주지만, 2배의 피해를 받습니다.\r\n\r\n아가님의 홀로 강화 가능\r\n해제 유형: 기본 해제"
+    desc: "다른 차원으로부터 혼돈 기사의 환상을 소환합니다. 50%의 확률로 추가 환상이 생성됩니다. 이 환상은 혼돈 기사 공격력의 100%를
+      피해로 주지만, 260%의 피해를 받습니다.\r\n\r\n아가님의 홀로 강화 가능\r\n해제 유형: 기본 해제"
     notes: 혼돈 기사에게 걸린 대부분의 해로운 효과를 제거합니다.<br />혼돈 기사는 시전 중 0.5초 동안 무적 상태가 됩니다. 이 동안에는
       적의 공격과 기절을 회피합니다.
     dmg: ''
@@ -9583,26 +6270,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 130</div><br clear="left" /></div>
     lore: 수많은 세계를 오가며 수없이 치른 전투의 경험에 힘입어, 혼돈 기사의 환상은 혼돈 기사에게 맞서는 적을 모두 제압해 버립니다.
-    hurl: Chaos_Knight
-  special_bonus_all_stats_12:
-    dname: 모든 능력치 +12
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_all_stats_12_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Slark
-  special_bonus_unique_chaos_knight:
-    dname: 현실의 균열이 주문 면역 관통
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_chaos_knight_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Chaos_Knight
   meepo_earthbind:
     dname: 속박
@@ -9666,31 +6333,11 @@ abilitydata:
     cmb: ''
     lore: 우리 어디서 본 적 있나요?
     hurl: Meepo
-  special_bonus_evasion_10:
-    dname: 회피 10%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_evasion_10_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Centaur_Warrunner
-  special_bonus_unique_meepo:
-    dname: 뿅뿅 쿨다운 -3초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_meepo_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Meepo
   treant_natures_guise:
     dname: 자연의 눈속임
     affects: '능력: <span class="attribVal">지속 효과</span><br />'
     desc: 나무에서 265 반경 안에 7초 동안 있을 때 투명해집니다. 투명해진 상태에서는 이동 속도가 10 증가하고, 투명 상태에서 벗어나
-      공격할 때 0.4초 동안 강타 효과를 줍니다.
+      공격할 때 0.4초 동안 무장 해제 및 묶기 효과를 줍니다.
     notes: 투명화 상태에서 나와 하는 공격은 빗나가지 않습니다.<br />자연의 눈속임은 0.75초마다 주위에 나무가 있는지 확인합니다.
       주위에 나무가 없으면 투명화 효과가 사라집니다.<br />투명 상태에서 시전할 수 있음
     dmg: ''
@@ -9781,26 +6428,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 100/85/70</div><br clear="left" /></div>
     lore: 루프트렐렌은 고대로부터 내려온 자연의 영혼을 불러낸 뒤, 동족 모두를 통해 그 힘을 해방합니다.
-    hurl: Treant_Protector
-  special_bonus_unique_treant_2:
-    dname: special_bonus_unique_treant_2
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_treant_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Treant_Protector
-  special_bonus_unique_treant:
-    dname: 생명의 갑옷 방어 횟수 +5
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_treant_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Treant_Protector
   ogre_magi_fireblast:
     dname: 화염 폭발
@@ -9897,26 +6524,6 @@ abilitydata:
     cmb: ''
     lore: 지능 때문에 불리한 점이 있음에도 오거 마법사는 온전히 능력만으로 전장에서 승리를 거둬왔습니다.
     hurl: Ogre_Magi
-  special_bonus_spell_amplify_15:
-    dname: 주문 증폭 +15%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_spell_amplify_15_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Earth_Spirit
-  special_bonus_unique_ogre_magi:
-    dname: 피의 욕망 공격 속도 +40
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_ogre_magi_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Ogre_Magi
   undying_decay:
     dname: 부패
     affects: '능력: <span class="attribVal">목표 지점 지정</span><br />피해 유형: <span class="attribVal">마법</span><br
@@ -10007,26 +6614,6 @@ abilitydata:
       width="16" height="16" border="0" /> 75</div><br clear="left" /></div>
     lore: 금방 죽은 자들의 살덩이는 언다잉의 역병에 힘을 실어줍니다.
     hurl: Undying
-  special_bonus_unique_undying:
-    dname: 묘비 좀비 피해 +50
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_undying_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Undying
-  special_bonus_unique_undying_2:
-    dname: 부패 쿨다운 -2초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_undying_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Undying
   rubick_telekinesis:
     dname: 염동력
     affects: '능력: <span class="attribVal">유닛 지정</span><br />효과: <span class="attribVal">적
@@ -10108,16 +6695,6 @@ abilitydata:
       width="16" height="16" border="0" /> 20/18/16</div><br clear="left" /></div>
     lore: "…그러나 그들의 하찮은 마법도 여러모로 활용할 수 있습니다."
     hurl: Rubick
-  special_bonus_unique_rubick:
-    dname: 염동력 추락 거리 +400
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_rubick_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Rubick
   disruptor_thunder_strike:
     dname: 천둥 강타
     affects: '능력: <span class="attribVal">유닛 지정</span><br />효과: <span class="attribVal">적
@@ -10191,46 +6768,6 @@ abilitydata:
       width="16" height="16" border="0" /> 90/80/70</div><br clear="left" /></div>
     lore: 드루드의 여름 돌풍에서 살아남을 수 있는 것은 오글로디뿐입니다.
     hurl: Disruptor
-  special_bonus_unique_disruptor_2:
-    dname: 역장 쿨다운 -3초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_disruptor_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Disruptor
-  special_bonus_unique_disruptor_3:
-    dname: special_bonus_unique_disruptor_3
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_disruptor_3_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Disruptor
-  special_bonus_unique_disruptor:
-    dname: 천둥 강타 타격 +4
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_disruptor_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Disruptor
-  special_bonus_magic_resistance_30:
-    dname: 마법 저항력 +30%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_magic_resistance_30_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Disruptor
   nyx_assassin_impale:
     dname: 바위 쐐기
     affects: '능력: <span class="attribVal">목표 지점 지정</span><br />효과: <span class="attribVal">적
@@ -10244,7 +6781,7 @@ abilitydata:
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 95/115/135/155</div><div class="cooldown"><img
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 13</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 14</div><br clear="left" /></div>
     lore: 광신적인 갑주벌레 전사는 모두 땅밑 경로에 조예가 깊어 전투에서 유리하게 활용합니다.
     hurl: Nyx_Assassin
   nyx_assassin_mana_burn:
@@ -10333,36 +6870,6 @@ abilitydata:
       width="16" height="16" border="0" /> 70/60/50</div><br clear="left" /></div>
     lore: 갑주벌레 전사들은 그들이 모시는 여왕의 영광을 위해 누구라도 처치할 각오가 되어 있습니다.
     hurl: Nyx_Assassin
-  special_bonus_unique_nyx_2:
-    dname: 바위 쐐기 피해 +50
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_nyx_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Nyx_Assassin
-  special_bonus_agility_40:
-    dname: 민첩 +40
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_agility_40_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Nyx_Assassin
-  special_bonus_unique_nyx:
-    dname: 가시 등딱지 피해 200%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_nyx_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Nyx_Assassin
   naga_siren_mirror_image:
     dname: 환영 복제
     affects: '능력: <span class="attribVal">대상 없음</span><br />'
@@ -10444,26 +6951,6 @@ abilitydata:
     cmb: <div class="cooldownMana"><div class="cooldown"><img alt="쿨다운" title="쿨다운"
       class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 1</div><br clear="left" /></div>
-    lore: ''
-    hurl: Naga_Siren
-  special_bonus_unique_naga_siren_2:
-    dname: 올가미 쿨다운 -3초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_naga_siren_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Naga_Siren
-  special_bonus_unique_naga_siren:
-    dname: 환영 복제 환영 +1
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_naga_siren_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
     lore: ''
     hurl: Naga_Siren
   keeper_of_the_light_illuminate:
@@ -10608,36 +7095,6 @@ abilitydata:
       width="16" height="16" border="0" /> 10</div><br clear="left" /></div>
     lore: 에잘로르의 숨은 빛은 놀라운 방식으로 드러납니다.
     hurl: Keeper_of_the_Light
-  special_bonus_unique_keeper_of_the_light_2:
-    dname: special_bonus_unique_keeper_of_the_light_2
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_keeper_of_the_light_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Keeper_of_the_Light
-  special_bonus_cast_range_400:
-    dname: 시전 범위 +400
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_cast_range_400_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Keeper_of_the_Light
-  special_bonus_unique_keeper_of_the_light:
-    dname: 천상의 빛 피해/치유 +200
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_keeper_of_the_light_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Keeper_of_the_Light
   wisp_tether:
     dname: 연결
     affects: '능력: <span class="attribVal">유닛 지정</span><br />효과: <span class="attribVal">아군</span><br
@@ -10704,7 +7161,7 @@ abilitydata:
     attrib: |-
       공격 속도: <span class="attribVal">40 / 50 / 60 / 70</span><br />
       받는 피해 감소: <span class="attribVal">5% / 10% / 15% / 20%</span><br />
-      체력/마나 소모: <span class="attribVal">4.5% / 4.5% / 4.5% / 4.5%</span>
+      체력/마나 소모: <span class="attribVal">6%</span>
     cmb: <div class="cooldownMana"><div class="cooldown"><img alt="쿨다운" title="쿨다운"
       class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 2</div><br clear="left" /></div>
@@ -10748,46 +7205,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 100/80/60</div><br clear="left" /></div>
     lore: 이오는 우주의 신비 그 자체입니다.
-    hurl: Io
-  special_bonus_mp_regen_10:
-    dname: 마나 재생 +10
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_mp_regen_10_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Io
-  special_bonus_hp_regen_20:
-    dname: 체력 재생 +20
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_hp_regen_20_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Io
-  special_bonus_unique_wisp_2:
-    dname: special_bonus_unique_wisp_2
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_wisp_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Io
-  special_bonus_unique_wisp:
-    dname: 영혼 피해 +150
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_wisp_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Io
   visage_grave_chill:
     dname: 무덤의 냉기
@@ -10867,36 +7284,6 @@ abilitydata:
       width="16" height="16" border="0" /> 160/145/130</div><br clear="left" /></div>
     lore: 네크롤릭의 하수인들은 좁은 미로의 수호자로서 주인의 영토를 지킵니다.
     hurl: Visage
-  special_bonus_unique_visage_3:
-    dname: special_bonus_unique_visage_3
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_visage_3_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Visage
-  special_bonus_spell_amplify_20:
-    dname: 주문 증폭 +20%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_spell_amplify_20_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Visage
-  special_bonus_unique_visage_2:
-    dname: 하수인 이동 속도 +120
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_visage_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Visage
   slark_dark_pact:
     dname: 어둠의 서약
     affects: '능력: <span class="attribVal">대상 없음</span><br />피해 유형: <span class="attribVal">마법</span><br
@@ -10973,16 +7360,6 @@ abilitydata:
       width="16" height="16" border="0" /> 60</div><br clear="left" /></div>
     lore: 알려지지 않은 13번째 탈옥수는 약삭빠르게 빠져나가는 데 능한 적입니다.
     hurl: Slark
-  special_bonus_unique_slark:
-    dname: 뛰어들기 구속 +3초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_slark_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Slark
   medusa_split_shot:
     dname: 분산 사격
     affects: '능력: <span class="attribVal">대상 없음, 전환</span><br />주문 면역 관통: <span class="attribVal"><font
@@ -11004,9 +7381,9 @@ abilitydata:
     affects: '능력: <span class="attribVal">유닛 지정</span><br />효과: <span class="attribVal">적
       유닛</span><br />피해 유형: <span class="attribVal">마법</span><br />주문 면역 관통: <span
       class="attribVal">미관통</span><br />'
-    desc: 에너지로 이루어진 신비로운 뱀이 여러 대상을 건너뛰며 피해를 주고 마나를 훔칩니다. 마지막 대상에 도달하면 뱀은 메두사에게 되돌아와
+    desc: "에너지로 이루어진 신비로운 뱀이 여러 대상을 건너뛰며 피해를 주고 마나를 훔칩니다. 마지막 대상에 도달하면 뱀은 메두사에게 되돌아와
       마나를 회복시킵니다. 뱀은 대상을 건너뛸 때마다 더 큰 피해를 주고 대상에게서 총 마나의 11%를 빼앗습니다. 석화의 시선으로 굳어버린
-      유닛에게는 순수 피해를 줍니다.
+      유닛에게는 순수 피해를 줍니다.\r\n\r\n아가님의 홀로 강화 가능"
     notes: 신비로운 뱀은 피할 수 없습니다.
     dmg: ''
     attrib: |-
@@ -11014,7 +7391,9 @@ abilitydata:
       건너뛰기 횟수: <span class="attribVal">3 / 4 / 5 / 6</span><br />
       피해: <span class="attribVal">80 / 120 / 160 / 200</span><br />
       빼앗는 마나: <span class="attribVal">11% / 14% / 17% / 20%</span><br />
-      건너뛰기 1회당 피해 증가: <span class="attribVal">35%</span>
+      건너뛰기 1회당 피해 증가: <span class="attribVal">35%</span><br />
+      홀 착용 시 기본 지속시간: <span class="attribVal">1</span><br />
+      홀 착용 시 기본 건너뛰기 증가: <span class="attribVal">0.2</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 140/150/160/170</div><div class="cooldown"><img
@@ -11054,46 +7433,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 90</div><br clear="left" /></div>
     lore: 메두사의 아름다움은 전설로 전해질 정도입니다.
-    hurl: Medusa
-  special_bonus_unique_medusa_2:
-    dname: 분산 사격 대상 +1
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_medusa_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Medusa
-  special_bonus_mp_600:
-    dname: 마나 +600
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_mp_600_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Medusa
-  special_bonus_lifesteal_25:
-    dname: 흡혈 25%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_lifesteal_25_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Medusa
-  special_bonus_unique_medusa:
-    dname: 석화의 시선 기절 +2초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_medusa_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Medusa
   troll_warlord_berserkers_rage:
     dname: 광전사의 분노
@@ -11178,18 +7517,8 @@ abilitydata:
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 75/75/75</div><div class="cooldown"><img
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 30</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 35</div><br clear="left" /></div>
     lore: 순수한 증오심에서 솟아나는 흥분으로 검날이 더욱 빨라집니다.
-    hurl: Troll_Warlord
-  special_bonus_unique_troll_warlord:
-    dname: 춤추는 도끼 쿨다운 -7초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_troll_warlord_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Troll_Warlord
   centaur_hoof_stomp:
     dname: 발굽 구르기
@@ -11257,35 +7586,18 @@ abilitydata:
     lore: 오멕스의 거대한 띠에는 브래드워든이 종족의 가장 위대한 전사라고 새겨져 있습니다. 동료 검투사들은 이것을 보고 브래드워든을 뒤따라
       잔혹한 전투에 뛰어듭니다.
     hurl: Centaur_Warrunner
-  special_bonus_unique_centaur_1:
-    dname: 반사가 오라로 적용
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_centaur_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Centaur_Warrunner
-  special_bonus_unique_centaur_2:
-    dname: 발굽 구르기 지속시간 +1초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_centaur_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Centaur_Warrunner
   magnataur_shockwave:
     dname: 충격파
     affects: '능력: <span class="attribVal">유닛 지정, 목표 지점 지정</span><br />효과: <span class="attribVal">적
       유닛</span><br />피해 유형: <span class="attribVal">마법</span><br />주문 면역 관통: <span
       class="attribVal">미관통</span><br />'
-    desc: 마그누스가 충격파를 내보내어 일직선상의 적 유닛에게 피해를 줍니다.
+    desc: "마그누스가 충격파를 내보내어 일직선상의 적 유닛에게 피해를 줍니다. \r\n\r\n아가님의 홀로 강화 가능"
     notes: ''
     dmg: ''
-    attrib: '피해: <span class="attribVal">75 / 150 / 225 / 300</span>'
+    attrib: |-
+      피해: <span class="attribVal">75 / 150 / 225 / 300</span><br />
+      홀 착용 시 이동 둔화: <span class="attribVal">60%</span><br />
+      홀 작용 시 둔화 지속시간: <span class="attribVal">2</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 90/90/90/90</div><div class="cooldown"><img
@@ -11298,7 +7610,7 @@ abilitydata:
     affects: '능력: <span class="attribVal">유닛 지정</span><br />효과: <span class="attribVal">아군
       유닛</span><br />주문 면역 관통: <span class="attribVal"><font color="#70EA72">관통</font></span><br
       />'
-    desc: "아군 유닛들이 공격 시 추가 피해를 주고 가르기 효과를 얻습니다. \r\n\r\n아가님의 홀로 강화 가능"
+    desc: 아군 유닛들이 공격 시 추가 피해를 주고 가르기 효과를 얻습니다.
     notes: 보너스 피해는 그 유닛의 기본 공격력과 기본 능력치에 기반합니다.<br />가르기 피해는 방어력이 아닌 방어 유형에 따라 감소합니다.<br
       />가르기 피해는 주문 면역을 무시합니다.<br />원거리 유닛은 가르기 피해를 주지 않습니다.
     dmg: ''
@@ -11344,33 +7656,13 @@ abilitydata:
     attrib: |-
       모으는 반경: <span class="attribVal">410</span><br />
       피해: <span class="attribVal">50 / 125 / 200</span><br />
-      영웅 기절 지속시간: <span class="attribVal">2.25 / 3 / 3.75</span>
+      기절 지속시간: <span class="attribVal">2.25 / 3 / 3.75</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 200/250/300</div><div class="cooldown"><img
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 120</div><br clear="left" /></div>
     lore: 마그누스는 격렬하게 폭발하는 졸라크 산의 힘으로 적과 싸웁니다.
-    hurl: Magnus
-  special_bonus_unique_magnus_2:
-    dname: 강화 피해/가르기 +10%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_magnus_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Magnus
-  special_bonus_unique_magnus_3:
-    dname: special_bonus_unique_magnus_3
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_magnus_3_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Magnus
   shredder_whirling_death:
     dname: 죽음의 회전날
@@ -11495,16 +7787,6 @@ abilitydata:
       width="16" height="16" border="0" /> 0</div><br clear="left" /></div>
     lore: ''
     hurl: Timbersaw
-  special_bonus_unique_timbersaw:
-    dname: 죽음의 회전날 능력치 감소 +6%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_timbersaw_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Timbersaw
   bristleback_viscous_nasal_goo:
     dname: 끈적이는 콧물
     affects: '능력: <span class="attribVal">유닛 지정</span><br />효과: <span class="attribVal">적
@@ -11575,46 +7857,6 @@ abilitydata:
       최대 중첩: <span class="attribVal">5 / 7 / 9</span>
     cmb: ''
     lore: 어머니는 항상 '그놈의 성질머리하고는.'이라며 꾸짖으셨습니다. 하지만 싸울 때는 그런 성질이 유용합니다.
-    hurl: Bristleback
-  special_bonus_unique_bristleback:
-    dname: 끈적이는 콧물 최대 중첩 수 +4
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_bristleback_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Bristleback
-  special_bonus_attack_speed_50:
-    dname: 공격 속도 +50
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_attack_speed_50_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Elder_Titan
-  special_bonus_spell_lifesteal_10:
-    dname: special_bonus_spell_lifesteal_10
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_spell_lifesteal_10_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Skywrath_Mage
-  special_bonus_unique_bristleback_2:
-    dname: 가시 중첩 피해 +25
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_bristleback_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Bristleback
   tusk_ice_shards:
     dname: 얼음 파편
@@ -11735,36 +7977,6 @@ abilitydata:
       width="16" height="16" border="0" /> 36/24/12</div><br clear="left" /></div>
     lore: 누가 먼저 주먹을 날리는지는 중요하지 않습니다. 중요한 것은 누가 마지막 주먹을 날리는지입니다.
     hurl: Tusk
-  special_bonus_unique_tusk_2:
-    dname: 눈덩이 피해 +150
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_tusk_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Tusk
-  special_bonus_hp_700:
-    dname: 체력 +700
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_hp_700_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Tusk
-  special_bonus_unique_tusk:
-    dname: 바다코끼리 펀치 치명타 +150%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_tusk_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Tusk
   skywrath_mage_arcane_bolt:
     dname: 신비의 광선
     affects: '능력: <span class="attribVal">유닛 지정</span><br />효과: <span class="attribVal">적
@@ -11839,16 +8051,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 60/40/20</div><br clear="left" /></div>
     lore: 가장 훈련이 잘된 하늘분노 마법사들만이 하늘을 일그러뜨려 엄청난 폭풍을 일으키리라는 희망을 품을 수 있습니다.
-    hurl: Skywrath_Mage
-  special_bonus_unique_skywrath:
-    dname: 고대 봉인 쿨다운 -4초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_skywrath_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Skywrath_Mage
   abaddon_death_coil:
     dname: 안개 고리
@@ -11927,16 +8129,6 @@ abilitydata:
       width="16" height="16" border="0" /> 60/50/40</div><br clear="left" /></div>
     lore: 아베르누스의 샘이 내린, 가장 섭리에 벗어나는 선물로, 인간 세상의 이해를 초월하는 힘을 지닙니다. 고통 대신 치유를, 죽음 대신
       힘을 선사합니다.
-    hurl: Abaddon
-  special_bonus_unique_abaddon:
-    dname: 어둠의 보호막 피해 흡수 +300
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_abaddon_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Abaddon
   elder_titan_echo_stomp:
     dname: 공명파 발구르기
@@ -12035,26 +8227,6 @@ abilitydata:
       width="16" height="16" border="0" /> 100</div><br clear="left" /></div>
     lore: 티탄이 창조한 것을, 티탄이 산산이 부서뜨립니다.
     hurl: Elder_Titan
-  special_bonus_unique_elder_titan_2:
-    dname: 공명파 발구르기 피해 +30
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_elder_titan_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Elder_Titan
-  special_bonus_unique_elder_titan:
-    dname: 우주의 영혼 영웅 공격 +100
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_elder_titan_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Elder_Titan
   legion_commander_overwhelming_odds:
     dname: 역전의 명수
     affects: '능력: <span class="attribVal">목표 지점 지정</span><br />피해 유형: <span class="attribVal">마법</span><br
@@ -12130,36 +8302,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 50</div><br clear="left" /></div>
     lore: 돌의 전당 용사와 일대일로 붙어볼 기회를 거부할 사람은 거의 없습니다.
-    hurl: Legion_Commander
-  special_bonus_unique_legion_commander_3:
-    dname: special_bonus_unique_legion_commander_3
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_legion_commander_3_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Legion_Commander
-  special_bonus_unique_legion_commander:
-    dname: 결투 피해 보너스 +40
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_legion_commander_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Legion_Commander
-  special_bonus_unique_legion_commander_2:
-    dname: 불굴의 의지 쿨다운 -8초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_legion_commander_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Legion_Commander
   ember_spirit_searing_chains:
     dname: 화염 사슬
@@ -12239,9 +8381,9 @@ abilitydata:
     dname: 불꽃 잔영
     affects: '능력: <span class="attribVal">목표 지점 지정</span><br />피해 유형: <span class="attribVal">마법</span><br
       />주문 면역 관통: <span class="attribVal">미관통</span><br />'
-    desc: 불꽃령이 %dcharge_restore_time%초마다 불꽃 잔영을 최대 3개까지 충전합니다. 충전된 불꽃 잔영을 내보내면 대상
-      지점까지 불꽃령의 2.5배 속도로 이동합니다. 불꽃 잔영 터뜨리기 능력을 사용하면 불꽃령이 불꽃 잔영이 있는 위치로 달려가며 불꽃 잔영을
-      터뜨려 범위 피해를 줄 수 있습니다. 대상으로 지정한 불꽃 잔영에 마지막으로 도착합니다.
+    desc: 불꽃령이 35초마다 불꽃 잔영을 최대 3개까지 충전합니다. 충전된 불꽃 잔영을 내보내면 대상 지점까지 불꽃령의 2.5배 속도로 이동합니다.
+      불꽃 잔영 터뜨리기 능력을 사용하면 불꽃령이 불꽃 잔영이 있는 위치로 달려가며 불꽃 잔영을 터뜨려 범위 피해를 줄 수 있습니다. 대상으로
+      지정한 불꽃 잔영에 마지막으로 도착합니다.
     notes: 시작 시 불꽃 잔영은 최대치(3개)로 만들어져 있습니다.<br />불꽃 잔영은 지정한 지점으로 불꽃령의 2.5배 속도로 이동합니다.
     dmg: ''
     attrib: |-
@@ -12254,26 +8396,6 @@ abilitydata:
       class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 0</div><br clear="left" /></div>
     lore: 씬의 가르침은 영혼의 힘으로 널리 퍼져 나갑니다.
-    hurl: Ember_Spirit
-  special_bonus_unique_ember_spirit_1:
-    dname: 불의 보호막 피해 흡수 +500
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_ember_spirit_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Ember_Spirit
-  special_bonus_unique_ember_spirit_2:
-    dname: 화염 사슬 +2초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_ember_spirit_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Ember_Spirit
   earth_spirit_boulder_smash:
     dname: 바위 치기
@@ -12402,26 +8524,6 @@ abilitydata:
       width="16" height="16" border="0" /> 100/90/80</div><br clear="left" /></div>
     lore: 대지령의 부름에 적의 피와 뼈에 있는 무기질이 신체에 반발하여 작용합니다.
     hurl: Earth_Spirit
-  special_bonus_unique_earth_spirit_2:
-    dname: special_bonus_unique_earth_spirit_2
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_earth_spirit_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Earth_Spirit
-  special_bonus_unique_earth_spirit:
-    dname: 바위 구르기 피해 +300
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_earth_spirit_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Earth_Spirit
   terrorblade_reflection:
     dname: 투영
     affects: '능력: <span class="attribVal">대상 없음</span><br />주문 면역 관통: <span class="attribVal">미관통</span><br
@@ -12498,16 +8600,6 @@ abilitydata:
       width="16" height="16" border="0" /> 120/80/40</div><br clear="left" /></div>
     lore: "'그 생명 필요 없지 않았나? 악마 무법자는 가장 소중한 것을 빼앗습니다."
     hurl: Terrorblade
-  special_bonus_unique_terrorblade:
-    dname: 분리 쿨다운 -30초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_terrorblade_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Terrorblade
   phoenix_icarus_dive:
     dname: 이카루스의 날개
     affects: '능력: <span class="attribVal">목표 지점 지정</span><br />피해 유형: <span class="attribVal">마법</span><br
@@ -12533,7 +8625,7 @@ abilitydata:
       />주문 면역 관통: <span class="attribVal">미관통</span><br />'
     desc: 불사조의 체력을 소모하여 불의 영혼 4개를 만들어냅니다. 영혼은 각각 대상 범위 지역에 날려 보낼 수 있습니다. 적중당한 적들은
       지속적인 화염 피해를 받습니다.
-    notes: 불의 잔영은 공격하는 지역을 1초 동안 밝힙니다.
+    notes: 불의 영혼은 공격하는 지역을 1초 동안 밝힙니다.
     dmg: ''
     attrib: |-
       소모 체력: <span class="attribVal">20%</span><br />
@@ -12646,44 +8738,14 @@ abilitydata:
     cmb: ''
     lore: 째짹!
     hurl: Phoenix
-  special_bonus_unique_phoenix_3:
-    dname: 불의 영혼 초당 피해 +65
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_phoenix_3_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Phoenix
-  special_bonus_unique_phoenix_1:
-    dname: 초신성 타격 수 +2
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_phoenix_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Phoenix
-  special_bonus_unique_phoenix_2:
-    dname: 초신성 기절 지속시간 +1초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_phoenix_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Phoenix
   oracle_fortunes_end:
     dname: 행운의 끝
     affects: '능력: <span class="attribVal">집중 기술, 유닛 지정</span><br />효과: <span class="attribVal">영웅</span><br
       />피해 유형: <span class="attribVal">마법</span><br />주문 면역 관통: <span class="attribVal">미관통</span><br
       />'
-    desc: "집중 기술 - 예지자가 힘을 정제의 에너지 줄기로 모읍니다. 이 에너지를 내보내면 피해를 주고 움직임을 멈추며 대상 주변에 있는
-      적의 강화 효과를 제거합니다. 대상이 아군이면 효과만 제거합니다. 최대 2.5초 동안 집중하여 시전할 수 있습니다. 중지 지속시간은 정신
-      집중 시간과 일치합니다.\r\n\r\n해제 유형: 기본 해제"
+    desc: "집중 기술 - 예지자가 힘을 정제의 에너지 줄기로 모읍니다. 이 에너지를 내보내면 피해를 주고 묶은 다음 대상 주변에 있는 적의
+      강화 효과를 제거합니다. 대상이 아군이면 효과만 제거합니다. 최대 2.5초 동안 집중하여 시전할 수 있습니다. 중지 지속시간은 정신 집중
+      시간과 일치합니다.\r\n\r\n해제 유형: 기본 해제"
     notes: ''
     dmg: ''
     attrib: |-
@@ -12752,26 +8814,6 @@ abilitydata:
       title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 100/65/30</div><br clear="left" /></div>
     lore: 적과 거짓 예언자는 인간의 운명에 대해 거짓말을 합니다.
-    hurl: Oracle
-  special_bonus_unique_oracle_2:
-    dname: special_bonus_unique_oracle_2
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_oracle_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Oracle
-  special_bonus_unique_oracle:
-    dname: 거짓 약속 지속시간 +2
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_oracle_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Oracle
   techies_land_mines:
     dname: 근접 지뢰
@@ -12886,26 +8928,6 @@ abilitydata:
       width="16" height="16" border="0" /> 10</div><br clear="left" /></div>
     lore: 준설만이 몰락한 이유입니다!
     hurl: Techies
-  special_bonus_unique_techies:
-    dname: 날려 버려 피해 +400
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_techies_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Techies
-  special_bonus_attack_damage_250:
-    dname: special_bonus_attack_damage_250
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_250_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Techies
   winter_wyvern_arctic_burn:
     dname: 극지 불태우기
     affects: '능력: <span class="attribVal">대상 없음</span><br />피해 유형: <span class="attribVal">마법</span><br
@@ -12918,7 +8940,7 @@ abilitydata:
       비룡의 공격 시점이 0.1로 감소합니다.
     dmg: ''
     attrib: |-
-      비행 지속시간: <span class="attribVal">6</span><br />
+      비행 지속시간: <span class="attribVal">8</span><br />
       보너스 공격 범위: <span class="attribVal">275 / 375 / 475 / 575</span><br />
       체력 비례 불태우기: <span class="attribVal">8%</span><br />
       피해 지속시간: <span class="attribVal">5</span><br />
@@ -12940,7 +8962,7 @@ abilitydata:
     desc: 적에게 얼음가시로 만들어진 구체를 발사합니다. 얼음은 타격 시 부서지고 주 대상에게는 아무런 영향을 주지 않으나, 파편이 튀어나오며
       500 반경 내 적들에게 피해를 줍니다. 파편에 맞은 적은 이동 속도가 25% 감소합니다.
     notes: 주 투사체가 500 이동 속도로 움직이거나 1초 후에 대상을 맞힙니다. 빠른 쪽으로 최대 4,000 속도까지 적용됩니다.<br
-      />주 투사체 또는 보조 투사체는 피할 수 없습니다.
+      />주 투사체는 피할 수 없습니다.
     dmg: '피해: <span class="attribVal">100 / 180 / 260 / 340</span><br />'
     attrib: |-
       파편 반경: <span class="attribVal">500</span><br />
@@ -12994,36 +9016,6 @@ abilitydata:
       width="16" height="16" border="0" /> 80</div><br clear="left" /></div>
     lore: 서책고룡의 주문중 가장 오래된 것입니다. 이 저주는 내 적의 적이라 해도 내 적이라는 옛 격언이 사실임을 증명해 줍니다.
     hurl: Winter_Wyvern
-  special_bonus_unique_winter_wyvern_3:
-    dname: special_bonus_unique_winter_wyvern_3
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_winter_wyvern_3_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Winter_Wyvern
-  special_bonus_unique_winter_wyvern_1:
-    dname: 극지 불태우기 둔화 +15%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_winter_wyvern_1_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Winter_Wyvern
-  special_bonus_unique_winter_wyvern_2:
-    dname: 얼음가시 폭발 쿨다운 -3초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_winter_wyvern_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Winter_Wyvern
   arc_warden_flux:
     dname: 휘몰이
     affects: '능력: <span class="attribVal">유닛 지정</span><br />효과: <span class="attribVal">적
@@ -13069,8 +9061,8 @@ abilitydata:
     dname: 불꽃 망령
     affects: '능력: <span class="attribVal">목표 지점 지정</span><br />피해 유형: <span class="attribVal">마법</span><br
       />주문 면역 관통: <span class="attribVal">미관통</span><br />'
-    desc: "서서히 물질화하고 적이 범위 내에 들어올 때까지 대상 지역을 정찰하는 불꽃 망령을 소환합니다. 대상을 발견하면, 망령은 융합한
-      다음 마법 피해를 주고 유닛을 둔화합니다. \r\n\r\n해제 유형: 기본 해제"
+    desc: 서서히 물질화하고 적이 범위 내에 들어올 때까지 대상 지역을 정찰하는 불꽃 망령을 소환합니다. 대상을 발견하면, 망령은 융합한 다음
+      마법 피해를 주고 유닛을 둔화합니다.
     notes: ''
     dmg: ''
     attrib: |-
@@ -13099,26 +9091,6 @@ abilitydata:
       class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 60/50/40</div><br clear="left" /></div>
     lore: 동료들의 힘에 뒤틀린 번개 감시자는 자신이 가장 경멸하던 부조화 상태가 되었습니다.
-    hurl: Arc_Warden
-  special_bonus_unique_arc_warden_2:
-    dname: 휘몰이 초당 피해 +20
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_arc_warden_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Arc_Warden
-  special_bonus_unique_arc_warden:
-    dname: 불꽃 망령 피해 +250
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_arc_warden_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Arc_Warden
   abyssal_underlord_firestorm:
     dname: 화염폭풍
@@ -13163,8 +9135,8 @@ abilitydata:
     dname: 위축의 오라
     affects: '능력: <span class="attribVal">지속 효과, 오라</span><br />효과: <span class="attribVal">적군</span><br
       />'
-    desc: 주위의 적 유닛이 힘을 잃고 일정 비율만큼 기본 공격력이 감소합니다. 유닛이 이 효과를 받은 상태로 죽으면, 지하군주는 보너스 공격력을
-      얻습니다.
+    desc: "주위의 적 유닛이 힘을 잃고 일정 비율만큼 기본 공격력이 감소합니다. 유닛이 이 효과를 받은 상태로 죽으면, 지하군주는 보너스
+      공격력을 얻습니다. \r\n\r\n아가님의 홀로 강화 가능"
     notes: ''
     dmg: ''
     attrib: |-
@@ -13204,36 +9176,6 @@ abilitydata:
     cmb: ''
     lore: ''
     hurl: Underlord
-  special_bonus_spell_amplify_12:
-    dname: 주문 증폭 +12%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_spell_amplify_12_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Underlord
-  special_bonus_attack_speed_60:
-    dname: 공격 속도 +60
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_attack_speed_60_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Underlord
-  special_bonus_unique_underlord:
-    dname: 악의 구덩이 묶기 +0.4초
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_underlord_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Underlord
   monkey_king_boundless_strike:
     dname: 무한일격
     affects: '능력: <span class="attribVal">목표 지점 지정</span><br />효과: <span class="attribVal">적
@@ -13243,7 +9185,9 @@ abilitydata:
       효과가 있습니다.
     notes: ''
     dmg: ''
-    attrib: '기절 지속시간: <span class="attribVal">0.4 / 0.8 / 1.2 / 1.6</span>'
+    attrib: |-
+      기절 지속시간: <span class="attribVal">0.4 / 0.8 / 1.2 / 1.6</span><br />
+      거리: <span class="attribVal">1200</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 100</div><div class="cooldown"><img alt="쿨다운"
@@ -13267,7 +9211,7 @@ abilitydata:
       원시의 반동 둔화: <span class="attribVal">20% / 40% / 60% / 80%</span>
     cmb: <div class="cooldownMana"><div class="cooldown"><img alt="쿨다운" title="쿨다운"
       class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 1.40</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 1.20</div><br clear="left" /></div>
     lore: 손오공은 언제나 손이 닿지 않는 곳으로 다니며 우거진 나무 꼭대기를 따라 민첩하게 춤을 추듯 움직입니다.
     hurl: Monkey_King
   monkey_king_primal_spring:
@@ -13352,10 +9296,11 @@ abilitydata:
     affects: '능력: <span class="attribVal">목표 지점 지정</span><br />피해 유형: <span class="attribVal"><font
       color="#71a9ea">물리</font></span><br />'
     desc: 원숭이 왕이 병사를 만들어 자신의 위치에서 원형 진형으로 퍼뜨립니다. 원숭이 왕이 해당 지역을 벗어나면, 병사들은 해산됩니다. 병사들은
-      원숭이 왕과 같은 공격력으로 오직 영웅만을 공격합니다. 원숭이 왕과 모든 병사는 주문의 지속시간 동안 보너스 공격력을 얻습니다.
-    notes: 병사들에게는 여의봉술 보너스가 적용되지 않습니다.
+      원숭이 왕과 같은 공격력으로 오직 영웅만을 공격합니다. 원숭이 왕은 주문의 지속시간 동안 보너스 방어력을 얻습니다.
+    notes: 병사들에게는 여의봉술 보너스가 적용되지 않습니다.<br />병사들에게는 해골 파쇄기 또는 심연의 검 효과가 적용되지 않습니다.
     dmg: ''
     attrib: |-
+      보너스 방어력: <span class="attribVal">8 / 14 / 20</span><br />
       병사 공격 속도: <span class="attribVal">1.6</span><br />
       지속시간: <span class="attribVal">13</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
@@ -13364,24 +9309,4 @@ abilitydata:
       title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 130/110/90</div><br clear="left" /></div>
     lore: 털 한 줌을 뽑아 적에게 불어서 날려 보내면, 한 가닥 한 가닥이 원숭이 왕의 모습을 본뜬 존재로 탈바꿈합니다.
-    hurl: Monkey_King
-  special_bonus_unique_monkey_king_2:
-    dname: 여의봉술 피해 +75
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_monkey_king_2_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: Monkey_King
-  special_bonus_unique_monkey_king:
-    dname: 무한일격 치명타 +100%
-    affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_unique_monkey_king_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: Monkey_King

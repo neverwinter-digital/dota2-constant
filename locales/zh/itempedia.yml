@@ -249,12 +249,14 @@ itemdata:
     dname: 银月之晶
     qual: common
     cost: 4000
-    desc: "使用：吞噬银月之晶，永久获得%consumed_bonus%攻击速度加成。无法叠加。<br />\r\n被动：月夜之视 - 提供额外%bonus_night_vision%夜间视野。"
+    desc: "使用：吞噬银月之晶，永久获得%consumed_bonus%攻击速度和%consumed_bonus_night_vision%夜间视野加成。无法叠加。<br
+      />\r\n被动：月夜之视 - 提供额外%bonus_night_vision%夜间视野。"
     notes: 额外夜间视野在暗夜魔王的黑暗时间技能下同样生效。
     attrib: |-
       + <span class="attribVal">120</span> <span class="attribValText">攻击速度</span><br />
       月夜之视额外夜间视野： <span class="attribVal">300</span><br />
-      吞噬后攻击速度加成： <span class="attribVal">60</span>
+      吞噬后攻击速度加成： <span class="attribVal">60</span><br />
+      吞噬后夜间视野： <span class="attribVal">150</span>
     mc: false
     cd: false
     lore: 相传这是月之女神赛莉蒙妮流下的一滴眼泪。
@@ -740,7 +742,7 @@ itemdata:
     notes: ''
     attrib: |-
       侦查视野范围： <span class="attribVal">1600</span><br />
-      侦查持续时间（分钟）： <span class="attribVal">8</span><br />
+      侦查持续时间（分钟）： <span class="attribVal">6</span><br />
       岗哨守卫真实视域范围： <span class="attribVal">850</span><br />
       岗哨守卫持续时间（分钟）： <span class="attribVal">4</span>
     mc: false
@@ -1050,7 +1052,7 @@ itemdata:
     dname: 迈达斯之手
     qual: common
     cost: 2150
-    desc: 主动：炼金 - 立刻炼化一个普通单位，获得%bonus_gold%金钱和1.75倍经验值。无法用于远古单位。
+    desc: 主动：炼金 - 立刻炼化一个普通单位，获得%bonus_gold%金钱和1.85倍经验值。无法用于远古单位。
     notes: 获得的金钱属于可靠金钱（不会得到击杀该单位的正常金钱）。<br />使用炼化获得的经验不会与他人共享。
     attrib: |-
       + <span class="attribVal">30</span> <span class="attribValText">攻击速度</span><br />
@@ -1319,7 +1321,9 @@ itemdata:
     desc: "主动：灵魂释放 - 为友方单位在一定时间内恢复生命值，对敌方单位则造成持续伤害。治疗效果在受到英雄或防御塔攻击后会消失。<br />\r\n每当敌方英雄在%soul_radius%范围内死亡时获得充能。只有最靠近死亡英雄的灵龛能得到充能。"
     notes: 点数为0的灵龛将获得2个点数。<br />如果对已经被施放灵魂释放的英雄使用，那么将刷新它的持续时间。
     attrib: |-
-      + <span class="attribVal">1%</span> <span class="attribValText">魔法恢复</span><br />
+      魔法恢复： <span class="attribVal">1</span><br />
+      + <span class="attribVal">2</span> <span class="attribValText">所有属性</span><br />
+      + <span class="attribVal">2</span> <span class="attribValText">护甲</span><br />
       对队友治疗总量： <span class="attribVal">400</span><br />
       对敌人伤害总量： <span class="attribVal">150</span><br />
       灵魂释放持续时间： <span class="attribVal">8</span><br />
@@ -1477,6 +1481,7 @@ itemdata:
     notes: ''
     attrib: |-
       + <span class="attribVal">250</span> <span class="attribValText">魔法值</span><br />
+      + <span class="attribVal">100%</span> <span class="attribValText">魔法恢复</span><br />
       + <span class="attribVal">220</span> <span class="attribValText">施法距离</span><br />
       技能伤害加成： <span class="attribVal">6%</span>
     mc: false
@@ -1536,7 +1541,7 @@ itemdata:
     qual: rare
     cost: 2720
     desc: 主动：能量冲击 - 释放高伤害的魔法爆发冲击敌方目标单位。可以升级。
-    notes: ''
+    notes: 立刻消灭幻象。
     attrib: |-
       + <span class="attribVal">13</span>/16/19/22/25 <span class="attribValText">智力</span><br />
       + <span class="attribVal"><span class="attribVal">3</span></span> <span class="attribValText">所有属性</span><br />
@@ -1557,7 +1562,7 @@ itemdata:
     qual: rare
     cost: 3970
     desc: 主动：能量冲击 - 释放高伤害的魔法爆发冲击敌方目标单位。可以升级。
-    notes: ''
+    notes: 立刻消灭幻象。
     attrib: |-
       + 13/<span class="attribVal">16</span>/19/22/25 <span class="attribValText">智力</span><br />
       + <span class="attribVal">3</span> <span class="attribValText">所有属性</span><br />
@@ -1578,7 +1583,7 @@ itemdata:
     qual: rare
     cost: 5220
     desc: 主动：能量冲击 - 释放高伤害的魔法爆发冲击敌方目标单位。可以升级。
-    notes: ''
+    notes: 立刻消灭幻象。
     attrib: |-
       + 13/16/<span class="attribVal">19</span>/22/25 <span class="attribValText">智力</span><br />
       + <span class="attribVal">3</span> <span class="attribValText">所有属性</span><br />
@@ -1599,7 +1604,7 @@ itemdata:
     qual: rare
     cost: 6470
     desc: 主动：能量冲击 - 释放高伤害的魔法爆发冲击敌方目标单位。可以升级。
-    notes: ''
+    notes: 立刻消灭幻象。
     attrib: |-
       + 13/16/19/<span class="attribVal">22</span>/25 <span class="attribValText">智力</span><br />
       + <span class="attribVal">3</span> <span class="attribValText">所有属性</span><br />
@@ -1620,7 +1625,7 @@ itemdata:
     qual: rare
     cost: 7720
     desc: 主动：能量冲击 - 释放高伤害的魔法爆发冲击敌方目标单位。可以升级。
-    notes: ''
+    notes: 立刻消灭幻象。
     attrib: |-
       + 13/16/19/22/<span class="attribVal">25</span> <span class="attribValText">智力</span><br />
       + <span class="attribVal">3</span> <span class="attribValText">所有属性</span><br />
@@ -2156,7 +2161,7 @@ itemdata:
     qual: epic
     cost: 4500
     desc: "主动：砍伐/排眼 - 砍伐一根指定树木，或者摧毁一个守卫。摧毁守卫时施放距离较远。<br />\r\n被动：压制 - 对非英雄单位进行物理攻击会造成额外伤害，伤害值取决于你的英雄类型（近战或远程）。攻击Roshan不会造成额外伤害。<br
-      />\r\n被动：分裂攻击 - 对目标周围%cleave_radius%范围内的敌人造成攻击力一定比例的分裂伤害。远程英雄使用时无效。"
+      />\r\n被动：分裂 - 对目标周围的敌人造成攻击力一定比例的分裂伤害。远程英雄使用时无效。"
     notes: 分裂伤害会根据护甲类型有所减少，但是与护甲数值无关。<br />分裂伤害无视技能免疫。<br />如果存在多个分裂效果，每个分裂的伤害都会单独计算。<br
       />砍伐可以用于摧毁工程师的遥控炸弹。
     attrib: |-
@@ -2251,7 +2256,7 @@ itemdata:
     dname: 莫尔迪基安的臂章
     qual: epic
     cost: 2370
-    desc: 激活：邪恶之力 - 激活后邪恶之力将提升%unholy_bonus_damage%点攻击力、%unholy_bonus_strength%点力量，但每秒失去%unholy_health_drain_per_second_tooltip%点生命值。开启邪恶之力后生命流失并不会导致死亡，关闭邪恶之力后力量降低也不会导致死亡。
+    desc: 激活：邪恶之力 - 激活后邪恶之力将提升%unholy_bonus_damage%点攻击力、%unholy_bonus_strength%点力量和%unholy_bonus_armor%点护甲，但每秒失去%unholy_health_drain_per_second_tooltip%点生命值。开启邪恶之力后生命流失并不会导致死亡，关闭邪恶之力后力量降低也不会导致死亡。
     notes: 力量值的变化会影响血量上限和当前生命值，但是不会致死。<br />力量的增加将在0.6秒内完成。<br />开启或关闭邪恶之力并不会打断持续施法。
     attrib: |-
       + <span class="attribVal">9</span> <span class="attribValText">攻击力</span><br />
@@ -2366,8 +2371,8 @@ itemdata:
     dname: 雷神之锤
     qual: artifact
     cost: 5700
-    desc: "主动：静电冲击 - 对目标单位施加一个静电护盾，护盾有%dstatic_chance%%的几率对附近攻击护盾的目标及其周围%dstatic_strikes%个敌方单位释放闪电冲击。<br
-      />\r\n被动：连环闪电 - 攻击有一定概率释放一道连环闪电，在%dchain_strikes%个目标之间跳跃，每次造成%dchain_damage%点魔法伤害。"
+    desc: "主动：静电冲击 - 对目标单位施加一个静电护盾，护盾有%static_chance%%的几率对附近攻击护盾的目标及其周围%static_strikes%个敌方单位释放闪电冲击。<br
+      />\r\n被动：连环闪电 - 攻击有一定概率释放一道连环闪电，在%chain_strikes%个目标之间跳跃，每次造成%chain_damage%点魔法伤害。"
     notes: 静电冲击的触发间隔大于1秒。<br />静电冲击的闪电将会对拥有护盾的英雄周围单位造成魔法伤害，静电冲击只会对900范围以内的目标发出闪电冲击。<br
       />静电冲击不会弹跳至处于隐身状态下或战争迷雾内的英雄。
     attrib: |-
@@ -2466,7 +2471,7 @@ itemdata:
     dname: 漩涡
     qual: artifact
     cost: 2800
-    desc: 被动：连环闪电 - 攻击有一定概率释放一道连环闪电，在%dchain_strikes%个目标之间跳跃，闪电将造成%dchain_damage%点魔法伤害。
+    desc: 被动：连环闪电 - 攻击有一定概率释放一道连环闪电，在%chain_strikes%个目标之间跳跃，闪电将造成%chain_damage%点魔法伤害。
     notes: ''
     attrib: |-
       + <span class="attribVal">24</span> <span class="attribValText">攻击力</span><br />
@@ -2488,7 +2493,7 @@ itemdata:
     dname: 黯灭
     qual: artifact
     cost: 3500
-    desc: "被动：腐蚀 - 物理攻击将降低目标的护甲，持续15秒。<br />\r\n<br />\r\n黯灭是独占攻效，不与其它独占攻效叠加。"
+    desc: 被动：腐蚀 - 物理攻击将降低目标的护甲，持续15秒。
     notes: 护甲降低效果对建筑有效。
     attrib: |-
       + <span class="attribVal">50</span> <span class="attribValText">攻击力</span><br />
@@ -2531,6 +2536,7 @@ itemdata:
     notes: ''
     attrib: |-
       + <span class="attribVal">20</span> <span class="attribValText">攻击力</span><br />
+      + <span class="attribVal">10</span> <span class="attribValText">攻击速度</span><br />
       吸血百分比： <span class="attribVal">15%</span><br />
       狂热攻击速度加成： <span class="attribVal">110</span><br />
       狂热移动速度加成： <span class="attribVal">17%</span><br />
@@ -2618,12 +2624,12 @@ itemdata:
     dname: 灵魂之戒
     qual: common
     cost: 750
-    desc: 主动：牺牲 - 消耗%health_sacrifice%点生命值来暂时获取%mana_gain%点魔法值。持续10秒。
+    desc: 主动：献身 - 消耗%health_sacrifice%点生命值来暂时获取%mana_gain%点魔法值。持续10秒。
     notes: 如果获取的魔法值超过了魔法上限，将会变成缓冲魔法，直接加在魔法上限上，使用时将优先进行消耗。如果在持续时间结束时没有使用，额外的魔法将会消失。
     attrib: |-
       + <span class="attribVal">3</span> <span class="attribValText">生命恢复速率</span><br />
       + <span class="attribVal">50%</span> <span class="attribValText">魔法恢复</span><br />
-      牺牲持续时间： <span class="attribVal">10</span>
+      献身持续时间： <span class="attribVal">10</span>
     mc: false
     cd: 30
     lore: 一个能吞噬佩带者灵魂的戒指。
@@ -2698,7 +2704,7 @@ itemdata:
     dname: 枯萎之石
     qual: component
     cost: 300
-    desc: "被动：攻击将降低目标护甲，持续%corruption_duration%秒。<br />\r\n<br />\r\n枯萎之石是独占攻效，不与其他独占攻效叠加。"
+    desc: 被动：攻击将降低目标护甲，持续%corruption_duration%秒。
     notes: ''
     attrib: |-
       护甲降低： <span class="attribVal">2</span><br />
@@ -2764,12 +2770,13 @@ itemdata:
     dname: 炎阳纹章
     qual: rare
     cost: 2625
-    desc: 主动：日耀 - 暂时失去炎阳纹章的护甲和闪避加成。对队友施放可以提供%allied_armor%点护甲和%allied_evasion%%的闪避。对敌人施放将降低其%enemy_armor_reduction_tooltip%点护甲，而且带有致盲效果，物理攻击有%miss_chance%%的几率不会命中。无法对技能免疫的敌人施放。
+    desc: 主动：日耀 - 暂时失去炎阳纹章的护甲和闪避加成。对队友施放可以提供%bonus_armor%点护甲和%bonus_evasion%%的闪避。对敌人施放将降低其%bonus_armor%点护甲，而且友军对目标发动攻击时带有%truestrike_chance%%的必中效果。无法对技能免疫的敌人施放。
     notes: ''
     attrib: |-
       + <span class="attribVal">10</span> <span class="attribValText">护甲</span><br />
       + <span class="attribVal">75%</span> <span class="attribValText">魔法恢复</span><br />
-      + <span class="attribVal">25%</span> <span class="attribValText">闪避</span><br />
+      + <span class="attribVal">20%</span> <span class="attribValText">闪避</span><br />
+      必中概率： <span class="attribVal">35%</span><br />
       日耀持续时间： <span class="attribVal">7</span><br />
       日耀施法距离： <span class="attribVal">1000</span>
     mc: false
@@ -2878,6 +2885,9 @@ itemdata:
     notes: ''
     attrib: |-
       + <span class="attribVal">20</span> <span class="attribValText">智力</span><br />
+      + <span class="attribVal">15</span> <span class="attribValText">力量</span><br />
+      + <span class="attribVal">6</span> <span class="attribValText">敏捷</span><br />
+      + <span class="attribVal">6</span> <span class="attribValText">攻击力</span><br />
       致残持续时间： <span class="attribVal">2</span>
     mc: 50
     cd: 16
@@ -2945,7 +2955,7 @@ itemdata:
     cost: 3400
     desc: "主动：缴械 - 阻止目标单位进行物理攻击，持续%disarm_range%/%disarm_melee%（远程/近战）秒。<br />\r\n被动：残废
       - 攻击有概率降低对手的移动速度，持续%maim_duration%秒。<br />\r\n<br />\r\n与其他闪避效果为非线性叠加。"
-    notes: 缴械效果只有技能免疫状态可以移除。
+    notes: ''
     attrib: |-
       + <span class="attribVal">25%</span> <span class="attribValText">闪避</span><br />
       + <span class="attribVal">25</span> <span class="attribValText">攻击力</span><br />

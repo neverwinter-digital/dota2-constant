@@ -264,14 +264,16 @@ itemdata:
     qual: common
     cost: 4000
     desc: "Использование: поглощает Moon Shard и навсегда увеличивает скорость атаки
-      на %consumed_bonus%. Повторное использование невозможно.<br />\r\nПассивная:
-      Shade Sight — увеличивает радиус обзора ночью на %bonus_night_vision%."
+      на %consumed_bonus%, а радиус обзора ночью — на %consumed_bonus_night_vision%.
+      Можно поглотить лишь один Moon Shard.<br />\r\nПассивная: Shade Sight — увеличивает
+      радиус обзора ночью на %bonus_night_vision%."
     notes: Дополнительный ночной обзор работает и во время способности Darkness героя
       Night Stalker.
     attrib: |-
       + <span class="attribVal">120</span> <span class="attribValText">к скорости атаки</span><br />
       ДОП. ОБЗОР НОЧЬЮ: <span class="attribVal">300</span><br />
-      СКОРОСТЬ ПРИ ПОГЛОЩЕНИИ: <span class="attribVal">60</span>
+      СКОРОСТЬ ПРИ ПОГЛОЩЕНИИ: <span class="attribVal">60</span><br />
+      ОБЗОР НОЧЬЮ ПРИ ПОГЛОЩЕНИИ: <span class="attribVal">150</span>
     mc: false
     cd: false
     lore: Говорят, что это слеза Селемине — богини Луны.
@@ -808,7 +810,7 @@ itemdata:
     notes: ''
     attrib: |-
       РАДИУС ОБЗОРА OBSERVER WARD: <span class="attribVal">1600</span><br />
-      ДЛИТЕЛЬНОСТЬ OBSERVER WARD (В МИН.): <span class="attribVal">8</span><br />
+      ДЛИТЕЛЬНОСТЬ OBSERVER WARD (В МИН.): <span class="attribVal">6</span><br />
       РАДИУС РАСКРЫТИЯ SENTRY WARD: <span class="attribVal">850</span><br />
       ДЛИТЕЛЬНОСТЬ SENTRY WARD (В МИН.): <span class="attribVal">4</span>
     mc: false
@@ -1141,9 +1143,9 @@ itemdata:
     dname: Hand of Midas
     qual: common
     cost: 2150
-    desc: 'Активируемая: Transmute — мгновенно убивает любое существо (но не героя),
-      давая за него %bonus_gold% золота и в 1,75 раза больше опыта. Не действует на
-      древних крипов.'
+    desc: 'Активируемая: Transmute — убивает выбранную цель (но не героя), давая за
+      неё %bonus_gold% золота и в %xp_multiplier% раза больше опыта. Не действует
+      на древних крипов.'
     notes: Получаемое золото идет в надежный запас (при этом за убийство крипа стандартная
       награда не дается).<br />Опыт от превращения не делится с другими героями.
     attrib: |-
@@ -1193,7 +1195,7 @@ itemdata:
       + <span class="attribVal">10</span> <span class="attribValText">к урону</span>
     mc: false
     cd: false
-    lore: Камень, способный заменить сердце владельцу.
+    lore: Драгоценность, укрепляющая силы владельца.
     components:
     - ring_of_health
     - void_stone
@@ -1440,7 +1442,9 @@ itemdata:
     notes: Пустая урна получает 2 заряда.<br />Использование этой способности на противнике,
       который уже находится под ее действием, обновит длительность ее действия.
     attrib: |-
-      + <span class="attribVal">1%</span> <span class="attribValText">к регенерации маны</span><br />
+      РЕГЕНЕРАЦИЯ МАНЫ: <span class="attribVal">1</span><br />
+      + <span class="attribVal">2</span> <span class="attribValText">ко всем атрибутам</span><br />
+      + <span class="attribVal">2</span> <span class="attribValText">к броне</span><br />
       СУММАРНОЕ ЛЕЧЕНИЕ: <span class="attribVal">400</span><br />
       СУММАРНЫЙ УРОН: <span class="attribVal">150</span><br />
       ДЛИТЕЛЬНОСТЬ: <span class="attribVal">8</span><br />
@@ -1484,7 +1488,7 @@ itemdata:
     desc: 'Активируемая: Hex — превращает цель в безобидную зверушку на %sheep_duration%
       сек. Мгновенно уничтожает иллюзии.'
     notes: Цель будет иметь базовую скорость в 140 единиц, но эффекты, дающие максимальную
-      скорость, сняты не будут.
+      скорость, не пропадут.
     attrib: |-
       + <span class="attribVal">10</span> <span class="attribValText">к силе</span><br />
       + <span class="attribVal">10</span> <span class="attribValText">к ловкости</span><br />
@@ -1617,6 +1621,7 @@ itemdata:
     notes: ''
     attrib: |-
       + <span class="attribVal">250</span> <span class="attribValText">к мане</span><br />
+      + <span class="attribVal">100%</span> <span class="attribValText">к регенерации маны</span><br />
       + <span class="attribVal">220</span> <span class="attribValText">к дальности применения способностей</span><br />
       ДОП. УРОН СПОСОБНОСТЕЙ: <span class="attribVal">6%</span>
     mc: false
@@ -1690,7 +1695,7 @@ itemdata:
     cost: 2720
     desc: 'Активируемая: Energy Burst — выпускает мощный всплеск энергии, наносящий
       урон выбранному вражескому юниту. Улучшаемая.'
-    notes: ''
+    notes: Мгновенно убивает иллюзии.
     attrib: |-
       + <span class="attribVal">13</span>/16/19/22/25 <span class="attribValText">к интеллекту</span><br />
       + <span class="attribVal"><span class="attribVal">3</span></span> <span class="attribValText">ко всем атрибутам</span><br />
@@ -1713,7 +1718,7 @@ itemdata:
     cost: 3970
     desc: 'Активируемая: Energy Burst — выпускает мощный всплеск энергии, наносящий
       урон выбранному вражескому юниту. Улучшаемая.'
-    notes: ''
+    notes: Мгновенно убивает иллюзии.
     attrib: |-
       + 13/<span class="attribVal">16</span>/19/22/25 <span class="attribValText">к интеллекту</span><br />
       + <span class="attribVal">3</span> <span class="attribValText">ко всем атрибутам</span><br />
@@ -1736,7 +1741,7 @@ itemdata:
     cost: 5220
     desc: 'Активируемая: Energy Burst — выпускает мощный всплеск энергии, наносящий
       урон выбранному вражескому юниту. Улучшаемая.'
-    notes: ''
+    notes: Мгновенно убивает иллюзии.
     attrib: |-
       + 13/16/<span class="attribVal">19</span>/22/25 <span class="attribValText">к интеллекту</span><br />
       + <span class="attribVal">3</span> <span class="attribValText">ко всем атрибутам</span><br />
@@ -1759,7 +1764,7 @@ itemdata:
     cost: 6470
     desc: 'Активируемая: Energy Burst — выпускает мощный всплеск энергии, наносящий
       урон выбранному вражескому юниту. Улучшаемая.'
-    notes: ''
+    notes: Мгновенно убивает иллюзии.
     attrib: |-
       + 13/16/19/<span class="attribVal">22</span>/25 <span class="attribValText">к интеллекту</span><br />
       + <span class="attribVal">3</span> <span class="attribValText">ко всем атрибутам</span><br />
@@ -1782,7 +1787,7 @@ itemdata:
     cost: 7720
     desc: 'Активируемая: Energy Burst — выпускает мощный всплеск энергии, наносящий
       урон выбранному вражескому юниту.'
-    notes: ''
+    notes: Мгновенно убивает иллюзии.
     attrib: |-
       + 13/16/19/22/<span class="attribVal">25</span> <span class="attribValText">к интеллекту</span><br />
       + <span class="attribVal">3</span> <span class="attribValText">ко всем атрибутам</span><br />
@@ -2386,8 +2391,8 @@ itemdata:
       использования больше, если цель способности — вард.<br />\r\nПассивная: Quell
       — увеличивает урон от атак по существам, не являющимися героями, в зависимости
       от типа атаки владельца. Не увеличивает урон по Рошану.<br />\r\nПассивная:
-      Cleave — наносит процент от урона всем врагам в радиусе %cleave_radius% единиц
-      вокруг цели атаки. Не работает на героях с дальней атакой."
+      Cleave — часть урона от атак наносится всем врагам вокруг основной цели. Не
+      работает на героях с дальней атакой."
     notes: Урон соседним целям снижается типом брони, но не её значением.<br />Урон
       неосновным целям проходит через иммунитет к заклинаниям.<br />Каждый предмет
       или способность, дарующий прорубающую атаку, наносит урон отдельно друг от друга.<br
@@ -2630,10 +2635,10 @@ itemdata:
     qual: artifact
     cost: 5700
     desc: "Активируемая: Static Charge — устанавливает на выбранном существе заряженный
-      щит, который имеет шанс в %dstatic_chance%% ударить разрядом атакующего врага
-      и %dstatic_strikes% других.<br />\r\nПассивная: Chain Lightning — дает шанс
-      при атаке создать разряд цепной молнии, которая скакнет по %dchain_strikes%
-      целям и нанесет каждой по %dchain_damage% магического урона."
+      щит, который имеет шанс в %static_chance%% ударить разрядом атакующего врага
+      и %static_strikes% других.<br />\r\nПассивная: Chain Lightning — при атаке даёт
+      шанс создать разряд цепной молнии, которая скакнёт по %chain_strikes% целям
+      и нанесёт каждой по %dhain_damage% магического урона."
     notes: Срабатывает не чаще, чем раз в секунду.<br />Молния от способности Static
       Charge наносит магический урон целям вокруг героя, на котором находится щит.
       Расстояние до целей не может превышать 900 единиц.<br />Молнии Static Charge
@@ -2735,8 +2740,8 @@ itemdata:
     dname: Maelstrom
     qual: artifact
     cost: 2800
-    desc: 'Пассивная: Chain Lightning — дает шанс при атаке создать разряд цепной
-      молнии, которая скакнет по %dchain_strikes% целям и нанесет каждой по %dchain_damage%
+    desc: 'Пассивная: Chain Lightning — при атаке даёт шанс создать разряд цепной
+      молнии, которая скакнёт по %chain_strikes% целям и нанесёт каждой по %chain_damage%
       магического урона.'
     notes: ''
     attrib: |-
@@ -2760,9 +2765,7 @@ itemdata:
     dname: Desolator
     qual: artifact
     cost: 3500
-    desc: "Пассивная: Corruption — ваши атаки уменьшают броню цели на 15 секунд.<br
-      />\r\n<br />\r\nDesolator — уникальный модификатор атаки, он не сочетается с
-      другими уникальными модификаторами атаки."
+    desc: 'Пассивная: Corruption — ваши атаки уменьшают броню цели на 15 секунд.'
     notes: Снижение брони действует на здания.
     attrib: |-
       + <span class="attribVal">50</span> <span class="attribValText">к урону</span><br />
@@ -2810,10 +2813,12 @@ itemdata:
       не сочетается с другими уникальными модификаторами атаки."
     notes: ''
     attrib: "+ <span class=\"attribVal\">20</span> <span class=\"attribValText\">к
-      урону</span><br />\nВАМПИРИЗМ: <span class=\"attribVal\">15%</span><br />\nСПОСОБНОСТЬ
-      BERSERK:\r\n• УСКОРЕНИЕ АТАКИ: <span class=\"attribVal\">110</span><br />\n•
-      УСКОРЕНИЕ ПЕРЕДВИЖЕНИЯ: <span class=\"attribVal\">17%</span><br />\n• УМЕНЬШЕНИЕ
-      БРОНИ: <span class=\"attribVal\">5</span><br />\n• ДЛИТЕЛЬНОСТЬ: <span class=\"attribVal\">8</span>"
+      урону</span><br />\n+ <span class=\"attribVal\">10</span> <span class=\"attribValText\">к
+      скорости атаки</span><br />\nВАМПИРИЗМ: <span class=\"attribVal\">15%</span><br
+      />\nСПОСОБНОСТЬ BERSERK:\r\n• УСКОРЕНИЕ АТАКИ: <span class=\"attribVal\">110</span><br
+      />\n• УСКОРЕНИЕ ПЕРЕДВИЖЕНИЯ: <span class=\"attribVal\">17%</span><br />\n•
+      УМЕНЬШЕНИЕ БРОНИ: <span class=\"attribVal\">5</span><br />\n• ДЛИТЕЛЬНОСТЬ:
+      <span class=\"attribVal\">8</span>"
     mc: 25
     cd: 20
     lore: Как только эта маска надета, ее носитель тут же становится безудержной яростной
@@ -2855,13 +2860,13 @@ itemdata:
     dname: Diffusal Blade
     qual: artifact
     cost: 3850
-    desc: "Active: Purge - Targets an enemy, removing buffs from the target and slowing
-      it for %purge_slow_duration% seconds.<br />\r\nPassive: Manabreak - Each attack
-      burns %feedback_mana_burn% mana from the target, and deals %damage_per_burn%
-      physical damage per burned mana. Burns %feedback_mana_burn_illusion_melee% mana
-      per attack from melee illusions and %feedback_mana_burn_illusion_ranged% mana
-      per attack from ranged illusions. Does not stack with other manabreak abilities.<br
-      />\r\n<br />\r\nDISPEL TYPE: Basic Dispel"
+    desc: "Активируемая: Purge — снимает с противника положительные эффекты и замедляет
+      его на %purge_slow_duration% сек.<br />\r\nПассивная: Manabreak — каждая атака
+      сжигает %feedback_mana_burn% маны врага и наносит ему %damage_per_burn% физического
+      урона за единицу сожженной маны. Иллюзии героев ближнего боя сжигают по %feedback_mana_burn_illusion_melee%
+      маны за атаку, а дальнего боя — %feedback_mana_burn_illusion_ranged%. Не складывается
+      с другими способностями, сжигающими ману.<br />\r\n<br />\r\nТИП РАЗВЕИВАНИЯ:
+      Нормальное"
     notes: ''
     attrib: |-
       + 25/<span class="attribVal">35</span> <span class="attribValText">к ловкости</span><br />
@@ -3000,9 +3005,7 @@ itemdata:
     dname: Blight Stone
     qual: component
     cost: 300
-    desc: "Пассивная: Ваши атаки уменьшают броню цели на %corruption_duration% секунд.<br
-      />\r\n<br />\r\nBlight Stone — уникальный модификатор атаки, он не сочетается
-      с другими уникальными модификаторами атаки."
+    desc: 'Пассивная: Ваши атаки уменьшают броню цели на %corruption_duration% секунд.'
     notes: ''
     attrib: |-
       СНИЖЕНИЕ БРОНИ: <span class="attribVal">2</span><br />
@@ -3071,17 +3074,17 @@ itemdata:
     dname: Solar Crest
     qual: rare
     cost: 2625
-    desc: 'Активируемая: Shine — временно убирает у владельца дополнительную броню
-      и шанс уклонения, даруемые этим предметом. При использовании на союзнике увеличивает
-      ему броню на %allied_armor% и дает шанс уклонения в %allied_evasion%%. При использовании
-      на противнике уменьшает его броню на %enemy_armor_reduction_tooltip% и ослепляет,
-      заставляя его промахиваться атаками в %miss_chance%% случаев. Не действует на
-      невосприимчивых к магии противников.'
+    desc: 'Active: Shine - Temporarily removes the armor and evasion from Solar Crest.
+      When cast on an ally it grants them %bonus_armor% armor and %bonus_evasion%%
+      evasion. When cast on an enemy, it removes %bonus_armor% of their armor and
+      grants your allies to have %truestrike_chance%% Accuracy on the target. Cannot
+      target magic immune enemies.'
     notes: ''
     attrib: |-
       + <span class="attribVal">10</span> <span class="attribValText">к броне</span><br />
       + <span class="attribVal">75%</span> <span class="attribValText">к регенерации маны</span><br />
-      + <span class="attribVal">25%</span> <span class="attribValText">к уклонению</span><br />
+      + <span class="attribVal">20%</span> <span class="attribValText">к уклонению</span><br />
+      ACCURACY: <span class="attribVal">35%</span><br />
       ДЛИТЕЛЬНОСТЬ: <span class="attribVal">7</span><br />
       ДАЛЬНОСТЬ ПРИМЕНЕНИЯ: <span class="attribVal">1000</span>
     mc: false
@@ -3200,6 +3203,9 @@ itemdata:
     notes: ''
     attrib: |-
       + <span class="attribVal">20</span> <span class="attribValText">к интеллекту</span><br />
+      + <span class="attribVal">15</span> <span class="attribValText">к силе</span><br />
+      + <span class="attribVal">6</span> <span class="attribValText">к ловкости</span><br />
+      + <span class="attribVal">6</span> <span class="attribValText">к урону</span><br />
       ДЛИТЕЛЬНОСТЬ: <span class="attribVal">2</span>
     mc: 50
     cd: 16
@@ -3238,7 +3244,7 @@ itemdata:
     dname: Abyssal Blade
     qual: epic
     cost: 6400
-    desc: "Активируемая: Overwhelm — оглушает выбранного противника на %dstun_duration%
+    desc: "Активируемая: Overwhelm — оглушает выбранного противника на %stun_duration%
       сек. Проходит сквозь невосприимчивость к заклинаниям.<br />\r\nПассивная: Bash
       — дает каждой атаке шанс оглушить противника на %bash_duration% сек. и нанести
       %bonus_chance_damage% дополнительного урона; шанс зависит от типа атаки владельца.<br
@@ -3276,7 +3282,7 @@ itemdata:
       боя.<br />\r\nПассивная: Lesser Maim — каждая атака получает шанс нанести травму,
       уменьшающую скорость передвижения и атаки врага на %maim_duration% сек.<br />\r\n<br
       />\r\nСочетается по закону убывающей полезности с другими источниками уклонения."
-    notes: Разоружение снимается только невосприимчивостью к заклинаниям.
+    notes: ''
     attrib: "+ <span class=\"attribVal\">25%</span> <span class=\"attribValText\">к
       уклонению</span><br />\n+ <span class=\"attribVal\">25</span> <span class=\"attribValText\">к
       урону</span><br />\n+ <span class=\"attribVal\">20</span> <span class=\"attribValText\">к

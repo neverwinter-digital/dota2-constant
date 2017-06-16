@@ -255,13 +255,15 @@ itemdata:
     dname: 달 조각
     qual: common
     cost: 4000
-    desc: "사용: 아이템을 소모하여 영구적으로 %consumed_bonus% 공격 속도를 얻습니다. 중첩되지 않습니다.<br />\r\n지속
-      효과: 그늘의 시야 - 밤 시야가 %bonus_night_vision% 증가합니다."
+    desc: "사용: 아이템을 소모하여 영구적으로 %consumed_bonus% 공격 속도와 %consumed_bonus_night_vision%의
+      보너스 밤 시야를 얻습니다. 중첩되지 않습니다.<br />\r\n지속 효과: 그늘의 시야 - 밤 시야가 %bonus_night_vision%
+      증가합니다."
     notes: 보너스 밤 시야는 밤의 추격자가 암흑 능력을 사용하는 동안에도 적용됩니다.
     attrib: |-
       + <span class="attribVal">120</span> <span class="attribValText">공격 속도</span><br />
       그늘 보너스 밤 시야: <span class="attribVal">300</span><br />
-      소모하여 얻는 공격 속도: <span class="attribVal">60</span>
+      소모하여 얻는 공격 속도: <span class="attribVal">60</span><br />
+      소모 후 획득 밤 시야: <span class="attribVal">150</span>
     mc: false
     cd: false
     lore: 달의 여신 셀레메네의 눈물이라고 전해집니다.
@@ -761,7 +763,7 @@ itemdata:
     notes: ''
     attrib: |-
       관찰 시야 범위: <span class="attribVal">1600</span><br />
-      관찰 지속시간(분): <span class="attribVal">8</span><br />
+      관찰 지속시간(분): <span class="attribVal">6</span><br />
       감시 진실의 시야 범위: <span class="attribVal">850</span><br />
       감시 지속시간(분): <span class="attribVal">4</span>
     mc: false
@@ -1077,7 +1079,7 @@ itemdata:
     dname: 미다스의 손
     qual: common
     cost: 2150
-    desc: '시전 기술: 금 변환 - 영웅이 아닌 대상을 처치하고 %bonus_gold%골드와 1.75배의 경험치를 획득합니다. 고대 크립에게는
+    desc: '시전 기술: 금 변환 - 영웅이 아닌 대상을 처치하고 %bonus_gold%골드와 1.85배의 경험치를 획득합니다. 고대 크립에게는
       사용할 수 없습니다.'
     notes: 제공되는 골드는 안전 골드입니다. 크립을 처치했을 때 받는 일반 현상금은 받을 수 없습니다.<br />금 변환 기술로 획득한 경험치는
       다른 영웅과 공유하지 않습니다.
@@ -1356,7 +1358,9 @@ itemdata:
       에너지를 충전합니다. 죽은 영웅에게서 가장 가까운 항아리 하나만 충전됩니다."
     notes: 빈 항아리는 2회 충전됩니다.<br />이미 영혼 해방 효과가 걸린 영웅에게 사용할 경우 효과의 지속시간을 초기화합니다.
     attrib: |-
-      + <span class="attribVal">1%</span> <span class="attribValText">마나 재생</span><br />
+      마나 재생: <span class="attribVal">1</span><br />
+      + <span class="attribVal">2</span> <span class="attribValText">모든 능력치</span><br />
+      + <span class="attribVal">2</span> <span class="attribValText">방어력</span><br />
       아군에게 준 총 치유: <span class="attribVal">400</span><br />
       적에게 준 총 피해: <span class="attribVal">150</span><br />
       영혼 해방 지속시간: <span class="attribVal">8</span><br />
@@ -1519,6 +1523,7 @@ itemdata:
     notes: ''
     attrib: |-
       + <span class="attribVal">250</span> <span class="attribValText">마나</span><br />
+      + <span class="attribVal">100%</span> <span class="attribValText">마나 재생</span><br />
       + <span class="attribVal">220</span> <span class="attribValText">시전 범위</span><br />
       주문 피해 증폭: <span class="attribVal">6%</span>
     mc: false
@@ -1583,7 +1588,7 @@ itemdata:
     qual: rare
     cost: 2720
     desc: '시전 기술: 에너지 폭발 - 강력한 마법 폭발을 일으켜 대상 적 유닛에게 피해를 줍니다. 강화 가능'
-    notes: ''
+    notes: 환영을 즉시 제거합니다.
     attrib: |-
       + <span class="attribVal">13</span>/16/19/22/25 <span class="attribValText">지능</span><br />
       + <span class="attribVal"><span class="attribVal">3</span></span> <span class="attribValText">모든 능력치</span><br />
@@ -1604,7 +1609,7 @@ itemdata:
     qual: rare
     cost: 3970
     desc: '시전 기술: 에너지 폭발 - 강력한 마법 폭발을 일으켜 대상 적 유닛에게 피해를 줍니다. 강화 가능'
-    notes: ''
+    notes: 환영을 즉시 제거합니다.
     attrib: |-
       + 13/<span class="attribVal">16</span>/19/22/25 <span class="attribValText">지능</span><br />
       + <span class="attribVal">3</span> <span class="attribValText">모든 능력치</span><br />
@@ -1625,7 +1630,7 @@ itemdata:
     qual: rare
     cost: 5220
     desc: '시전 기술: 에너지 폭발 - 강력한 마법 폭발을 일으켜 대상 적 유닛에게 피해를 줍니다. 강화 가능'
-    notes: ''
+    notes: 환영을 즉시 제거합니다.
     attrib: |-
       + 13/16/<span class="attribVal">19</span>/22/25 <span class="attribValText">지능</span><br />
       + <span class="attribVal">3</span> <span class="attribValText">모든 능력치</span><br />
@@ -1646,7 +1651,7 @@ itemdata:
     qual: rare
     cost: 6470
     desc: '시전 기술: 에너지 폭발 - 강력한 마법 폭발을 일으켜 대상 적 유닛에게 피해를 줍니다. 강화 가능'
-    notes: ''
+    notes: 환영을 즉시 제거합니다.
     attrib: |-
       + 13/16/19/<span class="attribVal">22</span>/25 <span class="attribValText">지능</span><br />
       + <span class="attribVal">3</span> <span class="attribValText">모든 능력치</span><br />
@@ -1667,7 +1672,7 @@ itemdata:
     qual: rare
     cost: 7720
     desc: '시전 기술: 에너지 폭발 - 강력한 마법 폭발을 일으켜 대상 적 유닛에게 피해를 줍니다.'
-    notes: ''
+    notes: 환영을 즉시 제거합니다.
     attrib: |-
       + 13/16/19/22/<span class="attribVal">25</span> <span class="attribValText">지능</span><br />
       + <span class="attribVal">3</span> <span class="attribValText">모든 능력치</span><br />
@@ -2067,7 +2072,7 @@ itemdata:
       + <span class="attribVal">425</span> <span class="attribValText">마나</span>
     mc: false
     cd: false
-    lore: 잃어버린 용기를 되찾으세요!
+    lore: 잃어버린 용기가 되살아납니다.
     components:
     - vitality_booster
     - energy_booster
@@ -2227,7 +2232,7 @@ itemdata:
     cost: 4500
     desc: "시전 기술: 나무/와드 부수기 - 대상 나무를 베거나 와드를 파괴합니다.<br />\r\n지속 효과: 진압 - 비영웅 유닛을 상대로
       공격력이 증가합니다. 장착한 영웅이 원거리인지 근접인지에 따라 각기 다르게 적용됩니다.<br />\r\n<br />\r\n지속 효과: 가르기
-      - 대상 주변 %cleave_radius% 범위에 공격력의 일정 비율만큼 피해를 줍니다. 원거리 영웅에게는 효과가 적용되지 않습니다."
+      - 대상 주변 지역에 공격력의 일정 비율만큼 피해를 줍니다. 원거리 영웅에게는 효과가 적용되지 않습니다."
     notes: 가르기 피해량은 방어력이 아닌 방어 유형에 따라 감소합니다.<br />가르기는 주문 면역을 무시하고 피해를 줍니다.<br />다수의
       가르기 효과가 있다면, 가르기 피해는 각각 별도로 적용됩니다.<br />벌목 도끼나 전장격노의 부수기로 기술단의 원격 지뢰를 제거할 수
       있습니다.
@@ -2451,10 +2456,9 @@ itemdata:
     dname: 묠니르
     qual: artifact
     cost: 5700
-    desc: "시전 기술: 정전기 - 지정한 유닛에 에너지의 장을 겁니다. 효과를 받은 유닛은 %dstatic_chance% 확률로 주위 공격자에게
-      연쇄 번개를 일으켜 추가로 %dstatic_strikes%명의 적에게 피해를 줍니다.<br />\r\n지속 효과: 연쇄 번개 - 공격 시
-      일정 확률로 한 줄기 전기를 발사하여 %dchain_strikes%명을 타격하고 각 대상에게 %dchain_damage%의 마법 피해를
-      줍니다."
+    desc: "시전 기술: 정전기 - 지정한 유닛에 에너지의 장을 겁니다. 효과를 받은 유닛은 %static_chance%% 확률로 주위 공격자에게
+      연쇄 번개를 일으켜 추가로 %static_strikes%명의 적에게 피해를 줍니다.<br />\r\n지속 효과: 연쇄 번개 - 공격 시
+      일정 확률로 한 줄기 전기를 발사하여 %chain_strikes%명을 타격하고 각 대상에게 %chain_damage%의 마법 피해를 줍니다."
     notes: 정전기는 초당 최대 1번씩만 발동합니다.<br />정전기 충격을 받은 유닛의 900범위 내에 있는 대상에게 마법 피해가 전달됩니다.<br
       />정전기는 투명 영웅이나 전장의 안개에 가려진 영웅을 타격하지 않습니다.
     attrib: |-
@@ -2556,8 +2560,8 @@ itemdata:
     dname: 혼돈의 망치
     qual: artifact
     cost: 2800
-    desc: '지속 효과: 연쇄 번개 - 공격 시 일정 확률로 한 줄기 전기를 발사하여 %dchain_strikes%명을 타격하고 각 대상에게
-      %dchain_damage%의 마법 피해를 줍니다.'
+    desc: '지속 효과: 연쇄 번개 - 공격 시 일정 확률로 한 줄기 전기를 발사하여 %chain_strikes%명을 타격하고 각 대상에게
+      %chain_damage%의 마법 피해를 줍니다.'
     notes: ''
     attrib: |-
       + <span class="attribVal">24</span> <span class="attribValText">피해</span><br />
@@ -2579,8 +2583,7 @@ itemdata:
     dname: 심판도
     qual: artifact
     cost: 3500
-    desc: "지속 효과: 부패 - 공격 시 15초 동안 대상의 방어력을 감소시킵니다.<br />\r\n<br />\r\n심판도 효과는 고유
-      공격 변형 요인입니다. 다른 고유 공격 변형 요인과 중첩되지 않습니다."
+    desc: '지속 효과: 부패 - 공격 시 15초 동안 대상의 방어력을 감소시킵니다.'
     notes: 방어력 감소 효과는 건물에도 적용됩니다.
     attrib: |-
       + <span class="attribVal">50</span> <span class="attribValText">피해</span><br />
@@ -2618,18 +2621,19 @@ itemdata:
     dname: 광기의 가면
     qual: artifact
     cost: 1975
-    desc: "시전 기술: 광포화 - 공격 속도가 %berserk_bonus_attack_speed% 증가하고 이동 속도가 %berserk_bonus_movement_speed%%
+    desc: "시전 기술: 광폭화 - 공격 속도가 %berserk_bonus_attack_speed% 증가하고 이동 속도가 %berserk_bonus_movement_speed%%
       증가합니다. 동시에 방어력이 %berserk_armor_reduction% 감소하고 침묵합니다. %berserk_duration%초 동안
       지속합니다.<br />\r\n지속 효과: 흡혈 - 가한 피해의 일정 비율만큼 공격자를 치유합니다.<br />\r\n<br />\r\n광기의
       가면은 고유 공격 변형 요인입니다. 다른 고유 공격 변형 요인과 중첩되지 않습니다."
     notes: ''
     attrib: |-
       + <span class="attribVal">20</span> <span class="attribValText">피해</span><br />
+      + <span class="attribVal">10</span> <span class="attribValText">공격 속도</span><br />
       흡혈: <span class="attribVal">15%</span><br />
-      광포화 공격 속도: <span class="attribVal">110</span><br />
-      광포화 이동 속도: <span class="attribVal">17%</span><br />
+      광폭화 공격 속도: <span class="attribVal">110</span><br />
+      광폭화 이동 속도: <span class="attribVal">17%</span><br />
       광폭화 방어력 감소: <span class="attribVal">5</span><br />
-      광포화 지속시간: <span class="attribVal">8</span>
+      광폭화 지속시간: <span class="attribVal">8</span>
     mc: 25
     cd: 20
     lore: 이 가면을 쓴 자는 주체할 수 없는 공격성을 띱니다.
@@ -2803,8 +2807,7 @@ itemdata:
     dname: 황폐석
     qual: component
     cost: 300
-    desc: "지속 효과: 공격 시 %corruption_duration%초 동안 대상의 방어력이 감소합니다.<br />\r\n<br />\r\n황폐석은
-      고유 공격 변형 요인입니다. 다른 고유 공격 변형 요인과 중첩되지 않습니다."
+    desc: '지속 효과: 공격 시 %corruption_duration%초 동안 대상의 방어력이 감소합니다.'
     notes: ''
     attrib: |-
       방어력 감소: <span class="attribVal">2</span><br />
@@ -2872,14 +2875,15 @@ itemdata:
     dname: 태양의 문장
     qual: rare
     cost: 2625
-    desc: '시전 기술: 발광 - 태양의 문장으로 얻는 방어력과 회피 효과를 잃습니다. 아군을 대상으로 사용하면 방어력을 %allied_armor%만큼,
-      회피를 %allied_evasion%%만큼 증가시킵니다. 적에게 사용하면 방어력을 %enemy_armor_reduction_tooltip%만큼
-      감소시키고 눈을 멀게 만들어 %miss_chance%% 확률로 공격이 빗나가게 합니다. 마법 면역인 적은 대상으로 지정할 수 없습니다.'
+    desc: '시전 기술: 발광 - 태양의 문장으로 얻는 방어력과 회피 효과를 잃습니다. 아군을 대상으로 사용하면 방어력을 %bonus_armor%만큼,
+      회피를 %bonus_evasion%%만큼 증가시킵니다. 적에게 사용하면 방어력을 %bonus_armor%만큼 감소시키고 아군이 %truestrike_chance%%의
+      정확도로 대상을 타격하게 합니다. 마법 면역인 적은 대상으로 지정할 수 없습니다.'
     notes: ''
     attrib: |-
       + <span class="attribVal">10</span> <span class="attribValText">방어력</span><br />
       + <span class="attribVal">75%</span> <span class="attribValText">마나 재생</span><br />
-      + <span class="attribVal">25%</span> <span class="attribValText">회피</span><br />
+      + <span class="attribVal">20%</span> <span class="attribValText">회피</span><br />
+      정확도: <span class="attribVal">35%</span><br />
       발광 지속시간: <span class="attribVal">7</span><br />
       발광 시전 범위: <span class="attribVal">1000</span>
     mc: false
@@ -2992,6 +2996,9 @@ itemdata:
     notes: ''
     attrib: |-
       + <span class="attribVal">20</span> <span class="attribValText">지능</span><br />
+      + <span class="attribVal">15</span> <span class="attribValText">힘</span><br />
+      + <span class="attribVal">6</span> <span class="attribValText">민첩</span><br />
+      + <span class="attribVal">6</span> <span class="attribValText">피해</span><br />
       마비 지속시간: <span class="attribVal">2</span>
     mc: 50
     cd: 16
@@ -3029,7 +3036,7 @@ itemdata:
     dname: 심연의 검
     qual: epic
     cost: 6400
-    desc: "시전 기술: 압도 - 대상 적 유닛을 %dstun_duration%초 동안 기절시킵니다. 주문 면역을 관통합니다.<br />\r\n지속
+    desc: "시전 기술: 압도 - 대상 적 유닛을 %stun_duration% 초 동안 기절시킵니다. 주문 면역을 관통합니다.<br />\r\n지속
       효과: 강타 - 매 공격 시 일정 확률로 대상을 %bash_duration%초 동안 기절시키고 %bonus_chance_damage%의
       보너스 피해를 줍니다. 근접 영웅이 사용할 때와 원거리 영웅이 사용할 때 확률이 달라집니다.<br />\r\n지속 효과: 피해 방어 -
       공격을 받을 때 %block_chance%%의 확률로 피해를 방어합니다. 근접 영웅이 사용할 때와 원거리 영웅이 사용할 때 방어하는 피해량이
@@ -3065,7 +3072,7 @@ itemdata:
     desc: "시전 기술: 무장 해제 - 대상을 공격 불능 상태에 빠트립니다. 대상이 근접 영웅이면 %disarm_melee%초 동안, 원거리
       영웅이면 %disarm_range%초 동안 지속합니다. <br />\r\n지속 효과: 경상 - 매 공격 시 일정 확률로 %maim_duration%초
       동안 이동 및 공격 둔화 효과를 겁니다.<br />\r\n<br />\r\n다른 회피 효과와 중첩 시 효율이 점차 감소합니다."
-    notes: 무장 해제 효과는 주문 면역으로만 제거할 수 있습니다.
+    notes: ''
     attrib: |-
       + <span class="attribVal">25%</span> <span class="attribValText">회피</span><br />
       + <span class="attribVal">25</span> <span class="attribValText">피해</span><br />

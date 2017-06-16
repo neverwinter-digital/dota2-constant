@@ -756,15 +756,15 @@
         }
     },
     "19": {
-        "6048": {
+        "5982": {
             "type": "level_10_right",
-            "info_en": "+6 Strength",
-            "info_zh": "+6 力量"
+            "info_en": "+8 Strength",
+            "info_zh": "+8 力量"
         },
-        "5926": {
+        "6567": {
             "type": "level_10_left",
-            "info_en": "+12 Intelligence",
-            "info_zh": "+12 智力"
+            "info_en": "+14 Intelligence",
+            "info_zh": null
         },
         "6366": {
             "type": "level_15_right",
@@ -1433,10 +1433,10 @@
             "info_en": "+40 Damage",
             "info_zh": "+40 攻击力"
         },
-        "6048": {
+        "5982": {
             "type": "level_10_left",
-            "info_en": "+6 Strength",
-            "info_zh": "+6 力量"
+            "info_en": "+8 Strength",
+            "info_zh": "+8 力量"
         },
         "5922": {
             "type": "level_15_right",
@@ -1829,7 +1829,7 @@
         "6403": {
             "type": "level_20_right",
             "info_en": "+0.75 Netherward Damage Per Mana",
-            "info_zh": "+0.5 幽冥守卫伤害系数"
+            "info_zh": "+0.75 幽冥守卫伤害系数"
         },
         "6056": {
             "type": "level_20_left",
@@ -2100,15 +2100,15 @@
         }
     },
     "52": {
-        "5901": {
+        "6034": {
             "type": "level_10_right",
-            "info_en": "+125 Health",
-            "info_zh": "+125 生命"
+            "info_en": "+175 Health",
+            "info_zh": "+175 生命"
         },
-        "5917": {
+        "5919": {
             "type": "level_10_left",
-            "info_en": "+15 Movement Speed",
-            "info_zh": "+15 移动速度"
+            "info_en": "+25 Movement Speed",
+            "info_zh": "+25 移动速度"
         },
         "6321": {
             "type": "level_15_right",
@@ -2994,7 +2994,7 @@
         },
         "6350": {
             "type": "level_15_right",
-            "info_en": "+80 Unstable Concoction Damage",
+            "info_en": "+100 Unstable Concoction Damage",
             "info_zh": "+80 不稳定化合物伤害"
         },
         "5922": {
@@ -4686,10 +4686,10 @@
             "info_en": "+20 Attack Speed",
             "info_zh": "+20 攻击速度"
         },
-        "5971": {
+        "6239": {
             "type": "level_10_left",
-            "info_en": "10% Evasion",
-            "info_zh": "10% 闪避"
+            "info_en": "12% Evasion",
+            "info_zh": "12% 闪避"
         },
         "6311": {
             "type": "level_15_right",

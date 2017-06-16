@@ -266,13 +266,14 @@ itemdata:
     qual: common
     cost: 4000
     desc: "Use: Consume the Moon Shard to permanently gain %consumed_bonus% attack
-      speed. Does not stack.<br />\r\nPassive: Shade Sight - Grants %bonus_night_vision%
-      bonus night vision."
+      speed and %consumed_bonus_night_vision% bonus night vision. Does not stack.<br
+      />\r\nPassive: Shade Sight - Grants %bonus_night_vision% bonus night vision."
     notes: The bonus night vision works during Night Stalker's Darkness ability.
     attrib: |-
       + <span class="attribVal">120</span> <span class="attribValText">Attack Speed</span><br />
       SHADE BONUS NIGHT VISION: <span class="attribVal">300</span><br />
-      CONSUME ATTACK SPEED: <span class="attribVal">60</span>
+      CONSUME ATTACK SPEED: <span class="attribVal">60</span><br />
+      CONSUME NIGHT VISION: <span class="attribVal">150</span>
     mc: false
     cd: false
     lore: Said to be a tear from the lunar goddess Selemene.
@@ -800,7 +801,7 @@ itemdata:
     notes: ''
     attrib: |-
       OBSERVER VISION RANGE: <span class="attribVal">1600</span><br />
-      OBSERVER DURATION (MINUTES): <span class="attribVal">8</span><br />
+      OBSERVER DURATION (MINUTES): <span class="attribVal">6</span><br />
       SENTRY TRUE SIGHT RANGE: <span class="attribVal">850</span><br />
       SENTRY DURATION (MINUTES): <span class="attribVal">4</span>
     mc: false
@@ -1137,7 +1138,7 @@ itemdata:
     dname: Hand of Midas
     qual: common
     cost: 2150
-    desc: 'Active: Transmute - Kills a non-hero target for %bonus_gold% gold and 1.75x
+    desc: 'Active: Transmute - Kills a non-hero target for %bonus_gold% gold and 1.85x
       experience.  Cannot be used on Ancient Creeps.'
     notes: The gold given is reliable gold (you do not get the normal creep bounty).<br
       />Experience gained by using Transmute is not shared.
@@ -1434,7 +1435,9 @@ itemdata:
     notes: Empty urns gain 2 charges.<br />If used on a hero with Soul Release already
       active on them, it will refresh its duration.
     attrib: |-
-      + <span class="attribVal">1%</span> <span class="attribValText">Mana Regeneration</span><br />
+      MANA REGEN: <span class="attribVal">1</span><br />
+      + <span class="attribVal">2</span> <span class="attribValText">All Attributes</span><br />
+      + <span class="attribVal">2</span> <span class="attribValText">Armor</span><br />
       RELEASE ALLY TOTAL HEAL: <span class="attribVal">400</span><br />
       RELEASE ENEMY TOTAL DAMAGE: <span class="attribVal">150</span><br />
       SOUL RELEASE DURATION: <span class="attribVal">8</span><br />
@@ -1609,6 +1612,7 @@ itemdata:
     notes: ''
     attrib: |-
       + <span class="attribVal">250</span> <span class="attribValText">Mana</span><br />
+      + <span class="attribVal">100%</span> <span class="attribValText">Mana Regeneration</span><br />
       + <span class="attribVal">220</span> <span class="attribValText">Cast Range</span><br />
       SPELL DAMAGE AMP: <span class="attribVal">6%</span>
     mc: false
@@ -1679,7 +1683,7 @@ itemdata:
     cost: 2720
     desc: 'Active: Energy Burst - Emits a powerful burst of magical damage upon a
       targeted enemy unit. Upgradable.'
-    notes: ''
+    notes: Instantly kills illusions.
     attrib: |-
       + <span class="attribVal">13</span>/16/19/22/25 <span class="attribValText">Intelligence</span><br />
       + <span class="attribVal"><span class="attribVal">3</span></span> <span class="attribValText">All Attributes</span><br />
@@ -1702,7 +1706,7 @@ itemdata:
     cost: 3970
     desc: 'Active: Energy Burst - Emits a powerful burst of magical damage upon a
       targeted enemy unit. Upgradable.'
-    notes: ''
+    notes: Instantly kills illusions.
     attrib: |-
       + 13/<span class="attribVal">16</span>/19/22/25 <span class="attribValText">Intelligence</span><br />
       + <span class="attribVal">3</span> <span class="attribValText">All Attributes</span><br />
@@ -1725,7 +1729,7 @@ itemdata:
     cost: 5220
     desc: 'Active: Energy Burst - Emits a powerful burst of magical damage upon a
       targeted enemy unit. Upgradable.'
-    notes: ''
+    notes: Instantly kills illusions.
     attrib: |-
       + 13/16/<span class="attribVal">19</span>/22/25 <span class="attribValText">Intelligence</span><br />
       + <span class="attribVal">3</span> <span class="attribValText">All Attributes</span><br />
@@ -1748,7 +1752,7 @@ itemdata:
     cost: 6470
     desc: 'Active: Energy Burst - Emits a powerful burst of magical damage upon a
       targeted enemy unit. Upgradable.'
-    notes: ''
+    notes: Instantly kills illusions.
     attrib: |-
       + 13/16/19/<span class="attribVal">22</span>/25 <span class="attribValText">Intelligence</span><br />
       + <span class="attribVal">3</span> <span class="attribValText">All Attributes</span><br />
@@ -1771,7 +1775,7 @@ itemdata:
     cost: 7720
     desc: 'Active: Energy Burst - Emits a powerful burst of magical damage upon a
       targeted enemy unit.'
-    notes: ''
+    notes: Instantly kills illusions.
     attrib: |-
       + 13/16/19/22/<span class="attribVal">25</span> <span class="attribValText">Intelligence</span><br />
       + <span class="attribVal">3</span> <span class="attribValText">All Attributes</span><br />
@@ -2376,8 +2380,8 @@ itemdata:
       is increased when targetting wards.<br />\r\nPassive: Quell - Increases attack
       damage against non-hero units, based on whether the equipped hero is ranged
       or melee. Does not provide bonus damage against Roshan.<br />\r\nPassive: Cleave
-      - Deals a percent of attack damage in a %cleave_radius% area around the target.
-      Ranged units cannot Cleave."
+      - Deals a percent of attack damage in an area around the target. Ranged units
+      cannot Cleave."
     notes: Cleave damage is reduced by armor type but not by armor value.<br />Cleave
       damage goes through spell immunity.<br />If multiple sources of Cleave are present,
       each Cleave's damage is applied separately.<br />Chop can be used to destroy
@@ -2621,10 +2625,10 @@ itemdata:
     qual: artifact
     cost: 5700
     desc: "Active: Static Charge - Places a charged shield on a target unit which
-      has a %dstatic_chance%% chance to release a shocking bolt at a nearby attacker
-      and %dstatic_strikes% additional enemies.<br />\r\nPassive: Chain Lightning
-      - Grants a chance on attack to release a bolt of electricity that leaps between
-      %dchain_strikes% targets, dealing %dchain_damage% magical damage to each."
+      has a %static_chance%% chance to release a shocking bolt at a nearby attacker
+      and %static_strikes% additional enemies.<br />\r\nPassive: Chain Lightning -
+      Grants a chance on attack to release a bolt of electricity that leaps between
+      %chain_strikes% targets, dealing %chain_damage% magical damage to each."
     notes: Static Charge cannot trigger more than once per second.<br />Static Charge's
       shock deals magical damage centered on hero with the Static Charge. Static Charge's
       targets cannot be more than 900 range away.<br />Static Charge procs will not
@@ -2735,7 +2739,7 @@ itemdata:
     qual: artifact
     cost: 2800
     desc: 'Passive: Chain Lightning - Grants a chance on attack to release a bolt
-      of electricity that leaps between %dchain_strikes% targets, dealing %dchain_damage%
+      of electricity that leaps between %chain_strikes% targets, dealing %chain_damage%
       magical damage to each.'
     notes: ''
     attrib: |-
@@ -2759,9 +2763,7 @@ itemdata:
     dname: Desolator
     qual: artifact
     cost: 3500
-    desc: "Passive: Corruption - Your attacks reduce target's armor for 15 seconds.<br
-      />\r\n<br />\r\nDesolator is a Unique Attack Modifier, and does not stack with
-      other Unique Attack Modifiers."
+    desc: 'Passive: Corruption - Your attacks reduce target''s armor for 15 seconds.'
     notes: Armor reduction works on buildings.
     attrib: |-
       + <span class="attribVal">50</span> <span class="attribValText">Damage</span><br />
@@ -2808,6 +2810,7 @@ itemdata:
     notes: ''
     attrib: |-
       + <span class="attribVal">20</span> <span class="attribValText">Damage</span><br />
+      + <span class="attribVal">10</span> <span class="attribValText">Attack Speed</span><br />
       LIFESTEAL: <span class="attribVal">15%</span><br />
       BERSERK ATTACK SPEED: <span class="attribVal">110</span><br />
       BERSERK MOVE SPEED: <span class="attribVal">17%</span><br />
@@ -3000,9 +3003,8 @@ itemdata:
     dname: Blight Stone
     qual: component
     cost: 300
-    desc: "Passive: Your attacks reduce target's armor for %corruption_duration% seconds.<br
-      />\r\n<br />\r\nBlight Stone is a Unique Attack Modifier, and does not stack
-      with other Unique Attack Modifiers."
+    desc: 'Passive: Your attacks reduce target''s armor for %corruption_duration%
+      seconds.'
     notes: ''
     attrib: |-
       ARMOR REDUCTION: <span class="attribVal">2</span><br />
@@ -3074,15 +3076,16 @@ itemdata:
     qual: rare
     cost: 2625
     desc: 'Active: Shine - Temporarily removes the armor and evasion from Solar Crest.
-      When cast on an ally it grants them %allied_armor% armor and %allied_evasion%%
-      evasion. When cast on an enemy, it removes %enemy_armor_reduction_tooltip% of
-      their armor and blinds them, causing them to miss %miss_chance%% of their attacks.
-      Cannot target magic immune enemies.'
+      When cast on an ally it grants them %bonus_armor% armor and %bonus_evasion%%
+      evasion. When cast on an enemy, it removes %bonus_armor% of their armor and
+      grants your allies to have %truestrike_chance%% Accuracy on the target. Cannot
+      target magic immune enemies.'
     notes: ''
     attrib: |-
       + <span class="attribVal">10</span> <span class="attribValText">Armor</span><br />
       + <span class="attribVal">75%</span> <span class="attribValText">Mana Regeneration</span><br />
-      + <span class="attribVal">25%</span> <span class="attribValText">Evasion</span><br />
+      + <span class="attribVal">20%</span> <span class="attribValText">Evasion</span><br />
+      ACCURACY: <span class="attribVal">35%</span><br />
       SHINE DURATION: <span class="attribVal">7</span><br />
       SHINE CAST RANGE: <span class="attribVal">1000</span>
     mc: false
@@ -3199,6 +3202,9 @@ itemdata:
     notes: ''
     attrib: |-
       + <span class="attribVal">20</span> <span class="attribValText">Intelligence</span><br />
+      + <span class="attribVal">15</span> <span class="attribValText">Strength</span><br />
+      + <span class="attribVal">6</span> <span class="attribValText">Agility</span><br />
+      + <span class="attribVal">6</span> <span class="attribValText">Damage</span><br />
       CRIPPLE DURATION: <span class="attribVal">2</span>
     mc: 50
     cd: 16
@@ -3238,7 +3244,7 @@ itemdata:
     dname: Abyssal Blade
     qual: epic
     cost: 6400
-    desc: "Active: Overwhelm - Stuns a target enemy unit for %dstun_duration% seconds.
+    desc: "Active: Overwhelm - Stuns a target enemy unit for %stun_duration% seconds.
       Pierces Spell Immunity.<br />\r\nPassive: Bash - Grants each attack a chance
       to stun the target for %bash_duration% seconds and deal %bonus_chance_damage%
       bonus damage, based on whether the equipped hero is ranged or melee.<br />\r\nPassive:
@@ -3279,7 +3285,7 @@ itemdata:
       Lesser Maim - Each attack has a chance to slow the enemy's movement and attack
       speed for %maim_duration% seconds.<br />\r\n<br />\r\nStacks diminishingly with
       other sources of Evasion."
-    notes: Disarm can only be removed with spell immunity.
+    notes: ''
     attrib: |-
       + <span class="attribVal">25%</span> <span class="attribValText">Evasion</span><br />
       + <span class="attribVal">25</span> <span class="attribValText">Damage</span><br />

@@ -217,8 +217,32 @@ def update_abilities
   end
 end
 
+def run_update_hero_id_to_name
+  puts 'update hero id to name'
+  hero_id_to_zh_name = Hash.new
+  zh_data = YAML.load_file('locales/zh/heropedia.yml')
+  zh_data['herodata'].each_with_index do |data, id|
+    hero_id_to_zh_name[id+1] = data[1]['dname']
+  end
+
+  hero_id_to_en_name = Hash.new
+  en_data = YAML.load_file('locales/en/heropedia.yml')
+  en_data['herodata'].each_with_index do |data, id|
+    hero_id_to_en_name[id+1] = data[1]['dname']
+  end
+
+  File.open('yml/hero_id_to_zh_name.yml', 'w') do |file|
+    file.write hero_id_to_zh_name.to_yaml
+  end
+
+  File.open('yml/hero_id_to_en_name.yml', 'w') do |file|
+    file.write hero_id_to_en_name.to_yaml
+  end
+end
+
 # make them into single functions, since the slow internet limits us to run one function at a time
 run_update_talent(urls, talent_urls)
 run_update_locales
 run_update_yml(urls)
+run_update_hero_id_to_name
 
