@@ -1567,7 +1567,7 @@ itemdata:
       + <span class="attribVal">15</span> <span class="attribValText">Damage</span><br />
       + <span class="attribVal">75%</span> <span class="attribValText">Mana Regeneration</span><br />
       MOVEMENT SLOW: <span class="attribVal">100%</span><br />
-      SLOW DURATION: <span class="attribVal">0.6</span>
+      SLOW DURATION: <span class="attribVal">0.7</span>
     mc: false
     cd: 5
     lore: A deceptively swift blade imbued with resonant magic.
@@ -2722,7 +2722,7 @@ itemdata:
       + <span class="attribVal">10</span> <span class="attribValText">Attack Speed</span><br />
       AURA ATTACK SPEED: <span class="attribVal">10</span><br />
       AURA HEALTH REGEN: <span class="attribVal">10</span><br />
-      DOMINATED HEALTH MINIMUM: <span class="attribVal">1400</span><br />
+      DOMINATED HEALTH MINIMUM: <span class="attribVal">1500</span><br />
       CREEP MOVEMENT SPEED: <span class="attribVal">425</span>
     mc: false
     cd: 60

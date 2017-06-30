@@ -73,7 +73,7 @@ abilitydata:
       width="16" height="16" border="0" /> 80/90/100/110</div><div class="cooldown"><img
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 16/14/12/10</div><br clear="left" /></div>
-    lore: 모굴 칸이 전쟁의 함성을 내지릅니다. 도발된 적은 도끼전사를 상대로 이기기 어려운 싸움을 시작할 수밖에 없습니다.
+    lore: 모굴 칸이 전쟁 함성을 내지릅니다. 도발된 적은 도끼전사를 상대로 이기기 어려운 싸움을 시작할 수밖에 없습니다.
     hurl: Axe
   axe_battle_hunger:
     dname: 투쟁욕
@@ -333,7 +333,7 @@ abilitydata:
       크립 총 피해: <span class="attribVal">1000</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 115/125/140/150</div><div class="cooldown"><img
+      width="16" height="16" border="0" /> 140/145/150/155</div><div class="cooldown"><img
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 9/8/7/6</div><br clear="left" /></div>
     lore: 라일라이가 푸른심장 빙하에서 바람을 불러와 적을 두꺼운 얼음 덩어리에 가둡니다.
@@ -377,7 +377,7 @@ abilitydata:
     dname: 얼음 화살
     affects: '능력: <span class="attribVal">자동 시전, 유닛 지정</span><br />효과: <span class="attribVal">적
       유닛</span><br />주문 면역 관통: <span class="attribVal">미관통</span><br />'
-    desc: 드로우 레인저의 공격에 적의 이동 속도를 늦추는 빙결 효과를 추가합니다. 빙결 효과는 영웅에게는 1.5초 동안, 크립에게는 7초
+    desc: 드로우 레인저의 공격에 빙결 효과를 추가하여 적의 이동 속도를 늦춥니다. 빙결 효과는 영웅에게는 1.5초 동안, 크립에게는 7초
       동안 유지됩니다.
     notes: 타격 성공 시 둔화의 지속시간이 초기화됩니다.
     dmg: '피해: <span class="attribVal">0 / 0 / 0 / 0</span><br />'
@@ -708,7 +708,7 @@ abilitydata:
       이동 속도 감소: <span class="attribVal">25%</span><br />
       피해 감소: <span class="attribVal">50%</span><br />
       감소 지속시간: <span class="attribVal">5.000000</span><br />
-      <span class="scepterVal">홀 장착 시 되돌아오는 치유:</span> <span class="attribVal">100%</span><br />
+      <span class="scepterVal">홀 장착 시 되돌아오는 공격파 치유:</span> <span class="attribVal">100%</span><br />
       <span class="scepterVal">홀 장착 시 되돌아오는 공격파 피해:</span> <span class="attribVal">40%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -1314,8 +1314,8 @@ abilitydata:
     affects: '능력: <span class="attribVal">지속 효과</span><br />주문 면역 관통: <span class="attribVal"><font
       color="#70EA72">관통</font></span><br />'
     desc: 스벤이 강력한 힘으로 검을 휘둘러 주변의 모든 적을 베어냅니다.
-    notes: 가르기 피해는 방어력이 아닌 방어 유형에 따라 감소합니다.<br />주문 면역을 무시합니다.<br />스벤 전방에 가르기 피해를
-      줍니다.
+    notes: 가르기 피해는 방어력이 아닌 방어 유형에 따라 감소합니다.<br />가르기 피해는 주문 면역을 무시합니다.<br />가르기는 스벤
+      전방에 원형으로 피해를 줍니다.
     dmg: ''
     attrib: '가르기 피해: <span class="attribVal">30% / 42% / 54% / 66%</span>'
     cmb: ''
@@ -1324,7 +1324,7 @@ abilitydata:
   sven_warcry:
     dname: 전쟁 함성
     affects: '능력: <span class="attribVal">대상 없음</span><br />'
-    desc: 스벤이 전쟁의 함성을 내질러 아군의 용기를 북돋우며 이동 속도와 방어력을 증가시킵니다. 8초 동안 지속됩니다.
+    desc: 스벤이 전쟁 함성을 내질러 아군의 용기를 북돋우며 이동 속도와 방어력을 증가시킵니다. 8초 동안 지속됩니다.
     notes: 방어력과 이동 속도가 증가하는 모든 효과와 중첩됩니다.
     dmg: ''
     attrib: |-
@@ -1407,7 +1407,7 @@ abilitydata:
       기절 확률: <span class="attribVal">25%</span><br />
       기절 지속시간: <span class="attribVal">0.5 / 1 / 1.5 / 2</span><br />
       방어력: <span class="attribVal">3 / 4 / 5 / 6</span><br />
-      피해: <span class="attribVal">40 / 50 / 60 / 70</span>
+      피해: <span class="attribVal">60 / 80 / 100 / 120</span>
     cmb: ''
     lore: 근접전을 하는 전사들은 바위 거인을 공격해도 별 소용없다는 사실을 알아챕니다.
     hurl: Tiny
@@ -1416,8 +1416,8 @@ abilitydata:
     affects: '능력: <span class="attribVal">지속 효과</span><br />'
     desc: "타이니가 바윗덩어리를 끌어모아서 힘을 더욱 키웁니다. 단, 공격 속도가 감소합니다. 던지기로 주는 피해가 증가하고 이동 속도가
       증가하며 바위투성이 피부의 발동 확률이 증가합니다.\r\n\r\n아가님의 홀로 강화 가능"
-    notes: 가르기 피해는 방어력이 아닌 방어 유형에 따라 감소합니다.<br />가르기 피해는 주문 면역을 무시합니다.<br />우회 공격
-      방지 상태에서는 건물이 아가님의 홀 보너스 피해를 받지 않습니다.
+    notes: 가르기 피해는 방어력이 아닌 방어 유형에 따라 감소합니다.<br />가르기는 주문 면역을 무시하고 피해를 줍니다.<br />우회
+      공격 방지 상태에서는 건물이 아가님의 홀 보너스 피해를 받지 않습니다.
     dmg: ''
     attrib: |-
       보너스 피해: <span class="attribVal">50 / 100 / 150</span><br />
@@ -1536,13 +1536,13 @@ abilitydata:
     dname: 바람질주
     affects: '능력: <span class="attribVal">대상 없음</span><br />주문 면역 관통: <span class="attribVal">미관통</span><br
       />'
-    desc: 이동 속도가 증가하고 모든 물리 공격에 회피 확률이 증가합니다. 동시에 주위 적의 움직임을 둔화합니다.
+    desc: 이동 속도가 증가하고 모든 물리 공격을 회피합니다. 동시에 주위 적의 움직임을 둔화합니다.
     notes: 바람질주를 활성화하면 접근하는 투사체를 피할 수 있습니다.
     dmg: ''
     attrib: |-
       이동 속도 보너스: <span class="attribVal">50% / 50% / 50% / 50%</span><br />
       회피: <span class="attribVal">100%</span><br />
-      적 둔화: <span class="attribVal">8% / 16% / 24% / 30%</span><br />
+      적 둔화: <span class="attribVal">15% / 20% / 25% / 30%</span><br />
       적 둔화 반경: <span class="attribVal">325</span><br />
       지속시간: <span class="attribVal">3 / 4 / 5 / 6</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
@@ -1550,7 +1550,7 @@ abilitydata:
       width="16" height="16" border="0" /> 75</div><div class="cooldown"><img alt="쿨다운"
       title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 12</div><br clear="left" /></div>
-    lore: 리랄레이는 바람을 다스려 다가오는 공격에 맞설 수 있습니다.
+    lore: 리랄레이는 바람을 다스려 다가오는 공격에 맞섭니다.
     hurl: Windranger
   windrunner_focusfire:
     dname: 집중 사격
@@ -1685,7 +1685,7 @@ abilitydata:
       />주문 면역 관통: <span class="attribVal"><font color="#70EA72">관통</font></span><br
       />'
     desc: 컨카는 전설적인 검이 있어 한층 더 강력한 피해를 줍니다. 한 번만 휘둘러도 앞에 있는 적 여럿이 쓰러집니다.
-    notes: 가르기 피해는 방어력이 아닌 방어 유형에 따라 감소합니다.<br />주문 면역을 무시합니다.
+    notes: 가르기 피해는 방어력이 아닌 방어 유형에 따라 감소합니다.<br />가르기 피해는 주문 면역을 무시합니다.
     dmg: ''
     attrib: '피해 보너스: <span class="attribVal">25 / 45 / 65 / 85</span>'
     cmb: <div class="cooldownMana"><div class="cooldown"><img alt="쿨다운" title="쿨다운"
@@ -1755,7 +1755,7 @@ abilitydata:
     affects: '능력: <span class="attribVal">유닛 지정, 목표 지점 지정</span><br />효과: <span class="attribVal">적
       유닛</span><br />피해 유형: <span class="attribVal">마법</span><br />주문 면역 관통: <span
       class="attribVal">미관통</span><br />'
-    desc: 리나가 용의 숨결을 불러내어 앞을 가로막는 모든 것을 불태우는 화염을 내뿜습니다.
+    desc: 리나가 용의 숨결을 불러와 화염으로 뿜어내어 앞에 있는 모든 것을 불태웁니다.
     notes: 용의 숨결의 최대 사거리는 1225입니다.
     dmg: '피해: <span class="attribVal">110 / 180 / 250 / 320</span><br />'
     attrib: ''
@@ -1882,7 +1882,7 @@ abilitydata:
     attrib: |-
       튕김당 피해: <span class="attribVal">280 / 370 / 460</span><br />
       튕김 횟수: <span class="attribVal">10 / 10 / 10</span><br />
-      튕김 범위: <span class="attribVal">575 / 575 / 575</span><br />
+      튕김 범위: <span class="attribVal">600</span><br />
       이동 둔화: <span class="attribVal">65%</span><br />
       공격 둔화: <span class="attribVal">65</span><br />
       둔화 지속시간: <span class="attribVal">2.5</span><br />
@@ -2606,7 +2606,7 @@ abilitydata:
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 175/340/500</div><div class="cooldown"><img
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 100/85/70</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 90/80/70</div><br clear="left" /></div>
     lore: 강령사제가 발휘하는 역병 마법은 죽음과 고통이 더해질수록 더욱 강해집니다.
     hurl: Necrophos
   warlock_fatal_bonds:
@@ -3430,7 +3430,7 @@ abilitydata:
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 125/175/250</div><div class="cooldown"><img
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 60/45/30</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 50/40/30</div><br clear="left" /></div>
     lore: 과거에 황천기룡은 가장 강력한 독소로 가학적인 소환사를 죽였습니다. 이제 이 독소는 바이퍼를 거스르는 멍청한 자들의 핏줄로 퍼져
       나갑니다.
     hurl: Viper
@@ -3719,7 +3719,7 @@ abilitydata:
     attrib: |-
       기절 지속시간: <span class="attribVal">1 / 1.5 / 2</span><br />
       범위: <span class="attribVal">2000 / 2500 / 3000</span><br />
-      피해: <span class="attribVal">100 / 200 / 300</span><br />
+      피해: <span class="attribVal">75 / 175 / 275</span><br />
       <span class="scepterVal">홀 쿨다운:</span> <span class="attribVal">12 / 12 / 12</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -4069,7 +4069,7 @@ abilitydata:
       시전 범위: <span class="attribVal">500 / 900 / 1300</span><br />
       <span class="scepterVal">홀 복제 피해:</span> <span class="attribVal">100% / 120% / 140%</span><br />
       이동 둔화: <span class="attribVal">75%</span><br />
-      둔화 지속시간: <span class="attribVal">0.6 / 0.8 / 1</span>
+      둔화 지속시간: <span class="attribVal">0.5 / 0.75 / 1</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 125/250/375</div><div class="cooldown"><img
@@ -4357,7 +4357,7 @@ abilitydata:
     notes: ''
     dmg: '피해: <span class="attribVal">90 / 160 / 255 / 335</span><br />'
     attrib: |-
-      낮의 지속시간: <span class="attribVal">2 / 2 / 2 / 2</span><br />
+      낮의 지속시간: <span class="attribVal">1.25</span><br />
       밤의 지속시간: <span class="attribVal">2.5 / 3 / 3.5 / 4</span><br />
       이동 둔화: <span class="attribVal">50% / 50% / 50% / 50%</span><br />
       공격 둔화: <span class="attribVal">50 / 50 / 50 / 50</span>
@@ -4398,7 +4398,7 @@ abilitydata:
       공격 속도: <span class="attribVal">45 / 60 / 75 / 90</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 50</div><div class="cooldown"><img alt="쿨다운"
+      width="16" height="16" border="0" /> 80</div><div class="cooldown"><img alt="쿨다운"
       title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 26/22/18/14</div><br clear="left" /></div>
     lore: 밤이 다가오면 발라나르의 사냥 기술은 한층 정교해집니다.
@@ -5040,7 +5040,7 @@ abilitydata:
     notes: 파멸에 걸린 유닛은 체력이 25% 이하로 내려가면 디나이할 수 있습니다.
     dmg: ''
     attrib: |-
-      지속시간: <span class="attribVal">15</span><br />
+      지속시간: <span class="attribVal">16</span><br />
       초당 피해량: <span class="attribVal">25 / 40 / 55</span><br />
       <span class="scepterVal">홀 지속시간:</span> <span class="attribVal">16</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
@@ -5441,7 +5441,7 @@ abilitydata:
       기본 공격 시간: <span class="attribVal">1.4 / 1.2 / 1</span><br />
       보너스 체력 재생: <span class="attribVal">50 / 75 / 100</span><br />
       보너스 마나 재생: <span class="attribVal">3 / 7.5 / 12</span><br />
-      보너스 이동 속도: <span class="attribVal">30 / 40 / 60</span>
+      보너스 이동 속도: <span class="attribVal">40 / 50 / 60</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 50/100/150</div><div class="cooldown"><img
@@ -5604,7 +5604,7 @@ abilitydata:
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 60</div><div class="cooldown"><img alt="쿨다운"
       title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 15</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 17</div><br clear="left" /></div>
     lore: 충동적인 분쟁을 위한 개스터의 지령입니다.
     hurl: Invoker
   invoker_chaos_meteor:
@@ -6336,7 +6336,7 @@ abilitydata:
   treant_natures_guise:
     dname: 자연의 눈속임
     affects: '능력: <span class="attribVal">지속 효과</span><br />'
-    desc: 나무에서 265 반경 안에 7초 동안 있을 때 투명해집니다. 투명해진 상태에서는 이동 속도가 10 증가하고, 투명 상태에서 벗어나
+    desc: 나무에서 265 반경 안에 7초 동안 머물면 투명해집니다. 투명해진 상태에서는 이동 속도가 10 증가하고, 투명 상태에서 벗어나
       공격할 때 0.4초 동안 무장 해제 및 묶기 효과를 줍니다.
     notes: 투명화 상태에서 나와 하는 공격은 빗나가지 않습니다.<br />자연의 눈속임은 0.75초마다 주위에 나무가 있는지 확인합니다.
       주위에 나무가 없으면 투명화 효과가 사라집니다.<br />투명 상태에서 시전할 수 있음
@@ -6345,7 +6345,7 @@ abilitydata:
       투명화 진입 시간: <span class="attribVal">7 / 6 / 5 / 3</span><br />
       나무 반경: <span class="attribVal">265</span><br />
       이동 속도: <span class="attribVal">10% / 18% / 26% / 34%</span><br />
-      강타 지속시간: <span class="attribVal">0.4 / 1 / 1.6 / 2.2</span>
+      묶기 지속시간: <span class="attribVal">0.4 / 1 / 1.6 / 2.2</span>
     cmb: ''
     lore: 자연과 한 몸이 되어 사는 나무정령 수호자들은 웬만해선 눈에 띄는 일이 없습니다.
     hurl: Treant_Protector
@@ -7107,7 +7107,7 @@ abilitydata:
     dmg: ''
     attrib: |-
       최대 연결 거리: <span class="attribVal">900 / 900 / 900 / 900</span><br />
-      이동 속도 보너스: <span class="attribVal">13% / 14% / 15% / 16%</span><br />
+      이동 속도 보너스: <span class="attribVal">10% / 12% / 14% / 16%</span><br />
       연결 지속시간: <span class="attribVal">12 / 12 / 12 / 12</span><br />
       적 이동 둔화: <span class="attribVal">100%</span><br />
       적 공격 둔화: <span class="attribVal">100</span><br />
@@ -7281,7 +7281,7 @@ abilitydata:
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 150/150/150</div><div class="cooldown"><img
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 160/145/130</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 130</div><br clear="left" /></div>
     lore: 네크롤릭의 하수인들은 좁은 미로의 수호자로서 주인의 영토를 지킵니다.
     hurl: Visage
   slark_dark_pact:
@@ -7393,7 +7393,7 @@ abilitydata:
       빼앗는 마나: <span class="attribVal">11% / 14% / 17% / 20%</span><br />
       건너뛰기 1회당 피해 증가: <span class="attribVal">35%</span><br />
       홀 착용 시 기본 지속시간: <span class="attribVal">1</span><br />
-      홀 착용 시 기본 건너뛰기 증가: <span class="attribVal">0.2</span>
+      홀 착용 시 기본 건너뛰기 증가: <span class="attribVal">0.3</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 140/150/160/170</div><div class="cooldown"><img
@@ -7438,8 +7438,8 @@ abilitydata:
     dname: 광전사의 분노
     affects: '능력: <span class="attribVal">대상 없음, 전환</span><br />'
     desc: "효과가 활성화된 동안 트롤 전쟁군주가 원거리 공격에서 근접 공격으로 전환합니다. 근접 공격 시 일정 확률로 강타 효과와 함께 보너스
-      피해를 주고 대상을 기절시킵니다. 또한, 체력, 이동 속도, 방어력을 추가로 얻고 공격 속도가 증가합니다. \r\n\r\n광전사의 분노가
-      활성화되어 있으면 춤추는 도끼가 다른 방식으로 작동합니다."
+      피해를 주고 대상을 기절시킵니다. 또한, 이동 속도, 방어력을 추가로 얻고 공격 속도가 증가합니다. \r\n\r\n광전사의 분노가 활성화되어
+      있으면 춤추는 도끼가 다른 방식으로 작동합니다."
     notes: 강타의 기절 효과는 주문 면역을 무시합니다.<br />해골 파쇄기와 중첩되지 않습니다.<br />만타 도끼의 쿨다운은 사용 시
       트롤 전쟁군주가 원거리 형상인지 근접 형상인지에 따라 결정됩니다.
     dmg: ''
@@ -7612,7 +7612,7 @@ abilitydata:
       />'
     desc: 아군 유닛들이 공격 시 추가 피해를 주고 가르기 효과를 얻습니다.
     notes: 보너스 피해는 그 유닛의 기본 공격력과 기본 능력치에 기반합니다.<br />가르기 피해는 방어력이 아닌 방어 유형에 따라 감소합니다.<br
-      />가르기 피해는 주문 면역을 무시합니다.<br />원거리 유닛은 가르기 피해를 주지 않습니다.
+      />가르기는 주문 면역을 무시하고 피해를 줍니다.<br />원거리 유닛은 가르기 피해를 주지 않습니다.
     dmg: ''
     attrib: |-
       지속시간: <span class="attribVal">40 / 40 / 40 / 40</span><br />
@@ -7851,7 +7851,7 @@ abilitydata:
     notes: 가시멧돼지의 환영도 보너스 효과를 받습니다.<br />적개심은 아이템 사용으로 발동하지 않습니다.
     dmg: ''
     attrib: |-
-      중첩당 피해: <span class="attribVal">20 / 25 / 30</span><br />
+      중첩당 피해: <span class="attribVal">18 / 24 / 30</span><br />
       중첩당 이동 속도: <span class="attribVal">3% / 4% / 5%</span><br />
       중첩 지속시간: <span class="attribVal">14</span><br />
       최대 중첩: <span class="attribVal">5 / 7 / 9</span>
@@ -8005,7 +8005,7 @@ abilitydata:
     attrib: |-
       사격 범위: <span class="attribVal">1600</span><br />
       피해 반경: <span class="attribVal">250</span><br />
-      피해: <span class="attribVal">60 / 120 / 180 / 240</span><br />
+      피해: <span class="attribVal">70 / 140 / 210 / 280</span><br />
       둔화 지속시간: <span class="attribVal">4</span><br />
       둔화: <span class="attribVal">30% / 35% / 40% / 45%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
@@ -8933,7 +8933,7 @@ abilitydata:
     affects: '능력: <span class="attribVal">대상 없음</span><br />피해 유형: <span class="attribVal">마법</span><br
       />주문 면역 관통: <span class="attribVal">미관통</span><br />'
     desc: "겨울 비룡이 극지의 바람을 타고 날아오릅니다. 움직임이 지형에 방해받지 않으며 매 공격 시 얼음처럼 차가운 숨결을 내뿜습니다.
-      더 높이 솟아오른 동안 겨울 비룡은 더 빠르게, 더 멀리까지 공격하고 마법의 냉기로 적을 둔화 상태에 빠뜨리며 매초 현재 체력의 8%를
+      더 높이 솟아오른 동안 겨울 비룡은 더 빠르게, 더 멀리까지 공격하고 마법의 냉기로 적을 둔화 상태에 빠뜨리며 매초 현재 체력의 9%를
       제거합니다. 또한, 이 동안에는 겨울 비룡의 눈이 밤의 한기를 극복하여 밤 시야 범위가 추가로 400 증가합니다. \r\n\r\n아가님의
       홀로 강화 가능"
     notes: 적 유닛은 극지 불태우기의 약화 효과를 시전 시 한 번만 받습니다.<br />이 능력은 로샨에게 영향을 주지 않습니다.<br />겨울
@@ -8942,7 +8942,7 @@ abilitydata:
     attrib: |-
       비행 지속시간: <span class="attribVal">8</span><br />
       보너스 공격 범위: <span class="attribVal">275 / 375 / 475 / 575</span><br />
-      체력 비례 불태우기: <span class="attribVal">8%</span><br />
+      체력 비례 불태우기: <span class="attribVal">9%</span><br />
       피해 지속시간: <span class="attribVal">5</span><br />
       밤 시야 추가 범위: <span class="attribVal">400</span><br />
       <span class="scepterVal">홀 초당 마나:</span> <span class="attribVal">40</span>
@@ -9224,7 +9224,7 @@ abilitydata:
     notes: ''
     dmg: ''
     attrib: |-
-      피해: <span class="attribVal">100 / 180 / 260 / 340</span><br />
+      피해: <span class="attribVal">140 / 210 / 280 / 350</span><br />
       이동 둔화: <span class="attribVal">20% / 40% / 60% / 80%</span><br />
       둔화 지속시간: <span class="attribVal">4</span><br />
       최대 거리: <span class="attribVal">1000</span>

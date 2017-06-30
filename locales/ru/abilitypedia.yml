@@ -383,7 +383,7 @@ abilitydata:
       СУММ. УРОН КРИПАМ: <span class="attribVal">1000</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 115/125/140/150</div><div class="cooldown"><img
+      width="16" height="16" border="0" /> 140/145/150/155</div><div class="cooldown"><img
       alt="Перезарядка" title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 9/8/7/6</div><br clear="left" /></div>
     lore: Рилай призывает холодный ветер с айсберга Голубого Сердца, который заточает
@@ -766,31 +766,31 @@ abilitydata:
   nevermore_necromastery:
     dname: Necromastery
     affects: 'СПОСОБНОСТЬ: <span class="attribVal">пассивная</span><br />'
-    desc: "Shadow Fiend крадет душу каждого убитого врага, получая бонус к атаке.
-      При убийстве героя он получает сразу 12 душ. После смерти выпускает половину
-      из них.\r\n\r\nУлучшается с Aghanim's Scepter."
+    desc: "Герой крадет душу каждого убитого врага, получая бонус к атаке. При убийстве
+      героя он получает сразу 12 душ. После смерти выпускает половину из них.\r\n\r\nУлучшается
+      с Aghanim's Scepter."
     notes: Добивание союзников и нейтральных крипов также дает бонус к атаке.
     dmg: ''
     attrib: |-
       МАКС. ДУШ: <span class="attribVal">18 / 24 / 30 / 36</span><br />
       <span class="scepterVal">МАКС. ДУШ СО СКИПЕТРОМ:</span> <span class="attribVal">22 / 30 / 38 / 46</span>
     cmb: ''
-    lore: Shadow Fiend заботливо собирает души поверженных врагов, не давая им отправиться
-      в Бездну, а взамен они служат ему, увеличивая его боевой потенциал.
+    lore: Собранные души скользят по грани Бездны, усиливая Невермора и позволяя ему
+      и дальше пополнять свою коллекцию.
     hurl: Shadow_Fiend
   nevermore_dark_lord:
     dname: Presence of the Dark Lord
     affects: 'СПОСОБНОСТЬ: <span class="attribVal">пассивная, аура</span><br />ДЕЙСТВУЕТ:
       <span class="attribVal">на врагов</span><br />СКВОЗЬ НЕВОСПР. К МАГИИ: <span
       class="attribVal"><font color="#70EA72">Да</font></span><br />'
-    desc: Присутствие Shadow Fiend снижает броню ближайших врагов.
-    notes: Складывается с другими способностями и аурами, снижающими броню.
+    desc: Присутствие героя снижает броню ближайших врагов.
+    notes: Эффект складывается с другими способностями и аурами, снижающими броню.
     dmg: ''
     attrib: |-
       СНИЖЕНИЕ: <span class="attribVal">3 / 4 / 5 / 6</span><br />
       РАДИУС: <span class="attribVal">900</span>
     cmb: ''
-    lore: Даже просто будучи рядом, Nevermore разъедает душу.
+    lore: Даже просто будучи рядом, Невермор разъедает душу.
     hurl: Shadow_Fiend
   nevermore_requiem:
     dname: Requiem of Souls
@@ -819,8 +819,8 @@ abilitydata:
       width="16" height="16" border="0" /> 150/175/200</div><div class="cooldown"><img
       alt="Перезарядка" title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 120/110/100</div><br clear="left" /></div>
-    lore: Заточенные души павших в былых сражениях обретают свободу, дабы мстительно
-      преследовать тех, кто еще недавно были их союзниками.
+    lore: Заточённые души павших в былых сражениях обретают свободу, дабы мстительно
+      преследовать своих бывших союзников.
     hurl: Shadow_Fiend
   morphling_waveform:
     dname: Waveform
@@ -1617,7 +1617,7 @@ abilitydata:
       ШАНС ОГЛУШЕНИЯ: <span class="attribVal">25%</span><br />
       ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ: <span class="attribVal">0.5 / 1 / 1.5 / 2</span><br />
       ДОП. БРОНЯ: <span class="attribVal">3 / 4 / 5 / 6</span><br />
-      УРОН: <span class="attribVal">40 / 50 / 60 / 70</span>
+      УРОН: <span class="attribVal">60 / 80 / 100 / 120</span>
     cmb: ''
     lore: Атаки в ближнем бою против каменного гиганта крайне неэффективны.
     hurl: Tiny
@@ -1773,7 +1773,7 @@ abilitydata:
     attrib: |-
       ДОП. СКОРОСТЬ ПЕРЕДВИЖЕНИЯ: <span class="attribVal">50% / 50% / 50% / 50%</span><br />
       УКЛОНЕНИЕ: <span class="attribVal">100%</span><br />
-      ЗАМЕДЛЕНИЕ ВРАГОВ: <span class="attribVal">8% / 16% / 24% / 30%</span><br />
+      ЗАМЕДЛЕНИЕ ВРАГОВ: <span class="attribVal">15% / 20% / 25% / 30%</span><br />
       РАДИУС ЗАМЕДЛЕНИЯ: <span class="attribVal">325</span><br />
       ДЛИТЕЛЬНОСТЬ: <span class="attribVal">3 / 4 / 5 / 6</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
@@ -2170,7 +2170,7 @@ abilitydata:
     attrib: |-
       УРОНА ЗА ОТСКОК: <span class="attribVal">280 / 370 / 460</span><br />
       ОТСКОКОВ: <span class="attribVal">10 / 10 / 10</span><br />
-      РАДИУС ОТСКОКА: <span class="attribVal">575 / 575 / 575</span><br />
+      РАДИУС ОТСКОКА: <span class="attribVal">600</span><br />
       ЗАМЕДЛЕНИЕ ПЕРЕДВИЖЕНИЯ: <span class="attribVal">65%</span><br />
       ЗАМЕДЛЕНИЕ АТАКИ: <span class="attribVal">65</span><br />
       ДЛИТЕЛЬНОСТЬ ЗАМЕДЛЕНИЯ: <span class="attribVal">2.5</span><br />
@@ -2508,7 +2508,7 @@ abilitydata:
       width="16" height="16" border="0" /> 150/225/325</div><div class="cooldown"><img
       alt="Перезарядка" title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 150</div><br clear="left" /></div>
-    lore: Взывая к глубоководному богу Мэльрону, Tidehunter способен в одиночку потопить
+    lore: Взывая к глубоководному богу Мэльрону, Левиафан способен в одиночку потопить
       целые эскадры кораблей.
     hurl: Tidehunter
   witch_doctor_paralyzing_cask:
@@ -3014,7 +3014,7 @@ abilitydata:
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 175/340/500</div><div class="cooldown"><img
       alt="Перезарядка" title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 100/85/70</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 90/80/70</div><br clear="left" /></div>
     lore: Количество смерти и страданий, витающих в воздухе, увеличивает мощь порочной
       магии Necrophos.
     hurl: Necrophos
@@ -3965,7 +3965,7 @@ abilitydata:
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 125/175/250</div><div class="cooldown"><img
       alt="Перезарядка" title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 60/45/30</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 50/40/30</div><br clear="left" /></div>
     lore: Самый опасный из своих ядов Viper использовал для того, чтобы убить призвавшего
       его мага. Этот яд мгновенно распространяется по венам любого, кто решится противостоять
       ему.
@@ -4306,7 +4306,7 @@ abilitydata:
     attrib: |-
       ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ: <span class="attribVal">1 / 1.5 / 2</span><br />
       ДАЛЬНОСТЬ ПРИМЕНЕНИЯ: <span class="attribVal">2000 / 2500 / 3000</span><br />
-      УРОН: <span class="attribVal">100 / 200 / 300</span><br />
+      УРОН: <span class="attribVal">75 / 175 / 275</span><br />
       <span class="scepterVal">ПЕРЕЗАРЯДКА СО СКИПЕТРОМ:</span> <span class="attribVal">12 / 12 / 12</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -4712,7 +4712,7 @@ abilitydata:
       ДАЛЬНОСТЬ ПРИМЕНЕНИЯ: <span class="attribVal">500 / 900 / 1300</span><br />
       <span class="scepterVal">УРОН КОПИЙ СО СКИПЕТРОМ:</span> <span class="attribVal">100% / 120% / 140%</span><br />
       ЗАМЕДЛЕНИЕ ПЕРЕДВИЖЕНИЯ: <span class="attribVal">75%</span><br />
-      ДЛИТЕЛЬНОСТЬ ЗАМЕДЛЕНИЯ: <span class="attribVal">0.6 / 0.8 / 1</span>
+      ДЛИТЕЛЬНОСТЬ ЗАМЕДЛЕНИЯ: <span class="attribVal">0.5 / 0.75 / 1</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 125/250/375</div><div class="cooldown"><img
@@ -5046,7 +5046,7 @@ abilitydata:
     notes: ''
     dmg: 'к урону: <span class="attribVal">90 / 160 / 255 / 335</span><br />'
     attrib: |-
-      ПРОДОЛЖИТЕЛЬНОСТЬ ДНЕМ: <span class="attribVal">2 / 2 / 2 / 2</span><br />
+      ПРОДОЛЖИТЕЛЬНОСТЬ ДНЕМ: <span class="attribVal">1.25</span><br />
       ПРОДОЛЖИТЕЛЬНОСТЬ НОЧЬЮ: <span class="attribVal">2.5 / 3 / 3.5 / 4</span><br />
       ЗАМЕДЛЕНИЕ ПЕРЕДВИЖЕНИЯ: <span class="attribVal">50% / 50% / 50% / 50%</span><br />
       ЗАМЕДЛЕНИЕ АТАКИ: <span class="attribVal">50 / 50 / 50 / 50</span>
@@ -5092,7 +5092,7 @@ abilitydata:
       СКОРОСТЬ АТАКИ: <span class="attribVal">45 / 60 / 75 / 90</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 50</div><div class="cooldown"><img alt="Перезарядка"
+      width="16" height="16" border="0" /> 80</div><div class="cooldown"><img alt="Перезарядка"
       title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 26/22/18/14</div><br clear="left" /></div>
     lore: Охотничье мастерство Баланара возрастает с наступлением ночи.
@@ -5851,7 +5851,7 @@ abilitydata:
       уровень его здоровья опустится ниже 25%.
     dmg: ''
     attrib: |-
-      ДЛИТЕЛЬНОСТЬ: <span class="attribVal">15</span><br />
+      ДЛИТЕЛЬНОСТЬ: <span class="attribVal">16</span><br />
       УРОН В СЕКУНДУ: <span class="attribVal">25 / 40 / 55</span><br />
       <span class="scepterVal">ДЛИТЕЛЬНОСТЬ СО СКИПЕТРОМ:</span> <span class="attribVal">16</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
@@ -6310,7 +6310,7 @@ abilitydata:
       ЗАДЕРЖКА ПЕРЕД АТАКОЙ: <span class="attribVal">1.4 / 1.2 / 1</span><br />
       ДОП. РЕГЕН ЗДОРОВЬЯ: <span class="attribVal">50 / 75 / 100</span><br />
       ДОП. РЕГЕНЕРАЦИЯ МАНЫ: <span class="attribVal">3 / 7.5 / 12</span><br />
-      ДОП. СКОРОСТЬ ПЕРЕДВИЖЕНИЯ: <span class="attribVal">30 / 40 / 60</span>
+      ДОП. СКОРОСТЬ ПЕРЕДВИЖЕНИЯ: <span class="attribVal">40 / 50 / 60</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 50/100/150</div><div class="cooldown"><img
@@ -6487,7 +6487,7 @@ abilitydata:
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 60</div><div class="cooldown"><img alt="Перезарядка"
       title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 15</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 17</div><br clear="left" /></div>
     lore: Приказ стремительной борьбы Гастера.
     hurl: Invoker
   invoker_chaos_meteor:
@@ -7336,7 +7336,7 @@ abilitydata:
       ВРЕМЯ ДО НЕВИДИМОСТИ: <span class="attribVal">7 / 6 / 5 / 3</span><br />
       РАССТОЯНИЕ ДО ДЕРЕВА: <span class="attribVal">265</span><br />
       СКОРОСТЬ ПЕРЕДВИЖЕНИЯ: <span class="attribVal">10% / 18% / 26% / 34%</span><br />
-      ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ: <span class="attribVal">0.4 / 1 / 1.6 / 2.2</span>
+      ДЛИТЕЛЬНОСТЬ ОЦЕПЕНЕНИЯ: <span class="attribVal">0.4 / 1 / 1.6 / 2.2</span>
     cmb: ''
     lore: Стражи обычно не появляются в поле зрения. Чаще всего они скрываются среди
       своих лиственных братьев.
@@ -7496,7 +7496,7 @@ abilitydata:
       width="16" height="16" border="0" /> 65</div><div class="cooldown"><img alt="Перезарядка"
       title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 20</div><br clear="left" /></div>
-    lore: "«Бегать не так весело, как драться… Вообще не весело»."
+    lore: "«Бегать очень скучно... Ага, подраться бы»!"
     hurl: Ogre_Magi
   ogre_magi_unrefined_fireblast:
     dname: Unrefined Fireblast
@@ -8208,7 +8208,7 @@ abilitydata:
     dmg: ''
     attrib: |-
       МАКС. РАССТОЯНИЕ СВЯЗКИ: <span class="attribVal">900 / 900 / 900 / 900</span><br />
-      ДОП. СКОРОСТЬ ПЕРЕДВИЖЕНИЯ: <span class="attribVal">13% / 14% / 15% / 16%</span><br />
+      ДОП. СКОРОСТЬ ПЕРЕДВИЖЕНИЯ: <span class="attribVal">10% / 12% / 14% / 16%</span><br />
       ДЛИТЕЛЬНОСТЬ СВЯЗИ: <span class="attribVal">12 / 12 / 12 / 12</span><br />
       ЗАМЕДЛЕНИЕ ПЕРЕДВИЖЕНИЯ: <span class="attribVal">100%</span><br />
       ЗАМЕДЛЕНИЕ АТАКИ: <span class="attribVal">100</span><br />
@@ -8405,7 +8405,7 @@ abilitydata:
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 150/150/150</div><div class="cooldown"><img
       alt="Перезарядка" title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 160/145/130</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 130</div><br clear="left" /></div>
     lore: Стражи Узкого лабиринта, приспешники Некро'лика, неустанно и отрешенно следят
       за его владениями.
     hurl: Visage
@@ -8540,7 +8540,7 @@ abilitydata:
       КРАДЁТ МАНЫ: <span class="attribVal">11% / 14% / 17% / 20%</span><br />
       УСИЛЕНИЕ УРОНА ЗА СКАЧОК: <span class="attribVal">35%</span><br />
       НАЧАЛЬНАЯ ДЛИТЕЛЬНОСТЬ СО СКИПЕТРОМ: <span class="attribVal">1</span><br />
-      УВЕЛИЧЕНИЕ ДЛИТЕЛЬНОСТИ ЗА СКАЧОК: <span class="attribVal">0.2</span>
+      УВЕЛИЧЕНИЕ ДЛИТЕЛЬНОСТИ ЗА СКАЧОК: <span class="attribVal">0.3</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 140/150/160/170</div><div class="cooldown"><img
@@ -8591,10 +8591,10 @@ abilitydata:
     dname: Berserker's Rage
     affects: 'СПОСОБНОСТЬ: <span class="attribVal">ненаправленная, переключаемая</span><br
       />'
-    desc: "При активации тролль использует свои метательные топоры в ближнем бою.
-      При этом повышается скорость атаки и передвижения героя, он получает дополнительное
-      здоровье, броню и шанс оглушить цель при атаке.\r\n\r\nBerserker's Rage также
-      изменяет свойства способности Whirling Axes."
+    desc: "Когда эта способность активирована, герой использует свои метательные топоры
+      в ближнем бою. При этом повышается скорость атаки и передвижения героя, он получает
+      дополнительную броню и шанс оглушить цель при атаке.\r\n\r\nBerserker's Rage
+      также изменяет свойства способности Whirling Axes."
     notes: Оглушение действует на врагов, невосприимчивых к заклинаниям.<br />Не складывается
       с эффектом от артефакта Skull Basher.<br />Перезарядка Manta Style будет зависеть
       от того, в какой форме Troll Warlord находился во время использования предмета.
@@ -9056,7 +9056,7 @@ abilitydata:
       эту способность.
     dmg: ''
     attrib: |-
-      БОНУС К УРОНУ ЗА КАЖДЫЙ ЭФФЕКТ: <span class="attribVal">20 / 25 / 30</span><br />
+      БОНУС К УРОНУ ЗА КАЖДЫЙ ЭФФЕКТ: <span class="attribVal">18 / 24 / 30</span><br />
       БОНУС К СКОРОСТИ ЗА КАЖДЫЙ ЭФФЕКТ: <span class="attribVal">3% / 4% / 5%</span><br />
       ДЛИТЕЛЬНОСТЬ ОДНОГО ЭФФЕКТА: <span class="attribVal">14</span><br />
       МАКС. МНОЖ.: <span class="attribVal">5 / 7 / 9</span>
@@ -9232,7 +9232,7 @@ abilitydata:
     attrib: |-
       ДАЛЬНОСТЬ ВЫСТРЕЛА: <span class="attribVal">1600</span><br />
       РАДИУС УРОНА: <span class="attribVal">250</span><br />
-      УРОН: <span class="attribVal">60 / 120 / 180 / 240</span><br />
+      УРОН: <span class="attribVal">70 / 140 / 210 / 280</span><br />
       ДЛИТЕЛЬНОСТЬ ЗАМЕДЛЕНИЯ: <span class="attribVal">4</span><br />
       ЗАМЕДЛЕНИЕ: <span class="attribVal">30% / 35% / 40% / 45%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
@@ -9285,7 +9285,7 @@ abilitydata:
       width="16" height="16" border="0" /> 350/575/800</div><div class="cooldown"><img
       alt="Перезарядка" title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 60/40/20</div><br clear="left" /></div>
-    lore: Только самые опытные маги-скайрасы могут заставлять небеса разродиться такой
+    lore: Только самые опытные маги-скайрасы могут заставлять небеса разразиться такой
       бурей.
     hurl: Skywrath_Mage
   abaddon_death_coil:
@@ -10283,7 +10283,7 @@ abilitydata:
     desc: "Виверна взмывает в небо на арктическом ветре, получая беспрепятственное
       передвижение и вдыхая жгучий мороз в каждую свою атаку. В полете можно атаковать
       дальше и быстрее. Цель морозных атак замедляется и каждую секунду получает урон
-      в размере 8% от текущего запаса здоровья. Также эта способность защищает глаза
+      в размере 9% от текущего запаса здоровья. Также эта способность защищает глаза
       от ночной прохлады, увеличивая радиус ночного обзора в полете на 400.\r\n\r\nУлучшается
       с Aghanim's Scepter."
     notes: Замораживающие эффекты от нескольких атак с Arctic Burn от одного применения
@@ -10293,7 +10293,7 @@ abilitydata:
     attrib: |-
       ДЛИТЕЛЬНОСТЬ ПОЛЁТА: <span class="attribVal">8</span><br />
       ДОП. ДАЛЬНОСТЬ АТАКИ: <span class="attribVal">275 / 375 / 475 / 575</span><br />
-      СЖИГАНИЕ ЗДОРОВЬЯ В СЕКУНДУ: <span class="attribVal">8%</span><br />
+      СЖИГАНИЕ ЗДОРОВЬЯ В СЕКУНДУ: <span class="attribVal">9%</span><br />
       ДЛИТЕЛЬНОСТЬ УРОНА: <span class="attribVal">5</span><br />
       ДОП. РАДИУС ОБЗОРА НОЧЬЮ: <span class="attribVal">400</span><br />
       <span class="scepterVal">МАНЫ В СЕКУНДУ СО СКИПЕТРОМ:</span> <span class="attribVal">40</span>
@@ -10608,7 +10608,7 @@ abilitydata:
     notes: ''
     dmg: ''
     attrib: |-
-      УРОН: <span class="attribVal">100 / 180 / 260 / 340</span><br />
+      УРОН: <span class="attribVal">140 / 210 / 280 / 350</span><br />
       ЗАМЕДЛЕНИЕ ПЕРЕДВИЖЕНИЯ: <span class="attribVal">20% / 40% / 60% / 80%</span><br />
       ДЛИТЕЛЬНОСТЬ ЗАМЕДЛЕНИЯ: <span class="attribVal">4</span><br />
       МАКС. РАССТОЯНИЕ: <span class="attribVal">1000</span>

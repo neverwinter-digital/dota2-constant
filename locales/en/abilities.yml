@@ -379,7 +379,7 @@ abilitydata:
       CREEP TOTAL DAMAGE: <span class="attribVal">1000</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 115/125/140/150</div><div class="cooldown"><img
+      width="16" height="16" border="0" /> 140/145/150/155</div><div class="cooldown"><img
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 9/8/7/6</div><br clear="left" /></div>
     lore: Rylai channels winds from the Blueheart Glacier, imprisoning attackers in
@@ -1595,7 +1595,7 @@ abilitydata:
       CHANCE TO STUN: <span class="attribVal">25%</span><br />
       STUN DURATION: <span class="attribVal">0.5 / 1 / 1.5 / 2</span><br />
       ARMOR: <span class="attribVal">3 / 4 / 5 / 6</span><br />
-      DAMAGE: <span class="attribVal">40 / 50 / 60 / 70</span>
+      DAMAGE: <span class="attribVal">60 / 80 / 100 / 120</span>
     cmb: ''
     lore: Melee warriors tend to find attacking the Stone Giant largely ineffective.
     hurl: Tiny
@@ -1750,7 +1750,7 @@ abilitydata:
     attrib: |-
       MOVE SPEED BONUS: <span class="attribVal">50% / 50% / 50% / 50%</span><br />
       EVASION: <span class="attribVal">100%</span><br />
-      ENEMY SLOW: <span class="attribVal">8% / 16% / 24% / 30%</span><br />
+      ENEMY SLOW: <span class="attribVal">15% / 20% / 25% / 30%</span><br />
       ENEMY SLOW RADIUS: <span class="attribVal">325</span><br />
       DURATION: <span class="attribVal">3 / 4 / 5 / 6</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
@@ -2139,7 +2139,7 @@ abilitydata:
     attrib: |-
       DAMAGE EACH BOUNCE: <span class="attribVal">280 / 370 / 460</span><br />
       BOUNCES: <span class="attribVal">10 / 10 / 10</span><br />
-      BOUNCE RANGE: <span class="attribVal">575 / 575 / 575</span><br />
+      BOUNCE RANGE: <span class="attribVal">600</span><br />
       MOVEMENT SLOW: <span class="attribVal">65%</span><br />
       ATTACK SLOW: <span class="attribVal">65</span><br />
       SLOW DURATION: <span class="attribVal">2.5</span><br />
@@ -2968,7 +2968,7 @@ abilitydata:
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 175/340/500</div><div class="cooldown"><img
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 100/85/70</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 90/80/70</div><br clear="left" /></div>
     lore: The amount of death and suffering in the air increases the power of Necrophos's
       plague magic.
     hurl: Necrophos
@@ -3901,7 +3901,7 @@ abilitydata:
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 125/175/250</div><div class="cooldown"><img
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 60/45/30</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 50/40/30</div><br clear="left" /></div>
     lore: Once used to slay his sadistic summoner, the most powerful of Netherdrake
       infections spreads through the veins of those foolish enough to cross Viper.
     hurl: Viper
@@ -4237,7 +4237,7 @@ abilitydata:
     attrib: |-
       STUN DURATION: <span class="attribVal">1 / 1.5 / 2</span><br />
       RANGE: <span class="attribVal">2000 / 2500 / 3000</span><br />
-      DAMAGE: <span class="attribVal">100 / 200 / 300</span><br />
+      DAMAGE: <span class="attribVal">75 / 175 / 275</span><br />
       <span class="scepterVal">SCEPTER COOLDOWN:</span> <span class="attribVal">12 / 12 / 12</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -4634,7 +4634,7 @@ abilitydata:
       CAST RANGE: <span class="attribVal">500 / 900 / 1300</span><br />
       <span class="scepterVal">SCEPTER REPLICA DAMAGE:</span> <span class="attribVal">100% / 120% / 140%</span><br />
       MOVEMENT SLOW: <span class="attribVal">75%</span><br />
-      SLOW DURATION: <span class="attribVal">0.6 / 0.8 / 1</span>
+      SLOW DURATION: <span class="attribVal">0.5 / 0.75 / 1</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 125/250/375</div><div class="cooldown"><img
@@ -4966,7 +4966,7 @@ abilitydata:
     notes: ''
     dmg: 'DAMAGE: <span class="attribVal">90 / 160 / 255 / 335</span><br />'
     attrib: |-
-      DAY DURATION: <span class="attribVal">2 / 2 / 2 / 2</span><br />
+      DAY DURATION: <span class="attribVal">1.25</span><br />
       NIGHT DURATION: <span class="attribVal">2.5 / 3 / 3.5 / 4</span><br />
       MOVE SLOW: <span class="attribVal">50% / 50% / 50% / 50%</span><br />
       ATTACK SLOW: <span class="attribVal">50 / 50 / 50 / 50</span>
@@ -5013,7 +5013,7 @@ abilitydata:
       ATTACK SPEED: <span class="attribVal">45 / 60 / 75 / 90</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 50</div><div class="cooldown"><img alt="Cooldown"
+      width="16" height="16" border="0" /> 80</div><div class="cooldown"><img alt="Cooldown"
       title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 26/22/18/14</div><br clear="left" /></div>
     lore: The hunting prowess of Balanar improves as the night beckons.
@@ -5748,7 +5748,7 @@ abilitydata:
     notes: Units afflicted by Doom can be denied when their HP drops below 25%.
     dmg: ''
     attrib: |-
-      DURATION: <span class="attribVal">15</span><br />
+      DURATION: <span class="attribVal">16</span><br />
       DAMAGE PER SECOND: <span class="attribVal">25 / 40 / 55</span><br />
       <span class="scepterVal">SCEPTER DURATION:</span> <span class="attribVal">16</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
@@ -6205,7 +6205,7 @@ abilitydata:
       BASE ATTACK TIME: <span class="attribVal">1.4 / 1.2 / 1</span><br />
       BONUS HEALTH REGEN: <span class="attribVal">50 / 75 / 100</span><br />
       BONUS MANA REGEN: <span class="attribVal">3 / 7.5 / 12</span><br />
-      BONUS MOVE SPEED: <span class="attribVal">30 / 40 / 60</span>
+      BONUS MOVE SPEED: <span class="attribVal">40 / 50 / 60</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 50/100/150</div><div class="cooldown"><img
@@ -6385,7 +6385,7 @@ abilitydata:
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 60</div><div class="cooldown"><img alt="Cooldown"
       title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 15</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 17</div><br clear="left" /></div>
     lore: Gaster's Mandate of Impetuous Strife.
     hurl: Invoker
   invoker_chaos_meteor:
@@ -8091,7 +8091,7 @@ abilitydata:
     dmg: ''
     attrib: |-
       MAX TETHER DISTANCE: <span class="attribVal">900 / 900 / 900 / 900</span><br />
-      MOVEMENT SPEED BONUS: <span class="attribVal">13% / 14% / 15% / 16%</span><br />
+      MOVEMENT SPEED BONUS: <span class="attribVal">10% / 12% / 14% / 16%</span><br />
       TETHER DURATION: <span class="attribVal">12 / 12 / 12 / 12</span><br />
       ENEMY MOVEMENT SLOW: <span class="attribVal">100%</span><br />
       ENEMY ATTACK SLOW: <span class="attribVal">100</span><br />
@@ -8283,7 +8283,7 @@ abilitydata:
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 150/150/150</div><div class="cooldown"><img
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 160/145/130</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 130</div><br clear="left" /></div>
     lore: Guardians of the Narrow Maze, Necro'lic's Familiars stand watch over his
       domain.
     hurl: Visage
@@ -8414,7 +8414,7 @@ abilitydata:
       MANA STEAL: <span class="attribVal">11% / 14% / 17% / 20%</span><br />
       DAMAGE INCREASE PER JUMP: <span class="attribVal">35%</span><br />
       SCEPTER BASE DURATION: <span class="attribVal">1</span><br />
-      SCEPTER DURATION BOUNCE INCREASE: <span class="attribVal">0.2</span>
+      SCEPTER DURATION BOUNCE INCREASE: <span class="attribVal">0.3</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 140/150/160/170</div><div class="cooldown"><img
@@ -8925,7 +8925,7 @@ abilitydata:
       Warpath.
     dmg: ''
     attrib: |-
-      DAMAGE PER STACK: <span class="attribVal">20 / 25 / 30</span><br />
+      DAMAGE PER STACK: <span class="attribVal">18 / 24 / 30</span><br />
       MOVEMENT PER STACK: <span class="attribVal">3% / 4% / 5%</span><br />
       STACK DURATION: <span class="attribVal">14</span><br />
       MAX STACKS: <span class="attribVal">5 / 7 / 9</span>
@@ -9097,7 +9097,7 @@ abilitydata:
     attrib: |-
       SHOT RANGE: <span class="attribVal">1600</span><br />
       DAMAGE RADIUS: <span class="attribVal">250</span><br />
-      DAMAGE: <span class="attribVal">60 / 120 / 180 / 240</span><br />
+      DAMAGE: <span class="attribVal">70 / 140 / 210 / 280</span><br />
       SLOW DURATION: <span class="attribVal">4</span><br />
       SLOW: <span class="attribVal">30% / 35% / 40% / 45%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
@@ -10141,7 +10141,7 @@ abilitydata:
     desc: "Winter Wyvern soars upon an arctic wind, granting her unobstructed movement
       and allowing her to exhale a blistering chill into each attack. While soaring,
       her attacks travel further and faster, and slow enemies with a magical freeze
-      that strips them of 8% of their current health each second. Her sight is also
+      that strips them of 9% of their current health each second. Her sight is also
       hardened against night's chill, granting her 400 additional vision range at
       night while soaring.\r\n\r\nUpgradable by Aghanim's Scepter."
     notes: Enemy units can only receive the Arctic Burn debuff once per cast.<br />This
@@ -10151,7 +10151,7 @@ abilitydata:
     attrib: |-
       FLIGHT DURATION: <span class="attribVal">8</span><br />
       BONUS ATTACK RANGE: <span class="attribVal">275 / 375 / 475 / 575</span><br />
-      HEALTH BURN: <span class="attribVal">8%</span><br />
+      HEALTH BURN: <span class="attribVal">9%</span><br />
       BURN DURATION: <span class="attribVal">5</span><br />
       ADDED NIGHT VISION RANGE: <span class="attribVal">400</span><br />
       <span class="scepterVal">SCEPTER MANA PER SECOND:</span> <span class="attribVal">40</span>
@@ -10467,7 +10467,7 @@ abilitydata:
     notes: ''
     dmg: ''
     attrib: |-
-      DAMAGE: <span class="attribVal">100 / 180 / 260 / 340</span><br />
+      DAMAGE: <span class="attribVal">140 / 210 / 280 / 350</span><br />
       MOVEMENT SLOW: <span class="attribVal">20% / 40% / 60% / 80%</span><br />
       SLOW DURATION: <span class="attribVal">4</span><br />
       MAX DISTANCE: <span class="attribVal">1000</span>

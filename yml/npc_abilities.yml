@@ -5889,7 +5889,7 @@ DOTAAbilities:
     - treant_min_dmg_tooltip: 30
     - treant_max_dmg_tooltip: 34
     - treant_hp_bonus: 550
-    - treant_damage_bonus: 32
+    - treant_damage_bonus: 36
     - treant_large_hp_bonus: 1650
     - treant_large_damage_bonus: 96
   furion_wrath_of_nature:

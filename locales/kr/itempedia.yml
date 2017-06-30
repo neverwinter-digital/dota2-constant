@@ -1481,7 +1481,7 @@ itemdata:
       + <span class="attribVal">15</span> <span class="attribValText">피해</span><br />
       + <span class="attribVal">75%</span> <span class="attribValText">마나 재생</span><br />
       이동 둔화: <span class="attribVal">100%</span><br />
-      둔화 지속시간: <span class="attribVal">0.6</span>
+      둔화 지속시간: <span class="attribVal">0.7</span>
     mc: false
     cd: 5
     lore: 공명하는 마법이 깃들어 믿을 수 없을 정도로 빠르게 움직이는 검입니다.
@@ -1920,7 +1920,7 @@ itemdata:
     dname: 혈석
     qual: epic
     cost: 4850
-    desc: "사용 효과: 간편 디나이 - 즉시 자살합니다.<br />\r\n지속 효과: 피의 서약 - 아이템 획득 시 12회 충전되어 있습니다.
+    desc: "시전 기술: 간편 디나이 - 즉시 자살합니다.<br />\r\n지속 효과: 피의 서약 - 아이템 획득 시 12회 충전되어 있습니다.
       1675의 범위 내에서 적 영웅이 죽을 때마다 1회 충전이 더해집니다. 충전 횟수마다 초당 회복하는 마나가 1씩 증가하고, 부활 대기 시간이
       %respawn_time_reduction%초씩 감소합니다. 소지자가 사망할 경우 %heal_on_death_range% 범위 내에 있는
       아군이 충전 횟수당 %heal_on_death_base% + %heal_on_death_per_charge% 체력을 회복합니다. 그 후
@@ -2163,7 +2163,7 @@ itemdata:
     dname: 나비검
     qual: epic
     cost: 5525
-    desc: "사용 효과: 날갯짓 - 회피 보너스를 포기하고 4.0초 동안 %bonus_move_speed%% 이동 속도 증가 효과를 얻습니다.<br
+    desc: "시전 기술: 날갯짓 - 회피 보너스를 포기하고 4.0초 동안 %bonus_move_speed%% 이동 속도 증가 효과를 얻습니다.<br
       />\r\n<br />\r\n다른 회피 효과와 중첩 시 효율이 점차 감소합니다."
     notes: ''
     attrib: |-
@@ -2233,7 +2233,7 @@ itemdata:
     desc: "시전 기술: 나무/와드 부수기 - 대상 나무를 베거나 와드를 파괴합니다.<br />\r\n지속 효과: 진압 - 비영웅 유닛을 상대로
       공격력이 증가합니다. 장착한 영웅이 원거리인지 근접인지에 따라 각기 다르게 적용됩니다.<br />\r\n<br />\r\n지속 효과: 가르기
       - 대상 주변 지역에 공격력의 일정 비율만큼 피해를 줍니다. 원거리 영웅에게는 효과가 적용되지 않습니다."
-    notes: 가르기 피해량은 방어력이 아닌 방어 유형에 따라 감소합니다.<br />가르기는 주문 면역을 무시하고 피해를 줍니다.<br />다수의
+    notes: 가르기 피해는 방어력이 아닌 방어 유형에 따라 감소합니다.<br />가르기는 주문 면역을 무시하고 피해를 줍니다.<br />다수의
       가르기 효과가 있다면, 가르기 피해는 각각 별도로 적용됩니다.<br />벌목 도끼나 전장격노의 부수기로 기술단의 원격 지뢰를 제거할 수
       있습니다.
     attrib: |-
@@ -2544,7 +2544,7 @@ itemdata:
       + <span class="attribVal">10</span> <span class="attribValText">공격 속도</span><br />
       오라 공격 속도: <span class="attribVal">10</span><br />
       오라 체력 재생: <span class="attribVal">10</span><br />
-      지배 최소 체력: <span class="attribVal">1400</span><br />
+      지배 최소 체력: <span class="attribVal">1500</span><br />
       크립 이동 속도: <span class="attribVal">425</span>
     mc: false
     cd: 60
@@ -3143,7 +3143,7 @@ itemdata:
     dname: 그림자 부적
     qual: false
     cost: 1300
-    desc: '사용 효과: 사라지기 - 자신 또는 아군 영웅을 %fade_time%초에 걸쳐 투명화시킵니다. 움직이면 모습이 드러납니다. 자신에게
+    desc: '시전 기술: 사라지기 - 자신 또는 아군 영웅을 %fade_time%초에 걸쳐 투명화시킵니다. 움직이면 모습이 드러납니다. 자신에게
       아이템을 사용할 때는 쿨다운이 적용되지 않습니다.'
     notes: ''
     attrib: |-

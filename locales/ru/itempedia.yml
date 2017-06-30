@@ -670,8 +670,8 @@ itemdata:
     dname: Clarity
     qual: consumable
     cost: 50
-    desc: 'Использование: постепенно восстанавливает ману цели. Если ее атакует вражеский
-      герой или Рошан, восстановление прекращается.'
+    desc: 'Использование: постепенно восстанавливает ману цели. Атака вражеского героя
+      или Рошана прекращает восстановление.'
     notes: ''
     attrib: |-
       ПОПОЛНЯЕТ МАНЫ: <span class="attribVal">190</span><br />
@@ -1574,7 +1574,7 @@ itemdata:
       + <span class="attribVal">15</span> <span class="attribValText">к урону</span><br />
       + <span class="attribVal">75%</span> <span class="attribValText">к регенерации маны</span><br />
       ЗАМЕДЛЕНИЕ ПЕРЕДВИЖЕНИЯ: <span class="attribVal">100%</span><br />
-      ДЛИТЕЛЬНОСТЬ ЗАМЕДЛЕНИЯ: <span class="attribVal">0.6</span>
+      ДЛИТЕЛЬНОСТЬ ЗАМЕДЛЕНИЯ: <span class="attribVal">0.7</span>
     mc: false
     cd: 5
     lore: Обманчиво быстрый клинок, полный магии звука.
@@ -2718,13 +2718,13 @@ itemdata:
       героем или древним крипом и увеличивает его скорость передвижения до %speed_base%.
       Запас здоровья прирученного существа увеличивается до указанного минимума.'
     notes: Можно иметь только одно прирученное существо. Если будет приручено новое
-      существо, старое умрет.<br />Продажа или улучшение Helm of the Dominator убьет
-      прирученных юнитов.
+      существо, старое умрет.<br />Продажа Helm of the Dominator убьёт прирученных
+      существ.
     attrib: "+ <span class=\"attribVal\">2</span> <span class=\"attribValText\">ко
       всем атрибутам</span><br />\n+ <span class=\"attribVal\">10</span> <span class=\"attribValText\">к
       скорости атаки</span><br />\nСКОРОСТЬ АТАКИ ОТ АУРЫ: <span class=\"attribVal\">10</span><br
       />\nЛЕЧЕНИЕ ОТ АУРЫ: <span class=\"attribVal\">10</span><br />\nПРИРУЧЕННОЕ
-      СУЩЕСТВО:\r\n• МИН. ЗАПАС ЗДОРОВЬЯ: <span class=\"attribVal\">1400</span><br
+      СУЩЕСТВО:\r\n• МИН. ЗАПАС ЗДОРОВЬЯ: <span class=\"attribVal\">1500</span><br
       />\n• СКОРОСТЬ ПЕРЕДВИЖЕНИЯ: <span class=\"attribVal\">425</span>"
     mc: false
     cd: 60
@@ -3074,17 +3074,18 @@ itemdata:
     dname: Solar Crest
     qual: rare
     cost: 2625
-    desc: 'Active: Shine - Temporarily removes the armor and evasion from Solar Crest.
-      When cast on an ally it grants them %bonus_armor% armor and %bonus_evasion%%
-      evasion. When cast on an enemy, it removes %bonus_armor% of their armor and
-      grants your allies to have %truestrike_chance%% Accuracy on the target. Cannot
-      target magic immune enemies.'
+    desc: 'Активируемая: Shine — временно убирает у владельца дополнительную броню
+      и шанс уклонения, даруемые этим предметом. При использовании на союзника увеличивает
+      ему броню на %bonus_armor% и даёт шанс уклонения в %bonus_evasion%%. При использовании
+      на противника уменьшает его броню на %bonus_armor% и увеличивает точность атак
+      ваших союзников по нему на %truestrike_chance%%. Не действует на невосприимчивых
+      к магии противников.'
     notes: ''
     attrib: |-
       + <span class="attribVal">10</span> <span class="attribValText">к броне</span><br />
       + <span class="attribVal">75%</span> <span class="attribValText">к регенерации маны</span><br />
       + <span class="attribVal">20%</span> <span class="attribValText">к уклонению</span><br />
-      ACCURACY: <span class="attribVal">35%</span><br />
+      ТОЧНОСТЬ: <span class="attribVal">35%</span><br />
       ДЛИТЕЛЬНОСТЬ: <span class="attribVal">7</span><br />
       ДАЛЬНОСТЬ ПРИМЕНЕНИЯ: <span class="attribVal">1000</span>
     mc: false

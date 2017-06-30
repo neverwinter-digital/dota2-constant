@@ -181,7 +181,7 @@ herodata:
         g: '1.65'
       agi:
         b: 20
-        g: '3.30'
+        g: '3.60'
       ms: 300
       dmg:
         min: 21
@@ -1122,7 +1122,7 @@ herodata:
         b: 22
         g: '2.60'
       int:
-        b: 25
+        b: 23
         g: '2.70'
       agi:
         b: 12
@@ -1274,7 +1274,7 @@ herodata:
       agi:
         b: 21
         g: '3.00'
-      ms: 315
+      ms: 320
       dmg:
         min: 24
         max: 38
@@ -1484,7 +1484,7 @@ herodata:
       agi:
         b: 24
         g: '2.80'
-      ms: 320
+      ms: 325
       dmg:
         min: 13
         max: 23
@@ -1623,7 +1623,7 @@ herodata:
     pa: int
     attribs:
       str:
-        b: 17
+        b: 19
         g: '2.20'
       int:
         b: 23
@@ -1665,7 +1665,7 @@ herodata:
     pa: str
     attribs:
       str:
-        b: 20
+        b: 22
         g: '3.20'
       int:
         b: 16
@@ -1715,7 +1715,7 @@ herodata:
       agi:
         b: 15
         g: '2.00'
-      ms: 280
+      ms: 270
       dmg:
         min: 62
         max: 70
@@ -1761,7 +1761,7 @@ herodata:
       dmg:
         min: 35
         max: 43
-      armor: 3.4
+      armor: 4.4
     dac: Ближнего боя
     droles: Support - Durable - Disabler - Nuker
   rubick:
@@ -2044,7 +2044,7 @@ herodata:
     attribs:
       str:
         b: 22
-        g: '2.50'
+        g: '2.20'
       int:
         b: 14
         g: '2.80'

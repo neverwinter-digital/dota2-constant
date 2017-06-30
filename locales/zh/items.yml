@@ -1440,7 +1440,7 @@ itemdata:
       + <span class="attribVal">15</span> <span class="attribValText">攻击力</span><br />
       + <span class="attribVal">75%</span> <span class="attribValText">魔法恢复</span><br />
       移动速度减缓： <span class="attribVal">100%</span><br />
-      减速持续时间： <span class="attribVal">0.6</span>
+      减速持续时间： <span class="attribVal">0.7</span>
     mc: false
     cd: 5
     lore: 一把看似迅捷异常的战刃，其中注入了共鸣魔力。
@@ -2455,7 +2455,7 @@ itemdata:
       + <span class="attribVal">10</span> <span class="attribValText">攻击速度</span><br />
       光环攻击速度： <span class="attribVal">10</span><br />
       光环生命恢复速率： <span class="attribVal">10</span><br />
-      被支配生物最低生命值： <span class="attribVal">1400</span><br />
+      被支配生物最低生命值： <span class="attribVal">1500</span><br />
       非英雄单位移动速度： <span class="attribVal">425</span>
     mc: false
     cd: 60
