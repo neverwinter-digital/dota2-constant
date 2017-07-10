@@ -1457,7 +1457,7 @@ itemdata:
       치명타 피해: <span class="attribVal">175%</span><br />
       침묵 증가 피해: <span class="attribVal">30%</span><br />
       침묵 지속시간: <span class="attribVal">5</span><br />
-      침묵 치명타 피해: <span class="attribVal">145%</span>
+      침묵 치명타 피해: <span class="attribVal">140%</span>
     mc: 100
     cd: 18
     lore: 능멸의 검은 희생자가 마지막 고통으로 신음할 때마다 더 깊이 파고듭니다.
@@ -2932,7 +2932,7 @@ itemdata:
     img: veil_of_discord_lg.png?3
     dname: 불화의 두건
     qual: rare
-    cost: 2240
+    cost: 2340
     desc: '시전 기술: 마법 저항력 약화 - 마법 저항력을 약화시키는 강한 바람을 내뿜어 적이 받는 마법 피해를 증가시킵니다. %resist_debuff_duration%초
       동안 지속됩니다.'
     notes: 정화할 수 있습니다.
@@ -3083,7 +3083,7 @@ itemdata:
       원거리 이동 둔화: <span class="attribVal">10%</span><br />
       원거리 공격 둔화: <span class="attribVal">10</span><br />
       부상 지속시간: <span class="attribVal">5</span><br />
-      무장 해제 원거리 지속시간: <span class="attribVal">5.5</span><br />
+      무장 해제 원거리 지속시간: <span class="attribVal">5</span><br />
       무장 해제 근접 지속시간: <span class="attribVal">3</span><br />
       무장 해제 시전 범위: <span class="attribVal">600</span>
     mc: 100

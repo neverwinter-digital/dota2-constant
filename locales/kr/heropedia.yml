@@ -2,7 +2,7 @@
 herodata:
   antimage:
     dname: 항마사
-    u: Anti-Mage
+    u: antimage
     pa: agi
     attribs:
       str:
@@ -23,7 +23,7 @@ herodata:
     droles: 캐리 - 도주기 - 누커
   axe:
     dname: 도끼전사
-    u: Axe
+    u: axe
     pa: str
     attribs:
       str:
@@ -44,7 +44,7 @@ herodata:
     droles: 전투개시자 - 생존력 - 무력화 - 정글러
   bane:
     dname: 악몽의 그림자
-    u: Bane
+    u: bane
     pa: int
     attribs:
       str:
@@ -65,7 +65,7 @@ herodata:
     droles: 지원 - 무력화 - 누커 - 생존력
   bloodseeker:
     dname: 혈귀
-    u: Bloodseeker
+    u: bloodseeker
     pa: agi
     attribs:
       str:
@@ -86,7 +86,7 @@ herodata:
     droles: 캐리 - 무력화 - 정글러 - 누커 - 전투개시자
   crystal_maiden:
     dname: 수정의 여인
-    u: Crystal_Maiden
+    u: crystal_maiden
     pa: int
     attribs:
       str:
@@ -107,7 +107,7 @@ herodata:
     droles: 지원 - 무력화 - 누커 - 정글러
   drow_ranger:
     dname: 드로우 레인저
-    u: Drow_Ranger
+    u: drow_ranger
     pa: agi
     attribs:
       str:
@@ -128,7 +128,7 @@ herodata:
     droles: 캐리 - 무력화 - 압박
   earthshaker:
     dname: 지진술사
-    u: Earthshaker
+    u: earthshaker
     pa: str
     attribs:
       str:
@@ -149,7 +149,7 @@ herodata:
     droles: 지원 - 전투개시자 - 무력화 - 누커
   juggernaut:
     dname: 가면무사
-    u: Juggernaut
+    u: juggernaut
     pa: agi
     attribs:
       str:
@@ -170,7 +170,7 @@ herodata:
     droles: 캐리 - 압박 - 도주기
   mirana:
     dname: 미라나
-    u: Mirana
+    u: mirana
     pa: agi
     attribs:
       str:
@@ -191,7 +191,7 @@ herodata:
     droles: 캐리 - 지원 - 도주기 - 누커 - 무력화
   nevermore:
     dname: 그림자 마귀
-    u: Shadow_Fiend
+    u: nevermore
     pa: agi
     attribs:
       str:
@@ -212,7 +212,7 @@ herodata:
     droles: 캐리 - 누커
   morphling:
     dname: 모플링
-    u: Morphling
+    u: morphling
     pa: agi
     attribs:
       str:
@@ -233,7 +233,7 @@ herodata:
     droles: 캐리 - 도주기 - 생존력 - 누커 - 무력화
   phantom_lancer:
     dname: 환영 창기사
-    u: Phantom_Lancer
+    u: phantom_lancer
     pa: agi
     attribs:
       str:
@@ -244,7 +244,7 @@ herodata:
         g: '2.00'
       agi:
         b: 29
-        g: '2.60'
+        g: '2.80'
       ms: 290
       dmg:
         min: 22
@@ -254,7 +254,7 @@ herodata:
     droles: 캐리 - 도주기 - 압박 - 누커
   puck:
     dname: 퍽
-    u: Puck
+    u: puck
     pa: int
     attribs:
       str:
@@ -270,12 +270,12 @@ herodata:
       dmg:
         min: 28
         max: 39
-      armor: 2.08
+      armor: 1.08
     dac: 원거리
     droles: 전투개시자 - 무력화 - 도주기 - 누커
   pudge:
     dname: 퍼지
-    u: Pudge
+    u: pudge
     pa: str
     attribs:
       str:
@@ -296,7 +296,7 @@ herodata:
     droles: 무력화 - 전투개시자 - 생존력 - 누커
   razor:
     dname: 레이저
-    u: Razor
+    u: razor
     pa: agi
     attribs:
       str:
@@ -307,7 +307,7 @@ herodata:
         g: '1.80'
       agi:
         b: 22
-        g: '2.00'
+        g: '1.80'
       ms: 295
       dmg:
         min: 23
@@ -317,7 +317,7 @@ herodata:
     droles: 캐리 - 생존력 - 누커 - 압박
   sand_king:
     dname: 모래 제왕
-    u: Sand_King
+    u: sand_king
     pa: str
     attribs:
       str:
@@ -338,7 +338,7 @@ herodata:
     droles: 전투개시자 - 무력화 - 누커 - 도주기 - 정글러
   storm_spirit:
     dname: 폭풍령
-    u: Storm_Spirit
+    u: storm_spirit
     pa: int
     attribs:
       str:
@@ -359,7 +359,7 @@ herodata:
     droles: 캐리 - 도주기 - 누커 - 전투개시자 - 무력화
   sven:
     dname: 스벤
-    u: Sven
+    u: sven
     pa: str
     attribs:
       str:
@@ -380,7 +380,7 @@ herodata:
     droles: 캐리 - 무력화 - 전투개시자 - 생존력 - 누커
   tiny:
     dname: 타이니
-    u: Tiny
+    u: tiny
     pa: str
     attribs:
       str:
@@ -401,7 +401,7 @@ herodata:
     droles: 캐리 - 누커 - 압박 - 전투개시자 - 생존력 - 무력화
   vengefulspirit:
     dname: 복수 혼령
-    u: Vengeful_Spirit
+    u: vengefulspirit
     pa: agi
     attribs:
       str:
@@ -422,7 +422,7 @@ herodata:
     droles: 지원 - 전투개시자 - 무력화 - 누커 - 도주기
   windrunner:
     dname: 바람순찰자
-    u: Windranger
+    u: windrunner
     pa: int
     attribs:
       str:
@@ -443,7 +443,7 @@ herodata:
     droles: 캐리 - 지원 - 무력화 - 도주기 - 누커
   zuus:
     dname: 제우스
-    u: Zeus
+    u: zuus
     pa: int
     attribs:
       str:
@@ -464,7 +464,7 @@ herodata:
     droles: 누커
   kunkka:
     dname: 컨카
-    u: Kunkka
+    u: kunkka
     pa: str
     attribs:
       str:
@@ -485,7 +485,7 @@ herodata:
     droles: 캐리 - 무력화 - 전투개시자 - 생존력 - 누커
   lina:
     dname: 리나
-    u: Lina
+    u: lina
     pa: int
     attribs:
       str:
@@ -506,7 +506,7 @@ herodata:
     droles: 지원 - 캐리 - 누커 - 무력화
   lich:
     dname: 리치
-    u: Lich
+    u: lich
     pa: int
     attribs:
       str:
@@ -527,7 +527,7 @@ herodata:
     droles: 지원 - 누커
   lion:
     dname: 라이온
-    u: Lion
+    u: lion
     pa: int
     attribs:
       str:
@@ -548,7 +548,7 @@ herodata:
     droles: 지원 - 무력화 - 누커 - 전투개시자
   shadow_shaman:
     dname: 그림자 주술사
-    u: Shadow_Shaman
+    u: shadow_shaman
     pa: int
     attribs:
       str:
@@ -569,7 +569,7 @@ herodata:
     droles: 지원 - 압박 - 무력화 - 누커 - 전투개시자
   slardar:
     dname: 슬라다
-    u: Slardar
+    u: slardar
     pa: str
     attribs:
       str:
@@ -590,7 +590,7 @@ herodata:
     droles: 캐리 - 생존력 - 전투개시자 - 무력화 - 도주기
   tidehunter:
     dname: 파도사냥꾼
-    u: Tidehunter
+    u: tidehunter
     pa: str
     attribs:
       str:
@@ -611,7 +611,7 @@ herodata:
     droles: 전투개시자 - 생존력 - 무력화 - 누커
   witch_doctor:
     dname: 저주술사
-    u: Witch_Doctor
+    u: witch_doctor
     pa: int
     attribs:
       str:
@@ -632,7 +632,7 @@ herodata:
     droles: 지원 - 누커 - 무력화
   riki:
     dname: 리키
-    u: Riki
+    u: riki
     pa: agi
     attribs:
       str:
@@ -653,7 +653,7 @@ herodata:
     droles: 캐리 - 도주기 - 무력화
   enigma:
     dname: 에니그마
-    u: Enigma
+    u: enigma
     pa: int
     attribs:
       str:
@@ -674,7 +674,7 @@ herodata:
     droles: 무력화 - 정글러 - 전투개시자 - 압박
   tinker:
     dname: 땜장이
-    u: Tinker
+    u: tinker
     pa: int
     attribs:
       str:
@@ -695,7 +695,7 @@ herodata:
     droles: 캐리 - 누커 - 압박
   sniper:
     dname: 저격수
-    u: Sniper
+    u: sniper
     pa: agi
     attribs:
       str:
@@ -706,7 +706,7 @@ herodata:
         g: '2.60'
       agi:
         b: 21
-        g: '2.50'
+        g: '2.70'
       ms: 290
       dmg:
         min: 15
@@ -716,7 +716,7 @@ herodata:
     droles: 캐리 - 누커
   necrolyte:
     dname: 강령사제
-    u: Necrophos
+    u: necrolyte
     pa: int
     attribs:
       str:
@@ -737,7 +737,7 @@ herodata:
     droles: 캐리 - 누커 - 생존력 - 무력화
   warlock:
     dname: 흑마법사
-    u: Warlock
+    u: warlock
     pa: int
     attribs:
       str:
@@ -758,7 +758,7 @@ herodata:
     droles: 지원 - 전투개시자 - 무력화
   beastmaster:
     dname: 야수지배자
-    u: Beastmaster
+    u: beastmaster
     pa: str
     attribs:
       str:
@@ -779,7 +779,7 @@ herodata:
     droles: 전투개시자 - 무력화 - 생존력 - 누커
   queenofpain:
     dname: 고통의 여왕
-    u: Queen_of_Pain
+    u: queenofpain
     pa: int
     attribs:
       str:
@@ -793,19 +793,19 @@ herodata:
         g: '2.00'
       ms: 295
       dmg:
-        min: 25
-        max: 33
+        min: 21
+        max: 29
       armor: 1.52
     dac: 원거리
     droles: 캐리 - 누커 - 도주기
   venomancer:
     dname: 맹독사
-    u: Venomancer
+    u: venomancer
     pa: agi
     attribs:
       str:
         b: 18
-        g: '2.15'
+        g: '1.90'
       int:
         b: 17
         g: '1.80'
@@ -821,7 +821,7 @@ herodata:
     droles: 지원 - 누커 - 전투개시자 - 압박 - 무력화
   faceless_void:
     dname: 얼굴없는 전사
-    u: Faceless_Void
+    u: faceless_void
     pa: agi
     attribs:
       str:
@@ -842,7 +842,7 @@ herodata:
     droles: 캐리 - 전투개시자 - 무력화 - 도주기 - 생존력
   skeleton_king:
     dname: 망령 제왕
-    u: Wraith_King
+    u: skeleton_king
     pa: str
     attribs:
       str:
@@ -863,7 +863,7 @@ herodata:
     droles: 캐리 - 지원 - 생존력 - 무력화 - 전투개시자
   death_prophet:
     dname: 죽음의 예언자
-    u: Death_Prophet
+    u: death_prophet
     pa: int
     attribs:
       str:
@@ -884,7 +884,7 @@ herodata:
     droles: 캐리 - 압박 - 누커 - 무력화
   phantom_assassin:
     dname: 유령 자객
-    u: Phantom_Assassin
+    u: phantom_assassin
     pa: agi
     attribs:
       str:
@@ -905,7 +905,7 @@ herodata:
     droles: 캐리 - 도주기
   pugna:
     dname: 퍼그나
-    u: Pugna
+    u: pugna
     pa: int
     attribs:
       str:
@@ -926,7 +926,7 @@ herodata:
     droles: 누커 - 압박
   templar_assassin:
     dname: 암살 기사
-    u: Templar_Assassin
+    u: templar_assassin
     pa: agi
     attribs:
       str:
@@ -947,7 +947,7 @@ herodata:
     droles: 캐리 - 도주기
   viper:
     dname: 바이퍼
-    u: Viper
+    u: viper
     pa: agi
     attribs:
       str:
@@ -968,7 +968,7 @@ herodata:
     droles: 캐리 - 생존력 - 전투개시자 - 무력화
   luna:
     dname: 루나
-    u: Luna
+    u: luna
     pa: agi
     attribs:
       str:
@@ -989,7 +989,7 @@ herodata:
     droles: 캐리 - 누커 - 압박
   dragon_knight:
     dname: 용기사
-    u: Dragon_Knight
+    u: dragon_knight
     pa: str
     attribs:
       str:
@@ -1010,7 +1010,7 @@ herodata:
     droles: 캐리 - 압박 - 생존력 - 무력화 - 전투개시자 - 누커
   dazzle:
     dname: 대즐
-    u: Dazzle
+    u: dazzle
     pa: int
     attribs:
       str:
@@ -1031,7 +1031,7 @@ herodata:
     droles: 지원 - 누커 - 무력화
   rattletrap:
     dname: 태엽장이
-    u: Clockwerk
+    u: rattletrap
     pa: str
     attribs:
       str:
@@ -1045,14 +1045,14 @@ herodata:
         g: '2.30'
       ms: 315
       dmg:
-        min: 31
-        max: 33
+        min: 28
+        max: 30
       armor: 1.82
     dac: 근접
     droles: 전투개시자 - 무력화 - 생존력 - 누커
   leshrac:
     dname: 레슈락
-    u: Leshrac
+    u: leshrac
     pa: int
     attribs:
       str:
@@ -1073,7 +1073,7 @@ herodata:
     droles: 캐리 - 지원 - 누커 - 압박 - 무력화
   furion:
     dname: 자연의 예언자
-    u: Natures_Prophet
+    u: furion
     pa: int
     attribs:
       str:
@@ -1094,12 +1094,12 @@ herodata:
     droles: 캐리 - 정글러 - 압박 - 도주기 - 누커
   life_stealer:
     dname: 흡혈마
-    u: Lifestealer
+    u: life_stealer
     pa: str
     attribs:
       str:
         b: 25
-        g: '3.30'
+        g: '3.10'
       int:
         b: 15
         g: '1.75'
@@ -1115,7 +1115,7 @@ herodata:
     droles: 캐리 - 생존력 - 정글러 - 도주기 - 무력화
   dark_seer:
     dname: 어둠 현자
-    u: Dark_Seer
+    u: dark_seer
     pa: int
     attribs:
       str:
@@ -1136,7 +1136,7 @@ herodata:
     droles: 전투개시자 - 정글러 - 도주기 - 무력화
   clinkz:
     dname: 클링츠
-    u: Clinkz
+    u: clinkz
     pa: agi
     attribs:
       str:
@@ -1157,7 +1157,7 @@ herodata:
     droles: 캐리 - 도주기 - 압박
   omniknight:
     dname: 전능기사
-    u: Omniknight
+    u: omniknight
     pa: str
     attribs:
       str:
@@ -1178,7 +1178,7 @@ herodata:
     droles: 지원 - 생존력 - 누커
   enchantress:
     dname: 요술사
-    u: Enchantress
+    u: enchantress
     pa: int
     attribs:
       str:
@@ -1199,7 +1199,7 @@ herodata:
     droles: 지원 - 정글러 - 압박 - 생존력 - 무력화
   huskar:
     dname: 허스카
-    u: Huskar
+    u: huskar
     pa: str
     attribs:
       str:
@@ -1220,14 +1220,14 @@ herodata:
     droles: 캐리 - 생존력 - 전투개시자
   night_stalker:
     dname: 밤의 추격자
-    u: Night_Stalker
+    u: night_stalker
     pa: str
     attribs:
       str:
         b: 23
         g: '3.10'
       int:
-        b: 16
+        b: 13
         g: '1.60'
       agi:
         b: 18
@@ -1241,7 +1241,7 @@ herodata:
     droles: 캐리 - 전투개시자 - 생존력 - 무력화 - 누커
   broodmother:
     dname: 거미여왕
-    u: Broodmother
+    u: broodmother
     pa: agi
     attribs:
       str:
@@ -1262,7 +1262,7 @@ herodata:
     droles: 캐리 - 압박 - 도주기 - 누커
   bounty_hunter:
     dname: 현상금 사냥꾼
-    u: Bounty_Hunter
+    u: bounty_hunter
     pa: agi
     attribs:
       str:
@@ -1283,7 +1283,7 @@ herodata:
     droles: 도주기 - 누커
   weaver:
     dname: 길쌈꾼
-    u: Weaver
+    u: weaver
     pa: agi
     attribs:
       str:
@@ -1304,7 +1304,7 @@ herodata:
     droles: 캐리 - 도주기
   jakiro:
     dname: 자키로
-    u: Jakiro
+    u: jakiro
     pa: int
     attribs:
       str:
@@ -1325,7 +1325,7 @@ herodata:
     droles: 지원 - 누커 - 압박 - 무력화
   batrider:
     dname: 박쥐기수
-    u: Batrider
+    u: batrider
     pa: int
     attribs:
       str:
@@ -1346,7 +1346,7 @@ herodata:
     droles: 전투개시자 - 정글러 - 무력화 - 도주기
   chen:
     dname: 첸
-    u: Chen
+    u: chen
     pa: int
     attribs:
       str:
@@ -1367,11 +1367,11 @@ herodata:
     droles: 지원 - 정글러 - 압박
   spectre:
     dname: 악령
-    u: Spectre
+    u: spectre
     pa: agi
     attribs:
       str:
-        b: 19
+        b: 20
         g: '2.30'
       int:
         b: 16
@@ -1388,7 +1388,7 @@ herodata:
     droles: 캐리 - 생존력 - 도주기
   doom_bringer:
     dname: 파멸의 사도
-    u: Doom
+    u: doom_bringer
     pa: str
     attribs:
       str:
@@ -1409,7 +1409,7 @@ herodata:
     droles: 캐리 - 무력화 - 전투개시자 - 생존력 - 누커
   ancient_apparition:
     dname: 고대 영혼
-    u: Ancient_Apparition
+    u: ancient_apparition
     pa: int
     attribs:
       str:
@@ -1430,7 +1430,7 @@ herodata:
     droles: 지원 - 무력화 - 누커
   ursa:
     dname: 우르사
-    u: Ursa
+    u: ursa
     pa: agi
     attribs:
       str:
@@ -1451,7 +1451,7 @@ herodata:
     droles: 캐리 - 정글러 - 생존력 - 무력화
   spirit_breaker:
     dname: 영혼 파괴자
-    u: Spirit_Breaker
+    u: spirit_breaker
     pa: str
     attribs:
       str:
@@ -1472,7 +1472,7 @@ herodata:
     droles: 캐리 - 전투개시자 - 무력화 - 생존력 - 도주기
   gyrocopter:
     dname: 자이로콥터
-    u: Gyrocopter
+    u: gyrocopter
     pa: agi
     attribs:
       str:
@@ -1493,7 +1493,7 @@ herodata:
     droles: 캐리 - 누커 - 무력화
   alchemist:
     dname: 연금술사
-    u: Alchemist
+    u: alchemist
     pa: str
     attribs:
       str:
@@ -1503,18 +1503,18 @@ herodata:
         b: 25
         g: '1.80'
       agi:
-        b: 11
+        b: 16
         g: '1.20'
       ms: 295
       dmg:
         min: 24
         max: 33
-      armor: 1.54
+      armor: 2.24
     dac: 근접
     droles: 캐리 - 지원 - 생존력 - 무력화 - 전투개시자 - 누커
   invoker:
     dname: 원소술사
-    u: Invoker
+    u: invoker
     pa: int
     attribs:
       str:
@@ -1535,7 +1535,7 @@ herodata:
     droles: 캐리 - 누커 - 무력화 - 도주기 - 압박
   silencer:
     dname: 침묵술사
-    u: Silencer
+    u: silencer
     pa: int
     attribs:
       str:
@@ -1556,7 +1556,7 @@ herodata:
     droles: 캐리 - 지원 - 무력화 - 전투개시자 - 누커
   obsidian_destroyer:
     dname: 외계 침략자
-    u: Outworld_Devourer
+    u: obsidian_destroyer
     pa: int
     attribs:
       str:
@@ -1577,7 +1577,7 @@ herodata:
     droles: 캐리 - 누커 - 무력화
   lycan:
     dname: 늑대인간
-    u: Lycan
+    u: lycan
     pa: str
     attribs:
       str:
@@ -1598,7 +1598,7 @@ herodata:
     droles: 캐리 - 압박 - 정글러 - 생존력 - 도주기
   brewmaster:
     dname: 취권도사
-    u: Brewmaster
+    u: brewmaster
     pa: str
     attribs:
       str:
@@ -1619,11 +1619,11 @@ herodata:
     droles: 캐리 - 전투개시자 - 생존력 - 무력화 - 누커
   shadow_demon:
     dname: 그림자 악마
-    u: Shadow_Demon
+    u: shadow_demon
     pa: int
     attribs:
       str:
-        b: 19
+        b: 21
         g: '2.20'
       int:
         b: 23
@@ -1640,7 +1640,7 @@ herodata:
     droles: 지원 - 무력화 - 전투개시자 - 누커
   lone_druid:
     dname: 고독한 드루이드
-    u: Lone_Druid
+    u: lone_druid
     pa: agi
     attribs:
       str:
@@ -1661,7 +1661,7 @@ herodata:
     droles: 캐리 - 압박 - 정글러 - 생존력
   chaos_knight:
     dname: 혼돈 기사
-    u: Chaos_Knight
+    u: chaos_knight
     pa: str
     attribs:
       str:
@@ -1682,7 +1682,7 @@ herodata:
     droles: 캐리 - 무력화 - 생존력 - 압박 - 전투개시자
   meepo:
     dname: 미포
-    u: Meepo
+    u: meepo
     pa: agi
     attribs:
       str:
@@ -1703,7 +1703,7 @@ herodata:
     droles: 캐리 - 도주기 - 누커 - 무력화 - 전투개시자 - 압박
   treant:
     dname: 나무정령 수호자
-    u: Treant_Protector
+    u: treant
     pa: str
     attribs:
       str:
@@ -1724,7 +1724,7 @@ herodata:
     droles: 지원 - 전투개시자 - 생존력 - 무력화 - 도주기
   ogre_magi:
     dname: 오거 마법사
-    u: Ogre_Magi
+    u: ogre_magi
     pa: int
     attribs:
       str:
@@ -1745,7 +1745,7 @@ herodata:
     droles: 지원 - 누커 - 무력화 - 생존력 - 전투개시자
   undying:
     dname: 언다잉
-    u: Undying
+    u: undying
     pa: str
     attribs:
       str:
@@ -1766,7 +1766,7 @@ herodata:
     droles: 지원 - 생존력 - 무력화 - 누커
   rubick:
     dname: 루빅
-    u: Rubick
+    u: rubick
     pa: int
     attribs:
       str:
@@ -1787,7 +1787,7 @@ herodata:
     droles: 지원 - 무력화 - 누커
   disruptor:
     dname: 디스럽터
-    u: Disruptor
+    u: disruptor
     pa: int
     attribs:
       str:
@@ -1808,7 +1808,7 @@ herodata:
     droles: 지원 - 무력화 - 누커 - 전투개시자
   nyx_assassin:
     dname: 닉스 암살자
-    u: Nyx_Assassin
+    u: nyx_assassin
     pa: agi
     attribs:
       str:
@@ -1820,7 +1820,7 @@ herodata:
       agi:
         b: 19
         g: '2.20'
-      ms: 305
+      ms: 300
       dmg:
         min: 30
         max: 34
@@ -1829,7 +1829,7 @@ herodata:
     droles: 무력화 - 누커 - 전투개시자 - 도주기
   naga_siren:
     dname: 나가 세이렌
-    u: Naga_Siren
+    u: naga_siren
     pa: agi
     attribs:
       str:
@@ -1850,7 +1850,7 @@ herodata:
     droles: 캐리 - 지원 - 압박 - 무력화 - 전투개시자 - 도주기
   keeper_of_the_light:
     dname: 빛의 수호자
-    u: Keeper_of_the_Light
+    u: keeper_of_the_light
     pa: int
     attribs:
       str:
@@ -1871,7 +1871,7 @@ herodata:
     droles: 지원 - 누커 - 무력화 - 정글러
   wisp:
     dname: 이오
-    u: Io
+    u: wisp
     pa: str
     attribs:
       str:
@@ -1892,7 +1892,7 @@ herodata:
     droles: 지원 - 도주기 - 누커
   visage:
     dname: 비사지
-    u: Visage
+    u: visage
     pa: int
     attribs:
       str:
@@ -1913,7 +1913,7 @@ herodata:
     droles: 지원 - 누커 - 생존력 - 무력화 - 압박
   slark:
     dname: 슬라크
-    u: Slark
+    u: slark
     pa: agi
     attribs:
       str:
@@ -1934,7 +1934,7 @@ herodata:
     droles: 캐리 - 도주기 - 무력화 - 누커
   medusa:
     dname: 메두사
-    u: Medusa
+    u: medusa
     pa: agi
     attribs:
       str:
@@ -1955,7 +1955,7 @@ herodata:
     droles: 캐리 - 무력화 - 생존력
   troll_warlord:
     dname: 트롤 전쟁군주
-    u: Troll_Warlord
+    u: troll_warlord
     pa: agi
     attribs:
       str:
@@ -1976,7 +1976,7 @@ herodata:
     droles: 캐리 - 압박 - 무력화 - 생존력
   centaur:
     dname: 켄타우로스 전쟁용사
-    u: Centaur_Warrunner
+    u: centaur
     pa: str
     attribs:
       str:
@@ -1997,7 +1997,7 @@ herodata:
     droles: 생존력 - 전투개시자 - 무력화 - 누커 - 도주기
   magnataur:
     dname: 마그누스
-    u: Magnus
+    u: magnataur
     pa: str
     attribs:
       str:
@@ -2018,7 +2018,7 @@ herodata:
     droles: 전투개시자 - 무력화 - 누커 - 도주기
   shredder:
     dname: 벌목꾼
-    u: Timbersaw
+    u: shredder
     pa: str
     attribs:
       str:
@@ -2039,7 +2039,7 @@ herodata:
     droles: 누커 - 생존력 - 도주기
   bristleback:
     dname: 가시멧돼지
-    u: Bristleback
+    u: bristleback
     pa: str
     attribs:
       str:
@@ -2053,14 +2053,14 @@ herodata:
         g: '1.80'
       ms: 290
       dmg:
-        min: 26
-        max: 36
+        min: 22
+        max: 32
       armor: 3.38
     dac: 근접
     droles: 캐리 - 생존력 - 전투개시자 - 누커
   tusk:
     dname: 얼음폭군
-    u: Tusk
+    u: tusk
     pa: str
     attribs:
       str:
@@ -2102,7 +2102,7 @@ herodata:
     droles: 지원 - 누커 - 무력화
   abaddon:
     dname: 아바돈
-    u: Abaddon
+    u: abaddon
     pa: str
     attribs:
       str:
@@ -2123,7 +2123,7 @@ herodata:
     droles: 지원 - 캐리 - 생존력
   elder_titan:
     dname: 고대 티탄
-    u: Elder_Titan
+    u: elder_titan
     pa: str
     attribs:
       str:
@@ -2144,7 +2144,7 @@ herodata:
     droles: 전투개시자 - 무력화 - 누커 - 생존력
   legion_commander:
     dname: 군단 사령관
-    u: Legion_Commander
+    u: legion_commander
     pa: str
     attribs:
       str:
@@ -2165,7 +2165,7 @@ herodata:
     droles: 캐리 - 무력화 - 전투개시자 - 생존력 - 누커
   ember_spirit:
     dname: 불꽃령
-    u: Ember_Spirit
+    u: ember_spirit
     pa: agi
     attribs:
       str:
@@ -2186,7 +2186,7 @@ herodata:
     droles: 캐리 - 도주기 - 누커 - 무력화 - 전투개시자
   earth_spirit:
     dname: 대지령
-    u: Earth_Spirit
+    u: earth_spirit
     pa: str
     attribs:
       str:
@@ -2207,7 +2207,7 @@ herodata:
     droles: 누커 - 도주기 - 무력화 - 전투개시자 - 생존력
   terrorblade:
     dname: 테러블레이드
-    u: Terrorblade
+    u: terrorblade
     pa: agi
     attribs:
       str:
@@ -2228,7 +2228,7 @@ herodata:
     droles: 캐리 - 압박 - 누커
   phoenix:
     dname: 불사조
-    u: Phoenix
+    u: phoenix
     pa: str
     attribs:
       str:
@@ -2249,7 +2249,7 @@ herodata:
     droles: 지원 - 누커 - 전투개시자 - 도주기 - 무력화
   oracle:
     dname: 예지자
-    u: Oracle
+    u: oracle
     pa: int
     attribs:
       str:
@@ -2270,7 +2270,7 @@ herodata:
     droles: 지원 - 누커 - 무력화 - 도주기
   techies:
     dname: 기술단
-    u: Techies
+    u: techies
     pa: int
     attribs:
       str:
@@ -2291,7 +2291,7 @@ herodata:
     droles: 누커 - 무력화
   winter_wyvern:
     dname: 겨울 비룡
-    u: Winter_Wyvern
+    u: winter_wyvern
     pa: int
     attribs:
       str:
@@ -2312,7 +2312,7 @@ herodata:
     droles: 지원 - 무력화 - 누커
   arc_warden:
     dname: 번개 감시자
-    u: Arc_Warden
+    u: arc_warden
     pa: agi
     attribs:
       str:
@@ -2333,7 +2333,7 @@ herodata:
     droles: 캐리 - 도주기 - 누커
   abyssal_underlord:
     dname: 지하군주
-    u: Underlord
+    u: abyssal_underlord
     pa: str
     attribs:
       str:
@@ -2354,7 +2354,7 @@ herodata:
     droles: 지원 - 누커 - 무력화 - 생존력 - 도주기
   monkey_king:
     dname: 원숭이 왕
-    u: Monkey_King
+    u: monkey_king
     pa: agi
     attribs:
       str:

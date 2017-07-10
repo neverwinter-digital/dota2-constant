@@ -998,8 +998,8 @@
         },
         "6313": {
             "type": "level_25_left",
-            "info_en": "+40/4% Fiery Soul Per Stack",
-            "info_zh": "+40/4% 炽魂每次叠加"
+            "info_en": "+35/3% Fiery Soul Per Stack",
+            "info_zh": "+35/3% 炽魂每次叠加"
         },
         "6388": {
             "type": "level_10_right",
@@ -1574,11 +1574,6 @@
             "info_en": "+25 Damage",
             "info_zh": "+25 攻击力"
         },
-        "6061": {
-            "type": "level_25_left",
-            "info_en": "70% Spell Lifesteal",
-            "info_zh": "70% 技能吸血"
-        },
         "6137": {
             "type": "level_10_left",
             "info_en": "+10 Strength",
@@ -1593,6 +1588,11 @@
             "type": "level_25_right",
             "info_en": "550 AoE Shadow Strike",
             "info_zh": "暗影突袭变为550范围技能"
+        },
+        "6575": {
+            "type": "level_25_left",
+            "info_en": "60% Spell Lifesteal",
+            "info_zh": "60% 技能吸血"
         }
     },
     "40": {
@@ -1823,8 +1823,8 @@
         },
         "6238": {
             "type": "level_25_left",
-            "info_en": "+150 Nether Blast Damage",
-            "info_zh": "+150 幽冥爆轰伤害"
+            "info_en": "+200 Nether Blast Damage",
+            "info_zh": "+200 幽冥爆轰伤害"
         },
         "6403": {
             "type": "level_20_right",
@@ -1937,15 +1937,10 @@
             "info_en": "+150 Health",
             "info_zh": "+150 生命"
         },
-        "5917": {
+        "5918": {
             "type": "level_10_left",
-            "info_en": "+15 Movement Speed",
-            "info_zh": "+15 移动速度"
-        },
-        "5937": {
-            "type": "level_20_left",
-            "info_en": "+10% Magic Resistance",
-            "info_zh": "+10% 魔法抗性"
+            "info_en": "+20 Movement Speed",
+            "info_zh": "+20 移动速度"
         },
         "5938": {
             "type": "level_10_right",
@@ -1966,6 +1961,11 @@
             "type": "level_25_right",
             "info_en": "+15 All Stats",
             "info_zh": "+15 全属性"
+        },
+        "6138": {
+            "type": "level_20_left",
+            "info_en": "+15% Magic Resistance",
+            "info_zh": "+15% 魔法抗性"
         },
         "6180": {
             "type": "level_15_left",
@@ -2105,11 +2105,6 @@
             "info_en": "+25 Movement Speed",
             "info_zh": "+25 移动速度"
         },
-        "5937": {
-            "type": "level_15_left",
-            "info_en": "+10% Magic Resistance",
-            "info_zh": "+10% 魔法抗性"
-        },
         "5948": {
             "type": "level_20_right",
             "info_en": "+5% Spell Amplification",
@@ -2124,6 +2119,11 @@
             "type": "level_25_right",
             "info_en": "+50 Diabolic Edict Explosions",
             "info_zh": "+50 恶魔敕令爆炸次数"
+        },
+        "6138": {
+            "type": "level_15_left",
+            "info_en": "+15% Magic Resistance",
+            "info_zh": "+15% 魔法抗性"
         },
         "6145": {
             "type": "level_20_left",
@@ -2510,8 +2510,8 @@
         },
         "6362": {
             "type": "level_20_right",
-            "info_en": "+12 Spiders Attack Damage",
-            "info_zh": "+12 小蜘蛛攻击力"
+            "info_en": "+14 Spiders Attack Damage",
+            "info_zh": "+14 小蜘蛛攻击力"
         },
         "6444": {
             "type": "level_20_left",
@@ -2693,10 +2693,10 @@
             "info_en": "+250 Health",
             "info_zh": "+250 生命"
         },
-        "6007": {
+        "6008": {
             "type": "level_20_right",
-            "info_en": "+90 Gold/Min",
-            "info_zh": "+90 金钱/分"
+            "info_en": "+120 Gold/Min",
+            "info_zh": "+120 金钱/分"
         },
         "6141": {
             "type": "level_10_right",
@@ -2735,10 +2735,10 @@
             "info_en": "+30 Attack Speed",
             "info_zh": "+30 攻击速度"
         },
-        "5918": {
+        "5919": {
             "type": "level_15_left",
-            "info_en": "+20 Movement Speed",
-            "info_zh": "+20 移动速度"
+            "info_en": "+25 Movement Speed",
+            "info_zh": "+25 移动速度"
         },
         "5923": {
             "type": "level_15_right",
@@ -3162,10 +3162,10 @@
         }
     },
     "78": {
-        "5907": {
+        "5939": {
             "type": "level_10_right",
-            "info_en": "+30 Attack Speed",
-            "info_zh": "+30 攻击速度"
+            "info_en": "+30 Damage",
+            "info_zh": "+30 攻击力"
         },
         "6080": {
             "type": "level_20_left",
@@ -3176,11 +3176,6 @@
             "type": "level_25_left",
             "info_en": "+2000 Health to Primal Split Units",
             "info_zh": "+2000 元素分离单位生命"
-        },
-        "6112": {
-            "type": "level_25_right",
-            "info_en": "+120 Damage",
-            "info_zh": "+120 攻击力"
         },
         "6138": {
             "type": "level_15_left",
@@ -3201,6 +3196,11 @@
             "type": "level_20_right",
             "info_en": "+2s Thunderlap Slow",
             "info_zh": "+2秒 雷霆一击减速"
+        },
+        "6555": {
+            "type": "level_25_right",
+            "info_en": "+140 Attack Speed",
+            "info_zh": "+140 攻击速度"
         }
     },
     "79": {
@@ -3414,21 +3414,6 @@
         }
     },
     "84": {
-        "5903": {
-            "type": "level_20_right",
-            "info_en": "+250 Health",
-            "info_zh": "+250 生命"
-        },
-        "5919": {
-            "type": "level_20_left",
-            "info_en": "+25 Movement Speed",
-            "info_zh": "+25 移动速度"
-        },
-        "5936": {
-            "type": "level_15_left",
-            "info_en": "+8% Magic Resistance",
-            "info_zh": "+8% 魔法抗性"
-        },
         "5941": {
             "type": "level_15_right",
             "info_en": "+50 Damage",
@@ -3449,10 +3434,25 @@
             "info_en": "+15% Spell Amplification",
             "info_zh": "+15% 技能增强"
         },
+        "6141": {
+            "type": "level_20_left",
+            "info_en": "+30 Movement Speed",
+            "info_zh": "+30 移动速度"
+        },
         "6183": {
             "type": "level_25_left",
             "info_en": "+40 Bloodlust AS",
             "info_zh": "+40 嗜血术攻速加成"
+        },
+        "6195": {
+            "type": "level_20_right",
+            "info_en": "+350 Health",
+            "info_zh": "+350 生命"
+        },
+        "6299": {
+            "type": "level_15_left",
+            "info_en": "+12% Magic Resistance",
+            "info_zh": "+12% 魔法抗性"
         }
     },
     "85": {
@@ -4516,6 +4516,11 @@
             "info_en": "+150 Gold/Min",
             "info_zh": "+150 金钱/分"
         },
+        "5959": {
+            "type": "level_10_left",
+            "info_en": "+200 Health",
+            "info_zh": "+200 生命"
+        },
         "6004": {
             "type": "level_20_right",
             "info_en": "+10 Armor",
@@ -4525,11 +4530,6 @@
             "type": "level_10_right",
             "info_en": "+20% XP Gain",
             "info_zh": "+20% 经验获取"
-        },
-        "6034": {
-            "type": "level_10_left",
-            "info_en": "+175 Health",
-            "info_zh": "+175 生命"
         },
         "6085": {
             "type": "level_25_left",

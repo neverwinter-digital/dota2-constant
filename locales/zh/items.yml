@@ -1417,7 +1417,7 @@ itemdata:
       致命一击伤害： <span class="attribVal">175%</span><br />
       沉默额外伤害百分比： <span class="attribVal">30%</span><br />
       沉默持续时间： <span class="attribVal">5</span><br />
-      沉默致命一击伤害： <span class="attribVal">145%</span>
+      沉默致命一击伤害： <span class="attribVal">140%</span>
     mc: 100
     cd: 18
     lore: 一把亵渎之刃，受害者临死前的每次挣扎都会使其砍得更深。
@@ -2331,7 +2331,7 @@ itemdata:
       + <span class="attribVal">16%</span> <span class="attribValText">移动速度</span><br />
       致残概率： <span class="attribVal">40%</span><br />
       移动速度减缓（近战）： <span class="attribVal">26%</span><br />
-      攻击速度降低（降低）： <span class="attribVal">26</span><br />
+      攻击速度降低（近战）： <span class="attribVal">26</span><br />
       移动速度减缓（远程）： <span class="attribVal">13%</span><br />
       攻击速度降低（远程）： <span class="attribVal">13</span><br />
       残废持续时间： <span class="attribVal">5</span>
@@ -2824,7 +2824,7 @@ itemdata:
     img: veil_of_discord_lg.png?3
     dname: 纷争面纱
     qual: rare
-    cost: 2240
+    cost: 2340
     desc: 主动：魔法虚弱 - 发出一波弱化冲击，增加敌人受到的魔法伤害。持续%resist_debuff_duration%秒。
     notes: 可以被驱散。
     attrib: |-
@@ -2966,7 +2966,7 @@ itemdata:
       移动速度减缓（远程）： <span class="attribVal">10%</span><br />
       攻击速度降低（远程）： <span class="attribVal">10</span><br />
       残废持续时间： <span class="attribVal">5</span><br />
-      缴械对远程持续时间： <span class="attribVal">5.5</span><br />
+      缴械对远程持续时间： <span class="attribVal">5</span><br />
       缴械对近战持续时间： <span class="attribVal">3</span><br />
       缴械施法距离： <span class="attribVal">600</span>
     mc: 100

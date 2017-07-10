@@ -1541,7 +1541,7 @@ itemdata:
       CRITICAL DAMAGE: <span class="attribVal">175%</span><br />
       SILENCE INCREASED DAMAGE: <span class="attribVal">30%</span><br />
       SILENCE DURATION: <span class="attribVal">5</span><br />
-      SILENCE CRITICAL DAMAGE: <span class="attribVal">145%</span>
+      SILENCE CRITICAL DAMAGE: <span class="attribVal">140%</span>
     mc: 100
     cd: 18
     lore: A reviled blade that bites deeper with each wriggle of its victim's final
@@ -2984,8 +2984,10 @@ itemdata:
     dname: Orb of Venom
     qual: component
     cost: 275
-    desc: 'Passive: Poison Attack - Poisons the target, dealing damage over time and
-      slowing movement based on whether the equipped hero is melee or ranged.'
+    desc: 'Passive: Poison Attack - Poisons the target, dealing %poison_damage% damage
+      per second for %poison_duration% seconds and slowing movement %poison_movement_speed_melee%%
+      if the equipped hero is melee or %poison_movement_speed_range%% if they are
+      ranged.'
     notes: ''
     attrib: |-
       POISON DAMAGE PER SECOND: <span class="attribVal">5</span><br />
@@ -3137,7 +3139,7 @@ itemdata:
     img: veil_of_discord_lg.png?3
     dname: Veil of Discord
     qual: rare
-    cost: 2240
+    cost: 2340
     desc: 'Active: Magic Weakness - Emits a weakening blast that increases the magic
       damage enemies take. Lasts %resist_debuff_duration% seconds.'
     notes: Can be dispelled.
@@ -3296,7 +3298,7 @@ itemdata:
       MOVEMENT SLOW RANGED: <span class="attribVal">10%</span><br />
       ATTACK SLOW RANGED: <span class="attribVal">10</span><br />
       MAIM DURATION: <span class="attribVal">5</span><br />
-      DISARM RANGED DURATION: <span class="attribVal">5.5</span><br />
+      DISARM RANGED DURATION: <span class="attribVal">5</span><br />
       DISARM MELEE DURATION: <span class="attribVal">3</span><br />
       DISARM CAST RANGE: <span class="attribVal">600</span>
     mc: 100

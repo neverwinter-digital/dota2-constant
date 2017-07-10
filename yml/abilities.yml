@@ -745,6 +745,7 @@
 6444: special_bonus_attack_speed_70
 6030: special_bonus_attack_speed_80
 6037: special_bonus_attack_speed_100
+6555: special_bonus_attack_speed_140
 5909: special_bonus_hp_regen_4
 5910: special_bonus_hp_regen_5
 5969: special_bonus_hp_regen_6
@@ -813,6 +814,7 @@
 6550: special_bonus_spell_lifesteal_15
 6166: special_bonus_spell_lifesteal_20
 6513: special_bonus_spell_lifesteal_30
+6575: special_bonus_spell_lifesteal_60
 6061: special_bonus_spell_lifesteal_70
 6002: special_bonus_strength_3
 6005: special_bonus_strength_4

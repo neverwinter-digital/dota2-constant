@@ -2,7 +2,7 @@
 herodata:
   antimage:
     dname: Anti-Mage
-    u: Anti-Mage
+    u: antimage
     pa: agi
     attribs:
       str:
@@ -23,7 +23,7 @@ herodata:
     droles: Carry - Escape - Nuker
   axe:
     dname: Axe
-    u: Axe
+    u: axe
     pa: str
     attribs:
       str:
@@ -44,7 +44,7 @@ herodata:
     droles: Initiator - Durable - Disabler - Jungler
   bane:
     dname: Bane
-    u: Bane
+    u: bane
     pa: int
     attribs:
       str:
@@ -65,7 +65,7 @@ herodata:
     droles: Support - Disabler - Nuker - Durable
   bloodseeker:
     dname: Bloodseeker
-    u: Bloodseeker
+    u: bloodseeker
     pa: agi
     attribs:
       str:
@@ -86,7 +86,7 @@ herodata:
     droles: Carry - Disabler - Jungler - Nuker - Initiator
   crystal_maiden:
     dname: Crystal Maiden
-    u: Crystal_Maiden
+    u: crystal_maiden
     pa: int
     attribs:
       str:
@@ -107,7 +107,7 @@ herodata:
     droles: Support - Disabler - Nuker - Jungler
   drow_ranger:
     dname: Drow Ranger
-    u: Drow_Ranger
+    u: drow_ranger
     pa: agi
     attribs:
       str:
@@ -128,7 +128,7 @@ herodata:
     droles: Carry - Disabler - Pusher
   earthshaker:
     dname: Earthshaker
-    u: Earthshaker
+    u: earthshaker
     pa: str
     attribs:
       str:
@@ -149,7 +149,7 @@ herodata:
     droles: Support - Initiator - Disabler - Nuker
   juggernaut:
     dname: Juggernaut
-    u: Juggernaut
+    u: juggernaut
     pa: agi
     attribs:
       str:
@@ -170,7 +170,7 @@ herodata:
     droles: Carry - Pusher - Escape
   mirana:
     dname: Mirana
-    u: Mirana
+    u: mirana
     pa: agi
     attribs:
       str:
@@ -191,7 +191,7 @@ herodata:
     droles: Carry - Support - Escape - Nuker - Disabler
   nevermore:
     dname: Shadow Fiend
-    u: Shadow_Fiend
+    u: nevermore
     pa: agi
     attribs:
       str:
@@ -212,7 +212,7 @@ herodata:
     droles: Carry - Nuker
   morphling:
     dname: Morphling
-    u: Morphling
+    u: morphling
     pa: agi
     attribs:
       str:
@@ -233,7 +233,7 @@ herodata:
     droles: Carry - Escape - Durable - Nuker - Disabler
   phantom_lancer:
     dname: Phantom Lancer
-    u: Phantom_Lancer
+    u: phantom_lancer
     pa: agi
     attribs:
       str:
@@ -244,7 +244,7 @@ herodata:
         g: '2.00'
       agi:
         b: 29
-        g: '2.60'
+        g: '2.80'
       ms: 290
       dmg:
         min: 22
@@ -254,7 +254,7 @@ herodata:
     droles: Carry - Escape - Pusher - Nuker
   puck:
     dname: Puck
-    u: Puck
+    u: puck
     pa: int
     attribs:
       str:
@@ -270,12 +270,12 @@ herodata:
       dmg:
         min: 28
         max: 39
-      armor: 2.08
+      armor: 1.08
     dac: Ranged
     droles: Initiator - Disabler - Escape - Nuker
   pudge:
     dname: Pudge
-    u: Pudge
+    u: pudge
     pa: str
     attribs:
       str:
@@ -296,7 +296,7 @@ herodata:
     droles: Disabler - Initiator - Durable - Nuker
   razor:
     dname: Razor
-    u: Razor
+    u: razor
     pa: agi
     attribs:
       str:
@@ -307,7 +307,7 @@ herodata:
         g: '1.80'
       agi:
         b: 22
-        g: '2.00'
+        g: '1.80'
       ms: 295
       dmg:
         min: 23
@@ -317,7 +317,7 @@ herodata:
     droles: Carry - Durable - Nuker - Pusher
   sand_king:
     dname: Sand King
-    u: Sand_King
+    u: sand_king
     pa: str
     attribs:
       str:
@@ -338,7 +338,7 @@ herodata:
     droles: Initiator - Disabler - Nuker - Escape - Jungler
   storm_spirit:
     dname: Storm Spirit
-    u: Storm_Spirit
+    u: storm_spirit
     pa: int
     attribs:
       str:
@@ -359,7 +359,7 @@ herodata:
     droles: Carry - Escape - Nuker - Initiator - Disabler
   sven:
     dname: Sven
-    u: Sven
+    u: sven
     pa: str
     attribs:
       str:
@@ -380,7 +380,7 @@ herodata:
     droles: Carry - Disabler - Initiator - Durable - Nuker
   tiny:
     dname: Tiny
-    u: Tiny
+    u: tiny
     pa: str
     attribs:
       str:
@@ -401,7 +401,7 @@ herodata:
     droles: Carry - Nuker - Pusher - Initiator - Durable - Disabler
   vengefulspirit:
     dname: Vengeful Spirit
-    u: Vengeful_Spirit
+    u: vengefulspirit
     pa: agi
     attribs:
       str:
@@ -422,7 +422,7 @@ herodata:
     droles: Support - Initiator - Disabler - Nuker - Escape
   windrunner:
     dname: Windranger
-    u: Windranger
+    u: windrunner
     pa: int
     attribs:
       str:
@@ -443,7 +443,7 @@ herodata:
     droles: Carry - Support - Disabler - Escape - Nuker
   zuus:
     dname: Zeus
-    u: Zeus
+    u: zuus
     pa: int
     attribs:
       str:
@@ -464,7 +464,7 @@ herodata:
     droles: Nuker
   kunkka:
     dname: Kunkka
-    u: Kunkka
+    u: kunkka
     pa: str
     attribs:
       str:
@@ -485,7 +485,7 @@ herodata:
     droles: Carry - Disabler - Initiator - Durable - Nuker
   lina:
     dname: Lina
-    u: Lina
+    u: lina
     pa: int
     attribs:
       str:
@@ -506,7 +506,7 @@ herodata:
     droles: Support - Carry - Nuker - Disabler
   lich:
     dname: Lich
-    u: Lich
+    u: lich
     pa: int
     attribs:
       str:
@@ -527,7 +527,7 @@ herodata:
     droles: Support - Nuker
   lion:
     dname: Lion
-    u: Lion
+    u: lion
     pa: int
     attribs:
       str:
@@ -548,7 +548,7 @@ herodata:
     droles: Support - Disabler - Nuker - Initiator
   shadow_shaman:
     dname: Shadow Shaman
-    u: Shadow_Shaman
+    u: shadow_shaman
     pa: int
     attribs:
       str:
@@ -569,7 +569,7 @@ herodata:
     droles: Support - Pusher - Disabler - Nuker - Initiator
   slardar:
     dname: Slardar
-    u: Slardar
+    u: slardar
     pa: str
     attribs:
       str:
@@ -590,7 +590,7 @@ herodata:
     droles: Carry - Durable - Initiator - Disabler - Escape
   tidehunter:
     dname: Tidehunter
-    u: Tidehunter
+    u: tidehunter
     pa: str
     attribs:
       str:
@@ -611,7 +611,7 @@ herodata:
     droles: Initiator - Durable - Disabler - Nuker
   witch_doctor:
     dname: Witch Doctor
-    u: Witch_Doctor
+    u: witch_doctor
     pa: int
     attribs:
       str:
@@ -632,7 +632,7 @@ herodata:
     droles: Support - Nuker - Disabler
   riki:
     dname: Riki
-    u: Riki
+    u: riki
     pa: agi
     attribs:
       str:
@@ -653,7 +653,7 @@ herodata:
     droles: Carry - Escape - Disabler
   enigma:
     dname: Enigma
-    u: Enigma
+    u: enigma
     pa: int
     attribs:
       str:
@@ -674,7 +674,7 @@ herodata:
     droles: Disabler - Jungler - Initiator - Pusher
   tinker:
     dname: Tinker
-    u: Tinker
+    u: tinker
     pa: int
     attribs:
       str:
@@ -695,7 +695,7 @@ herodata:
     droles: Carry - Nuker - Pusher
   sniper:
     dname: Sniper
-    u: Sniper
+    u: sniper
     pa: agi
     attribs:
       str:
@@ -706,7 +706,7 @@ herodata:
         g: '2.60'
       agi:
         b: 21
-        g: '2.50'
+        g: '2.70'
       ms: 290
       dmg:
         min: 15
@@ -716,7 +716,7 @@ herodata:
     droles: Carry - Nuker
   necrolyte:
     dname: Necrophos
-    u: Necrophos
+    u: necrolyte
     pa: int
     attribs:
       str:
@@ -737,7 +737,7 @@ herodata:
     droles: Carry - Nuker - Durable - Disabler
   warlock:
     dname: Warlock
-    u: Warlock
+    u: warlock
     pa: int
     attribs:
       str:
@@ -758,7 +758,7 @@ herodata:
     droles: Support - Initiator - Disabler
   beastmaster:
     dname: Beastmaster
-    u: Beastmaster
+    u: beastmaster
     pa: str
     attribs:
       str:
@@ -779,7 +779,7 @@ herodata:
     droles: Initiator - Disabler - Durable - Nuker
   queenofpain:
     dname: Queen of Pain
-    u: Queen_of_Pain
+    u: queenofpain
     pa: int
     attribs:
       str:
@@ -793,19 +793,19 @@ herodata:
         g: '2.00'
       ms: 295
       dmg:
-        min: 25
-        max: 33
+        min: 21
+        max: 29
       armor: 1.52
     dac: Ranged
     droles: Carry - Nuker - Escape
   venomancer:
     dname: Venomancer
-    u: Venomancer
+    u: venomancer
     pa: agi
     attribs:
       str:
         b: 18
-        g: '2.15'
+        g: '1.90'
       int:
         b: 17
         g: '1.80'
@@ -821,7 +821,7 @@ herodata:
     droles: Support - Nuker - Initiator - Pusher - Disabler
   faceless_void:
     dname: Faceless Void
-    u: Faceless_Void
+    u: faceless_void
     pa: agi
     attribs:
       str:
@@ -842,7 +842,7 @@ herodata:
     droles: Carry - Initiator - Disabler - Escape - Durable
   skeleton_king:
     dname: Wraith King
-    u: Wraith_King
+    u: skeleton_king
     pa: str
     attribs:
       str:
@@ -863,7 +863,7 @@ herodata:
     droles: Carry - Support - Durable - Disabler - Initiator
   death_prophet:
     dname: Death Prophet
-    u: Death_Prophet
+    u: death_prophet
     pa: int
     attribs:
       str:
@@ -884,7 +884,7 @@ herodata:
     droles: Carry - Pusher - Nuker - Disabler
   phantom_assassin:
     dname: Phantom Assassin
-    u: Phantom_Assassin
+    u: phantom_assassin
     pa: agi
     attribs:
       str:
@@ -905,7 +905,7 @@ herodata:
     droles: Carry - Escape
   pugna:
     dname: Pugna
-    u: Pugna
+    u: pugna
     pa: int
     attribs:
       str:
@@ -926,7 +926,7 @@ herodata:
     droles: Nuker - Pusher
   templar_assassin:
     dname: Templar Assassin
-    u: Templar_Assassin
+    u: templar_assassin
     pa: agi
     attribs:
       str:
@@ -947,7 +947,7 @@ herodata:
     droles: Carry - Escape
   viper:
     dname: Viper
-    u: Viper
+    u: viper
     pa: agi
     attribs:
       str:
@@ -968,7 +968,7 @@ herodata:
     droles: Carry - Durable - Initiator - Disabler
   luna:
     dname: Luna
-    u: Luna
+    u: luna
     pa: agi
     attribs:
       str:
@@ -989,7 +989,7 @@ herodata:
     droles: Carry - Nuker - Pusher
   dragon_knight:
     dname: Dragon Knight
-    u: Dragon_Knight
+    u: dragon_knight
     pa: str
     attribs:
       str:
@@ -1010,7 +1010,7 @@ herodata:
     droles: Carry - Pusher - Durable - Disabler - Initiator - Nuker
   dazzle:
     dname: Dazzle
-    u: Dazzle
+    u: dazzle
     pa: int
     attribs:
       str:
@@ -1031,7 +1031,7 @@ herodata:
     droles: Support - Nuker - Disabler
   rattletrap:
     dname: Clockwerk
-    u: Clockwerk
+    u: rattletrap
     pa: str
     attribs:
       str:
@@ -1045,14 +1045,14 @@ herodata:
         g: '2.30'
       ms: 315
       dmg:
-        min: 31
-        max: 33
+        min: 28
+        max: 30
       armor: 1.82
     dac: Melee
     droles: Initiator - Disabler - Durable - Nuker
   leshrac:
     dname: Leshrac
-    u: Leshrac
+    u: leshrac
     pa: int
     attribs:
       str:
@@ -1073,7 +1073,7 @@ herodata:
     droles: Carry - Support - Nuker - Pusher - Disabler
   furion:
     dname: Nature's Prophet
-    u: Natures_Prophet
+    u: furion
     pa: int
     attribs:
       str:
@@ -1094,12 +1094,12 @@ herodata:
     droles: Carry - Jungler - Pusher - Escape - Nuker
   life_stealer:
     dname: Lifestealer
-    u: Lifestealer
+    u: life_stealer
     pa: str
     attribs:
       str:
         b: 25
-        g: '3.30'
+        g: '3.10'
       int:
         b: 15
         g: '1.75'
@@ -1115,7 +1115,7 @@ herodata:
     droles: Carry - Durable - Jungler - Escape - Disabler
   dark_seer:
     dname: Dark Seer
-    u: Dark_Seer
+    u: dark_seer
     pa: int
     attribs:
       str:
@@ -1136,7 +1136,7 @@ herodata:
     droles: Initiator - Jungler - Escape - Disabler
   clinkz:
     dname: Clinkz
-    u: Clinkz
+    u: clinkz
     pa: agi
     attribs:
       str:
@@ -1157,7 +1157,7 @@ herodata:
     droles: Carry - Escape - Pusher
   omniknight:
     dname: Omniknight
-    u: Omniknight
+    u: omniknight
     pa: str
     attribs:
       str:
@@ -1178,7 +1178,7 @@ herodata:
     droles: Support - Durable - Nuker
   enchantress:
     dname: Enchantress
-    u: Enchantress
+    u: enchantress
     pa: int
     attribs:
       str:
@@ -1199,7 +1199,7 @@ herodata:
     droles: Support - Jungler - Pusher - Durable - Disabler
   huskar:
     dname: Huskar
-    u: Huskar
+    u: huskar
     pa: str
     attribs:
       str:
@@ -1220,14 +1220,14 @@ herodata:
     droles: Carry - Durable - Initiator
   night_stalker:
     dname: Night Stalker
-    u: Night_Stalker
+    u: night_stalker
     pa: str
     attribs:
       str:
         b: 23
         g: '3.10'
       int:
-        b: 16
+        b: 13
         g: '1.60'
       agi:
         b: 18
@@ -1241,7 +1241,7 @@ herodata:
     droles: Carry - Initiator - Durable - Disabler - Nuker
   broodmother:
     dname: Broodmother
-    u: Broodmother
+    u: broodmother
     pa: agi
     attribs:
       str:
@@ -1262,7 +1262,7 @@ herodata:
     droles: Carry - Pusher - Escape - Nuker
   bounty_hunter:
     dname: Bounty Hunter
-    u: Bounty_Hunter
+    u: bounty_hunter
     pa: agi
     attribs:
       str:
@@ -1283,7 +1283,7 @@ herodata:
     droles: Escape - Nuker
   weaver:
     dname: Weaver
-    u: Weaver
+    u: weaver
     pa: agi
     attribs:
       str:
@@ -1304,7 +1304,7 @@ herodata:
     droles: Carry - Escape
   jakiro:
     dname: Jakiro
-    u: Jakiro
+    u: jakiro
     pa: int
     attribs:
       str:
@@ -1325,7 +1325,7 @@ herodata:
     droles: Support - Nuker - Pusher - Disabler
   batrider:
     dname: Batrider
-    u: Batrider
+    u: batrider
     pa: int
     attribs:
       str:
@@ -1346,7 +1346,7 @@ herodata:
     droles: Initiator - Jungler - Disabler - Escape
   chen:
     dname: Chen
-    u: Chen
+    u: chen
     pa: int
     attribs:
       str:
@@ -1367,11 +1367,11 @@ herodata:
     droles: Support - Jungler - Pusher
   spectre:
     dname: Spectre
-    u: Spectre
+    u: spectre
     pa: agi
     attribs:
       str:
-        b: 19
+        b: 20
         g: '2.30'
       int:
         b: 16
@@ -1388,7 +1388,7 @@ herodata:
     droles: Carry - Durable - Escape
   doom_bringer:
     dname: Doom
-    u: Doom
+    u: doom_bringer
     pa: str
     attribs:
       str:
@@ -1409,7 +1409,7 @@ herodata:
     droles: Carry - Disabler - Initiator - Durable - Nuker
   ancient_apparition:
     dname: Ancient Apparition
-    u: Ancient_Apparition
+    u: ancient_apparition
     pa: int
     attribs:
       str:
@@ -1430,7 +1430,7 @@ herodata:
     droles: Support - Disabler - Nuker
   ursa:
     dname: Ursa
-    u: Ursa
+    u: ursa
     pa: agi
     attribs:
       str:
@@ -1451,7 +1451,7 @@ herodata:
     droles: Carry - Jungler - Durable - Disabler
   spirit_breaker:
     dname: Spirit Breaker
-    u: Spirit_Breaker
+    u: spirit_breaker
     pa: str
     attribs:
       str:
@@ -1472,7 +1472,7 @@ herodata:
     droles: Carry - Initiator - Disabler - Durable - Escape
   gyrocopter:
     dname: Gyrocopter
-    u: Gyrocopter
+    u: gyrocopter
     pa: agi
     attribs:
       str:
@@ -1493,7 +1493,7 @@ herodata:
     droles: Carry - Nuker - Disabler
   alchemist:
     dname: Alchemist
-    u: Alchemist
+    u: alchemist
     pa: str
     attribs:
       str:
@@ -1503,18 +1503,18 @@ herodata:
         b: 25
         g: '1.80'
       agi:
-        b: 11
+        b: 16
         g: '1.20'
       ms: 295
       dmg:
         min: 24
         max: 33
-      armor: 1.54
+      armor: 2.24
     dac: Melee
     droles: Carry - Support - Durable - Disabler - Initiator - Nuker
   invoker:
     dname: Invoker
-    u: Invoker
+    u: invoker
     pa: int
     attribs:
       str:
@@ -1535,7 +1535,7 @@ herodata:
     droles: Carry - Nuker - Disabler - Escape - Pusher
   silencer:
     dname: Silencer
-    u: Silencer
+    u: silencer
     pa: int
     attribs:
       str:
@@ -1556,7 +1556,7 @@ herodata:
     droles: Carry - Support - Disabler - Initiator - Nuker
   obsidian_destroyer:
     dname: Outworld Devourer
-    u: Outworld_Devourer
+    u: obsidian_destroyer
     pa: int
     attribs:
       str:
@@ -1577,7 +1577,7 @@ herodata:
     droles: Carry - Nuker - Disabler
   lycan:
     dname: Lycan
-    u: Lycan
+    u: lycan
     pa: str
     attribs:
       str:
@@ -1598,7 +1598,7 @@ herodata:
     droles: Carry - Pusher - Jungler - Durable - Escape
   brewmaster:
     dname: Brewmaster
-    u: Brewmaster
+    u: brewmaster
     pa: str
     attribs:
       str:
@@ -1619,11 +1619,11 @@ herodata:
     droles: Carry - Initiator - Durable - Disabler - Nuker
   shadow_demon:
     dname: Shadow Demon
-    u: Shadow_Demon
+    u: shadow_demon
     pa: int
     attribs:
       str:
-        b: 19
+        b: 21
         g: '2.20'
       int:
         b: 23
@@ -1640,7 +1640,7 @@ herodata:
     droles: Support - Disabler - Initiator - Nuker
   lone_druid:
     dname: Lone Druid
-    u: Lone_Druid
+    u: lone_druid
     pa: agi
     attribs:
       str:
@@ -1661,7 +1661,7 @@ herodata:
     droles: Carry - Pusher - Jungler - Durable
   chaos_knight:
     dname: Chaos Knight
-    u: Chaos_Knight
+    u: chaos_knight
     pa: str
     attribs:
       str:
@@ -1682,7 +1682,7 @@ herodata:
     droles: Carry - Disabler - Durable - Pusher - Initiator
   meepo:
     dname: Meepo
-    u: Meepo
+    u: meepo
     pa: agi
     attribs:
       str:
@@ -1703,7 +1703,7 @@ herodata:
     droles: Carry - Escape - Nuker - Disabler - Initiator - Pusher
   treant:
     dname: Treant Protector
-    u: Treant_Protector
+    u: treant
     pa: str
     attribs:
       str:
@@ -1724,7 +1724,7 @@ herodata:
     droles: Support - Initiator - Durable - Disabler - Escape
   ogre_magi:
     dname: Ogre Magi
-    u: Ogre_Magi
+    u: ogre_magi
     pa: int
     attribs:
       str:
@@ -1745,7 +1745,7 @@ herodata:
     droles: Support - Nuker - Disabler - Durable - Initiator
   undying:
     dname: Undying
-    u: Undying
+    u: undying
     pa: str
     attribs:
       str:
@@ -1766,7 +1766,7 @@ herodata:
     droles: Support - Durable - Disabler - Nuker
   rubick:
     dname: Rubick
-    u: Rubick
+    u: rubick
     pa: int
     attribs:
       str:
@@ -1787,7 +1787,7 @@ herodata:
     droles: Support - Disabler - Nuker
   disruptor:
     dname: Disruptor
-    u: Disruptor
+    u: disruptor
     pa: int
     attribs:
       str:
@@ -1808,7 +1808,7 @@ herodata:
     droles: Support - Disabler - Nuker - Initiator
   nyx_assassin:
     dname: Nyx Assassin
-    u: Nyx_Assassin
+    u: nyx_assassin
     pa: agi
     attribs:
       str:
@@ -1820,7 +1820,7 @@ herodata:
       agi:
         b: 19
         g: '2.20'
-      ms: 305
+      ms: 300
       dmg:
         min: 30
         max: 34
@@ -1829,7 +1829,7 @@ herodata:
     droles: Disabler - Nuker - Initiator - Escape
   naga_siren:
     dname: Naga Siren
-    u: Naga_Siren
+    u: naga_siren
     pa: agi
     attribs:
       str:
@@ -1850,7 +1850,7 @@ herodata:
     droles: Carry - Support - Pusher - Disabler - Initiator - Escape
   keeper_of_the_light:
     dname: Keeper of the Light
-    u: Keeper_of_the_Light
+    u: keeper_of_the_light
     pa: int
     attribs:
       str:
@@ -1871,7 +1871,7 @@ herodata:
     droles: Support - Nuker - Disabler - Jungler
   wisp:
     dname: Io
-    u: Io
+    u: wisp
     pa: str
     attribs:
       str:
@@ -1892,7 +1892,7 @@ herodata:
     droles: Support - Escape - Nuker
   visage:
     dname: Visage
-    u: Visage
+    u: visage
     pa: int
     attribs:
       str:
@@ -1913,7 +1913,7 @@ herodata:
     droles: Support - Nuker - Durable - Disabler - Pusher
   slark:
     dname: Slark
-    u: Slark
+    u: slark
     pa: agi
     attribs:
       str:
@@ -1934,7 +1934,7 @@ herodata:
     droles: Carry - Escape - Disabler - Nuker
   medusa:
     dname: Medusa
-    u: Medusa
+    u: medusa
     pa: agi
     attribs:
       str:
@@ -1955,7 +1955,7 @@ herodata:
     droles: Carry - Disabler - Durable
   troll_warlord:
     dname: Troll Warlord
-    u: Troll_Warlord
+    u: troll_warlord
     pa: agi
     attribs:
       str:
@@ -1976,7 +1976,7 @@ herodata:
     droles: Carry - Pusher - Disabler - Durable
   centaur:
     dname: Centaur Warrunner
-    u: Centaur_Warrunner
+    u: centaur
     pa: str
     attribs:
       str:
@@ -1997,7 +1997,7 @@ herodata:
     droles: Durable - Initiator - Disabler - Nuker - Escape
   magnataur:
     dname: Magnus
-    u: Magnus
+    u: magnataur
     pa: str
     attribs:
       str:
@@ -2018,7 +2018,7 @@ herodata:
     droles: Initiator - Disabler - Nuker - Escape
   shredder:
     dname: Timbersaw
-    u: Timbersaw
+    u: shredder
     pa: str
     attribs:
       str:
@@ -2039,7 +2039,7 @@ herodata:
     droles: Nuker - Durable - Escape
   bristleback:
     dname: Bristleback
-    u: Bristleback
+    u: bristleback
     pa: str
     attribs:
       str:
@@ -2053,14 +2053,14 @@ herodata:
         g: '1.80'
       ms: 290
       dmg:
-        min: 26
-        max: 36
+        min: 22
+        max: 32
       armor: 3.38
     dac: Melee
     droles: Carry - Durable - Initiator - Nuker
   tusk:
     dname: Tusk
-    u: Tusk
+    u: tusk
     pa: str
     attribs:
       str:
@@ -2102,7 +2102,7 @@ herodata:
     droles: Support - Nuker - Disabler
   abaddon:
     dname: Abaddon
-    u: Abaddon
+    u: abaddon
     pa: str
     attribs:
       str:
@@ -2123,7 +2123,7 @@ herodata:
     droles: Support - Carry - Durable
   elder_titan:
     dname: Elder Titan
-    u: Elder_Titan
+    u: elder_titan
     pa: str
     attribs:
       str:
@@ -2144,7 +2144,7 @@ herodata:
     droles: Initiator - Disabler - Nuker - Durable
   legion_commander:
     dname: Legion Commander
-    u: Legion_Commander
+    u: legion_commander
     pa: str
     attribs:
       str:
@@ -2165,7 +2165,7 @@ herodata:
     droles: Carry - Disabler - Initiator - Durable - Nuker
   ember_spirit:
     dname: Ember Spirit
-    u: Ember_Spirit
+    u: ember_spirit
     pa: agi
     attribs:
       str:
@@ -2186,7 +2186,7 @@ herodata:
     droles: Carry - Escape - Nuker - Disabler - Initiator
   earth_spirit:
     dname: Earth Spirit
-    u: Earth_Spirit
+    u: earth_spirit
     pa: str
     attribs:
       str:
@@ -2207,7 +2207,7 @@ herodata:
     droles: Nuker - Escape - Disabler - Initiator - Durable
   terrorblade:
     dname: Terrorblade
-    u: Terrorblade
+    u: terrorblade
     pa: agi
     attribs:
       str:
@@ -2228,7 +2228,7 @@ herodata:
     droles: Carry - Pusher - Nuker
   phoenix:
     dname: Phoenix
-    u: Phoenix
+    u: phoenix
     pa: str
     attribs:
       str:
@@ -2249,7 +2249,7 @@ herodata:
     droles: Support - Nuker - Initiator - Escape - Disabler
   oracle:
     dname: Oracle
-    u: Oracle
+    u: oracle
     pa: int
     attribs:
       str:
@@ -2270,7 +2270,7 @@ herodata:
     droles: Support - Nuker - Disabler - Escape
   techies:
     dname: Techies
-    u: Techies
+    u: techies
     pa: int
     attribs:
       str:
@@ -2291,7 +2291,7 @@ herodata:
     droles: Nuker - Disabler
   winter_wyvern:
     dname: Winter Wyvern
-    u: Winter_Wyvern
+    u: winter_wyvern
     pa: int
     attribs:
       str:
@@ -2312,7 +2312,7 @@ herodata:
     droles: Support - Disabler - Nuker
   arc_warden:
     dname: Arc Warden
-    u: Arc_Warden
+    u: arc_warden
     pa: agi
     attribs:
       str:
@@ -2333,7 +2333,7 @@ herodata:
     droles: Carry - Escape - Nuker
   abyssal_underlord:
     dname: Underlord
-    u: Underlord
+    u: abyssal_underlord
     pa: str
     attribs:
       str:
@@ -2354,7 +2354,7 @@ herodata:
     droles: Support - Nuker - Disabler - Durable - Escape
   monkey_king:
     dname: Monkey King
-    u: Monkey_King
+    u: monkey_king
     pa: agi
     attribs:
       str:

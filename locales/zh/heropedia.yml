@@ -2,7 +2,7 @@
 herodata:
   antimage:
     dname: 敌法师
-    u: Anti-Mage
+    u: antimage
     pa: agi
     attribs:
       str:
@@ -23,7 +23,7 @@ herodata:
     droles: 核心 - 逃生 - 爆发
   axe:
     dname: 斧王
-    u: Axe
+    u: axe
     pa: str
     attribs:
       str:
@@ -44,7 +44,7 @@ herodata:
     droles: 先手 - 耐久 - 控制 - 打野
   bane:
     dname: 祸乱之源
-    u: Bane
+    u: bane
     pa: int
     attribs:
       str:
@@ -65,7 +65,7 @@ herodata:
     droles: 辅助 - 控制 - 爆发 - 耐久
   bloodseeker:
     dname: 嗜血狂魔
-    u: Bloodseeker
+    u: bloodseeker
     pa: agi
     attribs:
       str:
@@ -86,7 +86,7 @@ herodata:
     droles: 核心 - 控制 - 打野 - 爆发 - 先手
   crystal_maiden:
     dname: 水晶室女
-    u: Crystal_Maiden
+    u: crystal_maiden
     pa: int
     attribs:
       str:
@@ -107,7 +107,7 @@ herodata:
     droles: 辅助 - 控制 - 爆发 - 打野
   drow_ranger:
     dname: 卓尔游侠
-    u: Drow_Ranger
+    u: drow_ranger
     pa: agi
     attribs:
       str:
@@ -128,7 +128,7 @@ herodata:
     droles: 核心 - 控制 - 推进
   earthshaker:
     dname: 撼地者
-    u: Earthshaker
+    u: earthshaker
     pa: str
     attribs:
       str:
@@ -149,7 +149,7 @@ herodata:
     droles: 辅助 - 先手 - 控制 - 爆发
   juggernaut:
     dname: 主宰
-    u: Juggernaut
+    u: juggernaut
     pa: agi
     attribs:
       str:
@@ -170,7 +170,7 @@ herodata:
     droles: 核心 - 推进 - 逃生
   mirana:
     dname: 米拉娜
-    u: Mirana
+    u: mirana
     pa: agi
     attribs:
       str:
@@ -191,7 +191,7 @@ herodata:
     droles: 核心 - 辅助 - 逃生 - 爆发 - 控制
   nevermore:
     dname: 影魔
-    u: Shadow_Fiend
+    u: nevermore
     pa: agi
     attribs:
       str:
@@ -212,7 +212,7 @@ herodata:
     droles: 核心 - 爆发
   morphling:
     dname: 变体精灵
-    u: Morphling
+    u: morphling
     pa: agi
     attribs:
       str:
@@ -233,7 +233,7 @@ herodata:
     droles: 核心 - 逃生 - 耐久 - 爆发 - 控制
   phantom_lancer:
     dname: 幻影长矛手
-    u: Phantom_Lancer
+    u: phantom_lancer
     pa: agi
     attribs:
       str:
@@ -244,7 +244,7 @@ herodata:
         g: '2.00'
       agi:
         b: 29
-        g: '2.60'
+        g: '2.80'
       ms: 290
       dmg:
         min: 22
@@ -254,7 +254,7 @@ herodata:
     droles: 核心 - 逃生 - 推进 - 爆发
   puck:
     dname: 帕克
-    u: Puck
+    u: puck
     pa: int
     attribs:
       str:
@@ -270,12 +270,12 @@ herodata:
       dmg:
         min: 28
         max: 39
-      armor: 2.08
+      armor: 1.08
     dac: 远程
     droles: 先手 - 控制 - 逃生 - 爆发
   pudge:
     dname: 帕吉
-    u: Pudge
+    u: pudge
     pa: str
     attribs:
       str:
@@ -296,7 +296,7 @@ herodata:
     droles: 控制 - 先手 - 耐久 - 爆发
   razor:
     dname: 剃刀
-    u: Razor
+    u: razor
     pa: agi
     attribs:
       str:
@@ -307,7 +307,7 @@ herodata:
         g: '1.80'
       agi:
         b: 22
-        g: '2.00'
+        g: '1.80'
       ms: 295
       dmg:
         min: 23
@@ -317,7 +317,7 @@ herodata:
     droles: 核心 - 耐久 - 爆发 - 推进
   sand_king:
     dname: 沙王
-    u: Sand_King
+    u: sand_king
     pa: str
     attribs:
       str:
@@ -338,7 +338,7 @@ herodata:
     droles: 先手 - 控制 - 爆发 - 逃生 - 打野
   storm_spirit:
     dname: 风暴之灵
-    u: Storm_Spirit
+    u: storm_spirit
     pa: int
     attribs:
       str:
@@ -359,7 +359,7 @@ herodata:
     droles: 核心 - 逃生 - 爆发 - 先手 - 控制
   sven:
     dname: 斯温
-    u: Sven
+    u: sven
     pa: str
     attribs:
       str:
@@ -380,7 +380,7 @@ herodata:
     droles: 核心 - 控制 - 先手 - 耐久 - 爆发
   tiny:
     dname: 小小
-    u: Tiny
+    u: tiny
     pa: str
     attribs:
       str:
@@ -401,7 +401,7 @@ herodata:
     droles: 核心 - 爆发 - 推进 - 先手 - 耐久 - 控制
   vengefulspirit:
     dname: 复仇之魂
-    u: Vengeful_Spirit
+    u: vengefulspirit
     pa: agi
     attribs:
       str:
@@ -422,7 +422,7 @@ herodata:
     droles: 辅助 - 先手 - 控制 - 爆发 - 逃生
   windrunner:
     dname: 风行者
-    u: Windranger
+    u: windrunner
     pa: int
     attribs:
       str:
@@ -443,7 +443,7 @@ herodata:
     droles: 核心 - 辅助 - 控制 - 逃生 - 爆发
   zuus:
     dname: 宙斯
-    u: Zeus
+    u: zuus
     pa: int
     attribs:
       str:
@@ -464,7 +464,7 @@ herodata:
     droles: 爆发
   kunkka:
     dname: 昆卡
-    u: Kunkka
+    u: kunkka
     pa: str
     attribs:
       str:
@@ -485,7 +485,7 @@ herodata:
     droles: 核心 - 控制 - 先手 - 耐久 - 爆发
   lina:
     dname: 莉娜
-    u: Lina
+    u: lina
     pa: int
     attribs:
       str:
@@ -506,7 +506,7 @@ herodata:
     droles: 辅助 - 核心 - 爆发 - 控制
   lich:
     dname: 巫妖
-    u: Lich
+    u: lich
     pa: int
     attribs:
       str:
@@ -527,7 +527,7 @@ herodata:
     droles: 辅助 - 爆发
   lion:
     dname: 莱恩
-    u: Lion
+    u: lion
     pa: int
     attribs:
       str:
@@ -548,7 +548,7 @@ herodata:
     droles: 辅助 - 控制 - 爆发 - 先手
   shadow_shaman:
     dname: 暗影萨满
-    u: Shadow_Shaman
+    u: shadow_shaman
     pa: int
     attribs:
       str:
@@ -569,7 +569,7 @@ herodata:
     droles: 辅助 - 推进 - 控制 - 爆发 - 先手
   slardar:
     dname: 斯拉达
-    u: Slardar
+    u: slardar
     pa: str
     attribs:
       str:
@@ -590,7 +590,7 @@ herodata:
     droles: 核心 - 耐久 - 先手 - 控制 - 逃生
   tidehunter:
     dname: 潮汐猎人
-    u: Tidehunter
+    u: tidehunter
     pa: str
     attribs:
       str:
@@ -611,7 +611,7 @@ herodata:
     droles: 先手 - 耐久 - 控制 - 爆发
   witch_doctor:
     dname: 巫医
-    u: Witch_Doctor
+    u: witch_doctor
     pa: int
     attribs:
       str:
@@ -632,7 +632,7 @@ herodata:
     droles: 辅助 - 爆发 - 控制
   riki:
     dname: 力丸
-    u: Riki
+    u: riki
     pa: agi
     attribs:
       str:
@@ -653,7 +653,7 @@ herodata:
     droles: 核心 - 逃生 - 控制
   enigma:
     dname: 谜团
-    u: Enigma
+    u: enigma
     pa: int
     attribs:
       str:
@@ -674,7 +674,7 @@ herodata:
     droles: 控制 - 打野 - 先手 - 推进
   tinker:
     dname: 修补匠
-    u: Tinker
+    u: tinker
     pa: int
     attribs:
       str:
@@ -695,7 +695,7 @@ herodata:
     droles: 核心 - 爆发 - 推进
   sniper:
     dname: 狙击手
-    u: Sniper
+    u: sniper
     pa: agi
     attribs:
       str:
@@ -706,7 +706,7 @@ herodata:
         g: '2.60'
       agi:
         b: 21
-        g: '2.50'
+        g: '2.70'
       ms: 290
       dmg:
         min: 15
@@ -716,7 +716,7 @@ herodata:
     droles: 核心 - 爆发
   necrolyte:
     dname: 瘟疫法师
-    u: Necrophos
+    u: necrolyte
     pa: int
     attribs:
       str:
@@ -737,7 +737,7 @@ herodata:
     droles: 核心 - 爆发 - 耐久 - 控制
   warlock:
     dname: 术士
-    u: Warlock
+    u: warlock
     pa: int
     attribs:
       str:
@@ -758,7 +758,7 @@ herodata:
     droles: 辅助 - 先手 - 控制
   beastmaster:
     dname: 兽王
-    u: Beastmaster
+    u: beastmaster
     pa: str
     attribs:
       str:
@@ -779,7 +779,7 @@ herodata:
     droles: 先手 - 控制 - 耐久 - 爆发
   queenofpain:
     dname: 痛苦女王
-    u: Queen_of_Pain
+    u: queenofpain
     pa: int
     attribs:
       str:
@@ -793,19 +793,19 @@ herodata:
         g: '2.00'
       ms: 295
       dmg:
-        min: 25
-        max: 33
+        min: 21
+        max: 29
       armor: 1.52
     dac: 远程
     droles: 核心 - 爆发 - 逃生
   venomancer:
     dname: 剧毒术士
-    u: Venomancer
+    u: venomancer
     pa: agi
     attribs:
       str:
         b: 18
-        g: '2.15'
+        g: '1.90'
       int:
         b: 17
         g: '1.80'
@@ -821,7 +821,7 @@ herodata:
     droles: 辅助 - 爆发 - 先手 - 推进 - 控制
   faceless_void:
     dname: 虚空假面
-    u: Faceless_Void
+    u: faceless_void
     pa: agi
     attribs:
       str:
@@ -842,7 +842,7 @@ herodata:
     droles: 核心 - 先手 - 控制 - 逃生 - 耐久
   skeleton_king:
     dname: 冥魂大帝
-    u: Wraith_King
+    u: skeleton_king
     pa: str
     attribs:
       str:
@@ -863,7 +863,7 @@ herodata:
     droles: 核心 - 辅助 - 耐久 - 控制 - 先手
   death_prophet:
     dname: 死亡先知
-    u: Death_Prophet
+    u: death_prophet
     pa: int
     attribs:
       str:
@@ -884,7 +884,7 @@ herodata:
     droles: 核心 - 推进 - 爆发 - 控制
   phantom_assassin:
     dname: 幻影刺客
-    u: Phantom_Assassin
+    u: phantom_assassin
     pa: agi
     attribs:
       str:
@@ -905,7 +905,7 @@ herodata:
     droles: 核心 - 逃生
   pugna:
     dname: 帕格纳
-    u: Pugna
+    u: pugna
     pa: int
     attribs:
       str:
@@ -926,7 +926,7 @@ herodata:
     droles: 爆发 - 推进
   templar_assassin:
     dname: 圣堂刺客
-    u: Templar_Assassin
+    u: templar_assassin
     pa: agi
     attribs:
       str:
@@ -947,7 +947,7 @@ herodata:
     droles: 核心 - 逃生
   viper:
     dname: 冥界亚龙
-    u: Viper
+    u: viper
     pa: agi
     attribs:
       str:
@@ -968,7 +968,7 @@ herodata:
     droles: 核心 - 耐久 - 先手 - 控制
   luna:
     dname: 露娜
-    u: Luna
+    u: luna
     pa: agi
     attribs:
       str:
@@ -989,7 +989,7 @@ herodata:
     droles: 核心 - 爆发 - 推进
   dragon_knight:
     dname: 龙骑士
-    u: Dragon_Knight
+    u: dragon_knight
     pa: str
     attribs:
       str:
@@ -1010,7 +1010,7 @@ herodata:
     droles: 核心 - 推进 - 耐久 - 控制 - 先手 - 爆发
   dazzle:
     dname: 戴泽
-    u: Dazzle
+    u: dazzle
     pa: int
     attribs:
       str:
@@ -1031,7 +1031,7 @@ herodata:
     droles: 辅助 - 爆发 - 控制
   rattletrap:
     dname: 发条技师
-    u: Clockwerk
+    u: rattletrap
     pa: str
     attribs:
       str:
@@ -1045,14 +1045,14 @@ herodata:
         g: '2.30'
       ms: 315
       dmg:
-        min: 31
-        max: 33
+        min: 28
+        max: 30
       armor: 1.82
     dac: 近战
     droles: 先手 - 控制 - 耐久 - 爆发
   leshrac:
     dname: 拉席克
-    u: Leshrac
+    u: leshrac
     pa: int
     attribs:
       str:
@@ -1073,7 +1073,7 @@ herodata:
     droles: 核心 - 辅助 - 爆发 - 推进 - 控制
   furion:
     dname: 先知
-    u: Natures_Prophet
+    u: furion
     pa: int
     attribs:
       str:
@@ -1094,12 +1094,12 @@ herodata:
     droles: 核心 - 打野 - 推进 - 逃生 - 爆发
   life_stealer:
     dname: 噬魂鬼
-    u: Lifestealer
+    u: life_stealer
     pa: str
     attribs:
       str:
         b: 25
-        g: '3.30'
+        g: '3.10'
       int:
         b: 15
         g: '1.75'
@@ -1115,7 +1115,7 @@ herodata:
     droles: 核心 - 耐久 - 打野 - 逃生 - 控制
   dark_seer:
     dname: 黑暗贤者
-    u: Dark_Seer
+    u: dark_seer
     pa: int
     attribs:
       str:
@@ -1136,7 +1136,7 @@ herodata:
     droles: 先手 - 打野 - 逃生 - 控制
   clinkz:
     dname: 克林克兹
-    u: Clinkz
+    u: clinkz
     pa: agi
     attribs:
       str:
@@ -1157,7 +1157,7 @@ herodata:
     droles: 核心 - 逃生 - 推进
   omniknight:
     dname: 全能骑士
-    u: Omniknight
+    u: omniknight
     pa: str
     attribs:
       str:
@@ -1178,7 +1178,7 @@ herodata:
     droles: 辅助 - 耐久 - 爆发
   enchantress:
     dname: 魅惑魔女
-    u: Enchantress
+    u: enchantress
     pa: int
     attribs:
       str:
@@ -1199,7 +1199,7 @@ herodata:
     droles: 辅助 - 打野 - 推进 - 耐久 - 控制
   huskar:
     dname: 哈斯卡
-    u: Huskar
+    u: huskar
     pa: str
     attribs:
       str:
@@ -1220,14 +1220,14 @@ herodata:
     droles: 核心 - 耐久 - 先手
   night_stalker:
     dname: 暗夜魔王
-    u: Night_Stalker
+    u: night_stalker
     pa: str
     attribs:
       str:
         b: 23
         g: '3.10'
       int:
-        b: 16
+        b: 13
         g: '1.60'
       agi:
         b: 18
@@ -1241,7 +1241,7 @@ herodata:
     droles: 核心 - 先手 - 耐久 - 控制 - 爆发
   broodmother:
     dname: 育母蜘蛛
-    u: Broodmother
+    u: broodmother
     pa: agi
     attribs:
       str:
@@ -1262,7 +1262,7 @@ herodata:
     droles: 核心 - 推进 - 逃生 - 爆发
   bounty_hunter:
     dname: 赏金猎人
-    u: Bounty_Hunter
+    u: bounty_hunter
     pa: agi
     attribs:
       str:
@@ -1283,7 +1283,7 @@ herodata:
     droles: 逃生 - 爆发
   weaver:
     dname: 编织者
-    u: Weaver
+    u: weaver
     pa: agi
     attribs:
       str:
@@ -1304,7 +1304,7 @@ herodata:
     droles: 核心 - 逃生
   jakiro:
     dname: 杰奇洛
-    u: Jakiro
+    u: jakiro
     pa: int
     attribs:
       str:
@@ -1325,7 +1325,7 @@ herodata:
     droles: 辅助 - 爆发 - 推进 - 控制
   batrider:
     dname: 蝙蝠骑士
-    u: Batrider
+    u: batrider
     pa: int
     attribs:
       str:
@@ -1346,7 +1346,7 @@ herodata:
     droles: 先手 - 打野 - 控制 - 逃生
   chen:
     dname: 陈
-    u: Chen
+    u: chen
     pa: int
     attribs:
       str:
@@ -1367,11 +1367,11 @@ herodata:
     droles: 辅助 - 打野 - 推进
   spectre:
     dname: 幽鬼
-    u: Spectre
+    u: spectre
     pa: agi
     attribs:
       str:
-        b: 19
+        b: 20
         g: '2.30'
       int:
         b: 16
@@ -1388,7 +1388,7 @@ herodata:
     droles: 核心 - 耐久 - 逃生
   doom_bringer:
     dname: 末日使者
-    u: Doom
+    u: doom_bringer
     pa: str
     attribs:
       str:
@@ -1409,7 +1409,7 @@ herodata:
     droles: 核心 - 控制 - 先手 - 耐久 - 爆发
   ancient_apparition:
     dname: 远古冰魄
-    u: Ancient_Apparition
+    u: ancient_apparition
     pa: int
     attribs:
       str:
@@ -1430,7 +1430,7 @@ herodata:
     droles: 辅助 - 控制 - 爆发
   ursa:
     dname: 熊战士
-    u: Ursa
+    u: ursa
     pa: agi
     attribs:
       str:
@@ -1451,7 +1451,7 @@ herodata:
     droles: 核心 - 打野 - 耐久 - 控制
   spirit_breaker:
     dname: 裂魂人
-    u: Spirit_Breaker
+    u: spirit_breaker
     pa: str
     attribs:
       str:
@@ -1472,7 +1472,7 @@ herodata:
     droles: 核心 - 先手 - 控制 - 耐久 - 逃生
   gyrocopter:
     dname: 矮人直升机
-    u: Gyrocopter
+    u: gyrocopter
     pa: agi
     attribs:
       str:
@@ -1493,7 +1493,7 @@ herodata:
     droles: 核心 - 爆发 - 控制
   alchemist:
     dname: 炼金术士
-    u: Alchemist
+    u: alchemist
     pa: str
     attribs:
       str:
@@ -1503,18 +1503,18 @@ herodata:
         b: 25
         g: '1.80'
       agi:
-        b: 11
+        b: 16
         g: '1.20'
       ms: 295
       dmg:
         min: 24
         max: 33
-      armor: 1.54
+      armor: 2.24
     dac: 近战
     droles: 核心 - 辅助 - 耐久 - 控制 - 先手 - 爆发
   invoker:
     dname: 祈求者
-    u: Invoker
+    u: invoker
     pa: int
     attribs:
       str:
@@ -1535,7 +1535,7 @@ herodata:
     droles: 核心 - 爆发 - 控制 - 逃生 - 推进
   silencer:
     dname: 沉默术士
-    u: Silencer
+    u: silencer
     pa: int
     attribs:
       str:
@@ -1556,7 +1556,7 @@ herodata:
     droles: 核心 - 辅助 - 控制 - 先手 - 爆发
   obsidian_destroyer:
     dname: 殁境神蚀者
-    u: Outworld_Devourer
+    u: obsidian_destroyer
     pa: int
     attribs:
       str:
@@ -1577,7 +1577,7 @@ herodata:
     droles: 核心 - 爆发 - 控制
   lycan:
     dname: 狼人
-    u: Lycan
+    u: lycan
     pa: str
     attribs:
       str:
@@ -1598,7 +1598,7 @@ herodata:
     droles: 核心 - 推进 - 打野 - 耐久 - 逃生
   brewmaster:
     dname: 酒仙
-    u: Brewmaster
+    u: brewmaster
     pa: str
     attribs:
       str:
@@ -1619,11 +1619,11 @@ herodata:
     droles: 核心 - 先手 - 耐久 - 控制 - 爆发
   shadow_demon:
     dname: 暗影恶魔
-    u: Shadow_Demon
+    u: shadow_demon
     pa: int
     attribs:
       str:
-        b: 19
+        b: 21
         g: '2.20'
       int:
         b: 23
@@ -1640,7 +1640,7 @@ herodata:
     droles: 辅助 - 控制 - 先手 - 爆发
   lone_druid:
     dname: 德鲁伊
-    u: Lone_Druid
+    u: lone_druid
     pa: agi
     attribs:
       str:
@@ -1661,7 +1661,7 @@ herodata:
     droles: 核心 - 推进 - 打野 - 耐久
   chaos_knight:
     dname: 混沌骑士
-    u: Chaos_Knight
+    u: chaos_knight
     pa: str
     attribs:
       str:
@@ -1682,7 +1682,7 @@ herodata:
     droles: 核心 - 控制 - 耐久 - 推进 - 先手
   meepo:
     dname: 米波
-    u: Meepo
+    u: meepo
     pa: agi
     attribs:
       str:
@@ -1703,7 +1703,7 @@ herodata:
     droles: 核心 - 逃生 - 爆发 - 控制 - 先手 - 推进
   treant:
     dname: 树精卫士
-    u: Treant_Protector
+    u: treant
     pa: str
     attribs:
       str:
@@ -1724,7 +1724,7 @@ herodata:
     droles: 辅助 - 先手 - 耐久 - 控制 - 逃生
   ogre_magi:
     dname: 食人魔魔法师
-    u: Ogre_Magi
+    u: ogre_magi
     pa: int
     attribs:
       str:
@@ -1745,7 +1745,7 @@ herodata:
     droles: 辅助 - 爆发 - 控制 - 耐久 - 先手
   undying:
     dname: 不朽尸王
-    u: Undying
+    u: undying
     pa: str
     attribs:
       str:
@@ -1766,7 +1766,7 @@ herodata:
     droles: 辅助 - 耐久 - 控制 - 爆发
   rubick:
     dname: 拉比克
-    u: Rubick
+    u: rubick
     pa: int
     attribs:
       str:
@@ -1787,7 +1787,7 @@ herodata:
     droles: 辅助 - 控制 - 爆发
   disruptor:
     dname: 干扰者
-    u: Disruptor
+    u: disruptor
     pa: int
     attribs:
       str:
@@ -1808,7 +1808,7 @@ herodata:
     droles: 辅助 - 控制 - 爆发 - 先手
   nyx_assassin:
     dname: 司夜刺客
-    u: Nyx_Assassin
+    u: nyx_assassin
     pa: agi
     attribs:
       str:
@@ -1820,7 +1820,7 @@ herodata:
       agi:
         b: 19
         g: '2.20'
-      ms: 305
+      ms: 300
       dmg:
         min: 30
         max: 34
@@ -1829,7 +1829,7 @@ herodata:
     droles: 控制 - 爆发 - 先手 - 逃生
   naga_siren:
     dname: 娜迦海妖
-    u: Naga_Siren
+    u: naga_siren
     pa: agi
     attribs:
       str:
@@ -1850,7 +1850,7 @@ herodata:
     droles: 核心 - 辅助 - 推进 - 控制 - 先手 - 逃生
   keeper_of_the_light:
     dname: 光之守卫
-    u: Keeper_of_the_Light
+    u: keeper_of_the_light
     pa: int
     attribs:
       str:
@@ -1871,7 +1871,7 @@ herodata:
     droles: 辅助 - 爆发 - 控制 - 打野
   wisp:
     dname: 艾欧
-    u: Io
+    u: wisp
     pa: str
     attribs:
       str:
@@ -1892,7 +1892,7 @@ herodata:
     droles: 辅助 - 逃生 - 爆发
   visage:
     dname: 维萨吉
-    u: Visage
+    u: visage
     pa: int
     attribs:
       str:
@@ -1913,7 +1913,7 @@ herodata:
     droles: 辅助 - 爆发 - 耐久 - 控制 - 推进
   slark:
     dname: 斯拉克
-    u: Slark
+    u: slark
     pa: agi
     attribs:
       str:
@@ -1934,7 +1934,7 @@ herodata:
     droles: 核心 - 逃生 - 控制 - 爆发
   medusa:
     dname: 美杜莎
-    u: Medusa
+    u: medusa
     pa: agi
     attribs:
       str:
@@ -1955,7 +1955,7 @@ herodata:
     droles: 核心 - 控制 - 耐久
   troll_warlord:
     dname: 巨魔战将
-    u: Troll_Warlord
+    u: troll_warlord
     pa: agi
     attribs:
       str:
@@ -1976,7 +1976,7 @@ herodata:
     droles: 核心 - 推进 - 控制 - 耐久
   centaur:
     dname: 半人马战行者
-    u: Centaur_Warrunner
+    u: centaur
     pa: str
     attribs:
       str:
@@ -1997,7 +1997,7 @@ herodata:
     droles: 耐久 - 先手 - 控制 - 爆发 - 逃生
   magnataur:
     dname: 马格纳斯
-    u: Magnus
+    u: magnataur
     pa: str
     attribs:
       str:
@@ -2018,7 +2018,7 @@ herodata:
     droles: 先手 - 控制 - 爆发 - 逃生
   shredder:
     dname: 伐木机
-    u: Timbersaw
+    u: shredder
     pa: str
     attribs:
       str:
@@ -2039,7 +2039,7 @@ herodata:
     droles: 爆发 - 耐久 - 逃生
   bristleback:
     dname: 钢背兽
-    u: Bristleback
+    u: bristleback
     pa: str
     attribs:
       str:
@@ -2053,14 +2053,14 @@ herodata:
         g: '1.80'
       ms: 290
       dmg:
-        min: 26
-        max: 36
+        min: 22
+        max: 32
       armor: 3.38
     dac: 近战
     droles: 核心 - 耐久 - 先手 - 爆发
   tusk:
     dname: 巨牙海民
-    u: Tusk
+    u: tusk
     pa: str
     attribs:
       str:
@@ -2102,7 +2102,7 @@ herodata:
     droles: 辅助 - 爆发 - 控制
   abaddon:
     dname: 亚巴顿
-    u: Abaddon
+    u: abaddon
     pa: str
     attribs:
       str:
@@ -2123,7 +2123,7 @@ herodata:
     droles: 辅助 - 核心 - 耐久
   elder_titan:
     dname: 上古巨神
-    u: Elder_Titan
+    u: elder_titan
     pa: str
     attribs:
       str:
@@ -2144,7 +2144,7 @@ herodata:
     droles: 先手 - 控制 - 爆发 - 耐久
   legion_commander:
     dname: 军团指挥官
-    u: Legion_Commander
+    u: legion_commander
     pa: str
     attribs:
       str:
@@ -2165,7 +2165,7 @@ herodata:
     droles: 核心 - 控制 - 先手 - 耐久 - 爆发
   ember_spirit:
     dname: 灰烬之灵
-    u: Ember_Spirit
+    u: ember_spirit
     pa: agi
     attribs:
       str:
@@ -2186,7 +2186,7 @@ herodata:
     droles: 核心 - 逃生 - 爆发 - 控制 - 先手
   earth_spirit:
     dname: 大地之灵
-    u: Earth_Spirit
+    u: earth_spirit
     pa: str
     attribs:
       str:
@@ -2207,7 +2207,7 @@ herodata:
     droles: 爆发 - 逃生 - 控制 - 先手 - 耐久
   terrorblade:
     dname: 恐怖利刃
-    u: Terrorblade
+    u: terrorblade
     pa: agi
     attribs:
       str:
@@ -2228,7 +2228,7 @@ herodata:
     droles: 核心 - 推进 - 爆发
   phoenix:
     dname: 凤凰
-    u: Phoenix
+    u: phoenix
     pa: str
     attribs:
       str:
@@ -2249,7 +2249,7 @@ herodata:
     droles: 辅助 - 爆发 - 先手 - 逃生 - 控制
   oracle:
     dname: 神谕者
-    u: Oracle
+    u: oracle
     pa: int
     attribs:
       str:
@@ -2270,7 +2270,7 @@ herodata:
     droles: 辅助 - 爆发 - 控制 - 逃生
   techies:
     dname: 工程师
-    u: Techies
+    u: techies
     pa: int
     attribs:
       str:
@@ -2291,7 +2291,7 @@ herodata:
     droles: 爆发 - 控制
   winter_wyvern:
     dname: 寒冬飞龙
-    u: Winter_Wyvern
+    u: winter_wyvern
     pa: int
     attribs:
       str:
@@ -2312,7 +2312,7 @@ herodata:
     droles: 辅助 - 控制 - 爆发
   arc_warden:
     dname: 天穹守望者
-    u: Arc_Warden
+    u: arc_warden
     pa: agi
     attribs:
       str:
@@ -2333,7 +2333,7 @@ herodata:
     droles: 核心 - 逃生 - 爆发
   abyssal_underlord:
     dname: 孽主
-    u: Underlord
+    u: abyssal_underlord
     pa: str
     attribs:
       str:
@@ -2354,7 +2354,7 @@ herodata:
     droles: 辅助 - 爆发 - 控制 - 耐久 - 逃生
   monkey_king:
     dname: 齐天大圣
-    u: Monkey_King
+    u: monkey_king
     pa: agi
     attribs:
       str:

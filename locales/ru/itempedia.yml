@@ -1549,7 +1549,7 @@ itemdata:
       />\nКРИТИЧЕСКИЙ УРОН: <span class=\"attribVal\">175%</span><br />\nСПОСОБНОСТЬ
       SILENCE:\r\n• ДОПОЛНИТЕЛЬНЫЙ УРОН: <span class=\"attribVal\">30%</span><br />\n•
       ДЛИТЕЛЬНОСТЬ: <span class=\"attribVal\">5</span><br />\n• КРИТИЧЕСКИЙ УРОН:
-      <span class=\"attribVal\">145%</span>"
+      <span class=\"attribVal\">140%</span>"
     mc: 100
     cd: 18
     lore: Этот ненавистный клинок топит врага в агонии, впиваясь в тело извивающейся
@@ -3139,7 +3139,7 @@ itemdata:
     img: veil_of_discord_lg.png?3
     dname: Veil of Discord
     qual: rare
-    cost: 2240
+    cost: 2340
     desc: 'Активируемая: Magic Weakness — ослабляет врагов, увеличивая магический
       урон, наносимый им, на %resist_debuff_duration% сек.'
     notes: Можно развеять.
@@ -3292,8 +3292,8 @@ itemdata:
       />\n• АТАКА (БЛИЖНИЙ): <span class=\"attribVal\">20</span><br />\n• ПЕРЕДВИЖЕНИЕ
       (ДАЛЬНИЙ): <span class=\"attribVal\">10%</span><br />\n• АТАКА (ДАЛЬНИЙ): <span
       class=\"attribVal\">10</span><br />\nДЛИТЕЛЬНОСТЬ ТРАВМЫ: <span class=\"attribVal\">5</span><br
-      />\nDISARM В ДАЛЬНЕМ БОЮ: <span class=\"attribVal\">5.5</span><br />\nDISARM
-      В БЛИЖНЕМ БОЮ: <span class=\"attribVal\">3</span><br />\nДАЛЬНОСТЬ DISARM: <span
+      />\nDISARM В ДАЛЬНЕМ БОЮ: <span class=\"attribVal\">5</span><br />\nDISARM В
+      БЛИЖНЕМ БОЮ: <span class=\"attribVal\">3</span><br />\nДАЛЬНОСТЬ DISARM: <span
       class=\"attribVal\">600</span>"
     mc: 100
     cd: 18
