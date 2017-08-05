@@ -13710,10 +13710,10 @@ DOTAAbilities:
     - unperched_stunned_duration: 4.0
     - top_level_height: 500
     - impact_damage_tooltip:
-      - 100
-      - 180
-      - 260
-      - 340
+      - 140
+      - 210
+      - 280
+      - 350
     - impact_movement_slow_tooltip:
       - 20
       - 40

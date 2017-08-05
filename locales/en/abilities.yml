@@ -68,6 +68,86 @@ abilitydata:
     lore: After bringing enemies to their knees, Anti-Mage punishes them for their
       use of the arcane arts.
     hurl: antimage
+  special_bonus_hp_150:
+    dname: "+150 Health"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_hp_150_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Skywrath_Mage
+  special_bonus_attack_damage_20:
+    dname: "+20 Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_20_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: alchemist
+  special_bonus_attack_speed_20:
+    dname: "+20 Attack Speed"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_attack_speed_20_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: monkey_king
+  special_bonus_unique_antimage:
+    dname: "-1s Blink Cooldown"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_antimage_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: antimage
+  special_bonus_evasion_15:
+    dname: 15% Evasion
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_evasion_15_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: medusa
+  special_bonus_all_stats_10:
+    dname: "+10 All Stats"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_all_stats_10_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: clinkz
+  special_bonus_agility_25:
+    dname: "+25 Agility"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_agility_25_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: phantom_assassin
+  special_bonus_unique_antimage_2:
+    dname: "-50s Mana Void Cooldown"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_antimage_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: antimage
   axe_berserkers_call:
     dname: Berserker's Call
     affects: 'ABILITY: <span class="attribVal">No Target</span><br />PIERCES SPELL
@@ -158,6 +238,86 @@ abilitydata:
       width="16" height="16" border="0" /> 75/65/55</div><br clear="left" /></div>
     lore: Mogul Khan is the embodiment of battle and fury, launching into a gruesome
       fatality against those who dare engage the Axe in combat.
+    hurl: axe
+  special_bonus_strength_6:
+    dname: "+6 Strength"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_strength_6_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: weaver
+  special_bonus_mp_regen_3:
+    dname: "+3 Mana Regen"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_mp_regen_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: brewmaster
+  special_bonus_attack_damage_75:
+    dname: "+75 Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_75_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: venomancer
+  special_bonus_hp_250:
+    dname: "+250 Health"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_hp_250_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lone_druid
+  special_bonus_hp_regen_25:
+    dname: "+25 Health Regen"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_hp_regen_25_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: axe
+  special_bonus_movement_speed_35:
+    dname: "+35 Movement Speed"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_movement_speed_35_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: gyrocopter
+  special_bonus_armor_15:
+    dname: "+15 Armor"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_armor_15_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: elder_titan
+  special_bonus_unique_axe:
+    dname: "+100 Battle Hunger DPS"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_axe_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: axe
   bane_enfeeble:
     dname: Enfeeble
@@ -252,6 +412,76 @@ abilitydata:
     cmb: ''
     lore: ''
     hurl: bane
+  special_bonus_armor_6:
+    dname: "+6 Armor"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_armor_6_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: tusk
+  special_bonus_mp_200:
+    dname: "+200 Mana"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_mp_200_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: elder_titan
+  special_bonus_exp_boost_30:
+    dname: "+30% XP Gain"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_exp_boost_30_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: techies
+  special_bonus_unique_bane_1:
+    dname: "+90 Enfeeble Damage Reduction"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_bane_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: bane
+  special_bonus_cast_range_175:
+    dname: "+175 Cast Range"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_cast_range_175_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: razor
+  special_bonus_movement_speed_100:
+    dname: "+100 Movement Speed"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_movement_speed_100_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: bane
+  special_bonus_unique_bane_2:
+    dname: "+200 Brain Sap Damage/Heal"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_bane_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: bane
   bloodseeker_bloodrage:
     dname: Bloodrage
     affects: 'ABILITY: <span class="attribVal">Unit Target</span><br />AFFECTS: <span
@@ -339,6 +569,76 @@ abilitydata:
       width="16" height="16" border="0" /> 60</div><br clear="left" /></div>
     lore: When the Bloodseeker hunts you, injuries become fatalities.
     hurl: bloodseeker
+  special_bonus_attack_damage_25:
+    dname: "+25 Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_25_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: terrorblade
+  special_bonus_hp_225:
+    dname: "+225 Health"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_hp_225_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: bristleback
+  special_bonus_attack_speed_30:
+    dname: "+30 Attack Speed"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_attack_speed_30_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: naga_siren
+  special_bonus_unique_bloodseeker_2:
+    dname: "+75 Blood Rite Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_bloodseeker_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: bloodseeker
+  special_bonus_unique_bloodseeker_3:
+    dname: "+14% Rupture Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_bloodseeker_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: bloodseeker
+  special_bonus_unique_bloodseeker:
+    dname: "-7s Blood Rite Cooldown"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_bloodseeker_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: bloodseeker
+  special_bonus_lifesteal_30:
+    dname: 30% Lifesteal
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_lifesteal_30_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: arc_warden
   crystal_maiden_crystal_nova:
     dname: Crystal Nova
     affects: 'ABILITY: <span class="attribVal">Point Target</span><br />DAMAGE TYPE:
@@ -424,6 +724,76 @@ abilitydata:
     lore: Once the place of her exile, Icewrack has become an anchor for Rylai's frigid
       onslaught.
     hurl: crystal_maiden
+  special_bonus_magic_resistance_15:
+    dname: "+15% Magic Resistance"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_magic_resistance_15_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: earth_spirit
+  special_bonus_attack_damage_60:
+    dname: "+60 Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_60_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: rubick
+  special_bonus_cast_range_125:
+    dname: "+125 Cast Range"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_cast_range_125_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: abyssal_underlord
+  special_bonus_gold_income_20:
+    dname: "+120 Gold/Min"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_gold_income_20_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: winter_wyvern
+  special_bonus_unique_crystal_maiden_3:
+    dname: "+50 Freezing Field Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_crystal_maiden_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: crystal_maiden
+  special_bonus_unique_crystal_maiden_1:
+    dname: "+1.5s Frostbite Duration"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_crystal_maiden_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: crystal_maiden
+  special_bonus_unique_crystal_maiden_2:
+    dname: "+300 Crystal Nova Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_crystal_maiden_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: crystal_maiden
   drow_ranger_frost_arrows:
     dname: Frost Arrows
     affects: 'ABILITY: <span class="attribVal">Auto-Cast, Unit Target</span><br />AFFECTS:
@@ -493,6 +863,76 @@ abilitydata:
       <span class="scepterVal">DAMAGE REDUCTION:</span> <span class="attribVal">50%</span>
     cmb: ''
     lore: The Drow Ranger is the epitome of archery prowess.
+    hurl: drow_ranger
+  special_bonus_movement_speed_15:
+    dname: "+15 Movement Speed"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_movement_speed_15_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: troll_warlord
+  special_bonus_all_stats_5:
+    dname: "+5 All Stats"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_all_stats_5_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: spirit_breaker
+  special_bonus_hp_175:
+    dname: "+175 Health"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_hp_175_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: nyx_assassin
+  special_bonus_unique_drow_ranger_1:
+    dname: "+6% Precision Aura Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_drow_ranger_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: drow_ranger
+  special_bonus_strength_14:
+    dname: "+14 Strength"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_strength_14_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: drow_ranger
+  special_bonus_unique_drow_ranger_2:
+    dname: "+400 Gust Distance/Knockback"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_drow_ranger_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: drow_ranger
+  special_bonus_unique_drow_ranger_3:
+    dname: "+25 Marksmanship Agility"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_drow_ranger_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: drow_ranger
   earthshaker_fissure:
     dname: Fissure
@@ -568,6 +1008,86 @@ abilitydata:
       width="16" height="16" border="0" /> 150/130/110</div><br clear="left" /></div>
     lore: Tectonic plates crack, mountains fold, and foes are crushed by the Echo
       Slam.
+    hurl: earthshaker
+  special_bonus_strength_10:
+    dname: "+10 Strength"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_strength_10_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: elder_titan
+  special_bonus_mp_250:
+    dname: "+250 Mana"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_mp_250_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: naga_siren
+  special_bonus_movement_speed_20:
+    dname: "+20 Movement Speed"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_movement_speed_20_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: winter_wyvern
+  special_bonus_attack_damage_50:
+    dname: "+50 Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_50_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: winter_wyvern
+  special_bonus_unique_earthshaker_2:
+    dname: "+40 Echo Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_earthshaker_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: earthshaker
+  special_bonus_unique_earthshaker_3:
+    dname: "+350 Fissure Range"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_earthshaker_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: earthshaker
+  special_bonus_hp_600:
+    dname: "+600 Health"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_hp_600_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: death_prophet
+  special_bonus_unique_earthshaker:
+    dname: "-2s Enchant Totem Cooldown"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_earthshaker_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: earthshaker
   juggernaut_blade_fury:
     dname: Blade Fury
@@ -646,6 +1166,46 @@ abilitydata:
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 130/120/110</div><br clear="left" /></div>
     lore: "'The fruits of discipline; with practice comes strength.'"
+    hurl: juggernaut
+  special_bonus_armor_7:
+    dname: "+7 Armor"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_armor_7_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: legion_commander
+  special_bonus_all_stats_8:
+    dname: "+8 All Stats"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_all_stats_8_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: spectre
+  special_bonus_agility_20:
+    dname: "+20 Agility"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_agility_20_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: juggernaut
+  special_bonus_unique_juggernaut:
+    dname: "+175 Blade Fury DPS"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_juggernaut_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: juggernaut
   mirana_starfall:
     dname: Starstorm
@@ -732,6 +1292,56 @@ abilitydata:
     lore: Her tenure with Selemene allows Mirana to eclipse the ground, wrapping her
       allies in a cloak of shadows.
     hurl: mirana
+  special_bonus_agility_8:
+    dname: "+8 Agility"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_agility_8_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: morphling
+  special_bonus_spell_amplify_5:
+    dname: "+5% Spell Amplification"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_spell_amplify_5_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: shredder
+  special_bonus_unique_mirana_3:
+    dname: "-4s Sacred Arrow cooldown"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_mirana_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: mirana
+  special_bonus_unique_mirana_1:
+    dname: "+100 Leap Attack Speed"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_mirana_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: mirana
+  special_bonus_unique_mirana_2:
+    dname: "+2 Multishot Sacred Arrows"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_mirana_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: mirana
   nevermore_shadowraze1:
     dname: Shadowraze
     affects: 'ABILITY: <span class="attribVal">No Target</span><br />DAMAGE TYPE:
@@ -808,6 +1418,56 @@ abilitydata:
       width="16" height="16" border="0" /> 120/110/100</div><br clear="left" /></div>
     lore: The captured souls of those past slain are released to ravage their former
       allies.
+    hurl: nevermore
+  special_bonus_spell_amplify_6:
+    dname: "+6% Spell Amplification"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_spell_amplify_6_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: gyrocopter
+  special_bonus_lifesteal_15:
+    dname: 15% Lifesteal
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_lifesteal_15_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: meepo
+  special_bonus_unique_nevermore_1:
+    dname: "+2 Damage Per Soul"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_nevermore_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: nevermore
+  special_bonus_attack_range_150:
+    dname: "+150 Attack Range"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_attack_range_150_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lina
+  special_bonus_unique_nevermore_2:
+    dname: "+150 Shadow Raze Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_nevermore_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: nevermore
   morphling_waveform:
     dname: Waveform
@@ -940,6 +1600,66 @@ abilitydata:
       width="16" height="16" border="0" /> 150/150/150</div><br clear="left" /></div>
     lore: ''
     hurl: morphling
+  special_bonus_attack_speed_25:
+    dname: "+25 Attack Speed"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_attack_speed_25_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: arc_warden
+  special_bonus_cooldown_reduction_12:
+    dname: 12% Cooldown Reduction
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_cooldown_reduction_12_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: queenofpain
+  special_bonus_movement_speed_25:
+    dname: "+25 Movement Speed"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_movement_speed_25_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: oracle
+  special_bonus_attack_damage_40:
+    dname: "+40 Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_40_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: monkey_king
+  special_bonus_unique_morphling_1:
+    dname: "+400 Waveform Range"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_morphling_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: morphling
+  special_bonus_unique_morphling_2:
+    dname: "+50% Replicate Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_morphling_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: morphling
   phantom_lancer_spirit_lance:
     dname: Spirit Lance
     affects: 'ABILITY: <span class="attribVal">Unit Target</span><br />AFFECTS: <span
@@ -1028,6 +1748,46 @@ abilitydata:
     cmb: ''
     lore: Each of Azwraith's lance attacks feels like two from a normal warrior; or
       three; or four...
+    hurl: phantom_lancer
+  special_bonus_unique_phantom_lancer_2:
+    dname: "+75 Spirit Lance Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_phantom_lancer_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: phantom_lancer
+  special_bonus_cooldown_reduction_15:
+    dname: 15% Cooldown Reduction
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_cooldown_reduction_15_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: abaddon
+  special_bonus_strength_20:
+    dname: "+20 Strength"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_strength_20_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: shredder
+  special_bonus_unique_phantom_lancer:
+    dname: "+600 Phantom Rush Range"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_phantom_lancer_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: phantom_lancer
   puck_illusory_orb:
     dname: Illusory Orb
@@ -1124,6 +1884,66 @@ abilitydata:
     lore: The Faerie Dragon sows confusion by forcing its enemies to vividly dream
       about their own mortality.
     hurl: puck
+  special_bonus_intelligence_8:
+    dname: "+8 Intelligence"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_intelligence_8_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: winter_wyvern
+  special_bonus_magic_resistance_20:
+    dname: "+20% Magic Resistance"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_magic_resistance_20_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: monkey_king
+  special_bonus_spell_amplify_10:
+    dname: "+10% Spell Amplification"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_spell_amplify_10_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: centaur
+  special_bonus_unique_puck_2:
+    dname: "-3s Waning Rift Cooldown"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_puck_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: puck
+  special_bonus_gold_income_70:
+    dname: "+420 Gold/Min"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_gold_income_70_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: puck
+  special_bonus_unique_puck:
+    dname: "+75% Illusory Orb Distance/Speed"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_puck_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: puck
   pudge_meat_hook:
     dname: Meat Hook
     affects: 'ABILITY: <span class="attribVal">Point Target</span><br />DAMAGE TYPE:
@@ -1204,6 +2024,76 @@ abilitydata:
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 30/25/20</div><br clear="left" /></div>
     lore: "'When I'm through with these vermin, they'll be fit for a pie!'"
+    hurl: pudge
+  special_bonus_strength_8:
+    dname: "+8 Strength"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_strength_8_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: bristleback
+  special_bonus_mp_regen_2:
+    dname: "+2 Mana Regen"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_mp_regen_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: abyssal_underlord
+  special_bonus_armor_5:
+    dname: "+5 Armor"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_armor_5_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: abyssal_underlord
+  special_bonus_gold_income_25:
+    dname: "+150 Gold/Min"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_gold_income_25_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: phoenix
+  special_bonus_unique_pudge_3:
+    dname: "+1s Dismember Duration"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_pudge_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: pudge
+  special_bonus_unique_pudge_1:
+    dname: "+1.75 Flesh Heap Stack Str"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_pudge_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: pudge
+  special_bonus_unique_pudge_2:
+    dname: "+120 Rot Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_pudge_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: pudge
   razor_plasma_field:
     dname: Plasma Field
@@ -1287,6 +2177,66 @@ abilitydata:
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 80/70/60</div><br clear="left" /></div>
     lore: Ride the lightning.
+    hurl: razor
+  special_bonus_agility_15:
+    dname: "+15 Agility"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_agility_15_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: terrorblade
+  special_bonus_unique_razor_2:
+    dname: "+130 Unstable Current Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_razor_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: razor
+  special_bonus_hp_400:
+    dname: "+400 Health"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_hp_400_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: disruptor
+  special_bonus_attack_speed_40:
+    dname: "+40 Attack Speed"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_attack_speed_40_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: bounty_hunter
+  special_bonus_attack_range_175:
+    dname: "+175 Attack Range"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_attack_range_175_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lone_druid
+  special_bonus_unique_razor:
+    dname: "+14 Static Link Damage Steal"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_razor_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: razor
   sandking_burrowstrike:
     dname: Burrowstrike
@@ -1378,6 +2328,66 @@ abilitydata:
       width="16" height="16" border="0" /> 120/110/100</div><br clear="left" /></div>
     lore: Many an explorer was lost to the quicksands of the Scintillant Waste.
     hurl: sand_king
+  special_bonus_magic_resistance_10:
+    dname: "+10% Magic Resistance"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_magic_resistance_10_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: centaur
+  special_bonus_unique_sand_king_2:
+    dname: "+50 Sand Storm DPS"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_sand_king_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: sand_king
+  special_bonus_unique_sand_king_3:
+    dname: "-50 Epicenter Attack Slow"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_sand_king_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: sand_king
+  special_bonus_hp_350:
+    dname: "+350 Health"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_hp_350_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: troll_warlord
+  special_bonus_hp_regen_50:
+    dname: "+50 Health Regen"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_hp_regen_50_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: abyssal_underlord
+  special_bonus_unique_sand_king:
+    dname: "+4 Epicenter Pulses"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_sand_king_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: sand_king
   storm_spirit_static_remnant:
     dname: Static Remnant
     affects: 'ABILITY: <span class="attribVal">No Target</span><br />DAMAGE TYPE:
@@ -1458,6 +2468,46 @@ abilitydata:
       width="16" height="16" border="0" /> 30</div><br clear="left" /></div>
     lore: The Storm is coming in.
     hurl: storm_spirit
+  special_bonus_hp_200:
+    dname: "+200 Health"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_hp_200_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: arc_warden
+  special_bonus_intelligence_10:
+    dname: "+10 Intelligence"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_intelligence_10_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: earth_spirit
+  special_bonus_armor_8:
+    dname: "+8 Armor"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_armor_8_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: sniper
+  special_bonus_unique_storm_spirit:
+    dname: "+0.75s Electric Vortex"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_storm_spirit_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: storm_spirit
   sven_storm_bolt:
     dname: Storm Hammer
     affects: 'ABILITY: <span class="attribVal">Unit Target</span><br />AFFECTS: <span
@@ -1531,6 +2581,46 @@ abilitydata:
       width="16" height="16" border="0" /> 80</div><br clear="left" /></div>
     lore: With the strength that shattered the Sacred Helm, the Rogue Knight stands
       unopposed in melee combat.
+    hurl: sven
+  special_bonus_mp_225:
+    dname: "+225 Mana"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_mp_225_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: sven
+  special_bonus_evasion_20:
+    dname: 20% Evasion
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_evasion_20_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: clinkz
+  special_bonus_attack_damage_65:
+    dname: "+65 Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_65_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: vengefulspirit
+  special_bonus_unique_sven:
+    dname: "-8s Storm Hammer Cooldown"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_sven_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: sven
   tiny_avalanche:
     dname: Avalanche
@@ -1615,6 +2705,56 @@ abilitydata:
     lore: Watching a hill become a mountain is awe-inspiring - especially if the mountain
       begins laying waste to adversaries.
     hurl: tiny
+  special_bonus_intelligence_14:
+    dname: "+14 Intelligence"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_intelligence_14_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: tiny
+  special_bonus_movement_speed_40:
+    dname: "+40 Movement Speed"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_movement_speed_40_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: abyssal_underlord
+  special_bonus_mp_regen_14:
+    dname: "+14 Mana Regen"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_mp_regen_14_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Skywrath_Mage
+  special_bonus_cooldown_reduction_20:
+    dname: 20% Cooldown Reduction
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_cooldown_reduction_20_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: techies
+  special_bonus_unique_tiny:
+    dname: "+200 Avalanche Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_tiny_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: tiny
   vengefulspirit_magic_missile:
     dname: Magic Missile
     affects: 'ABILITY: <span class="attribVal">Unit Target</span><br />AFFECTS: <span
@@ -1691,6 +2831,46 @@ abilitydata:
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 45</div><br clear="left" /></div>
     lore: Martyrdom is a small price to pay for vengeance.
+    hurl: vengefulspirit
+  special_bonus_magic_resistance_8:
+    dname: "+8% Magic Resistance"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_magic_resistance_8_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: vengefulspirit
+  special_bonus_unique_vengeful_spirit_1:
+    dname: "+100 Magic Missile Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_vengeful_spirit_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: vengefulspirit
+  special_bonus_unique_vengeful_spirit_2:
+    dname: "+20% Vengeance Aura Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_vengeful_spirit_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: vengefulspirit
+  special_bonus_unique_vengeful_spirit_3:
+    dname: Magic Missile Pierces Spell Immunity
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_vengeful_spirit_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: vengefulspirit
   windrunner_shackleshot:
     dname: Shackleshot
@@ -1777,6 +2957,66 @@ abilitydata:
       width="16" height="16" border="0" /> 60</div><br clear="left" /></div>
     lore: Lyralei's ability to bombard opponents with a flurry of arrows is unparalleled
       - even at the expense of accuracy.
+    hurl: windrunner
+  special_bonus_mp_regen_4:
+    dname: "+4 Mana Regen"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_mp_regen_4_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: windrunner
+  special_bonus_unique_windranger_2:
+    dname: "+30% Windrun Slow"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_windranger_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: windrunner
+  special_bonus_intelligence_20:
+    dname: "+20 Intelligence"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_intelligence_20_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: oracle
+  special_bonus_unique_windranger:
+    dname: Windrun Grants Invisibility
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_windranger_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: windrunner
+  special_bonus_unique_windranger_3:
+    dname: "+120 Powershot Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_windranger_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: windrunner
+  special_bonus_cooldown_reduction_30:
+    dname: 30% Cooldown Reduction
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_cooldown_reduction_30_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: windrunner
   zuus_arc_lightning:
     dname: Arc Lightning
@@ -1872,6 +3112,46 @@ abilitydata:
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 90</div><br clear="left" /></div>
     lore: The Lord of Heaven smites all who oppose him, near or far.
+    hurl: zuus
+  special_bonus_unique_zeus_2:
+    dname: "+75 Arc Lightning Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_zeus_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: zuus
+  special_bonus_unique_zeus_3:
+    dname: "+0.5s Lightning Bolt Ministun"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_zeus_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: zuus
+  special_bonus_cast_range_200:
+    dname: "+200 Cast Range"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_cast_range_200_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: techies
+  special_bonus_unique_zeus:
+    dname: "+2% Static Field Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_zeus_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: zuus
   kunkka_torrent:
     dname: Torrent
@@ -1980,6 +3260,76 @@ abilitydata:
       width="16" height="16" border="0" /> 1</div><br clear="left" /></div>
     lore: ''
     hurl: kunkka
+  special_bonus_attack_damage_30:
+    dname: "+30 Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_30_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: arc_warden
+  special_bonus_unique_kunkka_2:
+    dname: "+40 Torrent Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_kunkka_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: kunkka
+  special_bonus_hp_regen_15:
+    dname: "+15 Health Regen"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_hp_regen_15_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: undying
+  special_bonus_movement_speed_30:
+    dname: "+30 Movement Speed"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_movement_speed_30_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: undying
+  special_bonus_hp_300:
+    dname: "+300 Health"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_hp_300_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: earth_spirit
+  special_bonus_magic_resistance_35:
+    dname: "+35% Magic Resistance"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_magic_resistance_35_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: weaver
+  special_bonus_unique_kunkka:
+    dname: "+200 Torrent AoE"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_kunkka_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: kunkka
   lina_dragon_slave:
     dname: Dragon Slave
     affects: 'ABILITY: <span class="attribVal">Unit Target, Point Target</span><br
@@ -2052,6 +3402,36 @@ abilitydata:
       width="16" height="16" border="0" /> 70/60/50</div><br clear="left" /></div>
     lore: The air around Lina becomes so intensely torrid that it scorches a foe that
       comes too close with white-hot lightning.
+    hurl: lina
+  special_bonus_unique_lina_3:
+    dname: "+80 Light Strike Array Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_lina_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lina
+  special_bonus_unique_lina_1:
+    dname: "-4s Dragon Slave Cooldown"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_lina_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lina
+  special_bonus_unique_lina_2:
+    dname: "+35/3% Fiery Soul Per Stack"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_lina_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: lina
   lich_frost_nova:
     dname: Frost Blast
@@ -2143,6 +3523,46 @@ abilitydata:
     lore: Almost universally considered the ultimate in frost magic, Ethreain's orb
       of frozen death strikes fear into those who dare stand against him.
     hurl: lich
+  special_bonus_unique_lich_3:
+    dname: "-4s Frost Blast Cooldown"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_lich_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lich
+  special_bonus_attack_damage_150:
+    dname: "+150 Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_150_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lich
+  special_bonus_unique_lich_1:
+    dname: "+35 Frost Armor Structure Armor"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_lich_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lich
+  special_bonus_unique_lich_2:
+    dname: Attacks Apply 30% MS and AS Slow
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_lich_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lich
   lion_impale:
     dname: Earth Spike
     affects: 'ABILITY: <span class="attribVal">Unit Target, Point Target</span><br
@@ -2225,6 +3645,66 @@ abilitydata:
     lore: Lion's disfigured hand is also the source of his greatest power, capable
       of flooding victims with malefic force.
     hurl: lion
+  special_bonus_cast_range_75:
+    dname: "+75 Cast Range"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_cast_range_75_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: rubick
+  special_bonus_unique_lion_2:
+    dname: "+80 Earth Spike Damage "
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_lion_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lion
+  special_bonus_gold_income_15:
+    dname: "+90 Gold/Min"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_gold_income_15_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: earth_spirit
+  special_bonus_spell_amplify_8:
+    dname: "+8% Spell Amplification"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_spell_amplify_8_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: phoenix
+  special_bonus_all_stats_20:
+    dname: "+20 All Stats"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_all_stats_20_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lion
+  special_bonus_unique_lion:
+    dname: "+3 Mana Drain Multi Target"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_lion_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lion
   shadow_shaman_ether_shock:
     dname: Ether Shock
     affects: 'ABILITY: <span class="attribVal">Unit Target</span><br />AFFECTS: <span
@@ -2305,6 +3785,66 @@ abilitydata:
     lore: Snake charming was a big part of the Shadow Shaman's act; now Rhasta can
       empower the snakes to do his bidding.
     hurl: shadow_shaman
+  special_bonus_cast_range_100:
+    dname: "+100 Cast Range"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_cast_range_100_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: visage
+  special_bonus_exp_boost_35:
+    dname: "+35% XP Gain"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_exp_boost_35_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: undying
+  special_bonus_unique_shadow_shaman_4:
+    dname: "+4 Wards Summoned"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_shadow_shaman_4_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: shadow_shaman
+  special_bonus_unique_shadow_shaman_2:
+    dname: "+3s Shackles Duration"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_shadow_shaman_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: shadow_shaman
+  special_bonus_unique_shadow_shaman_1:
+    dname: "+1 Serpent Wards Attacks HP"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_shadow_shaman_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: shadow_shaman
+  special_bonus_unique_shadow_shaman_3:
+    dname: "+350 Ether Shock Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_shadow_shaman_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: shadow_shaman
   slardar_sprint:
     dname: Guardian Sprint
     affects: 'ABILITY: <span class="attribVal">No Target</span><br />'
@@ -2380,6 +3920,46 @@ abilitydata:
       width="16" height="16" border="0" /> 5</div><br clear="left" /></div>
     lore: Even the strongest armor counts for little when left to the brine of the
       sea.
+    hurl: slardar
+  special_bonus_hp_regen_6:
+    dname: "+6 Health Regen"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_hp_regen_6_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: terrorblade
+  special_bonus_mp_175:
+    dname: "+175 Mana"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_mp_175_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: slardar
+  special_bonus_attack_damage_35:
+    dname: "+35 Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_35_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: tusk
+  special_bonus_unique_slardar:
+    dname: "+10% Bash Chance"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_slardar_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: slardar
   tidehunter_gush:
     dname: Gush
@@ -2464,6 +4044,36 @@ abilitydata:
       width="16" height="16" border="0" /> 150</div><br clear="left" /></div>
     lore: Calling to the abyssal god Maelrawn has resulted in entire armadas being
       lost at sea.
+    hurl: tidehunter
+  special_bonus_mp_regen_6:
+    dname: "+6 Mana Regen"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_mp_regen_6_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: omniknight
+  special_bonus_strength_15:
+    dname: "+15 Strength"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_strength_15_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: centaur
+  special_bonus_unique_tidehunter:
+    dname: "-6 Gush Armor"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_tidehunter_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: tidehunter
   witch_doctor_paralyzing_cask:
     dname: Paralyzing Cask
@@ -2552,6 +4162,56 @@ abilitydata:
     lore: Witch Doctor performs a ritualistic dance, one that haunts the dreams of
       those who live to recount it.
     hurl: witch_doctor
+  special_bonus_exp_boost_25:
+    dname: "+25% XP Gain"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_exp_boost_25_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: jakiro
+  special_bonus_attack_damage_90:
+    dname: "+90 Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_90_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: treant
+  special_bonus_unique_witch_doctor_3:
+    dname: "+2 Cask Bounces"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_witch_doctor_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: witch_doctor
+  special_bonus_unique_witch_doctor_1:
+    dname: "+175 Death Ward Attack Range"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_witch_doctor_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: witch_doctor
+  special_bonus_unique_witch_doctor_2:
+    dname: "+20 Voodoo Restoration Heal"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_witch_doctor_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: witch_doctor
   riki_smoke_screen:
     dname: Smoke Screen
     affects: 'ABILITY: <span class="attribVal">Point Target</span><br />PIERCES SPELL
@@ -2633,6 +4293,46 @@ abilitydata:
       width="16" height="16" border="0" /> 40/35/30</div><br clear="left" /></div>
     lore: The Stealth Assassin is not afraid to fight dirty, and specializes in attacking
       his opponents from behind.
+    hurl: riki
+  special_bonus_agility_10:
+    dname: "+10 Agility"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_agility_10_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: troll_warlord
+  special_bonus_cast_range_250:
+    dname: "+250 Cast Range"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_cast_range_250_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: oracle
+  special_bonus_unique_riki_1:
+    dname: "+0.4 Backstab Multiplier"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_riki_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: riki
+  special_bonus_unique_riki_2:
+    dname: "-4s Smokescreen Cooldown"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_riki_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: riki
   enigma_malefice:
     dname: Malefice
@@ -2720,6 +4420,46 @@ abilitydata:
     lore: The ground trembles as Enigma channels his ultimate vortex of destruction,
       a singularity with the power to end worlds.
     hurl: enigma
+  special_bonus_magic_resistance_12:
+    dname: "+12% Magic Resistance"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_magic_resistance_12_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: elder_titan
+  special_bonus_unique_enigma_2:
+    dname: "+1 Malefice Instance"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_enigma_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: enigma
+  special_bonus_armor_12:
+    dname: "+12 Armor"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_armor_12_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: night_stalker
+  special_bonus_unique_enigma:
+    dname: "+8 Demonic Conversion Eidolons"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_enigma_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: enigma
   tinker_laser:
     dname: Laser
     affects: 'ABILITY: <span class="attribVal">Unit Target</span><br />AFFECTS: <span
@@ -2801,6 +4541,36 @@ abilitydata:
     lore: A new battery here, another set of rockets there, Boush continually improves
       on existing technology.
     hurl: tinker
+  special_bonus_spell_amplify_4:
+    dname: "+4% Spell Amplification"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_spell_amplify_4_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: tinker
+  special_bonus_spell_lifesteal_20:
+    dname: 20% Spell Lifesteal
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_spell_lifesteal_20_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: tinker
+  special_bonus_unique_tinker:
+    dname: "+100 Laser Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_tinker_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: tinker
   sniper_shrapnel:
     dname: Shrapnel
     affects: 'ABILITY: <span class="attribVal">Point Target</span><br />DAMAGE TYPE:
@@ -2871,6 +4641,66 @@ abilitydata:
       width="16" height="16" border="0" /> 20/15/10</div><br clear="left" /></div>
     lore: In order to fulfill the prophecy and return to his home town, Kardel must
       make another shot as perfect as the one on the day of his ancient test.
+    hurl: sniper
+  special_bonus_mp_regen_5:
+    dname: "+5 Mana Regen"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_mp_regen_5_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: sniper
+  special_bonus_attack_speed_15:
+    dname: "+15 Attack Speed"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_attack_speed_15_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: terrorblade
+  special_bonus_unique_sniper_1:
+    dname: "+20 Shrapnel DPS"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_sniper_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: sniper
+  special_bonus_cooldown_reduction_25:
+    dname: 25% Cooldown Reduction
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_cooldown_reduction_25_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: sniper
+  special_bonus_attack_range_100:
+    dname: "+100 Attack Range"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_attack_range_100_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: arc_warden
+  special_bonus_unique_sniper_2:
+    dname: "+4 Shrapnel Charges"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_sniper_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: sniper
   necrolyte_death_pulse:
     dname: Death Pulse
@@ -2962,6 +4792,26 @@ abilitydata:
     lore: The amount of death and suffering in the air increases the power of Necrophos's
       plague magic.
     hurl: necrolyte
+  special_bonus_all_stats_6:
+    dname: "+6 All Stats"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_all_stats_6_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: ember_spirit
+  special_bonus_unique_necrophos:
+    dname: "-1s Death Pulse Cooldown"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_necrophos_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: necrolyte
   warlock_fatal_bonds:
     dname: Fatal Bonds
     affects: 'ABILITY: <span class="attribVal">Unit Target</span><br />AFFECTS: <span
@@ -3050,6 +4900,66 @@ abilitydata:
     lore: Demnok unleashes the captive spirit in his Dreadwood staff, causing destruction
       in enemy ranks.
     hurl: warlock
+  special_bonus_exp_boost_20:
+    dname: "+20% XP Gain"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_exp_boost_20_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: oracle
+  special_bonus_cast_range_150:
+    dname: "+150 Cast Range"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_cast_range_150_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: shredder
+  special_bonus_unique_warlock_3:
+    dname: "-4s Shadow Word Cooldown"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_warlock_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: warlock
+  special_bonus_unique_warlock_4:
+    dname: Summons a Golem on death
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_warlock_4_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: warlock
+  special_bonus_unique_warlock_1:
+    dname: Magic Immunity for Chaotic Offering Golems
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_warlock_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: warlock
+  special_bonus_unique_warlock_2:
+    dname: "+15 Chaotic Offering Golems Armor"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_warlock_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: warlock
   beastmaster_wild_axes:
     dname: Wild Axes
     affects: 'ABILITY: <span class="attribVal">Point Target</span><br />AFFECTS: <span
@@ -3133,6 +5043,46 @@ abilitydata:
     lore: The Beastmaster has learned to channel his primal instincts into an animalistic
       roar, causing devastation in the ranks of enemies.
     hurl: beastmaster
+  special_bonus_strength_12:
+    dname: "+12 Strength"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_strength_12_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: magnataur
+  special_bonus_unique_beastmaster_2:
+    dname: "+1 Boar Summoned"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_beastmaster_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: beastmaster
+  special_bonus_attack_damage_120:
+    dname: "+120 Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_120_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: bounty_hunter
+  special_bonus_unique_beastmaster:
+    dname: "+250 Wild Axes Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_beastmaster_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: beastmaster
   queenofpain_shadow_strike:
     dname: Shadow Strike
     affects: 'ABILITY: <span class="attribVal">Unit Target</span><br />AFFECTS: <span
@@ -3214,6 +5164,26 @@ abilitydata:
       width="16" height="16" border="0" /> 135</div><br clear="left" /></div>
     lore: Her most exquisite of all of torments, Akasha's Sonic Wave puts her poor
       foes out of their misery.
+    hurl: queenofpain
+  special_bonus_unique_queen_of_pain:
+    dname: 550 AoE Shadow Strike
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_queen_of_pain_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: queenofpain
+  special_bonus_spell_lifesteal_60:
+    dname: 60% Spell Lifesteal
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_spell_lifesteal_60_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: queenofpain
   venomancer_venomous_gale:
     dname: Venomous Gale
@@ -3304,6 +5274,26 @@ abilitydata:
     lore: In the Acid Jungles, creatures releasing noxious poison to their attackers
       is common; Venomancer spreads this plague beyond the Jidi Isle.
     hurl: venomancer
+  special_bonus_unique_venomancer_2:
+    dname: "+14% Poison Sting Slow"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_venomancer_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: venomancer
+  special_bonus_unique_venomancer:
+    dname: 3x Plague Ward HP/Damage
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_venomancer_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: venomancer
   faceless_void_time_walk:
     dname: Time Walk
     affects: 'ABILITY: <span class="attribVal">Point Target</span><br />PIERCES SPELL
@@ -3381,6 +5371,16 @@ abilitydata:
     lore: When a rift opens to Claszureme, all poor souls caught within will likely
       never return.
     hurl: faceless_void
+  special_bonus_unique_faceless_void:
+    dname: "+600 Timewalk Cast Range"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_faceless_void_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: faceless_void
   skeleton_king_hellfire_blast:
     dname: Wraithfire Blast
     affects: 'ABILITY: <span class="attribVal">Unit Target</span><br />AFFECTS: <span
@@ -3456,6 +5456,56 @@ abilitydata:
       title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 240/140/40</div><br clear="left" /></div>
     lore: Conspirators against the Wraith King wonder why he never stays dead.
+    hurl: skeleton_king
+  special_bonus_attack_damage_15:
+    dname: "+15 Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_15_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: medusa
+  special_bonus_unique_wraith_king_3:
+    dname: "+50 Wraithfire Blast DPS"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_wraith_king_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: skeleton_king
+  special_bonus_unique_wraith_king_2:
+    dname: "+10% Vampiric Aura Lifesteal"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_wraith_king_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: skeleton_king
+  special_bonus_unique_wraith_king_1:
+    dname: No Reincarnation Manacost
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_wraith_king_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: skeleton_king
+  special_bonus_unique_wraith_king_4:
+    dname: Reincarnation Casts Wraithfire Blast
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_wraith_king_4_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: skeleton_king
   death_prophet_carrion_swarm:
     dname: Crypt Swarm
@@ -3536,6 +5586,46 @@ abilitydata:
     lore: Over time, the banshee remnants of her previous lives return to haunt the
       present.
     hurl: death_prophet
+  special_bonus_unique_death_prophet_2:
+    dname: "-1.5s Crypt Swarm Cooldown"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_death_prophet_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: death_prophet
+  special_bonus_cooldown_reduction_10:
+    dname: 10% Cooldown Reduction
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_cooldown_reduction_10_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: arc_warden
+  special_bonus_movement_speed_50:
+    dname: "+50 Movement Speed"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_movement_speed_50_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: death_prophet
+  special_bonus_unique_death_prophet:
+    dname: "+8 Exorcism Spirits"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_death_prophet_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: death_prophet
   phantom_assassin_stifling_dagger:
     dname: Stifling Dagger
     affects: 'ABILITY: <span class="attribVal">Unit Target</span><br />AFFECTS: <span
@@ -3611,6 +5701,36 @@ abilitydata:
       CRITICAL CHANCE: <span class="attribVal">15%</span>
     cmb: ''
     lore: A divine strike, Mortred honors her opponent by choosing them for death.
+    hurl: phantom_assassin
+  special_bonus_lifesteal_10:
+    dname: 10% Lifesteal
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_lifesteal_10_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: slark
+  special_bonus_attack_speed_35:
+    dname: "+35 Attack Speed"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_attack_speed_35_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: invoker
+  special_bonus_unique_phantom_assassin:
+    dname: Double Strike Stifling Dagger
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_phantom_assassin_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: phantom_assassin
   pugna_nether_blast:
     dname: Nether Blast
@@ -3705,6 +5825,56 @@ abilitydata:
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 22</div><br clear="left" /></div>
     lore: Pugna has truly become more powerful than even the grandmaster of Oblivion.
+    hurl: pugna
+  special_bonus_unique_pugna_5:
+    dname: "+1s Decrepify Duration"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_pugna_5_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: pugna
+  special_bonus_unique_pugna_4:
+    dname: "-1s Netherblast Cooldown"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_pugna_4_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: pugna
+  special_bonus_unique_pugna_3:
+    dname: "+0.75 Netherward Damage Per Mana"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_pugna_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: pugna
+  special_bonus_unique_pugna_1:
+    dname: "+50% Life Drain Heal"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_pugna_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: pugna
+  special_bonus_unique_pugna_2:
+    dname: "+200 Nether Blast Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_pugna_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: pugna
   templar_assassin_refraction:
     dname: Refraction
@@ -3807,6 +5977,46 @@ abilitydata:
     lore: Calling upon the reach of the Hidden Temple, none escape the eye of the
       Templar.
     hurl: templar_assassin
+  special_bonus_evasion_12:
+    dname: 12% Evasion
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_evasion_12_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: monkey_king
+  special_bonus_hp_275:
+    dname: "+275 Health"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_hp_275_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: monkey_king
+  special_bonus_unique_templar_assassin_2:
+    dname: "-8 Meld Armor Reduction"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_templar_assassin_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: templar_assassin
+  special_bonus_unique_templar_assassin:
+    dname: "+3 Refraction Instances"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_templar_assassin_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: templar_assassin
   viper_poison_attack:
     dname: Poison Attack
     affects: 'ABILITY: <span class="attribVal">Auto-Cast, Unit Target</span><br />AFFECTS:
@@ -3895,6 +6105,56 @@ abilitydata:
     lore: Once used to slay his sadistic summoner, the most powerful of Netherdrake
       infections spreads through the veins of those foolish enough to cross Viper.
     hurl: viper
+  special_bonus_agility_16:
+    dname: "+16 Agility"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_agility_16_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: viper
+  special_bonus_unique_viper_1:
+    dname: Poison Attack Affects Buildings
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_viper_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: viper
+  special_bonus_attack_range_75:
+    dname: "+75 Attack Range"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_attack_range_75_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: viper
+  special_bonus_armor_20:
+    dname: "+20 Armor"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_armor_20_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: viper
+  special_bonus_unique_viper_2:
+    dname: "+80 Viper Strike DPS"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_viper_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: viper
   luna_lucent_beam:
     dname: Lucent Beam
     affects: 'ABILITY: <span class="attribVal">Unit Target</span><br />AFFECTS: <span
@@ -3971,6 +6231,36 @@ abilitydata:
       width="16" height="16" border="0" /> 140</div><br clear="left" /></div>
     lore: In times of great need, Selemene herself descends into the world, blocking
       out the light and hope of the opposed.
+    hurl: luna
+  special_bonus_unique_luna_1:
+    dname: "+40 Lucent Beam Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_luna_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: luna
+  special_bonus_all_stats_15:
+    dname: "+15 All Stats"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_all_stats_15_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: terrorblade
+  special_bonus_unique_luna_2:
+    dname: "-4s Lucent Beam Cooldown"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_luna_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: luna
   dragon_knight_breathe_fire:
     dname: Breathe Fire
@@ -4055,6 +6345,36 @@ abilitydata:
       width="16" height="16" border="0" /> 115</div><br clear="left" /></div>
     lore: The dormant dragon power springs forth from within Davion, combining the
       powers of a legendary knight with a legendary Eldwurm.
+    hurl: dragon_knight
+  special_bonus_exp_boost_40:
+    dname: "+40% XP Gain"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_exp_boost_40_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: tusk
+  special_bonus_movement_speed_75:
+    dname: "+75 Movement Speed"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_movement_speed_75_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: dragon_knight
+  special_bonus_unique_dragon_knight:
+    dname: 2x Dragon Blood HP Regen/Armor
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_dragon_knight_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: dragon_knight
   dazzle_poison_touch:
     dname: Poison Touch
@@ -4149,6 +6469,46 @@ abilitydata:
     lore: His ethereal journey into the Nothl realm has allowed Dazzle to mend together
       the powers of light and dark, creating shifting waves of enchantments.
     hurl: dazzle
+  special_bonus_hp_125:
+    dname: "+125 Health"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_hp_125_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: naga_siren
+  special_bonus_unique_dazzle_3:
+    dname: "+25 Poison Touch DPS"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_dazzle_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: dazzle
+  special_bonus_unique_dazzle_1:
+    dname: "-6s Poison Touch Cooldown"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_dazzle_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: dazzle
+  special_bonus_unique_dazzle_2:
+    dname: "+60 Shadow Wave Heal"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_dazzle_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: dazzle
   rattletrap_battery_assault:
     dname: Battery Assault
     affects: 'ABILITY: <span class="attribVal">No Target</span><br />DAMAGE TYPE:
@@ -4236,6 +6596,46 @@ abilitydata:
       width="16" height="16" border="0" /> 70/55/40</div><br clear="left" /></div>
     lore: A somewhat unwieldy device, the Hookshot sends the otherwise clunky Clockwerk
       armor flying through the air.
+    hurl: rattletrap
+  special_bonus_armor_4:
+    dname: "+4 Armor"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_armor_4_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: earth_spirit
+  special_bonus_unique_clockwerk_2:
+    dname: "+75 Rocket Flare Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_clockwerk_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: rattletrap
+  special_bonus_unique_clockwerk_3:
+    dname: "+40 Battery Assault Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_clockwerk_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: rattletrap
+  special_bonus_unique_clockwerk:
+    dname: "+10s Battery Assault Duration"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_clockwerk_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: rattletrap
   leshrac_split_earth:
     dname: Split Earth
@@ -4326,6 +6726,36 @@ abilitydata:
     lore: If necessary, the Tormented Soul can manipulate space time itself, ravaging
       lesser beings.
     hurl: leshrac
+  special_bonus_mp_400:
+    dname: "+400 Mana"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_mp_400_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: leshrac
+  special_bonus_unique_leshrac_1:
+    dname: "+50 Diabolic Edict Explosions"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_leshrac_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: leshrac
+  special_bonus_unique_leshrac_2:
+    dname: "+3s Lightning Storm Slow Duration"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_leshrac_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: leshrac
   furion_sprout:
     dname: Sprout
     affects: 'ABILITY: <span class="attribVal">Unit Target, Point Target</span><br
@@ -4406,6 +6836,46 @@ abilitydata:
       width="16" height="16" border="0" /> 90/75/60</div><br clear="left" /></div>
     lore: Nature's Prophet calls Verodicia's fury to strike down those who might ravage
       the wilderness.
+    hurl: furion
+  special_bonus_unique_furion_2:
+    dname: "+4 Treants Summoned"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_furion_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: furion
+  special_bonus_armor_10:
+    dname: "+10 Armor"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_armor_10_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: phoenix
+  special_bonus_unique_furion_3:
+    dname: Removed Teleportation Cooldown
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_furion_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: furion
+  special_bonus_unique_furion:
+    dname: 2x Treant HP/Damage
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_furion_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: furion
   life_stealer_rage:
     dname: Rage
@@ -4546,6 +7016,16 @@ abilitydata:
     cmb: ''
     lore: ''
     hurl: life_stealer
+  special_bonus_unique_lifestealer:
+    dname: "+1s Rage Duration"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_lifestealer_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: life_stealer
   dark_seer_vacuum:
     dname: Vacuum
     affects: 'ABILITY: <span class="attribVal">Point Target</span><br />DAMAGE TYPE:
@@ -4632,6 +7112,46 @@ abilitydata:
       part of the prismatic wall with powerful strength of mind, sowing confusion
       amongst enemy ranks.
     hurl: dark_seer
+  special_bonus_hp_regen_14:
+    dname: "+14 Health Regen"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_hp_regen_14_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: shredder
+  special_bonus_unique_dark_seer_2:
+    dname: "+75 Vacuum AoE"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_dark_seer_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: dark_seer
+  special_bonus_strength_25:
+    dname: "+25 Strength"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_strength_25_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: monkey_king
+  special_bonus_unique_dark_seer:
+    dname: "+80 Ion Shell Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_dark_seer_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: dark_seer
   clinkz_strafe:
     dname: Strafe
     affects: 'ABILITY: <span class="attribVal">No Target</span><br />'
@@ -4708,6 +7228,36 @@ abilitydata:
     lore: Sutherex' bond of life and death has become a part of Clinkz, and his old
       bones are refreshed with repetition of the pact on lesser beings.
     hurl: clinkz
+  special_bonus_unique_clinkz_1:
+    dname: "+30 Searing Arrows Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_clinkz_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: clinkz
+  special_bonus_attack_range_125:
+    dname: "+125 Attack Range"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_attack_range_125_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: clinkz
+  special_bonus_unique_clinkz_2:
+    dname: "+70 Strafe Attack Speed"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_clinkz_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: clinkz
   omniknight_purification:
     dname: Purification
     affects: 'ABILITY: <span class="attribVal">Unit Target</span><br />AFFECTS: <span
@@ -4778,6 +7328,46 @@ abilitydata:
       width="16" height="16" border="0" /> 160</div><br clear="left" /></div>
     lore: The All Seeing One casts down his protection over those that Purist calls
       friend.
+    hurl: omniknight
+  special_bonus_gold_income_10:
+    dname: "+60 Gold/Min"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_gold_income_10_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: oracle
+  special_bonus_attack_damage_100:
+    dname: "+100 Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_100_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: omniknight
+  special_bonus_unique_omniknight_1:
+    dname: "+200 Purification Damage/Heal"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_omniknight_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: omniknight
+  special_bonus_unique_omniknight_2:
+    dname: "-16% Degen Aura"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_omniknight_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: omniknight
   enchantress_untouchable:
     dname: Untouchable
@@ -4854,6 +7444,46 @@ abilitydata:
       width="16" height="16" border="0" /> 0</div><br clear="left" /></div>
     lore: While Aiushtha favors peaceful means, she is capable of a magical onslaught
       from a distance, her spears gaining energy from the natural life around her.
+    hurl: enchantress
+  special_bonus_unique_enchantress_2:
+    dname: "+8 Nature's Attendants Wisps"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_enchantress_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: enchantress
+  special_bonus_unique_enchantress_3:
+    dname: "+60 Untouchable Slow"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_enchantress_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: enchantress
+  special_bonus_unique_enchantress_4:
+    dname: "+6% Impetus Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_enchantress_4_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: enchantress
+  special_bonus_unique_enchantress_1:
+    dname: Enchant Affects Ancients
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_enchantress_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: enchantress
   huskar_inner_vitality:
     dname: Inner Vitality
@@ -4942,6 +7572,26 @@ abilitydata:
     lore: No matter the danger, Huskar thrusts himself into melees that only he can
       survive.
     hurl: huskar
+  special_bonus_unique_huskar_2:
+    dname: "+5 Burning Spears DPS"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_huskar_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: huskar
+  special_bonus_unique_huskar:
+    dname: "+500 Life Break Cast Range"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_huskar_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: huskar
   night_stalker_void:
     dname: Void
     affects: 'ABILITY: <span class="attribVal">Unit Target</span><br />AFFECTS: <span
@@ -5025,6 +7675,36 @@ abilitydata:
     lore: It is a humbling sight to see when the mightiest of warriors become afraid
       of the dark.
     hurl: night_stalker
+  special_bonus_strength_7:
+    dname: "+7 Strength"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_strength_7_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: winter_wyvern
+  special_bonus_mp_300:
+    dname: "+300 Mana"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_mp_300_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: night_stalker
+  special_bonus_unique_night_stalker:
+    dname: "-8s Crippling Fear Cooldown"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_night_stalker_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: night_stalker
   broodmother_spawn_spiderlings:
     dname: Spawn Spiderlings
     affects: 'ABILITY: <span class="attribVal">Unit Target</span><br />AFFECTS: <span
@@ -5106,6 +7786,56 @@ abilitydata:
       width="16" height="16" border="0" /> 45</div><br clear="left" /></div>
     lore: While most of her prey is wrapped in silken cocoons and saved for her young,
       the Broodmother herself has a taste for wandering heroes.
+    hurl: broodmother
+  special_bonus_unique_broodmother_3:
+    dname: "+60 Spawn Spiderling Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_broodmother_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: broodmother
+  special_bonus_unique_broodmother_4:
+    dname: "+14 Spiders Attack Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_broodmother_4_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: broodmother
+  special_bonus_attack_speed_70:
+    dname: "+70 Attack Speed"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_attack_speed_70_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: broodmother
+  special_bonus_unique_broodmother_1:
+    dname: "+8 Max Webs"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_broodmother_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: broodmother
+  special_bonus_unique_broodmother_2:
+    dname: "+225 Spiders Health"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_broodmother_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: broodmother
   bounty_hunter_shuriken_toss:
     dname: Shuriken Toss
@@ -5197,6 +7927,36 @@ abilitydata:
     lore: Using his elevated senses of sight and smell, Gondar's hits have quite a
       good chance of success.
     hurl: bounty_hunter
+  special_bonus_unique_bounty_hunter_2:
+    dname: "+75 Shuriken Toss Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_bounty_hunter_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: bounty_hunter
+  special_bonus_evasion_25:
+    dname: 25% Evasion
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_evasion_25_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: bounty_hunter
+  special_bonus_unique_bounty_hunter:
+    dname: "-5s Jinada Cooldown"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_bounty_hunter_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: bounty_hunter
   weaver_the_swarm:
     dname: The Swarm
     affects: 'ABILITY: <span class="attribVal">Point Target</span><br />DAMAGE TYPE:
@@ -5281,6 +8041,36 @@ abilitydata:
       width="16" height="16" border="0" /> 60/50/40</div><br clear="left" /></div>
     lore: If Skitskurr does not deem the current reality of the world to fit his desires,
       he simply crawls back in time to right what was wronged.
+    hurl: weaver
+  special_bonus_unique_weaver_1:
+    dname: "+30 Shukuchi Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_weaver_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: weaver
+  special_bonus_all_stats_7:
+    dname: "+7 All Stats"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_all_stats_7_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: invoker
+  special_bonus_unique_weaver_2:
+    dname: "+200 Shukuchi Movement Speed"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_weaver_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: weaver
   jakiro_dual_breath:
     dname: Dual Breath
@@ -5370,6 +8160,46 @@ abilitydata:
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 60</div><br clear="left" /></div>
     lore: Ice and fire combine to rip the battlefield to shreds with extreme temperatures.
+    hurl: jakiro
+  special_bonus_unique_jakiro_2:
+    dname: "+35 Dual Breath Burn Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_jakiro_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: jakiro
+  special_bonus_attack_range_400:
+    dname: "+400 Attack Range"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_attack_range_400_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: jakiro
+  special_bonus_unique_jakiro_3:
+    dname: Macropyre Pure and Pierces Immunity
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_jakiro_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: jakiro
+  special_bonus_unique_jakiro:
+    dname: "+1.25s Ice Path Duration"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_jakiro_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: jakiro
   batrider_sticky_napalm:
     dname: Sticky Napalm
@@ -5462,6 +8292,26 @@ abilitydata:
       title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 100/80/60</div><br clear="left" /></div>
     lore: Few dare to ask to ride on the bat, as Batrider gives them free of charge.
+    hurl: batrider
+  special_bonus_unique_batrider_1:
+    dname: "+8s Firefly Duration"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_batrider_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: batrider
+  special_bonus_unique_batrider_2:
+    dname: "+300 Flamebreak AoE/Knockback"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_batrider_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: batrider
   chen_penitence:
     dname: Penitence
@@ -5563,6 +8413,46 @@ abilitydata:
     lore: Using the mental link with his thralls, Chen calls down restoration and
       well-being to those who share his fanaticism.
     hurl: chen
+  special_bonus_unique_chen_3:
+    dname: "-10s Test of Faith Cooldown"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_chen_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: chen
+  special_bonus_unique_chen_4:
+    dname: "+1000 Creep Min Health"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_chen_4_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: chen
+  special_bonus_unique_chen_1:
+    dname: "+2 Holy Persuasion Max Count"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_chen_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: chen
+  special_bonus_unique_chen_2:
+    dname: "+200 Hand of God Heal"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_chen_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: chen
   spectre_spectral_dagger:
     dname: Spectral Dagger
     affects: 'ABILITY: <span class="attribVal">Unit Target, Point Target</span><br
@@ -5657,6 +8547,16 @@ abilitydata:
     lore: At the height of combat, Mercurial's physical manifestation shatters, and
       the shadowy pieces haunt those who still cling to life.
     hurl: spectre
+  special_bonus_unique_spectre:
+    dname: "-10s Spectral Dagger Cooldown"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_spectre_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: spectre
   doom_bringer_devour:
     dname: Devour
     affects: 'ABILITY: <span class="attribVal">Unit Target</span><br />'
@@ -5738,6 +8638,66 @@ abilitydata:
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 145</div><br clear="left" /></div>
     lore: When a name is tolled from the bell of Vashundol, doom is sure to follow.
+    hurl: doom_bringer
+  special_bonus_unique_doom_3:
+    dname: "+80 Devour Bonus Gold"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_doom_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: doom_bringer
+  special_bonus_unique_doom_4:
+    dname: "+15 Scorched Earth Damage/Heal"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_doom_4_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: doom_bringer
+  special_bonus_unique_doom_5:
+    dname: "+40 Doom DPS"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_doom_5_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: doom_bringer
+  special_bonus_unique_doom_2:
+    dname: Devour Can Target Ancients
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_doom_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: doom_bringer
+  special_bonus_unique_doom_1:
+    dname: "+2% Infernal Blade Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_doom_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: doom_bringer
+  special_bonus_hp_regen_40:
+    dname: "+40 Health Regen"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_hp_regen_40_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: doom_bringer
   ancient_apparition_cold_feet:
     dname: Cold Feet
@@ -5848,6 +8808,56 @@ abilitydata:
       width="16" height="16" border="0" /> 1</div><br clear="left" /></div>
     lore: ''
     hurl: ancient_apparition
+  special_bonus_unique_ancient_apparition_3:
+    dname: "-1s Ice Vortex Cooldown"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_ancient_apparition_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: ancient_apparition
+  special_bonus_hp_regen_30:
+    dname: "+30 Health Regen"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_hp_regen_30_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: bristleback
+  special_bonus_unique_ancient_apparition_4:
+    dname: "+8% Ice Vortex Slow/Resistance"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_ancient_apparition_4_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: ancient_apparition
+  special_bonus_unique_ancient_apparition_1:
+    dname: 4 Charges of Cold Feet
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_ancient_apparition_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: ancient_apparition
+  special_bonus_unique_ancient_apparition_2:
+    dname: "+100 Chilling Touch Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_ancient_apparition_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: ancient_apparition
   ursa_earthshock:
     dname: Earthshock
     affects: 'ABILITY: <span class="attribVal">No Target</span><br />DAMAGE TYPE:
@@ -5925,6 +8935,26 @@ abilitydata:
       width="16" height="16" border="0" /> 50/40/30</div><br clear="left" /></div>
     lore: "Ulfsaar succumbs to his ancient spirit, becoming the most ferocious creature
       on the battlefield.\r\n\r\nDISPEL TYPE: Strong Dispel"
+    hurl: ursa
+  special_bonus_all_stats_14:
+    dname: "+14 All Stats"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_all_stats_14_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: ursa
+  special_bonus_unique_ursa:
+    dname: "+10 Fury Swipes Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_ursa_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: ursa
   spirit_breaker_charge_of_darkness:
     dname: Charge of Darkness
@@ -6013,6 +9043,36 @@ abilitydata:
       width="16" height="16" border="0" /> 80/70/60</div><br clear="left" /></div>
     lore: Barathrum temporarily returns to the realm from where he came, bringing
       with him the retribution of both worlds.
+    hurl: spirit_breaker
+  special_bonus_unique_spirit_breaker_3:
+    dname: "+30% Greater Bash Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_spirit_breaker_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: spirit_breaker
+  special_bonus_unique_spirit_breaker_1:
+    dname: "+17% Greater Bash Chance"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_spirit_breaker_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: spirit_breaker
+  special_bonus_unique_spirit_breaker_2:
+    dname: "+500 Charge Speed"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_spirit_breaker_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: spirit_breaker
   gyrocopter_rocket_barrage:
     dname: Rocket Barrage
@@ -6103,6 +9163,26 @@ abilitydata:
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 55/50/45</div><br clear="left" /></div>
     lore: "'Bombs Away!'"
+    hurl: gyrocopter
+  special_bonus_unique_gyrocopter_1:
+    dname: 3 Homing Missile Charges
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_gyrocopter_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: gyrocopter
+  special_bonus_unique_gyrocopter_2:
+    dname: "+4 Flak Cannon Attacks"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_gyrocopter_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: gyrocopter
   alchemist_acid_spray:
     dname: Acid Spray
@@ -6200,6 +9280,26 @@ abilitydata:
       class="attribVal">Enemy Heroes</span><br />PIERCES SPELL IMMUNITY: <span class="attribVal">No</span><br
       />'
     desc: Throw it before it blows up!
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: alchemist
+  special_bonus_unique_alchemist_2:
+    dname: "+100 Unstable Concoction Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_alchemist_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: alchemist
+  special_bonus_unique_alchemist:
+    dname: "-5 Acid Spray Armor"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_alchemist_Description
     notes: ''
     dmg: ''
     attrib: ''
@@ -6475,6 +9575,26 @@ abilitydata:
       width="16" height="16" border="0" /> 40</div><br clear="left" /></div>
     lore: Buluphont's Aureal Incapacitator.
     hurl: invoker
+  special_bonus_unique_invoker_1:
+    dname: "+1 Forged Spirit Summoned"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_invoker_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: invoker
+  special_bonus_unique_invoker_2:
+    dname: AoE Deafening Blast
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_invoker_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: invoker
   silencer_curse_of_the_silent:
     dname: Arcane Curse
     affects: 'ABILITY: <span class="attribVal">Point Target</span><br />DAMAGE TYPE:
@@ -6555,6 +9675,36 @@ abilitydata:
       width="16" height="16" border="0" /> 130</div><br clear="left" /></div>
     lore: With a shock to the ground, all magic and sound pauses, and Nortrom fulfills
       his prophecy.
+    hurl: silencer
+  special_bonus_intelligence_7:
+    dname: "+7 Intelligence"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_intelligence_7_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Skywrath_Mage
+  special_bonus_attack_range_200:
+    dname: "+200 Attack Range"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_attack_range_200_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: silencer
+  special_bonus_unique_silencer:
+    dname: "+25% Curse Slow"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_silencer_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: silencer
   obsidian_destroyer_arcane_orb:
     dname: Arcane Orb
@@ -6649,6 +9799,36 @@ abilitydata:
     lore: When an Outworld crystal ruptures, cataclysmic energies are released, and
       the reverberations of this power are felt interdimensionally.
     hurl: obsidian_destroyer
+  special_bonus_movement_speed_10:
+    dname: "+10 Movement Speed"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_movement_speed_10_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: obsidian_destroyer
+  special_bonus_intelligence_15:
+    dname: "+15 Intelligence"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_intelligence_15_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: rubick
+  special_bonus_unique_outworld_devourer:
+    dname: "+60s Arcane Orb Int Steal"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_outworld_devourer_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: obsidian_destroyer
   lycan_summon_wolves:
     dname: Summon Wolves
     affects: 'ABILITY: <span class="attribVal">No Target</span><br />'
@@ -6728,6 +9908,36 @@ abilitydata:
     lore: Forever a slave to his lycanthropy, Banehallow has come to accept his curse,
       and embrace his own savagery.
     hurl: lycan
+  special_bonus_unique_lycan_3:
+    dname: "+12 Feral HP Regen"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_lycan_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lycan
+  special_bonus_unique_lycan_1:
+    dname: "+15s Shapeshift Duration"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_lycan_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lycan
+  special_bonus_unique_lycan_2:
+    dname: "+2 Wolves Summoned"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_lycan_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lycan
   brewmaster_thunder_clap:
     dname: Thunder Clap
     affects: 'ABILITY: <span class="attribVal">No Target</span><br />DAMAGE TYPE:
@@ -6806,6 +10016,46 @@ abilitydata:
       width="16" height="16" border="0" /> 140/120/100</div><br clear="left" /></div>
     lore: It isn't clear whether Mangix is consciously aware of his potent bond with
       nature, as it often occurs in the midst of a drunken stupor.
+    hurl: brewmaster
+  special_bonus_unique_brewmaster_2:
+    dname: "+75 Thunder Clap Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_brewmaster_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: brewmaster
+  special_bonus_unique_brewmaster_3:
+    dname: "+2s Thunder Clap Slow"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_brewmaster_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: brewmaster
+  special_bonus_attack_speed_140:
+    dname: "+140 Attack Speed"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_attack_speed_140_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: brewmaster
+  special_bonus_unique_brewmaster:
+    dname: "+2000 Health to Primal Split Units"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_brewmaster_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: brewmaster
   shadow_demon_disruption:
     dname: Disruption
@@ -6910,6 +10160,36 @@ abilitydata:
       width="16" height="16" border="0" /> 40</div><br clear="left" /></div>
     lore: Once Shadow Demon no longer has any need for his collected cultist, he releases
       it from its subservience - and its life.
+    hurl: shadow_demon
+  special_bonus_unique_shadow_demon_3:
+    dname: "-1.5s Shadow Poison Cooldown"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_shadow_demon_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: shadow_demon
+  special_bonus_unique_shadow_demon_1:
+    dname: "+400 Demonic Purge Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_shadow_demon_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: shadow_demon
+  special_bonus_unique_shadow_demon_2:
+    dname: "-6s Soul Catcher Cooldown"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_shadow_demon_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: shadow_demon
   lone_druid_spirit_bear:
     dname: Summon Spirit Bear
@@ -7037,6 +10317,56 @@ abilitydata:
       width="16" height="16" border="0" /> 0</div><br clear="left" /></div>
     lore: ''
     hurl: lone_druid
+  special_bonus_unique_lone_druid_1:
+    dname: "+50 Spirit Bear Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_lone_druid_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lone_druid
+  special_bonus_unique_lone_druid_2:
+    dname: "+12 Spirit Bear Armor"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_lone_druid_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lone_druid
+  special_bonus_unique_lone_druid_5:
+    dname: "+50% Spirit Bear Magic Resistance"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_lone_druid_5_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lone_druid
+  special_bonus_unique_lone_druid_3:
+    dname: "+1.5s Entangle Duration"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_lone_druid_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lone_druid
+  special_bonus_unique_lone_druid_4:
+    dname: "-10s Savage Roar Cooldown"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_lone_druid_4_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lone_druid
   chaos_knight_chaos_bolt:
     dname: Chaos Bolt
     affects: 'ABILITY: <span class="attribVal">Unit Target</span><br />AFFECTS: <span
@@ -7121,6 +10451,26 @@ abilitydata:
     lore: Drawing on his battles fought across many worlds and many times, phantasms
       of the Chaos Knight rise up to quell all who oppose him.
     hurl: chaos_knight
+  special_bonus_all_stats_12:
+    dname: "+12 All Stats"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_all_stats_12_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: slark
+  special_bonus_unique_chaos_knight:
+    dname: Reality Rift Pierces Spell Immune
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_chaos_knight_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: chaos_knight
   meepo_earthbind:
     dname: Earthbind
     affects: 'ABILITY: <span class="attribVal">Point Target</span><br />PIERCES SPELL
@@ -7189,6 +10539,26 @@ abilitydata:
     attrib: 'NUMBER OF MEEPOES: <span class="attribVal">1 / 2 / 3</span>'
     cmb: ''
     lore: Do I know you?
+    hurl: meepo
+  special_bonus_evasion_10:
+    dname: 10% Evasion
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_evasion_10_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: centaur
+  special_bonus_unique_meepo:
+    dname: "-3s Poof Cooldown"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_meepo_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: meepo
   treant_natures_guise:
     dname: Nature's Guise
@@ -7300,6 +10670,26 @@ abilitydata:
     lore: Rooftrellen calls the ancestral spirit of nature, releasing its power through
       all of his kin.
     hurl: treant
+  special_bonus_unique_treant_2:
+    dname: "+40 Leech Seed Damage/Heal"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_treant_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: treant
+  special_bonus_unique_treant:
+    dname: "+5 Living Armor Block Instances"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_treant_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: treant
   ogre_magi_fireblast:
     dname: Fireblast
     affects: 'ABILITY: <span class="attribVal">Unit Target</span><br />AFFECTS: <span
@@ -7405,6 +10795,26 @@ abilitydata:
     lore: Despite being largely incapacitated by his IQ, the Ogre Magi's success in
       battle is attributed to pure skill.
     hurl: ogre_magi
+  special_bonus_spell_amplify_15:
+    dname: "+15% Spell Amplification"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_spell_amplify_15_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: earth_spirit
+  special_bonus_unique_ogre_magi:
+    dname: "+40 Bloodlust AS"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_ogre_magi_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: ogre_magi
   undying_decay:
     dname: Decay
     affects: 'ABILITY: <span class="attribVal">Point Target</span><br />DAMAGE TYPE:
@@ -7509,6 +10919,26 @@ abilitydata:
       width="16" height="16" border="0" /> 75</div><br clear="left" /></div>
     lore: The flesh of the recently dead add to the power of Dirge's plague.
     hurl: undying
+  special_bonus_unique_undying:
+    dname: "+50 Tombstone Zombie Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_undying_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: undying
+  special_bonus_unique_undying_2:
+    dname: "-2s Decay Cooldown"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_undying_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: undying
   rubick_telekinesis:
     dname: Telekinesis
     affects: 'ABILITY: <span class="attribVal">Unit Target</span><br />AFFECTS: <span
@@ -7597,6 +11027,16 @@ abilitydata:
       width="16" height="16" border="0" /> 20/18/16</div><br clear="left" /></div>
     lore: "...but even their lesser magics can be a source of much utility."
     hurl: rubick
+  special_bonus_unique_rubick:
+    dname: "+400 Telekinesis Land Distance"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_rubick_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: rubick
   disruptor_thunder_strike:
     dname: Thunder Strike
     affects: 'ABILITY: <span class="attribVal">Unit Target</span><br />AFFECTS: <span
@@ -7676,6 +11116,46 @@ abilitydata:
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 90/80/70</div><br clear="left" /></div>
     lore: A summer squall in Druud is a hardship that only an Oglodi can survive.
+    hurl: disruptor
+  special_bonus_unique_disruptor_2:
+    dname: "-3s Kinetic Field Cooldown"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_disruptor_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: disruptor
+  special_bonus_unique_disruptor_3:
+    dname: "+40 Thunder Strike Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_disruptor_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: disruptor
+  special_bonus_unique_disruptor:
+    dname: "+4 Thunder Strike Hits"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_disruptor_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: disruptor
+  special_bonus_magic_resistance_30:
+    dname: "+30% Magic Resistance"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_magic_resistance_30_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: disruptor
   nyx_assassin_impale:
     dname: Impale
@@ -7796,6 +11276,36 @@ abilitydata:
       width="16" height="16" border="0" /> 70/60/50</div><br clear="left" /></div>
     lore: The scarab kills for the glory of his queen.
     hurl: nyx_assassin
+  special_bonus_unique_nyx_2:
+    dname: "+50 Impale Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_nyx_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: nyx_assassin
+  special_bonus_agility_40:
+    dname: "+40 Agility"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_agility_40_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: nyx_assassin
+  special_bonus_unique_nyx:
+    dname: 200% Spiked Carapace Damage
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_nyx_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: nyx_assassin
   naga_siren_mirror_image:
     dname: Mirror Image
     affects: 'ABILITY: <span class="attribVal">No Target</span><br />'
@@ -7888,6 +11398,26 @@ abilitydata:
     cmb: <div class="cooldownMana"><div class="cooldown"><img alt="Cooldown" title="Cooldown"
       class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 1</div><br clear="left" /></div>
+    lore: ''
+    hurl: naga_siren
+  special_bonus_unique_naga_siren_2:
+    dname: "-3s Ensnare Cooldown"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_naga_siren_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: naga_siren
+  special_bonus_unique_naga_siren:
+    dname: "+1 Mirror Image Illusion"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_naga_siren_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
     lore: ''
     hurl: naga_siren
   keeper_of_the_light_illuminate:
@@ -8051,6 +11581,36 @@ abilitydata:
       width="16" height="16" border="0" /> 10</div><br clear="left" /></div>
     lore: Ezalor's hidden light reveals itself in marvelous fashion.
     hurl: keeper_of_the_light
+  special_bonus_unique_keeper_of_the_light_2:
+    dname: "+300 Chakra Magic Mana"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_keeper_of_the_light_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: keeper_of_the_light
+  special_bonus_cast_range_400:
+    dname: "+400 Cast Range"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_cast_range_400_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: keeper_of_the_light
+  special_bonus_unique_keeper_of_the_light:
+    dname: "+200 Illuminate Damage/Heal"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_keeper_of_the_light_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: keeper_of_the_light
   wisp_tether:
     dname: Tether
     affects: 'ABILITY: <span class="attribVal">Unit Target</span><br />AFFECTS: <span
@@ -8174,6 +11734,46 @@ abilitydata:
       width="16" height="16" border="0" /> 100/80/60</div><br clear="left" /></div>
     lore: Io is the embodiment of the mystery of the universe.
     hurl: wisp
+  special_bonus_mp_regen_10:
+    dname: "+10 Mana Regen"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_mp_regen_10_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: wisp
+  special_bonus_hp_regen_20:
+    dname: "+20 Health Regen"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_hp_regen_20_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: wisp
+  special_bonus_unique_wisp_2:
+    dname: Tether Stuns
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_wisp_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: wisp
+  special_bonus_unique_wisp:
+    dname: "+150 Spirits Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_wisp_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: wisp
   visage_grave_chill:
     dname: Grave Chill
     affects: 'ABILITY: <span class="attribVal">Unit Target</span><br />AFFECTS: <span
@@ -8261,6 +11861,36 @@ abilitydata:
       width="16" height="16" border="0" /> 130</div><br clear="left" /></div>
     lore: Guardians of the Narrow Maze, Necro'lic's Familiars stand watch over his
       domain.
+    hurl: visage
+  special_bonus_unique_visage_3:
+    dname: Soul Assumption Double Strike
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_visage_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: visage
+  special_bonus_spell_amplify_20:
+    dname: "+20% Spell Amplification"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_spell_amplify_20_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: visage
+  special_bonus_unique_visage_2:
+    dname: "+120 Familiars Movement Speed"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_visage_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: visage
   slark_dark_pact:
     dname: Dark Pact
@@ -8351,6 +11981,16 @@ abilitydata:
       width="16" height="16" border="0" /> 60</div><br clear="left" /></div>
     lore: The hidden Thirteenth is a slippery foe.
     hurl: slark
+  special_bonus_unique_slark:
+    dname: "+3s Pounce Leash"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_slark_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: slark
   medusa_split_shot:
     dname: Split Shot
     affects: 'ABILITY: <span class="attribVal">No Target, Toggle</span><br />PIERCES
@@ -8434,6 +12074,56 @@ abilitydata:
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 90</div><br clear="left" /></div>
     lore: The beauty of Medusa is legendary.
+    hurl: medusa
+  special_bonus_intelligence_12:
+    dname: "+12 Intelligence"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_intelligence_12_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: medusa
+  special_bonus_unique_medusa_2:
+    dname: "+1 Split Shot target"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_medusa_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: medusa
+  special_bonus_mp_600:
+    dname: "+600 Mana"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_mp_600_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: medusa
+  special_bonus_lifesteal_25:
+    dname: 25% Lifesteal
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_lifesteal_25_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: medusa
+  special_bonus_unique_medusa:
+    dname: "+2s Stone Gaze Stun"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_medusa_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: medusa
   troll_warlord_berserkers_rage:
     dname: Berserker's Rage
@@ -8530,6 +12220,16 @@ abilitydata:
       width="16" height="16" border="0" /> 35</div><br clear="left" /></div>
     lore: An adrenaline rush of pure hatred quickens your blades.
     hurl: troll_warlord
+  special_bonus_unique_troll_warlord:
+    dname: "-7s Whirling Axes Cooldown"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_troll_warlord_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: troll_warlord
   centaur_hoof_stomp:
     dname: Hoof Stomp
     affects: 'ABILITY: <span class="attribVal">No Target</span><br />DAMAGE TYPE:
@@ -8604,6 +12304,26 @@ abilitydata:
       width="16" height="16" border="0" /> 90/75/60</div><br clear="left" /></div>
     lore: The great belt of Omexe, which labels Bradwarden as the greatest warrior
       of his kind, incites his fellow gladiators to follow him into barbarous combat.
+    hurl: centaur
+  special_bonus_unique_centaur_1:
+    dname: Gains Return Aura
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_centaur_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: centaur
+  special_bonus_unique_centaur_2:
+    dname: "+1s Hoof Stomp Duration"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_centaur_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: centaur
   magnataur_shockwave:
     dname: Shockwave
@@ -8686,6 +12406,26 @@ abilitydata:
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 120</div><br clear="left" /></div>
     lore: Magnus fights with the fury of the erupting Mt. Joerlak.
+    hurl: magnataur
+  special_bonus_unique_magnus_2:
+    dname: "+10% Empower Damage/Cleave"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_magnus_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: magnataur
+  special_bonus_unique_magnus_3:
+    dname: "+500 Skewer Range"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_magnus_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: magnataur
   shredder_whirling_death:
     dname: Whirling Death
@@ -8823,6 +12563,16 @@ abilitydata:
       width="16" height="16" border="0" /> 0</div><br clear="left" /></div>
     lore: ''
     hurl: shredder
+  special_bonus_unique_timbersaw:
+    dname: "+6% Whirling Death Attribute Reduction"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_timbersaw_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: shredder
   bristleback_viscous_nasal_goo:
     dname: Viscous Nasal Goo
     affects: 'ABILITY: <span class="attribVal">Unit Target</span><br />AFFECTS: <span
@@ -8901,6 +12651,46 @@ abilitydata:
     cmb: ''
     lore: "'Temper, temper,' his mum always chided.  But in a fight, a temper can
       come in handy."
+    hurl: bristleback
+  special_bonus_unique_bristleback:
+    dname: "+4 Max Goo Stacks"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_bristleback_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: bristleback
+  special_bonus_attack_speed_50:
+    dname: "+50 Attack Speed"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_attack_speed_50_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: elder_titan
+  special_bonus_spell_lifesteal_10:
+    dname: 10% Spell Lifesteal
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_spell_lifesteal_10_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Skywrath_Mage
+  special_bonus_unique_bristleback_2:
+    dname: "+25 Quill Stack Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_bristleback_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: bristleback
   tusk_ice_shards:
     dname: Ice Shards
@@ -9032,6 +12822,36 @@ abilitydata:
       width="16" height="16" border="0" /> 36/24/12</div><br clear="left" /></div>
     lore: It never matters who throws the first punch, only who throws the last.
     hurl: tusk
+  special_bonus_unique_tusk_2:
+    dname: "+150 Snowball Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_tusk_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: tusk
+  special_bonus_hp_700:
+    dname: "+700 Health"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_hp_700_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: tusk
+  special_bonus_unique_tusk:
+    dname: "+150% Walrus Punch Crit"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_tusk_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: tusk
   skywrath_mage_arcane_bolt:
     dname: Arcane Bolt
     affects: 'ABILITY: <span class="attribVal">Unit Target</span><br />AFFECTS: <span
@@ -9121,6 +12941,16 @@ abilitydata:
     lore: Only the most practiced of Skywrath sorcerers could hope to shape the skies
       into such a storm.
     hurl: Skywrath_Mage
+  special_bonus_unique_skywrath:
+    dname: "-4s Ancient Seal Cooldown"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_skywrath_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Skywrath_Mage
   abaddon_death_coil:
     dname: Mist Coil
     affects: 'ABILITY: <span class="attribVal">Unit Target</span><br />AFFECTS: <span
@@ -9208,6 +13038,16 @@ abilitydata:
     lore: The most unnatural of all the gifts of the Font of Avernus, this power defies
       mortal understanding.  What should hurt, instead heals; and what should kill
       gives strength anew.
+    hurl: abaddon
+  special_bonus_unique_abaddon:
+    dname: "+300 Aphotic Shield Health"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_abaddon_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: abaddon
   elder_titan_echo_stomp:
     dname: Echo Stomp
@@ -9313,6 +13153,26 @@ abilitydata:
       width="16" height="16" border="0" /> 100</div><br clear="left" /></div>
     lore: That which he created, the titan tears asunder.
     hurl: elder_titan
+  special_bonus_unique_elder_titan_2:
+    dname: "+30 Echo Stomp Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_elder_titan_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: elder_titan
+  special_bonus_unique_elder_titan:
+    dname: "+100 Astral Spirit Hero Attack"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_elder_titan_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: elder_titan
   legion_commander_overwhelming_odds:
     dname: Overwhelming Odds
     affects: 'ABILITY: <span class="attribVal">Point Target</span><br />DAMAGE TYPE:
@@ -9394,6 +13254,36 @@ abilitydata:
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 50</div><br clear="left" /></div>
     lore: To face a soldier of Stonehall in single combat is a challenge few can resist.
+    hurl: legion_commander
+  special_bonus_unique_legion_commander_3:
+    dname: "+10% Moment Proc Chance"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_legion_commander_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: legion_commander
+  special_bonus_unique_legion_commander:
+    dname: "+40 Duel Damage Bonus"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_legion_commander_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: legion_commander
+  special_bonus_unique_legion_commander_2:
+    dname: "-8s Press The Attack Cooldown"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_legion_commander_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: legion_commander
   ember_spirit_searing_chains:
     dname: Searing Chains
@@ -9504,6 +13394,26 @@ abilitydata:
       class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 0</div><br clear="left" /></div>
     lore: By the spirit's power are Xin's teachings spread anew.
+    hurl: ember_spirit
+  special_bonus_unique_ember_spirit_1:
+    dname: "+500 Flame Guard Absorption"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_ember_spirit_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: ember_spirit
+  special_bonus_unique_ember_spirit_2:
+    dname: "+2s Searing Chains"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_ember_spirit_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: ember_spirit
   earth_spirit_boulder_smash:
     dname: Boulder Smash
@@ -9650,6 +13560,26 @@ abilitydata:
     lore: At the Earth Spirit's call, the minerals in the blood and bones of his enemies
       rebel against the bodies they find themselves in.
     hurl: earth_spirit
+  special_bonus_unique_earth_spirit_2:
+    dname: Geomagnetic Grip Targets Allies
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_earth_spirit_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: earth_spirit
+  special_bonus_unique_earth_spirit:
+    dname: "+300 Rolling Boulder Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_earth_spirit_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: earth_spirit
   terrorblade_reflection:
     dname: Reflection
     affects: 'ABILITY: <span class="attribVal">No Target</span><br />PIERCES SPELL
@@ -9733,6 +13663,16 @@ abilitydata:
       width="16" height="16" border="0" /> 120/80/40</div><br clear="left" /></div>
     lore: You didn't need that life, did you?  The demon marauder steals that which
       you hold most dear.
+    hurl: terrorblade
+  special_bonus_unique_terrorblade:
+    dname: "-30s Sunder Cooldown"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_terrorblade_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: terrorblade
   phoenix_icarus_dive:
     dname: Icarus Dive
@@ -9888,6 +13828,36 @@ abilitydata:
     cmb: ''
     lore: CHIRP!
     hurl: phoenix
+  special_bonus_unique_phoenix_3:
+    dname: "+65 Fire Spirits DPS"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_phoenix_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: phoenix
+  special_bonus_unique_phoenix_1:
+    dname: "+2 Supernova Hit Count"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_phoenix_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: phoenix
+  special_bonus_unique_phoenix_2:
+    dname: "+1s Supernova Stun Duration"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_phoenix_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: phoenix
   oracle_fortunes_end:
     dname: Fortune's End
     affects: 'ABILITY: <span class="attribVal">Channeled, Unit Target</span><br />AFFECTS:
@@ -9974,6 +13944,26 @@ abilitydata:
       title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 100/65/30</div><br clear="left" /></div>
     lore: Foes and false prophets oft make lies of men's fates.
+    hurl: oracle
+  special_bonus_unique_oracle_2:
+    dname: "+0.75s Fortune's End Max Duration"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_oracle_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: oracle
+  special_bonus_unique_oracle:
+    dname: "+2 False Promise Duration"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_oracle_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: oracle
   techies_land_mines:
     dname: Proximity Mines
@@ -10097,6 +14087,26 @@ abilitydata:
       width="16" height="16" border="0" /> 10</div><br clear="left" /></div>
     lore: The downfall of Dredger's Bight!
     hurl: techies
+  special_bonus_unique_techies:
+    dname: "+400 Blast Off Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_techies_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: techies
+  special_bonus_attack_damage_250:
+    dname: "+250 Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_250_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: techies
   winter_wyvern_arctic_burn:
     dname: Arctic Burn
     affects: 'ABILITY: <span class="attribVal">No Target</span><br />DAMAGE TYPE:
@@ -10201,6 +14211,36 @@ abilitydata:
     lore: 'The oldest of the bookwurm’s spells, this curse lends truth to the old
       saw: sometimes the enemy of my enemy is my enemy still.'
     hurl: winter_wyvern
+  special_bonus_unique_winter_wyvern_3:
+    dname: "+1s Cold Embrace Duration"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_winter_wyvern_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: winter_wyvern
+  special_bonus_unique_winter_wyvern_1:
+    dname: "+15% Arctic Burn Slow"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_winter_wyvern_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: winter_wyvern
+  special_bonus_unique_winter_wyvern_2:
+    dname: "-3s Splinter Blast Cooldown"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_winter_wyvern_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: winter_wyvern
   arc_warden_flux:
     dname: Flux
     affects: 'ABILITY: <span class="attribVal">Unit Target</span><br />AFFECTS: <span
@@ -10282,6 +14322,26 @@ abilitydata:
       width="16" height="16" border="0" /> 60/50/40</div><br clear="left" /></div>
     lore: 'Warped by the power of its peers, Arc Warden becomes what it despises most:
       disharmony.'
+    hurl: arc_warden
+  special_bonus_unique_arc_warden_2:
+    dname: "+20 Flux DPS"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_arc_warden_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: arc_warden
+  special_bonus_unique_arc_warden:
+    dname: "+250 Spark Wraith Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_arc_warden_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: arc_warden
   abyssal_underlord_firestorm:
     dname: Firestorm
@@ -10376,6 +14436,36 @@ abilitydata:
     cmb: ''
     lore: ''
     hurl: abyssal_underlord
+  special_bonus_spell_amplify_12:
+    dname: "+12% Spell Amplification"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_spell_amplify_12_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: abyssal_underlord
+  special_bonus_attack_speed_60:
+    dname: "+60 Attack Speed"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_attack_speed_60_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: abyssal_underlord
+  special_bonus_unique_underlord:
+    dname: "+0.4s Pit of Malice Root"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_underlord_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: abyssal_underlord
   monkey_king_boundless_strike:
     dname: Boundless Strike
     affects: 'ABILITY: <span class="attribVal">Point Target</span><br />AFFECTS: <span
@@ -10411,7 +14501,7 @@ abilitydata:
     attrib: |-
       DISTANCE: <span class="attribVal">1000</span><br />
       DAMAGE COOLDOWN: <span class="attribVal">3</span><br />
-      PRIMAL SPRING DAMAGE: <span class="attribVal">100 / 180 / 260 / 340</span><br />
+      PRIMAL SPRING DAMAGE: <span class="attribVal">140 / 210 / 280 / 350</span><br />
       PRIMAL SPRING SLOW: <span class="attribVal">20% / 40% / 60% / 80%</span>
     cmb: <div class="cooldownMana"><div class="cooldown"><img alt="Cooldown" title="Cooldown"
       class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
@@ -10523,4 +14613,24 @@ abilitydata:
       width="16" height="16" border="0" /> 130/110/90</div><br clear="left" /></div>
     lore: Monkey King rips out a tuft of fur to blow at his enemies, charging each
       strand to transform into a copy of himself.
+    hurl: monkey_king
+  special_bonus_unique_monkey_king_2:
+    dname: "+75 Jingu Mastery Damage"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_monkey_king_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: monkey_king
+  special_bonus_unique_monkey_king:
+    dname: "+100% Boundless Strike Crit"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_monkey_king_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: monkey_king

@@ -55,6 +55,86 @@ abilitydata:
       width="16" height="16" border="0" /> 70</div><br clear="left" /></div>
     lore: 敌人倒下之后，将因使用奥术而受到敌法师的惩戒。
     hurl: antimage
+  special_bonus_hp_150:
+    dname: "+150 生命"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_hp_150_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Skywrath_Mage
+  special_bonus_attack_damage_20:
+    dname: "+20 攻击力"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_20_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: alchemist
+  special_bonus_attack_speed_20:
+    dname: "+20 攻击速度"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_attack_speed_20_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: monkey_king
+  special_bonus_unique_antimage:
+    dname: "-1秒 闪烁冷却"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_antimage_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: antimage
+  special_bonus_evasion_15:
+    dname: 15% 闪避
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_evasion_15_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: medusa
+  special_bonus_all_stats_10:
+    dname: "+10 全属性"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_all_stats_10_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: clinkz
+  special_bonus_agility_25:
+    dname: "+25 敏捷"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_agility_25_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: phantom_assassin
+  special_bonus_unique_antimage_2:
+    dname: "-50秒 法力虚空冷却"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_antimage_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: antimage
   axe_berserkers_call:
     dname: 狂战士的怒吼
     affects: 技能： <span class="attribVal">无目标</span><br />无视技能免疫： <span class="attribVal"><font
@@ -131,6 +211,86 @@ abilitydata:
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 75/65/55</div><br clear="left" /></div>
     lore: 蒙哥可汗是战斗与狂怒的化身，胆敢与斧王为敌者只有死路一条。
+    hurl: axe
+  special_bonus_strength_6:
+    dname: "+6 力量"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_strength_6_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: weaver
+  special_bonus_mp_regen_3:
+    dname: "+3 魔法恢复"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_mp_regen_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: brewmaster
+  special_bonus_attack_damage_75:
+    dname: "+75 攻击力"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_75_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: venomancer
+  special_bonus_hp_250:
+    dname: "+250 生命"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_hp_250_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lone_druid
+  special_bonus_hp_regen_25:
+    dname: "+25 生命恢复"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_hp_regen_25_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: axe
+  special_bonus_movement_speed_35:
+    dname: "+35 移动速度"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_movement_speed_35_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: gyrocopter
+  special_bonus_armor_15:
+    dname: "+15 护甲"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_armor_15_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: elder_titan
+  special_bonus_unique_axe:
+    dname: "+100 战斗饥渴每秒伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_axe_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: axe
   bane_enfeeble:
     dname: 虚弱
@@ -211,6 +371,76 @@ abilitydata:
     cmb: ''
     lore: " "
     hurl: bane
+  special_bonus_armor_6:
+    dname: "+6 护甲"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_armor_6_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: tusk
+  special_bonus_mp_200:
+    dname: "+200 魔法"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_mp_200_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: elder_titan
+  special_bonus_exp_boost_30:
+    dname: "+30% 经验获取"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_exp_boost_30_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: techies
+  special_bonus_unique_bane_1:
+    dname: "+90 虚弱攻击力降低"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_bane_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: bane
+  special_bonus_cast_range_175:
+    dname: "+175 施法距离"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_cast_range_175_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: razor
+  special_bonus_movement_speed_100:
+    dname: "+100 移动速度"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_movement_speed_100_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: bane
+  special_bonus_unique_bane_2:
+    dname: "+200 蚀脑伤害/治疗"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_bane_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: bane
   bloodseeker_bloodrage:
     dname: 血之狂暴
     affects: 技能： <span class="attribVal">单位目标</span><br />影响： <span class="attribVal">英雄</span><br
@@ -280,11 +510,81 @@ abilitydata:
       width="16" height="16" border="0" /> 60</div><br clear="left" /></div>
     lore: 当嗜血狂魔猎杀你时，受伤就意味着死亡。
     hurl: bloodseeker
+  special_bonus_attack_damage_25:
+    dname: "+25 攻击力"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_25_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: terrorblade
+  special_bonus_hp_225:
+    dname: "+225 生命"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_hp_225_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: bristleback
+  special_bonus_attack_speed_30:
+    dname: "+30 攻击速度"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_attack_speed_30_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: naga_siren
+  special_bonus_unique_bloodseeker_2:
+    dname: "+75 血之祭祀伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_bloodseeker_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: bloodseeker
+  special_bonus_unique_bloodseeker_3:
+    dname: "+14% 割裂伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_bloodseeker_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: bloodseeker
+  special_bonus_unique_bloodseeker:
+    dname: "-7秒 血之祭祀冷却"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_bloodseeker_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: bloodseeker
+  special_bonus_lifesteal_30:
+    dname: 30% 吸血
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_lifesteal_30_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: arc_warden
   crystal_maiden_crystal_nova:
     dname: 冰霜新星
     affects: 技能： <span class="attribVal">点目标</span><br />伤害类型： <span class="attribVal">魔法</span><br
       />无视技能免疫： <span class="attribVal">否</span><br />
-    desc: 破坏性的冰霜爆发，降低目标区域内的敌人的移动和攻击攻速。
+    desc: 破坏性的冰霜爆发，降低目标区域内的敌人的移动和攻击速度。
     notes: ''
     dmg: ''
     attrib: |-
@@ -351,6 +651,76 @@ abilitydata:
       width="16" height="16" border="0" /> 110/100/90</div><br clear="left" /></div>
     lore: 在她被流放的地方，冰川残骸成为了莉莱用来修练寒冰魔法的场地。
     hurl: crystal_maiden
+  special_bonus_magic_resistance_15:
+    dname: "+15% 魔法抗性"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_magic_resistance_15_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: earth_spirit
+  special_bonus_attack_damage_60:
+    dname: "+60 攻击力"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_60_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: rubick
+  special_bonus_cast_range_125:
+    dname: "+125 施法距离"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_cast_range_125_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: abyssal_underlord
+  special_bonus_gold_income_20:
+    dname: "+120 金钱/分"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_gold_income_20_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: winter_wyvern
+  special_bonus_unique_crystal_maiden_3:
+    dname: "+50 极寒领域伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_crystal_maiden_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: crystal_maiden
+  special_bonus_unique_crystal_maiden_1:
+    dname: "+1.5秒 冰封禁制持续时间"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_crystal_maiden_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: crystal_maiden
+  special_bonus_unique_crystal_maiden_2:
+    dname: "+300 冰霜新星伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_crystal_maiden_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: crystal_maiden
   drow_ranger_frost_arrows:
     dname: 霜冻之箭
     affects: 技能： <span class="attribVal">自动施放, 单位目标</span><br />影响： <span class="attribVal">敌方单位</span><br
@@ -412,6 +782,76 @@ abilitydata:
       <span class="scepterVal">伤害降低：</span> <span class="attribVal">50%</span>
     cmb: ''
     lore: 卓尔游侠是弓箭手登峰造极的典型。
+    hurl: drow_ranger
+  special_bonus_movement_speed_15:
+    dname: "+15 移动速度"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_movement_speed_15_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: troll_warlord
+  special_bonus_all_stats_5:
+    dname: "+5 全属性"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_all_stats_5_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: spirit_breaker
+  special_bonus_hp_175:
+    dname: "+175 生命"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_hp_175_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: nyx_assassin
+  special_bonus_unique_drow_ranger_1:
+    dname: "+6% 精准光环攻击力"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_drow_ranger_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: drow_ranger
+  special_bonus_strength_14:
+    dname: "+14 力量"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_strength_14_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: drow_ranger
+  special_bonus_unique_drow_ranger_2:
+    dname: "+400 狂风距离/击退"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_drow_ranger_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: drow_ranger
+  special_bonus_unique_drow_ranger_3:
+    dname: "+25 射手天赋敏捷"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_drow_ranger_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: drow_ranger
   earthshaker_fissure:
     dname: 沟壑
@@ -477,6 +917,86 @@ abilitydata:
       width="16" height="16" border="0" /> 150/130/110</div><br clear="left" /></div>
     lore: 地壳开裂，山岳折叠，敌人遭回音击尽数碾压。
     hurl: earthshaker
+  special_bonus_strength_10:
+    dname: "+10 力量"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_strength_10_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: elder_titan
+  special_bonus_mp_250:
+    dname: "+250 魔法"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_mp_250_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: naga_siren
+  special_bonus_movement_speed_20:
+    dname: "+20 移动速度"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_movement_speed_20_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: winter_wyvern
+  special_bonus_attack_damage_50:
+    dname: "+50 攻击力"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_50_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: winter_wyvern
+  special_bonus_unique_earthshaker_2:
+    dname: "+40 回音击伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_earthshaker_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: earthshaker
+  special_bonus_unique_earthshaker_3:
+    dname: "+350 沟壑距离"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_earthshaker_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: earthshaker
+  special_bonus_hp_600:
+    dname: "+600 生命"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_hp_600_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: death_prophet
+  special_bonus_unique_earthshaker:
+    dname: "-2秒 强化图腾冷却"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_earthshaker_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: earthshaker
   juggernaut_blade_fury:
     dname: 剑刃风暴
     affects: 技能： <span class="attribVal">无目标</span><br />伤害类型： <span class="attribVal">魔法</span><br
@@ -538,6 +1058,46 @@ abilitydata:
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 130/120/110</div><br clear="left" /></div>
     lore: "“自律已有成果；勤练带来力量。”"
+    hurl: juggernaut
+  special_bonus_armor_7:
+    dname: "+7 护甲"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_armor_7_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: legion_commander
+  special_bonus_all_stats_8:
+    dname: "+8 全属性"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_all_stats_8_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: spectre
+  special_bonus_agility_20:
+    dname: "+20 敏捷"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_agility_20_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: juggernaut
+  special_bonus_unique_juggernaut:
+    dname: "+175 剑刃风暴每秒伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_juggernaut_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: juggernaut
   mirana_starfall:
     dname: 群星风暴
@@ -607,6 +1167,56 @@ abilitydata:
       width="16" height="16" border="0" /> 140/120/100</div><br clear="left" /></div>
     lore: 作为赛莉蒙妮的代言人，米拉娜能将月蚀之暗投向大地，将她和她的友军隐藏在阴影中。
     hurl: mirana
+  special_bonus_agility_8:
+    dname: "+8 敏捷"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_agility_8_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: morphling
+  special_bonus_spell_amplify_5:
+    dname: "+5% 技能增强"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_spell_amplify_5_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: shredder
+  special_bonus_unique_mirana_3:
+    dname: "-4秒 月神之箭冷却"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_mirana_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: mirana
+  special_bonus_unique_mirana_1:
+    dname: "+100 跳跃攻击速度"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_mirana_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: mirana
+  special_bonus_unique_mirana_2:
+    dname: "+2 月神之箭齐发"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_mirana_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: mirana
   nevermore_shadowraze1:
     dname: 毁灭阴影
     affects: 技能： <span class="attribVal">无目标</span><br />伤害类型： <span class="attribVal">魔法</span><br
@@ -667,6 +1277,56 @@ abilitydata:
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 120/110/100</div><br clear="left" /></div>
     lore: 那些死者的灵魂被捕获后尽数释放，毁灭他们生前的盟友。
+    hurl: nevermore
+  special_bonus_spell_amplify_6:
+    dname: "+6% 技能增强"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_spell_amplify_6_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: gyrocopter
+  special_bonus_lifesteal_15:
+    dname: 15% 吸血
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_lifesteal_15_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: meepo
+  special_bonus_unique_nevermore_1:
+    dname: "+2 攻击力/灵魂"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_nevermore_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: nevermore
+  special_bonus_attack_range_150:
+    dname: "+150 攻击距离"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_attack_range_150_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lina
+  special_bonus_unique_nevermore_2:
+    dname: "+150 毁灭阴影伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_nevermore_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: nevermore
   morphling_waveform:
     dname: 波浪形态
@@ -781,6 +1441,66 @@ abilitydata:
       width="16" height="16" border="0" /> 150/150/150</div><br clear="left" /></div>
     lore: ''
     hurl: morphling
+  special_bonus_attack_speed_25:
+    dname: "+25 攻击速度"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_attack_speed_25_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: arc_warden
+  special_bonus_cooldown_reduction_12:
+    dname: 12% 冷却时间减少
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_cooldown_reduction_12_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: queenofpain
+  special_bonus_movement_speed_25:
+    dname: "+25 移动速度"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_movement_speed_25_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: oracle
+  special_bonus_attack_damage_40:
+    dname: "+40 攻击力"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_40_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: monkey_king
+  special_bonus_unique_morphling_1:
+    dname: "+400 波浪形态距离"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_morphling_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: morphling
+  special_bonus_unique_morphling_2:
+    dname: "+50% 复制体攻击力"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_morphling_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: morphling
   phantom_lancer_spirit_lance:
     dname: 灵魂之矛
     affects: 技能： <span class="attribVal">单位目标</span><br />影响： <span class="attribVal">敌方单位</span><br
@@ -850,6 +1570,46 @@ abilitydata:
       幻象承受伤害： <span class="attribVal">500%</span>
     cmb: ''
     lore: 阿兹瑞斯的每次刺击感觉就像一个普通战士的两次，或三次，或四次...
+    hurl: phantom_lancer
+  special_bonus_unique_phantom_lancer_2:
+    dname: "+75 灵魂之矛伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_phantom_lancer_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: phantom_lancer
+  special_bonus_cooldown_reduction_15:
+    dname: 15% 冷却时间减少
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_cooldown_reduction_15_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: abaddon
+  special_bonus_strength_20:
+    dname: "+20 力量"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_strength_20_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: shredder
+  special_bonus_unique_phantom_lancer:
+    dname: "+600 幻影冲锋距离"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_phantom_lancer_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: phantom_lancer
   puck_illusory_orb:
     dname: 幻象法球
@@ -930,6 +1690,66 @@ abilitydata:
       width="16" height="16" border="0" /> 70/65/60</div><br clear="left" /></div>
     lore: 仙女龙散播混乱，让敌人陷入鲜活的梦境，见证自己死亡的命运。
     hurl: puck
+  special_bonus_intelligence_8:
+    dname: "+8 智力"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_intelligence_8_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: winter_wyvern
+  special_bonus_magic_resistance_20:
+    dname: "+20% 魔法抗性"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_magic_resistance_20_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: monkey_king
+  special_bonus_spell_amplify_10:
+    dname: "+10% 技能增强"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_spell_amplify_10_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: centaur
+  special_bonus_unique_puck_2:
+    dname: "-3秒 新月之痕冷却"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_puck_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: puck
+  special_bonus_gold_income_70:
+    dname: "+420 金钱/分"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_gold_income_70_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: puck
+  special_bonus_unique_puck:
+    dname: "+75% 幻象法球距离/速度"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_puck_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: puck
   pudge_meat_hook:
     dname: 肉钩
     affects: 技能： <span class="attribVal">点目标</span><br />伤害类型： <span class="attribVal"><font
@@ -991,6 +1811,76 @@ abilitydata:
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 30/25/20</div><br clear="left" /></div>
     lore: "“等我干掉这些蠢货以后，就可以把它们做成肉饼了！”"
+    hurl: pudge
+  special_bonus_strength_8:
+    dname: "+8 力量"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_strength_8_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: bristleback
+  special_bonus_mp_regen_2:
+    dname: "+2 魔法恢复"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_mp_regen_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: abyssal_underlord
+  special_bonus_armor_5:
+    dname: "+5 护甲"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_armor_5_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: abyssal_underlord
+  special_bonus_gold_income_25:
+    dname: "+150 金钱/分"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_gold_income_25_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: phoenix
+  special_bonus_unique_pudge_3:
+    dname: "+1秒 肢解持续时间"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_pudge_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: pudge
+  special_bonus_unique_pudge_1:
+    dname: "+1.75 腐肉堆积叠加力量"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_pudge_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: pudge
+  special_bonus_unique_pudge_2:
+    dname: "+120 腐烂伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_pudge_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: pudge
   razor_plasma_field:
     dname: 等离子场
@@ -1061,6 +1951,66 @@ abilitydata:
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 80/70/60</div><br clear="left" /></div>
     lore: 掌控闪电。
+    hurl: razor
+  special_bonus_agility_15:
+    dname: "+15 敏捷"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_agility_15_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: terrorblade
+  special_bonus_unique_razor_2:
+    dname: "+130 不稳定电流伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_razor_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: razor
+  special_bonus_hp_400:
+    dname: "+400 生命"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_hp_400_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: disruptor
+  special_bonus_attack_speed_40:
+    dname: "+40 攻击速度"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_attack_speed_40_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: bounty_hunter
+  special_bonus_attack_range_175:
+    dname: "+175 攻击距离"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_attack_range_175_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lone_druid
+  special_bonus_unique_razor:
+    dname: "+14 静电链接攻击力窃取"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_razor_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: razor
   sandking_burrowstrike:
     dname: 掘地穿刺
@@ -1135,6 +2085,66 @@ abilitydata:
       width="16" height="16" border="0" /> 120/110/100</div><br clear="left" /></div>
     lore: 许多探险家丧生于闪烁荒原的流沙。
     hurl: sand_king
+  special_bonus_magic_resistance_10:
+    dname: "+10% 魔法抗性"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_magic_resistance_10_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: centaur
+  special_bonus_unique_sand_king_2:
+    dname: "+50 沙尘暴每秒伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_sand_king_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: sand_king
+  special_bonus_unique_sand_king_3:
+    dname: "-50 地震攻速降低"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_sand_king_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: sand_king
+  special_bonus_hp_350:
+    dname: "+350 生命"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_hp_350_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: troll_warlord
+  special_bonus_hp_regen_50:
+    dname: "+50 生命恢复"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_hp_regen_50_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: abyssal_underlord
+  special_bonus_unique_sand_king:
+    dname: "+4 地震波数"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_sand_king_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: sand_king
   storm_spirit_static_remnant:
     dname: 残影
     affects: 技能： <span class="attribVal">无目标</span><br />伤害类型： <span class="attribVal">魔法</span><br
@@ -1201,6 +2211,46 @@ abilitydata:
       width="16" height="16" border="0" /> 30</div><br clear="left" /></div>
     lore: 风暴来袭。
     hurl: storm_spirit
+  special_bonus_hp_200:
+    dname: "+200 生命"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_hp_200_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: arc_warden
+  special_bonus_intelligence_10:
+    dname: "+10 智力"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_intelligence_10_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: earth_spirit
+  special_bonus_armor_8:
+    dname: "+8 护甲"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_armor_8_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: sniper
+  special_bonus_unique_storm_spirit:
+    dname: "+0.75秒 电子涡流持续时间"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_storm_spirit_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: storm_spirit
   sven_storm_bolt:
     dname: 风暴之拳
     affects: 技能： <span class="attribVal">单位目标</span><br />影响： <span class="attribVal">敌方单位</span><br
@@ -1265,6 +2315,46 @@ abilitydata:
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 80</div><br clear="left" /></div>
     lore: 凭借能够击碎神圣之盔的力量，流浪剑客在近身肉搏中未尝一败。
+    hurl: sven
+  special_bonus_mp_225:
+    dname: "+225 魔法"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_mp_225_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: sven
+  special_bonus_evasion_20:
+    dname: 20% 闪避
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_evasion_20_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: clinkz
+  special_bonus_attack_damage_65:
+    dname: "+65 攻击力"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_65_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: vengefulspirit
+  special_bonus_unique_sven:
+    dname: "-8秒 风暴之拳冷却"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_sven_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: sven
   tiny_avalanche:
     dname: 山崩
@@ -1335,6 +2425,56 @@ abilitydata:
     cmb: ''
     lore: 亲眼看着丘陵变成山峦是震撼的 - 特别是这座山将他的敌人毁灭的时候。
     hurl: tiny
+  special_bonus_intelligence_14:
+    dname: "+14 智力"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_intelligence_14_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: tiny
+  special_bonus_movement_speed_40:
+    dname: "+40 移动速度"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_movement_speed_40_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: abyssal_underlord
+  special_bonus_mp_regen_14:
+    dname: "+14 魔法恢复"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_mp_regen_14_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Skywrath_Mage
+  special_bonus_cooldown_reduction_20:
+    dname: 20% 冷却时间减少
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_cooldown_reduction_20_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: techies
+  special_bonus_unique_tiny:
+    dname: "+200 山崩伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_tiny_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: tiny
   vengefulspirit_magic_missile:
     dname: 魔法箭
     affects: 技能： <span class="attribVal">单位目标</span><br />影响： <span class="attribVal">敌方单位</span><br
@@ -1398,6 +2538,46 @@ abilitydata:
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 45</div><br clear="left" /></div>
     lore: 复仇有时需要一点牺牲作为小小的代价。
+    hurl: vengefulspirit
+  special_bonus_magic_resistance_8:
+    dname: "+8% 魔法抗性"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_magic_resistance_8_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: vengefulspirit
+  special_bonus_unique_vengeful_spirit_1:
+    dname: "+100 魔法箭伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_vengeful_spirit_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: vengefulspirit
+  special_bonus_unique_vengeful_spirit_2:
+    dname: "+20% 复仇光环攻击力"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_vengeful_spirit_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: vengefulspirit
+  special_bonus_unique_vengeful_spirit_3:
+    dname: 魔法箭无视技能免疫
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_vengeful_spirit_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: vengefulspirit
   windrunner_shackleshot:
     dname: 束缚击
@@ -1468,6 +2648,66 @@ abilitydata:
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 60</div><br clear="left" /></div>
     lore: 莱瑞蕾具备狂风般地向敌人轰射出无数箭矢的无双本领——尽管牺牲了不少威力。
+    hurl: windrunner
+  special_bonus_mp_regen_4:
+    dname: "+4 魔法恢复"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_mp_regen_4_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: windrunner
+  special_bonus_unique_windranger_2:
+    dname: "+30% 风行减速"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_windranger_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: windrunner
+  special_bonus_intelligence_20:
+    dname: "+20 智力"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_intelligence_20_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: oracle
+  special_bonus_unique_windranger:
+    dname: 风行提供隐身效果
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_windranger_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: windrunner
+  special_bonus_unique_windranger_3:
+    dname: "+120 强力击伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_windranger_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: windrunner
+  special_bonus_cooldown_reduction_30:
+    dname: 30% 冷却时间减少
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_cooldown_reduction_30_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: windrunner
   zuus_arc_lightning:
     dname: 弧形闪电
@@ -1548,6 +2788,46 @@ abilitydata:
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 90</div><br clear="left" /></div>
     lore: 神王毁灭一切胆敢反抗他的敌人，他们无所遁形。
+    hurl: zuus
+  special_bonus_unique_zeus_2:
+    dname: "+75 弧形闪电伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_zeus_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: zuus
+  special_bonus_unique_zeus_3:
+    dname: "+0.5秒 雷击眩晕"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_zeus_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: zuus
+  special_bonus_cast_range_200:
+    dname: "+200 施法距离"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_cast_range_200_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: techies
+  special_bonus_unique_zeus:
+    dname: "+2% 静电场伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_zeus_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: zuus
   kunkka_torrent:
     dname: 洪流
@@ -1635,6 +2915,76 @@ abilitydata:
       width="16" height="16" border="0" /> 1</div><br clear="left" /></div>
     lore: ''
     hurl: kunkka
+  special_bonus_attack_damage_30:
+    dname: "+30 攻击力"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_30_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: arc_warden
+  special_bonus_unique_kunkka_2:
+    dname: "+40 洪流伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_kunkka_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: kunkka
+  special_bonus_hp_regen_15:
+    dname: "+15 生命恢复"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_hp_regen_15_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: undying
+  special_bonus_movement_speed_30:
+    dname: "+30 移动速度"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_movement_speed_30_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: undying
+  special_bonus_hp_300:
+    dname: "+300 生命"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_hp_300_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: earth_spirit
+  special_bonus_magic_resistance_35:
+    dname: "+35% 魔法抗性"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_magic_resistance_35_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: weaver
+  special_bonus_unique_kunkka:
+    dname: "+200 洪流范围"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_kunkka_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: kunkka
   lina_dragon_slave:
     dname: 龙破斩
     affects: 技能： <span class="attribVal">单位目标, 点目标</span><br />影响： <span class="attribVal">敌方单位</span><br
@@ -1696,6 +3046,36 @@ abilitydata:
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 70/60/50</div><br clear="left" /></div>
     lore: 莉娜身边的空气变得极度炙热，产生白热的闪电来灼烧过于接近的敌人。
+    hurl: lina
+  special_bonus_unique_lina_3:
+    dname: "+80 光击阵伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_lina_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lina
+  special_bonus_unique_lina_1:
+    dname: "-4秒 龙破斩冷却"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_lina_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lina
+  special_bonus_unique_lina_2:
+    dname: "+35/3% 炽魂每次叠加"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_lina_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: lina
   lich_frost_nova:
     dname: 寒霜爆发
@@ -1774,6 +3154,46 @@ abilitydata:
       width="16" height="16" border="0" /> 100/80/60</div><br clear="left" /></div>
     lore: 几乎所有人都认为是冰霜法术中的终极咒语，艾斯瑞安的霜死之珠能用恐惧击打那些胆敢站出来反对他的人们。
     hurl: lich
+  special_bonus_unique_lich_3:
+    dname: "-4秒 寒霜爆发冷却"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_lich_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lich
+  special_bonus_attack_damage_150:
+    dname: "+150 攻击力"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_150_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lich
+  special_bonus_unique_lich_1:
+    dname: "+35 霜冻护甲对建筑加成"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_lich_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lich
+  special_bonus_unique_lich_2:
+    dname: 普攻减30%攻速和移速
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_lich_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lich
   lion_impale:
     dname: 裂地尖刺
     affects: 技能： <span class="attribVal">单位目标, 点目标</span><br />影响： <span class="attribVal">敌方单位</span><br
@@ -1844,6 +3264,66 @@ abilitydata:
       width="16" height="16" border="0" /> 160/100/40</div><br clear="left" /></div>
     lore: 莱恩丑陋的手正是他最强大力量的来源，能够用恶魔的力量让受害者完全崩溃。
     hurl: lion
+  special_bonus_cast_range_75:
+    dname: "+75 施法距离"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_cast_range_75_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: rubick
+  special_bonus_unique_lion_2:
+    dname: "+80 裂地尖刺伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_lion_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lion
+  special_bonus_gold_income_15:
+    dname: "+90 金钱/分"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_gold_income_15_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: earth_spirit
+  special_bonus_spell_amplify_8:
+    dname: "+8% 技能增强"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_spell_amplify_8_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: phoenix
+  special_bonus_all_stats_20:
+    dname: "+20 全属性"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_all_stats_20_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lion
+  special_bonus_unique_lion:
+    dname: "+3 法力吸取多个目标"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_lion_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lion
   shadow_shaman_ether_shock:
     dname: 苍穹震击
     affects: 技能： <span class="attribVal">单位目标</span><br />影响： <span class="attribVal">敌方单位</span><br
@@ -1912,6 +3392,66 @@ abilitydata:
       width="16" height="16" border="0" /> 120</div><br clear="left" /></div>
     lore: 耍蛇曾是演艺中的重头戏；现在罗斯塔可以授予蛇力量，以服从他自己的吩咐。
     hurl: shadow_shaman
+  special_bonus_cast_range_100:
+    dname: "+100 施法距离"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_cast_range_100_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: visage
+  special_bonus_exp_boost_35:
+    dname: "+35% 经验获取"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_exp_boost_35_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: undying
+  special_bonus_unique_shadow_shaman_4:
+    dname: "+4 召唤的守卫"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_shadow_shaman_4_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: shadow_shaman
+  special_bonus_unique_shadow_shaman_2:
+    dname: "+3秒 枷锁持续时间"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_shadow_shaman_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: shadow_shaman
+  special_bonus_unique_shadow_shaman_1:
+    dname: "+1 群蛇守卫可被攻击次数"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_shadow_shaman_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: shadow_shaman
+  special_bonus_unique_shadow_shaman_3:
+    dname: "+350 苍穹震击伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_shadow_shaman_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: shadow_shaman
   slardar_sprint:
     dname: 守卫冲刺
     affects: 技能： <span class="attribVal">无目标</span><br />
@@ -1978,6 +3518,46 @@ abilitydata:
       title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 5</div><br clear="left" /></div>
     lore: 即使是最坚硬的铠甲，一旦遇到海水也是不堪一击。
+    hurl: slardar
+  special_bonus_hp_regen_6:
+    dname: "+6 生命恢复"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_hp_regen_6_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: terrorblade
+  special_bonus_mp_175:
+    dname: "+175 魔法"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_mp_175_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: slardar
+  special_bonus_attack_damage_35:
+    dname: "+35 攻击力"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_35_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: tusk
+  special_bonus_unique_slardar:
+    dname: "+10% 击晕概率"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_slardar_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: slardar
   tidehunter_gush:
     dname: 巨浪
@@ -2047,6 +3627,36 @@ abilitydata:
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 150</div><br clear="left" /></div>
     lore: 呼唤深海之神麦尔朗恩的举动导致了整支武装舰队在海上失踪。
+    hurl: tidehunter
+  special_bonus_mp_regen_6:
+    dname: "+6 魔法恢复"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_mp_regen_6_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: omniknight
+  special_bonus_strength_15:
+    dname: "+15 力量"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_strength_15_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: centaur
+  special_bonus_unique_tidehunter:
+    dname: "-6 巨浪降低护甲"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_tidehunter_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: tidehunter
   witch_doctor_paralyzing_cask:
     dname: 麻痹药剂
@@ -2120,6 +3730,56 @@ abilitydata:
       width="16" height="16" border="0" /> 80</div><br clear="left" /></div>
     lore: 巫医跳起他的传统巫毒舞蹈，在生者的梦中作祟。
     hurl: witch_doctor
+  special_bonus_exp_boost_25:
+    dname: "+25% 经验获取"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_exp_boost_25_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: jakiro
+  special_bonus_attack_damage_90:
+    dname: "+90 攻击力"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_90_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: treant
+  special_bonus_unique_witch_doctor_3:
+    dname: "+2 麻痹药剂弹跳"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_witch_doctor_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: witch_doctor
+  special_bonus_unique_witch_doctor_1:
+    dname: "+175 死亡守卫攻击距离"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_witch_doctor_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: witch_doctor
+  special_bonus_unique_witch_doctor_2:
+    dname: "+20 巫毒回复术治疗"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_witch_doctor_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: witch_doctor
   riki_smoke_screen:
     dname: 烟幕
     affects: 技能： <span class="attribVal">点目标</span><br />无视技能免疫： <span class="attribVal">否</span><br
@@ -2188,6 +3848,46 @@ abilitydata:
       width="16" height="16" border="0" /> 40/35/30</div><br clear="left" /></div>
     lore: 隐形刺客从不忌讳使用肮脏的战斗手法，尤其擅长从对手的背后发动攻击。
     hurl: riki
+  special_bonus_agility_10:
+    dname: "+10 敏捷"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_agility_10_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: troll_warlord
+  special_bonus_cast_range_250:
+    dname: "+250 施法距离"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_cast_range_250_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: oracle
+  special_bonus_unique_riki_1:
+    dname: "+0.4 背刺系数"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_riki_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: riki
+  special_bonus_unique_riki_2:
+    dname: "-4秒 烟幕冷却"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_riki_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: riki
   enigma_malefice:
     dname: 憎恶
     affects: 技能： <span class="attribVal">单位目标</span><br />影响： <span class="attribVal">敌方单位</span><br
@@ -2229,7 +3929,7 @@ abilitydata:
     affects: 技能： <span class="attribVal">点目标</span><br />伤害类型： <span class="attribVal"><font
       color="#d61107">纯粹</font></span><br />无视技能免疫： <span class="attribVal"><font
       color="#70EA72">是</font></span><br />
-    desc: 使一块区域浸入到暗共振中，对敌方单位造成他们最大生命值一定比例的伤害。
+    desc: 使一块区域浸入暗共振中，对敌方单位造成他们基于最大生命值的伤害。
     notes: 伤害无视技能免疫。<br />此技能将摧毁范围内的树木。
     dmg: ''
     attrib: |-
@@ -2261,6 +3961,46 @@ abilitydata:
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 200/180/160</div><br clear="left" /></div>
     lore: 谜团将毁灭的终极漩涡，具有毁天灭地力量的奇点进行引导，大地因此颤抖。
+    hurl: enigma
+  special_bonus_magic_resistance_12:
+    dname: "+12% 魔法抗性"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_magic_resistance_12_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: elder_titan
+  special_bonus_unique_enigma_2:
+    dname: "+1 憎恶触发次数"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_enigma_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: enigma
+  special_bonus_armor_12:
+    dname: "+12 护甲"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_armor_12_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: night_stalker
+  special_bonus_unique_enigma:
+    dname: "+8 恶魔转化虚灵"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_enigma_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: enigma
   tinker_laser:
     dname: 激光
@@ -2331,6 +4071,36 @@ abilitydata:
       width="16" height="16" border="0" /> 0</div><br clear="left" /></div>
     lore: 这儿换块新电池，那儿塞几枚火箭弹，鲍什不断改进现有的技术。
     hurl: tinker
+  special_bonus_spell_amplify_4:
+    dname: "+4% 技能增强"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_spell_amplify_4_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: tinker
+  special_bonus_spell_lifesteal_20:
+    dname: 20% 技能吸血
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_spell_lifesteal_20_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: tinker
+  special_bonus_unique_tinker:
+    dname: "+100 激光伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_tinker_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: tinker
   sniper_shrapnel:
     dname: 榴霰弹
     affects: 技能： <span class="attribVal">点目标</span><br />伤害类型： <span class="attribVal">魔法</span><br
@@ -2387,6 +4157,66 @@ abilitydata:
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 20/15/10</div><br clear="left" /></div>
     lore: 为了完成预言然后返回家乡，卡德尔必须和参加古老考验那天一样，做出完美的射击。
+    hurl: sniper
+  special_bonus_mp_regen_5:
+    dname: "+5 魔法恢复"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_mp_regen_5_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: sniper
+  special_bonus_attack_speed_15:
+    dname: "+15 攻击速度"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_attack_speed_15_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: terrorblade
+  special_bonus_unique_sniper_1:
+    dname: "+20 榴霰弹每秒伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_sniper_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: sniper
+  special_bonus_cooldown_reduction_25:
+    dname: 25% 冷却时间减少
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_cooldown_reduction_25_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: sniper
+  special_bonus_attack_range_100:
+    dname: "+100 攻击距离"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_attack_range_100_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: arc_warden
+  special_bonus_unique_sniper_2:
+    dname: "+4 榴霰弹能量点数"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_sniper_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: sniper
   necrolyte_death_pulse:
     dname: 死亡脉冲
@@ -2460,6 +4290,26 @@ abilitydata:
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 90/80/70</div><br clear="left" /></div>
     lore: 空气中充斥的死亡和苦难增强了瘟疫法师的瘟疫魔法。
+    hurl: necrolyte
+  special_bonus_all_stats_6:
+    dname: "+6 全属性"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_all_stats_6_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: ember_spirit
+  special_bonus_unique_necrophos:
+    dname: "-1秒 死亡脉冲冷却"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_necrophos_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: necrolyte
   warlock_fatal_bonds:
     dname: 致命连接
@@ -2535,6 +4385,66 @@ abilitydata:
       width="16" height="16" border="0" /> 170</div><br clear="left" /></div>
     lore: 戴蒙释放被他关在恐惧之木法杖中的异界灵魂，在敌阵中造成毁灭性的打击。
     hurl: warlock
+  special_bonus_exp_boost_20:
+    dname: "+20% 经验获取"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_exp_boost_20_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: oracle
+  special_bonus_cast_range_150:
+    dname: "+150 施法距离"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_cast_range_150_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: shredder
+  special_bonus_unique_warlock_3:
+    dname: "-4秒 暗言术冷却"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_warlock_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: warlock
+  special_bonus_unique_warlock_4:
+    dname: 死亡时召唤地狱火
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_warlock_4_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: warlock
+  special_bonus_unique_warlock_1:
+    dname: 地狱火技能免疫
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_warlock_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: warlock
+  special_bonus_unique_warlock_2:
+    dname: "+15 地狱火护甲"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_warlock_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: warlock
   beastmaster_wild_axes:
     dname: 野性之斧
     affects: 技能： <span class="attribVal">点目标</span><br />影响： <span class="attribVal">敌方单位</span><br
@@ -2607,6 +4517,46 @@ abilitydata:
       width="16" height="16" border="0" /> 80/75/70</div><br clear="left" /></div>
     lore: 兽王学会将他的原始本能凝聚为猛兽般的怒吼，以破坏敌人的队列。
     hurl: beastmaster
+  special_bonus_strength_12:
+    dname: "+12 力量"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_strength_12_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: magnataur
+  special_bonus_unique_beastmaster_2:
+    dname: "+1 召唤的豪猪"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_beastmaster_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: beastmaster
+  special_bonus_attack_damage_120:
+    dname: "+120 攻击力"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_120_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: bounty_hunter
+  special_bonus_unique_beastmaster:
+    dname: "+250 野性之斧伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_beastmaster_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: beastmaster
   queenofpain_shadow_strike:
     dname: 暗影突袭
     affects: 技能： <span class="attribVal">单位目标</span><br />影响： <span class="attribVal">敌方单位</span><br
@@ -2676,6 +4626,26 @@ abilitydata:
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 135</div><br clear="left" /></div>
     lore: 她最为剧烈的折磨，阿卡莎的超声冲击波让她可怜的敌人从痛苦中得到解脱。
+    hurl: queenofpain
+  special_bonus_unique_queen_of_pain:
+    dname: 暗影突袭变为550范围技能
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_queen_of_pain_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: queenofpain
+  special_bonus_spell_lifesteal_60:
+    dname: 60% 技能吸血
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_spell_lifesteal_60_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: queenofpain
   venomancer_venomous_gale:
     dname: 瘴气
@@ -2749,6 +4719,26 @@ abilitydata:
       width="16" height="16" border="0" /> 140/120/100</div><br clear="left" /></div>
     lore: 浓酸丛林中的生物通常会对攻击者释放毒性瘴气来保命；而剧毒术士却将这种瘟疫扩散出基迪岛。
     hurl: venomancer
+  special_bonus_unique_venomancer_2:
+    dname: "+14% 毒刺减速"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_venomancer_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: venomancer
+  special_bonus_unique_venomancer:
+    dname: 3倍 瘟疫守卫生命/伤害
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_venomancer_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: venomancer
   faceless_void_time_walk:
     dname: 时间漫游
     affects: 技能： <span class="attribVal">点目标</span><br />无视技能免疫： <span class="attribVal">否</span><br
@@ -2812,6 +4802,16 @@ abilitydata:
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 140/125/110</div><br clear="left" /></div>
     lore: 当超维视界的裂隙突现之时，所有不幸被其困住的可怜灵魂都将万劫不复。
+    hurl: faceless_void
+  special_bonus_unique_faceless_void:
+    dname: "+600 时间漫游距离"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_faceless_void_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: faceless_void
   skeleton_king_hellfire_blast:
     dname: 冥火爆击
@@ -2879,6 +4879,56 @@ abilitydata:
       title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 240/140/40</div><br clear="left" /></div>
     lore: 冥魂大帝的对头们一直很疑惑，为什么他就是不会死透。
+    hurl: skeleton_king
+  special_bonus_attack_damage_15:
+    dname: "+15 攻击力"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_15_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: medusa
+  special_bonus_unique_wraith_king_3:
+    dname: "+50 冥火爆击每秒伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_wraith_king_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: skeleton_king
+  special_bonus_unique_wraith_king_2:
+    dname: "+10% 吸血光环吸血"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_wraith_king_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: skeleton_king
+  special_bonus_unique_wraith_king_1:
+    dname: 重生不消耗魔法
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_wraith_king_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: skeleton_king
+  special_bonus_unique_wraith_king_4:
+    dname: 重生施放冥火暴击
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_wraith_king_4_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: skeleton_king
   death_prophet_carrion_swarm:
     dname: 地穴虫群
@@ -2952,6 +5002,46 @@ abilitydata:
       width="16" height="16" border="0" /> 145</div><br clear="left" /></div>
     lore: 伴随着无数次的死亡，她前世死亡幻化出的女妖们总是萦绕于现世。
     hurl: death_prophet
+  special_bonus_unique_death_prophet_2:
+    dname: "-1.5秒 地穴虫群冷却"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_death_prophet_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: death_prophet
+  special_bonus_cooldown_reduction_10:
+    dname: 10% 冷却时间减少
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_cooldown_reduction_10_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: arc_warden
+  special_bonus_movement_speed_50:
+    dname: "+50 移动速度"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_movement_speed_50_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: death_prophet
+  special_bonus_unique_death_prophet:
+    dname: "+8 驱使恶灵数量"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_death_prophet_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: death_prophet
   phantom_assassin_stifling_dagger:
     dname: 窒息之刃
     affects: 技能： <span class="attribVal">单位目标</span><br />影响： <span class="attribVal">敌方单位</span><br
@@ -3014,6 +5104,36 @@ abilitydata:
       致命一击概率： <span class="attribVal">15%</span>
     cmb: ''
     lore: 神圣的一击，茉崔蒂通过赐予对手死亡来向他们致以敬意。
+    hurl: phantom_assassin
+  special_bonus_lifesteal_10:
+    dname: 10% 吸血
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_lifesteal_10_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: slark
+  special_bonus_attack_speed_35:
+    dname: "+35 攻击速度"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_attack_speed_35_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: invoker
+  special_bonus_unique_phantom_assassin:
+    dname: 窒息之刃攻击两个目标
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_phantom_assassin_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: phantom_assassin
   pugna_nether_blast:
     dname: 幽冥爆轰
@@ -3089,6 +5209,56 @@ abilitydata:
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 22</div><br clear="left" /></div>
     lore: 帕格纳确实已经变得非常强大了，甚至比湮灭术前任上师还要强大。
+    hurl: pugna
+  special_bonus_unique_pugna_5:
+    dname: "+1秒 衰老持续时间"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_pugna_5_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: pugna
+  special_bonus_unique_pugna_4:
+    dname: "-1秒 幽冥爆轰冷却"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_pugna_4_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: pugna
+  special_bonus_unique_pugna_3:
+    dname: "+0.75 幽冥守卫伤害系数"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_pugna_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: pugna
+  special_bonus_unique_pugna_1:
+    dname: "+50% 生命汲取回复"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_pugna_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: pugna
+  special_bonus_unique_pugna_2:
+    dname: "+200 幽冥爆轰伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_pugna_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: pugna
   templar_assassin_refraction:
     dname: 折光
@@ -3173,6 +5343,46 @@ abilitydata:
       width="16" height="16" border="0" /> 11/8/5</div><br clear="left" /></div>
     lore: 召唤隐之圣堂降临后，无人能逃脱圣堂刺客的追杀。
     hurl: templar_assassin
+  special_bonus_evasion_12:
+    dname: 12% 闪避
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_evasion_12_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: monkey_king
+  special_bonus_hp_275:
+    dname: "+275 生命"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_hp_275_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: monkey_king
+  special_bonus_unique_templar_assassin_2:
+    dname: "-8 隐匿降低护甲"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_templar_assassin_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: templar_assassin
+  special_bonus_unique_templar_assassin:
+    dname: "+3 折光次数"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_templar_assassin_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: templar_assassin
   viper_poison_attack:
     dname: 毒性攻击
     affects: 技能： <span class="attribVal">自动施放, 单位目标</span><br />影响： <span class="attribVal">敌方单位</span><br
@@ -3247,6 +5457,56 @@ abilitydata:
       width="16" height="16" border="0" /> 50/40/30</div><br clear="left" /></div>
     lore: 曾经用于屠杀它那残酷主人的招数，冥界亚龙毒素中最强大的一种，用来折磨那些敢于激怒它的人来说再好不过。
     hurl: viper
+  special_bonus_agility_16:
+    dname: "+16 敏捷"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_agility_16_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: viper
+  special_bonus_unique_viper_1:
+    dname: 毒性攻击影响建筑
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_viper_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: viper
+  special_bonus_attack_range_75:
+    dname: "+75 攻击距离"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_attack_range_75_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: viper
+  special_bonus_armor_20:
+    dname: "+20 护甲"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_armor_20_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: viper
+  special_bonus_unique_viper_2:
+    dname: "+80 蝮蛇突袭每秒伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_viper_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: viper
   luna_lucent_beam:
     dname: 月光
     affects: 技能： <span class="attribVal">单位目标</span><br />影响： <span class="attribVal">敌方单位</span><br
@@ -3314,6 +5574,36 @@ abilitydata:
       width="16" height="16" border="0" /> 140</div><br clear="left" /></div>
     lore: 在急需其帮助的时候，赛莉蒙妮亲自降临世间，遮蔽照向敌人的光芒，以及他们的希望。
     hurl: luna
+  special_bonus_unique_luna_1:
+    dname: "+40 月光伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_luna_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: luna
+  special_bonus_all_stats_15:
+    dname: "+15 全属性"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_all_stats_15_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: terrorblade
+  special_bonus_unique_luna_2:
+    dname: "-4秒 月光冷却"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_luna_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: luna
   dragon_knight_breathe_fire:
     dname: 火焰气息
     affects: 技能： <span class="attribVal">单位目标, 点目标</span><br />影响： <span class="attribVal">敌方单位</span><br
@@ -3362,9 +5652,9 @@ abilitydata:
     dname: 古龙形态
     affects: 技能： <span class="attribVal">无目标</span><br />无视技能免疫： <span class="attribVal"><font
       color="#70EA72">是</font></span><br />
-    desc: "龙骑士能够变身成为三种古龙形态之一，同时移动速度以及神龙摆尾的施法距离都有一定提升，而且还有新的能力。\r\n<font color=\"#9acd32\">等级1
-      绿龙</font> - 腐蚀吐息: 攻击时造成20点每秒的持续毒素伤害，持续5秒。\r\n<font color=\"#ff0000\">等级2 红龙</font>
-      - 溅射攻击：攻击时伤害将溅射到300范围内所有单位，并且全部受到腐蚀吐息的作用。\r\n<font color=\"#87ceeb\">等级3 蓝龙</font>
+    desc: "龙骑士能够变身成为三种古龙形态之一，同时提升移动速度以及神龙摆尾的施法距离，并且获得新的能力。\r\n<font color=\"#9acd32\">等级1
+      碧龙</font> - 腐蚀吐息: 攻击时附带毒素，造成每秒20点伤害，持续5秒。\r\n<font color=\"#ff0000\">等级2 赤龙</font>
+      - 溅射攻击：攻击时伤害将溅射到300范围内所有单位，并且全部受到腐蚀吐息的作用。\r\n<font color=\"#87ceeb\">等级3 苍龙</font>
       - 冰霜吐息：降低攻击溅射到的敌人30%移动速度和30攻击速度，持续3秒，并且全部受到腐蚀吐息的作用。"
     notes: 腐蚀吐息的毒素伤害可以致死。<br />溅射攻击在150/225/300作用范围内造成100/75/50%的伤害。溅射攻击不能作用于建筑。<br
       />冰霜吐息与独占攻效叠加。<br />幻影斧的冷却时间将由龙骑士开启幻影斧时所处的近战或远程形态决定。
@@ -3379,6 +5669,36 @@ abilitydata:
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 115</div><br clear="left" /></div>
     lore: 达维安体内有一个更为强大的形态正在休眠，一个将骑士之力和古龙之威完美结合的形态。
+    hurl: dragon_knight
+  special_bonus_exp_boost_40:
+    dname: "+40% 经验获取"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_exp_boost_40_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: tusk
+  special_bonus_movement_speed_75:
+    dname: "+75 移动速度"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_movement_speed_75_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: dragon_knight
+  special_bonus_unique_dragon_knight:
+    dname: 2倍 龙族血统生命恢复/护甲
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_dragon_knight_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: dragon_knight
   dazzle_poison_touch:
     dname: 剧毒之触
@@ -3455,6 +5775,46 @@ abilitydata:
       width="16" height="16" border="0" /> 40</div><br clear="left" /></div>
     lore: 戴泽在零领域的以太之旅让他能将光与暗的力量融在一起，创造出有两种力量的魔力波动。
     hurl: dazzle
+  special_bonus_hp_125:
+    dname: "+125 生命"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_hp_125_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: naga_siren
+  special_bonus_unique_dazzle_3:
+    dname: "+25 剧毒之触每秒伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_dazzle_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: dazzle
+  special_bonus_unique_dazzle_1:
+    dname: "-6秒 剧毒之触冷却"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_dazzle_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: dazzle
+  special_bonus_unique_dazzle_2:
+    dname: "+60 暗影波治疗"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_dazzle_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: dazzle
   rattletrap_battery_assault:
     dname: 弹幕冲击
     affects: 技能： <span class="attribVal">无目标</span><br />伤害类型： <span class="attribVal">魔法</span><br
@@ -3523,6 +5883,46 @@ abilitydata:
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 70/55/40</div><br clear="left" /></div>
     lore: 一个有些笨重的设备，钩爪能把更加厚重的发条重装甲送入天空。
+    hurl: rattletrap
+  special_bonus_armor_4:
+    dname: "+4 护甲"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_armor_4_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: earth_spirit
+  special_bonus_unique_clockwerk_2:
+    dname: "+75 照明火箭伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_clockwerk_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: rattletrap
+  special_bonus_unique_clockwerk_3:
+    dname: "+40 弹幕冲击伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_clockwerk_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: rattletrap
+  special_bonus_unique_clockwerk:
+    dname: "+10秒 弹幕冲击持续时间"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_clockwerk_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: rattletrap
   leshrac_split_earth:
     dname: 撕裂大地
@@ -3599,6 +5999,36 @@ abilitydata:
       width="16" height="16" border="0" /> 1</div><br clear="left" /></div>
     lore: 必要时，受折磨的灵魂能操纵时空本身，毁灭弱小的存在。
     hurl: leshrac
+  special_bonus_mp_400:
+    dname: "+400 魔法"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_mp_400_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: leshrac
+  special_bonus_unique_leshrac_1:
+    dname: "+50 恶魔敕令爆炸次数"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_leshrac_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: leshrac
+  special_bonus_unique_leshrac_2:
+    dname: "+3秒 闪电风暴减速"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_leshrac_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: leshrac
   furion_sprout:
     dname: 发芽
     affects: 技能： <span class="attribVal">单位目标, 点目标</span><br />影响： <span class="attribVal">英雄</span><br
@@ -3666,6 +6096,46 @@ abilitydata:
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 90/75/60</div><br clear="left" /></div>
     lore: 先知召唤维萝迪希娅的狂怒，消灭那些想要毁坏自然的敌人。
+    hurl: furion
+  special_bonus_unique_furion_2:
+    dname: "+4 召唤树人"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_furion_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: furion
+  special_bonus_armor_10:
+    dname: "+10 护甲"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_armor_10_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: phoenix
+  special_bonus_unique_furion_3:
+    dname: 传送无冷却
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_furion_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: furion
+  special_bonus_unique_furion:
+    dname: 2倍 树人生命/攻击力
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_furion_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: furion
   life_stealer_rage:
     dname: 狂暴
@@ -3780,6 +6250,16 @@ abilitydata:
     cmb: ''
     lore: ''
     hurl: life_stealer
+  special_bonus_unique_lifestealer:
+    dname: "+1秒 狂暴持续时间"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_lifestealer_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: life_stealer
   dark_seer_vacuum:
     dname: 真空
     affects: 技能： <span class="attribVal">点目标</span><br />伤害类型： <span class="attribVal">魔法</span><br
@@ -3849,6 +6329,46 @@ abilitydata:
       width="16" height="16" border="0" /> 100</div><br clear="left" /></div>
     lore: 尽管黑暗贤者不能回到他原来的国度，他仍然能召唤出一道具有强大心智力量的璀璨幻墙，在敌人之间制造混乱。
     hurl: dark_seer
+  special_bonus_hp_regen_14:
+    dname: "+14 生命恢复"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_hp_regen_14_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: shredder
+  special_bonus_unique_dark_seer_2:
+    dname: "+75 真空范围"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_dark_seer_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: dark_seer
+  special_bonus_strength_25:
+    dname: "+25 力量"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_strength_25_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: monkey_king
+  special_bonus_unique_dark_seer:
+    dname: "+80 离子外壳伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_dark_seer_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: dark_seer
   clinkz_strafe:
     dname: 扫射
     affects: 技能： <span class="attribVal">无目标</span><br />
@@ -3913,6 +6433,36 @@ abilitydata:
       width="16" height="16" border="0" /> 85</div><br clear="left" /></div>
     lore: 萨瑟雷克斯的死亡契约已经成了克林克兹的一部分，他通过杀死那些低等生物来使自己的枯骨获得新生。
     hurl: clinkz
+  special_bonus_unique_clinkz_1:
+    dname: "+30 灼热之箭伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_clinkz_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: clinkz
+  special_bonus_attack_range_125:
+    dname: "+125 攻击距离"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_attack_range_125_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: clinkz
+  special_bonus_unique_clinkz_2:
+    dname: "+70 扫射攻击速度"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_clinkz_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: clinkz
   omniknight_purification:
     dname: 洗礼
     affects: 技能： <span class="attribVal">单位目标</span><br />影响： <span class="attribVal">友方单位</span><br
@@ -3972,6 +6522,46 @@ abilitydata:
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 160</div><br clear="left" /></div>
     lore: 全知之主对那些被普利斯特称为“朋友”的人降下保护结界。
+    hurl: omniknight
+  special_bonus_gold_income_10:
+    dname: "+60 金钱/分"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_gold_income_10_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: oracle
+  special_bonus_attack_damage_100:
+    dname: "+100 攻击力"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_100_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: omniknight
+  special_bonus_unique_omniknight_1:
+    dname: "+200 洗礼伤害/治疗"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_omniknight_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: omniknight
+  special_bonus_unique_omniknight_2:
+    dname: "-16% 退化光环"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_omniknight_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: omniknight
   enchantress_untouchable:
     dname: 不可侵犯
@@ -4034,6 +6624,46 @@ abilitydata:
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 0</div><br clear="left" /></div>
     lore: 虽然爱由莎更喜欢和平的处事方式，但她还是会用远距离的魔法突击来解决一些问题，她扔出的长矛会从掠过的空气中获得能量。
+    hurl: enchantress
+  special_bonus_unique_enchantress_2:
+    dname: "+8 自然之助小精灵"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_enchantress_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: enchantress
+  special_bonus_unique_enchantress_3:
+    dname: "+60 不可侵犯减速"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_enchantress_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: enchantress
+  special_bonus_unique_enchantress_4:
+    dname: "+6% 推进伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_enchantress_4_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: enchantress
+  special_bonus_unique_enchantress_1:
+    dname: 魅惑可作用远古
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_enchantress_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: enchantress
   huskar_inner_vitality:
     dname: 活血术
@@ -4102,6 +6732,26 @@ abilitydata:
       title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 12</div><br clear="left" /></div>
     lore: 哈斯卡不顾危险，冲入只有他能幸存的激烈近身战。
+    hurl: huskar
+  special_bonus_unique_huskar_2:
+    dname: "+5 沸血之矛每秒伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_huskar_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: huskar
+  special_bonus_unique_huskar:
+    dname: "+500 牺牲施法距离"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_huskar_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: huskar
   night_stalker_void:
     dname: 虚空
@@ -4174,6 +6824,36 @@ abilitydata:
       width="16" height="16" border="0" /> 160/120/80</div><br clear="left" /></div>
     lore: 最强大的战士都变得害怕黑暗，真是个令人感到羞耻的场景。
     hurl: night_stalker
+  special_bonus_strength_7:
+    dname: "+7 力量"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_strength_7_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: winter_wyvern
+  special_bonus_mp_300:
+    dname: "+300 魔法"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_mp_300_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: night_stalker
+  special_bonus_unique_night_stalker:
+    dname: "-8秒 伤残恐惧冷却"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_night_stalker_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: night_stalker
   broodmother_spawn_spiderlings:
     dname: 孵化蜘蛛
     affects: 技能： <span class="attribVal">单位目标</span><br />影响： <span class="attribVal">敌方单位</span><br
@@ -4239,6 +6919,56 @@ abilitydata:
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 45</div><br clear="left" /></div>
     lore: 大多数猎物都被她用丝茧裹了起来，作为饲料留给后代，育母蜘蛛自己则想品尝那些迷路的英雄。
+    hurl: broodmother
+  special_bonus_unique_broodmother_3:
+    dname: "+60 孵化蜘蛛伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_broodmother_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: broodmother
+  special_bonus_unique_broodmother_4:
+    dname: "+14 小蜘蛛攻击力"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_broodmother_4_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: broodmother
+  special_bonus_attack_speed_70:
+    dname: "+70 攻击速度"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_attack_speed_70_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: broodmother
+  special_bonus_unique_broodmother_1:
+    dname: "+8 蛛网上限"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_broodmother_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: broodmother
+  special_bonus_unique_broodmother_2:
+    dname: "+225 小蜘蛛生命值"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_broodmother_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: broodmother
   bounty_hunter_shuriken_toss:
     dname: 投掷飞镖
@@ -4313,6 +7043,36 @@ abilitydata:
       width="16" height="16" border="0" /> 4</div><br clear="left" /></div>
     lore: 利用他高度敏锐的视觉和嗅觉，刚铎的袭击成功率很高。
     hurl: bounty_hunter
+  special_bonus_unique_bounty_hunter_2:
+    dname: "+75 投掷飞镖伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_bounty_hunter_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: bounty_hunter
+  special_bonus_evasion_25:
+    dname: 25% 闪避
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_evasion_25_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: bounty_hunter
+  special_bonus_unique_bounty_hunter:
+    dname: "-5秒 忍术冷却"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_bounty_hunter_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: bounty_hunter
   weaver_the_swarm:
     dname: 虫群
     affects: 技能： <span class="attribVal">点目标</span><br />伤害类型： <span class="attribVal"><font
@@ -4384,6 +7144,36 @@ abilitydata:
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 60/50/40</div><br clear="left" /></div>
     lore: 如果斯吉茨格尔认为世界当前的现实与他所渴望的不合，他就爬回过去的时间点来纠正错误。
+    hurl: weaver
+  special_bonus_unique_weaver_1:
+    dname: "+30 缩地伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_weaver_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: weaver
+  special_bonus_all_stats_7:
+    dname: "+7 全属性"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_all_stats_7_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: invoker
+  special_bonus_unique_weaver_2:
+    dname: "+200 缩地移动速度"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_weaver_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: weaver
   jakiro_dual_breath:
     dname: 冰火交加
@@ -4466,6 +7256,46 @@ abilitydata:
       width="16" height="16" border="0" /> 60</div><br clear="left" /></div>
     lore: 用冰与火混合而成的极端温度撕裂战场。
     hurl: jakiro
+  special_bonus_unique_jakiro_2:
+    dname: "+35 冰火交加伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_jakiro_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: jakiro
+  special_bonus_attack_range_400:
+    dname: "+400 攻击距离"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_attack_range_400_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: jakiro
+  special_bonus_unique_jakiro_3:
+    dname: 烈焰焚身为纯粹且无视技能免疫
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_jakiro_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: jakiro
+  special_bonus_unique_jakiro:
+    dname: "+1.25秒 冰封路径持续时间"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_jakiro_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: jakiro
   batrider_sticky_napalm:
     dname: 粘性燃油
     affects: 技能： <span class="attribVal">点目标</span><br />无视技能免疫： <span class="attribVal">否</span><br
@@ -4538,6 +7368,26 @@ abilitydata:
       title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 100/80/60</div><br clear="left" /></div>
     lore: 就算蝙蝠骑士说免费，也几乎没人敢去骑他的蝙蝠。
+    hurl: batrider
+  special_bonus_unique_batrider_1:
+    dname: "+8秒 火焰飞行持续时间"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_batrider_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: batrider
+  special_bonus_unique_batrider_2:
+    dname: "+300 烈焰破击范围/击退"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_batrider_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: batrider
   chen_penitence:
     dname: 赎罪
@@ -4620,6 +7470,46 @@ abilitydata:
       width="16" height="16" border="0" /> 160/140/120</div><br clear="left" /></div>
     lore: 利用他的奴隶与他的精神连接，陈给予他们完全的康复和幸福。
     hurl: chen
+  special_bonus_unique_chen_3:
+    dname: "-10秒 忠诚考验冷却"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_chen_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: chen
+  special_bonus_unique_chen_4:
+    dname: "+1000 被劝化单位最低生命"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_chen_4_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: chen
+  special_bonus_unique_chen_1:
+    dname: "+2 神圣劝化数量上限"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_chen_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: chen
+  special_bonus_unique_chen_2:
+    dname: "+200 上帝之手治疗"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_chen_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: chen
   spectre_spectral_dagger:
     dname: 幽鬼之刃
     affects: 技能： <span class="attribVal">单位目标, 点目标</span><br />影响： <span class="attribVal">敌方英雄</span><br
@@ -4695,6 +7585,16 @@ abilitydata:
       width="16" height="16" border="0" /> 180/150/120</div><br clear="left" /></div>
     lore: 在战斗最激烈的时候，墨丘利的物理形态破裂，朦胧的碎片在生者身边作祟。
     hurl: spectre
+  special_bonus_unique_spectre:
+    dname: "-10秒 幽鬼之刃冷却"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_spectre_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: spectre
   doom_bringer_devour:
     dname: 吞噬
     affects: 技能： <span class="attribVal">单位目标</span><br />
@@ -4764,6 +7664,66 @@ abilitydata:
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 145</div><br clear="left" /></div>
     lore: 当佤什昂都的丧钟报出一个名字时，这个名字主人的末日就将到来。
+    hurl: doom_bringer
+  special_bonus_unique_doom_3:
+    dname: "+80 吞噬额外金钱"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_doom_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: doom_bringer
+  special_bonus_unique_doom_4:
+    dname: "+15 焦土伤害/治疗"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_doom_4_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: doom_bringer
+  special_bonus_unique_doom_5:
+    dname: "+40 末日每秒伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_doom_5_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: doom_bringer
+  special_bonus_unique_doom_2:
+    dname: 吞噬可作用远古
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_doom_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: doom_bringer
+  special_bonus_unique_doom_1:
+    dname: "+2% 阎刃伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_doom_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: doom_bringer
+  special_bonus_hp_regen_40:
+    dname: "+40 生命恢复"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_hp_regen_40_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: doom_bringer
   ancient_apparition_cold_feet:
     dname: 寒霜之足
@@ -4853,6 +7813,56 @@ abilitydata:
       width="16" height="16" border="0" /> 1</div><br clear="left" /></div>
     lore: ''
     hurl: ancient_apparition
+  special_bonus_unique_ancient_apparition_3:
+    dname: "-1秒 冰霜漩涡冷却"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_ancient_apparition_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: ancient_apparition
+  special_bonus_hp_regen_30:
+    dname: "+30 生命恢复"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_hp_regen_30_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: bristleback
+  special_bonus_unique_ancient_apparition_4:
+    dname: "+8% 冰霜漩涡减速/伤害加深"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_ancient_apparition_4_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: ancient_apparition
+  special_bonus_unique_ancient_apparition_1:
+    dname: 4 寒霜之足能量点数
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_ancient_apparition_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: ancient_apparition
+  special_bonus_unique_ancient_apparition_2:
+    dname: "+100 极寒之触伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_ancient_apparition_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: ancient_apparition
   ursa_earthshock:
     dname: 震撼大地
     affects: 技能： <span class="attribVal">无目标</span><br />伤害类型： <span class="attribVal">魔法</span><br
@@ -4919,6 +7929,26 @@ abilitydata:
       title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 50/40/30</div><br clear="left" /></div>
     lore: "乌尔萨放纵他的远古之魂，成为战场上最凶残的生物。\r\n\r\n驱散类型：强驱散"
+    hurl: ursa
+  special_bonus_all_stats_14:
+    dname: "+14 全属性"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_all_stats_14_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: ursa
+  special_bonus_unique_ursa:
+    dname: "+10 怒意狂击伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_ursa_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: ursa
   spirit_breaker_charge_of_darkness:
     dname: 暗影冲刺
@@ -4991,6 +8021,36 @@ abilitydata:
       width="16" height="16" border="0" /> 80/70/60</div><br clear="left" /></div>
     lore: 巴拉森暂时回到他原来所在的元素领域，然后带回来自两个世界的回击。
     hurl: spirit_breaker
+  special_bonus_unique_spirit_breaker_3:
+    dname: "+30% 巨力重击伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_spirit_breaker_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: spirit_breaker
+  special_bonus_unique_spirit_breaker_1:
+    dname: "+17% 巨力重击概率"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_spirit_breaker_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: spirit_breaker
+  special_bonus_unique_spirit_breaker_2:
+    dname: "+500 冲刺速度"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_spirit_breaker_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: spirit_breaker
   gyrocopter_rocket_barrage:
     dname: 火箭弹幕
     affects: 技能： <span class="attribVal">无目标</span><br />伤害类型： <span class="attribVal">魔法</span><br
@@ -5013,7 +8073,7 @@ abilitydata:
     affects: 技能： <span class="attribVal">单位目标</span><br />影响： <span class="attribVal">敌方单位</span><br
       />伤害类型： <span class="attribVal">魔法</span><br />无视技能免疫： <span class="attribVal">否</span><br
       />
-    desc: 发射一枚会自动搜索目标单位的追踪导弹。导弹发射后持续增加飞行速度，击中目标时造成伤害及眩晕。飞行距离越远，造成的伤害越大。敌方单位可在导弹接近前将其击落。
+    desc: 发射一枚会自动定位目标单位的追踪导弹。导弹发射后持续增加飞行速度，击中目标时造成伤害及眩晕。飞行距离越远，造成的伤害越大。敌方单位可在导弹接近前将其击落。
     notes: 防御塔对导弹造成半额伤害。<br />准星效果仅对队友可见。<br />导弹的飞行距离达到1500码后伤害就达到了上限。<br />导弹会跟随并击中隐身单位。
     dmg: '攻击力: <span class="attribVal">125 / 250 / 375 / 500</span><br />'
     attrib: |-
@@ -5048,7 +8108,7 @@ abilitydata:
     dname: 召唤飞弹
     affects: 技能： <span class="attribVal">点目标</span><br />伤害类型： <span class="attribVal">魔法</span><br
       />无视技能免疫： <span class="attribVal">否</span><br />
-    desc: "召唤导弹从空中打击目标区域的敌军。两发导弹先后到达，第一发造成大量伤害和小幅减速，减速持续2秒；第二发造成少量伤害和大幅减速，减速持续4秒。\r\n\r\n可用神杖升级。"
+    desc: "召唤导弹从空中打击目标区域内的敌方单位。两发导弹先后到达，第一发造成大量伤害和小幅减速，减速持续2秒；第二发造成少量伤害和大幅减速，减速持续4秒。\r\n\r\n可用神杖升级。"
     notes: 视觉指示范围仅对队友可见。
     dmg: ''
     attrib: |-
@@ -5063,6 +8123,26 @@ abilitydata:
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 55/50/45</div><br clear="left" /></div>
     lore: "‘开始轰炸！’"
+    hurl: gyrocopter
+  special_bonus_unique_gyrocopter_1:
+    dname: 3 追踪导弹能量点数
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_gyrocopter_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: gyrocopter
+  special_bonus_unique_gyrocopter_2:
+    dname: "+4 高射火炮攻击次数"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_gyrocopter_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: gyrocopter
   alchemist_acid_spray:
     dname: 酸性喷雾
@@ -5141,6 +8221,26 @@ abilitydata:
     affects: 技能： <span class="attribVal">单位目标</span><br />影响： <span class="attribVal">敌方英雄</span><br
       />无视技能免疫： <span class="attribVal">否</span><br />
     desc: 在爆炸前扔出去！
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: alchemist
+  special_bonus_unique_alchemist_2:
+    dname: "+100 不稳定化合物伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_alchemist_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: alchemist
+  special_bonus_unique_alchemist:
+    dname: "-5 酸性喷雾降低护甲"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_alchemist_Description
     notes: ''
     dmg: ''
     attrib: ''
@@ -5367,6 +8467,26 @@ abilitydata:
       width="16" height="16" border="0" /> 40</div><br clear="left" /></div>
     lore: 布鲁冯特之无力声波。
     hurl: invoker
+  special_bonus_unique_invoker_1:
+    dname: "+1 熔炉精灵召唤数量"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_invoker_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: invoker
+  special_bonus_unique_invoker_2:
+    dname: 环形超震声波
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_invoker_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: invoker
   silencer_curse_of_the_silent:
     dname: 奥术诅咒
     affects: 技能： <span class="attribVal">点目标</span><br />伤害类型： <span class="attribVal">魔法</span><br
@@ -5434,6 +8554,36 @@ abilitydata:
       width="16" height="16" border="0" /> 130</div><br clear="left" /></div>
     lore: 随着大地一震，所有的魔法和声音都停止了，诺崇实现了他的预言。
     hurl: silencer
+  special_bonus_intelligence_7:
+    dname: "+7 智力"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_intelligence_7_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Skywrath_Mage
+  special_bonus_attack_range_200:
+    dname: "+200 攻击距离"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_attack_range_200_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: silencer
+  special_bonus_unique_silencer:
+    dname: "+25% 诅咒减速"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_silencer_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: silencer
   obsidian_destroyer_arcane_orb:
     dname: 奥术天球
     affects: 技能： <span class="attribVal">自动施放, 单位目标</span><br />影响： <span class="attribVal">敌方单位</span><br
@@ -5464,7 +8614,7 @@ abilitydata:
       伤害： <span class="attribVal">100 / 175 / 250 / 325</span><br />
       施法距离： <span class="attribVal">225 / 300 / 375 / 450</span><br />
       <span class="scepterVal">神杖升级最大能量点数：</span> <span class="attribVal">2</span><br />
-      <span class="scepterVal">神杖升级能量恢复时间：</span> <span class="attribVal">12</span>
+      <span class="scepterVal">神杖升级充能时间：</span> <span class="attribVal">12</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 120/140/160/180</div><div class="cooldown"><img
@@ -5504,6 +8654,36 @@ abilitydata:
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 160</div><br clear="left" /></div>
     lore: 当一块殁境的水晶破裂之时，灾难性的能量被释放出来，甚至在其他的空间也能感受到这股能量的回响。
+    hurl: obsidian_destroyer
+  special_bonus_movement_speed_10:
+    dname: "+10 移动速度"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_movement_speed_10_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: obsidian_destroyer
+  special_bonus_intelligence_15:
+    dname: "+15 智力"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_intelligence_15_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: rubick
+  special_bonus_unique_outworld_devourer:
+    dname: "+60秒 奥术天球智力窃取"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_outworld_devourer_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: obsidian_destroyer
   lycan_summon_wolves:
     dname: 召狼
@@ -5573,6 +8753,36 @@ abilitydata:
       width="16" height="16" border="0" /> 120/90/60</div><br clear="left" /></div>
     lore: 贝恩霍勒接受了永恒的狼人诅咒，拥抱了他的野性，也永远成为了他狼性的奴仆。
     hurl: lycan
+  special_bonus_unique_lycan_3:
+    dname: "+12 野性驱使生命恢复"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_lycan_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lycan
+  special_bonus_unique_lycan_1:
+    dname: "+15秒 变身持续时间"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_lycan_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lycan
+  special_bonus_unique_lycan_2:
+    dname: "+2 召狼数量"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_lycan_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lycan
   brewmaster_thunder_clap:
     dname: 雷霆一击
     affects: 技能： <span class="attribVal">无目标</span><br />伤害类型： <span class="attribVal">魔法</span><br
@@ -5636,6 +8846,46 @@ abilitydata:
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 140/120/100</div><br clear="left" /></div>
     lore: 没有人清楚曼吉克斯是否注意到自己和自然之间强大的连结，因为这总是发生在他醉得不省人事之时。
+    hurl: brewmaster
+  special_bonus_unique_brewmaster_2:
+    dname: "+75 雷霆一击伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_brewmaster_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: brewmaster
+  special_bonus_unique_brewmaster_3:
+    dname: "+2秒 雷霆一击减速"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_brewmaster_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: brewmaster
+  special_bonus_attack_speed_140:
+    dname: "+140 攻击速度"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_attack_speed_140_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: brewmaster
+  special_bonus_unique_brewmaster:
+    dname: "+2000 元素分离单位生命"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_brewmaster_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: brewmaster
   shadow_demon_disruption:
     dname: 崩裂禁锢
@@ -5723,6 +8973,36 @@ abilitydata:
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 40</div><br clear="left" /></div>
     lore: 一旦暗影恶魔不再需要他的信徒，他会让其从自己的奴仆中-同时也是从其生命中-解放出来。
+    hurl: shadow_demon
+  special_bonus_unique_shadow_demon_3:
+    dname: "-1.5秒 暗影剧毒冷却"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_shadow_demon_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: shadow_demon
+  special_bonus_unique_shadow_demon_1:
+    dname: "+400 邪恶净化伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_shadow_demon_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: shadow_demon
+  special_bonus_unique_shadow_demon_2:
+    dname: "-6秒 灵魂猎手冷却"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_shadow_demon_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: shadow_demon
   lone_druid_spirit_bear:
     dname: 熊灵伙伴
@@ -5829,6 +9109,56 @@ abilitydata:
       width="16" height="16" border="0" /> 0</div><br clear="left" /></div>
     lore: ''
     hurl: lone_druid
+  special_bonus_unique_lone_druid_1:
+    dname: "+50 熊灵攻击力"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_lone_druid_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lone_druid
+  special_bonus_unique_lone_druid_2:
+    dname: "+12 熊灵护甲"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_lone_druid_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lone_druid
+  special_bonus_unique_lone_druid_5:
+    dname: "+50% 熊灵魔法抗性"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_lone_druid_5_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lone_druid
+  special_bonus_unique_lone_druid_3:
+    dname: "+1.5秒 缠绕持续时间"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_lone_druid_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lone_druid
+  special_bonus_unique_lone_druid_4:
+    dname: "-10秒 野蛮咆哮冷却"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_lone_druid_4_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: lone_druid
   chaos_knight_chaos_bolt:
     dname: 混乱之箭
     affects: 技能： <span class="attribVal">单位目标</span><br />影响： <span class="attribVal">敌方单位</span><br
@@ -5901,6 +9231,26 @@ abilitydata:
       width="16" height="16" border="0" /> 130</div><br clear="left" /></div>
     lore: 凭借混沌骑士在各个世界丰富的战斗经验，他的幻象足以压制所有敢于反抗他的人。
     hurl: chaos_knight
+  special_bonus_all_stats_12:
+    dname: "+12 全属性"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_all_stats_12_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: slark
+  special_bonus_unique_chaos_knight:
+    dname: 实相裂隙无视技能免疫
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_chaos_knight_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: chaos_knight
   meepo_earthbind:
     dname: 地之束缚
     affects: 技能： <span class="attribVal">点目标</span><br />无视技能免疫： <span class="attribVal">否</span><br
@@ -5957,6 +9307,26 @@ abilitydata:
     attrib: 克隆数量： <span class="attribVal">1 / 2 / 3</span>
     cmb: ''
     lore: 我是不是在哪见过你？
+    hurl: meepo
+  special_bonus_evasion_10:
+    dname: 10% 闪避
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_evasion_10_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: centaur
+  special_bonus_unique_meepo:
+    dname: "-3秒 忽悠冷却"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_meepo_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: meepo
   treant_natures_guise:
     dname: 自然蔽护
@@ -6044,6 +9414,26 @@ abilitydata:
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 100/85/70</div><br clear="left" /></div>
     lore: 鲁夫伦特召唤自然的先祖之魂，将其力量施予他的同胞。
+    hurl: treant
+  special_bonus_unique_treant_2:
+    dname: "+40 寄生种子伤害/治疗"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_treant_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: treant
+  special_bonus_unique_treant:
+    dname: "+5 活体护甲格挡次数"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_treant_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: treant
   ogre_magi_fireblast:
     dname: 火焰爆轰
@@ -6134,6 +9524,26 @@ abilitydata:
     cmb: ''
     lore: 尽管很大程度上受到智商的制约，食人魔魔法师仍能依靠纯熟的技巧在战斗中取胜。
     hurl: ogre_magi
+  special_bonus_spell_amplify_15:
+    dname: "+15% 技能增强"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_spell_amplify_15_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: earth_spirit
+  special_bonus_unique_ogre_magi:
+    dname: "+40 嗜血术攻速加成"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_ogre_magi_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: ogre_magi
   undying_decay:
     dname: 腐朽
     affects: 技能： <span class="attribVal">点目标</span><br />伤害类型： <span class="attribVal">魔法</span><br
@@ -6217,6 +9627,26 @@ abilitydata:
       width="16" height="16" border="0" /> 75</div><br clear="left" /></div>
     lore: 新近死者的血肉增强了挽歌瘟疫的力量。
     hurl: undying
+  special_bonus_unique_undying:
+    dname: "+50 墓碑僵尸攻击力"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_undying_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: undying
+  special_bonus_unique_undying_2:
+    dname: "-2秒 腐朽冷却"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_undying_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: undying
   rubick_telekinesis:
     dname: 隔空取物
     affects: 技能： <span class="attribVal">单位目标</span><br />影响： <span class="attribVal">敌方单位</span><br
@@ -6293,6 +9723,16 @@ abilitydata:
       width="16" height="16" border="0" /> 20/18/16</div><br clear="left" /></div>
     lore: "...不过即使是他们那些低级魔法也能变得非常实用。"
     hurl: rubick
+  special_bonus_unique_rubick:
+    dname: "+400 隔空取物着陆距离"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_rubick_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: rubick
   disruptor_thunder_strike:
     dname: 雷霆之击
     affects: 技能： <span class="attribVal">单位目标</span><br />影响： <span class="attribVal">敌方单位</span><br
@@ -6364,6 +9804,46 @@ abilitydata:
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 90/80/70</div><br clear="left" /></div>
     lore: 只有高地人能从杜鲁德大草原上的夏日风暴中幸存。
+    hurl: disruptor
+  special_bonus_unique_disruptor_2:
+    dname: "-3秒 动能力场冷却"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_disruptor_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: disruptor
+  special_bonus_unique_disruptor_3:
+    dname: "+40 雷霆之击伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_disruptor_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: disruptor
+  special_bonus_unique_disruptor:
+    dname: "+4 雷霆之击打击次数"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_disruptor_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: disruptor
+  special_bonus_magic_resistance_30:
+    dname: "+30% 魔法抗性"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_magic_resistance_30_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: disruptor
   nyx_assassin_impale:
     dname: 穿刺
@@ -6462,6 +9942,36 @@ abilitydata:
       width="16" height="16" border="0" /> 70/60/50</div><br clear="left" /></div>
     lore: 圣甲虫为女王的荣耀而杀戮。
     hurl: nyx_assassin
+  special_bonus_unique_nyx_2:
+    dname: "+50 穿刺伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_nyx_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: nyx_assassin
+  special_bonus_agility_40:
+    dname: "+40 敏捷"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_agility_40_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: nyx_assassin
+  special_bonus_unique_nyx:
+    dname: 200% 尖刺外壳伤害
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_nyx_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: nyx_assassin
   naga_siren_mirror_image:
     dname: 镜像
     affects: 技能： <span class="attribVal">无目标</span><br />
@@ -6539,6 +10049,26 @@ abilitydata:
     cmb: <div class="cooldownMana"><div class="cooldown"><img alt="冷却时间" title="冷却时间"
       class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 1</div><br clear="left" /></div>
+    lore: ''
+    hurl: naga_siren
+  special_bonus_unique_naga_siren_2:
+    dname: "-3秒 诱捕冷却"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_naga_siren_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: naga_siren
+  special_bonus_unique_naga_siren:
+    dname: "+1 镜像幻象"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_naga_siren_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
     lore: ''
     hurl: naga_siren
   keeper_of_the_light_illuminate:
@@ -6674,6 +10204,36 @@ abilitydata:
       width="16" height="16" border="0" /> 10</div><br clear="left" /></div>
     lore: 伊扎洛隐藏的光芒以华丽的方式现身。
     hurl: keeper_of_the_light
+  special_bonus_unique_keeper_of_the_light_2:
+    dname: "+300 查克拉魔法回复"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_keeper_of_the_light_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: keeper_of_the_light
+  special_bonus_cast_range_400:
+    dname: "+400 施法距离"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_cast_range_400_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: keeper_of_the_light
+  special_bonus_unique_keeper_of_the_light:
+    dname: "+200 冲击波伤害/治疗"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_keeper_of_the_light_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: keeper_of_the_light
   wisp_tether:
     dname: 羁绊
     affects: 技能： <span class="attribVal">单位目标</span><br />影响： <span class="attribVal">友方</span><br
@@ -6777,6 +10337,46 @@ abilitydata:
       width="16" height="16" border="0" /> 100/80/60</div><br clear="left" /></div>
     lore: 艾欧本身就是宇宙奥秘的体现。
     hurl: wisp
+  special_bonus_mp_regen_10:
+    dname: "+10 魔法恢复"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_mp_regen_10_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: wisp
+  special_bonus_hp_regen_20:
+    dname: "+20 生命恢复"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_hp_regen_20_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: wisp
+  special_bonus_unique_wisp_2:
+    dname: 羁绊造成眩晕
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_wisp_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: wisp
+  special_bonus_unique_wisp:
+    dname: "+150 幽魂伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_wisp_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: wisp
   visage_grave_chill:
     dname: 黄泉颤抖
     affects: 技能： <span class="attribVal">单位目标</span><br />影响： <span class="attribVal">敌方单位</span><br
@@ -6848,6 +10448,36 @@ abilitydata:
       width="16" height="16" border="0" /> 130</div><br clear="left" /></div>
     lore: 死灵飞龙的佣兽，也是狭窄迷宫的守卫，俯视着他的领地。
     hurl: visage
+  special_bonus_unique_visage_3:
+    dname: 灵魂超度攻击两个目标
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_visage_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: visage
+  special_bonus_spell_amplify_20:
+    dname: "+20% 技能增强"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_spell_amplify_20_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: visage
+  special_bonus_unique_visage_2:
+    dname: "+120 佣兽移动速度"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_visage_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: visage
   slark_dark_pact:
     dname: 黑暗契约
     affects: 技能： <span class="attribVal">无目标</span><br />伤害类型： <span class="attribVal">魔法</span><br
@@ -6918,6 +10548,16 @@ abilitydata:
       width="16" height="16" border="0" /> 60</div><br clear="left" /></div>
     lore: 秘而不宣的第十三个逃犯是个浑身滑溜的敌人。
     hurl: slark
+  special_bonus_unique_slark:
+    dname: "+3秒 突袭束缚时间"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_slark_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: slark
   medusa_split_shot:
     dname: 分裂箭
     affects: 技能： <span class="attribVal">无目标, 切换</span><br />无视技能免疫： <span class="attribVal"><font
@@ -6982,6 +10622,56 @@ abilitydata:
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 90</div><br clear="left" /></div>
     lore: 美杜莎的美貌感天动地。
+    hurl: medusa
+  special_bonus_intelligence_12:
+    dname: "+12 智力"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_intelligence_12_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: medusa
+  special_bonus_unique_medusa_2:
+    dname: "+1 分裂箭目标"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_medusa_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: medusa
+  special_bonus_mp_600:
+    dname: "+600 魔法"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_mp_600_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: medusa
+  special_bonus_lifesteal_25:
+    dname: 25% 吸血
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_lifesteal_25_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: medusa
+  special_bonus_unique_medusa:
+    dname: "+2秒 石化凝视眩晕"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_medusa_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: medusa
   troll_warlord_berserkers_rage:
     dname: 狂战士之怒
@@ -7066,6 +10756,16 @@ abilitydata:
       width="16" height="16" border="0" /> 35</div><br clear="left" /></div>
     lore: 纯粹的仇恨让气血迅速上涌，刀剑也随之飞舞。
     hurl: troll_warlord
+  special_bonus_unique_troll_warlord:
+    dname: "-7秒 旋风飞斧冷却"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_troll_warlord_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: troll_warlord
   centaur_hoof_stomp:
     dname: 马蹄践踏
     affects: 技能： <span class="attribVal">无目标</span><br />伤害类型： <span class="attribVal">魔法</span><br
@@ -7129,6 +10829,26 @@ abilitydata:
       title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 90/75/60</div><br clear="left" /></div>
     lore: 欧梅克斯的巨大腰带，彰显着布拉德瓦登是同族中最伟大的战士，激励着他的格斗士同伴在野蛮的战斗中跟随他。
+    hurl: centaur
+  special_bonus_unique_centaur_1:
+    dname: 反击变成光环
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_centaur_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: centaur
+  special_bonus_unique_centaur_2:
+    dname: "+1秒 马蹄践踏持续时间"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_centaur_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: centaur
   magnataur_shockwave:
     dname: 震荡波
@@ -7201,6 +10921,26 @@ abilitydata:
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 120</div><br clear="left" /></div>
     lore: 作战时愤怒的马格纳斯如同喷发的杰尔拉克山。
+    hurl: magnataur
+  special_bonus_unique_magnus_2:
+    dname: "+10% 授予力量攻击力/分裂"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_magnus_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: magnataur
+  special_bonus_unique_magnus_3:
+    dname: "+500 巨角冲撞距离"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_magnus_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: magnataur
   shredder_whirling_death:
     dname: 死亡旋风
@@ -7320,6 +11060,16 @@ abilitydata:
       width="16" height="16" border="0" /> 0</div><br clear="left" /></div>
     lore: ''
     hurl: shredder
+  special_bonus_unique_timbersaw:
+    dname: "+6% 死亡旋风属性降低"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_timbersaw_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: shredder
   bristleback_viscous_nasal_goo:
     dname: 粘稠鼻液
     affects: 技能： <span class="attribVal">单位目标</span><br />影响： <span class="attribVal">敌方单位</span><br
@@ -7386,6 +11136,46 @@ abilitydata:
       最大叠加次数： <span class="attribVal">5 / 7 / 9</span>
     cmb: ''
     lore: "“别没事就发火”，他母亲总是这样训斥他。但是在战斗中，火冒三丈将有非凡效果。"
+    hurl: bristleback
+  special_bonus_unique_bristleback:
+    dname: "+4 鼻液叠加上限"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_bristleback_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: bristleback
+  special_bonus_attack_speed_50:
+    dname: "+50 攻击速度"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_attack_speed_50_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: elder_titan
+  special_bonus_spell_lifesteal_10:
+    dname: 10% 技能吸血
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_spell_lifesteal_10_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Skywrath_Mage
+  special_bonus_unique_bristleback_2:
+    dname: "+25 刺针叠加伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_bristleback_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: bristleback
   tusk_ice_shards:
     dname: 寒冰碎片
@@ -7498,6 +11288,36 @@ abilitydata:
       width="16" height="16" border="0" /> 36/24/12</div><br clear="left" /></div>
     lore: 谁打出第一拳往往不重要，看的可是最后一拳。
     hurl: tusk
+  special_bonus_unique_tusk_2:
+    dname: "+150 雪球伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_tusk_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: tusk
+  special_bonus_hp_700:
+    dname: "+700 生命"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_hp_700_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: tusk
+  special_bonus_unique_tusk:
+    dname: "+150% 海象神拳暴击"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_tusk_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: tusk
   skywrath_mage_arcane_bolt:
     dname: 奥法鹰隼
     affects: 技能： <span class="attribVal">单位目标</span><br />影响： <span class="attribVal">敌方单位</span><br
@@ -7569,6 +11389,16 @@ abilitydata:
       width="16" height="16" border="0" /> 60/40/20</div><br clear="left" /></div>
     lore: 天怒一族中只有勤加修炼的法师才能将苍天塑造成这样的风暴。
     hurl: Skywrath_Mage
+  special_bonus_unique_skywrath:
+    dname: "-4秒 上古封印冷却"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_skywrath_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: Skywrath_Mage
   abaddon_death_coil:
     dname: 迷雾缠绕
     affects: 技能： <span class="attribVal">单位目标</span><br />影响： <span class="attribVal">英雄</span><br
@@ -7639,6 +11469,16 @@ abilitydata:
       title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 60/50/40</div><br clear="left" /></div>
     lore: " 魔霭圣池中最为扭曲的馈赠，凡人对死亡的认知在此力量前显得异常可笑。敌之尖刀，我之伤药；死地后生，回光返照。"
+    hurl: abaddon
+  special_bonus_unique_abaddon:
+    dname: "+300 无光之盾吸收"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_abaddon_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: abaddon
   elder_titan_echo_stomp:
     dname: 回音重踏
@@ -7729,6 +11569,26 @@ abilitydata:
       width="16" height="16" border="0" /> 100</div><br clear="left" /></div>
     lore: 巨神创造之世他亲手将其撕裂。
     hurl: elder_titan
+  special_bonus_unique_elder_titan_2:
+    dname: "+30 回音践踏伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_elder_titan_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: elder_titan
+  special_bonus_unique_elder_titan:
+    dname: "+100 星体游魂触碰英雄额外攻击力"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_elder_titan_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: elder_titan
   legion_commander_overwhelming_odds:
     dname: 压倒性优势
     affects: 技能： <span class="attribVal">点目标</span><br />伤害类型： <span class="attribVal">魔法</span><br
@@ -7798,6 +11658,36 @@ abilitydata:
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 50</div><br clear="left" /></div>
     lore: 与石堂城的士兵进行单挑是令人无法抗拒的挑战。
+    hurl: legion_commander
+  special_bonus_unique_legion_commander_3:
+    dname: "+10% 勇气之霎触发几率"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_legion_commander_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: legion_commander
+  special_bonus_unique_legion_commander:
+    dname: "+40 决斗攻击力加成"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_legion_commander_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: legion_commander
+  special_bonus_unique_legion_commander_2:
+    dname: "-8秒 强攻冷却"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_legion_commander_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: legion_commander
   ember_spirit_searing_chains:
     dname: 炎阳索
@@ -7887,6 +11777,26 @@ abilitydata:
       class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 0</div><br clear="left" /></div>
     lore: 身怀灵力，重焕教义。
+    hurl: ember_spirit
+  special_bonus_unique_ember_spirit_1:
+    dname: "+500 烈火罩吸收伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_ember_spirit_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: ember_spirit
+  special_bonus_unique_ember_spirit_2:
+    dname: "+2秒 炎阳索持续时间"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_ember_spirit_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: ember_spirit
   earth_spirit_boulder_smash:
     dname: 巨石冲击
@@ -8004,6 +11914,26 @@ abilitydata:
       width="16" height="16" border="0" /> 100/90/80</div><br clear="left" /></div>
     lore: 在大地之灵的呼唤下，敌人体内的鲜血和骨头中所含的矿物都开始倒戈。
     hurl: earth_spirit
+  special_bonus_unique_earth_spirit_2:
+    dname: 地磁之握可作用友军
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_earth_spirit_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: earth_spirit
+  special_bonus_unique_earth_spirit:
+    dname: "+300 巨石翻滚伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_earth_spirit_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: earth_spirit
   terrorblade_reflection:
     dname: 倒影
     affects: 技能： <span class="attribVal">无目标</span><br />无视技能免疫： <span class="attribVal">否</span><br
@@ -8076,6 +12006,16 @@ abilitydata:
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 120/80/40</div><br clear="left" /></div>
     lore: 你是不是不想要这条命？恶魔掠夺者偷走的正是你最为珍视的。
+    hurl: terrorblade
+  special_bonus_unique_terrorblade:
+    dname: "-30秒 魂断冷却"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_terrorblade_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: terrorblade
   phoenix_icarus_dive:
     dname: 凤凰冲击
@@ -8208,6 +12148,36 @@ abilitydata:
     cmb: ''
     lore: 吱吱！
     hurl: phoenix
+  special_bonus_unique_phoenix_3:
+    dname: "+65 烈火精灵每秒伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_phoenix_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: phoenix
+  special_bonus_unique_phoenix_1:
+    dname: "+2 超新星可攻击次数"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_phoenix_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: phoenix
+  special_bonus_unique_phoenix_2:
+    dname: "+1秒 超新星眩晕持续时间"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_phoenix_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: phoenix
   oracle_fortunes_end:
     dname: 气运之末
     affects: 技能： <span class="attribVal">持续施法, 单位目标</span><br />影响： <span class="attribVal">英雄</span><br
@@ -8277,6 +12247,26 @@ abilitydata:
       title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 100/65/30</div><br clear="left" /></div>
     lore: 敌人和虚妄的先知一样常常会编造他人的命运。
+    hurl: oracle
+  special_bonus_unique_oracle_2:
+    dname: "+0.75秒 气运之末最大持续时间"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_oracle_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: oracle
+  special_bonus_unique_oracle:
+    dname: "+2秒 虚妄之诺持续时间"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_oracle_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: oracle
   techies_land_mines:
     dname: 感应地雷
@@ -8384,6 +12374,26 @@ abilitydata:
       width="16" height="16" border="0" /> 10</div><br clear="left" /></div>
     lore: 矿工湾的陷落！
     hurl: techies
+  special_bonus_unique_techies:
+    dname: "+400 爆破起飞伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_techies_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: techies
+  special_bonus_attack_damage_250:
+    dname: "+250 攻击力"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_attack_damage_250_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: techies
   winter_wyvern_arctic_burn:
     dname: 严寒烧灼
     affects: 技能： <span class="attribVal">无目标</span><br />伤害类型： <span class="attribVal">魔法</span><br
@@ -8461,6 +12471,36 @@ abilitydata:
       width="16" height="16" border="0" /> 80</div><br clear="left" /></div>
     lore: 这个诅咒在书龙咒语中最为古老，也是那句老话的真相：有时候我的敌人的敌人还是我的敌人。
     hurl: winter_wyvern
+  special_bonus_unique_winter_wyvern_3:
+    dname: "+1秒 极寒之拥持续时间"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_winter_wyvern_3_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: winter_wyvern
+  special_bonus_unique_winter_wyvern_1:
+    dname: "+15% 极寒烧灼减速"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_winter_wyvern_1_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: winter_wyvern
+  special_bonus_unique_winter_wyvern_2:
+    dname: "-3秒 碎裂冲击冷却"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_winter_wyvern_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: winter_wyvern
   arc_warden_flux:
     dname: 乱流
     affects: 技能： <span class="attribVal">单位目标</span><br />影响： <span class="attribVal">敌方单位</span><br
@@ -8505,7 +12545,7 @@ abilitydata:
     dname: 闪光幽魂
     affects: 技能： <span class="attribVal">点目标</span><br />伤害类型： <span class="attribVal">魔法</span><br
       />无视技能免疫： <span class="attribVal">否</span><br />
-    desc: 召唤一个缓慢实体化的闪光怨灵萦绕在目标区域.一旦有敌方单位进入范围，怨灵将贴近敌人自我熔化并造成魔法伤害，同时使目标减速。
+    desc: 召唤一个缓慢实体化的闪光怨灵萦绕在目标区域。一旦有敌方单位进入范围，怨灵将贴近敌人自我熔化并造成魔法伤害，同时使目标减速。
     notes: ''
     dmg: ''
     attrib: |-
@@ -8533,6 +12573,26 @@ abilitydata:
       width="16" height="16" border="0" /> 60/50/40</div><br clear="left" /></div>
     lore: 被同类的力量扭曲后，天穹守望者变成了自己最为不齿的：大分裂。
     hurl: arc_warden
+  special_bonus_unique_arc_warden_2:
+    dname: "+20 乱流每秒伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_arc_warden_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: arc_warden
+  special_bonus_unique_arc_warden:
+    dname: "+250 闪光幽魂伤害"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_arc_warden_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: arc_warden
   abyssal_underlord_firestorm:
     dname: 火焰风暴
     affects: 技能： <span class="attribVal">点目标</span><br />伤害类型： <span class="attribVal">魔法</span><br
@@ -8557,7 +12617,7 @@ abilitydata:
     dname: 怨念深渊
     affects: 技能： <span class="attribVal">点目标</span><br />伤害类型： <span class="attribVal">魔法</span><br
       />无视技能免疫： <span class="attribVal">否</span><br />
-    desc: 在目标区域制造致命的深渊；踏入深渊的敌方单位将被缠绕，持续%ensnare_duration%秒。每个敌方单位每隔3.6秒都会再次受到作用。
+    desc: 在目标区域制造致命的深渊；踏入深渊的敌方单位将被缠绕。每个敌方单位每隔3.6秒都会再次受到作用。
     notes: ''
     dmg: ''
     attrib: |-
@@ -8614,6 +12674,36 @@ abilitydata:
     cmb: ''
     lore: ''
     hurl: abyssal_underlord
+  special_bonus_spell_amplify_12:
+    dname: "+12% 技能增强"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_spell_amplify_12_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: abyssal_underlord
+  special_bonus_attack_speed_60:
+    dname: "+60 攻击速度"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_attack_speed_60_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: abyssal_underlord
+  special_bonus_unique_underlord:
+    dname: "+0.4秒 怨念深渊缠绕"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_underlord_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: abyssal_underlord
   monkey_king_boundless_strike:
     dname: 棒击大地
     affects: 技能： <span class="attribVal">点目标</span><br />影响： <span class="attribVal">敌方单位</span><br
@@ -8641,7 +12731,7 @@ abilitydata:
     attrib: |-
       距离： <span class="attribVal">1000</span><br />
       受到伤害时冷却时间： <span class="attribVal">3</span><br />
-      乾坤之跃伤害： <span class="attribVal">100 / 180 / 260 / 340</span><br />
+      乾坤之跃伤害： <span class="attribVal">140 / 210 / 280 / 350</span><br />
       乾坤之跃减速： <span class="attribVal">20% / 40% / 60% / 80%</span>
     cmb: <div class="cooldownMana"><div class="cooldown"><img alt="冷却时间" title="冷却时间"
       class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
@@ -8738,4 +12828,24 @@ abilitydata:
       title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 130/110/90</div><br clear="left" /></div>
     lore: 齐天大圣将一簇猴毛吹向敌人，每根毛都变成了自己的复制体。
+    hurl: monkey_king
+  special_bonus_unique_monkey_king_2:
+    dname: "+75 如意棒法攻击力"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_monkey_king_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: monkey_king
+  special_bonus_unique_monkey_king:
+    dname: "+100% 棒击大地暴击"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_unique_monkey_king_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: monkey_king
