@@ -270,7 +270,7 @@ abilitydata:
     attrib: ''
     cmb: ''
     lore: ''
-    hurl: venomancer
+    hurl: winter_wyvern
   special_bonus_hp_250:
     dname: "+250 к здоровью"
     affects: 'СПОСОБНОСТЬ: <span class="attribVal">пассивная</span><br />'
@@ -300,7 +300,7 @@ abilitydata:
     attrib: ''
     cmb: ''
     lore: ''
-    hurl: gyrocopter
+    hurl: winter_wyvern
   special_bonus_armor_15:
     dname: "+15 к броне"
     affects: 'СПОСОБНОСТЬ: <span class="attribVal">пассивная</span><br />'
@@ -567,7 +567,7 @@ abilitydata:
       <span class="scepterVal">ВРЕМЯ ВОССТАНОВЛЕНИЯ ЗАРЯДА:</span> <span class="attribVal">40</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 150/200/250</div><div class="cooldown"><img
+      width="16" height="16" border="0" /> 200/225/250</div><div class="cooldown"><img
       alt="Перезарядка" title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 60</div><br clear="left" /></div>
     lore: Когда за тобой охотится Стригвир, любая рана становится смертельной.
@@ -647,8 +647,8 @@ abilitydata:
     affects: 'СПОСОБНОСТЬ: <span class="attribVal">направленная на точку</span><br
       />ТИП УРОНА: <span class="attribVal">магический</span><br />СКВОЗЬ НЕВОСПР.
       К МАГИИ: <span class="attribVal">Нет</span><br />'
-    desc: Морозный шквал наносит урон и замедляет движение и атаку врага в выбранной
-      области.
+    desc: Обдаёт выбранную область морозным ветром, который наносит врагам урон и
+      замедляет их передвижение и атаку.
     notes: ''
     dmg: ''
     attrib: |-
@@ -957,7 +957,7 @@ abilitydata:
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 125/140/155/170</div><div class="cooldown"><img
       alt="Перезарядка" title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 15</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 18/17/16/15</div><br clear="left" /></div>
     lore: Силою земли нишианский тотем раскалывает поверхность планеты до ее ядра.
     hurl: earthshaker
   earthshaker_enchant_totem:
@@ -976,7 +976,7 @@ abilitydata:
       <span class="scepterVal">ДАЛЬНОСТЬ ПРЫЖКА СО СКИПЕТРОМ:</span> <span class="attribVal">900</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 20/30/40/50</div><div class="cooldown"><img
+      width="16" height="16" border="0" /> 35/40/45/50</div><div class="cooldown"><img
       alt="Перезарядка" title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 5</div><br clear="left" /></div>
     lore: Неукротимая мощь Рейгора способна крушить горы.
@@ -1044,7 +1044,7 @@ abilitydata:
     attrib: ''
     cmb: ''
     lore: ''
-    hurl: winter_wyvern
+    hurl: techies
   special_bonus_attack_damage_50:
     dname: "+50 к урону"
     affects: 'СПОСОБНОСТЬ: <span class="attribVal">пассивная</span><br />'
@@ -1054,7 +1054,7 @@ abilitydata:
     attrib: ''
     cmb: ''
     lore: ''
-    hurl: winter_wyvern
+    hurl: visage
   special_bonus_unique_earthshaker_2:
     dname: "+40 к урону от эха у Echo Slam"
     affects: 'СПОСОБНОСТЬ: <span class="attribVal">пассивная</span><br />'
@@ -2536,7 +2536,7 @@ abilitydata:
     notes: ''
     dmg: 'к урону: <span class="attribVal">100 / 175 / 250 / 325</span><br />'
     attrib: |-
-      ДЛИТЕЛЬНОСТЬ: <span class="attribVal">2</span><br />
+      ДЛИТЕЛЬНОСТЬ: <span class="attribVal">1.7 / 1.8 / 1.9 / 2</span><br />
       РАДИУС: <span class="attribVal">255</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -2576,7 +2576,7 @@ abilitydata:
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 25/25/25/25</div><div class="cooldown"><img
       alt="Перезарядка" title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 34/28/22/16</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 35/30/25/20</div><br clear="left" /></div>
     lore: Цитируя Вигильский кодекс во всеуслышание, рыцарь лишь укрепляется в верности
       своим мятежным законам. Как поэтично!
     hurl: sven
@@ -2679,7 +2679,7 @@ abilitydata:
       УРОН: <span class="attribVal">75 / 150 / 225 / 300</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 120/120/120/120</div><div class="cooldown"><img
+      width="16" height="16" border="0" /> 90/100/110/120</div><div class="cooldown"><img
       alt="Перезарядка" title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 8</div><br clear="left" /></div>
     lore: Колоссальная сила Tiny позволяет ему подкидывать в воздух даже самых крепких
@@ -2717,7 +2717,7 @@ abilitydata:
       УМЕНЬШЕНИЕ СКОРОСТИ АТАКИ: <span class="attribVal">20 / 35 / 50</span><br />
       ДОП. СКОРОСТЬ ПЕРЕДВИЖЕНИЯ: <span class="attribVal">40 / 50 / 60</span><br />
       БОНУС TOSS: <span class="attribVal">35% / 50% / 65%</span><br />
-      <span class="scepterVal">ДОП. РАДИУС АТАКИ СО СКИПЕТРОМ:</span> <span class="attribVal">85</span><br />
+      <span class="scepterVal">ДОП. РАДИУС АТАКИ СО СКИПЕТРОМ:</span> <span class="attribVal">150</span><br />
       <span class="scepterVal">УРОН СОСЕДНИМ ЦЕЛЯМ СО СКИПЕТРОМ:</span> <span class="attribVal">50%</span><br />
       <span class="scepterVal">ДОП. УРОН ЗДАНИЯМ СО СКИПЕТРОМ:</span> <span class="attribVal">75%</span><br />
       <span class="scepterVal">ДОП. УРОН TOSS СО СКИПЕТРОМ:</span> <span class="attribVal">50% / 65% / 80%</span>
@@ -2903,12 +2903,12 @@ abilitydata:
       цель с вражеским существом или деревом, если расстояние до них не превышает
       525 или 500 соответственно.<br />Снаряд этой способности можно сбить с цели.
     dmg: 'к урону: <span class="attribVal">0 / 0 / 0 / 0</span><br />'
-    attrib: 'ДЛИТЕЛЬНОСТЬ: <span class="attribVal">1.5 / 2.25 / 3 / 3.75</span>'
+    attrib: 'ДЛИТЕЛЬНОСТЬ: <span class="attribVal">2 / 2.6 / 3.2 / 3.8</span>'
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 90/100/110/120</div><div class="cooldown"><img
       alt="Перезарядка" title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 12</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 18/16/14/12</div><br clear="left" /></div>
     lore: Мастерство владения луком позволяет Лиралей выпустить стрелу с толстой верёвкой,
       которая не даст жертве вырваться.
     hurl: windrunner
@@ -3495,8 +3495,8 @@ abilitydata:
     attrib: |-
       ДОП. БРОНЯ СОЮЗНИКОВ: <span class="attribVal">3 / 5 / 7 / 9</span><br />
       ДЛИТЕЛЬНОСТЬ ЗАМЕДЛЕНИЯ: <span class="attribVal">2 / 2 / 2 / 2</span><br />
-      ЗАМЕДЛЕНИЕ ПРОТИВНИКОВ: <span class="attribVal">30% / 30% / 30% / 30%</span><br />
-      ЗАМЕДЛЕНИЕ АТАКИ: <span class="attribVal">30</span>
+      ЗАМЕДЛЕНИЕ ПРОТИВНИКОВ: <span class="attribVal">24% / 26% / 28% / 30%</span><br />
+      ЗАМЕДЛЕНИЕ АТАКИ: <span class="attribVal">24 / 26 / 28 / 30</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 50/50/50/50</div><div class="cooldown"><img
@@ -3602,7 +3602,7 @@ abilitydata:
       а по приземлении оглушают их и наносят урон.
     notes: Скорость шипов — 1600 единиц в секунду.
     dmg: 'к урону: <span class="attribVal">80 / 140 / 200 / 260</span><br />'
-    attrib: 'ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ: <span class="attribVal">1.1 / 1.6 / 2.1 / 2.6</span>'
+    attrib: 'ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ: <span class="attribVal">1.4 / 1.8 / 2.2 / 2.6</span>'
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 100/120/140/160</div><div class="cooldown"><img
@@ -3660,8 +3660,6 @@ abilitydata:
       что позволяет избежать урона с помощью некоторых предметов.
     dmg: ''
     attrib: |-
-      УРОН: <span class="attribVal">600 / 725 / 850</span><br />
-      <span class="scepterVal">УРОН СО СКИПЕТРОМ:</span> <span class="attribVal">725 / 875 / 1025</span><br />
       <span class="scepterVal">РАСХОД МАНЫ СО СКИПЕТРОМ:</span> <span class="attribVal">200 / 420 / 625</span><br />
       <span class="scepterVal">ПЕРЕЗАРЯДКА СО СКИПЕТРОМ:</span> <span class="attribVal">100 / 60 / 20</span><br />
       <span class="scepterVal">ОБЛАСТЬ ДЕЙСТВИЯ СО СКИПЕТРОМ:</span> <span class="attribVal">325</span>
@@ -3703,16 +3701,16 @@ abilitydata:
     cmb: ''
     lore: ''
     hurl: earth_spirit
-  special_bonus_spell_amplify_8:
-    dname: "+8% к урону от способностей"
+  special_bonus_unique_lion_3:
+    dname: "+300 Finger of Death Damage"
     affects: 'СПОСОБНОСТЬ: <span class="attribVal">пассивная</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_spell_amplify_8_Description
+    desc: DOTA_Tooltip_ability_special_bonus_unique_lion_3_Description
     notes: ''
     dmg: ''
     attrib: ''
     cmb: ''
     lore: ''
-    hurl: phoenix
+    hurl: lion
   special_bonus_all_stats_20:
     dname: "+20 ко всем атрибутам"
     affects: 'СПОСОБНОСТЬ: <span class="attribVal">пассивная</span><br />'
@@ -4785,7 +4783,7 @@ abilitydata:
       УСИЛЕНИЕ ВОССТАНОВЛЕНИЯ: <span class="attribVal">75%</span><br />
       ЗАМЕДЛЕНИЕ ПЕРЕДВИЖЕНИЯ: <span class="attribVal">12% / 20% / 28% / 36%</span><br />
       РАДИУС ЗАМЕДЛЕНИЯ: <span class="attribVal">750</span><br />
-      ДОП. МАГИЧЕСКИЙ УРОН: <span class="attribVal">20%</span>
+      ДОП. МАГИЧЕСКИЙ УРОН: <span class="attribVal">25%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 50</div><div class="cooldown"><img alt="Перезарядка"
@@ -4832,7 +4830,7 @@ abilitydata:
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 175/340/500</div><div class="cooldown"><img
       alt="Перезарядка" title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 90/80/70</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 100</div><br clear="left" /></div>
     lore: Количество смерти и страданий, витающих в воздухе, увеличивает мощь порочной
       магии Necrophos.
     hurl: necrolyte
@@ -5508,7 +5506,7 @@ abilitydata:
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 160</div><div class="cooldown"><img alt="Перезарядка"
       title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 240/140/40</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 200/120/40</div><br clear="left" /></div>
     lore: Участники заговора против Wraith King удивляются тому, что он никогда не
       умирает.
     hurl: skeleton_king
@@ -6735,8 +6733,8 @@ abilitydata:
       и постройкам. Чем меньше рядом врагов, тем больше урона они получат. Башни получают
       на 40% больше урона. Действует 10 секунд.
     notes: Урон не уменьшается блокировкой урона.<br />Способность будет действовать,
-      даже если вы умрете.<br />Наносит урон строениям, а также невосприимчивым к
-      заклинаниям и невидимым врагам.
+      даже если герой умрёт.<br />Наносит урон строениям, а также невосприимчивым
+      к заклинаниям и невидимым врагам.
     dmg: 'к урону: <span class="attribVal">9 / 18 / 27 / 36</span><br />'
     attrib: 'РАДИУС: <span class="attribVal">500</span>'
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
@@ -7741,7 +7739,7 @@ abilitydata:
     notes: ''
     dmg: ''
     attrib: |-
-      ДЛИТЕЛЬНОСТЬ: <span class="attribVal">50</span><br />
+      ДЛИТЕЛЬНОСТЬ: <span class="attribVal">40</span><br />
       РАДИУС ОБЗОРА ПРОТИВНИКОВ: <span class="attribVal">675</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -8251,6 +8249,16 @@ abilitydata:
       width="16" height="16" border="0" /> 60</div><br clear="left" /></div>
     lore: Смесь обжигающего холода и леденящего пламени разрывает поле боя в клочья.
     hurl: jakiro
+  special_bonus_spell_amplify_8:
+    dname: "+8% к урону от способностей"
+    affects: 'СПОСОБНОСТЬ: <span class="attribVal">пассивная</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_spell_amplify_8_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: phoenix
   special_bonus_unique_jakiro_2:
     dname: "+35 к урону в секунду от Dual Breath"
     affects: 'СПОСОБНОСТЬ: <span class="attribVal">пассивная</span><br />'
@@ -8352,8 +8360,8 @@ abilitydata:
       РАДИУС: <span class="attribVal">200 / 200 / 200 / 200</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 100/100/100/100</div><div class="cooldown"><img
-      alt="Перезарядка" title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
+      width="16" height="16" border="0" /> 125</div><div class="cooldown"><img alt="Перезарядка"
+      title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 40</div><br clear="left" /></div>
     lore: Большинство противников, попав в джунгли Йама Раскав, начинают прорубаться
       сквозь заросли в надежде найти беглеца. Batrider же предпочитает просто уничтожить
@@ -8630,7 +8638,7 @@ abilitydata:
     dmg: ''
     attrib: |-
       ДЛИТЕЛЬНОСТЬ ИЛЛЮЗИЙ: <span class="attribVal">5 / 6 / 7</span><br />
-      УРОН ИЛЛЮЗИЙ: <span class="attribVal">30%</span><br />
+      УРОН ИЛЛЮЗИЙ: <span class="attribVal">40%</span><br />
       УРОН ПО ИЛЛЮЗИЯМ: <span class="attribVal">200% / 200% / 200%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -8887,8 +8895,8 @@ abilitydata:
       <span class="scepterVal">ДЛИТЕЛЬНОСТЬ СО СКИПЕТРОМ:</span> <span class="attribVal">17</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 100/125/150</div><div class="cooldown"><img
-      alt="Перезарядка" title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
+      width="16" height="16" border="0" /> 150</div><div class="cooldown"><img alt="Перезарядка"
+      title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 40</div><br clear="left" /></div>
     lore: Ледяные бури прошлых эпох вырываются из холодных конечностей Калдра, обрушиваясь
       на мир и превращая его жителей в памятники вечного могущества холода.
@@ -10984,7 +10992,7 @@ abilitydata:
       цель зомби погибла или вышла из зоны видимости, зомби умирает.
     dmg: ''
     attrib: |-
-      УДАРОВ ДЛЯ УНИЧТОЖЕНИЯ: <span class="attribVal">3 / 4 / 5 / 7</span><br />
+      УДАРОВ ДЛЯ УНИЧТОЖЕНИЯ: <span class="attribVal">4 / 5 / 6 / 8</span><br />
       ВРЕМЯ ДЕЙСТВИЯ НАДГРОБИЯ: <span class="attribVal">15 / 20 / 25 / 30</span><br />
       РАДИУС ПОЯВЛЕНИЯ ЗОМБИ: <span class="attribVal">600 / 800 / 1000 / 1200</span><br />
       ГРАНИЦА ЗДОРОВЬЯ ДЛЯ УСИЛЕНИЯ ЗОМБИ: <span class="attribVal">100 / 200 / 300 / 400</span><br />
@@ -12805,7 +12813,7 @@ abilitydata:
     attrib: ''
     cmb: ''
     lore: ''
-    hurl: Skywrath_Mage
+    hurl: bristleback
   special_bonus_unique_bristleback_2:
     dname: "+25 к дополнительному урону за Quill Spray"
     affects: 'СПОСОБНОСТЬ: <span class="attribVal">пассивная</span><br />'
@@ -13064,11 +13072,21 @@ abilitydata:
       УРОН: <span class="attribVal">600 / 1000 / 1400</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Расход маны" title="Расход
       маны" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 350/575/800</div><div class="cooldown"><img
+      width="16" height="16" border="0" /> 300/550/800</div><div class="cooldown"><img
       alt="Перезарядка" title="Перезарядка" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 60/40/20</div><br clear="left" /></div>
     lore: Только самые опытные маги-скайрасы могут заставлять небеса разразиться такой
       бурей.
+    hurl: Skywrath_Mage
+  special_bonus_spell_lifesteal_15:
+    dname: "+15% к вампиризму способностями"
+    affects: 'СПОСОБНОСТЬ: <span class="attribVal">пассивная</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_spell_lifesteal_15_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: Skywrath_Mage
   special_bonus_unique_skywrath:
     dname: "-4 сек. перезарядки Ancient Seal"

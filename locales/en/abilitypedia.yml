@@ -268,7 +268,7 @@ abilitydata:
     attrib: ''
     cmb: ''
     lore: ''
-    hurl: venomancer
+    hurl: winter_wyvern
   special_bonus_hp_250:
     dname: "+250 Health"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -298,7 +298,7 @@ abilitydata:
     attrib: ''
     cmb: ''
     lore: ''
-    hurl: gyrocopter
+    hurl: winter_wyvern
   special_bonus_armor_15:
     dname: "+15 Armor"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -564,7 +564,7 @@ abilitydata:
       <span class="scepterVal">SCEPTER REPLENISH TIME:</span> <span class="attribVal">40</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 150/200/250</div><div class="cooldown"><img
+      width="16" height="16" border="0" /> 200/225/250</div><div class="cooldown"><img
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 60</div><br clear="left" /></div>
     lore: When the Bloodseeker hunts you, injuries become fatalities.
@@ -951,7 +951,7 @@ abilitydata:
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 125/140/155/170</div><div class="cooldown"><img
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 15</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 18/17/16/15</div><br clear="left" /></div>
     lore: The Nishian totem splits the world to its core with tectonic force.
     hurl: earthshaker
   earthshaker_enchant_totem:
@@ -970,7 +970,7 @@ abilitydata:
       <span class="scepterVal">SCEPTER JUMP DISTANCE:</span> <span class="attribVal">900</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 20/30/40/50</div><div class="cooldown"><img
+      width="16" height="16" border="0" /> 35/40/45/50</div><div class="cooldown"><img
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 5</div><br clear="left" /></div>
     lore: Raigor's gorilla strength can destroy mountains.
@@ -1038,7 +1038,7 @@ abilitydata:
     attrib: ''
     cmb: ''
     lore: ''
-    hurl: winter_wyvern
+    hurl: techies
   special_bonus_attack_damage_50:
     dname: "+50 Damage"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -1048,7 +1048,7 @@ abilitydata:
     attrib: ''
     cmb: ''
     lore: ''
-    hurl: winter_wyvern
+    hurl: visage
   special_bonus_unique_earthshaker_2:
     dname: "+40 Echo Damage"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -2517,7 +2517,7 @@ abilitydata:
     notes: ''
     dmg: 'DAMAGE: <span class="attribVal">100 / 175 / 250 / 325</span><br />'
     attrib: |-
-      DURATION: <span class="attribVal">2</span><br />
+      DURATION: <span class="attribVal">1.7 / 1.8 / 1.9 / 2</span><br />
       RADIUS: <span class="attribVal">255</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -2558,7 +2558,7 @@ abilitydata:
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 25/25/25/25</div><div class="cooldown"><img
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 34/28/22/16</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 35/30/25/20</div><br clear="left" /></div>
     lore: Calling a few lines from the Vigil Codex fortifies Sven's obedience to his
       rogue code. So poetic!
     hurl: sven
@@ -2660,7 +2660,7 @@ abilitydata:
       DAMAGE: <span class="attribVal">75 / 150 / 225 / 300</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 120/120/120/120</div><div class="cooldown"><img
+      width="16" height="16" border="0" /> 90/100/110/120</div><div class="cooldown"><img
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 8</div><br clear="left" /></div>
     lore: Tiny's gargantuan stature allows him to catapult even the sturdiest of warriors.
@@ -2697,7 +2697,7 @@ abilitydata:
       ATTACK SPEED LOSS: <span class="attribVal">20 / 35 / 50</span><br />
       ADDED MOVE SPEED: <span class="attribVal">40 / 50 / 60</span><br />
       TOSS BONUS: <span class="attribVal">35% / 50% / 65%</span><br />
-      <span class="scepterVal">SCEPTER BONUS RANGE:</span> <span class="attribVal">85</span><br />
+      <span class="scepterVal">SCEPTER BONUS RANGE:</span> <span class="attribVal">150</span><br />
       <span class="scepterVal">SCEPTER CLEAVE DAMAGE:</span> <span class="attribVal">50%</span><br />
       <span class="scepterVal">SCEPTER BONUS BUILDING DAMAGE:</span> <span class="attribVal">75%</span><br />
       <span class="scepterVal">SCEPTER TOSS BONUS:</span> <span class="attribVal">50% / 65% / 80%</span>
@@ -2883,12 +2883,12 @@ abilitydata:
       shackle the target to an enemy unit or tree at most 525/500 behind it.<br />Shackleshot
       can be disjointed.
     dmg: 'DAMAGE: <span class="attribVal">0 / 0 / 0 / 0</span><br />'
-    attrib: 'SHACKLE DURATION: <span class="attribVal">1.5 / 2.25 / 3 / 3.75</span>'
+    attrib: 'SHACKLE DURATION: <span class="attribVal">2 / 2.6 / 3.2 / 3.8</span>'
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 90/100/110/120</div><div class="cooldown"><img
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 12</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 18/16/14/12</div><br clear="left" /></div>
     lore: Windranger's variety of bow skills includes an arrow with thick ropes attached
       to encumber any escaping target.
     hurl: windrunner
@@ -3468,8 +3468,8 @@ abilitydata:
     attrib: |-
       ALLY ARMOR BONUS: <span class="attribVal">3 / 5 / 7 / 9</span><br />
       SLOW DURATION: <span class="attribVal">2 / 2 / 2 / 2</span><br />
-      ENEMY MOVE SLOW: <span class="attribVal">30% / 30% / 30% / 30%</span><br />
-      ENEMY ATTACK SLOW: <span class="attribVal">30</span>
+      ENEMY MOVE SLOW: <span class="attribVal">24% / 26% / 28% / 30%</span><br />
+      ENEMY ATTACK SLOW: <span class="attribVal">24 / 26 / 28 / 30</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 50/50/50/50</div><div class="cooldown"><img
@@ -3501,8 +3501,8 @@ abilitydata:
       class="attribVal">Enemy Units</span><br />DAMAGE TYPE: <span class="attribVal">Magical</span><br
       />PIERCES SPELL IMMUNITY: <span class="attribVal">No</span><br />'
     desc: "Releases an orb of frost that bounces between nearby enemy units up to
-      10 times, slowing and damaging each time it hits.  The first target is mini-stunned.\r\n\r\nUpgradable
-      by Aghanim's Scepter."
+      10 times, slowing and damaging each time it hits. \r\n\r\nUpgradable by Aghanim's
+      Scepter."
     notes: The first target will be immediately interrupted.  This stun goes through
       spell immunity.<br />Chain Frost cannot be disjointed.<br />Chain Frost has
       a movement speed of 850.<br />Chain Frost doesn't bounce to Zombies.
@@ -3573,7 +3573,7 @@ abilitydata:
       hurled into the air, then are stunned and take damage when they fall.
     notes: The spikes move at 1600 units per second.
     dmg: 'DAMAGE: <span class="attribVal">80 / 140 / 200 / 260</span><br />'
-    attrib: 'STUN DURATION: <span class="attribVal">1.1 / 1.6 / 2.1 / 2.6</span>'
+    attrib: 'STUN DURATION: <span class="attribVal">1.4 / 1.8 / 2.2 / 2.6</span>'
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 100/120/140/160</div><div class="cooldown"><img
@@ -3632,8 +3632,6 @@ abilitydata:
       spell is cast, allowing certain abilities to avoid the damage.
     dmg: ''
     attrib: |-
-      DAMAGE: <span class="attribVal">600 / 725 / 850</span><br />
-      <span class="scepterVal">SCEPTER DAMAGE:</span> <span class="attribVal">725 / 875 / 1025</span><br />
       <span class="scepterVal">SCEPTER MANA COST:</span> <span class="attribVal">200 / 420 / 625</span><br />
       <span class="scepterVal">SCEPTER COOLDOWN:</span> <span class="attribVal">100 / 60 / 20</span><br />
       <span class="scepterVal">SCEPTER AREA OF EFFECT:</span> <span class="attribVal">325</span>
@@ -3656,7 +3654,7 @@ abilitydata:
     lore: ''
     hurl: rubick
   special_bonus_unique_lion_2:
-    dname: "+80 Earth Spike Damage "
+    dname: "+80 Earth Spike Damage"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
     desc: DOTA_Tooltip_ability_special_bonus_unique_lion_2_Description
     notes: ''
@@ -3675,16 +3673,16 @@ abilitydata:
     cmb: ''
     lore: ''
     hurl: earth_spirit
-  special_bonus_spell_amplify_8:
-    dname: "+8% Spell Amplification"
+  special_bonus_unique_lion_3:
+    dname: "+300 Finger of Death Damage"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
-    desc: DOTA_Tooltip_ability_special_bonus_spell_amplify_8_Description
+    desc: DOTA_Tooltip_ability_special_bonus_unique_lion_3_Description
     notes: ''
     dmg: ''
     attrib: ''
     cmb: ''
     lore: ''
-    hurl: phoenix
+    hurl: lion
   special_bonus_all_stats_20:
     dname: "+20 All Stats"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -4741,7 +4739,7 @@ abilitydata:
       RESTORATION AMPLIFICATION: <span class="attribVal">75%</span><br />
       MOVEMENT SLOW: <span class="attribVal">12% / 20% / 28% / 36%</span><br />
       SLOW RADIUS: <span class="attribVal">750</span><br />
-      INCREASED MAGIC DAMAGE: <span class="attribVal">20%</span>
+      INCREASED MAGIC DAMAGE: <span class="attribVal">25%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 50</div><div class="cooldown"><img alt="Cooldown"
@@ -4788,7 +4786,7 @@ abilitydata:
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 175/340/500</div><div class="cooldown"><img
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 90/80/70</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 100</div><br clear="left" /></div>
     lore: The amount of death and suffering in the air increases the power of Necrophos's
       plague magic.
     hurl: necrolyte
@@ -5454,7 +5452,7 @@ abilitydata:
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 160</div><div class="cooldown"><img alt="Cooldown"
       title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 240/140/40</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 200/120/40</div><br clear="left" /></div>
     lore: Conspirators against the Wraith King wonder why he never stays dead.
     hurl: skeleton_king
   special_bonus_attack_damage_15:
@@ -7665,7 +7663,7 @@ abilitydata:
     notes: ''
     dmg: ''
     attrib: |-
-      DURATION: <span class="attribVal">50</span><br />
+      DURATION: <span class="attribVal">40</span><br />
       ENEMY VISION RANGE: <span class="attribVal">675</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -8161,6 +8159,16 @@ abilitydata:
       width="16" height="16" border="0" /> 60</div><br clear="left" /></div>
     lore: Ice and fire combine to rip the battlefield to shreds with extreme temperatures.
     hurl: jakiro
+  special_bonus_spell_amplify_8:
+    dname: "+8% Spell Amplification"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_spell_amplify_8_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: phoenix
   special_bonus_unique_jakiro_2:
     dname: "+35 Dual Breath Burn Damage"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -8261,8 +8269,8 @@ abilitydata:
       RADIUS: <span class="attribVal">200 / 200 / 200 / 200</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 100/100/100/100</div><div class="cooldown"><img
-      alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
+      width="16" height="16" border="0" /> 125</div><div class="cooldown"><img alt="Cooldown"
+      title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 40</div><br clear="left" /></div>
     lore: When an enemy escapes into the Yama Raskav Jungle, most would cut through
       the brush to find the fugitive.  Batrider just chooses to destroy the jungle
@@ -8537,7 +8545,7 @@ abilitydata:
     dmg: ''
     attrib: |-
       HAUNT DURATION: <span class="attribVal">5 / 6 / 7</span><br />
-      HAUNT DAMAGE: <span class="attribVal">30%</span><br />
+      HAUNT DAMAGE: <span class="attribVal">40%</span><br />
       HAUNT DAMAGE TAKEN: <span class="attribVal">200% / 200% / 200%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -8790,8 +8798,8 @@ abilitydata:
       <span class="scepterVal">SCEPTER FROSTBITTEN DURATION:</span> <span class="attribVal">17</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 100/125/150</div><div class="cooldown"><img
-      alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
+      width="16" height="16" border="0" /> 150</div><div class="cooldown"><img alt="Cooldown"
+      title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 40</div><br clear="left" /></div>
     lore: Ice storms from ages past flow through Kaldr's frosty limbs, crashing into
       the world and turning its inhabitants into monuments to his eternal power.
@@ -10877,7 +10885,7 @@ abilitydata:
       of vision, the Zombie will die.
     dmg: ''
     attrib: |-
-      ATTACKS TO DESTROY: <span class="attribVal">3 / 4 / 5 / 7</span><br />
+      ATTACKS TO DESTROY: <span class="attribVal">4 / 5 / 6 / 8</span><br />
       TOMBSTONE DURATION: <span class="attribVal">15 / 20 / 25 / 30</span><br />
       ZOMBIE SPAWN RADIUS: <span class="attribVal">600 / 800 / 1000 / 1200</span><br />
       DEATHLUST FLAT HEALTH THRESHOLD: <span class="attribVal">100 / 200 / 300 / 400</span><br />
@@ -11297,7 +11305,7 @@ abilitydata:
     lore: ''
     hurl: nyx_assassin
   special_bonus_unique_nyx:
-    dname: 200% Spiked Carapace Damage
+    dname: "+100% Spiked Carapace Damage"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
     desc: DOTA_Tooltip_ability_special_bonus_unique_nyx_Description
     notes: ''
@@ -12681,7 +12689,7 @@ abilitydata:
     attrib: ''
     cmb: ''
     lore: ''
-    hurl: Skywrath_Mage
+    hurl: bristleback
   special_bonus_unique_bristleback_2:
     dname: "+25 Quill Stack Damage"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -12935,11 +12943,21 @@ abilitydata:
       DAMAGE: <span class="attribVal">600 / 1000 / 1400</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
       Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 350/575/800</div><div class="cooldown"><img
+      width="16" height="16" border="0" /> 300/550/800</div><div class="cooldown"><img
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 60/40/20</div><br clear="left" /></div>
     lore: Only the most practiced of Skywrath sorcerers could hope to shape the skies
       into such a storm.
+    hurl: Skywrath_Mage
+  special_bonus_spell_lifesteal_15:
+    dname: 15% Spell Lifesteal
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_spell_lifesteal_15_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: Skywrath_Mage
   special_bonus_unique_skywrath:
     dname: "-4s Ancient Seal Cooldown"

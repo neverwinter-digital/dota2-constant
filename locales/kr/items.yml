@@ -1390,7 +1390,7 @@ itemdata:
     dname: 공명의 군도
     qual: artifact
     cost: 2650
-    desc: "<h1>지속 효과: 공명 타격</h1> 근접 공격 시 빠르게 연속으로 두 번 공격을 가합니다. 이중 공격은 %slow_duration%초
+    desc: "<h1>지속 효과: 공명 타격</h1> 근접 공격 시 빠르게 연속으로 두 번 공격합니다. 이중 공격은 %slow_duration%초
       동안 매 타격 시 이동 속도를 %movement_slow% 둔화합니다."
     notes: ''
     attrib: |-
@@ -2062,8 +2062,8 @@ itemdata:
     dname: 다이달로스
     qual: epic
     cost: 5320
-    desc: "<h1>지속 효과: 치명타</h1> 매 공격 시 %crit_chance% 확률로 %crit_multiplier%% 추가 피해를
-      줍니다."
+    desc: "<h1>지속 효과: 치명타</h1> 매 공격 시 %crit_chance%% 확률로 %tooltip_crit_damage%% 추가
+      피해를 줍니다."
     notes: 건물에는 치명타가 적용되지 않습니다.
     attrib: + <span class="attribVal">80</span> <span class="attribValText">피해</span>
     mc: false
@@ -2079,8 +2079,8 @@ itemdata:
     dname: 해골 파쇄기
     qual: epic
     cost: 2700
-    desc: "<h1>지속 효과: 강타</h1> 근접 영웅은 %bash_chance_melee%%의 확률로 타격 시 대상을 %bash_duration%초
-      동안 기절시키고 %bonus_chance_damage%의 보너스 피해를 줍니다. 원거리 영웅은 %bash_chance_ranged%의 확률로
+    desc: "<h1>지속 효과: 강타</h1> 근접 영웅은 %bash_chance_melee%% 확률로 타격 시 대상을 %bash_duration%초
+      동안 기절시키고 보너스 피해를 %bonus_chance_damage% 줍니다. 원거리 영웅은 %bash_chance_ranged% 확률로
       기절시킵니다."
     notes: 다른 강타 효과와 중첩되지 않으나 여의봉 같은 소형 강타 효과와는 중첩됩니다.<br />영혼 파괴자, 얼굴없는 전사, 슬라다,
       트롤 전쟁군주는 이 아이템의 강타가 발동하지 않습니다.
@@ -2455,7 +2455,7 @@ itemdata:
       + <span class="attribVal">20</span> <span class="attribValText">피해</span><br />
       + <span class="attribVal">10</span> <span class="attribValText">공격 속도</span>
     mc: 25
-    cd: 20
+    cd: 22
     lore: 이 가면을 쓴 자는 주체할 수 없는 공격성을 띱니다.
     components:
     - lifesteal
@@ -2474,7 +2474,7 @@ itemdata:
       유형: <span class=\"GameplayValues GameplayVariable\">기본 해제</span>"
     notes: 다른 마나 분해 능력과 중첩되지 않습니다.
     attrib: |-
-      + <span class="attribVal">25</span>/35 <span class="attribValText">민첩</span><br />
+      + <span class="attribVal">20</span>/30 <span class="attribValText">민첩</span><br />
       + <span class="attribVal">10</span>/15 <span class="attribValText">지능</span>
     mc: false
     cd: 4
@@ -2497,7 +2497,7 @@ itemdata:
       <span class=\"GameplayValues GameplayVariable\">기본 해제</span>"
     notes: 다른 마나 분해 능력과 중첩되지 않습니다.
     attrib: |-
-      + 25/<span class="attribVal">35</span> <span class="attribValText">민첩</span><br />
+      + 20/<span class="attribVal">30</span> <span class="attribValText">민첩</span><br />
       + 10/<span class="attribVal">15</span> <span class="attribValText">지능</span>
     mc: false
     cd: 4
@@ -2712,7 +2712,7 @@ itemdata:
     qual: consumable
     cost: 150
     desc: "<h1>사용: 깨우침</h1> %xp_bonus%의 경험치를 얻고 팀이 소모한 고서 한 권당 %xp_per_use%의 경험치를
-      추가로 얻습니다.<br><br>팀에서 소모한 고서: %customval_team_tomes_used%권"
+      추가로 얻습니다.<br><br>아군이 소모한 고서: %customval_team_tomes_used%권"
     notes: ''
     attrib: ''
     mc: false
@@ -2815,11 +2815,11 @@ itemdata:
     dname: 심연의 검
     qual: epic
     cost: 6400
-    desc: "<h1>시전 기술: 압도</h1> 대상 적 유닛을 %stun_duration% 초 동안 기절시킵니다. <br><br>주문 면역을
+    desc: "<h1>시전 기술: 압도</h1> 대상 적 유닛을 %stun_duration%초 동안 기절시킵니다. <br><br>주문 면역을
       관통합니다.<br />\r\n<h1>지속 효과: 강타</h1> 근접 영웅은 %bash_chance_melee% 확률로 타격 시 대상을 %bash_duration%초
       동안 기절시키고 %bonus_chance_damage%의 보너스 피해를 줍니다. 원거리 영웅은 %bash_chance_ranged% 확률로
-      강타 효과를 줍니다.<br />\r\n<h1>지속 효과: 피해 방어</h1> 공격을 받을 때 %block_chance%%의 확률로 근접
-      영웅은 %block_damage_melee%, 원거리 영웅은 %block_damage_ranged%의 피해를 방어합니다."
+      강타 효과를 줍니다.<br />\r\n<h1>지속 효과: 피해 방어</h1> 공격을 받을 때 %block_chance%% 확률로 근접 영웅은
+      %block_damage_melee%, 원거리 영웅은 %block_damage_ranged% 피해를 방어합니다."
     notes: 기절 사거리는 근접으로 취급됩니다.<br />다른 강타 효과와 중첩되지 않습니다.<br />영혼 파괴자, 얼굴없는 전사, 슬라다,
       트롤 전쟁군주는 이 아이템의 강타가 발동하지 않습니다.
     attrib: |-

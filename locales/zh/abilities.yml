@@ -164,7 +164,7 @@ abilitydata:
     attrib: |-
       持续时间： <span class="attribVal">10</span><br />
       移动速度减缓： <span class="attribVal">12%</span><br />
-      速度提升： <span class="attribVal">12%</span><br />
+      移动速度提升： <span class="attribVal">12%</span><br />
       <span class="scepterVal">神杖升级伤害降低：</span> <span class="attribVal">30%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -241,7 +241,7 @@ abilitydata:
     attrib: ''
     cmb: ''
     lore: ''
-    hurl: venomancer
+    hurl: winter_wyvern
   special_bonus_hp_250:
     dname: "+250 生命"
     affects: 技能： <span class="attribVal">被动</span><br />
@@ -271,7 +271,7 @@ abilitydata:
     attrib: ''
     cmb: ''
     lore: ''
-    hurl: gyrocopter
+    hurl: winter_wyvern
   special_bonus_armor_15:
     dname: "+15 护甲"
     affects: 技能： <span class="attribVal">被动</span><br />
@@ -505,7 +505,7 @@ abilitydata:
       <span class="scepterVal">神杖升级充能时间：</span> <span class="attribVal">40</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 150/200/250</div><div class="cooldown"><img
+      width="16" height="16" border="0" /> 200/225/250</div><div class="cooldown"><img
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 60</div><br clear="left" /></div>
     lore: 当嗜血狂魔猎杀你时，受伤就意味着死亡。
@@ -749,7 +749,7 @@ abilitydata:
     attrib: |-
       作用宽度： <span class="attribVal">250</span><br />
       沉默持续时间： <span class="attribVal">3 / 4 / 5 / 6</span><br />
-      击退效果持续时间： <span class="attribVal">0.6 / 0.7 / 0.8 / 0.9</span>
+      击退持续时间： <span class="attribVal">0.6 / 0.7 / 0.8 / 0.9</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 90</div><div class="cooldown"><img alt="冷却时间"
@@ -868,7 +868,7 @@ abilitydata:
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 125/140/155/170</div><div class="cooldown"><img
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 15</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 18/17/16/15</div><br clear="left" /></div>
     lore: 尼西埃图腾能以惊世之力使大地裂开。
     hurl: earthshaker
   earthshaker_enchant_totem:
@@ -884,7 +884,7 @@ abilitydata:
       <span class="scepterVal">神杖升级跳跃距离：</span> <span class="attribVal">900</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 20/30/40/50</div><div class="cooldown"><img
+      width="16" height="16" border="0" /> 35/40/45/50</div><div class="cooldown"><img
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 5</div><br clear="left" /></div>
     lore: 瑞格勇猛的的蛮力能摧毁山脉。
@@ -946,7 +946,7 @@ abilitydata:
     attrib: ''
     cmb: ''
     lore: ''
-    hurl: winter_wyvern
+    hurl: techies
   special_bonus_attack_damage_50:
     dname: "+50 攻击力"
     affects: 技能： <span class="attribVal">被动</span><br />
@@ -956,7 +956,7 @@ abilitydata:
     attrib: ''
     cmb: ''
     lore: ''
-    hurl: winter_wyvern
+    hurl: visage
   special_bonus_unique_earthshaker_2:
     dname: "+40 回音击伤害"
     affects: 技能： <span class="attribVal">被动</span><br />
@@ -2189,7 +2189,7 @@ abilitydata:
     dmg: '攻击力: <span class="attribVal">40 / 60 / 80 / 100</span><br />'
     attrib: |-
       作用范围： <span class="attribVal">300</span><br />
-      移动减速： <span class="attribVal">80%</span><br />
+      移动速度减缓： <span class="attribVal">80%</span><br />
       攻击速度降低： <span class="attribVal">50</span><br />
       持续时间： <span class="attribVal">0.6 / 0.6 / 0.6 / 0.6</span>
     cmb: ''
@@ -2260,7 +2260,7 @@ abilitydata:
     notes: ''
     dmg: '攻击力: <span class="attribVal">100 / 175 / 250 / 325</span><br />'
     attrib: |-
-      眩晕时间： <span class="attribVal">2</span><br />
+      眩晕时间： <span class="attribVal">1.7 / 1.8 / 1.9 / 2</span><br />
       作用范围： <span class="attribVal">255</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -2288,14 +2288,14 @@ abilitydata:
     dmg: ''
     attrib: |-
       护甲提升： <span class="attribVal">5 / 10 / 15 / 20</span><br />
-      速度提升： <span class="attribVal">12%</span><br />
+      移动速度提升： <span class="attribVal">12%</span><br />
       作用范围： <span class="attribVal">900</span><br />
       持续时间： <span class="attribVal">8</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 25/25/25/25</div><div class="cooldown"><img
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 34/28/22/16</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 35/30/25/20</div><br clear="left" /></div>
     lore: 吟诵守夜人法典的句子能够强化斯温对其流浪法则的遵从。太有诗意了！
     hurl: sven
   sven_gods_strength:
@@ -2387,7 +2387,7 @@ abilitydata:
       伤害： <span class="attribVal">75 / 150 / 225 / 300</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 120/120/120/120</div><div class="cooldown"><img
+      width="16" height="16" border="0" /> 90/100/110/120</div><div class="cooldown"><img
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 8</div><br clear="left" /></div>
     lore: 小小那巨大的身形让他能够随意抛起最强壮的勇士。
@@ -2418,7 +2418,7 @@ abilitydata:
       攻击速度损失： <span class="attribVal">20 / 35 / 50</span><br />
       移动速度提升： <span class="attribVal">40 / 50 / 60</span><br />
       投掷伤害提升： <span class="attribVal">35% / 50% / 65%</span><br />
-      <span class="scepterVal">神杖升级攻击距离加成：</span> <span class="attribVal">85</span><br />
+      <span class="scepterVal">神杖升级攻击距离加成：</span> <span class="attribVal">150</span><br />
       <span class="scepterVal">神杖升级分裂攻击伤害：</span> <span class="attribVal">50%</span><br />
       <span class="scepterVal">神杖升级对建筑伤害加成：</span> <span class="attribVal">75%</span><br />
       <span class="scepterVal">神杖升级投掷伤害加成：</span> <span class="attribVal">50% / 65% / 80%</span>
@@ -2586,12 +2586,12 @@ abilitydata:
     desc: 将目标束缚在正对其后的一个敌方单位或树上。若目标后面没有其它敌方单位或树木，则眩晕时间减少至0.75秒。
     notes: 该技能可以将两个敌人一起束缚，使他们同时眩晕。<br />束缚击能将目标束缚在身后最多距离525码的敌方单位或500码的树木。<br />束缚击可以被躲避。
     dmg: '攻击力: <span class="attribVal">0 / 0 / 0 / 0</span><br />'
-    attrib: 束缚时间： <span class="attribVal">1.5 / 2.25 / 3 / 3.75</span>
+    attrib: 束缚时间： <span class="attribVal">2 / 2.6 / 3.2 / 3.8</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 90/100/110/120</div><div class="cooldown"><img
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 12</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 18/16/14/12</div><br clear="left" /></div>
     lore: 风行者的诸多弓技中，有一种用密集的绳索来束缚住敌人让其难以逃脱的箭矢。
     hurl: windrunner
   windrunner_powershot:
@@ -3107,8 +3107,8 @@ abilitydata:
     attrib: |-
       友军护甲提升： <span class="attribVal">3 / 5 / 7 / 9</span><br />
       减速持续时间： <span class="attribVal">2 / 2 / 2 / 2</span><br />
-      敌军移动速度减缓： <span class="attribVal">30% / 30% / 30% / 30%</span><br />
-      敌军攻击速度降低： <span class="attribVal">30</span>
+      敌军移动速度减缓： <span class="attribVal">24% / 26% / 28% / 30%</span><br />
+      敌军攻击速度降低： <span class="attribVal">24 / 26 / 28 / 30</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 50/50/50/50</div><div class="cooldown"><img
@@ -3144,7 +3144,7 @@ abilitydata:
       弹跳次数： <span class="attribVal">10 / 10 / 10</span><br />
       弹跳距离： <span class="attribVal">600</span><br />
       移动速度减缓： <span class="attribVal">65%</span><br />
-      攻击减速： <span class="attribVal">65</span><br />
+      攻击速度降低： <span class="attribVal">65</span><br />
       减速持续时间： <span class="attribVal">2.5</span><br />
       <span class="scepterVal">神杖升级伤害：</span> <span class="attribVal">370 / 460 / 550</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
@@ -3202,7 +3202,7 @@ abilitydata:
     desc: 岩石尖刺在地上沿一条直线穿刺而出。敌方单位被抛向空中，落地时被眩晕并受到伤害。
     notes: 尖刺的移动速度是每秒1600码。
     dmg: '攻击力: <span class="attribVal">80 / 140 / 200 / 260</span><br />'
-    attrib: 眩晕持续时间： <span class="attribVal">1.1 / 1.6 / 2.1 / 2.6</span>
+    attrib: 眩晕持续时间： <span class="attribVal">1.4 / 1.8 / 2.2 / 2.6</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 100/120/140/160</div><div class="cooldown"><img
@@ -3252,8 +3252,6 @@ abilitydata:
     notes: 死亡一指在技能施放到伤害生效有0.25秒延迟，因此有若干技能可以躲避该伤害。
     dmg: ''
     attrib: |-
-      伤害： <span class="attribVal">600 / 725 / 850</span><br />
-      <span class="scepterVal">神杖升级伤害：</span> <span class="attribVal">725 / 875 / 1025</span><br />
       <span class="scepterVal">神杖升级魔法消耗：</span> <span class="attribVal">200 / 420 / 625</span><br />
       <span class="scepterVal">神杖升级冷却时间：</span> <span class="attribVal">100 / 60 / 20</span><br />
       <span class="scepterVal">神杖升级作用范围：</span> <span class="attribVal">325</span>
@@ -3294,16 +3292,16 @@ abilitydata:
     cmb: ''
     lore: ''
     hurl: earth_spirit
-  special_bonus_spell_amplify_8:
-    dname: "+8% 技能增强"
+  special_bonus_unique_lion_3:
+    dname: "+300 Finger of Death Damage"
     affects: 技能： <span class="attribVal">被动</span><br />
-    desc: DOTA_Tooltip_ability_special_bonus_spell_amplify_8_Description
+    desc: DOTA_Tooltip_ability_special_bonus_unique_lion_3_Description
     notes: ''
     dmg: ''
     attrib: ''
     cmb: ''
     lore: ''
-    hurl: phoenix
+    hurl: lion
   special_bonus_all_stats_20:
     dname: "+20 全属性"
     affects: 技能： <span class="attribVal">被动</span><br />
@@ -4250,7 +4248,7 @@ abilitydata:
       恢复效果加强： <span class="attribVal">75%</span><br />
       移动速度减缓： <span class="attribVal">12% / 20% / 28% / 36%</span><br />
       减速作用范围： <span class="attribVal">750</span><br />
-      魔法伤害加深： <span class="attribVal">20%</span>
+      魔法伤害加深： <span class="attribVal">25%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 50</div><div class="cooldown"><img alt="冷却时间"
@@ -4288,7 +4286,7 @@ abilitydata:
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 175/340/500</div><div class="cooldown"><img
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 90/80/70</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 100</div><br clear="left" /></div>
     lore: 空气中充斥的死亡和苦难增强了瘟疫法师的瘟疫魔法。
     hurl: necrolyte
   special_bonus_all_stats_6:
@@ -4658,7 +4656,7 @@ abilitydata:
       持续时间： <span class="attribVal">15 / 15 / 15 / 15</span><br />
       初始伤害： <span class="attribVal">25 / 50 / 75 / 100</span><br />
       每次伤害： <span class="attribVal">10 / 40 / 70 / 100</span><br />
-      减速： <span class="attribVal">50% / 50% / 50% / 50%</span>
+      移动速度减缓： <span class="attribVal">50% / 50% / 50% / 50%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 125</div><div class="cooldown"><img alt="冷却时间"
@@ -4877,7 +4875,7 @@ abilitydata:
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 160</div><div class="cooldown"><img alt="冷却时间"
       title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 240/140/40</div><br clear="left" /></div>
+      width="16" height="16" border="0" /> 200/120/40</div><br clear="left" /></div>
     lore: 冥魂大帝的对头们一直很疑惑，为什么他就是不会死透。
     hurl: skeleton_king
   special_bonus_attack_damage_15:
@@ -5652,9 +5650,9 @@ abilitydata:
     dname: 古龙形态
     affects: 技能： <span class="attribVal">无目标</span><br />无视技能免疫： <span class="attribVal"><font
       color="#70EA72">是</font></span><br />
-    desc: "龙骑士能够变身成为三种古龙形态之一，同时移动速度以及神龙摆尾的施法距离都有一定提升，而且还有新的能力。\r\n<font color=\"#9acd32\">等级1
-      绿龙</font> - 腐蚀吐息: 攻击时造成20点每秒的持续毒素伤害，持续5秒。\r\n<font color=\"#ff0000\">等级2 红龙</font>
-      - 溅射攻击：攻击时伤害将溅射到300范围内所有单位，并且全部受到腐蚀吐息的作用。\r\n<font color=\"#87ceeb\">等级3 蓝龙</font>
+    desc: "龙骑士能够变身成为三种古龙形态之一，同时提升移动速度以及神龙摆尾的施法距离，并且获得新的能力。\r\n<font color=\"#9acd32\">等级1
+      碧龙</font> - 腐蚀吐息: 攻击时附带毒素，造成每秒20点伤害，持续5秒。\r\n<font color=\"#ff0000\">等级2 赤龙</font>
+      - 溅射攻击：攻击时伤害将溅射到300范围内所有单位，并且全部受到腐蚀吐息的作用。\r\n<font color=\"#87ceeb\">等级3 苍龙</font>
       - 冰霜吐息：降低攻击溅射到的敌人30%移动速度和30攻击速度，持续3秒，并且全部受到腐蚀吐息的作用。"
     notes: 腐蚀吐息的毒素伤害可以致死。<br />溅射攻击在150/225/300作用范围内造成100/75/50%的伤害。溅射攻击不能作用于建筑。<br
       />冰霜吐息与独占攻效叠加。<br />幻影斧的冷却时间将由龙骑士开启幻影斧时所处的近战或远程形态决定。
@@ -5971,7 +5969,7 @@ abilitydata:
       闪电跳跃次数： <span class="attribVal">4 / 6 / 8 / 10</span><br />
       闪电跳跃范围： <span class="attribVal">475</span><br />
       移动速度减缓： <span class="attribVal">75%</span><br />
-      <span class="scepterVal">神杖升级间隔：</span> <span class="attribVal">1.75</span><br />
+      <span class="scepterVal">神杖升级触发间隔：</span> <span class="attribVal">1.75</span><br />
       <span class="scepterVal">神杖升级作用范围：</span> <span class="attribVal">750</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -5985,7 +5983,7 @@ abilitydata:
     affects: 技能： <span class="attribVal">无目标, 切换</span><br />影响： <span class="attribVal">敌方单位</span><br
       />伤害类型： <span class="attribVal">魔法</span><br />无视技能免疫： <span class="attribVal">否</span><br
       />
-    desc: "拉席克在他周围创造破坏性的能量波，每秒对附近敌方单位造成伤害。\r\n\r\n可用神杖升级。"
+    desc: 拉席克在他周围创造破坏性的能量波，每秒对附近敌方单位造成伤害。
     notes: ''
     dmg: ''
     attrib: |-
@@ -6815,7 +6813,7 @@ abilitydata:
     notes: ''
     dmg: ''
     attrib: |-
-      持续时间： <span class="attribVal">50</span><br />
+      持续时间： <span class="attribVal">40</span><br />
       敌方视野范围： <span class="attribVal">675</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -7031,7 +7029,7 @@ abilitydata:
     dmg: ''
     attrib: |-
       加速范围： <span class="attribVal">900 / 900 / 900</span><br />
-      速度提升： <span class="attribVal">16% / 18% / 20%</span><br />
+      移动速度提升： <span class="attribVal">16% / 18% / 20%</span><br />
       自身金钱奖励： <span class="attribVal">150 / 250 / 350</span><br />
       友军金钱奖励： <span class="attribVal">40 / 80 / 120</span><br />
       持续时间： <span class="attribVal">30 / 30 / 30</span><br />
@@ -7080,7 +7078,7 @@ abilitydata:
       color="#70EA72">是</font></span><br />
     desc: 编织者放出12只编织者幼虫，每只幼虫都会紧紧缠住它遇到的敌人，攻击敌人并削弱他们的护甲，直到幼虫被杀死。
     notes: 甲虫抓住目标后将一直留在目标身上，除非甲虫被击杀或持续时间结束。<br />甲虫免疫技能，需要英雄的4次伤害或其他单位的8次伤害才能被击杀。<br
-      />甲虫提供321/321的白昼/夜晚视野，甲虫被击杀或持续时间结束后停止攻击。
+      />甲虫提供321/321的白昼/夜晚视野，但是目标隐身后会从其身上掉下。
     dmg: ''
     attrib: |-
       甲虫攻击力： <span class="attribVal">14 / 16 / 18 / 20</span><br />
@@ -7256,6 +7254,16 @@ abilitydata:
       width="16" height="16" border="0" /> 60</div><br clear="left" /></div>
     lore: 用冰与火混合而成的极端温度撕裂战场。
     hurl: jakiro
+  special_bonus_spell_amplify_8:
+    dname: "+8% 技能增强"
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_spell_amplify_8_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: phoenix
   special_bonus_unique_jakiro_2:
     dname: "+35 冰火交加伤害"
     affects: 技能： <span class="attribVal">被动</span><br />
@@ -7345,8 +7353,8 @@ abilitydata:
       作用范围： <span class="attribVal">200 / 200 / 200 / 200</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 100/100/100/100</div><div class="cooldown"><img
-      alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
+      width="16" height="16" border="0" /> 125</div><div class="cooldown"><img alt="冷却时间"
+      title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 40</div><br clear="left" /></div>
     lore: 当敌人逃进荒狱丛林时，大部分人都不得不先砍开挡道的树丛。而蝙蝠骑士却选择直接将他的敌人，连同丛林一起破坏殆尽。
     hurl: batrider
@@ -7576,7 +7584,7 @@ abilitydata:
     dmg: ''
     attrib: |-
       鬼影持续时间： <span class="attribVal">5 / 6 / 7</span><br />
-      鬼影继承攻击力： <span class="attribVal">30%</span><br />
+      鬼影继承攻击力： <span class="attribVal">40%</span><br />
       鬼影承受伤害： <span class="attribVal">200% / 200% / 200%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -7796,8 +7804,8 @@ abilitydata:
       <span class="scepterVal">神杖升级寒霜诅咒持续时间：</span> <span class="attribVal">17</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 100/125/150</div><div class="cooldown"><img
-      alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
+      width="16" height="16" border="0" /> 150</div><div class="cooldown"><img alt="冷却时间"
+      title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 40</div><br clear="left" /></div>
     lore: 卡尔德的寒霜之体中流出远古的寒冰风暴，将这个世界的居民冻成他永恒力量的纪念碑。
     hurl: ancient_apparition
@@ -8897,7 +8905,7 @@ abilitydata:
     attrib: |-
       禁锢持续时间： <span class="attribVal">2.5 / 2.5 / 2.5 / 2.5</span><br />
       幻象持续时间： <span class="attribVal">8 / 10 / 12 / 14</span><br />
-      幻象伤害： <span class="attribVal">30% / 45% / 60% / 75%</span><br />
+      幻象继承攻击力： <span class="attribVal">30% / 45% / 60% / 75%</span><br />
       幻象承受伤害： <span class="attribVal">300%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -9462,7 +9470,7 @@ abilitydata:
     attrib: |-
       持续时间： <span class="attribVal">5 / 6 / 7 / 8</span><br />
       燃烧伤害： <span class="attribVal">26 / 34 / 42 / 50</span><br />
-      减速： <span class="attribVal">20% / 22% / 24% / 26%</span>
+      移动速度减缓： <span class="attribVal">20% / 22% / 24% / 26%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 90</div><div class="cooldown"><img alt="冷却时间"
@@ -9591,7 +9599,7 @@ abilitydata:
     notes: 墓碑为技能免疫，但是可以被噬魂治疗。<br />僵尸和墓碑均为技能免疫。<br />如果初始目标死亡或丢失视野，僵尸将会死亡。
     dmg: ''
     attrib: |-
-      摧毁所需攻击次数： <span class="attribVal">3 / 4 / 5 / 7</span><br />
+      摧毁所需攻击次数： <span class="attribVal">4 / 5 / 6 / 8</span><br />
       墓碑持续时间： <span class="attribVal">15 / 20 / 25 / 30</span><br />
       僵尸产生范围： <span class="attribVal">600 / 800 / 1000 / 1200</span><br />
       死亡渴望触发生命值： <span class="attribVal">100 / 200 / 300 / 400</span><br />
@@ -11006,7 +11014,7 @@ abilitydata:
       作用范围： <span class="attribVal">200</span><br />
       飞行伤害： <span class="attribVal">100 / 140 / 180</span><br />
       每秒造成伤害： <span class="attribVal">50 / 75 / 100</span><br />
-      减速： <span class="attribVal">5%</span><br />
+      移动速度减缓： <span class="attribVal">5%</span><br />
       每秒消耗魔法： <span class="attribVal">20 / 25 / 30</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -11039,7 +11047,7 @@ abilitydata:
       作用范围： <span class="attribVal">200</span><br />
       飞行伤害： <span class="attribVal">100 / 140 / 180</span><br />
       每秒造成伤害： <span class="attribVal">50 / 75 / 100</span><br />
-      减速： <span class="attribVal">5%</span><br />
+      移动速度减缓： <span class="attribVal">5%</span><br />
       每秒消耗魔法： <span class="attribVal">20 / 25 / 30</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
@@ -11166,7 +11174,7 @@ abilitydata:
     attrib: ''
     cmb: ''
     lore: ''
-    hurl: Skywrath_Mage
+    hurl: bristleback
   special_bonus_unique_bristleback_2:
     dname: "+25 刺针叠加伤害"
     affects: 技能： <span class="attribVal">被动</span><br />
@@ -11346,7 +11354,7 @@ abilitydata:
       伤害作用范围： <span class="attribVal">250</span><br />
       伤害： <span class="attribVal">70 / 140 / 210 / 280</span><br />
       减速持续时间： <span class="attribVal">4</span><br />
-      减速： <span class="attribVal">30% / 35% / 40% / 45%</span>
+      移动速度减缓： <span class="attribVal">30% / 35% / 40% / 45%</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 95</div><div class="cooldown"><img alt="冷却时间"
@@ -11384,10 +11392,20 @@ abilitydata:
       伤害： <span class="attribVal">600 / 1000 / 1400</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 350/575/800</div><div class="cooldown"><img
+      width="16" height="16" border="0" /> 300/550/800</div><div class="cooldown"><img
       alt="冷却时间" title="冷却时间" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 60/40/20</div><br clear="left" /></div>
     lore: 天怒一族中只有勤加修炼的法师才能将苍天塑造成这样的风暴。
+    hurl: Skywrath_Mage
+  special_bonus_spell_lifesteal_15:
+    dname: 15% 技能吸血
+    affects: 技能： <span class="attribVal">被动</span><br />
+    desc: DOTA_Tooltip_ability_special_bonus_spell_lifesteal_15_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
     hurl: Skywrath_Mage
   special_bonus_unique_skywrath:
     dname: "-4秒 上古封印冷却"
@@ -12545,7 +12563,7 @@ abilitydata:
     dname: 闪光幽魂
     affects: 技能： <span class="attribVal">点目标</span><br />伤害类型： <span class="attribVal">魔法</span><br
       />无视技能免疫： <span class="attribVal">否</span><br />
-    desc: 召唤一个缓慢实体化的闪光怨灵萦绕在目标区域.一旦有敌方单位进入范围，怨灵将贴近敌人自我熔化并造成魔法伤害，同时使目标减速。
+    desc: 召唤一个缓慢实体化的闪光怨灵萦绕在目标区域。一旦有敌方单位进入范围，怨灵将贴近敌人自我熔化并造成魔法伤害，同时使目标减速。
     notes: ''
     dmg: ''
     attrib: |-
@@ -12553,7 +12571,7 @@ abilitydata:
       启动延迟： <span class="attribVal">2</span><br />
       持续时间： <span class="attribVal">50</span><br />
       幽魂速度： <span class="attribVal">400</span><br />
-      净化持续时间： <span class="attribVal">0.4 / 0.5 / 0.6 / 0.7</span>
+      减速持续时间： <span class="attribVal">0.4 / 0.5 / 0.6 / 0.7</span>
     cmb: <div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗"
       class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
       width="16" height="16" border="0" /> 80</div><div class="cooldown"><img alt="冷却时间"

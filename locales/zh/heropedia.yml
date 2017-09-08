@@ -48,19 +48,19 @@ herodata:
     pa: int
     attribs:
       str:
-        b: 22
+        b: 23
         g: '2.40'
       int:
-        b: 22
+        b: 23
         g: '2.40'
       agi:
-        b: 22
+        b: 23
         g: '2.40'
       ms: 310
       dmg:
         min: 37
         max: 43
-      armor: 4.08
+      armor: 4.22
     dac: 远程
     droles: 辅助 - 控制 - 爆发 - 耐久
   bloodseeker:
@@ -1085,7 +1085,7 @@ herodata:
       agi:
         b: 18
         g: '1.90'
-      ms: 295
+      ms: 290
       dmg:
         min: 30
         max: 44
@@ -1463,7 +1463,7 @@ herodata:
       agi:
         b: 17
         g: '1.70'
-      ms: 290
+      ms: 285
       dmg:
         min: 31
         max: 41
@@ -1822,8 +1822,8 @@ herodata:
         g: '2.20'
       ms: 300
       dmg:
-        min: 30
-        max: 34
+        min: 27
+        max: 31
       armor: 3.66
     dac: 近战
     droles: 控制 - 爆发 - 先手 - 逃生
