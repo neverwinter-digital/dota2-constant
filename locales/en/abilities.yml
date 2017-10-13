@@ -402,16 +402,6 @@ abilitydata:
     lore: Victims of Atropos are frequently torn apart by vivid conjurations of their
       own nightmares.
     hurl: bane
-  bane_nightmare_end:
-    dname: Nightmare End
-    affects: 'ABILITY: <span class="attribVal">No Target, Toggle</span><br />'
-    desc: Ends all ongoing Nightmares.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: bane
   special_bonus_armor_6:
     dname: "+6 Armor"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -1550,22 +1540,6 @@ abilitydata:
       width="16" height="16" border="0" /> 0</div><br clear="left" /></div>
     lore: Shifting water makes it difficult to discern the nature of Morphling.
     hurl: morphling
-  morphling_hybrid:
-    dname: Hybrid
-    affects: 'ABILITY: <span class="attribVal">Unit Target</span><br />'
-    desc: Morphling creates a hybrid replication of a target allied hero, which can
-      cast all of that hero's current, non-ultimate abilities. Enemies are able to
-      see which unit is a hybrid.
-    notes: ''
-    dmg: ''
-    attrib: 'DURATION: <span class="attribVal">20</span>'
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
-      Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 200</div><div class="cooldown"><img alt="Cooldown"
-      title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 60</div><br clear="left" /></div>
-    lore: ''
-    hurl: morphling
   morphling_replicate:
     dname: Replicate
     affects: 'ABILITY: <span class="attribVal">Unit Target</span><br />PIERCES SPELL
@@ -1587,18 +1561,6 @@ abilitydata:
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 80</div><br clear="left" /></div>
     lore: Staring into Morphling produces a reflection that mimics the beholder.
-    hurl: morphling
-  morphling_morph_replicate:
-    dname: Morph Replicate
-    affects: 'ABILITY: <span class="attribVal">No Target</span><br />'
-    desc: Morphling switches into his replication, instantly taking its position.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
-      Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 150/150/150</div><br clear="left" /></div>
-    lore: ''
     hurl: morphling
   special_bonus_attack_speed_25:
     dname: "+25 Attack Speed"
@@ -1845,16 +1807,6 @@ abilitydata:
       width="16" height="16" border="0" /> 6</div><br clear="left" /></div>
     lore: With a quip and flash, Puck returns to the alien dimension from whence it
       came.
-    hurl: puck
-  puck_ethereal_jaunt:
-    dname: Ethereal Jaunt
-    affects: 'ABILITY: <span class="attribVal">No Target</span><br />'
-    desc: Teleports Puck to a flying Illusory Orb.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: puck
   puck_dream_coil:
     dname: Dream Coil
@@ -3071,26 +3023,6 @@ abilitydata:
     cmb: ''
     lore: The air crackles with static when the Thundergod walks the world.
     hurl: zuus
-  zuus_cloud:
-    dname: Nimbus
-    affects: 'ABILITY: <span class="attribVal">Point Target</span><br />DAMAGE TYPE:
-      <span class="attribVal">Magical</span><br />PIERCES SPELL IMMUNITY: <span class="attribVal">No</span><br
-      />'
-    desc: Creates a storm cloud anywhere on the map that automatically casts Lightning
-      Bolt on nearby enemies.
-    notes: Grants 100 gold if destroyed by an enemy hero.<br />Affects the closest
-      enemy unit.
-    dmg: ''
-    attrib: |-
-      DURATION: <span class="attribVal">35</span><br />
-      LIGHTNING BOLT BASE COOLDOWN: <span class="attribVal">2.25</span>
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
-      Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 275</div><div class="cooldown"><img alt="Cooldown"
-      title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 35</div><br clear="left" /></div>
-    lore: ''
-    hurl: zuus
   zuus_thundergods_wrath:
     dname: Thundergod's Wrath
     affects: 'ABILITY: <span class="attribVal">No Target</span><br />DAMAGE TYPE:
@@ -3246,19 +3178,6 @@ abilitydata:
       width="16" height="16" border="0" /> 60/50/40</div><br clear="left" /></div>
     lore: The final ship of the Claddish Navy is nothing but a phantom, but it is
       all too real to the enemies of the Admiral.
-    hurl: kunkka
-  kunkka_return:
-    dname: Return
-    affects: 'ABILITY: <span class="attribVal">No Target</span><br />PIERCES SPELL
-      IMMUNITY: <span class="attribVal">No</span><br />'
-    desc: Returns the marked hero to the X.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: <div class="cooldownMana"><div class="cooldown"><img alt="Cooldown" title="Cooldown"
-      class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 1</div><br clear="left" /></div>
-    lore: ''
     hurl: kunkka
   special_bonus_attack_damage_30:
     dname: "+30 Damage"
@@ -5938,19 +5857,6 @@ abilitydata:
     lore: Her blades pierce the skin as much as the mind, furthering her understanding
       of the mystery that is reality.
     hurl: templar_assassin
-  templar_assassin_trap:
-    dname: Trap
-    affects: 'ABILITY: <span class="attribVal">No Target</span><br />PIERCES SPELL
-      IMMUNITY: <span class="attribVal">No</span><br />'
-    desc: Springs the nearest trap, slowing nearby enemies.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: <div class="cooldownMana"><div class="cooldown"><img alt="Cooldown" title="Cooldown"
-      class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 0.50</div><br clear="left" /></div>
-    lore: ''
-    hurl: templar_assassin
   templar_assassin_psionic_trap:
     dname: Psionic Trap
     affects: 'ABILITY: <span class="attribVal">Point Target</span><br />PIERCES SPELL
@@ -6931,40 +6837,6 @@ abilitydata:
     lore: Fresh wounds and the scent of blood often draw out the scavengers to finish
       the job.
     hurl: life_stealer
-  life_stealer_assimilate:
-    dname: Assimilate
-    affects: 'ABILITY: <span class="attribVal">Unit Target</span><br />AFFECTS: <span
-      class="attribVal">Allied Heroes</span><br />DAMAGE TYPE: <span class="attribVal">Magical</span><br
-      />'
-    desc: "Lifestealer swallows an allied hero, allowing them to hide within him.
-      Any healing Lifestealer receives is shared with the hero within. When an assimilated
-      hero leaves Lifestealer, they erupt outward, damaging nearby enemies.\r\n\r\nDISPEL
-      TYPE: Strong Dispel"
-    notes: ''
-    dmg: ''
-    attrib: |-
-      ERUPT DAMAGE: <span class="attribVal">300</span><br />
-      ERUPT RADIUS: <span class="attribVal">700 / 700 / 700</span>
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
-      Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 50</div><div class="cooldown"><img alt="Cooldown"
-      title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 50</div><br clear="left" /></div>
-    lore: How can Lifestealer resist the chance to sample an ally?
-    hurl: life_stealer
-  life_stealer_assimilate_eject:
-    dname: Eject
-    affects: 'ABILITY: <span class="attribVal">No Target</span><br />DAMAGE TYPE:
-      <span class="attribVal">Magical</span><br />'
-    desc: Ejects an Assimilated hero, damaging nearby enemies.
-    notes: ''
-    dmg: ''
-    attrib: |-
-      ERUPT DAMAGE: <span class="attribVal">300</span><br />
-      ERUPT RADIUS: <span class="attribVal">700 / 700 / 700</span>
-    cmb: ''
-    lore: ''
-    hurl: life_stealer
   life_stealer_infest:
     dname: Infest
     affects: 'ABILITY: <span class="attribVal">Unit Target</span><br />DAMAGE TYPE:
@@ -6991,28 +6863,6 @@ abilitydata:
       width="16" height="16" border="0" /> 100/75/50</div><br clear="left" /></div>
     lore: With this infestation, N'aix consumes the life blood of the host, restoring
       him back to full unholy power.
-    hurl: life_stealer
-  life_stealer_control:
-    dname: Control
-    affects: 'ABILITY: <span class="attribVal">No Target</span><br />'
-    desc: Lifestealer seizes control of the host body's nervous system, allowing him
-      to issue movement and attack orders from within.  Controlled units share Lifestealer's
-      movement speed.  Cannot be used on heroes.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: life_stealer
-  life_stealer_consume:
-    dname: Consume
-    affects: 'ABILITY: <span class="attribVal">No Target</span><br />'
-    desc: Lifestealer eats the host body from the inside out, exploding from within.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: life_stealer
   special_bonus_unique_lifestealer:
     dname: "+1s Rage Duration"
@@ -8520,16 +8370,6 @@ abilitydata:
     lore: A daunting task lies before enemies of Mercurial - killing a shadow with
       blade and magic.
     hurl: spectre
-  spectre_reality:
-    dname: Reality
-    affects: 'ABILITY: <span class="attribVal">Point Target</span><br />'
-    desc: Spectre exchanges places with a chosen Haunt.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: The scattered shadows unite into the one true Spectre.
-    hurl: spectre
   spectre_haunt:
     dname: Haunt
     affects: 'ABILITY: <span class="attribVal">No Target</span><br />PIERCES SPELL
@@ -8803,18 +8643,6 @@ abilitydata:
       width="16" height="16" border="0" /> 40</div><br clear="left" /></div>
     lore: Ice storms from ages past flow through Kaldr's frosty limbs, crashing into
       the world and turning its inhabitants into monuments to his eternal power.
-    hurl: ancient_apparition
-  ancient_apparition_ice_blast_release:
-    dname: Release
-    affects: 'ABILITY: <span class="attribVal">No Target</span><br />'
-    desc: Releases the ice blast to explode at the tracer's current location.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: <div class="cooldownMana"><div class="cooldown"><img alt="Cooldown" title="Cooldown"
-      class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 1</div><br clear="left" /></div>
-    lore: ''
     hurl: ancient_apparition
   special_bonus_unique_ancient_apparition_3:
     dname: "-1s Ice Vortex Cooldown"
@@ -9282,18 +9110,6 @@ abilitydata:
     lore: The brew Razzil gave to the Ogre during their prison bust has become a useful
       potion in the midst of combat.
     hurl: alchemist
-  alchemist_unstable_concoction_throw:
-    dname: Unstable Concoction Throw
-    affects: 'ABILITY: <span class="attribVal">Unit Target</span><br />AFFECTS: <span
-      class="attribVal">Enemy Heroes</span><br />PIERCES SPELL IMMUNITY: <span class="attribVal">No</span><br
-      />'
-    desc: Throw it before it blows up!
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: alchemist
   special_bonus_unique_alchemist_2:
     dname: "+100 Unstable Concoction Damage"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -9351,238 +9167,6 @@ abilitydata:
     cmb: ''
     lore: ''
     hurl: invoker
-  invoker_invoke:
-    dname: Invoke
-    affects: 'ABILITY: <span class="attribVal">No Target</span><br />'
-    desc: "Combines the properties of the elements currently being manipulated to
-      create a new spell for Invoker to use.  Click the help button to see the list
-      of possible spells.\r\n\r\nUpgradable by Aghanim's Scepter."
-    notes: The arrangement of instances does not matter.<br />Invoke will not cost
-      mana or go on cooldown if the only effect is to swap the positions of existing
-      spells.
-    dmg: ''
-    attrib: |-
-      MAX SPELLS: <span class="attribVal">2</span><br />
-      <span class="scepterVal">SCEPTER COOLDOWN:</span> <span class="attribVal">2</span><br />
-      <span class="scepterVal">SCEPTER MANA COST:</span> <span class="attribVal">0</span>
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
-      Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 60</div><div class="cooldown"><img alt="Cooldown"
-      title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 6</div><br clear="left" /></div>
-    lore: So begins a new age of knowledge.
-    hurl: invoker
-  invoker_cold_snap:
-    dname: Cold Snap
-    affects: 'ABILITY: <span class="attribVal">Unit Target</span><br />AFFECTS: <span
-      class="attribVal">Enemy Units</span><br />DAMAGE TYPE: <span class="attribVal">Magical</span><br
-      />PIERCES SPELL IMMUNITY: <span class="attribVal">No</span><br />'
-    desc: Invoker draws the heat from an enemy, chilling them to their very core for
-      a duration based on the level of <font color='#7998b5'>Quas</font>. The enemy
-      will take damage and be briefly frozen. Further damage taken in this state will
-      freeze the enemy again, dealing bonus damage. The enemy can only be frozen so
-      often, but the freeze cooldown decreases based on the level of <font color='#7998b5'>Quas</font>.
-    notes: The freeze stun only triggers on damage greater than 10 after reductions.
-    dmg: ''
-    attrib: 'FREEZE DURATION: <span class="attribVal">0.4</span>'
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
-      Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 100</div><div class="cooldown"><img alt="Cooldown"
-      title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 20</div><br clear="left" /></div>
-    lore: Sadron's Protracted Frisson.
-    hurl: invoker
-  invoker_ghost_walk:
-    dname: Ghost Walk
-    affects: 'ABILITY: <span class="attribVal">No Target</span><br />PIERCES SPELL
-      IMMUNITY: <span class="attribVal">No</span><br />'
-    desc: Invoker manipulates the ice and electrical energies around him, rendering
-      his body invisible. The elemental imbalance created as a consequence slows nearby
-      enemies based on the level of <font color='#7998b5'>Quas</font>, and slows Invoker
-      as well based on the level of <font color='#d671a9'>Wex</font>.
-    notes: The slow effect does not work on Spell Immune enemies.
-    dmg: ''
-    attrib: |-
-      DURATION: <span class="attribVal">100</span><br />
-      RADIUS: <span class="attribVal">400</span>
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
-      Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 200</div><div class="cooldown"><img alt="Cooldown"
-      title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 45</div><br clear="left" /></div>
-    lore: Myrault's Hinder-Gast.
-    hurl: invoker
-  invoker_tornado:
-    dname: Tornado
-    affects: 'ABILITY: <span class="attribVal">Point Target</span><br />DAMAGE TYPE:
-      <span class="attribVal">Magical</span><br />PIERCES SPELL IMMUNITY: <span class="attribVal">No</span><br
-      />'
-    desc: "Unleashes a fast moving tornado that picks up enemy units in its path,
-      suspending them helplessly in the air shortly before allowing them to plummet
-      to their doom. Travels further based on the level of <font color='#d671a9'>Wex</font>.
-      Holds enemies in the air for a duration based on the level of <font color='#7998b5'>Quas</font>.
-      Deals base damage plus added damage based on levels in <font color='#d671a9'>Wex</font>.\r\n\r\nDISPEL
-      TYPE: Basic Dispel"
-    notes: Units are invulnerable while affected by Tornado, and the damage is dealt
-      when landing.
-    dmg: ''
-    attrib: |-
-      RADIUS: <span class="attribVal">200</span><br />
-      BASE DAMAGE: <span class="attribVal">70</span>
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
-      Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 150</div><div class="cooldown"><img alt="Cooldown"
-      title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 30</div><br clear="left" /></div>
-    lore: Claws of Tornarus.
-    hurl: invoker
-  invoker_emp:
-    dname: E.M.P.
-    affects: 'ABILITY: <span class="attribVal">Point Target</span><br />DAMAGE TYPE:
-      <span class="attribVal">Magical</span><br />PIERCES SPELL IMMUNITY: <span class="attribVal">No</span><br
-      />'
-    desc: Invoker builds up a charge of electromagnetic energy at a targeted location
-      which automatically detonates after %delay% seconds. The detonation covers an
-      area, draining mana based on the level of <font color='#d671a9'>Wex</font>.
-      Deals damage for each point of mana drained.  If EMP drains mana from an enemy
-      hero, Invoker gains 50% of the mana drained.
-    notes: Will not affect cycloned units (Tornado or Eul's Scepter of Divinity).
-    dmg: ''
-    attrib: |-
-      RADIUS: <span class="attribVal">675</span><br />
-      BURN DAMAGE: <span class="attribVal">60%</span>
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
-      Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 125</div><div class="cooldown"><img alt="Cooldown"
-      title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 30</div><br clear="left" /></div>
-    lore: Endoleon's Malevolent Perturbation.
-    hurl: invoker
-  invoker_alacrity:
-    dname: Alacrity
-    affects: 'ABILITY: <span class="attribVal">Unit Target</span><br />AFFECTS: <span
-      class="attribVal">Allied Units</span><br />PIERCES SPELL IMMUNITY: <span class="attribVal"><font
-      color="#70EA72">Yes</font></span><br />'
-    desc: Invoker infuses an ally with an immense surge of energy, increasing their
-      attack speed based on the level of <font color='#d671a9'>Wex</font> and their
-      damage based on the level of <font color='#cabe68'>Exort</font>.
-    notes: ''
-    dmg: ''
-    attrib: 'DURATION: <span class="attribVal">9</span>'
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
-      Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 60</div><div class="cooldown"><img alt="Cooldown"
-      title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 17</div><br clear="left" /></div>
-    lore: Gaster's Mandate of Impetuous Strife.
-    hurl: invoker
-  invoker_chaos_meteor:
-    dname: Chaos Meteor
-    affects: 'ABILITY: <span class="attribVal">Point Target</span><br />DAMAGE TYPE:
-      <span class="attribVal">Magical</span><br />PIERCES SPELL IMMUNITY: <span class="attribVal">No</span><br
-      />'
-    desc: Invoker pulls a flaming meteor from space onto the targeted location. Upon
-      landing, the meteor rolls forward, constantly dealing damage based on the level
-      of <font color='#cabe68'>Exort</font>, and rolling further based on the level
-      of <font color='#d671a9'>Wex</font>. Units hit by the meteor will also be set
-      on fire for a short time, receiving additional damage based on the level of
-      <font color='#cabe68'>Exort</font>.
-    notes: Deals main damage to enemy units under meteor every 0.5 seconds and burns
-      enemies for smaller damage over 3 seconds.<br />The meteor moves at a speed
-      of 300.
-    dmg: ''
-    attrib: |-
-      IMPACT DELAY: <span class="attribVal">1.3</span><br />
-      RADIUS: <span class="attribVal">275</span><br />
-      BURN DURATION: <span class="attribVal">3</span>
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
-      Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 200</div><div class="cooldown"><img alt="Cooldown"
-      title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 55</div><br clear="left" /></div>
-    lore: Tarak's Descent of Fire.
-    hurl: invoker
-  invoker_sun_strike:
-    dname: Sun Strike
-    affects: 'ABILITY: <span class="attribVal">Point Target</span><br />DAMAGE TYPE:
-      <span class="attribVal"><font color="#d61107">Pure</font></span><br />PIERCES
-      SPELL IMMUNITY: <span class="attribVal"><font color="#70EA72">Yes</font></span><br
-      />'
-    desc: Sends a catastrophic ray of fierce energy from the sun at any targeted location,
-      incinerating all enemies standing beneath it once it reaches the earth. Deals
-      damage based on the level of <font color='#cabe68'>Exort</font>, however this
-      damage is spread evenly over all enemies hit.
-    notes: Gives vision of the target area before the strike.<br />Invoker gains experience
-      with kills made from Sun Strike, even if made from outside of experience range.
-    dmg: ''
-    attrib: |-
-      DELAY: <span class="attribVal">1.7</span><br />
-      RADIUS: <span class="attribVal">175</span>
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
-      Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 175</div><div class="cooldown"><img alt="Cooldown"
-      title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 25</div><br clear="left" /></div>
-    lore: Harlek's Incantation of Incineration.
-    hurl: invoker
-  invoker_forge_spirit:
-    dname: Forge Spirit
-    affects: 'ABILITY: <span class="attribVal">No Target</span><br />PIERCES SPELL
-      IMMUNITY: <span class="attribVal">No</span><br />'
-    desc: Invoker forges a spirit embodying the strength of fire and fortitude of
-      ice. Damage, mana, and armor are based on the level of <font color='#cabe68'>Exort</font>
-      while attack range, health, and duration are based on the level of <font color='#7998b5'>Quas</font>.
-      The elemental's scorching attack is capable of melting the armor of enemy heroes.
-    notes: Casting this ability will replace currently summoned Forged Spirits.
-    dmg: ''
-    attrib: ''
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
-      Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 75</div><div class="cooldown"><img alt="Cooldown"
-      title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 30</div><br clear="left" /></div>
-    lore: Culween's Most Cunning Fabrications.
-    hurl: invoker
-  invoker_ice_wall:
-    dname: Ice Wall
-    affects: 'ABILITY: <span class="attribVal">No Target</span><br />DAMAGE TYPE:
-      <span class="attribVal">Magical</span><br />PIERCES SPELL IMMUNITY: <span class="attribVal">No</span><br
-      />'
-    desc: Generates a wall of solid ice directly in front of Invoker for a duration
-      based on the level of <font color='#7998b5'>Quas</font>. The bitter cold emanating
-      from it greatly slows nearby enemies based on the level of <font color='#7998b5'>Quas</font>
-      and deals damage each second based on the level of <font color='#cabe68'>Exort</font>.
-    notes: The slow will still affect Spell Immune enemies if their spell immunity
-      was created after being affected by Ice Wall.
-    dmg: ''
-    attrib: 'SLOW DURATION: <span class="attribVal">2</span>'
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
-      Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 175</div><div class="cooldown"><img alt="Cooldown"
-      title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 25</div><br clear="left" /></div>
-    lore: Killing Wall of Koryx.
-    hurl: invoker
-  invoker_deafening_blast:
-    dname: Deafening Blast
-    affects: 'ABILITY: <span class="attribVal">Point Target</span><br />DAMAGE TYPE:
-      <span class="attribVal">Magical</span><br />PIERCES SPELL IMMUNITY: <span class="attribVal">No</span><br
-      />'
-    desc: Invoker unleashes a mighty sonic wave in front of him, dealing damage to
-      any enemy unit it collides with based on the level of <font color='#cabe68'>Exort</font>.
-      The sheer impact from the blast is enough to knock those enemy units back for
-      a duration based on the level of <font color='#7998b5'>Quas</font>, then disarm
-      their attacks for a duration based on the level of <font color='#d671a9'>Wex</font>.
-    notes: ''
-    dmg: ''
-    attrib: 'TRAVEL DISTANCE: <span class="attribVal">1000</span>'
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
-      Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 300</div><div class="cooldown"><img alt="Cooldown"
-      title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 40</div><br clear="left" /></div>
-    lore: Buluphont's Aureal Incapacitator.
-    hurl: invoker
   special_bonus_unique_invoker_1:
     dname: "+1 Forged Spirit Summoned"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -9597,6 +9181,16 @@ abilitydata:
     dname: AoE Deafening Blast
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
     desc: DOTA_Tooltip_ability_special_bonus_unique_invoker_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: invoker
+  special_bonus_unique_invoker_3:
+    dname: "-18s Tornado Cooldown"
+    affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_invoker_3_Description
     notes: ''
     dmg: ''
     attrib: ''
@@ -10132,19 +9726,6 @@ abilitydata:
     lore: The ever growing influence of the Shadow Demon can pollute the most valiant
       and pure of heroes.
     hurl: shadow_demon
-  shadow_demon_shadow_poison_release:
-    dname: Shadow Poison Release
-    affects: 'ABILITY: <span class="attribVal">No Target</span><br />'
-    desc: Releases the poison to do damage on all affected enemies. Units under the
-      effect of Disruption can still be affected by Shadow Poison.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: <div class="cooldownMana"><div class="cooldown"><img alt="Cooldown" title="Cooldown"
-      class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 1</div><br clear="left" /></div>
-    lore: ''
-    hurl: shadow_demon
   shadow_demon_demonic_purge:
     dname: Demonic Purge
     affects: 'ABILITY: <span class="attribVal">Unit Target</span><br />AFFECTS: <span
@@ -10266,26 +9847,6 @@ abilitydata:
     lore: Sylla studies and masters the arts of the lost Bear Clan, enhancing his
       attunement with the wild.
     hurl: lone_druid
-  lone_druid_true_form_battle_cry:
-    dname: Battle Cry
-    affects: 'ABILITY: <span class="attribVal">No Target</span><br />'
-    desc: Adds attack damage and armor to the Lone Druid as well as any nearby units
-      under his control.
-    notes: ''
-    dmg: ''
-    attrib: |-
-      BONUS DAMAGE: <span class="attribVal">70 / 100 / 130</span><br />
-      BONUS ARMOR: <span class="attribVal">10 / 15 / 20</span><br />
-      DURATION: <span class="attribVal">6</span><br />
-      RADIUS: <span class="attribVal">1000</span>
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
-      Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 50/50/50</div><div class="cooldown"><img
-      alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 60</div><br clear="left" /></div>
-    lore: When Sylla cries in the forest, the reverberations are felt for a great
-      distance.
-    hurl: lone_druid
   lone_druid_true_form:
     dname: True Form
     affects: 'ABILITY: <span class="attribVal">No Target</span><br />'
@@ -10310,20 +9871,6 @@ abilitydata:
       width="16" height="16" border="0" /> 0</div><br clear="left" /></div>
     lore: The mighty bear is the king of the forest, possessing the throne through
       raw power.
-    hurl: lone_druid
-  lone_druid_true_form_druid:
-    dname: Druid Form
-    affects: 'ABILITY: <span class="attribVal">No Target</span><br />'
-    desc: "Return to Druid form.\r\n\r\nUpgradable by Aghanim's Scepter."
-    notes: ''
-    dmg: ''
-    attrib: 'TRANSFORM TIME: <span class="attribVal">0.8</span>'
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
-      Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 25/25/25</div><div class="cooldown"><img
-      alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 0</div><br clear="left" /></div>
-    lore: ''
     hurl: lone_druid
   special_bonus_unique_lone_druid_1:
     dname: "+50 Spirit Bear Damage"
@@ -10632,29 +10179,6 @@ abilitydata:
     lore: The roots and tendrils of the Treant Protectors are far-reaching, stimulating
       the growth and rejuvenation of all of nature.
     hurl: treant
-  treant_eyes_in_the_forest:
-    dname: Eyes In The Forest
-    affects: 'ABILITY: <span class="attribVal">Unit Target</span><br />DAMAGE TYPE:
-      <span class="attribVal">Magical</span><br />'
-    desc: Treant Protector enchants a tree, which grants him unobstructed vision in
-      that location. If Overgrowth is cast, units within a radius of an enchanted
-      tree will be entangled and damaged.
-    notes: Being entangled by Overgrowth through enchanted trees from Eyes of the
-      Forest does damage. Being entangled by Overgrowth directly from Treant Protector
-      does not.<br />If the enemy has True Sight, they will be able to see which trees
-      are enchanted.
-    dmg: ''
-    attrib: |-
-      TREE VISION RADIUS: <span class="attribVal">800</span><br />
-      SCEPTER OVERGROWTH RADIUS: <span class="attribVal">800</span><br />
-      SCEPTER OVERGROWTH DAMAGE PER SEC: <span class="attribVal">175</span>
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
-      Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 100</div><div class="cooldown"><img alt="Cooldown"
-      title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 35</div><br clear="left" /></div>
-    lore: One can never be too certain who, or what, might need protecting.
-    hurl: treant
   treant_overgrowth:
     dname: Overgrowth
     affects: 'ABILITY: <span class="attribVal">No Target</span><br />DAMAGE TYPE:
@@ -10759,24 +10283,6 @@ abilitydata:
       title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 20</div><br clear="left" /></div>
     lore: "'Running's not as fun as hitting... Not one bit fun.'"
-    hurl: ogre_magi
-  ogre_magi_unrefined_fireblast:
-    dname: Unrefined Fireblast
-    affects: 'ABILITY: <span class="attribVal">Unit Target</span><br />AFFECTS: <span
-      class="attribVal">Enemy Units</span><br />DAMAGE TYPE: <span class="attribVal">Magical</span><br
-      />PIERCES SPELL IMMUNITY: <span class="attribVal">No</span><br />'
-    desc: Blasts an enemy unit with a wave of fire, dealing damage and stunning the
-      target. Its mana cost is 60% of Ogre Magi's current mana.
-    notes: ''
-    dmg: 'DAMAGE: <span class="attribVal">275</span><br />'
-    attrib: 'STUN DURATION: <span class="attribVal">1.5</span>'
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
-      Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 400</div><div class="cooldown"><img alt="Cooldown"
-      title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 6</div><br clear="left" /></div>
-    lore: The 'who-casts-spell-first' argument between himself is solved simply by
-      both casting at once.
     hurl: ogre_magi
   ogre_magi_multicast:
     dname: Multicast
@@ -10970,16 +10476,6 @@ abilitydata:
       title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 22</div><br clear="left" /></div>
     lore: Even the Grandest Magus may use his powers for enjoyment.
-    hurl: rubick
-  rubick_telekinesis_land:
-    dname: Telekinesis Land
-    affects: 'ABILITY: <span class="attribVal">Point Target</span><br />'
-    desc: Chooses the location the target will land when Telekinesis finishes.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: rubick
   rubick_fade_bolt:
     dname: Fade Bolt
@@ -11226,41 +10722,6 @@ abilitydata:
     lore: While their carapace is relatively thin, it's guarded by a retractable field
       of razor-sharp spikes.
     hurl: nyx_assassin
-  nyx_assassin_burrow:
-    dname: Burrow
-    affects: 'ABILITY: <span class="attribVal">No Target</span><br />'
-    desc: Nyx Assassin buries himself beneath the battlefield over a short duration.
-      Once burrowed, Spiked Carapace instantly stuns nearby enemies when cast, the
-      range of Mana Burn and Impale is increased, and Impale's cooldown is decreased.
-      While burrowed, Nyx Assassin is stationary, unable to attack, and invisible.
-      His health and mana regeneration are also increased, and he gains damage reduction
-      from all damage sources.
-    notes: Casting Vendetta will cancel burrow.
-    dmg: ''
-    attrib: |-
-      BURROW HEALTH/MANA REGEN: <span class="attribVal">1.5%</span><br />
-      BURROW DAMAGE REDUCTION: <span class="attribVal">40%</span><br />
-      BURROW MANA BURN RANGE: <span class="attribVal">1050</span><br />
-      BURROW IMPALE RANGE: <span class="attribVal">1225</span><br />
-      BURROW IMPALE COOLDOWN: <span class="attribVal">7</span><br />
-      BURROW SPIKED CARAPACE RANGE: <span class="attribVal">300</span>
-    cmb: ''
-    lore: Some castes of zealot scarab are known to create small burrows to lie in
-      wait, ready to ambush their prey.
-    hurl: nyx_assassin
-  nyx_assassin_unburrow:
-    dname: Unburrow
-    affects: 'ABILITY: <span class="attribVal">No Target</span><br />'
-    desc: Emerge from the burrow.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: <div class="cooldownMana"><div class="cooldown"><img alt="Cooldown" title="Cooldown"
-      class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 0</div><br clear="left" /></div>
-    lore: Some castes of zealot scarab are known to create small burrows to lie in
-      wait, ready to ambush their prey.
-    hurl: nyx_assassin
   nyx_assassin_vendetta:
     dname: Vendetta
     affects: 'ABILITY: <span class="attribVal">No Target</span><br />DAMAGE TYPE:
@@ -11396,18 +10857,6 @@ abilitydata:
     lore: Slithice's powerful voice enchants leagues of opponents, while calling her
       Slithereen kin in a time of need.
     hurl: naga_siren
-  naga_siren_song_of_the_siren_cancel:
-    dname: Song of the Siren End
-    affects: 'ABILITY: <span class="attribVal">No Target</span><br />'
-    desc: Release enemy units from your song so they can be targeted again.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: <div class="cooldownMana"><div class="cooldown"><img alt="Cooldown" title="Cooldown"
-      class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 1</div><br clear="left" /></div>
-    lore: ''
-    hurl: naga_siren
   special_bonus_unique_naga_siren_2:
     dname: "-3s Ensnare Cooldown"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -11494,51 +10943,6 @@ abilitydata:
       width="16" height="16" border="0" /> 17/16/15/14</div><br clear="left" /></div>
     lore: In the same vein, Ezalor bestows his harmony among others.
     hurl: keeper_of_the_light
-  keeper_of_the_light_recall:
-    dname: Recall
-    affects: 'ABILITY: <span class="attribVal">No Target, Channeled, Unit Target,
-      Point Target</span><br />AFFECTS: <span class="attribVal">Allies</span><br />PIERCES
-      SPELL IMMUNITY: <span class="attribVal"><font color="#70EA72">Yes</font></span><br
-      />'
-    desc: After a short delay, teleports the targeted friendly hero to your location.  If
-      the targeted friendly hero takes player based damage during this time, the ability
-      is interrupted.
-    notes: If Keeper of the Light dies, the spell effect is interrupted.<br />Recall
-      will interrupt channeling spells.<br />You can disable help to prevent Keeper
-      from casting this spell on you.<br />Can be cast through the minimap, choosing
-      the nearest friendly hero.
-    dmg: ''
-    attrib: 'TELEPORT DELAY: <span class="attribVal">5 / 4 / 3</span>'
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
-      Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 100/100/100</div><div class="cooldown"><img
-      alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 15</div><br clear="left" /></div>
-    lore: Walk towards the light.
-    hurl: keeper_of_the_light
-  keeper_of_the_light_blinding_light:
-    dname: Blinding Light
-    affects: 'ABILITY: <span class="attribVal">Point Target</span><br />PIERCES SPELL
-      IMMUNITY: <span class="attribVal">No</span><br />'
-    desc: A blinding light flashes over the targeted area, knocking back and blinding
-      the units in the area, causing them to miss attacks.
-    notes: Causes knockback of 250 range over 0.4 seconds, centered on the middle
-      of the target area. Upon landing, units will destroy trees in a 150 radius.<br
-      />Does not interrupt channeling.
-    dmg: ''
-    attrib: |-
-      RADIUS: <span class="attribVal">675 / 675 / 675</span><br />
-      DURATION: <span class="attribVal">4 / 5 / 6</span><br />
-      MISS CHANCE: <span class="attribVal">80% / 80% / 80%</span><br />
-      KNOCKBACK DISTANCE: <span class="attribVal">525</span>
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
-      Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 50/50/50</div><div class="cooldown"><img
-      alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 20/16/12</div><br clear="left" /></div>
-    lore: The Primordial light turns the tides of battle in favor of Ezalor and his
-      allies.
-    hurl: keeper_of_the_light
   keeper_of_the_light_spirit_form:
     dname: Spirit Form
     affects: 'ABILITY: <span class="attribVal">No Target</span><br />'
@@ -11554,40 +10958,6 @@ abilitydata:
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 80/70/60</div><br clear="left" /></div>
     lore: In a flash of light, Ezalor reveals his true nature.
-    hurl: keeper_of_the_light
-  keeper_of_the_light_illuminate_end:
-    dname: Release Illuminate
-    affects: 'ABILITY: <span class="attribVal">No Target</span><br />'
-    desc: Release the channel early.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: keeper_of_the_light
-  keeper_of_the_light_spirit_form_illuminate:
-    dname: Illuminate
-    affects: 'ABILITY: <span class="attribVal">Point Target</span><br />DAMAGE TYPE:
-      <span class="attribVal">Magical</span><br />PIERCES SPELL IMMUNITY: <span class="attribVal">No</span><br
-      />'
-    desc: "Channels light energy, building power the longer it's channeled.  Once
-      released, a wave is sent forth that deals damage and gives vision in its path.
-      \ The longer it is channeled, the more damage is dealt.\r\n\r\nUpgradable by
-      Aghanim's Scepter."
-    notes: Gives increasing vision over the channeling time.<br />Damages mechanical
-      units.
-    dmg: ''
-    attrib: |-
-      DAMAGE PER SECOND CHANNELED: <span class="attribVal">100 / 100 / 100 / 100</span><br />
-      MAX CHANNEL TIME: <span class="attribVal">2 / 3 / 4 / 5</span><br />
-      WIDTH: <span class="attribVal">375</span><br />
-      RANGE: <span class="attribVal">1550</span>
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
-      Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 150/160/170/180</div><div class="cooldown"><img
-      alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 10</div><br clear="left" /></div>
-    lore: Ezalor's hidden light reveals itself in marvelous fashion.
     hurl: keeper_of_the_light
   special_bonus_unique_keeper_of_the_light_2:
     dname: "+300 Chakra Magic Mana"
@@ -11646,18 +11016,6 @@ abilitydata:
       width="16" height="16" border="0" /> 12</div><br clear="left" /></div>
     lore: The benevolent touch of Io brings strength from between the planes.
     hurl: wisp
-  wisp_tether_break:
-    dname: Break Tether
-    affects: 'ABILITY: <span class="attribVal">No Target</span><br />'
-    desc: Break the link to the tethered unit.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: <div class="cooldownMana"><div class="cooldown"><img alt="Cooldown" title="Cooldown"
-      class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 1</div><br clear="left" /></div>
-    lore: ''
-    hurl: wisp
   wisp_spirits:
     dname: Spirits
     affects: 'ABILITY: <span class="attribVal">No Target</span><br />DAMAGE TYPE:
@@ -11699,26 +11057,6 @@ abilitydata:
       width="16" height="16" border="0" /> 2</div><br clear="left" /></div>
     lore: Drawing on the energy of matter from all worlds, Io begins the unravelling
       of time.
-    hurl: wisp
-  wisp_spirits_in:
-    dname: Spirits In
-    affects: 'ABILITY: <span class="attribVal">No Target, Toggle</span><br />'
-    desc: Calls the spirits closer to you. Can be toggled on and off.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: wisp
-  wisp_spirits_out:
-    dname: Spirits Out
-    affects: 'ABILITY: <span class="attribVal">No Target, Toggle</span><br />'
-    desc: Sends the spirits farther away from you. Can be toggled on and off.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: wisp
   wisp_relocate:
     dname: Relocate
@@ -12176,28 +11514,6 @@ abilitydata:
       width="16" height="16" border="0" /> 19/16/13/10</div><br clear="left" /></div>
     lore: Only axes fueled by hate whirl with such a deadly spin.
     hurl: troll_warlord
-  troll_warlord_whirling_axes_melee:
-    dname: Whirling Axes (Melee)
-    affects: 'ABILITY: <span class="attribVal">No Target</span><br />DAMAGE TYPE:
-      <span class="attribVal">Magical</span><br />PIERCES SPELL IMMUNITY: <span class="attribVal">No</span><br
-      />'
-    desc: Troll hurls two axes around him in a close range area of effect, damaging
-      enemy units and causing them to miss some attacks.
-    notes: Only available in melee mode.<br />Both abilities have independent cooldowns.
-    dmg: ''
-    attrib: |-
-      DAMAGE: <span class="attribVal">75 / 125 / 175 / 225</span><br />
-      RADIUS: <span class="attribVal">450</span><br />
-      BLIND DURATION: <span class="attribVal">4 / 5 / 6 / 7</span><br />
-      MISS CHANCE: <span class="attribVal">60%</span><br />
-      WHIRL DURATION: <span class="attribVal">3</span>
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
-      Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 50/50/50/50</div><div class="cooldown"><img
-      alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 12</div><br clear="left" /></div>
-    lore: Keep your enemies close.
-    hurl: troll_warlord
   troll_warlord_fervor:
     dname: Fervor
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -12494,44 +11810,6 @@ abilitydata:
     lore: The saw-suit is equipped to react to the slightest touch with fortified
       defenses.
     hurl: shredder
-  shredder_chakram_2:
-    dname: Chakram
-    affects: 'ABILITY: <span class="attribVal">Point Target</span><br />DAMAGE TYPE:
-      <span class="attribVal"><font color="#d61107">Pure</font></span><br />PIERCES
-      SPELL IMMUNITY: <span class="attribVal">No</span><br />'
-    desc: Fires a secondary saw blade at the target location where it will spin in
-      place, dealing damage in an area around it.  Additionally, for each 5% of health
-      missing, enemies caught in the saw blade move more slowly. The blade deals damage
-      and cuts down trees in its path when fired and retracted.  While active the
-      ability costs mana, and you lose the ability to attack.
-    notes: The Chakram will return if Timbersaw runs out of mana or moves over 2000
-      distance away.
-    dmg: ''
-    attrib: |-
-      RADIUS: <span class="attribVal">200</span><br />
-      PASS DAMAGE: <span class="attribVal">100 / 140 / 180</span><br />
-      DAMAGE PER SECOND: <span class="attribVal">50 / 75 / 100</span><br />
-      SLOW: <span class="attribVal">5%</span><br />
-      MANA COST PER SECOND: <span class="attribVal">20 / 25 / 30</span>
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
-      Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 100/150/200</div><div class="cooldown"><img
-      alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 8</div><br clear="left" /></div>
-    lore: Cut cut cut cut cut cut cut cut cut cut cut!
-    hurl: shredder
-  shredder_return_chakram_2:
-    dname: Return Chakram
-    affects: 'ABILITY: <span class="attribVal">No Target</span><br />'
-    desc: Returns the Chakram to Timbersaw.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: <div class="cooldownMana"><div class="cooldown"><img alt="Cooldown" title="Cooldown"
-      class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 0</div><br clear="left" /></div>
-    lore: ''
-    hurl: shredder
   shredder_chakram:
     dname: Chakram
     affects: 'ABILITY: <span class="attribVal">Point Target</span><br />DAMAGE TYPE:
@@ -12558,18 +11836,6 @@ abilitydata:
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 8</div><br clear="left" /></div>
     lore: The ultimate in anti-flora weaponry.
-    hurl: shredder
-  shredder_return_chakram:
-    dname: Return Chakram
-    affects: 'ABILITY: <span class="attribVal">No Target</span><br />'
-    desc: Returns the Chakram to Timbersaw.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: <div class="cooldownMana"><div class="cooldown"><img alt="Cooldown" title="Cooldown"
-      class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 0</div><br clear="left" /></div>
-    lore: ''
     hurl: shredder
   special_bonus_unique_timbersaw:
     dname: "+6% Whirling Death Attribute Reduction"
@@ -12775,40 +12041,6 @@ abilitydata:
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 50</div><br clear="left" /></div>
     lore: The chill of home!
-    hurl: tusk
-  tusk_launch_snowball:
-    dname: Launch Snowball
-    affects: 'ABILITY: <span class="attribVal">No Target</span><br />'
-    desc: Launch the snowball toward the target.
-    notes: The snowball destroys trees.<br />The snowball travels at 675 movement
-      speed.<br />Doesn't carry illusions, but will carry Meepo clones and other units
-      that Tusk controls.<br />Each Meepo clone added to the snowball will add its
-      own bonus damage and speed.
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: Into the great wide white!
-    hurl: tusk
-  tusk_walrus_kick:
-    dname: Walrus Kick
-    affects: 'ABILITY: <span class="attribVal">Unit Target</span><br />AFFECTS: <span
-      class="attribVal">Enemy Units</span><br />DAMAGE TYPE: <span class="attribVal">Magical</span><br
-      />PIERCES SPELL IMMUNITY: <span class="attribVal"><font color="#70EA72">Yes</font></span><br
-      />'
-    desc: Kicks the target unit back, damaging them and slowing their movement speed.
-    notes: ''
-    dmg: ''
-    attrib: |-
-      KICK PUSH DISTANCE: <span class="attribVal">1400</span><br />
-      MOVE SLOW: <span class="attribVal">40%</span><br />
-      SLOW DURATION: <span class="attribVal">4</span><br />
-      DAMAGE: <span class="attribVal">350</span>
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
-      Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 100</div><div class="cooldown"><img alt="Cooldown"
-      title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 8</div><br clear="left" /></div>
-    lore: ''
     hurl: tusk
   tusk_walrus_punch:
     dname: Walrus PUNCH!
@@ -13132,18 +12364,6 @@ abilitydata:
     cmb: ''
     lore: As it was at the beginning, Elder Titan makes it so again.
     hurl: elder_titan
-  elder_titan_return_spirit:
-    dname: Return Astral Spirit
-    affects: 'ABILITY: <span class="attribVal">No Target</span><br />'
-    desc: Returns the Astral Spirit to Elder Titan.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: <div class="cooldownMana"><div class="cooldown"><img alt="Cooldown" title="Cooldown"
-      class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 0</div><br clear="left" /></div>
-    lore: ''
-    hurl: elder_titan
   elder_titan_earth_splitter:
     dname: Earth Splitter
     affects: 'ABILITY: <span class="attribVal">Point Target</span><br />AFFECTS: <span
@@ -13373,22 +12593,6 @@ abilitydata:
       width="16" height="16" border="0" /> 35</div><br clear="left" /></div>
     lore: An enemy should never be allowed to approach without difficulty.
     hurl: ember_spirit
-  ember_spirit_activate_fire_remnant:
-    dname: Activate Fire Remnant
-    affects: 'ABILITY: <span class="attribVal">Point Target</span><br />DAMAGE TYPE:
-      <span class="attribVal">Magical</span><br />PIERCES SPELL IMMUNITY: <span class="attribVal">No</span><br
-      />'
-    desc: Select the Fire Remnant to arrive at.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
-      Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 150</div><div class="cooldown"><img alt="Cooldown"
-      title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 0</div><br clear="left" /></div>
-    lore: With blazing speed does a spirit fly!
-    hurl: ember_spirit
   ember_spirit_fire_remnant:
     dname: Fire Remnant
     affects: 'ABILITY: <span class="attribVal">Point Target</span><br />DAMAGE TYPE:
@@ -13510,46 +12714,6 @@ abilitydata:
       width="16" height="16" border="0" /> 13</div><br clear="left" /></div>
     lore: Like calls to like. Even the minerals found in the blood and bones of living
       beings are not immune to the call of the Earth Spirit.
-    hurl: earth_spirit
-  earth_spirit_stone_caller:
-    dname: Stone Remnant
-    affects: 'ABILITY: <span class="attribVal">Point Target</span><br />'
-    desc: Call a Stone Remnant to the target location.  Stone Remnants have no vision
-      and are invulnerable, and can be used with Earth Spirit's abilities.  Calling
-      a Stone Remnant consumes a charge, which recharge over time.
-    notes: ''
-    dmg: ''
-    attrib: |-
-      MAX CHARGES: <span class="attribVal">6</span><br />
-      CHARGE RESTORE TIME: <span class="attribVal">30</span><br />
-      DURATION: <span class="attribVal">120</span>
-    cmb: <div class="cooldownMana"><div class="cooldown"><img alt="Cooldown" title="Cooldown"
-      class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 0</div><br clear="left" /></div>
-    lore: Earth Spirit calls forth a remnant of his stone army, long buried with him
-      in the dark embrace of the Earth.
-    hurl: earth_spirit
-  earth_spirit_petrify:
-    dname: Enchant Remnant
-    affects: 'ABILITY: <span class="attribVal">Unit Target</span><br />DAMAGE TYPE:
-      <span class="attribVal">Magical</span><br />PIERCES SPELL IMMUNITY: <span class="attribVal">No</span><br
-      />'
-    desc: Earth Spirit temporarily enchants a hero, granting them the properties of
-      a Stone Remnant. After a short duration the remnant shatters, releasing the
-      hero and damaging nearby enemies.
-    notes: ''
-    dmg: ''
-    attrib: |-
-      REMNANT DURATION: <span class="attribVal">3</span><br />
-      SHATTER DAMAGE: <span class="attribVal">300</span><br />
-      SHATTER RADIUS: <span class="attribVal">300</span>
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
-      Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 150</div><div class="cooldown"><img alt="Cooldown"
-      title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 45</div><br clear="left" /></div>
-    lore: Kaolin uses the elemental power of the Earth to temporarily petrify living
-      beings, so that they might be conscripted into his stone funerary army.
     hurl: earth_spirit
   earth_spirit_magnetize:
     dname: Magnetize
@@ -13765,16 +12929,6 @@ abilitydata:
       width="16" height="16" border="0" /> 26</div><br clear="left" /></div>
     lore: The vent through which such stellar energy flows is mere atoms wide.
     hurl: phoenix
-  phoenix_sun_ray_toggle_move:
-    dname: Toggle Movement
-    affects: 'ABILITY: <span class="attribVal">No Target</span><br />'
-    desc: Toggles slow forward movement during Sun Ray firing.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: SQAWRK!
-    hurl: phoenix
   phoenix_supernova:
     dname: Supernova
     affects: 'ABILITY: <span class="attribVal">No Target</span><br />AFFECTS: <span
@@ -13801,50 +12955,6 @@ abilitydata:
       width="16" height="16" border="0" /> 110</div><br clear="left" /></div>
     lore: The solar crucible of a Supernova may be fatal, yet from its flames arise
       new beacons to wander infinity.
-    hurl: phoenix
-  phoenix_launch_fire_spirit:
-    dname: Launch Fire Spirit
-    affects: 'ABILITY: <span class="attribVal">Point Target</span><br />DAMAGE TYPE:
-      <span class="attribVal">Magical</span><br />PIERCES SPELL IMMUNITY: <span class="attribVal">No</span><br
-      />'
-    desc: Each fire spirit can be launched independently at a targeted area of effect.
-      Affected enemy units take damage over time and have their attack speed greatly
-      reduced. Reveals the area it strikes for 1 second.
-    notes: ''
-    dmg: ''
-    attrib: |-
-      HP COST: <span class="attribVal">20%</span><br />
-      SPIRIT DURATION: <span class="attribVal">16 / 16 / 16 / 16</span><br />
-      RADIUS: <span class="attribVal">175 / 175 / 175 / 175</span><br />
-      BURN DURATION: <span class="attribVal">4</span><br />
-      ATTACK SPEED SLOW: <span class="attribVal">80 / 100 / 120 / 140</span><br />
-      DAMAGE PER SECOND: <span class="attribVal">10 / 30 / 50 / 70</span>
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
-      Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 0/0/0/0</div><div class="cooldown"><img
-      alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 0</div><br clear="left" /></div>
-    lore: PKAWW! BOOM
-    hurl: phoenix
-  phoenix_icarus_dive_stop:
-    dname: Stop Icarus Dive
-    affects: 'ABILITY: <span class="attribVal">No Target</span><br />'
-    desc: Immediately cancels the dive.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: SCREE!
-    hurl: phoenix
-  phoenix_sun_ray_stop:
-    dname: Stop Sun Ray
-    affects: 'ABILITY: <span class="attribVal">No Target</span><br />'
-    desc: Immediately stops the Sun Ray.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: CHIRP!
     hurl: phoenix
   special_bonus_unique_phoenix_3:
     dname: "+65 Fire Spirits DPS"
@@ -14053,33 +13163,6 @@ abilitydata:
       alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 35</div><br clear="left" /></div>
     lore: Where we going?
-    hurl: techies
-  techies_focused_detonate:
-    dname: Focused Detonate
-    affects: 'ABILITY: <span class="attribVal">Point Target</span><br />DAMAGE TYPE:
-      <span class="attribVal">Magical</span><br />'
-    desc: Detonate all remote mines in the target area.
-    notes: ''
-    dmg: ''
-    attrib: 'RADIUS: <span class="attribVal">700</span>'
-    cmb: <div class="cooldownMana"><div class="cooldown"><img alt="Cooldown" title="Cooldown"
-      class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 1</div><br clear="left" /></div>
-    lore: Why light one fuse when you can light them all?
-    hurl: techies
-  techies_minefield_sign:
-    dname: Minefield Sign
-    affects: 'ABILITY: <span class="attribVal">Point Target</span><br />DAMAGE TYPE:
-      <span class="attribVal">DOTA_ToolTip_Damage_None</span><br />'
-    desc: "Plant a warning sign to remind enemies to step lightly. Only one sign can
-      exist at a time. Lasts 180 seconds.\r\n\r\nUpgradable by Aghanim's Scepter."
-    notes: ''
-    dmg: ''
-    attrib: 'SIGN DURATION: <span class="attribVal">180</span>'
-    cmb: <div class="cooldownMana"><div class="cooldown"><img alt="Cooldown" title="Cooldown"
-      class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 360</div><br clear="left" /></div>
-    lore: Watch your step!
     hurl: techies
   techies_remote_mines:
     dname: Remote Mines
@@ -14444,16 +13527,6 @@ abilitydata:
       width="16" height="16" border="0" /> 130/120/110</div><br clear="left" /></div>
     lore: They come without warning, leaving fire and blood where kingdoms once flourished.
     hurl: abyssal_underlord
-  abyssal_underlord_cancel_dark_rift:
-    dname: Cancel Dark Rift
-    affects: 'ABILITY: <span class="attribVal">No Target</span><br />'
-    desc: Stop the teleport.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: abyssal_underlord
   special_bonus_spell_amplify_12:
     dname: "+12% Spell Amplification"
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />'
@@ -14527,39 +13600,6 @@ abilitydata:
     lore: Sun Wukong dances nimbly along the treetop canopy, always just out of arm's
       reach.
     hurl: monkey_king
-  monkey_king_primal_spring:
-    dname: Primal Spring
-    affects: 'ABILITY: <span class="attribVal">Channeled, Point Target</span><br />DAMAGE
-      TYPE: <span class="attribVal">Magical</span><br />PIERCES SPELL IMMUNITY: <span
-      class="attribVal">No</span><br />'
-    desc: Monkey King springs out from his tree perch, damaging and slowing enemies
-      in the area where he lands. Damage and slow amounts are in proportion to channel
-      duration.
-    notes: ''
-    dmg: ''
-    attrib: |-
-      DAMAGE: <span class="attribVal">140 / 210 / 280 / 350</span><br />
-      MOVEMENT SLOW: <span class="attribVal">20% / 40% / 60% / 80%</span><br />
-      SLOW DURATION: <span class="attribVal">4</span><br />
-      MAX DISTANCE: <span class="attribVal">1000</span>
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
-      Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 130/120/110/100</div><div class="cooldown"><img
-      alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 19/17/15/13</div><br clear="left" /></div>
-    lore: Leaping from the safety of cover into the midst of his enemies, Sun Wukong
-      attacks without mercy.
-    hurl: monkey_king
-  monkey_king_primal_spring_early:
-    dname: monkey_king_primal_spring_early
-    affects: 'ABILITY: <span class="attribVal">No Target</span><br />'
-    desc: DOTA_Tooltip_ability_monkey_king_primal_spring_early_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: monkey_king
   monkey_king_jingu_mastery:
     dname: Jingu Mastery
     affects: 'ABILITY: <span class="attribVal">Passive</span><br />PIERCES SPELL IMMUNITY:
@@ -14578,36 +13618,6 @@ abilitydata:
     cmb: ''
     lore: Always sensitive to the moods of its master, the Jingu Bang radiates power
       when Sun Wukong's combat fervor is on full display.
-    hurl: monkey_king
-  monkey_king_mischief:
-    dname: Mischief
-    affects: 'ABILITY: <span class="attribVal">No Target</span><br />'
-    desc: Changes Monkey King's shape to deceive opponents, using the environment
-      nearby as inspiration for the disguise. Taking damage, attacking, or using any
-      item or ability breaks Monkey King's disguise.
-    notes: ''
-    dmg: ''
-    attrib: 'MOVESPEED: <span class="attribVal">200</span>'
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
-      Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 0/0/0/0</div><div class="cooldown"><img
-      alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 3</div><br clear="left" /></div>
-    lore: Watch out for that tree.
-    hurl: monkey_king
-  monkey_king_untransform:
-    dname: Revert Form
-    affects: 'ABILITY: <span class="attribVal">No Target</span><br />'
-    desc: Reverts Monkey King's shape to his original form.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="Mana Cost" title="Mana
-      Cost" class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 0/0/0/0</div><div class="cooldown"><img
-      alt="Cooldown" title="Cooldown" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 1</div><br clear="left" /></div>
-    lore: ''
     hurl: monkey_king
   monkey_king_wukongs_command:
     dname: Wukong's Command

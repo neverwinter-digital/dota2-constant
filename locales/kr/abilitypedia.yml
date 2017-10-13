@@ -368,16 +368,6 @@ abilitydata:
       width="16" height="16" border="0" /> 100</div><br clear="left" /></div>
     lore: 아트로포스의 제물이 된 자는 생생하게 재현되는 자신의 악몽으로 갈가리 찢기곤 합니다.
     hurl: bane
-  bane_nightmare_end:
-    dname: 악몽의 끝
-    affects: '능력: <span class="attribVal">대상 없음, 전환</span><br />'
-    desc: 모든 악몽을 끝냅니다.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: bane
   special_bonus_armor_6:
     dname: 방어력 +6
     affects: '능력: <span class="attribVal">지속 효과</span><br />'
@@ -1447,21 +1437,6 @@ abilitydata:
       width="16" height="16" border="0" /> 0</div><br clear="left" /></div>
     lore: 물의 형태는 계속 바뀌므로 모플링의 속성을 파악하기란 어렵습니다.
     hurl: morphling
-  morphling_hybrid:
-    dname: 혼성체
-    affects: '능력: <span class="attribVal">유닛 지정</span><br />'
-    desc: 모플링이 대상 아군 영웅의 혼성체를 생성합니다. 혼성체는 해당 영웅의 궁극기를 제외한 모든 능력을 사용합니다. 적은 혼성체를 식별할
-      수 있습니다.
-    notes: ''
-    dmg: ''
-    attrib: '지속시간: <span class="attribVal">20</span>'
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
-      class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 200</div><div class="cooldown"><img alt="쿨다운"
-      title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 60</div><br clear="left" /></div>
-    lore: ''
-    hurl: morphling
   morphling_replicate:
     dname: 형상 복제
     affects: '능력: <span class="attribVal">유닛 지정</span><br />주문 면역 관통: <span class="attribVal"><font
@@ -1481,18 +1456,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 80</div><br clear="left" /></div>
     lore: 모플링을 쳐다보면 바라보는 이와 똑같은 모습을 지닌 환영이 생겨납니다.
-    hurl: morphling
-  morphling_morph_replicate:
-    dname: 복제물 대체
-    affects: '능력: <span class="attribVal">대상 없음</span><br />'
-    desc: 모플링이 자신의 복제 유닛을 취하고 그 위치로 이동합니다.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
-      class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 150/150/150</div><br clear="left" /></div>
-    lore: ''
     hurl: morphling
   special_bonus_attack_speed_25:
     dname: 공격 속도 +25
@@ -1717,16 +1680,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 6</div><br clear="left" /></div>
     lore: 퍽은 재치있는 말 한마디를 뱉고서는 눈 깜짝할 사이에 원래 살던 외계의 차원으로 돌아갑니다.
-    hurl: puck
-  puck_ethereal_jaunt:
-    dname: 에테르 이동
-    affects: '능력: <span class="attribVal">대상 없음</span><br />'
-    desc: 신비로운 구슬의 현재 위치로 순간이동합니다.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: puck
   puck_dream_coil:
     dname: 꿈의 고리
@@ -2854,23 +2807,6 @@ abilitydata:
     cmb: ''
     lore: 천둥신이 대지를 거닐면 그 주위에는 정전기가 일어납니다.
     hurl: zuus
-  zuus_cloud:
-    dname: 비구름
-    affects: '능력: <span class="attribVal">목표 지점 지정</span><br />피해 유형: <span class="attribVal">마법</span><br
-      />주문 면역 관통: <span class="attribVal">미관통</span><br />'
-    desc: 근처의 적에게 자동으로 번갯불을 시전하는 폭풍 구름을 지도상의 원하는 곳에 생성합니다.
-    notes: 적 영웅이 파괴하면 100골드를 받습니다.<br />가장 가까이 있는 적 유닛에게 영향을 끼칩니다.
-    dmg: ''
-    attrib: |-
-      지속시간: <span class="attribVal">35</span><br />
-      번갯불 기본 쿨다운: <span class="attribVal">2.25</span>
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
-      class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 275</div><div class="cooldown"><img alt="쿨다운"
-      title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 35</div><br clear="left" /></div>
-    lore: ''
-    hurl: zuus
   zuus_thundergods_wrath:
     dname: 천둥신의 분노
     affects: '능력: <span class="attribVal">대상 없음</span><br />피해 유형: <span class="attribVal">마법</span><br
@@ -3009,19 +2945,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 60/50/40</div><br clear="left" /></div>
     lore: 클라드 해군의 마지막 함선은 환영일 뿐이지만 제독의 적에게는 아주 생생한 실체입니다.
-    hurl: kunkka
-  kunkka_return:
-    dname: 귀환
-    affects: '능력: <span class="attribVal">대상 없음</span><br />주문 면역 관통: <span class="attribVal">미관통</span><br
-      />'
-    desc: 지정된 영웅을 X 표시가 있는 위치로 되돌립니다.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: <div class="cooldownMana"><div class="cooldown"><img alt="쿨다운" title="쿨다운"
-      class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 1</div><br clear="left" /></div>
-    lore: ''
     hurl: kunkka
   special_bonus_attack_damage_30:
     dname: 피해 +30
@@ -3245,8 +3168,9 @@ abilitydata:
     affects: '능력: <span class="attribVal">유닛 지정</span><br />효과: <span class="attribVal">적
       유닛</span><br />피해 유형: <span class="attribVal">마법</span><br />주문 면역 관통: <span
       class="attribVal">미관통</span><br />'
-    desc: "얼음의 구체를 내보내어 적 유닛들에게 피해를 주고 둔화에 빠뜨립니다. 얼음의 구체는 10번까지 반사되며, 주 공격 대상은 짧은
-      시간 동안 기절합니다.\r\n\r\n아가님의 홀로 강화 가능"
+    desc: "Releases an orb of frost that bounces between nearby enemy units up to
+      10 times, slowing and damaging each time it hits. \r\n\r\nUpgradable by Aghanim's
+      Scepter."
     notes: 최초 대상은 즉시 기절합니다. 이 기절 효과는 주문 면역을 무시합니다.<br />연쇄 빙결은 피할 수 없습니다.<br />연쇄
       빙결은 850속도로 움직입니다.<br />연쇄 빙결은 좀비에게 튕기지 않습니다.
     dmg: ''
@@ -5480,19 +5404,6 @@ abilitydata:
     cmb: ''
     lore: 암살 기사의 칼날이 육신과 정신을 파고들며, 현실이라는 수수께끼를 더 깊이 이해하게 해 줍니다.
     hurl: templar_assassin
-  templar_assassin_trap:
-    dname: 덫
-    affects: '능력: <span class="attribVal">대상 없음</span><br />주문 면역 관통: <span class="attribVal">미관통</span><br
-      />'
-    desc: 설치해 둔 덫을 작동시켜 주위 적의 움직임을 둔화합니다.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: <div class="cooldownMana"><div class="cooldown"><img alt="쿨다운" title="쿨다운"
-      class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 0.50</div><br clear="left" /></div>
-    lore: ''
-    hurl: templar_assassin
   templar_assassin_psionic_trap:
     dname: 사이오닉 덫
     affects: '능력: <span class="attribVal">목표 지점 지정</span><br />주문 면역 관통: <span class="attribVal">미관통</span><br
@@ -6133,7 +6044,7 @@ abilitydata:
       width="16" height="16" border="0" /> 100/125/140/160</div><div class="cooldown"><img
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 9</div><br clear="left" /></div>
-    lore: 레슈락은 사악한 의지대로 자연을 왜곡합니다. 레슈락의 앞을 가로막는 운 없는 이들은 요동치는 대지에 삼켜지는 신세가 됩니다.
+    lore: 레슈락은 사악한 의지대로 자연을 왜곡합니다. 불운하게도 레슈락의 앞을 가로막는 이들은 요동치는 대지에 삼켜지는 신세가 됩니다.
     hurl: leshrac
   leshrac_diabolic_edict:
     dname: 마성의 칙령
@@ -6142,7 +6053,7 @@ abilitydata:
       />주문 면역 관통: <span class="attribVal"><font color="#70EA72">관통</font></span><br
       />'
     desc: 레슈락의 주위에 마법의 폭발을 일으켜 적 유닛과 구조물에 물리 피해를 줍니다. 범위 내에 있는 유닛이 적을수록 개별 유닛이 받는
-      피해가 커집니다. 포탑에는 40%만큼 피해를 더 줍니다. 10초 동안 지속됩니다.
+      피해가 커집니다. 포탑에는 40%만큼 피해를 더 줍니다. 10초 동안 지속합니다.
     notes: 피해 감소 효과를 무시합니다.<br />레슈락이 죽은 후에도 마법의 폭발은 지속됩니다.<br />건물과 주문 면역 유닛, 투명
       유닛에게 피해를 줍니다.
     dmg: '피해: <span class="attribVal">9 / 18 / 27 / 36</span><br />'
@@ -6387,37 +6298,6 @@ abilitydata:
       width="16" height="16" border="0" /> 24/20/16/12</div><br clear="left" /></div>
     lore: 신선한 상처와 피의 냄새는 야생 동물들을 유인하여 희생자에게 최후를 선사합니다.
     hurl: life_stealer
-  life_stealer_assimilate:
-    dname: 동화
-    affects: '능력: <span class="attribVal">유닛 지정</span><br />효과: <span class="attribVal">아군
-      영웅</span><br />피해 유형: <span class="attribVal">마법</span><br />'
-    desc: "흡혈마가 대상 아군을 삼키고 자신의 몸속에 숨깁니다. 동화된 유닛은 흡혈마와 동일하게 체력을 회복합니다. 동화된 유닛은 흡혈마에게서
-      나올 때 주위 적에게 피해를 줍니다. \r\n\r\n해제 유형: 강한 해제"
-    notes: ''
-    dmg: ''
-    attrib: |-
-      뛰쳐나오기 피해: <span class="attribVal">300</span><br />
-      뛰쳐나오기 반경: <span class="attribVal">700 / 700 / 700</span>
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
-      class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 50</div><div class="cooldown"><img alt="쿨다운"
-      title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 50</div><br clear="left" /></div>
-    lore: 흡혈마가 아군 표본의 조사 기회를 거부할 이유가 있을까요?
-    hurl: life_stealer
-  life_stealer_assimilate_eject:
-    dname: 내보내기
-    affects: '능력: <span class="attribVal">대상 없음</span><br />피해 유형: <span class="attribVal">마법</span><br
-      />'
-    desc: 동화한 유닛을 내보냅니다. 주위 적에게 피해를 줍니다.
-    notes: ''
-    dmg: ''
-    attrib: |-
-      뛰쳐나오기 피해: <span class="attribVal">300</span><br />
-      뛰쳐나오기 반경: <span class="attribVal">700 / 700 / 700</span>
-    cmb: ''
-    lore: ''
-    hurl: life_stealer
   life_stealer_infest:
     dname: 잠복
     affects: '능력: <span class="attribVal">유닛 지정</span><br />피해 유형: <span class="attribVal">마법</span><br
@@ -6438,27 +6318,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 100/75/50</div><br clear="left" /></div>
     lore: 나익스는 이렇게 잠복해서 숙주의 생혈을 빨아들이고 부정한 힘을 완전히 회복합니다.
-    hurl: life_stealer
-  life_stealer_control:
-    dname: 조종
-    affects: '능력: <span class="attribVal">대상 없음</span><br />'
-    desc: 흡혈마가 숙주의 내부의 신경을 장악하여 크립에게 이동 및 공격 명령을 내립니다. 지배당하는 유닛은 흡혈마의 이동 속도를 따릅니다.
-      영웅에게는 사용할 수 없습니다.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: life_stealer
-  life_stealer_consume:
-    dname: 숙주 흡수
-    affects: '능력: <span class="attribVal">대상 없음</span><br />'
-    desc: 흡혈마가 안에서부터 숙주를 흡수하면서 밖으로 모습을 드러냅니다.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: life_stealer
   special_bonus_unique_lifestealer:
     dname: 격노 지속시간 +1초
@@ -7323,7 +7182,7 @@ abilitydata:
     desc: 길쌈꾼이 어린 길쌈꾼 12마리를 내보냅니다. 벌레 무리는 경로상에 있는 적 유닛에게 달라붙어 적이 처치할 때까지 피해를 주고 방어력을
       감소시킵니다.
     notes: 대상에 달라붙은 새끼는 지속시간이 다하거나 죽을 때까지 떨어지지 않습니다.<br />벌레는 주문에 면역이지만 영웅에게 4번 공격을
-      받거나 기타 유닛에게 8번 공격을 받으면 죽습니다.<br />벌레는 321/321 시야를 갖지만 대상이 투명화될 경우 놓칠 수 있습니다.
+      받거나 기타 유닛에게 8번 공격을 받으면 죽습니다.<br />벌레에게는 321/321 시야가 있지만 대상이 투명화되면 놓칠 수 있습니다.
     dmg: ''
     attrib: |-
       공격 피해: <span class="attribVal">14 / 16 / 18 / 20</span><br />
@@ -7823,16 +7682,6 @@ abilitydata:
     cmb: ''
     lore: 머큐리얼의 적은 검과 마법으로 그림자를 죽여야 한다는 난제에 부닥칩니다.
     hurl: spectre
-  spectre_reality:
-    dname: 실체화
-    affects: '능력: <span class="attribVal">목표 지점 지정</span><br />'
-    desc: 선택한 혼령과 자리를 바꿉니다.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: 흩어진 그림자들이 모여 진짜 악령 하나가 됩니다.
-    hurl: spectre
   spectre_haunt:
     dname: 악령 불러내기
     affects: '능력: <span class="attribVal">대상 없음</span><br />주문 면역 관통: <span class="attribVal"><font
@@ -8083,18 +7932,6 @@ abilitydata:
       width="16" height="16" border="0" /> 40</div><br clear="left" /></div>
     lore: 고대의 얼음 폭풍이 칼드르의 얼어붙은 팔다리를 통해 세상 밖으로 풀려납니다. 이 폭풍에 휘말린 이들은 칼드르의 영원한 힘을 증명하는
       기념물이 되고 맙니다.
-    hurl: ancient_apparition
-  ancient_apparition_ice_blast_release:
-    dname: 발사
-    affects: '능력: <span class="attribVal">대상 없음</span><br />'
-    desc: 예광탄의 현재 위치에서 폭발하는 얼음 폭풍을 발사합니다.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: <div class="cooldownMana"><div class="cooldown"><img alt="쿨다운" title="쿨다운"
-      class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 1</div><br clear="left" /></div>
-    lore: ''
     hurl: ancient_apparition
   special_bonus_unique_ancient_apparition_3:
     dname: 얼음 소용돌이 쿨다운 -1초
@@ -8517,17 +8354,6 @@ abilitydata:
       width="16" height="16" border="0" /> 55</div><br clear="left" /></div>
     lore: 감옥을 부수고 나올 때 라질이 오거에게 주었던 혼합물이었지만 전투에도 쓸모 있어졌습니다.
     hurl: alchemist
-  alchemist_unstable_concoction_throw:
-    dname: 불안정한 혼합물 투척
-    affects: '능력: <span class="attribVal">유닛 지정</span><br />효과: <span class="attribVal">적
-      영웅</span><br />주문 면역 관통: <span class="attribVal">미관통</span><br />'
-    desc: 폭발하기 전에 던지세요!
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: alchemist
   special_bonus_unique_alchemist_2:
     dname: 불안정한 혼합물 피해 +100
     affects: '능력: <span class="attribVal">지속 효과</span><br />'
@@ -8583,213 +8409,6 @@ abilitydata:
     cmb: ''
     lore: ''
     hurl: invoker
-  invoker_invoke:
-    dname: 원소 조합
-    affects: '능력: <span class="attribVal">대상 없음</span><br />'
-    desc: "현재 다루는 원소의 속성을 조합하여 새로운 주문을 생성합니다. 조합할 수 있는 주문 목록은 도움말 버튼을 클릭하여 확인할 수 있습니다.\r\n\r\n아가님의
-      홀로 강화 가능"
-    notes: 원소 조합 시 원소 생성의 순서는 상관없습니다.<br />기존 주문의 위치만 바꿀 때는 마나를 소모하거나 쿨다운이 발동하지 않습니다.
-    dmg: ''
-    attrib: |-
-      최대 주문 수: <span class="attribVal">2</span><br />
-      <span class="scepterVal">홀 쿨다운:</span> <span class="attribVal">2</span><br />
-      <span class="scepterVal">홀 마나 소모:</span> <span class="attribVal">0</span>
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
-      class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 60</div><div class="cooldown"><img alt="쿨다운"
-      title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 6</div><br clear="left" /></div>
-    lore: 새로운 지식의 시대가 열립니다.
-    hurl: invoker
-  invoker_cold_snap:
-    dname: 한파
-    affects: '능력: <span class="attribVal">유닛 지정</span><br />효과: <span class="attribVal">적
-      유닛</span><br />피해 유형: <span class="attribVal">마법</span><br />주문 면역 관통: <span
-      class="attribVal">미관통</span><br />'
-    desc: 원소술사가 적에게서 열기를 빼앗고 뼛속까지 몸을 얼립니다. 효과의 지속시간은 <font color='#7998b5'>콰스</font>의
-      레벨에 따라 증가합니다. 적은 피해를 받고 짧은 시간 동안 빙결 상태에 빠집니다. 이 상태에서 적이 더 많은 피해를 받으면 다시 얼어붙고
-      보너스 피해를 받습니다. 빙결 효과는 일정 횟수만큼 발동하지만 빙결의 쿨다운은 <font color='#7998b5'>콰스</font>의
-      레벨에 따라 감소합니다.
-    notes: 피해 감소 효과가 모두 적용된 후 10 이상의 피해가 가해지면 한파의 기절 효과가 발동합니다.
-    dmg: ''
-    attrib: '빙결 지속시간: <span class="attribVal">0.4</span>'
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
-      class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 100</div><div class="cooldown"><img alt="쿨다운"
-      title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 20</div><br clear="left" /></div>
-    lore: 사드론의 전율은 오랜 시간 동안 지속됩니다.
-    hurl: invoker
-  invoker_ghost_walk:
-    dname: 유령 보행
-    affects: '능력: <span class="attribVal">대상 없음</span><br />주문 면역 관통: <span class="attribVal">미관통</span><br
-      />'
-    desc: 원소술사가 주위의 얼음과 전기의 에너지를 조작하여 자신의 몸을 투명하게 바꿉니다. 그 결과로 원소의 불균형이 발생하여 <font
-      color='#7998b5'>콰스</font>의 레벨에 따라 원소술사 주위에 있는 적들의 이동 속도가 감소하며 <font color='#d671a9'>웩스</font>의
-      레벨에 따라 원소술사 자신의 이동 속도가 감소합니다.
-    notes: 둔화 효과는 주문 면역인 유닛에게 효과가 없습니다.
-    dmg: ''
-    attrib: |-
-      지속시간: <span class="attribVal">100</span><br />
-      반경: <span class="attribVal">400</span>
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
-      class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 200</div><div class="cooldown"><img alt="쿨다운"
-      title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 45</div><br clear="left" /></div>
-    lore: 보이지 않는 바람처럼 걷는 미롤트의 술법입니다.
-    hurl: invoker
-  invoker_tornado:
-    dname: 회오리
-    affects: '능력: <span class="attribVal">목표 지점 지정</span><br />피해 유형: <span class="attribVal">마법</span><br
-      />주문 면역 관통: <span class="attribVal">미관통</span><br />'
-    desc: "빠르게 움직이는 회오리를 날려 보내 경로 상에 있는 적 유닛을 무력하게 공중으로 들어 올리고 잠시 후 떨어뜨립니다. <font
-      color='#d671a9'>웩스</font> 레벨에 따라 회오리의 이동 거리가 증가하고 <font color='#7998b5'>콰스</font>
-      레벨에 따라 적을 공중에 묶어두는 시간이 증가합니다. 기본 피해에 <font color='#d671a9'>웩스</font> 레벨에 따라
-      추가 피해를 줍니다.\r\n\r\n해제 유형: 기본 해제"
-    notes: 회오리에 의해 공중으로 뜬 유닛은 무적상태가 되지만, 땅에 떨어질 때 피해를 받습니다.
-    dmg: ''
-    attrib: |-
-      반경: <span class="attribVal">200</span><br />
-      기본 피해: <span class="attribVal">70</span>
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
-      class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 150</div><div class="cooldown"><img alt="쿨다운"
-      title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 30</div><br clear="left" /></div>
-    lore: 토르나루스의 발톱입니다.
-    hurl: invoker
-  invoker_emp:
-    dname: 전자기파
-    affects: '능력: <span class="attribVal">목표 지점 지정</span><br />피해 유형: <span class="attribVal">마법</span><br
-      />주문 면역 관통: <span class="attribVal">미관통</span><br />'
-    desc: 원소술사가 전자기 에너지를 집중하여 대상 지점에 날려 보냅니다. 에너지는 %delay%초 후 자동으로 폭발합니다. 폭발 시 일정
-      범위에 걸쳐 <font color='#d671a9'>웩스</font> 레벨에 비례하여 상대의 마나를 소진하게 하고 소진된 마나의 양만큼
-      피해를 줍니다. 전자기파로 상대 영웅의 마나를 소진할 경우 원소술사는 소진된 마나의 50%만큼 마나를 회복합니다.
-    notes: 회오리나 율의 신성한 홀 등의 효과로 공중에 떠오른 유닛에게는 효과가 없습니다.
-    dmg: ''
-    attrib: |-
-      반경: <span class="attribVal">675</span><br />
-      마나 소진으로 주는 피해: <span class="attribVal">60%</span>
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
-      class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 125</div><div class="cooldown"><img alt="쿨다운"
-      title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 30</div><br clear="left" /></div>
-    lore: 엔돌리온의 교란 공격은 악의에 차 있습니다.
-    hurl: invoker
-  invoker_alacrity:
-    dname: 활력
-    affects: '능력: <span class="attribVal">유닛 지정</span><br />효과: <span class="attribVal">아군
-      유닛</span><br />주문 면역 관통: <span class="attribVal"><font color="#70EA72">관통</font></span><br
-      />'
-    desc: 원소술사가 막대한 양의 응축된 에너지를 아군에게 불어넣어 공격 속도 및 공격력을 증가시킵니다. 공격 속도는 <font color='#d671a9'>웩스</font>의
-      레벨에 따라 증가하며, 공격력은 <font color='#cabe68'>익조트</font>의 레벨에 따라 증가합니다.
-    notes: ''
-    dmg: ''
-    attrib: '지속시간: <span class="attribVal">9</span>'
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
-      class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 60</div><div class="cooldown"><img alt="쿨다운"
-      title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 17</div><br clear="left" /></div>
-    lore: 충동적인 분쟁을 위한 개스터의 지령입니다.
-    hurl: invoker
-  invoker_chaos_meteor:
-    dname: 혼돈의 유성
-    affects: '능력: <span class="attribVal">목표 지점 지정</span><br />피해 유형: <span class="attribVal">마법</span><br
-      />주문 면역 관통: <span class="attribVal">미관통</span><br />'
-    desc: 원소술사가 우주에서 불타는 유성을 불러내어 대상 지점으로 떨어뜨립니다. 유성은 지면에 충돌한 다음 앞으로 굴러가면서 <font color='#cabe68'>익조트</font>의
-      레벨에 기반한 피해를 지속해서 가합니다. 유성이 굴러가는 거리는 <font color='#d671a9'>웩스</font>의 레벨에 따라
-      길어집니다. 유성에 맞은 유닛은 짧은 시간 동안 화상을 입고, <font color='#cabe68'>익조트</font> 레벨에 따라 추가
-      피해를 받습니다.
-    notes: 유성에 맞은 적 유닛들은 0.5초마다 큰 피해를 받고, 그 후에도 3초에 걸쳐 소량의 피해를 받습니다.<br />유성은 300의
-      속도로 움직입니다.
-    dmg: ''
-    attrib: |-
-      충돌 지연시간: <span class="attribVal">1.3</span><br />
-      반경: <span class="attribVal">275</span><br />
-      화상 지속시간: <span class="attribVal">3</span>
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
-      class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 200</div><div class="cooldown"><img alt="쿨다운"
-      title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 55</div><br clear="left" /></div>
-    lore: 불덩이를 내리는 타라크의 기술입니다.
-    hurl: invoker
-  invoker_sun_strike:
-    dname: 태양 강타
-    affects: '능력: <span class="attribVal">목표 지점 지정</span><br />피해 유형: <span class="attribVal"><font
-      color="#d61107">순수</font></span><br />주문 면역 관통: <span class="attribVal"><font
-      color="#70EA72">관통</font></span><br />'
-    desc: 지도상의 대상 지점에 파국을 부르는 무시무시한 태양 광선을 떨어뜨립니다. 광선은 지면에 떨어지는 순간 닿는 모든 적 유닛을 불태웁니다.
-      <font color='#cabe68'>익조트</font> 레벨에 따라 피해를 주는데, 이 피해는 공격을 받은 적 모두에게 똑같이 나뉘어
-      적용됩니다.
-    notes: 태양 강타로 타격하는 지역은 타격 전에 시야가 드러납니다.<br />태양 강타로 적을 죽이면 경험치 획득 가능 범위보다 더 먼
-      거리에 있어도 경험치와 골드를 획득할 수 있습니다.
-    dmg: ''
-    attrib: |-
-      지연시간: <span class="attribVal">1.7</span><br />
-      반경: <span class="attribVal">175</span>
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
-      class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 175</div><div class="cooldown"><img alt="쿨다운"
-      title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 25</div><br clear="left" /></div>
-    lore: 하레크의 소각 주문입니다.
-    hurl: invoker
-  invoker_forge_spirit:
-    dname: 달구어진 영혼
-    affects: '능력: <span class="attribVal">대상 없음</span><br />주문 면역 관통: <span class="attribVal">미관통</span><br
-      />'
-    desc: 원소술사가 불의 힘과 얼음의 견고함을 형상화한 영혼을 만들어 냅니다. 공격력, 마나, 방어력은 <font color='#cabe68'>익조트</font>
-      레벨에 따라, 그리고 공격 범위, 체력, 지속시간은 <font color='#7998b5'>콰스</font> 레벨에 따라 결정됩니다. 달구어진
-      영혼은 불타는 주먹으로 강력한 공격을 하며 적 영웅의 갑옷까지도 녹일 수 있습니다.
-    notes: 기술을 한 번 더 사용하면 기존의 달구어진 영혼들은 소멸합니다.
-    dmg: ''
-    attrib: ''
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
-      class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 75</div><div class="cooldown"><img alt="쿨다운"
-      title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 30</div><br clear="left" /></div>
-    lore: 쿨윈의 가장 정교한 제조물입니다.
-    hurl: invoker
-  invoker_ice_wall:
-    dname: 얼음 장벽
-    affects: '능력: <span class="attribVal">대상 없음</span><br />피해 유형: <span class="attribVal">마법</span><br
-      />주문 면역 관통: <span class="attribVal">미관통</span><br />'
-    desc: 원소술사의 바로 앞에 단단한 얼음의 벽을 생성합니다. 얼음의 벽이 지속되는 시간은 <font color='#7998b5'>콰스</font>의
-      레벨에 따라 증가합니다. 얼음의 벽 주위에 있는 적들은 혹독한 냉기로 인해 이동 속도가 크게 감소하며 매초 피해를 받습니다. 감속 효과는
-      <font color='#7998b5'>콰스</font>의 레벨에 따라 증가하며, 얼음의 벽으로 가하는 피해는 <font color='#cabe68'>익조트</font>의
-      레벨에 따라 증가합니다.
-    notes: 얼음 장벽의 약화 효과를 받은 적은 주문 면역 효과를 얻어도 둔화 효과가 유지됩니다.
-    dmg: ''
-    attrib: '둔화 지속시간: <span class="attribVal">2</span>'
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
-      class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 175</div><div class="cooldown"><img alt="쿨다운"
-      title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 25</div><br clear="left" /></div>
-    lore: 코릭스의 무시무시한 얼음 장벽입니다.
-    hurl: invoker
-  invoker_deafening_blast:
-    dname: 굉음 폭발
-    affects: '능력: <span class="attribVal">목표 지점 지정</span><br />피해 유형: <span class="attribVal">마법</span><br
-      />주문 면역 관통: <span class="attribVal">미관통</span><br />'
-    desc: 원소술사가 전방을 향해 강력한 초음파를 방출하여 음파에 닿는 적들에게 <font color='#cabe68'>익조트</font>의
-      레벨에 기반한 피해를 줍니다. 음파 공격의 강렬한 충격으로 인해 적들은 <font color='#7998b5'>콰스</font>의 레벨에
-      따른 시간 동안 뒤로 밀려나고, <font color='#d671a9'>웩스</font>의 레벨에 따른 시간 동안 무장 해제됩니다.
-    notes: ''
-    dmg: ''
-    attrib: '이동 거리: <span class="attribVal">1000</span>'
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
-      class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 300</div><div class="cooldown"><img alt="쿨다운"
-      title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 40</div><br clear="left" /></div>
-    lore: 불루폰트의 음향 공격 주문입니다.
-    hurl: invoker
   special_bonus_unique_invoker_1:
     dname: 달구어진 영혼 소환 +1
     affects: '능력: <span class="attribVal">지속 효과</span><br />'
@@ -8804,6 +8423,16 @@ abilitydata:
     dname: 굉음 폭발 범위 적용
     affects: '능력: <span class="attribVal">지속 효과</span><br />'
     desc: DOTA_Tooltip_ability_special_bonus_unique_invoker_2_Description
+    notes: ''
+    dmg: ''
+    attrib: ''
+    cmb: ''
+    lore: ''
+    hurl: invoker
+  special_bonus_unique_invoker_3:
+    dname: 회오리 쿨다운 -18초
+    affects: '능력: <span class="attribVal">지속 효과</span><br />'
+    desc: DOTA_Tooltip_ability_special_bonus_unique_invoker_3_Description
     notes: ''
     dmg: ''
     attrib: ''
@@ -9286,18 +8915,6 @@ abilitydata:
       width="16" height="16" border="0" /> 2.50</div><br clear="left" /></div>
     lore: 아무리 순수하고 용감한 영웅도 그림자 악마의 영향력에 노출되면 오염되어 타락합니다.
     hurl: shadow_demon
-  shadow_demon_shadow_poison_release:
-    dname: 어둠의 독 방출
-    affects: '능력: <span class="attribVal">대상 없음</span><br />'
-    desc: 어둠의 독을 방출하여 영향을 받은 모든 적 유닛에게 피해를 줍니다. 분열로 추방한 유닛에게도 영향을 줍니다.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: <div class="cooldownMana"><div class="cooldown"><img alt="쿨다운" title="쿨다운"
-      class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 1</div><br clear="left" /></div>
-    lore: ''
-    hurl: shadow_demon
   shadow_demon_demonic_purge:
     dname: 악마의 정화
     affects: '능력: <span class="attribVal">유닛 지정</span><br />효과: <span class="attribVal">적
@@ -9406,24 +9023,6 @@ abilitydata:
       width="16" height="16" border="0" /> 38/32/26/20</div><br clear="left" /></div>
     lore: 실라는 사라진 곰 부족의 술법을 연구하고 통달하여 야생과 한층 더 동화되었습니다.
     hurl: lone_druid
-  lone_druid_true_form_battle_cry:
-    dname: 전투 함성
-    affects: '능력: <span class="attribVal">대상 없음</span><br />'
-    desc: 고독한 드루이드와 가까이에서 고독한 드루이드가 부리는 모든 유닛의 공격력 및 방어력 증가
-    notes: ''
-    dmg: ''
-    attrib: |-
-      보너스 피해: <span class="attribVal">70 / 100 / 130</span><br />
-      추가 방어력: <span class="attribVal">10 / 15 / 20</span><br />
-      지속시간: <span class="attribVal">6</span><br />
-      반경: <span class="attribVal">1000</span>
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
-      class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 50/50/50</div><div class="cooldown"><img
-      alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 60</div><br clear="left" /></div>
-    lore: 실라가 숲 속에서 우렁차게 포효하면, 그 진동이 아주 멀리까지 울려 퍼집니다.
-    hurl: lone_druid
   lone_druid_true_form:
     dname: 곰 형상
     affects: '능력: <span class="attribVal">대상 없음</span><br />'
@@ -9445,20 +9044,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 0</div><br clear="left" /></div>
     lore: 강력한 곰은 숲의 우두머리이며, 막강한 힘으로 자신의 권좌를 수호합니다.
-    hurl: lone_druid
-  lone_druid_true_form_druid:
-    dname: 드루이드 형상
-    affects: '능력: <span class="attribVal">대상 없음</span><br />'
-    desc: "드루이드 형상으로 돌아갑니다.\r\n\r\n아가님의 홀로 강화 가능"
-    notes: ''
-    dmg: ''
-    attrib: '변신 시간: <span class="attribVal">0.8</span>'
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
-      class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 25/25/25</div><div class="cooldown"><img
-      alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 0</div><br clear="left" /></div>
-    lore: ''
     hurl: lone_druid
   special_bonus_unique_lone_druid_1:
     dname: 영혼 곰 피해 +50
@@ -9744,26 +9329,6 @@ abilitydata:
       width="16" height="16" border="0" /> 30/24/18/12</div><br clear="left" /></div>
     lore: 나무정령 수호자의 뿌리와 덩굴은 아주 멀리까지 미치며, 모든 자연의 성장을 촉진하고 활력을 줍니다.
     hurl: treant
-  treant_eyes_in_the_forest:
-    dname: 숲의 눈
-    affects: '능력: <span class="attribVal">유닛 지정</span><br />피해 유형: <span class="attribVal">마법</span><br
-      />'
-    desc: 나무정령 수호자가 나무에 마력을 주입하여 해당 지역에서 방해 없는 시야를 획득합니다. 과대 성장을 시전하면 마력이 주입된 나무의
-      일정 반경에 있는 유닛은 땅에 묶이면서 피해를 받습니다.
-    notes: 숲의 눈으로 마력을 주입한 나무의 과대 성장에 붙들린 적은 피해를 받습니다. 나무정령 수호자의 과대 성장에 붙들린 적은 피해를
-      받지 않습니다.<br />적이 진실의 시야 능력을 보유할 경우 마력이 주입된 나무를 구분할 수 있습니다.
-    dmg: ''
-    attrib: |-
-      나무 시야 반경: <span class="attribVal">800</span><br />
-      홀 과대 성장 반경: <span class="attribVal">800</span><br />
-      홀 초당 과대 성장 피해: <span class="attribVal">175</span>
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
-      class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 100</div><div class="cooldown"><img alt="쿨다운"
-      title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 35</div><br clear="left" /></div>
-    lore: 누구를, 무엇을 보호해야 하는지 누구도 장담하지 못합니다.
-    hurl: treant
   treant_overgrowth:
     dname: 과대 성장
     affects: '능력: <span class="attribVal">대상 없음</span><br />피해 유형: <span class="attribVal">마법</span><br
@@ -9859,22 +9424,6 @@ abilitydata:
       title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 20</div><br clear="left" /></div>
     lore: "'뛰는 건 재미없어. 때리는 게 재미있지!'"
-    hurl: ogre_magi
-  ogre_magi_unrefined_fireblast:
-    dname: 정제되지 않은 화염 폭발
-    affects: '능력: <span class="attribVal">유닛 지정</span><br />효과: <span class="attribVal">적
-      유닛</span><br />피해 유형: <span class="attribVal">마법</span><br />주문 면역 관통: <span
-      class="attribVal">미관통</span><br />'
-    desc: 대상 유닛에게 불덩이를 폭발시켜 피해를 주고 기절시킵니다. 오거 마법사가 현재 지닌 마나의 60%를 사용합니다.
-    notes: ''
-    dmg: '피해: <span class="attribVal">275</span><br />'
-    attrib: '기절 지속시간: <span class="attribVal">1.5</span>'
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
-      class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 400</div><div class="cooldown"><img alt="쿨다운"
-      title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 6</div><br clear="left" /></div>
-    lore: 누가 먼저 마법을 시전할 것인가 하는 골치 아픈 문제는 동시에 시전하는 것으로 간단히 해결되었습니다.
     hurl: ogre_magi
   ogre_magi_multicast:
     dname: 다중 시전
@@ -10047,16 +9596,6 @@ abilitydata:
       title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 22</div><br clear="left" /></div>
     lore: 가장 위대한 마도사도 자신의 힘을 놀이에 사용할 때가 있습니다.
-    hurl: rubick
-  rubick_telekinesis_land:
-    dname: 염동력 추락
-    affects: '능력: <span class="attribVal">목표 지점 지정</span><br />'
-    desc: 염동력의 지속시간이 다했을 때 대상이 추락할 장소를 지정합니다.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: rubick
   rubick_fade_bolt:
     dname: 음영 광선
@@ -10284,36 +9823,6 @@ abilitydata:
       width="16" height="16" border="0" /> 25/20/15/10</div><br clear="left" /></div>
     lore: 닉스 암살자의 갑각은 비교적 얇지만, 그 안에는 바늘처럼 날카로운 가시가 도사리고 있습니다.
     hurl: nyx_assassin
-  nyx_assassin_burrow:
-    dname: 파고들기
-    affects: '능력: <span class="attribVal">대상 없음</span><br />'
-    desc: 닉스 암살자가 짧은 시간을 거쳐 지하로 파고들어 몸을 숨깁니다. 파고들기 상태에서 가시 등딱지를 사용하면 주위 적을 즉시 기절에
-      빠뜨리고 마나 불태우기와 바위 쐐기의 범위가 증가하며 바위 쐐기의 쿨다운이 감소합니다. 파고들기 상태에서 닉스 암살자는 제자리에 머문 채로
-      공격할 수 없으며 투명화 상태가 됩니다. 또한, 체력 재생 및 마나 재생이 증가하고 모든 받는 피해가 감소합니다.
-    notes: 피의 복수를 시전하면 파고들기가 취소됩니다.
-    dmg: ''
-    attrib: |-
-      파고들기 체력/마나 재생: <span class="attribVal">1.5%</span><br />
-      파고들기 피해 감소: <span class="attribVal">40%</span><br />
-      파고들기 마나 불태우기 범위: <span class="attribVal">1050</span><br />
-      파고들기 바위 쐐기 범위: <span class="attribVal">1225</span><br />
-      파고들기 바위 쐐기 쿨다운: <span class="attribVal">7</span><br />
-      파고들기 가시 등딱지 범위: <span class="attribVal">300</span>
-    cmb: ''
-    lore: 일부 광신도 갑주벌레들은 지면에 작은 굴을 파고 안에서 몸을 숨기고 있다가 적을 급습한다고 알려져 있습니다.
-    hurl: nyx_assassin
-  nyx_assassin_unburrow:
-    dname: 나오기
-    affects: '능력: <span class="attribVal">대상 없음</span><br />'
-    desc: 파고들기를 중단하고 지상으로 나옵니다.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: <div class="cooldownMana"><div class="cooldown"><img alt="쿨다운" title="쿨다운"
-      class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 0</div><br clear="left" /></div>
-    lore: 일부 광신도 갑주벌레들은 지면에 작은 굴을 파고 안에서 몸을 숨기고 있다가 적을 급습한다고 알려져 있습니다.
-    hurl: nyx_assassin
   nyx_assassin_vendetta:
     dname: 피의 복수
     affects: '능력: <span class="attribVal">대상 없음</span><br />피해 유형: <span class="attribVal"><font
@@ -10354,7 +9863,7 @@ abilitydata:
     lore: ''
     hurl: nyx_assassin
   special_bonus_unique_nyx:
-    dname: 가시 등딱지 피해 200%
+    dname: "+100% Spiked Carapace Damage"
     affects: '능력: <span class="attribVal">지속 효과</span><br />'
     desc: DOTA_Tooltip_ability_special_bonus_unique_nyx_Description
     notes: ''
@@ -10434,18 +9943,6 @@ abilitydata:
       width="16" height="16" border="0" /> 160/120/80</div><br clear="left" /></div>
     lore: 슬리시스는 위급한 상황을 맞았을 때 저항할 수 없는 목소리로 적의 넋을 빼앗고 슬리더린 동족을 불러냅니다.
     hurl: naga_siren
-  naga_siren_song_of_the_siren_cancel:
-    dname: 세이렌의 노래 중단
-    affects: '능력: <span class="attribVal">대상 없음</span><br />'
-    desc: 적을 대상으로 지정할 수 있도록 세이렌의 노래에서 풀어줍니다.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: <div class="cooldownMana"><div class="cooldown"><img alt="쿨다운" title="쿨다운"
-      class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 1</div><br clear="left" /></div>
-    lore: ''
-    hurl: naga_siren
   special_bonus_unique_naga_siren_2:
     dname: 올가미 쿨다운 -3초
     affects: '능력: <span class="attribVal">지속 효과</span><br />'
@@ -10524,44 +10021,6 @@ abilitydata:
       width="16" height="16" border="0" /> 17/16/15/14</div><br clear="left" /></div>
     lore: 한편 에잘로르는 다른 이들에게 조화로운 힘을 부여하기도 합니다.
     hurl: keeper_of_the_light
-  keeper_of_the_light_recall:
-    dname: 소환
-    affects: '능력: <span class="attribVal">대상 없음, 집중 기술, 유닛 지정, 목표 지점 지정</span><br
-      />효과: <span class="attribVal">아군</span><br />주문 면역 관통: <span class="attribVal"><font
-      color="#70EA72">관통</font></span><br />'
-    desc: 짧게 지연되었다가 대상 아군 영웅을 자신의 위치로 순간이동시킵니다. 만약 그동안 아군 영웅이 상대 영웅에게 피해를 받으면 주문이
-      취소됩니다.
-    notes: 빛의 수호자가 죽으면, 이 기술의 효과는 취소됩니다.<br />소환은 정신 집중을 방해합니다.<br />빛의 수호자가 이 기술로
-      도움을 제공하지 못하게 하려면 '도움 거절' 상태로 설정해 두세요.<br />미니맵을 사용하여 가장 가까운 아군 영웅에게 시전할 수 있습니다.
-    dmg: ''
-    attrib: '순간이동 지연시간: <span class="attribVal">5 / 4 / 3</span>'
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
-      class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 100/100/100</div><div class="cooldown"><img
-      alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 15</div><br clear="left" /></div>
-    lore: 빛을 향해 나아가리라!
-    hurl: keeper_of_the_light
-  keeper_of_the_light_blinding_light:
-    dname: 눈부신 빛
-    affects: '능력: <span class="attribVal">목표 지점 지정</span><br />주문 면역 관통: <span class="attribVal">미관통</span><br
-      />'
-    desc: 눈부신 빛으로 대상 지역을 밝혀 효과 범위 내에 있는 유닛들을 밀쳐내고 공격이 빗나가게 합니다.
-    notes: 0.4초에 걸쳐 250의 범위의 중앙에서부터 밀치기 효과를 일으킵니다. 밀쳐진 유닛이 지면에 닿을 때 150 범위에 있는 나무를
-      쓰러뜨립니다.<br />정신 집중을 방해하지 않습니다.
-    dmg: ''
-    attrib: |-
-      반경: <span class="attribVal">675 / 675 / 675</span><br />
-      지속시간: <span class="attribVal">4 / 5 / 6</span><br />
-      빗나갈 확률: <span class="attribVal">80% / 80% / 80%</span><br />
-      밀치기 거리: <span class="attribVal">525</span>
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
-      class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 50/50/50</div><div class="cooldown"><img
-      alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 20/16/12</div><br clear="left" /></div>
-    lore: 태고의 빛이 에잘로르와 그의 동료를 위해 전세를 뒤집습니다.
-    hurl: keeper_of_the_light
   keeper_of_the_light_spirit_form:
     dname: 영혼 형상
     affects: '능력: <span class="attribVal">대상 없음</span><br />'
@@ -10576,36 +10035,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 80/70/60</div><br clear="left" /></div>
     lore: 에잘로르는 순식간에 진짜 본성을 드러냅니다.
-    hurl: keeper_of_the_light
-  keeper_of_the_light_illuminate_end:
-    dname: 천상의 빛 방출
-    affects: '능력: <span class="attribVal">대상 없음</span><br />'
-    desc: 정신 집중을 도중에 끊고 빛을 내보냅니다.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: keeper_of_the_light
-  keeper_of_the_light_spirit_form_illuminate:
-    dname: 천상의 빛
-    affects: '능력: <span class="attribVal">목표 지점 지정</span><br />피해 유형: <span class="attribVal">마법</span><br
-      />주문 면역 관통: <span class="attribVal">미관통</span><br />'
-    desc: "집중된 빛의 에너지를 내뿜습니다. 집중 시간이 길수록 더 강력한 힘을 모을 수 있습니다. 방출된 빛은 경로상 적에게 피해를 주며
-      주위의 시야를 밝힙니다. 집중 시간이 길수록 더 큰 피해를 줍니다.\r\n아가님의 홀로 강화 가능"
-    notes: 정신 집중 시간이 길어질수록 시야가 함께 넓어집니다.<br />Damages mechanical units.
-    dmg: ''
-    attrib: |-
-      집중 초당 피해: <span class="attribVal">100 / 100 / 100 / 100</span><br />
-      최대 정신 집중 시간: <span class="attribVal">2 / 3 / 4 / 5</span><br />
-      너비: <span class="attribVal">375</span><br />
-      범위: <span class="attribVal">1550</span>
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
-      class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 150/160/170/180</div><div class="cooldown"><img
-      alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 10</div><br clear="left" /></div>
-    lore: 에잘로르의 숨은 빛은 놀라운 방식으로 드러납니다.
     hurl: keeper_of_the_light
   special_bonus_unique_keeper_of_the_light_2:
     dname: 차크라 마법 마나 +300
@@ -10661,18 +10090,6 @@ abilitydata:
       width="16" height="16" border="0" /> 12</div><br clear="left" /></div>
     lore: 이오의 자애로운 손길은 다른 차원의 힘을 부여합니다.
     hurl: wisp
-  wisp_tether_break:
-    dname: 연결 해제
-    affects: '능력: <span class="attribVal">대상 없음</span><br />'
-    desc: 연결된 유닛과의 연결을 해제
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: <div class="cooldownMana"><div class="cooldown"><img alt="쿨다운" title="쿨다운"
-      class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 1</div><br clear="left" /></div>
-    lore: ''
-    hurl: wisp
   wisp_spirits:
     dname: 영혼
     affects: '능력: <span class="attribVal">대상 없음</span><br />피해 유형: <span class="attribVal">마법</span><br
@@ -10708,26 +10125,6 @@ abilitydata:
       class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 2</div><br clear="left" /></div>
     lore: 이오가 모든 세계에서 물질 에너지를 이끌어내어 시간을 풀어내기 시작합니다.
-    hurl: wisp
-  wisp_spirits_in:
-    dname: 영혼 모으기
-    affects: '능력: <span class="attribVal">대상 없음, 전환</span><br />'
-    desc: 영혼들을 더 가까이 불러들입니다. 끄고 켤 수 있습니다.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: wisp
-  wisp_spirits_out:
-    dname: 영혼 내보내기
-    affects: '능력: <span class="attribVal">대상 없음, 전환</span><br />'
-    desc: 영혼들을 더 멀리 내보냅니다. 끄고 켤 수 있습니다.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
     hurl: wisp
   wisp_relocate:
     dname: 재배치
@@ -10995,7 +10392,7 @@ abilitydata:
       주는 피해: <span class="attribVal">80%</span><br />
       범위: <span class="attribVal">700</span>
     cmb: ''
-    lore: 저주받은 고르곤을 만나는 자는 모두 그녀의 분노를 느낄 것입니다.
+    lore: 저주받은 고르곤을 만나는 자는 모두 그 분노를 제대로 느낄 것입니다.
     hurl: medusa
   medusa_mystic_snake:
     dname: 신비로운 뱀
@@ -11142,26 +10539,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 19/16/13/10</div><br clear="left" /></div>
     lore: 그토록 치명적으로 도끼를 돌릴 힘의 근원은 증오심뿐입니다.
-    hurl: troll_warlord
-  troll_warlord_whirling_axes_melee:
-    dname: 춤추는 도끼 (근접)
-    affects: '능력: <span class="attribVal">대상 없음</span><br />피해 유형: <span class="attribVal">마법</span><br
-      />주문 면역 관통: <span class="attribVal">미관통</span><br />'
-    desc: 트롤 전쟁군주가 두 자루의 도끼를 근접 범위 내로 날려 보내어 적 유닛에게 피해를 주고 공격이 빗나가게 합니다.
-    notes: 근접 태세일 때만 가능합니다.<br />두 기술의 쿨다운은 각자 적용됩니다.
-    dmg: ''
-    attrib: |-
-      피해: <span class="attribVal">75 / 125 / 175 / 225</span><br />
-      범위: <span class="attribVal">450</span><br />
-      실명 지속시간: <span class="attribVal">4 / 5 / 6 / 7</span><br />
-      빗나갈 확률: <span class="attribVal">60%</span><br />
-      춤추는 도끼 지속시간: <span class="attribVal">3</span>
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
-      class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 50/50/50/50</div><div class="cooldown"><img
-      alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 12</div><br clear="left" /></div>
-    lore: 적은 가까이할수록 좋습니다.
     hurl: troll_warlord
   troll_warlord_fervor:
     dname: 열정
@@ -11434,41 +10811,6 @@ abilitydata:
     cmb: ''
     lore: 리즈랙의 갑옷은 건드리기만 해도 방어력이 강화됩니다.
     hurl: shredder
-  shredder_chakram_2:
-    dname: 차크람
-    affects: '능력: <span class="attribVal">목표 지점 지정</span><br />피해 유형: <span class="attribVal"><font
-      color="#d61107">순수</font></span><br />주문 면역 관통: <span class="attribVal">미관통</span><br
-      />'
-    desc: 대상 지점에 두 번째 톱날을 날려 보냅니다. 날아간 톱날은 목표 지점에서 회전하면서 주위 지역에 피해를 줍니다. 추가로, 톱날에
-      갇힌 적의 체력이 5%씩 감소할 때마다 둔화 효과가 더해집니다. 톱날은 발사 및 회수 시 경로상에 있는 적에게 피해를 주고 나무를 베어냅니다.
-      톱날을 던져 보낸 동안에는 공격할 수 없으며 마나를 지속해서 소모합니다.
-    notes: 차크람은 벌목꾼의 마나가 다 소모되거나 2000의 거리가 벌어졌을 때 자동으로 회수됩니다.
-    dmg: ''
-    attrib: |-
-      반경: <span class="attribVal">200</span><br />
-      이동 중 피해: <span class="attribVal">100 / 140 / 180</span><br />
-      초당 피해: <span class="attribVal">50 / 75 / 100</span><br />
-      둔화: <span class="attribVal">5%</span><br />
-      초당 소모 마나: <span class="attribVal">20 / 25 / 30</span>
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
-      class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 100/150/200</div><div class="cooldown"><img
-      alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 8</div><br clear="left" /></div>
-    lore: 쓱싹쓱싹쓱싹 쓱싹쓱싹!
-    hurl: shredder
-  shredder_return_chakram_2:
-    dname: 차크람 회수
-    affects: '능력: <span class="attribVal">대상 없음</span><br />'
-    desc: 차크람을 회수합니다.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: <div class="cooldownMana"><div class="cooldown"><img alt="쿨다운" title="쿨다운"
-      class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 0</div><br clear="left" /></div>
-    lore: ''
-    hurl: shredder
   shredder_chakram:
     dname: 차크람
     affects: '능력: <span class="attribVal">목표 지점 지정</span><br />피해 유형: <span class="attribVal"><font
@@ -11491,18 +10833,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 8</div><br clear="left" /></div>
     lore: 나무에 맞설 수 있는 최후의 무기입니다.
-    hurl: shredder
-  shredder_return_chakram:
-    dname: 차크람 회수
-    affects: '능력: <span class="attribVal">대상 없음</span><br />'
-    desc: 차크람을 회수합니다.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: <div class="cooldownMana"><div class="cooldown"><img alt="쿨다운" title="쿨다운"
-      class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 0</div><br clear="left" /></div>
-    lore: ''
     hurl: shredder
   special_bonus_unique_timbersaw:
     dname: 죽음의 회전날 능력치 감소 +6%
@@ -11690,38 +11020,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 50</div><br clear="left" /></div>
     lore: 고향의 그 냉기입니다!
-    hurl: tusk
-  tusk_launch_snowball:
-    dname: 눈덩이 굴리기
-    affects: '능력: <span class="attribVal">대상 없음</span><br />'
-    desc: 대상을 향해 눈덩이를 굴립니다.
-    notes: 눈덩이는 나무를 파괴합니다.<br />눈덩이의 이동 속도는 675입니다.<br />환영은 눈덩이에 타지 않습니다. 단, 미포의
-      분신 및 얼음폭군이 조종하는 다른 유닛은 함께 탈 수 있습니다.<br />복제 미포도 눈덩이에 오르면 각각 1명의 영웅으로 간주되기 때문에
-      눈덩이의 피해와 이동 속도가 증가합니다.
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: 위대한 백색 왕국으로!
-    hurl: tusk
-  tusk_walrus_kick:
-    dname: 바다코끼리 차기
-    affects: '능력: <span class="attribVal">유닛 지정</span><br />효과: <span class="attribVal">적
-      유닛</span><br />피해 유형: <span class="attribVal">마법</span><br />주문 면역 관통: <span
-      class="attribVal"><font color="#70EA72">관통</font></span><br />'
-    desc: 대상 유닛을 뒤로 걷어차 피해를 주고 이동 속도를 느려지게 합니다.
-    notes: ''
-    dmg: ''
-    attrib: |-
-      차기 밀치기 거리: <span class="attribVal">1400</span><br />
-      이동 둔화: <span class="attribVal">40%</span><br />
-      둔화 지속시간: <span class="attribVal">4</span><br />
-      피해: <span class="attribVal">350</span>
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
-      class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 100</div><div class="cooldown"><img alt="쿨다운"
-      title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 8</div><br clear="left" /></div>
-    lore: ''
     hurl: tusk
   tusk_walrus_punch:
     dname: 바다코끼리 펀치!
@@ -12016,18 +11314,6 @@ abilitydata:
     cmb: ''
     lore: 고대 티탄이 초기의 상태로 질서를 다시 세웁니다.
     hurl: elder_titan
-  elder_titan_return_spirit:
-    dname: 우주의 영혼 귀환
-    affects: '능력: <span class="attribVal">대상 없음</span><br />'
-    desc: 우주의 영혼을 고대 티탄에게 돌아오게 합니다.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: <div class="cooldownMana"><div class="cooldown"><img alt="쿨다운" title="쿨다운"
-      class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 0</div><br clear="left" /></div>
-    lore: ''
-    hurl: elder_titan
   elder_titan_earth_splitter:
     dname: 대지 가르기
     affects: '능력: <span class="attribVal">목표 지점 지정</span><br />효과: <span class="attribVal">적
@@ -12235,21 +11521,6 @@ abilitydata:
       width="16" height="16" border="0" /> 35</div><br clear="left" /></div>
     lore: 적이 쉽게 접근하도록 허용해서는 안 됩니다.
     hurl: ember_spirit
-  ember_spirit_activate_fire_remnant:
-    dname: 불꽃 잔영 터뜨리기
-    affects: '능력: <span class="attribVal">목표 지점 지정</span><br />피해 유형: <span class="attribVal">마법</span><br
-      />주문 면역 관통: <span class="attribVal">미관통</span><br />'
-    desc: 선택한 불꽃 잔영으로 이동합니다.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
-      class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 150</div><div class="cooldown"><img alt="쿨다운"
-      title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 0</div><br clear="left" /></div>
-    lore: 불타는 속도로 날아갑니다!
-    hurl: ember_spirit
   ember_spirit_fire_remnant:
     dname: 불꽃 잔영
     affects: '능력: <span class="attribVal">목표 지점 지정</span><br />피해 유형: <span class="attribVal">마법</span><br
@@ -12357,41 +11628,6 @@ abilitydata:
       title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 13</div><br clear="left" /></div>
     lore: 같은 무리는 서로 끌리기 마련입니다. 살아 있는 존재의 피와 뼛속에 있는 무기질이라 할지라도 대지령의 부름을 거부하지 못합니다.
-    hurl: earth_spirit
-  earth_spirit_stone_caller:
-    dname: 바위 잔영
-    affects: '능력: <span class="attribVal">목표 지점 지정</span><br />'
-    desc: 대상 위치에 바위 잔영을 불러냅니다. 바위 잔영은 시야가 없고 무적이며 대지령의 능력에 사용됩니다. 바위 잔영을 불러낼 때마다 대지령은
-      충전된 에너지를 하나씩 소모합니다. 소모한 에너지는 시간이 지나면 다시 충전됩니다.
-    notes: ''
-    dmg: ''
-    attrib: |-
-      최대 충전: <span class="attribVal">6</span><br />
-      충전 회복 시간: <span class="attribVal">30</span><br />
-      지속시간: <span class="attribVal">120</span>
-    cmb: <div class="cooldownMana"><div class="cooldown"><img alt="쿨다운" title="쿨다운"
-      class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 0</div><br clear="left" /></div>
-    lore: 대지령이 대지의 어두운 품에 오랫동안 함께 묻혀 있던 바위 군대의 잔영을 불러냅니다.
-    hurl: earth_spirit
-  earth_spirit_petrify:
-    dname: 잔영 마력 부여
-    affects: '능력: <span class="attribVal">유닛 지정</span><br />피해 유형: <span class="attribVal">마법</span><br
-      />주문 면역 관통: <span class="attribVal">미관통</span><br />'
-    desc: 대지령이 일시적으로 영웅에게 마력을 주입하여 바위 잔영의 속성을 부여합니다. 짧은 지속시간 후 잔영이 부서지면 영웅은 풀려나면서
-      주위 적 유닛에게 피해를 줍니다.
-    notes: ''
-    dmg: ''
-    attrib: |-
-      잔영 지속시간: <span class="attribVal">3</span><br />
-      부수기 피해: <span class="attribVal">300</span><br />
-      부수기 반경: <span class="attribVal">300</span>
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
-      class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 150</div><div class="cooldown"><img alt="쿨다운"
-      title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 45</div><br clear="left" /></div>
-    lore: 카올린이 대지 원소의 힘을 이용하여 살아 있는 존재를 일시적으로 석화하고 무덤 속 석상 군대에 합류시킵니다.
     hurl: earth_spirit
   earth_spirit_magnetize:
     dname: 자력 주입
@@ -12585,16 +11821,6 @@ abilitydata:
       width="16" height="16" border="0" /> 26</div><br clear="left" /></div>
     lore: 원자 하나만한 구멍에서 그토록 강력한 별의 기운이 흘러 나옵니다.
     hurl: phoenix
-  phoenix_sun_ray_toggle_move:
-    dname: 이동/중단
-    affects: '능력: <span class="attribVal">대상 없음</span><br />'
-    desc: 태양 광선을 내뿜는 동안 천천히 앞으로 이동합니다. 또는 이동을 중단합니다.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: 끼익!
-    hurl: phoenix
   phoenix_supernova:
     dname: 초신성
     affects: '능력: <span class="attribVal">대상 없음</span><br />효과: <span class="attribVal">아군
@@ -12617,48 +11843,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 110</div><br clear="left" /></div>
     lore: 초신성의 태양 도가니는 생명을 앗아가지만, 그 불길에서는 새로운 빛이 솟아올라 영원을 떠돕니다.
-    hurl: phoenix
-  phoenix_launch_fire_spirit:
-    dname: 불의 영혼 내보내기
-    affects: '능력: <span class="attribVal">목표 지점 지정</span><br />피해 유형: <span class="attribVal">마법</span><br
-      />주문 면역 관통: <span class="attribVal">미관통</span><br />'
-    desc: 영혼은 각각 대상 범위 지역에 따로따로 떨어집니다. 영향을 받은 적은 지속하여 피해를 받고 공격 속도가 상당히 감소합니다. 공격
-      지역을 1초 동안 밝힙니다.
-    notes: ''
-    dmg: ''
-    attrib: |-
-      소모 체력: <span class="attribVal">20%</span><br />
-      영혼 지속시간: <span class="attribVal">16 / 16 / 16 / 16</span><br />
-      반경: <span class="attribVal">175 / 175 / 175 / 175</span><br />
-      화상 지속시간: <span class="attribVal">4</span><br />
-      공격 속도 둔화: <span class="attribVal">80 / 100 / 120 / 140</span><br />
-      초당 피해: <span class="attribVal">10 / 30 / 50 / 70</span>
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
-      class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 0/0/0/0</div><div class="cooldown"><img
-      alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 0</div><br clear="left" /></div>
-    lore: 끼야악! 쾅
-    hurl: phoenix
-  phoenix_icarus_dive_stop:
-    dname: 이카루스의 날개 중단
-    affects: '능력: <span class="attribVal">대상 없음</span><br />'
-    desc: 즉시 이동을 중단합니다.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: 삐이익!
-    hurl: phoenix
-  phoenix_sun_ray_stop:
-    dname: 태양 광선 중단
-    affects: '능력: <span class="attribVal">대상 없음</span><br />'
-    desc: 즉시 태양 광선을 중단시킵니다.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: 째짹!
     hurl: phoenix
   special_bonus_unique_phoenix_3:
     dname: 불의 영혼 초당 피해 +65
@@ -12850,33 +12034,6 @@ abilitydata:
       alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
       width="16" height="16" border="0" /> 35</div><br clear="left" /></div>
     lore: 우리 어디 가?
-    hurl: techies
-  techies_focused_detonate:
-    dname: 집중 폭발
-    affects: '능력: <span class="attribVal">목표 지점 지정</span><br />피해 유형: <span class="attribVal">마법</span><br
-      />'
-    desc: 대상 지역에 있는 원격 지뢰를 모두 폭발시킵니다.
-    notes: ''
-    dmg: ''
-    attrib: '반경: <span class="attribVal">700</span>'
-    cmb: <div class="cooldownMana"><div class="cooldown"><img alt="쿨다운" title="쿨다운"
-      class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 1</div><br clear="left" /></div>
-    lore: 도화선을 전부 불붙일 수 있는데 하나만 붙일 이유가 있겠어?
-    hurl: techies
-  techies_minefield_sign:
-    dname: 지뢰밭 표지
-    affects: '능력: <span class="attribVal">목표 지점 지정</span><br />피해 유형: <span class="attribVal">DOTA_ToolTip_Damage_None</span><br
-      />'
-    desc: "적에게 보이는 발 조심 경고 표지를 설치합니다. 표지는 동시에 하나만 존재할 수 있습니다. 180초 동안 지속됩니다.\r\n\r\n아가님의
-      홀로 강화 가능"
-    notes: ''
-    dmg: ''
-    attrib: '표지 지속시간: <span class="attribVal">180</span>'
-    cmb: <div class="cooldownMana"><div class="cooldown"><img alt="쿨다운" title="쿨다운"
-      class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 360</div><br clear="left" /></div>
-    lore: 발밑을 조심해!
     hurl: techies
   techies_remote_mines:
     dname: 원격 지뢰
@@ -13208,16 +12365,6 @@ abilitydata:
       width="16" height="16" border="0" /> 130/120/110</div><br clear="left" /></div>
     lore: 그자들은 경고 없이 나타나 한때 왕국이 번성했던 곳에 불과 피를 뿌립니다.
     hurl: abyssal_underlord
-  abyssal_underlord_cancel_dark_rift:
-    dname: 어둠의 균열 취소
-    affects: '능력: <span class="attribVal">대상 없음</span><br />'
-    desc: 순간이동 중단
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: abyssal_underlord
   special_bonus_spell_amplify_12:
     dname: 주문 증폭 +12%
     affects: '능력: <span class="attribVal">지속 효과</span><br />'
@@ -13286,37 +12433,6 @@ abilitydata:
       width="16" height="16" border="0" /> 1.20</div><br clear="left" /></div>
     lore: 손오공은 언제나 손이 닿지 않는 곳으로 다니며 우거진 나무 꼭대기를 따라 민첩하게 춤을 추듯 움직입니다.
     hurl: monkey_king
-  monkey_king_primal_spring:
-    dname: 원시의 반동
-    affects: '능력: <span class="attribVal">집중 기술, 목표 지점 지정</span><br />피해 유형: <span
-      class="attribVal">마법</span><br />주문 면역 관통: <span class="attribVal">미관통</span><br
-      />'
-    desc: 원숭이 왕이 올라앉아 있던 나무에서 튀어나와 착지하는 지역에 있는 적에게 피해를 주고 둔화합니다. 피해 및 둔화의 양은 정신 집중을
-      한 시간에 비례합니다.
-    notes: ''
-    dmg: ''
-    attrib: |-
-      피해: <span class="attribVal">140 / 210 / 280 / 350</span><br />
-      이동 둔화: <span class="attribVal">20% / 40% / 60% / 80%</span><br />
-      둔화 지속시간: <span class="attribVal">4</span><br />
-      최대 거리: <span class="attribVal">1000</span>
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
-      class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 130/120/110/100</div><div class="cooldown"><img
-      alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 19/17/15/13</div><br clear="left" /></div>
-    lore: 손오공은 안전하게 숨어 있다가 적 한가운데로 튀어나오면서 무자비하게 적을 공격합니다.
-    hurl: monkey_king
-  monkey_king_primal_spring_early:
-    dname: monkey_king_primal_spring_early
-    affects: '능력: <span class="attribVal">대상 없음</span><br />'
-    desc: DOTA_Tooltip_ability_monkey_king_primal_spring_early_Description
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: ''
-    lore: ''
-    hurl: monkey_king
   monkey_king_jingu_mastery:
     dname: 여의봉술
     affects: '능력: <span class="attribVal">지속 효과</span><br />주문 면역 관통: <span class="attribVal"><font
@@ -13333,35 +12449,6 @@ abilitydata:
       보너스 흡혈: <span class="attribVal">15% / 30% / 45% / 60%</span>
     cmb: ''
     lore: 항상 주인의 기분에 민감하게 반응하는 여의금고봉은 손오공의 전투 열의가 넘쳐날 때 힘을 내뿜습니다.
-    hurl: monkey_king
-  monkey_king_mischief:
-    dname: 둔갑술
-    affects: '능력: <span class="attribVal">대상 없음</span><br />'
-    desc: 원숭이 왕은 근처의 환경에서 영감을 받아 형태를 바꿔 적을 속입니다. 피해를 받거나, 공격하거나 아이템 또는 능력을 사용하면 원숭이
-      왕의 위장이 풀립니다.
-    notes: ''
-    dmg: ''
-    attrib: '이동 속도: <span class="attribVal">200</span>'
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
-      class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 0/0/0/0</div><div class="cooldown"><img
-      alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 3</div><br clear="left" /></div>
-    lore: 저 나무를 조심하세요.
-    hurl: monkey_king
-  monkey_king_untransform:
-    dname: 모습 되돌리기
-    affects: '능력: <span class="attribVal">대상 없음</span><br />'
-    desc: 원숭이 왕의 형태를 원래 모습으로 되돌립니다.
-    notes: ''
-    dmg: ''
-    attrib: ''
-    cmb: <div class="cooldownMana"><div class="mana"><img alt="마나 소모" title="마나 소모"
-      class="manaImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/mana.png"
-      width="16" height="16" border="0" /> 0/0/0/0</div><div class="cooldown"><img
-      alt="쿨다운" title="쿨다운" class="cooldownImg" src="http://cdn.dota2.com/apps/dota2/images/tooltips/cooldown.png"
-      width="16" height="16" border="0" /> 1</div><br clear="left" /></div>
-    lore: ''
     hurl: monkey_king
   monkey_king_wukongs_command:
     dname: 오공의 지휘
