@@ -92,7 +92,6 @@
 79: mekansm
 80: recipe_vladmir
 81: vladmir
-84: flying_courier
 85: recipe_buckler
 86: buckler
 87: recipe_ring_of_basilius
@@ -154,6 +153,17 @@
 123: sphere
 221: recipe_lotus_orb
 226: lotus_orb
+222: recipe_meteor_hammer
+223: meteor_hammer
+224: recipe_nullifier
+225: nullifier
+255: recipe_combo_breaker
+256: combo_breaker
+258: recipe_trident
+259: trident
+260: refresher_shard
+266: recipe_spirit_vessel
+267: spirit_vessel
 124: recipe_vanguard
 125: vanguard
 243: recipe_crimson_guard
@@ -211,9 +221,7 @@
 171: recipe_mask_of_madness
 172: mask_of_madness
 173: recipe_diffusal_blade
-195: recipe_diffusal_blade_2
 174: diffusal_blade
-196: diffusal_blade_2
 175: recipe_ethereal_blade
 176: ethereal_blade
 177: recipe_soul_ring
