@@ -29,6 +29,7 @@ class UpdateConstantMin
   end
 
   def update_abilities
+    puts 'update abilities'
     ability_id_to_name = {}
     response = HTTParty.get(@abilities_url)
     json_body = JSON.parse(response.body)
@@ -36,10 +37,11 @@ class UpdateConstantMin
       next if value.empty? || value['ID'].nil?
       ability_id_to_name[value['ID'].to_i] = key
     end
-    save_hash_to_yml('yml/abilities.yml', ability_id_to_name)
+    save_hash_to_yml('yml_min/abilities.yml', ability_id_to_name)
   end
 
   def update_items
+    puts 'update items'
     item_id_to_name = {}
     response = HTTParty.get(@items_url)
     json_body = JSON.parse(response.body)
@@ -47,10 +49,11 @@ class UpdateConstantMin
       next if value['ID'].nil?
       item_id_to_name[value['ID'].to_i] = key[@item_.length..-1]
     end
-    save_hash_to_yml('yml/items.yml', item_id_to_name)
+    save_hash_to_yml('yml_min/items.yml', item_id_to_name)
   end
 
   def update_heroes
+    puts 'update heroes'
     hero_id_to_name = {}
     response = HTTParty.get(@heroes_url)
     json_body = JSON.parse(response.body)
@@ -58,7 +61,7 @@ class UpdateConstantMin
       next if value['HeroID'].nil?
       hero_id_to_name[value['HeroID'].to_i] = key[@npc_dota_hero_.length..-1]
     end
-    save_hash_to_yml('yml/heroes.yml', hero_id_to_name)
+    save_hash_to_yml('yml_min/heroes.yml', hero_id_to_name)
   end
 
   def save_hash_to_yml(file_path, data)
