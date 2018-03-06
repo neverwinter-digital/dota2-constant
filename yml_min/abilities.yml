@@ -454,6 +454,7 @@
 5481: visage_soul_assumption
 5482: visage_gravekeepers_cloak
 5483: visage_summon_familiars
+7116: visage_stone_form_self_cast
 5484: visage_summon_familiars_stone_form
 5485: wisp_tether
 5486: wisp_spirits
@@ -745,6 +746,7 @@
 6321: special_bonus_mp_400
 6185: special_bonus_mp_500
 6382: special_bonus_mp_600
+7059: special_bonus_mp_700
 6816: special_bonus_mp_800
 6686: special_bonus_mp_1000
 6118: special_bonus_attack_speed_10
@@ -770,8 +772,10 @@
 6845: special_bonus_cleave_15
 6603: special_bonus_cleave_20
 6801: special_bonus_cleave_25
+7122: special_bonus_cleave_30
 6631: special_bonus_cleave_60
 6827: special_bonus_cleave_100
+7124: special_bonus_cleave_150
 6629: special_bonus_haste
 6922: special_bonus_truestrike
 7034: special_bonus_spell_block_15
@@ -957,6 +961,7 @@
 6120: special_bonus_cast_range_175
 6114: special_bonus_cast_range_200
 6161: special_bonus_cast_range_250
+7117: special_bonus_cast_range_275
 6213: special_bonus_cast_range_300
 6930: special_bonus_cast_range_350
 6384: special_bonus_cast_range_400
@@ -979,6 +984,7 @@
 6561: special_bonus_cooldown_reduction_30
 6445: special_bonus_cooldown_reduction_40
 6804: special_bonus_cooldown_reduction_50
+7109: special_bonus_cooldown_reduction_65
 5975: special_bonus_respawn_reduction_15
 5953: special_bonus_respawn_reduction_20
 5954: special_bonus_respawn_reduction_25
@@ -1016,6 +1022,7 @@
 6317: special_bonus_exp_boost_30
 6372: special_bonus_exp_boost_35
 6447: special_bonus_exp_boost_40
+7125: special_bonus_exp_boost_60
 5977: special_bonus_unique_clockwerk
 6364: special_bonus_unique_clockwerk_2
 6512: special_bonus_unique_clockwerk_3
@@ -1035,6 +1042,8 @@
 6996: special_bonus_unique_witch_doctor_5
 6010: special_bonus_unique_necrophos
 6703: special_bonus_unique_necrophos_2
+7110: special_bonus_unique_necrophos_3
+7111: special_bonus_unique_necrophos_4
 6012: special_bonus_unique_antimage
 6353: special_bonus_unique_antimage_2
 6606: special_bonus_unique_antimage_3
@@ -1061,6 +1070,8 @@
 6955: special_bonus_unique_treant_3
 6956: special_bonus_unique_treant_4
 6957: special_bonus_unique_treant_5
+7103: special_bonus_unique_treant_6
+7115: special_bonus_unique_treant_7
 6028: special_bonus_unique_razor
 6408: special_bonus_unique_razor_2
 6860: special_bonus_unique_razor_3
@@ -1085,6 +1096,7 @@
 6045: special_bonus_unique_sven
 6910: special_bonus_unique_sven_2
 6911: special_bonus_unique_sven_3
+7112: special_bonus_unique_sven_4
 6047: special_bonus_unique_dark_seer
 6365: special_bonus_unique_dark_seer_2
 6624: special_bonus_unique_dark_seer_3
@@ -1127,6 +1139,7 @@
 6063: special_bonus_unique_leshrac_1
 6240: special_bonus_unique_leshrac_2
 6672: special_bonus_unique_leshrac_3
+7101: special_bonus_unique_leshrac_4
 6064: special_bonus_unique_jakiro
 6381: special_bonus_unique_jakiro_2
 6538: special_bonus_unique_jakiro_3
@@ -1158,6 +1171,7 @@
 6369: special_bonus_unique_doom_3
 6370: special_bonus_unique_doom_4
 6371: special_bonus_unique_doom_5
+7123: special_bonus_unique_doom_6
 6082: special_bonus_unique_brewmaster
 6359: special_bonus_unique_brewmaster_2
 6516: special_bonus_unique_brewmaster_3
@@ -1188,12 +1202,16 @@
 6566: special_bonus_unique_wraith_king_4
 6821: special_bonus_unique_wraith_king_5
 6822: special_bonus_unique_wraith_king_6
+7107: special_bonus_unique_wraith_king_7
+7108: special_bonus_unique_wraith_king_8
 6089: special_bonus_unique_kunkka
 6385: special_bonus_unique_kunkka_2
 6666: special_bonus_unique_kunkka_3
 6667: special_bonus_unique_kunkka_4
 6090: special_bonus_unique_dragon_knight
 6635: special_bonus_unique_dragon_knight_2
+7113: special_bonus_unique_dragon_knight_3
+7114: special_bonus_unique_dragon_knight_4
 6097: special_bonus_unique_invoker_1
 6098: special_bonus_unique_invoker_2
 6099: special_bonus_unique_invoker_3
@@ -1266,6 +1284,7 @@
 6562: special_bonus_unique_windranger_3
 6992: special_bonus_unique_windranger_4
 6993: special_bonus_unique_windranger_5
+7062: special_bonus_unique_windranger_6
 6146: special_bonus_unique_phantom_lancer
 6400: special_bonus_unique_phantom_lancer_2
 6849: special_bonus_unique_phantom_lancer_3
@@ -1402,6 +1421,7 @@
 6873: special_bonus_unique_shadow_demon_4
 7002: special_bonus_unique_shadow_demon_5
 7061: special_bonus_unique_shadow_demon_6
+7118: special_bonus_unique_shadow_demon_7
 6211: special_bonus_unique_slardar
 6889: special_bonus_unique_slardar_2
 6890: special_bonus_unique_slardar_3
@@ -1414,6 +1434,7 @@
 6352: special_bonus_unique_ancient_apparition_3
 6534: special_bonus_unique_ancient_apparition_4
 6810: special_bonus_unique_ancient_apparition_5
+7106: special_bonus_unique_ancient_apparition_6
 6215: special_bonus_unique_disruptor
 6368: special_bonus_unique_disruptor_2
 6536: special_bonus_unique_disruptor_3
@@ -1479,21 +1500,24 @@
 6998: special_bonus_unique_techies_4
 6287: special_bonus_unique_arc_warden
 6354: special_bonus_unique_arc_warden_2
+7104: special_bonus_unique_arc_warden_3
+7105: special_bonus_unique_arc_warden_4
 6288: special_bonus_unique_meepo
 6689: special_bonus_unique_meepo_2
 7027: special_bonus_unique_meepo_3
+7102: special_bonus_unique_meepo_4
 6303: special_bonus_unique_monkey_king
 6421: special_bonus_unique_monkey_king_2
 6696: special_bonus_unique_monkey_king_3
 6697: special_bonus_unique_monkey_king_4
 7024: special_bonus_unique_monkey_king_5
 7025: special_bonus_unique_monkey_king_6
+7038: special_bonus_unique_monkey_king_7
 6463: special_bonus_unique_pangolier_2
 9060: special_bonus_unique_pangolier_3
 9061: special_bonus_unique_pangolier_4
 9062: special_bonus_unique_pangolier_5
 6464: special_bonus_unique_dark_willow_1
-7038: special_bonus_unique_monkey_king_7
 6465: special_bonus_unique_dark_willow_2
 6251: generic_hidden
 82: bear_empty1

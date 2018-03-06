@@ -1,4 +1,5 @@
 require 'httparty'
+require 'pry'
 
 class UpdateConstantMin
   def initialize
@@ -11,6 +12,7 @@ class UpdateConstantMin
     update_heroes
     update_items
     update_abilities
+    update_ability_id_to_hero_id
   end
 
   private
@@ -33,7 +35,8 @@ class UpdateConstantMin
     ability_id_to_name = {}
     response = HTTParty.get(@abilities_url)
     json_body = JSON.parse(response.body)
-    json_body['DOTAAbilities'].each do |key, value|
+    @abilities = json_body['DOTAAbilities']
+    @abilities.each do |key, value|
       next if value.empty? || value['ID'].nil?
       ability_id_to_name[value['ID'].to_i] = key
     end
@@ -57,11 +60,24 @@ class UpdateConstantMin
     hero_id_to_name = {}
     response = HTTParty.get(@heroes_url)
     json_body = JSON.parse(response.body)
-    json_body['DOTAHeroes'].each do |key, value|
+    @heroes = json_body['DOTAHeroes']
+    @heroes.each do |key, value|
       next if value['HeroID'].nil?
       hero_id_to_name[value['HeroID'].to_i] = key[@npc_dota_hero_.length..-1]
     end
     save_hash_to_yml('yml_min/heroes.yml', hero_id_to_name)
+  end
+
+  def update_ability_id_to_hero_id
+    ability_id_to_hero_id = {}
+
+    @abilities.each do |key, value|
+      next if value.empty? || value['ID'].nil?
+      hero_key = "npc_dota_hero_#{key.split('_')[0]}"
+      next unless @heroes.key?(hero_key)
+      ability_id_to_hero_id[value['ID']] = @heroes[hero_key]['HeroID']
+    end
+    save_hash_to_yml('yml_min/ability_id_to_hero_id.yml', ability_id_to_hero_id)
   end
 
   def save_hash_to_yml(file_path, data)
