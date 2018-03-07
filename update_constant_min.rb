@@ -12,7 +12,6 @@ class UpdateConstantMin
     update_heroes
     update_items
     update_abilities
-    update_ability_id_to_hero_id
   end
 
   private
@@ -66,18 +65,6 @@ class UpdateConstantMin
       hero_id_to_name[value['HeroID'].to_i] = key[@npc_dota_hero_.length..-1]
     end
     save_hash_to_yml('yml_min/heroes.yml', hero_id_to_name)
-  end
-
-  def update_ability_id_to_hero_id
-    ability_id_to_hero_id = {}
-
-    @abilities.each do |key, value|
-      next if value.empty? || value['ID'].nil?
-      hero_key = "npc_dota_hero_#{key.split('_')[0]}"
-      next unless @heroes.key?(hero_key)
-      ability_id_to_hero_id[value['ID']] = @heroes[hero_key]['HeroID']
-    end
-    save_hash_to_yml('yml_min/ability_id_to_hero_id.yml', ability_id_to_hero_id)
   end
 
   def save_hash_to_yml(file_path, data)

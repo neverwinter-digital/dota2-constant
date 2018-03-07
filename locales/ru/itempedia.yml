@@ -14,9 +14,9 @@ itemdata:
       4/5 от максимально возможной.
     attrib: ''
     mc: false
-    cd: 12
-    lore: Легендарный кинжал, использовавшийся самым быстрым убийцей, когда-либо ходившим
-      по земле.
+    cd: 14
+    lore: Легендарный кинжал, которым когда-то пользовался самый быстрый убийца на
+      свете.
     components: 
     created: false
   blades_of_attack:
@@ -30,7 +30,7 @@ itemdata:
     attrib: + <span class="attribVal">9</span> <span class="attribValText">к урону</span>
     mc: false
     cd: false
-    lore: Не стоит недооценивать пользу от этих маленьких незаметных клинков.
+    lore: Не стоит недооценивать опасность этих маленьких незаметных клинков.
     components: 
     created: false
   broadsword:
@@ -44,8 +44,8 @@ itemdata:
     attrib: + <span class="attribVal">18</span> <span class="attribValText">к урону</span>
     mc: false
     cd: false
-    lore: Будучи классическим оружием рыцарей, этот клинок является прочным и надежным
-      выбором для убийства врагов.
+    lore: Этот прочный клинок, что испокон веков носили рыцари, не подведёт в жестоком
+      бою.
     components: 
     created: false
   chainmail:
@@ -59,7 +59,7 @@ itemdata:
     attrib: + <span class="attribVal">5</span> <span class="attribValText">к броне</span>
     mc: false
     cd: false
-    lore: Кольчуга среднего размера.
+    lore: Металлическая кольчуга средней прочности.
     components: 
     created: false
   claymore:
@@ -73,7 +73,7 @@ itemdata:
     attrib: + <span class="attribVal">21</span> <span class="attribValText">к урону</span>
     mc: false
     cd: false
-    lore: Меч, способный пробить броню — это обычный выбор начинающих рыцарей.
+    lore: Меч, способный пробить броню, — обычный выбор начинающих рыцарей.
     components: 
     created: false
   helm_of_iron_will:
@@ -97,14 +97,14 @@ itemdata:
     img: javelin_lg.png?3
     dname: Javelin
     qual: component
-    cost: 1500
-    desc: "<h1>Пассивная: Pierce</h1> Каждая атака может нанести 85 дополнительного
-      урона с вероятностью в 25%."
+    cost: 1100
+    desc: "<h1>Пассивная: Pierce</h1> Каждая атака может с вероятностью в 25% пройти
+      сквозь уклонение и нанести 100 дополнительного урона."
     notes: ''
-    attrib: + <span class="attribVal">10</span> <span class="attribValText">к урону</span>
+    attrib: ''
     mc: false
     cd: false
-    lore: На удивление типичное копье, которым иногда можно пробить вражескую броню.
+    lore: Довольно обычное копьё, которым иногда можно пробить вражескую броню.
     components: 
     created: false
   mithril_hammer:
@@ -118,7 +118,7 @@ itemdata:
     attrib: + <span class="attribVal">24</span> <span class="attribValText">к урону</span>
     mc: false
     cd: false
-    lore: Молот, скованный из чистейшего мифрила.
+    lore: Молот, выкованный из чистейшего мифрила.
     components: 
     created: false
   platemail:
@@ -132,8 +132,7 @@ itemdata:
     attrib: + <span class="attribVal">10</span> <span class="attribValText">к броне</span>
     mc: false
     cd: false
-    lore: Толстые металлические пластины, полностью защищающие верхнюю часть тела.
-      Будьте аккуратнее — не уроните на ноги!
+    lore: Толстые металлические пластины, полностью защищающие торс. На ноги не ронять.
     components: 
     created: false
   quarterstaff:
@@ -149,7 +148,7 @@ itemdata:
       + <span class="attribVal">10</span> <span class="attribValText">к скорости атаки</span>
     mc: false
     cd: false
-    lore: Обычный посох, позволяющий быстро атаковать врагов.
+    lore: Обычный посох, позволяющий наносить быстрые удары.
     components: 
     created: false
   quelling_blade:
@@ -167,7 +166,7 @@ itemdata:
     attrib: ''
     mc: false
     cd: 4
-    lore: Топор павшего гнома, позволяющий эффективно маневрировать в лесу.
+    lore: Топор павшего гнома, позволяющий с лёгкостью продираться сквозь лес.
     components: 
     created: false
   faerie_fire:
@@ -176,7 +175,7 @@ itemdata:
     dname: Faerie Fire
     qual: consumable
     cost: 70
-    desc: "<h1>Использование: Imbue</h1> Мгновенно восстанавливает 75 здоровья."
+    desc: "<h1>Использование: Imbue</h1> Мгновенно восстанавливает 85 здоровья."
     notes: ''
     attrib: + <span class="attribVal">2</span> <span class="attribValText">к урону</span>
     mc: false
@@ -187,18 +186,18 @@ itemdata:
   infused_raindrop:
     id: 265
     img: infused_raindrop_lg.png?3
-    dname: Infused Raindrop
+    dname: Infused Raindrops
     qual: component
     cost: 225
     desc: "<h1>Пассивная: Magical Damage Block</h1> Теряет один заряд и блокирует
       до 120 магического урона. Срабатывает, только если урон был больше 50. <br><br>Изначально
       имеет 5 зарядов и пропадает вместе с последним из них."
     notes: За раз используется только один заряд.
-    attrib: + <span class="attribVal">0.85</span> <span class="attribValText">к регенерации
+    attrib: + <span class="attribVal">0.5</span> <span class="attribValText">к восстановлению
       маны</span>
     mc: false
     cd: 7
-    lore: Элементальная защита от магических атак.
+    lore: Стихийная защита от магических атак.
     components: 
     created: false
   wind_lace:
@@ -236,8 +235,8 @@ itemdata:
     dname: Stout Shield
     qual: component
     cost: 200
-    desc: "<h1>Пассивная: Damage Block</h1>С вероятностью в 50% блокирует 16 урона,
-      если владелец — герой ближнего боя, или 8 урона, если герой дальнего боя."
+    desc: "<h1>Пассивная: Damage Block</h1>С вероятностью в 50% блокирует 18 урона,
+      если владелец — герой ближнего боя, или 9 урона, если герой дальнего боя."
     notes: Блокировка урона от нескольких источников не сочетается.
     attrib: ''
     mc: false
@@ -249,7 +248,7 @@ itemdata:
     id: 247
     img: moon_shard_lg.png?3
     dname: Moon Shard
-    qual: common
+    qual: consumable
     cost: 4000
     desc: "<h1>Использование:</h1> Поглощает предмет и навсегда увеличивает скорость
       атаки на 60, а радиус обзора ночью — на 150. Можно поглотить лишь один Moon
@@ -271,13 +270,13 @@ itemdata:
     img: gauntlets_lg.png?3
     dname: Gauntlets of Strength
     qual: component
-    cost: 150
+    cost: 135
     desc: ''
     notes: ''
     attrib: + <span class="attribVal">3</span> <span class="attribValText">к силе</span>
     mc: false
     cd: false
-    lore: Шипованные кожаные перчатки, которые дают грубую силу.
+    lore: Укреплённые кожаные перчатки, которые дают грубую силу.
     components: 
     created: false
   slippers:
@@ -285,13 +284,13 @@ itemdata:
     img: slippers_lg.png?3
     dname: Slippers of Agility
     qual: component
-    cost: 150
+    cost: 135
     desc: ''
     notes: ''
     attrib: + <span class="attribVal">3</span> <span class="attribValText">к ловкости</span>
     mc: false
     cd: false
-    lore: Легкие ботинки, сделанные из кожи паука, обостряют ваше чутье.
+    lore: Лёгкие ботинки, сделанные из кожи паука, обостряют ваше чутьё.
     components: 
     created: false
   mantle:
@@ -299,7 +298,7 @@ itemdata:
     img: mantle_lg.png?3
     dname: Mantle of Intelligence
     qual: component
-    cost: 150
+    cost: 135
     desc: ''
     notes: ''
     attrib: + <span class="attribVal">3</span> <span class="attribValText">к интеллекту</span>
@@ -321,8 +320,8 @@ itemdata:
       атрибутам</span>
     mc: false
     cd: 0
-    lore: Обычная, казалось бы, веточка дарует владельцу полезные качества благодаря
-      свойствам железного дерева, от которого она отрублена.
+    lore: Обычная, казалось бы, веточка дарует владельцу стойкость железного дерева,
+      с которого она срублена.
     components: 
     created: false
   belt_of_strength:
@@ -336,7 +335,7 @@ itemdata:
     attrib: + <span class="attribVal">6</span> <span class="attribValText">к силе</span>
     mc: false
     cd: false
-    lore: Ценный аксессуар для улучшения выживаемости.
+    lore: Ценный аксессуар, повышающий живучесть.
     components: 
     created: false
   boots_of_elves:
@@ -350,7 +349,8 @@ itemdata:
     attrib: + <span class="attribVal">6</span> <span class="attribValText">к ловкости</span>
     mc: false
     cd: false
-    lore: Эластичная ткань часто используется из-за малого веса и облегчения передвижения.
+    lore: Эту эластичную ткань часто используют, так как она легка и не сковывает
+      движения.
     components: 
     created: false
   robe:
@@ -364,7 +364,7 @@ itemdata:
     attrib: + <span class="attribVal">6</span> <span class="attribValText">к интеллекту</span>
     mc: false
     cd: false
-    lore: Это одеяние разлагает душу владельца, но в обмен дарует мудрость.
+    lore: Эта роба пятнает душу владельца, но в обмен дарует мудрость.
     components: 
     created: false
   circlet:
@@ -379,13 +379,13 @@ itemdata:
       атрибутам</span>
     mc: false
     cd: false
-    lore: Элегантный браслет, предназначенный для человеческих принцесс.
+    lore: Элегантная диадема, предназначенная для человеческих принцесс.
     components: 
     created: false
   ogre_axe:
     id: 21
     img: ogre_axe_lg.png?3
-    dname: Ogre Club
+    dname: Ogre Axe
     qual: component
     cost: 1000
     desc: ''
@@ -393,7 +393,7 @@ itemdata:
     attrib: + <span class="attribVal">10</span> <span class="attribValText">к силе</span>
     mc: false
     cd: false
-    lore: Вы становитесь сильнее, просто держа его в руках.
+    lore: Сила приходит, если просто подержать его в руках.
     components: 
     created: false
   blade_of_alacrity:
@@ -407,7 +407,7 @@ itemdata:
     attrib: + <span class="attribVal">10</span> <span class="attribValText">к ловкости</span>
     mc: false
     cd: false
-    lore: Длинный клинок, наделенный магией времени.
+    lore: Длинный клинок, насыщенный магией времени.
     components: 
     created: false
   staff_of_wizardry:
@@ -421,7 +421,7 @@ itemdata:
     attrib: + <span class="attribVal">10</span> <span class="attribValText">к интеллекту</span>
     mc: false
     cd: false
-    lore: Посох, наделенный магическими силами, переданными от древних магов.
+    lore: Магический посох, которым когда-то владели древние маги.
     components: 
     created: false
   ultimate_orb:
@@ -451,7 +451,7 @@ itemdata:
       атаки</span>
     mc: false
     cd: false
-    lore: Пара магических перчаток, которые, похоже, снижают вес оружия.
+    lore: Пара магических перчаток, в которых оружие кажется лёгким как пёрышко.
     components: 
     created: false
   lifesteal:
@@ -461,8 +461,7 @@ itemdata:
     qual: component
     cost: 1100
     desc: "<h1>Пассивная: Lifesteal</h1> Каждая атака восстанавливает владельцу здоровье
-      в размере 15% от нанесённого урона.<br><br>Morbid Mask — уникальный модификатор
-      атаки, он не сочетается с другими уникальными модификаторами атаки."
+      в размере 15% от нанесённого урона."
     notes: ''
     attrib: + <span class="attribVal">10</span> <span class="attribValText">к урону</span>
     mc: false
@@ -475,10 +474,10 @@ itemdata:
     img: ring_of_regen_lg.png?3
     dname: Ring of Regen
     qual: component
-    cost: 325
+    cost: 300
     desc: ''
     notes: Можно передавать союзникам.
-    attrib: + <span class="attribVal">2</span> <span class="attribValText">к регенерации
+    attrib: + <span class="attribVal">1.5</span> <span class="attribValText">к регенерации
       здоровья</span>
     mc: false
     cd: false
@@ -493,12 +492,11 @@ itemdata:
     cost: 325
     desc: ''
     notes: Можно передавать союзникам.
-    attrib: + <span class="attribVal">50%</span> <span class="attribValText">к регенерации
+    attrib: + <span class="attribVal">0.5</span> <span class="attribValText">к восстановлению
       маны</span>
     mc: false
     cd: false
-    lore: "Маска, в основном используемая для проведения разнообразных ритуалов магами
-      и колдунами.\r\n"
+    lore: Маска, которую зачастую используют в своих ритуалах маги и колдуны.
     components: 
     created: false
   boots:
@@ -506,10 +504,10 @@ itemdata:
     img: boots_lg.png?3
     dname: Boots of Speed
     qual: component
-    cost: 400
+    cost: 500
     desc: Основные бонусы к скорости передвижения от нескольких пар ботинок не складываются.
     notes: ''
-    attrib: + <span class="attribVal">45</span> <span class="attribValText">к скорости
+    attrib: + <span class="attribVal">50</span> <span class="attribValText">к скорости
       передвижения</span>
     mc: false
     cd: false
@@ -529,7 +527,7 @@ itemdata:
     attrib: ''
     mc: false
     cd: false
-    lore: "Как не сдается житель моря,\r\nКак души утонувших моряков,\r\nКак Маэльрон
+    lore: "Как не сдаётся житель моря,\r\nКак души утонувших моряков,\r\nКак Маэльрон
       не ведает покоя,\r\nСей камень вечно прослужить готов."
     components: 
     created: false
@@ -546,7 +544,7 @@ itemdata:
       магии</span>
     mc: false
     cd: false
-    lore: Мантия, созданная из магического материала, который развеивает любое заклинание.
+    lore: Мантия, сотканная из магического материала, который развеивает любое заклинание.
     components: 
     created: false
   talisman_of_evasion:
@@ -560,14 +558,14 @@ itemdata:
     attrib: + <span class="attribVal">20%</span> <span class="attribValText">к уклонению</span>
     mc: false
     cd: false
-    lore: Ожерелье, позволяющее предвидеть вражеские атаки.
+    lore: Ожерелье, позволяющее предвидеть вражеские удары.
     components: 
     created: false
   cheese:
     id: 33
     img: cheese_lg.png?3
     dname: Cheese
-    qual: epic
+    qual: consumable
     cost: 1000
     desc: "<h1>Использование: Fondue</h1> Мгновенно восстанавливает 2500 здоровья
       и 1500 маны."
@@ -575,7 +573,7 @@ itemdata:
     attrib: ''
     mc: false
     cd: 40
-    lore: Сыр, сделанный из молока по давно утерянным рецептам фурболгов, мгновенно
+    lore: Сыр, приготовленный из молока бесследно пропавшего торговца-фурболга, мгновенно
       восстанавливает жизненные силы того, кто съест его.
     components: 
     created: false
@@ -593,8 +591,8 @@ itemdata:
     attrib: ''
     mc: false
     cd: 13
-    lore: Простая волшебная палочка, используемая для концентрации магической энергии
-      как начинающими волшебниками, так и великими колдунами.
+    lore: Простая волшебная палочка, в которой концентрируют магическую энергию начинающие
+      волшебники и великие колдуны.
     components: 
     created: false
   magic_wand:
@@ -602,23 +600,24 @@ itemdata:
     img: magic_wand_lg.png?3
     dname: Magic Wand
     qual: common
-    cost: 465
+    cost: 400
     desc: "<h1>Активируемая: Energy Charge</h1> Мгновенно восстанавливает 15 здоровья
       и маны за каждый имеющийся заряд.<br><br> Может иметь до 17 зарядов. Получает
       один заряд каждый раз, когда видимый враг в радиусе 1200 использует способность."
     notes: Получает заряды, когда видимый враг в радиусе 1200 использует способность.<br
       />Предметы и некоторые способности не добавляют зарядов.
-    attrib: + <span class="attribVal">4</span> <span class="attribValText">ко всем
-      атрибутам</span>
+    attrib: |-
+      + <span class="attribVal">2</span> <span class="attribValText">ко всем атрибутам</span><br />
+      + <span class="attribVal">1.5</span> <span class="attribValText">к регенерации здоровья</span>
     mc: false
     cd: 13
-    lore: Простая волшебная палочка, используемая для концентрации магической энергии
-      как начинающими волшебниками, так и великими колдунами.
+    lore: Простая волшебная палочка, в которой концентрируют магическую энергию начинающие
+      волшебники и великие колдуны.
     components:
-    - circlet
-    - branches
-    - branches
     - magic_stick
+    - branches
+    - branches
+    - enchanted_mango
     created: true
   ghost:
     id: 37
@@ -629,15 +628,13 @@ itemdata:
     desc: "<h1>Активируемая: Ghost Form</h1> Придаёт владельцу бесплотную форму, в
       которой он полностью защищён от физического урона, но не может атаковать и получает
       на 40% больше магического урона. Действует 4 сек."
-    notes: Окончится, если владелец станет невосприимчив к заклинаниям, а также не
-      подействует, если он уже невосприимчив к ним.<br />Имеет общее время перезарядки
-      с Ethereal Blade.
+    notes: Эффект развеется, если получить невосприимчивость к магии, и не подействует
+      сквозь неё.<br />Имеет общее время перезарядки с Ethereal Blade.
     attrib: + <span class="attribVal">5</span> <span class="attribValText">ко всем
       атрибутам</span>
     mc: false
     cd: 20
-    lore: На время переносит сущность владельца в мир духов, что защищает его от всех
-      физических атак.
+    lore: Переносит сущность владельца в мир духов, защищая от физических атак.
     components: 
     created: false
   clarity:
@@ -646,10 +643,9 @@ itemdata:
     dname: Clarity
     qual: consumable
     cost: 50
-    desc: "<h1>Использование: Replenish</h1> Постепенно восстанавливает выбранному
-      существу 190 маны на протяжении 50 сек. <br><br>Восстановление прекращается,
-      если получить урон от вражеского героя или Рошана.<br><br>Дальность применения:
-      250"
+    desc: "<h1>Использование: Replenish</h1> Увеличивает восстановление маны выбранного
+      существа на 3.2. Действует 50 сек.<br><br>Восстановление прекращается, если
+      получить урон от вражеского героя или Рошана.<br><br>Дальность применения: 250"
     notes: ''
     attrib: ''
     mc: false
@@ -663,7 +659,7 @@ itemdata:
     dname: Enchanted Mango
     qual: consumable
     cost: 100
-    desc: "<h1>Использование:</h1> Мгновенно восстанавливает 150 маны.<br><br>Дальность
+    desc: "<h1>Использование:</h1> Мгновенно восстанавливает 175 маны.<br><br>Дальность
       применения: 400"
     notes: Можно применить на союзного героя, зажав клавишу Ctrl.
     attrib: + <span class="attribVal">1</span> <span class="attribValText">к регенерации
@@ -680,8 +676,8 @@ itemdata:
     qual: consumable
     cost: 110
     desc: "<h1>Использование: Salve</h1> Постепенно восстанавливает выбранному существу
-      400 здоровья на протяжении 8 сек. <br><br>Восстановление прекращается, если
-      получить урон от вражеского героя или Рошана.<br><br>Дальность применения: 250"
+      50 здоровья на протяжении 8 сек. <br><br>Восстановление прекращается, если получить
+      урон от вражеского героя или Рошана.<br><br>Дальность применения: 250"
     notes: ''
     attrib: ''
     mc: false
@@ -701,7 +697,7 @@ itemdata:
     attrib: ''
     mc: false
     cd: 30
-    lore: От чужих глаз можно скрыться. От чужого меча — едва ли.
+    lore: Как ни прячься, а своей плоти не скрыть.
     components: 
     created: false
   bottle:
@@ -711,7 +707,7 @@ itemdata:
     qual: common
     cost: 650
     desc: "<h1>Активируемая: Regenerate</h1>Теряет один заряд и постепенно восстанавливает
-      цели 90 здоровья и 60 маны на протяжении 2.5 сек.<br><br>Дальность применения:
+      цели 80 здоровья и 40 маны на протяжении 2.5 сек.<br><br>Дальность применения:
       350<br><br>Восстановление прекращается при получении урона. Пустую бутыль можно
       пополнить возле союзного фонтана. В ней также можно хранить руны. Помещённая
       в бутыль руна задействуется сама спустя две минуты."
@@ -722,8 +718,7 @@ itemdata:
     attrib: ''
     mc: false
     cd: 0
-    lore: Старая бутыль, пережившая много веков. Содержимое, помещенное внутрь, становится
-      зачарованным.
+    lore: Старая бутыль, пережившая много веков. Любое её содержимое становится зачарованным.
     components: 
     created: false
   ward_observer:
@@ -731,7 +726,7 @@ itemdata:
     img: ward_observer_lg.png?3
     dname: Observer Ward
     qual: consumable
-    cost: 60
+    cost: 80
     desc: "<h1>Использование: Plant</h1> Устанавливает невидимого дозорного — вард,
       который даёт наземный обзор в радиусе 1600. Действует 6 мин. <br><br>Можно передать
       один вард союзному герою, зажав клавишу Ctrl.<br><br>Дальность применения: 500"
@@ -739,7 +734,7 @@ itemdata:
     attrib: ''
     mc: false
     cd: 1
-    lore: Вид частично разумного растения, которое часто разводят начинающие волшебники.
+    lore: Вид полуразумного растения, который часто разводят начинающие волшебники.
     components: 
     created: false
   ward_sentry:
@@ -757,7 +752,7 @@ itemdata:
     attrib: ''
     mc: false
     cd: 1
-    lore: Вид растения, которое когда-то росло в саду трусливого короля.
+    lore: Вид растения, который когда-то выращивался в саду трусливого короля.
     components: 
     created: false
   ward_dispenser:
@@ -765,7 +760,7 @@ itemdata:
     img: ward_dispenser_lg.png?3
     dname: Варды
     qual: common
-    cost: 160
+    cost: 180
     desc: "<h1>Использование: Plant</h1> Устанавливает выбранный вард. Нажмите дважды,
       чтобы сменить выбранный вард.<br><br>Дальность применения: 500"
     notes: ''
@@ -776,7 +771,8 @@ itemdata:
       ДЛИТЕЛЬНОСТЬ SENTRY WARD (В МИН.): <span class="attribVal">4</span>
     mc: false
     cd: false
-    lore: Новая технология хранения предметов сделала перенос вардов легким как никогда.
+    lore: Новая технология хранения предметов сделала переноску вардов лёгкой как
+      никогда.
     components:
     - ward_sentry
     - ward_observer
@@ -786,10 +782,10 @@ itemdata:
     img: tango_lg.png?3
     dname: Tango
     qual: consumable
-    cost: 125
-    desc: "<h1>Использование: Devour</h1> Съедает дерево, постепенно восстанавливая
-      115 здоровья на протяжении 16 сек. Если съесть вард или деревце от Iron Branch,
-      то восстановится в два раза больше здоровья.<br><br>Изначально имеет 4 заряда.
+    cost: 90
+    desc: "<h1>Использование: Devour</h1> Съедает дерево, увеличивая восстановление
+      здоровья на 7. Действует 16 сек. Если съесть вард или деревце от Iron Branch,
+      то восстановится в два раза больше здоровья.<br><br>Изначально имеет 3 зарядов.
       Можно применить на союзного героя, чтобы дать ему один Tango.<br><br>Дальность
       поедания дерева: 165<br>Дальность поедания варда: 450"
     notes: ''
@@ -805,9 +801,10 @@ itemdata:
     dname: Tango (не свой)
     qual: consumable
     cost: 30
-    desc: "<h1>Использование: Devour</h1> Съедает дерево, постепенно восстанавливая
-      115 здоровья на протяжении 16 сек. Если съесть вард или деревце от Iron Branch,
-      то восстановится в два раза больше здоровья."
+    desc: "<h1>Использование: Devour</h1> Съедает дерево, увеличивая восстановление
+      здоровья на 7. Действует 16 сек. Если съесть вард или деревце от Iron Branch,
+      то восстановится в два раза больше здоровья.<br><br>Дальность поедания дерева:
+      165<br>Дальность поедания варда: 450"
     notes: ''
     attrib: ''
     mc: false
@@ -820,7 +817,7 @@ itemdata:
     img: courier_lg.png?3
     dname: Animal Courier
     qual: consumable
-    cost: 100
+    cost: 50
     desc: "<h1>Использование:</h1> Создаёт существо, которое переносит вещи на вашу
       базу и обратно."
     notes: ''
@@ -852,7 +849,7 @@ itemdata:
     img: travel_boots_lg.png?3
     dname: Boots of Travel
     qual: common
-    cost: 2400
+    cost: 2500
     desc: "<h1>Активируемая: Teleport</h1>Телепортирует к союзной постройке или существу,
       не являющимся героем. Телепортация к существу прервётся, если оно умрёт.<br><br>Имеет
       общее время перезарядки с Town Portal Scroll.<br><br>Основные бонусы к скорости
@@ -871,7 +868,7 @@ itemdata:
     img: travel_boots_2_lg.png?3
     dname: Boots of Travel
     qual: common
-    cost: 4400
+    cost: 4500
     desc: "<h1>Активируемая: Teleport</h1>Телепортирует к союзной постройке или существу,
       в том числе и героям. Телепортация к существу прервётся, если оно умрёт.<br><br>Имеет
       общее время перезарядки с Town Portal Scroll.<br><br>Основные бонусы к скорости
@@ -891,18 +888,18 @@ itemdata:
     img: phase_boots_lg.png?3
     dname: Phase Boots
     qual: common
-    cost: 1240
+    cost: 1340
     desc: "<h1>Активируемая: Phase</h1> Увеличивает скорость передвижения на 24% для
       героев ближнего боя и на 20% для героев дальнего боя, а также позволяет проходить
       сквозь существ. Действует 2.5 сек.<br><br>Основные бонусы к скорости передвижения
       от нескольких пар ботинок не складываются."
     notes: ''
     attrib: |-
-      + <span class="attribVal">45</span> <span class="attribValText">к скорости передвижения</span><br />
+      + <span class="attribVal">50</span> <span class="attribValText">к скорости передвижения</span><br />
       + <span class="attribVal">24</span> <span class="attribValText">к урону</span>
     mc: false
     cd: 8
-    lore: Ботинки, которые позволяют владельцу путешествовать между мирами.
+    lore: Ботинки, которые позволяют владельцу путешествовать между слоями реальности.
     components:
     - boots
     - blades_of_attack
@@ -919,8 +916,8 @@ itemdata:
     attrib: + <span class="attribVal">42</span> <span class="attribValText">к урону</span>
     mc: false
     cd: false
-    lore: Одно из старейших орудий, скованное кузнецом-демоном Абзидианом, убило своего
-      создателя, когда тот проверял его заточку.
+    lore: Один из древнейших клинков, скованных демоном-кузнецом Абзидианом, убил
+      своего создателя, когда тот проверял остроту лезвия.
     components: 
     created: false
   eagle:
@@ -934,8 +931,8 @@ itemdata:
     attrib: + <span class="attribVal">25</span> <span class="attribValText">к ловкости</span>
     mc: false
     cd: false
-    lore: 'Этот артефакт удерживает в себе зов орла: тот, кто способен слышать его,
-      получает безграничную ловкость.'
+    lore: 'Этот загадочный рог удерживает в себе клич орла: кто услышит его, получит
+      безграничную ловкость.'
     components: 
     created: false
   reaver:
@@ -949,7 +946,7 @@ itemdata:
     attrib: + <span class="attribVal">25</span> <span class="attribValText">к силе</span>
     mc: false
     cd: false
-    lore: Массивный топор, способный без труда сокрушать даже горы.
+    lore: Массивный топор, способный сокрушать даже горы.
     components: 
     created: false
   relic:
@@ -978,7 +975,7 @@ itemdata:
       атаки</span>
     mc: false
     cd: false
-    lore: Загадочный гравированный камень, который делает носителя усерднее.
+    lore: Загадочный резной камень, который повышает прыть владельца.
     components: 
     created: false
   ring_of_health:
@@ -989,7 +986,7 @@ itemdata:
     cost: 850
     desc: ''
     notes: Можно передавать союзникам.
-    attrib: + <span class="attribVal">6</span> <span class="attribValText">к регенерации
+    attrib: + <span class="attribVal">5</span> <span class="attribValText">к регенерации
       здоровья</span>
     mc: false
     cd: false
@@ -1004,12 +1001,12 @@ itemdata:
     cost: 850
     desc: ''
     notes: Можно передавать союзникам.
-    attrib: + <span class="attribVal">100%</span> <span class="attribValText">к регенерации
+    attrib: + <span class="attribVal">1</span> <span class="attribValText">к восстановлению
       маны</span>
     mc: false
     cd: false
     lore: Это драгоценное кольцо, источающее энергию, раньше использовали для связи
-      с нижними магическими мирами.
+      с магией Бездны.
     components: 
     created: false
   mystic_staff:
@@ -1037,8 +1034,8 @@ itemdata:
     attrib: + <span class="attribVal">250</span> <span class="attribValText">к мане</span>
     mc: false
     cd: false
-    lore: Этот ляписовый камень усиливает магический потенциал владельца, позволяя
-      ему дольше сохранять колдовские силы в бою.
+    lore: Этот лазурит часто можно найти у волшебников, стремящихся дольше сохранять
+      колдовские силы в бою.
     components: 
     created: false
   point_booster:
@@ -1076,7 +1073,7 @@ itemdata:
     img: power_treads_lg.png?3
     dname: Power Treads
     qual: common
-    cost: 1350
+    cost: 1450
     desc: "<h1>Активируемая: Switch Attribute</h1>Меняет атрибут, который получает
       бонус: +10 к силе, ловкости или интеллекту.<br><br>Основные бонусы к скорости
       передвижения от нескольких пар ботинок не складываются."
@@ -1084,12 +1081,12 @@ itemdata:
       или Robe of the Magi.<br />Бонус к скорости атаки от нескольких Power Treads
       не складывается.
     attrib: |-
-      + <span class="attribVal">45</span> <span class="attribValText">к скорости передвижения</span><br />
+      + <span class="attribVal">50</span> <span class="attribValText">к скорости передвижения</span><br />
       + <span class="attribVal">10</span> <span class="attribValText">к выбранному атрибуту</span><br />
       + <span class="attribVal">25</span> <span class="attribValText">к скорости атаки</span>
     mc: false
     cd: false
-    lore: Пара сапог, выделанных из жесткой кожи, которая способна изменять свои свойства
+    lore: Пара сапог, выделанных из жёсткой кожи, способна изменять свои свойства
       по желанию владельца.
     components:
     - boots
@@ -1111,9 +1108,8 @@ itemdata:
       атаки</span>
     mc: false
     cd: 100
-    lore: Никому не известно, как этот артефакт сохранился до наших времен. Однако
-      Hand of Midas все еще существует и исправно служит владельцу, превращая в золото
-      любое живое существо, которого он коснется.
+    lore: Эта перчатка, сохранившаяся благодаря неведомой магии, служит жадности владельца,
+      наполняя его карманы золотом в обмен на жизни животных.
     components:
     - gloves
     created: true
@@ -1129,11 +1125,11 @@ itemdata:
       + <span class="attribVal">10</span> <span class="attribValText">к интеллекту</span><br />
       + <span class="attribVal">10</span> <span class="attribValText">к скорости атаки</span><br />
       + <span class="attribVal">10</span> <span class="attribValText">к урону</span><br />
-      + <span class="attribVal">75%</span> <span class="attribValText">к регенерации маны</span>
+      + <span class="attribVal">0.75</span> <span class="attribValText">к восстановлению маны</span>
     mc: false
     cd: false
-    lore: С первого взгляда — обычный посох, однако Oblivion Staff обладает скрытым
-      могуществом, которым его наделил колдун Элдрич.
+    lore: На первый взгляд это обычный посох, однако в нём скрыта огромная мощь —
+      под стать его зловещему первому владельцу.
     components:
     - quarterstaff
     - sobi_mask
@@ -1148,9 +1144,8 @@ itemdata:
     desc: ''
     notes: Можно передавать союзникам.
     attrib: |-
-      + <span class="attribVal">6</span> <span class="attribValText">к регенерации здоровья</span><br />
-      + <span class="attribVal">125%</span> <span class="attribValText">к регенерации маны</span><br />
-      + <span class="attribVal">10</span> <span class="attribValText">к урону</span>
+      + <span class="attribVal">5.5</span> <span class="attribValText">к регенерации здоровья</span><br />
+      + <span class="attribVal">1.5</span> <span class="attribValText">к восстановлению маны</span>
     mc: false
     cd: false
     lore: Драгоценность, укрепляющая силы владельца.
@@ -1163,38 +1158,33 @@ itemdata:
     img: poor_mans_shield_lg.png?3
     dname: Poor Man's Shield
     qual: common
-    cost: 500
-    desc: "<h1>Пассивная: Damage Block</h1>С вероятностью в 100% блокирует 20 урона
-      от атак вражеских героев, если владелец — герой ближнего боя, или 10 урона,
-      если герой дальнего боя.<br><br>Урон от крипов блокируется с вероятностью в
-      50%."
+    cost: 0
+    desc: "<h1>Пассивная: Damage Block</h1>Если не перезаряжается, блокирует 30 урона
+      от атак вражеских героев, если владелец — герой ближнего боя, или 15 урона,
+      если герой дальнего боя.<br><br>С вероятностью в 50% блокирует 18 урона от крипов,
+      если герой ближнего боя, или 9 урона, если герой дальнего боя."
     notes: Блокировка урона от нескольких источников не сочетается.
     attrib: + <span class="attribVal">6</span> <span class="attribValText">к ловкости</span>
     mc: false
-    cd: false
-    lore: Потрескавшийся старый щит, который, однако, способен защищать сильнее, чем
-      кажется на первый взгляд.
-    components:
-    - slippers
-    - slippers
-    - stout_shield
-    created: true
+    cd: 25
+    lore: Потрескавшийся старый щит защищает сильнее, чем кажется на первый взгляд.
+    components: 
+    created: false
   bracer:
     id: 73
     img: bracer_lg.png?3
     dname: Bracer
     qual: common
-    cost: 490
+    cost: 465
     desc: ''
     notes: ''
     attrib: |-
-      + <span class="attribVal">6</span> <span class="attribValText">к силе</span><br />
+      + <span class="attribVal">7</span> <span class="attribValText">к силе</span><br />
       + <span class="attribVal">3</span> <span class="attribValText">к ловкости</span><br />
-      + <span class="attribVal">3</span> <span class="attribValText">к интеллекту</span><br />
-      + <span class="attribVal">3</span> <span class="attribValText">к урону</span>
+      + <span class="attribVal">3</span> <span class="attribValText">к интеллекту</span>
     mc: false
     cd: false
-    lore: Наручи — типичный выбор для укрепления защиты и продления жизни в бою.
+    lore: Наручи подойдут в том случае, если нужно укрепить защиту и повысить живучесть.
     components:
     - circlet
     - gauntlets
@@ -1204,17 +1194,16 @@ itemdata:
     img: wraith_band_lg.png?3
     dname: Wraith Band
     qual: common
-    cost: 485
+    cost: 465
     desc: ''
     notes: ''
     attrib: |-
       + <span class="attribVal">3</span> <span class="attribValText">к силе</span><br />
-      + <span class="attribVal">6</span> <span class="attribValText">к ловкости</span><br />
-      + <span class="attribVal">3</span> <span class="attribValText">к интеллекту</span><br />
-      + <span class="attribVal">3</span> <span class="attribValText">к урону</span>
+      + <span class="attribVal">7</span> <span class="attribValText">к ловкости</span><br />
+      + <span class="attribVal">3</span> <span class="attribValText">к интеллекту</span>
     mc: false
     cd: false
-    lore: Диадема, от которой доносится легкий шепот.
+    lore: Диадема, от которой доносится лёгкий шёпот.
     components:
     - circlet
     - slippers
@@ -1224,17 +1213,16 @@ itemdata:
     img: null_talisman_lg.png?3
     dname: Null Talisman
     qual: common
-    cost: 470
+    cost: 465
     desc: ''
     notes: ''
     attrib: |-
       + <span class="attribVal">3</span> <span class="attribValText">к силе</span><br />
       + <span class="attribVal">3</span> <span class="attribValText">к ловкости</span><br />
-      + <span class="attribVal">6</span> <span class="attribValText">к интеллекту</span><br />
-      + <span class="attribVal">3</span> <span class="attribValText">к урону</span>
+      + <span class="attribVal">7</span> <span class="attribValText">к интеллекту</span>
     mc: false
     cd: false
-    lore: Небольшой драгоценный камень, связанный звеньями.
+    lore: Небольшой драгоценный камень на нескольких цепочках.
     components:
     - circlet
     - mantle
@@ -1244,10 +1232,10 @@ itemdata:
     img: mekansm_lg.png?3
     dname: Mekansm
     qual: rare
-    cost: 2375
+    cost: 2350
     desc: "<h1>Активируемая: Restore</h1> Действует на союзников в радиусе 900. Восстанавливает
       250 здоровья и даёт 2 брони.<br />\r\n<h1>Пассивная: Mekansm Aura</h1> Увеличивает
-      восстановление здоровья на 4 всем союзникам в радиусе 900."
+      восстановление здоровья на 3.5 всем союзникам в радиусе 900."
     notes: Restore действует на одно и то же существо не чаще, чем раз в 25 секунд.<br
       />Эффект от нескольких Mekansm Aura не складывается.
     attrib: |-
@@ -1255,8 +1243,8 @@ itemdata:
       + <span class="attribVal">5</span> <span class="attribValText">к броне</span>
     mc: 225
     cd: 65
-    lore: Светящаяся драгоценность, собранная из частей, которые идеально дополняют
-      друг друга.
+    lore: Сияющий самоцвет, собранный из частей, которые удивительным образом идеально
+      дополняют друг друга.
     components:
     - headdress
     - buckler
@@ -1266,13 +1254,12 @@ itemdata:
     img: vladmir_lg.png?3
     dname: Vladmir's Offering
     qual: rare
-    cost: 2275
+    cost: 2250
     desc: "<h1>Пассивная: Vladmir's Aura</h1>Дарует союзникам вокруг эффект вампиризма
       (15% для героев ближнего боя и 10% — для героев дальнего боя), увеличивает их
-      броню на 4, урон на 15, а также усиливает восстановление здоровья на 3 и восстановление
-      маны на 0.8. <br><br>Радиус: 900"
-    notes: Не сочетается с аурами Ring of Basilius, Ring of Aquila или Vladmir's Offering.<br
-      />Эффекты от нескольких Vladmir's Aura не складываются.
+      броню на 4, урон на 15, а также усиливает восстановление здоровья на 2.5 и восстановление
+      маны на 0.65. <br><br>Радиус: 900"
+    notes: Эффект от нескольких аур Vladmir's Offering не складывается.
     attrib: + <span class="attribVal">2</span> <span class="attribValText">ко всем
       атрибутам</span>
     mc: false
@@ -1283,22 +1270,6 @@ itemdata:
     - ring_of_basilius
     - lifesteal
     created: true
-  flying_courier:
-    id: 84
-    img: flying_courier_lg.png?3
-    dname: Flying Courier
-    qual: consumable
-    cost: 150
-    desc: "<h1>Использование: Upgrade Courier</h1>Улучшает вашего обычного курьера
-      до летающего, позволяя ему пролетать над препятствиями и ускоряться, чтобы быстрее
-      переносить ваши предметы. <br><br>Требуется активированный обычный курьер."
-    notes: ''
-    attrib: ''
-    mc: false
-    cd: false
-    lore: Ваш верный слуга, чьи крылья несут заработанные в бою богатства.
-    components: 
-    created: false
   buckler:
     id: 86
     img: buckler_lg.png?3
@@ -1313,8 +1284,8 @@ itemdata:
       + <span class="attribVal">2</span> <span class="attribValText">ко всем атрибутам</span>
     mc: 10
     cd: 25
-    lore: Мощный щит, который напоминает владельцу о прошлых героях, носивших его.
-      Эта незамысловатая вещица способна защищать в бою целые армии.
+    lore: Этот мощный щит наделяет владельца силой ушедших героев и защищает в бою
+      целые армии.
     components:
     - chainmail
     - branches
@@ -1325,11 +1296,11 @@ itemdata:
     dname: Ring of Basilius
     qual: rare
     cost: 500
-    desc: "<h1>Пассивная: Basilius Aura</h1>Увеличивает восстановление маны на 0.65
+    desc: "<h1>Пассивная: Basilius Aura</h1>Увеличивает восстановление маны на 0.5
       и броню на 2 в радиусе 900.<br />\r\n<h1>Переключаемая аура</h1>Если выключить
       способность, аура будет действовать только на героев."
-    notes: Не сочетается с аурами Ring of Basilius, Ring of Aquila или Vladmir's Offering.<br
-      />Эффект от нескольких Basilius Aura не складывается.
+    notes: Не сочетается с аурами Ring of Basilius или Ring of Aquila.<br />Эффект
+      от нескольких Basilius Aura не складывается.
     attrib: + <span class="attribVal">7</span> <span class="attribValText">к урону</span>
     mc: false
     cd: false
@@ -1343,21 +1314,21 @@ itemdata:
     img: pipe_lg.png?3
     dname: Pipe of Insight
     qual: rare
-    cost: 3200
+    cost: 3150
     desc: "<h1>Активируемая: Barrier</h1>Создаёт на владельце и окружающих его союзниках
       барьер, блокирующий 400 магического урона. Действует 12 сек.<br><br>Радиус:
       900<br />\r\n<h1>Пассивная: Insight Aura</h1>Действует на союзников вокруг.
-      Увеличивает их восстановление здоровья на 4 и сопротивление магии на 10%.<br><br>Радиус:
+      Увеличивает их восстановление здоровья на 2 и сопротивление магии на 10%.<br><br>Радиус:
       900"
     notes: Эффект от нескольких Barrier не складывается.<br />Сочетается по закону
       убывающей полезности с другими источниками сопротивления магии.
     attrib: |-
-      + <span class="attribVal">8</span> <span class="attribValText">к регенерации здоровья</span><br />
+      + <span class="attribVal">6.5</span> <span class="attribValText">к регенерации здоровья</span><br />
       + <span class="attribVal">30%</span> <span class="attribValText">к сопротивлению магии</span>
     mc: 100
     cd: 60
-    lore: Могущественный артефакт таинственного происхождения. Он создает барьеры
-      против магических сил.
+    lore: Могущественный артефакт таинственного происхождения. Он создаёт барьеры,
+      защищающие от магических сил.
     components:
     - hood_of_defiance
     - headdress
@@ -1368,16 +1339,15 @@ itemdata:
     dname: Urn of Shadows
     qual: rare
     cost: 875
-    desc: "<h1>Активируемая: Soul Release</h1> Тратит один заряд и либо восстанавливает
-      выбранному союзнику 400 здоровья на протяжении 8 сек., либо наносит выбранному
-      противнику 150 чистого урона за 8 сек. <br><br>Лечебный эффект пропадает, если
-      получить урон от вражеского героя или башни. <br><br>Получает заряды каждый
-      раз, когда в радиусе 1400 умирает вражеский герой. Заряд получит только один,
-      ближайший к умершему герою предмет.<br><br>Дальность применения: 950"
+    desc: "<h1>Активируемая: Soul Release</h1>Эффект зависит от выбранной цели: либо
+      увеличивает восстановление здоровья союзника на 35, либо наносит противнику
+      25 урона в секунду. <br><br>Действует 8 сек.<br><br>Получает заряды каждый раз,
+      когда в радиусе 1400 умирает вражеский герой. Заряд получит только один, ближайший
+      к умершему герою предмет.<br><br>Дальность применения: 950"
     notes: Пустая урна получает 2 заряда.<br />Если применить на противника, на которого
       уже действует этот предмет, длительность эффекта обновится.
     attrib: |-
-      + <span class="attribVal">1</span> <span class="attribValText">к регенерации маны</span><br />
+      + <span class="attribVal">1</span> <span class="attribValText">к восстановлению маны</span><br />
       + <span class="attribVal">2</span> <span class="attribValText">ко всем атрибутам</span><br />
       + <span class="attribVal">2</span> <span class="attribValText">к броне</span>
     mc: false
@@ -1393,15 +1363,15 @@ itemdata:
     img: headdress_lg.png?3
     dname: Headdress
     qual: rare
-    cost: 675
+    cost: 650
     desc: "<h1>Пассивная: Regeneration Aura</h1> Увеличивает восстановление здоровья
-      союзников на 3.<br><br>Радиус: 900"
+      союзников на 2.<br><br>Радиус: 900"
     notes: Эффект от нескольких Regeneration Aura не складывается.
     attrib: + <span class="attribVal">2</span> <span class="attribValText">ко всем
       атрибутам</span>
     mc: false
     cd: false
-    lore: Создает успокаивающую ауру, которая восстанавливает здоровье соратников
+    lore: Создаёт успокаивающую ауру, которая восстанавливает здоровье соратников
       в бою.
     components:
     - ring_of_regen
@@ -1423,11 +1393,11 @@ itemdata:
       + <span class="attribVal">10</span> <span class="attribValText">к силе</span><br />
       + <span class="attribVal">10</span> <span class="attribValText">к ловкости</span><br />
       + <span class="attribVal">35</span> <span class="attribValText">к интеллекту</span><br />
-      + <span class="attribVal">150%</span> <span class="attribValText">к регенерации маны</span>
+      + <span class="attribVal">2.25</span> <span class="attribValText">к восстановлению маны</span>
     mc: 100
     cd: 22
-    lore: Наиболее охраняемая реликвия культа Вайз, этот артефакт — самое желанное
-      приобретение для любого мага.
+    lore: Эту реликвию, что находится под стражей культа Вайз, жаждет заполучить любой
+      маг.
     components:
     - mystic_staff
     - ultimate_orb
@@ -1447,10 +1417,10 @@ itemdata:
       + <span class="attribVal">25</span> <span class="attribValText">к интеллекту</span><br />
       + <span class="attribVal">30</span> <span class="attribValText">к скорости атаки</span><br />
       + <span class="attribVal">30</span> <span class="attribValText">к урону</span><br />
-      + <span class="attribVal">150%</span> <span class="attribValText">к регенерации маны</span>
+      + <span class="attribVal">2.25</span> <span class="attribValText">к восстановлению маны</span>
     mc: 100
     cd: 18
-    lore: В этом посохе, инкрустированном гранатами, заточена душа огненного демона.
+    lore: Гранатовый посох, выкованный из сущности огненного демона.
     components:
     - oblivion_staff
     - oblivion_staff
@@ -1472,11 +1442,11 @@ itemdata:
       + <span class="attribVal">25</span> <span class="attribValText">к интеллекту</span><br />
       + <span class="attribVal">30</span> <span class="attribValText">к скорости атаки</span><br />
       + <span class="attribVal">60</span> <span class="attribValText">к урону</span><br />
-      + <span class="attribVal">150%</span> <span class="attribValText">к регенерации маны</span>
+      + <span class="attribVal">2.25</span> <span class="attribValText">к восстановлению маны</span>
     mc: 100
     cd: 18
-    lore: Этот ненавистный клинок топит врага в агонии, впиваясь в тело извивающейся
-      жертвы всё сильнее и сильнее с каждым ее движением.
+    lore: Этот ненавистный клинок впивается в тело извивающейся жертвы сильнее с каждым
+      её предсмертным движением.
     components:
     - orchid
     - lesser_crit
@@ -1496,7 +1466,7 @@ itemdata:
       + <span class="attribVal">10</span> <span class="attribValText">к силе</span><br />
       + <span class="attribVal">10</span> <span class="attribValText">к скорости атаки</span><br />
       + <span class="attribVal">15</span> <span class="attribValText">к урону</span><br />
-      + <span class="attribVal">75%</span> <span class="attribValText">к регенерации маны</span>
+      + <span class="attribVal">0.75</span> <span class="attribValText">к восстановлению маны</span>
     mc: false
     cd: 5
     lore: Обманчиво быстрый клинок, полный магии звука.
@@ -1516,16 +1486,16 @@ itemdata:
       урона. <br><br>Дальность применения: 575<br>Тип развеивания: <span class="GameplayValues
       GameplayVariable">Нормальное</span>'
     notes: Нельзя применять на союзников.<br />Использование на себя проходит сквозь
-      невосприимчивость к заклинаниям.<br />Cyclone снимает некоторые положительные
-      и отрицательные эффекты.
+      невосприимчивость к магии.<br />Cyclone снимает некоторые положительные и отрицательные
+      эффекты.
     attrib: |-
       + <span class="attribVal">10</span> <span class="attribValText">к интеллекту</span><br />
-      + <span class="attribVal">150%</span> <span class="attribValText">к регенерации маны</span><br />
+      + <span class="attribVal">2.25</span> <span class="attribValText">к восстановлению маны</span><br />
       + <span class="attribVal">40</span> <span class="attribValText">к скорости передвижения</span>
     mc: 175
     cd: 23
-    lore: Мистический скипетр, прошедший сквозь века, позволяет призывать на помощь
-      силу ветра, которая может быть использована как с добрыми, так и плохими намерениями.
+    lore: Загадочный скипетр, прошедший сквозь века, позволяет творить своими непокорными
+      ветрами как добрые, так и злые дела.
     components:
     - staff_of_wizardry
     - void_stone
@@ -1538,16 +1508,14 @@ itemdata:
     qual: rare
     cost: 2350
     desc: "<h1>Пассивная: Aethereal Focus</h1> Увеличивает дальность применения способностей
-      и предметов на 220."
+      и предметов на 250."
     notes: Эффекты от пассивной способности не складываются.
     attrib: |-
-      + <span class="attribVal">250</span> <span class="attribValText">к мане</span><br />
-      + <span class="attribVal">100%</span> <span class="attribValText">к регенерации маны</span><br />
-      + <span class="attribVal">6%</span> <span class="attribValText">к урону от способностей</span>
+      + <span class="attribVal">450</span> <span class="attribValText">к мане</span><br />
+      + <span class="attribVal">1.25%</span> <span class="attribValText">к восстановлению маны</span>
     mc: false
     cd: false
-    lore: Подарок бледному сыну умирающего мага, отполированный заклинанием в его
-      последнем вздохе.
+    lore: Подарок хворому сыну, наделённый силой последнего вздоха умирающего мага.
     components:
     - energy_booster
     - void_stone
@@ -1559,15 +1527,15 @@ itemdata:
     qual: rare
     cost: 2250
     desc: "<h1>Активируемая: Force</h1> Толкает выбранное существо в направлении его
-      взгляда на расстояние в 600.<br><br>Дальность применения: 800"
+      взгляда на расстояние в 600.<br><br>Дальность применения: 750"
     notes: Можно применить на себя.<br />Не прерывает действия цели.<br />Не работает
       на существ под воздействием способностей Chronosphere, Duel или Black Hole.
     attrib: |-
       + <span class="attribVal">10</span> <span class="attribValText">к интеллекту</span><br />
-      + <span class="attribVal">6</span> <span class="attribValText">к регенерации здоровья</span>
+      + <span class="attribVal">5</span> <span class="attribValText">к регенерации здоровья</span>
     mc: 25
-    cd: 20
-    lore: "Позволяет вам манипулировать другими ради добра или зла.\r\n"
+    cd: 23
+    lore: Позволяет вам манипулировать другими во благо или во зло.
     components:
     - staff_of_wizardry
     - ring_of_health
@@ -1577,7 +1545,7 @@ itemdata:
     img: hurricane_pike_lg.png?3
     dname: Hurricane Pike
     qual: epic
-    cost: 4650
+    cost: 4615
     desc: "<h1>Активируемая: Hurricane Thrust</h1> Отталкивает вражескую цель и владельца
       друг от друга на расстояние в 450 единиц. Если владелец сражается в дальнем
       бою, то после этого он следующие 5 секунд может совершить до 4 атак по цели
@@ -1588,15 +1556,16 @@ itemdata:
     notes: Можно применить на себя.<br />Не прерывает действия цели.<br />Не работает
       на существ под воздействием способностей Chronosphere, Duel или Black Hole.
     attrib: |-
-      + <span class="attribVal">10</span> <span class="attribValText">к интеллекту</span><br />
-      + <span class="attribVal">6</span> <span class="attribValText">к регенерации здоровья</span><br />
+      + <span class="attribVal">13</span> <span class="attribValText">к интеллекту</span><br />
+      + <span class="attribVal">5.5</span> <span class="attribValText">к регенерации здоровья</span><br />
       + <span class="attribVal">20</span> <span class="attribValText">к ловкости</span><br />
       + <span class="attribVal">15</span> <span class="attribValText">к силе</span>
     mc: 25
-    cd: 15
+    cd: 23
     lore: Легендарная пика, в далеком прошлом служившая монаршим символом наездников
       на вивернах.
     components:
+    - wraith_band
     - force_staff
     - dragon_lance
     created: true
@@ -1605,19 +1574,18 @@ itemdata:
     img: dagon_lg.png?3
     dname: Dagon
     qual: rare
-    cost: 2720
+    cost: 2715
     desc: "<h1>Активируемая: Energy Burst</h1> Выпускает мощный всплеск энергии, наносящий
       магический урон выбранному вражескому существу. Предмет можно улучшить.<br><br>Урон:
       400<br>Дальность: 600<br>Расход маны: 180"
     notes: Мгновенно убивает иллюзии.
     attrib: |-
-      + <span class="attribVal">13</span>/16/19/22/25 <span class="attribValText">к интеллекту</span><br />
-      + <span class="attribVal"><span class="attribVal">3</span></span> <span class="attribValText">ко всем атрибутам</span><br />
-      + <span class="attribVal"><span class="attribVal">9</span></span> <span class="attribValText">к урону</span>
+      + <span class="attribVal">15</span>/18/21/24/27 <span class="attribValText">к интеллекту</span><br />
+      + <span class="attribVal"><span class="attribVal">3</span></span> <span class="attribValText">ко всем атрибутам</span>
     mc: 180
     cd: 35
-    lore: Волшебная палочка, которая становится тем сильнее, чем дольше она используется.
-      Позволяет магу срывать с кончиков пальцев волшебный заряд.
+    lore: Волшебная палочка, которая со временем становится лишь сильнее, наделяет
+      владельца магией на кончиках пальцев.
     components:
     - staff_of_wizardry
     - null_talisman
@@ -1627,19 +1595,18 @@ itemdata:
     img: dagon_2_lg.png?3
     dname: Dagon
     qual: rare
-    cost: 3970
+    cost: 3965
     desc: "<h1>Активируемая: Energy Burst</h1> Выпускает мощный всплеск энергии, наносящий
       магический урон выбранному вражескому существу. Предмет можно улучшить.<br><br>Урон:
       400<br>Дальность: 600<br>Расход маны: 180"
     notes: Мгновенно убивает иллюзии.
     attrib: |-
-      + 13/<span class="attribVal">16</span>/19/22/25 <span class="attribValText">к интеллекту</span><br />
-      + <span class="attribVal">3</span> <span class="attribValText">ко всем атрибутам</span><br />
-      + <span class="attribVal">9</span> <span class="attribValText">к урону</span>
+      + 15/<span class="attribVal">18</span>/21/24/27 <span class="attribValText">к интеллекту</span><br />
+      + <span class="attribVal">3</span> <span class="attribValText">ко всем атрибутам</span>
     mc: 180
     cd: 35
-    lore: Волшебная палочка, которая становится тем сильнее, чем дольше она используется.
-      Позволяет магу срывать с кончиков пальцев волшебный заряд.
+    lore: Волшебная палочка, которая со временем становится лишь сильнее, наделяет
+      владельца магией на кончиках пальцев.
     components:
     - dagon
     - recipe_dagon
@@ -1649,19 +1616,18 @@ itemdata:
     img: dagon_3_lg.png?3
     dname: Dagon
     qual: rare
-    cost: 5220
+    cost: 5215
     desc: "<h1>Активируемая: Energy Burst</h1> Выпускает мощный всплеск энергии, наносящий
       магический урон выбранному вражескому существу. Предмет можно улучшить.<br><br>Урон:
       400<br>Дальность: 600<br>Расход маны: 180"
     notes: Мгновенно убивает иллюзии.
     attrib: |-
-      + 13/16/<span class="attribVal">19</span>/22/25 <span class="attribValText">к интеллекту</span><br />
-      + <span class="attribVal">3</span> <span class="attribValText">ко всем атрибутам</span><br />
-      + <span class="attribVal">9</span> <span class="attribValText">к урону</span>
+      + 15/18/<span class="attribVal">21</span>/24/27 <span class="attribValText">к интеллекту</span><br />
+      + <span class="attribVal">3</span> <span class="attribValText">ко всем атрибутам</span>
     mc: 180
     cd: 35
-    lore: Волшебная палочка, которая становится тем сильнее, чем дольше она используется.
-      Позволяет магу срывать с кончиков пальцев волшебный заряд.
+    lore: Волшебная палочка, которая со временем становится лишь сильнее, наделяет
+      владельца магией на кончиках пальцев.
     components:
     - dagon_2
     - recipe_dagon
@@ -1671,19 +1637,18 @@ itemdata:
     img: dagon_4_lg.png?3
     dname: Dagon
     qual: rare
-    cost: 6470
+    cost: 6465
     desc: "<h1>Активируемая: Energy Burst</h1> Выпускает мощный всплеск энергии, наносящий
       магический урон выбранному вражескому существу. Предмет можно улучшить.<br><br>Урон:
       400<br>Дальность: 600<br>Расход маны: 180"
     notes: Мгновенно убивает иллюзии.
     attrib: |-
-      + 13/16/19/<span class="attribVal">22</span>/25 <span class="attribValText">к интеллекту</span><br />
-      + <span class="attribVal">3</span> <span class="attribValText">ко всем атрибутам</span><br />
-      + <span class="attribVal">9</span> <span class="attribValText">к урону</span>
+      + 15/18/21/<span class="attribVal">24</span>/27 <span class="attribValText">к интеллекту</span><br />
+      + <span class="attribVal">3</span> <span class="attribValText">ко всем атрибутам</span>
     mc: 180
     cd: 35
-    lore: Волшебная палочка, которая становится тем сильнее, чем дольше она используется.
-      Позволяет магу срывать с кончиков пальцев волшебный заряд.
+    lore: Волшебная палочка, которая со временем становится лишь сильнее, наделяет
+      владельца магией на кончиках пальцев.
     components:
     - dagon_3
     - recipe_dagon
@@ -1693,19 +1658,18 @@ itemdata:
     img: dagon_5_lg.png?3
     dname: Dagon
     qual: rare
-    cost: 7720
+    cost: 7715
     desc: "<h1>Активируемая: Energy Burst</h1> Выпускает мощный всплеск энергии, наносящий
       магический урон выбранному вражескому существу.<br><br>Урон: 400<br>Дальность:
       600<br>Расход маны: 180"
     notes: Мгновенно убивает иллюзии.
     attrib: |-
-      + 13/16/19/22/<span class="attribVal">25</span> <span class="attribValText">к интеллекту</span><br />
-      + <span class="attribVal">3</span> <span class="attribValText">ко всем атрибутам</span><br />
-      + <span class="attribVal">9</span> <span class="attribValText">к урону</span>
+      + 15/18/21/24/<span class="attribVal">27</span> <span class="attribValText">к интеллекту</span><br />
+      + <span class="attribVal">3</span> <span class="attribValText">ко всем атрибутам</span>
     mc: 180
     cd: 35
-    lore: Волшебная палочка, которая становится тем сильнее, чем дольше она используется.
-      Позволяет магу срывать с кончиков пальцев волшебный заряд.
+    lore: Волшебная палочка, которая со временем становится лишь сильнее, наделяет
+      владельца магией на кончиках пальцев.
     components:
     - dagon_4
     - recipe_dagon
@@ -1715,25 +1679,26 @@ itemdata:
     img: necronomicon_lg.png?3
     dname: Necronomicon
     qual: rare
-    cost: 2650
+    cost: 2400
     desc: "<h1>Активируемая: Demonic Summoning</h1>Призывает на 50 сек. подконтрольных
       вам воина и лучника.<br><br><h1>Воин:</h1>Каждой атакой сжигает ману цели и
       наносит магический урон тому, кто его убьёт. На третьем уровне получает эффект
       True Sight, раскрывающий невидимость.<br>Здоровье: 700<br>Урон: 75<br>Сжигает
-      маны: 20<br>Урон при смерти: 550<br><br><h1>Лучник:</h1>Имеет активируемую способность,
-      сжигающую ману цели, и ауру, увеличивающую скорость атаки и передвижения союзников.<br>Здоровье:
-      700<br>Урон: 60<br>Сжигает маны: 125<br>Доп. скорость передвижения: 5<br>Доп.
-      скорость атаки: 5<br>Радиус ауры: 900"
+      маны: 30<br>Урон при смерти: 550<br><br><h1>Лучник:</h1>Имеет ауру, увеличивающую
+      скорость атаки и передвижения союзников. На третьем уровне получает способность,
+      развеивающую положительные эффекты противника.<br>Здоровье: 700<br>Урон: 60<br>Доп.
+      скорость передвижения: 5<br>Доп. скорость атаки: 5<br>Радиус ауры: 900"
     notes: ''
     attrib: |-
-      + <span class="attribVal">15</span>/21/24 <span class="attribValText">к интеллекту</span><br />
-      + <span class="attribVal">8</span>/12/16 <span class="attribValText">к силе</span>
+      + <span class="attribVal">10</span>/15/20 <span class="attribValText">к силе</span><br />
+      + <span class="attribVal">1</span>/1.25/1.5 <span class="attribValText">к восстановлению маны</span>
     mc: 50
     cd: 90
     lore: Наиболее полный свод знаний о некромантии и демонологии, скрывающий на своих
-      страницах мощную темную магию.
+      страницах мощную тёмную магию.
     components:
-    - staff_of_wizardry
+    - sobi_mask
+    - sobi_mask
     - belt_of_strength
     created: true
   necronomicon_2:
@@ -1741,23 +1706,23 @@ itemdata:
     img: necronomicon_2_lg.png?3
     dname: Necronomicon
     qual: rare
-    cost: 3850
+    cost: 3700
     desc: "<h1>Активируемая: Demonic Summoning</h1>Призывает на 50 сек. подконтрольных
       вам воина и лучника.<br><br><h1>Воин:</h1>Каждой атакой сжигает ману цели и
       наносит магический урон тому, кто его убьёт. На третьем уровне получает эффект
       True Sight, раскрывающий невидимость.<br>Здоровье: 700<br>Урон: 75<br>Сжигает
-      маны: 20<br>Урон при смерти: 550<br><br><h1>Лучник:</h1>Имеет активируемую способность,
-      сжигающую ману цели, и ауру, увеличивающую скорость атаки и передвижения союзников.<br>Здоровье:
-      700<br>Урон: 60<br>Сжигает маны: 125<br>Доп. скорость передвижения: 5<br>Доп.
-      скорость атаки: 5<br>Радиус ауры: 900"
+      маны: 30<br>Урон при смерти: 550<br><br><h1>Лучник:</h1>Имеет ауру, увеличивающую
+      скорость атаки и передвижения союзников. На третьем уровне получает способность,
+      развеивающую положительные эффекты противника.<br>Здоровье: 700<br>Урон: 60<br>Доп.
+      скорость передвижения: 5<br>Доп. скорость атаки: 5<br>Радиус ауры: 900"
     notes: ''
     attrib: |-
-      + 15/<span class="attribVal">21</span>/24 <span class="attribValText">к интеллекту</span><br />
-      + 8/<span class="attribVal">12</span>/16 <span class="attribValText">к силе</span>
+      + 10/<span class="attribVal">15</span>/20 <span class="attribValText">к силе</span><br />
+      + 1/<span class="attribVal">1.25</span>/1.5 <span class="attribValText">к восстановлению маны</span>
     mc: 50
     cd: 90
     lore: Наиболее полный свод знаний о некромантии и демонологии, скрывающий на своих
-      страницах мощную темную магию.
+      страницах мощную тёмную магию.
     components:
     - necronomicon
     - recipe_necronomicon
@@ -1767,23 +1732,23 @@ itemdata:
     img: necronomicon_3_lg.png?3
     dname: Necronomicon
     qual: rare
-    cost: 5050
+    cost: 5000
     desc: "<h1>Активируемая: Demonic Summoning</h1>Призывает на 50 сек. подконтрольных
       вам воина и лучника.<br><br><h1>Воин:</h1>Каждой атакой сжигает ману цели и
       наносит магический урон тому, кто его убьёт. На третьем уровне получает эффект
       True Sight, раскрывающий невидимость.<br>Здоровье: 700<br>Урон: 75<br>Сжигает
-      маны: 20<br>Урон при смерти: 550<br><br><h1>Лучник:</h1>Имеет активируемую способность,
-      сжигающую ману цели, и ауру, увеличивающую скорость атаки и передвижения союзников.<br>Здоровье:
-      700<br>Урон: 60<br>Сжигает маны: 125<br>Доп. скорость передвижения: 5<br>Доп.
-      скорость атаки: 5<br>Радиус ауры: 900"
+      маны: 30<br>Урон при смерти: 550<br><br><h1>Лучник:</h1>Имеет ауру, увеличивающую
+      скорость атаки и передвижения союзников. На третьем уровне получает способность,
+      развеивающую положительные эффекты противника.<br>Здоровье: 700<br>Урон: 60<br>Доп.
+      скорость передвижения: 5<br>Доп. скорость атаки: 5<br>Радиус ауры: 900"
     notes: ''
     attrib: |-
-      + 15/21/<span class="attribVal">24</span> <span class="attribValText">к интеллекту</span><br />
-      + 8/12/<span class="attribVal">16</span> <span class="attribValText">к силе</span>
+      + 10/15/<span class="attribVal">20</span> <span class="attribValText">к силе</span><br />
+      + 1/1.25/<span class="attribVal">1.5</span> <span class="attribValText">к восстановлению маны</span>
     mc: 50
     cd: 90
     lore: Наиболее полный свод знаний о некромантии и демонологии, скрывающий на своих
-      страницах мощную темную магию.
+      страницах мощную тёмную магию.
     components:
     - necronomicon_2
     - recipe_necronomicon
@@ -1803,7 +1768,7 @@ itemdata:
       + <span class="attribVal">175</span> <span class="attribValText">к мане</span>
     mc: false
     cd: false
-    lore: Скипетр колдуна, наделенный силами, присущими полубогам.
+    lore: Скипетр колдуна, мощью сходного с полубогами.
     components:
     - point_booster
     - staff_of_wizardry
@@ -1820,9 +1785,8 @@ itemdata:
       ваших предметов и способностей."
     notes: ''
     attrib: |-
-      + <span class="attribVal">12</span> <span class="attribValText">к регенерации здоровья</span><br />
-      + <span class="attribVal">250%</span> <span class="attribValText">к регенерации маны</span><br />
-      + <span class="attribVal">20</span> <span class="attribValText">к урону</span>
+      + <span class="attribVal">11</span> <span class="attribValText">к регенерации здоровья</span><br />
+      + <span class="attribVal">3</span> <span class="attribValText">к восстановлению маны</span>
     mc: 375
     cd: 195
     lore: Могущественный артефакт, созданный для магов.
@@ -1845,8 +1809,8 @@ itemdata:
       + <span class="attribVal">10</span> <span class="attribValText">к броне</span>
     mc: false
     cd: false
-    lore: Выкованная в кузнях преисподней, эта адская броня обеспечивает владельцу
-      и его союзникам дополнительную броню и скорость атаки.
+    lore: Этот жуткий доспех, выкованный в кузнях нижних пределов, способен укрепить
+      и ускорить целую армию.
     components:
     - platemail
     - hyperstone
@@ -1868,8 +1832,7 @@ itemdata:
       + <span class="attribVal">500</span> <span class="attribValText">к здоровью</span>
     mc: false
     cd: 7
-    lore: Сохранившееся сердце вымершего монстра, с которым его владелец становится
-      мужественнее.
+    lore: Сохранившееся сердце вымершего монстра, которое укрепляет стойкость владельца.
     components:
     - reaver
     - vitality_booster
@@ -1881,18 +1844,17 @@ itemdata:
     dname: Black King Bar
     qual: epic
     cost: 3975
-    desc: '<h1>Активируемая: Avatar</h1> Даёт невосприимчивость к заклинаниям и полное
-      сопротивление магическому урону. Длительность и время перезарядки уменьшаются
-      с каждым использованием.<br><br>Длительность: 10<br>Тип развеивания: <span class="GameplayValues
-      GameplayVariable">Нормальное</span>'
+    desc: '<h1>Активируемая: Avatar</h1> Даёт невосприимчивость к магии и полное сопротивление
+      магическому урону. Длительность и время перезарядки уменьшаются с каждым использованием.<br><br>Длительность:
+      10<br>Тип развеивания: <span class="GameplayValues GameplayVariable">Нормальное</span>'
     notes: Покупка другого Black King Bar не обновит время его действия.<br />Использование
       Black King Bar снимает некоторые положительные эффекты.
     attrib: |-
       + <span class="attribVal">10</span> <span class="attribValText">к силе</span><br />
       + <span class="attribVal">24</span> <span class="attribValText">к урону</span>
     mc: false
-    cd: 80
-    lore: Мощный посох, наделенный силой гигантов.
+    cd: 70
+    lore: Мощный посох, наделённый силой гигантов.
     components:
     - ogre_axe
     - mithril_hammer
@@ -1911,7 +1873,7 @@ itemdata:
     attrib: ''
     mc: false
     cd: false
-    lore: Легенды гласят, что Бессмертный владел щитом, защищавшим его от самой смерти.
+    lore: Говорят, Бессмертный владел щитом, защищавшим его от самой смерти.
     components: 
     created: false
   shivas_guard:
@@ -1932,8 +1894,8 @@ itemdata:
       + <span class="attribVal">15</span> <span class="attribValText">к броне</span>
     mc: 100
     cd: 30
-    lore: Артефакт, раньше принадлежавший богине, до сих пор сохранил часть былого
-      могущества.
+    lore: Говорят, когда-то этот артефакт принадлежал богине, и он не теряет былого
+      могущества по сей день.
     components:
     - platemail
     - mystic_staff
@@ -1943,26 +1905,25 @@ itemdata:
     img: bloodstone_lg.png?3
     dname: Bloodstone
     qual: epic
-    cost: 4850
+    cost: 4900
     desc: "<h1>Активируемая: Pocket Deny</h1>Мгновенно убивает героя.<br><br>Для использования
       нужно указать место смерти. Способность нельзя применить на себя.<br />\r\n<h1>Пассивная:
-      Bloodpact</h1>Изначально имеет 12 зарядов. Получает заряд каждый раз, когда
+      Bloodpact</h1>Изначально имеет 14 зарядов. Получает заряд каждый раз, когда
       в радиусе 1600 умирает вражеский герой. <br><br>Каждый заряд увеличивает восстановление
-      маны на 1 и уменьшает время возрождения на 3 сек. <br><br>При смерти владельца
-      предмет излечивает союзников вокруг на 500 здоровья + 30 здоровья за каждый
-      заряд, а также теряет треть зарядов. <br><br>Радиус лечения: 1675"
+      маны на 0.35 и уменьшает время возрождения на 3 сек. <br><br>При смерти владельца
+      предмет теряет треть зарядов."
     notes: Если у героя несколько Bloodstone, заряды будет получать только первый.
     attrib: |-
       + <span class="attribVal">475</span> <span class="attribValText">к здоровью</span><br />
       + <span class="attribVal">425</span> <span class="attribValText">к мане</span><br />
-      + <span class="attribVal">9</span> <span class="attribValText">к регенерации здоровья</span><br />
-      + <span class="attribVal">200%</span> <span class="attribValText">к регенерации маны</span>
+      + <span class="attribVal">7</span> <span class="attribValText">к регенерации здоровья</span><br />
+      + <span class="attribVal">2</span> <span class="attribValText">к восстановлению маны</span>
     mc: false
     cd: 300
-    lore: Ярко-рубиновый цвет Bloodstone ни с чем не спутать. Похоже, владелец этого
-      артефакта способен иметь безграничные жизненные и духовные силы.
+    lore: 'Багрянец этого камня легко приметить даже в разгаре битвы: он будто бы
+      наделяет владельца безграничными жизненными и духовными силами.'
     components:
-    - soul_ring
+    - pers
     - soul_booster
     created: true
   sphere:
@@ -1970,7 +1931,7 @@ itemdata:
     img: sphere_lg.png?3
     dname: Linken's Sphere
     qual: epic
-    cost: 4850
+    cost: 5050
     desc: "<h1>Пассивная: Spellblock</h1> Блокирует одну направленную способность
       каждые 13 сек. Некоторые способности не блокируются.<br />\r\n<h1>Активируемая:
       Transfer Spellblock</h1> Временно отключает пассивную способность предмета,
@@ -1978,12 +1939,11 @@ itemdata:
     notes: ''
     attrib: |-
       + <span class="attribVal">15</span> <span class="attribValText">ко всем атрибутам</span><br />
-      + <span class="attribVal">6</span> <span class="attribValText">к регенерации здоровья</span><br />
-      + <span class="attribVal">150%</span> <span class="attribValText">к регенерации маны</span><br />
-      + <span class="attribVal">15</span> <span class="attribValText">к урону</span>
+      + <span class="attribVal">5.5</span> <span class="attribValText">к регенерации здоровья</span><br />
+      + <span class="attribVal">2.25</span> <span class="attribValText">к восстановлению маны</span>
     mc: false
     cd: 13
-    lore: Эта магическая сфера однажды защитила одного из самых знаменитых героев
+    lore: Некогда эта магическая сфера защитила одного из самых знаменитых героев
       в истории.
     components:
     - ultimate_orb
@@ -2001,18 +1961,182 @@ itemdata:
       <span class="GameplayValues GameplayVariable">Нормальное</span>'
     notes: ''
     attrib: |-
-      + <span class="attribVal">10</span> <span class="attribValText">к урону</span><br />
       + <span class="attribVal">10</span> <span class="attribValText">к броне</span><br />
-      + <span class="attribVal">6</span> <span class="attribValText">к регенерации здоровья</span><br />
-      + <span class="attribVal">125%</span> <span class="attribValText">к регенерации маны</span><br />
+      + <span class="attribVal">5.5</span> <span class="attribValText">к регенерации здоровья</span><br />
+      + <span class="attribVal">1.75</span> <span class="attribValText">к восстановлению маны</span><br />
       + <span class="attribVal">250</span> <span class="attribValText">к мане</span>
     mc: 75
     cd: 15
-    lore: Бриллиант в центре всё еще несет блеклое отражение своего создателя.
+    lore: Бриллиант в центре всё еще несёт блёклое отражение своего создателя.
     components:
     - pers
     - platemail
     - energy_booster
+    created: true
+  meteor_hammer:
+    id: 223
+    img: meteor_hammer_lg.png?3
+    dname: Meteor Hammer
+    qual: epic
+    cost: 2625
+    desc: "<h1>Активируемая: Meteor Hammer</h1> ПРЕРЫВАЕМАЯ — призывает метеорит,
+      который после небольшой задержки бьёт по области радиусом 300. Удар наносит
+      урон вражеским существам и постройкам, оглушает их на 2 сек. и поджигает, нанося
+      периодический урон в течение 6 сек.<BR><BR>Урон постройкам при ударе: 75 <BR>Периодический
+      урон постройкам: 50 <BR><BR>Урон существам при ударе: 150 <BR>Периодический
+      урон существам: 90 <BR><BR>Время применения: 2.5 сек.<BR>Задержка после применения:
+      0.5 сек."
+    notes: ''
+    attrib: |-
+      + <span class="attribVal">12</span> <span class="attribValText">к силе</span><br />
+      + <span class="attribVal">12</span> <span class="attribValText">к интеллекту</span><br />
+      + <span class="attribVal">4</span> <span class="attribValText">к регенерации здоровья</span><br />
+      + <span class="attribVal">1.5</span> <span class="attribValText">к восстановлению маны</span>
+    mc: 125
+    cd: 28
+    lore: Этот зачарованный молот сковали из металла, который обнаружили в руинах
+      деревни, уничтоженной великим звездопадом.
+    components:
+    - ogre_axe
+    - staff_of_wizardry
+    - ring_of_regen
+    - sobi_mask
+    created: true
+  nullifier:
+    id: 225
+    img: nullifier_lg.png?3
+    dname: Nullifier
+    qual: epic
+    cost: 4700
+    desc: "<h1>Активируемая: Nullify</h1> Развеивает положительные эффекты на цели,
+      а также запрещает ей использовать предметы на 5 сек. Любая атака по цели замедлит
+      её на 100%. Длительность замедления: 0.4 сек."
+    notes: ''
+    attrib: |-
+      + <span class="attribVal">65</span> <span class="attribValText">к урону</span><br />
+      + <span class="attribVal">5</span> <span class="attribValText">к броне</span><br />
+      + <span class="attribVal">5</span> <span class="attribValText">к регенерации здоровья</span>
+    mc: 75
+    cd: 13
+    lore: Опасное оружие, выкраденное из обратного измерения.
+    components:
+    - relic
+    - helm_of_iron_will
+    created: true
+  aeon_disk:
+    id: 256
+    img: aeon_disk_lg.png?3
+    dname: Aeon Disk
+    qual: epic
+    cost: 3350
+    desc: "<h1>Passive: Combo Breaker</h1> When you take damage and your health falls
+      below 70%, a strong dispel is applied and you gain a 2.5 second buff that causes
+      all damage you deal and are dealt to be reduced to zero. Only triggers on player
+      based damage. <br />\r\n<br />\r\n<h1>Passive: Status Resistance</h1> Reduces
+      status effect durations by 25%. "
+    notes: ''
+    attrib: |-
+      + <span class="attribVal">250</span> <span class="attribValText">к здоровью</span><br />
+      + <span class="attribVal">250</span> <span class="attribValText">к мане</span>
+    mc: false
+    cd: 90
+    lore: A powerful artifact long ago smuggled out of the Ivory Incubarium. Or so
+      many believe.
+    components:
+    - vitality_booster
+    - energy_booster
+    created: true
+  kaya:
+    id: 259
+    img: kaya_lg.png?3
+    dname: Kaya
+    qual: epic
+    cost: 1950
+    desc: ''
+    notes: Multiple instances of this item do not stack.
+    attrib: |-
+      + <span class="attribVal">16</span> <span class="attribValText">к интеллекту</span><br />
+      +Spell Amplification <span class="attribVal">10%</span><br />
+      +Manacost and Manaloss Reduction <span class="attribVal">10%</span>
+    mc: false
+    cd: false
+    lore: The staff of a renowned sorceress, lost for countless millennia.
+    components:
+    - staff_of_wizardry
+    - robe
+    created: true
+  trident:
+    id: 275
+    img: trident_lg.png?3
+    dname: DOTA_Tooltip_Ability_item_trident
+    qual: false
+    cost: 
+    desc: ''
+    notes: ''
+    attrib: ''
+    mc: false
+    cd: false
+    lore: ''
+    components: 
+    created: false
+  combo_breaker:
+    id: 276
+    img: combo_breaker_lg.png?3
+    dname: DOTA_Tooltip_Ability_item_combo_breaker
+    qual: false
+    cost: 
+    desc: ''
+    notes: ''
+    attrib: ''
+    mc: false
+    cd: false
+    lore: ''
+    components: 
+    created: false
+  refresher_shard:
+    id: 260
+    img: refresher_shard_lg.png?3
+    dname: Refresher Shard
+    qual: consumable
+    cost: 1000
+    desc: "<h1>Использование: Reset Cooldowns</h1>Сбрасывает время перезарядки всех
+      ваших предметов и способностей."
+    notes: Можно передавать союзникам.
+    attrib: ''
+    mc: false
+    cd: 200
+    lore: В эпоху нескончаемой битвы воля Бессмертного к победе не угасала ни на миг.
+    components: 
+    created: false
+  spirit_vessel:
+    id: 267
+    img: spirit_vessel_lg.png?3
+    dname: Spirit Vessel
+    qual: rare
+    cost: 2975
+    desc: "<h1>Активируемая: Soul Release</h1>Эффект зависит от выбранной цели. Если
+      применить на противника, то он будет терять 3% от своего текущего запаса здоровья,
+      а также получать на 70% меньше здоровья от любого лечения. Помимо этого, способность
+      наносит 20 урона в секунду. <br><br>Если применить на союзника, то он будет
+      восстанавливать 1% от своего текущего запаса здоровья, а также получать на 20%
+      больше здоровья от любого лечения. Помимо этого, увеличивает восстановление
+      здоровья на 35 в секунду. <br><br>Действует 8 сек.<br><br>Получает заряды каждый
+      раз, когда в радиусе 1400 умирает вражеский герой. Заряд получит только один,
+      ближайший к умершему герою предмет.<br><br>Дальность применения: 950"
+    notes: ''
+    attrib: |-
+      + <span class="attribVal">250</span> <span class="attribValText">к здоровью</span><br />
+      + <span class="attribVal">30</span> <span class="attribValText">к скорости передвижения</span><br />
+      + <span class="attribVal">1</span> <span class="attribValText">к восстановлению маны</span><br />
+      + <span class="attribVal">2</span> <span class="attribValText">ко всем атрибутам</span><br />
+      + <span class="attribVal">2</span> <span class="attribValText">к броне</span>
+    mc: false
+    cd: 7
+    lore: Сотворена богом, желавшим изловить души остальных.
+    components:
+    - urn_of_shadows
+    - vitality_booster
+    - wind_lace
     created: true
   vanguard:
     id: 125
@@ -2020,13 +2144,13 @@ itemdata:
     dname: Vanguard
     qual: epic
     cost: 2150
-    desc: "<h1>Пассивная: Damage Block</h1>С вероятностью в 50% блокирует %damage_block_melee%
-      урона от атак, если владелец — герой ближнего боя, или %damage_block_ranged%
-      урона, если герой дальнего боя."
+    desc: "<h1>Пассивная: Damage Block</h1>С вероятностью в 50% блокирует 70 урона
+      от атак, если владелец — герой ближнего боя, или 35 урона, если герой дальнего
+      боя."
     notes: Блокировка урона от нескольких источников не сочетается.
     attrib: |-
       + <span class="attribVal">250</span> <span class="attribValText">к здоровью</span><br />
-      + <span class="attribVal">8</span> <span class="attribValText">к регенерации здоровья</span>
+      + <span class="attribVal">5.5</span> <span class="attribValText">к регенерации здоровья</span>
     mc: false
     cd: false
     lore: Мощный щит, защищающий своего хозяина даже от самых яростных атак.
@@ -2050,12 +2174,12 @@ itemdata:
     notes: Блокировка урона от нескольких источников не сочетается.
     attrib: |-
       + <span class="attribVal">250</span> <span class="attribValText">к здоровью</span><br />
-      + <span class="attribVal">8</span> <span class="attribValText">к регенерации здоровья</span><br />
+      + <span class="attribVal">6</span> <span class="attribValText">к регенерации здоровья</span><br />
       + <span class="attribVal">2</span> <span class="attribValText">ко всем атрибутам</span><br />
       + <span class="attribVal">5</span> <span class="attribValText">к броне</span>
     mc: false
     cd: 46
-    lore: Кираса, изначально выкованная, чтобы защищать от ужасающего Годня.
+    lore: Кираса, изначально выкованная для защиты от ужасающего Годня.
     components:
     - vanguard
     - buckler
@@ -2070,15 +2194,15 @@ itemdata:
       его врагу. Длится 4.5 сек."
     notes: Урон возвращается в изначальном количестве, до его уменьшения.<br />Не
       отражает урон от других Blademail и схожих способностей.<br />Возвращаемый урон
-      имеет тот же тип, что и полученный.<br />Если нанесенный владельцу урон проходит
-      сквозь невосприимчивость к заклинаниям, то проходит и отраженный.
+      имеет тот же тип, что и полученный.<br />Если нанесённый урон проходит сквозь
+      невосприимчивость к магии, то проходит и отражённый.
     attrib: |-
       + <span class="attribVal">22</span> <span class="attribValText">к урону</span><br />
       + <span class="attribVal">6</span> <span class="attribValText">к броне</span><br />
       + <span class="attribVal">10</span> <span class="attribValText">к интеллекту</span>
     mc: 25
     cd: 20
-    lore: Острая, как лезвие бритвы, кольчуга. Выбор самоотверженных мучеников.
+    lore: Острая, как лезвие бритвы, кольчуга — выбор самоотверженных мучеников.
     components:
     - broadsword
     - chainmail
@@ -2097,7 +2221,7 @@ itemdata:
       + <span class="attribVal">425</span> <span class="attribValText">к мане</span>
     mc: false
     cd: false
-    lore: Возвращает былую отвагу.
+    lore: Возвращает потерянную отвагу.
     components:
     - vitality_booster
     - energy_booster
@@ -2108,18 +2232,18 @@ itemdata:
     img: hood_of_defiance_lg.png?3
     dname: Hood of Defiance
     qual: epic
-    cost: 1725
+    cost: 1700
     desc: "<h1>Активируемая: Shield</h1> Создаёт щит, блокирующий до 325 магического
       урона. Действует 12 сек."
     notes: Сочетается по закону убывающей полезности с другими источниками сопротивления
       магии.
     attrib: |-
-      + <span class="attribVal">8</span> <span class="attribValText">к регенерации здоровья</span><br />
+      + <span class="attribVal">6.5</span> <span class="attribValText">к регенерации здоровья</span><br />
       + <span class="attribVal">25%</span> <span class="attribValText">к сопротивлению магии</span>
     mc: 75
     cd: 60
-    lore: Покрытый мехом головной убор, который ограждает владельца от разрушительного
-      воздействия магии.
+    lore: Этот подбитый мехом капюшон защищает от магии, поэтому его сторонится любой
+      колдун.
     components:
     - ring_of_health
     - cloak
@@ -2142,7 +2266,7 @@ itemdata:
     attrib: + <span class="attribVal">330</span> <span class="attribValText">к урону</span>
     mc: false
     cd: false
-    lore: Настолько могущественное, что у него даже не может быть единственного владельца.
+    lore: Такому могущественному оружию недостаточно одного владельца.
     components:
     - relic
     - demon_edge
@@ -2152,17 +2276,17 @@ itemdata:
     img: monkey_king_bar_lg.png?3
     dname: Monkey King Bar
     qual: epic
-    cost: 5200
-    desc: "<h1>Пассивная: Mini-Bash</h1> Каждая атака может с вероятностью в 35% нанести
-      160 дополнительного урона и ненадолго оглушить цель.<br />\r\n<h1>Пассивная:
-      True Strike</h1> Атаки владельца бьют без промаха."
-    notes: Не исключает шанс промаха по вражеским постройкам.
-    attrib: + <span class="attribVal">66</span> <span class="attribValText">к урону</span>
+    cost: 4200
+    desc: "<h1>Пассивная: Mini-Bash</h1> Каждая атака может с вероятностью в 75% пройти
+      сквозь уклонение и нанести 60 дополнительного чистого урона."
+    notes: ''
+    attrib: + <span class="attribVal">60</span> <span class="attribValText">к скорости
+      атаки</span>
     mc: false
     cd: false
-    lore: Могущественный посох, используемый мастерами.
+    lore: Могущественный посох, принадлежавший блистательному воину.
     components:
-    - demon_edge
+    - hyperstone
     - javelin
     - javelin
     created: true
@@ -2180,7 +2304,7 @@ itemdata:
     mc: false
     cd: false
     lore: Божественный меч, окружающий владельца ярким сиянием, которое обращает в
-      пепел всех окружающих врагов.
+      пепел всех врагов вокруг.
     components:
     - relic
     created: true
@@ -2190,18 +2314,18 @@ itemdata:
     dname: Butterfly
     qual: epic
     cost: 5525
-    desc: "<h1>Активируемая: Flutter</h1> Временно увеличивает скорость передвижения
-      на 35%, при этом уменьшая вероятность уклонения на 35%. Действует 4 сек."
+    desc: "<h1>Активируемая: Flutter</h1> Ускоряет передвижение на 35%. Действует
+      2 сек."
     notes: Сочетается по закону убывающей полезности с другими источниками уклонения.
     attrib: |-
       + <span class="attribVal">35</span> <span class="attribValText">к ловкости</span><br />
-      + <span class="attribVal">30</span> <span class="attribValText">к урону</span><br />
+      + <span class="attribVal">25</span> <span class="attribValText">к урону</span><br />
       + <span class="attribVal">35%</span> <span class="attribValText">к уклонению</span><br />
       + <span class="attribVal">30</span> <span class="attribValText">к скорости атаки</span>
     mc: false
     cd: 25
-    lore: Только самые сильные и опытные воины могут владеть Butterfly, ведь он дает
-      невероятную ловкость в бою.
+    lore: Этот клинок могут обуздать лишь самые могучие и опытные воины, но владельцу
+      он даёт невероятное проворство в бою.
     components:
     - eagle
     - talisman_of_evasion
@@ -2232,18 +2356,16 @@ itemdata:
     qual: epic
     cost: 2700
     desc: "<h1>Пассивная: Bash</h1> Каждая атака может оглушить цель на 1.4 сек. и
-      нанести 85 дополнительного урона. Вероятность зависит от типа атаки владельца:
-      25% в ближнем бою, 10% — в дальнем."
-    notes: Не сочетается с другими источниками оглушения, кроме мини-оглушения (например,
-      от Monkey King Bar).<br />Способность Bash не будет работать у Spirit Breaker,
-      Faceless Void, Slardar и Troll Warlord.
-    attrib: |-
-      + <span class="attribVal">10</span> <span class="attribValText">к урону</span><br />
-      + <span class="attribVal">10</span> <span class="attribValText">к силе</span>
+      нанести 100 дополнительного урона. От оглушающей атаки нельзя уклониться. Вероятность
+      зависит от типа атаки владельца: 25% в ближнем бою, 10% — в дальнем."
+    notes: Не сочетается с другими источниками оглушения, кроме мини-оглушения.<br
+      />Способность Bash не будет работать у Spirit Breaker, Faceless Void, Slardar
+      и Troll Warlord.
+    attrib: + <span class="attribVal">10</span> <span class="attribValText">к силе</span>
     mc: false
     cd: 2
-    lore: Устрашающее оружие в умелых руках, этот молот способен уничтожить любую
-      защиту. Не стоит его недооценивать.
+    lore: Оказавшись в умелых руках, этот грозный молот способен пробить любую защиту.
+      Не стоит его недооценивать.
     components:
     - belt_of_strength
     - javelin
@@ -2253,27 +2375,26 @@ itemdata:
     img: bfury_lg.png?3
     dname: Battle Fury
     qual: epic
-    cost: 4500
+    cost: 4100
     desc: "<h1>Активируемая: Chop Tree/Ward</h1> Уничтожает выбранное дерево или вард.<br><br>Дальность
       применения:<br>• На дерево: 350<br>• На вард: 450<br />\r\n<h1>Пассивная: Quell</h1>
       Увеличивает урон от атак по существам, не являющимися героями, на 60% для героев
       ближнего боя и на 25% — для дальнего. <br />\r\n<h1>Пассивная: Cleave</h1> Наносит
       40% урона от атак всем врагам вокруг основной цели (только в ближнем бою)."
     notes: Урон соседним целям снижается типом брони, но не её значением.<br />Урон
-      соседним целям проходит через иммунитет к заклинаниям.<br />Каждый предмет или
-      способность, дарующий прорубающую атаку, наносит урон отдельно друг от друга.<br
+      соседним целям проходит через невосприимчивость к магии.<br />Каждый предмет
+      или способность, дарующий прорубающую атаку, наносит урон отдельно друг от друга.<br
       />Активируемая способность может разрушать бомбы от способности Remote Mines
       у Techies.
     attrib: |-
-      + <span class="attribVal">55</span> <span class="attribValText">к урону</span><br />
+      + <span class="attribVal">45</span> <span class="attribValText">к урону</span><br />
       + <span class="attribVal">6</span> <span class="attribValText">к регенерации здоровья</span><br />
-      + <span class="attribVal">150%</span> <span class="attribValText">к регенерации маны</span>
+      + <span class="attribVal">2.25</span> <span class="attribValText">к восстановлению маны</span>
     mc: false
     cd: 4
-    lore: Владелец этого могучего топора может сокрушать ряды врагов в один миг.
+    lore: Владелец этого могучего топора может выкашивать врагов целыми рядами.
     components:
-    - broadsword
-    - claymore
+    - demon_edge
     - pers
     - quelling_blade
     created: true
@@ -2295,8 +2416,8 @@ itemdata:
       + <span class="attribVal">10</span> <span class="attribValText">к силе</span><br />
       + <span class="attribVal">26</span> <span class="attribValText">к ловкости</span><br />
       + <span class="attribVal">10</span> <span class="attribValText">к интеллекту</span><br />
-      + <span class="attribVal">15</span> <span class="attribValText">к скорости атаки</span><br />
-      + <span class="attribVal">10%</span> <span class="attribValText">к скорости передвижения</span>
+      + <span class="attribVal">10</span> <span class="attribValText">к скорости атаки</span><br />
+      + <span class="attribVal">8%</span> <span class="attribValText">к скорости передвижения</span>
     mc: 125
     cd: 45
     lore: Топор, созданный из отражающих материалов, которые вызывают смятение во
@@ -2317,8 +2438,7 @@ itemdata:
     attrib: + <span class="attribVal">30</span> <span class="attribValText">к урону</span>
     mc: false
     cd: false
-    lore: Клинок, скованный из редких кристаллов. Он находит слабые места в броне
-      врага.
+    lore: Клинок, скованный из редких кристаллов, находит слабые места в броне врага.
     components:
     - broadsword
     - blades_of_attack
@@ -2350,7 +2470,7 @@ itemdata:
     qual: epic
     cost: 2370
     desc: "<h1>Переключаемая: Unholy Strength</h1>Если включена, увеличивает урон
-      на 31, силу на 25 и броню на 4, но отнимает 45 здоровья в секунду.<br><br>Вы
+      на 31, силу на 25 и броню на 4, но отнимает 54 здоровья в секунду.<br><br>Вы
       не можете умереть ни от потери здоровья из-за способности, ни от спада бонуса
       к силе после её отключения."
     notes: Изменение силы действует и на текущий, и на максимальный уровень здоровья,
@@ -2360,11 +2480,11 @@ itemdata:
       + <span class="attribVal">9</span> <span class="attribValText">к урону</span><br />
       + <span class="attribVal">25</span> <span class="attribValText">к скорости атаки</span><br />
       + <span class="attribVal">5</span> <span class="attribValText">к броне</span><br />
-      + <span class="attribVal">7</span> <span class="attribValText">к регенерации здоровья</span>
+      + <span class="attribVal">4</span> <span class="attribValText">к регенерации здоровья</span>
     mc: false
     cd: 0
-    lore: Это оружие — выбор жестоких безумцев. Armlet дает огромную силу и мощь владельцу,
-      взамен забирая его жизненные силы.
+    lore: Это оружие, горячо любимое дикарями, забирает жизненные силы владельца,
+      взамен наделяя его безмерной силой и мощью.
     components:
     - helm_of_iron_will
     - gloves
@@ -2380,15 +2500,15 @@ itemdata:
       до момента, когда он совершит атаку или применит способность. Также увеличивает
       скорость передвижения на 20% и позволяет проходить сквозь существ. <br><br>Атака,
       прерывающая невидимость, нанесёт 175 дополнительного урона."
-    notes: Уход в невидимость занимает 0,3 секунды.<br />Если невидимость кончится
+    notes: Задержка перед невидимостью — 0,3 секунды.<br />Если невидимость кончится
       без атаки, дополнительный урон будет потерян.
     attrib: |-
       + <span class="attribVal">22</span> <span class="attribValText">к урону</span><br />
       + <span class="attribVal">30</span> <span class="attribValText">к скорости атаки</span>
     mc: 75
     cd: 28
-    lore: Клинок павшего короля позволяет вам передвигаться незамеченным и наносить
-      удар из тени.
+    lore: Клинок павшего короля позволяет передвигаться незаметно и наносить удар
+      из тени.
     components:
     - shadow_amulet
     - claymore
@@ -2401,12 +2521,11 @@ itemdata:
     cost: 5550
     desc: "<h1>Активируемая: Shadow Walk</h1>Делает героя невидимым на 14 сек. или
       до момента, когда он совершит атаку или применит способность. Эффект также увеличивает
-      скорость передвижения на 20% и позволяет проходить сквозь существ. <br><br>Атака,
-      прерывающая невидимость, нанесёт 175 дополнительного урона, отключит пассивные
-      способности жертвы и уменьшит весь наносимый ею урон на 50%. Длительность эффекта:
-      5 сек."
+      скорость передвижения на 25% и позволяет проходить сквозь существ. <br><br>Атака,
+      прерывающая невидимость, нанесёт 175 дополнительного урона и отключит пассивные
+      способности жертвы. Длительность эффекта: 5 сек."
     notes: Ударом из невидимости нельзя промахнуться.<br />Не проходит сквозь невосприимчивость
-      к заклинаниям.
+      к магии.
     attrib: |-
       + <span class="attribVal">30</span> <span class="attribValText">к урону</span><br />
       + <span class="attribVal">30</span> <span class="attribValText">к скорости атаки</span><br />
@@ -2449,22 +2568,21 @@ itemdata:
     img: satanic_lg.png?3
     dname: Satanic
     qual: artifact
-    cost: 5700
+    cost: 5500
     desc: "<h1>Активируемая: Unholy Rage</h1> <font size='smaller'>Увеличивает эффект
       вампиризма до 200% на 4.5 сек.</font><br />\r\n<h1>Пассивная: Lifesteal</h1>
       Каждая атака восстанавливает владельцу здоровье в размере 25% от нанесённого
-      урона.<br><br>Satanic — уникальный модификатор атаки, он не сочетается с другими
-      уникальными модификаторами атаки."
+      урона."
     notes: ''
     attrib: |-
       + <span class="attribVal">25</span> <span class="attribValText">к силе</span><br />
       + <span class="attribVal">50</span> <span class="attribValText">к урону</span>
     mc: false
     cd: 35
-    lore: Почти безграничная сила в обмен на вашу душу.
+    lore: Колоссальная сила в обмен на вашу душу.
     components:
     - lifesteal
-    - mithril_hammer
+    - claymore
     - reaver
     created: true
   mjollnir:
@@ -2488,7 +2606,7 @@ itemdata:
       + <span class="attribVal">80</span> <span class="attribValText">к скорости атаки</span>
     mc: 50
     cd: 35
-    lore: Магический молот Тора, созданный для него гномами по имени Брок и Эйтри.
+    lore: Магический молот Тора, выкованный для него гномами по имени Брок и Эйтри.
     components:
     - maelstrom
     - hyperstone
@@ -2498,7 +2616,7 @@ itemdata:
     img: skadi_lg.png?3
     dname: Eye of Skadi
     qual: artifact
-    cost: 5775
+    cost: 5500
     desc: "<h1>Пассивная: Cold Attack</h1> Каждая атака замедляет скорость передвижения
       жертвы на 35% и скорость её атаки на 45. <br><br>Длительность замедления зависит
       от типа атаки владельца: в ближнем бою 5 сек., в дальнем — 2.5 сек."
@@ -2515,7 +2633,6 @@ itemdata:
     - ultimate_orb
     - ultimate_orb
     - point_booster
-    - orb_of_venom
     created: true
   sange:
     id: 162
@@ -2533,7 +2650,7 @@ itemdata:
       + <span class="attribVal">16</span> <span class="attribValText">к силе</span>
     mc: false
     cd: false
-    lore: Sange отыскивает слабые места врагов и бьет точно в них.
+    lore: Этот необычайно точный меч сам отыскивает слабые места врагов.
     components:
     - ogre_axe
     - belt_of_strength
@@ -2543,22 +2660,21 @@ itemdata:
     img: helm_of_the_dominator_lg.png?3
     dname: Helm of the Dominator
     qual: artifact
-    cost: 2025
+    cost: 2000
     desc: "<h1>Активируемая: Dominate</h1> Даёт контроль над нейтральным крипом, не
       являющимся древним, и увеличивает его скорость передвижения до 425, а запас
       здоровья — до 1500. <br><br>Если максимальное здоровье существа больше 1500,
-      оно не изменится. За убийство существа даётся %tooltip_bounty% золота.<br><br>Радиус:
-      700<br />\r\n<h1>Пассивная: Dominator Aura</h1> Действует на союзников вокруг.
-      Увеличивает их скорость атаки на 15 и восстановление здоровья на 10.<br><br>Радиус:
-      900"
+      оно не изменится. За убийство существа даётся 125 золота.<br><br>Радиус: 700<br
+      />\r\n<h1>Пассивная: Dominator Aura</h1> Действует на союзников вокруг. Увеличивает
+      их скорость атаки на 20 и восстановление здоровья на 8.<br><br>Радиус: 900"
     notes: Можно приручить только одно существо. Если приручить новое существо, старое
       умрет.<br />Продажа Helm of the Dominator убьёт прирученных существ.
     attrib: |-
       + <span class="attribVal">2</span> <span class="attribValText">ко всем атрибутам</span><br />
-      + <span class="attribVal">10</span> <span class="attribValText">к скорости атаки</span>
+      + <span class="attribVal">5</span> <span class="attribValText">к скорости атаки</span>
     mc: false
     cd: 60
-    lore: Могучий шлем мертвого некроманта.
+    lore: Могучий шлем мёртвого некроманта.
     components:
     - gloves
     - headdress
@@ -2579,8 +2695,7 @@ itemdata:
       + <span class="attribVal">25</span> <span class="attribValText">к скорости атаки</span>
     mc: false
     cd: false
-    lore: Молот Maelstrom, будучи кованым самими богами, позволяет своему владельцу
-      подчинить силу молнии.
+    lore: Молот, выкованный для самих богов, позволяет владельцу подчинить силу молнии.
     components:
     - mithril_hammer
     - gloves
@@ -2591,13 +2706,13 @@ itemdata:
     dname: Desolator
     qual: artifact
     cost: 3500
-    desc: "<h1>Пассивная: Corruption</h1> Атаки уменьшают броню цели на 7. Эффект
+    desc: "<h1>Пассивная: Corruption</h1> Атаки уменьшают броню цели на 6. Эффект
       длится 15 сек."
     notes: Снижение брони действует на здания.
     attrib: + <span class="attribVal">50</span> <span class="attribValText">к урону</span>
     mc: false
     cd: false
-    lore: Это проклятое оружие использовалось при пытках особо опасных преступников.
+    lore: Этим нечистым оружием пытали политических преступников.
     components:
     - mithril_hammer
     - mithril_hammer
@@ -2617,7 +2732,7 @@ itemdata:
       + <span class="attribVal">8%</span> <span class="attribValText">к скорости передвижения</span>
     mc: false
     cd: false
-    lore: Yasha считается самым скоростным оружием из всех когда-либо созданных.
+    lore: Считается самым стремительным оружием на свете.
     components:
     - blade_of_alacrity
     - boots_of_elves
@@ -2628,20 +2743,17 @@ itemdata:
     dname: Mask of Madness
     qual: artifact
     cost: 1975
-    desc: "<h1>Активируемая: Berserk</h1> Даёт владельцу 110 скорости атаки и 17%
-      скорости передвижения, но уменьшает его броню на 6 и запрещает ему применять
+    desc: "<h1>Активируемая: Berserk</h1> Даёт владельцу 110 скорости атаки и 12%
+      скорости передвижения, но уменьшает его броню на 8 и запрещает ему применять
       способности. Действует 8 сек.<br />\r\n<h1>Пассивная: Lifesteal</h1> Каждая
-      атака восстанавливает владельцу здоровье в размере 15% от нанесённого урона.<br><br>Mask
-      of Madness — уникальный модификатор атаки, он не сочетается с другими уникальными
-      модификаторами атаки."
+      атака восстанавливает владельцу здоровье в размере 15% от нанесённого урона."
     notes: ''
     attrib: |-
       + <span class="attribVal">20</span> <span class="attribValText">к урону</span><br />
       + <span class="attribVal">10</span> <span class="attribValText">к скорости атаки</span>
     mc: 25
     cd: 22
-    lore: Как только эта маска надета, ее носитель тут же становится безудержной яростной
-      силой.
+    lore: Надев эту маску, воин впадает в безудержную ярость.
     components:
     - lifesteal
     - quarterstaff
@@ -2652,46 +2764,21 @@ itemdata:
     dname: Diffusal Blade
     qual: artifact
     cost: 3150
-    desc: "<h1>Активируемая: Purge</h1> Снимает с противника положительные эффекты
-      и замедляет его на 4 сек.<br><br>Дальность применения: 600<br />\r\n<h1>Пассивная:
-      Manabreak</h1> Каждая атака сжигает 50 маны врага и наносит ему 0.8 физического
-      урона за единицу сожжённой маны.<br><br>Иллюзии героев ближнего боя сжигают
-      по 16 маны за атаку, а дальнего боя — 8.<br><br>Тип развеивания: <span class=\"GameplayValues
-      GameplayVariable\">Нормальное</span>"
+    desc: "<h1>Активируемая: Inhibit</h1> Замедляет противника на 4 сек.<br><br>Дальность
+      применения: 600<br />\r\n<h1>Пассивная: Manabreak</h1> Каждая атака сжигает
+      50 маны врага и наносит ему 0.8 физического урона за единицу сожжённой маны.<br><br>Иллюзии
+      героев ближнего боя сжигают по 16 маны за атаку, а дальнего боя — 8."
     notes: Не складывается с другими способностями, сжигающими ману.
     attrib: |-
-      + <span class="attribVal">20</span>/30 <span class="attribValText">к ловкости</span><br />
-      + <span class="attribVal">10</span>/15 <span class="attribValText">к интеллекту</span>
+      + <span class="attribVal">20</span> <span class="attribValText">к ловкости</span><br />
+      + <span class="attribVal">10</span> <span class="attribValText">к интеллекту</span>
     mc: false
-    cd: 4
-    lore: Зачарованный меч, позволяющий разрубить врага и добраться прямо до его души.
+    cd: 15
+    lore: Зачарованный меч, позволяющий прорубиться до вражеской души.
     components:
     - blade_of_alacrity
     - blade_of_alacrity
     - robe
-    created: true
-  diffusal_blade_2:
-    id: 196
-    img: diffusal_blade_2_lg.png?3
-    dname: Diffusal Blade
-    qual: artifact
-    cost: 3850
-    desc: "<h1>Активируемая: Purge</h1>Снимает с противника положительные эффекты
-      и замедляет его на 4 сек.<br><br>Дальность применения: 600<br />\r\n<h1>Пассивная:
-      Manabreak</h1>Каждая атака сжигает 50 маны врага и наносит ему 0.8 физического
-      урона за единицу сожжённой маны.<br><br>Иллюзии героев ближнего боя сжигают
-      по 16 маны за атаку, а дальнего боя — 8.<br><br>Тип развеивания: <span class=\"GameplayValues
-      GameplayVariable\">Нормальное</span>"
-    notes: Не складывается с другими способностями, сжигающими ману.
-    attrib: |-
-      + 20/<span class="attribVal">30</span> <span class="attribValText">к ловкости</span><br />
-      + 10/<span class="attribVal">15</span> <span class="attribValText">к интеллекту</span>
-    mc: false
-    cd: 4
-    lore: Зачарованный меч, позволяющий разрубить врага и добраться прямо до его души.
-    components:
-    - diffusal_blade
-    - recipe_diffusal_blade
     created: true
   ethereal_blade:
     id: 176
@@ -2699,11 +2786,11 @@ itemdata:
     dname: Ethereal Blade
     qual: epic
     cost: 4700
-    desc: "<h1>Активируемая: Ether Blast</h1> Придаёт цели бесплотную форму. В ней
-      цель полностью защищена от физического урона, но не может атаковать и получает
-      на 40% больше магического урона. Действует 4 сек. на союзников и 3 сек. на врагов.<br><br>Также
-      замедляет вражескую цель на 80% и наносит ей магический урон в размере 2 * ваш
-      основной атрибут + 75.<br><br>Дальность применения: 800"
+    desc: "<h1>Активируемая: Ether Blast</h1> Придаёт цели бесплотную форму, которая
+      полностью защищает от физического урона, но не позволяет атаковать и увеличивает
+      получаемый магический урон на 40%. Действует 4 сек. на союзников и 3 сек. на
+      врагов.<br><br>Также замедляет вражескую цель на 80% и наносит ей магический
+      урон в размере 2 * ваш основной атрибут + 75.<br><br>Дальность применения: 800"
     notes: Имеет общее время перезарядки с Ghost Scepter.<br />Призрачные юниты получают
       на 40% больше магического урона.<br />Длится на секунду больше на союзниках
       и на себе.<br />Использование Town Portal Scroll или Boots of Travel не развеивает
@@ -2714,8 +2801,8 @@ itemdata:
       + <span class="attribVal">10</span> <span class="attribValText">к интеллекту</span>
     mc: 100
     cd: 20
-    lore: Этот мерцающий меч — грозное оружие, способное наносить урон в любом мире,
-      независимо от его физической или магической природы.
+    lore: Этот мерцающий призрачный меч бьёт и и по физическому, и по магическому
+      слою реальности.
     components:
     - eagle
     - ghost
@@ -2725,28 +2812,28 @@ itemdata:
     img: soul_ring_lg.png?3
     dname: Soul Ring
     qual: common
-    cost: 750
-    desc: "<h1>Активируемая: Sacrifice</h1> Отнимает 150 здоровья, временно пополняя
+    cost: 770
+    desc: "<h1>Активируемая: Sacrifice</h1> Отнимает 170 здоровья, временно пополняя
       запас маны на 150. Действует 10 сек.<br><br>Герой получит дополнительную ману,
       даже если она не умещается в её максимальный запас."
     notes: Если полученную ману не использовать за время действия предмета, она исчезнет.
     attrib: |-
-      + <span class="attribVal">3</span> <span class="attribValText">к регенерации здоровья</span><br />
-      + <span class="attribVal">50%</span> <span class="attribValText">к регенерации маны</span>
+      + <span class="attribVal">6</span> <span class="attribValText">к силе</span><br />
+      + <span class="attribVal">2</span> <span class="attribValText">к регенерации здоровья</span>
     mc: false
-    cd: 30
-    lore: Кольцо, наполняющееся энергией душ тех, кто его носит.
+    cd: 25
+    lore: Кольцо, поглощающее души тех, кто его носит.
     components:
     - ring_of_regen
-    - sobi_mask
-    - enchanted_mango
+    - gauntlets
+    - gauntlets
     created: true
   arcane_boots:
     id: 180
     img: arcane_boots_lg.png?3
     dname: Arcane Boots
     qual: rare
-    cost: 1300
+    cost: 1400
     desc: "<h1>Активируемая: Replenish Mana</h1> Восстанавливает 135 маны всем союзникам
       вокруг.<br>Основные бонусы к скорости передвижения от нескольких пар ботинок
       не складываются.<br><br>Радиус: 900"
@@ -2756,7 +2843,7 @@ itemdata:
       + <span class="attribVal">250</span> <span class="attribValText">к мане</span>
     mc: false
     cd: 55
-    lore: В этих ботинках маг становится более ценным в бою.
+    lore: Магу, что носит эти ботинки, всегда рады в бою.
     components:
     - boots
     - energy_booster
@@ -2779,8 +2866,8 @@ itemdata:
       + <span class="attribVal">425</span> <span class="attribValText">к мане</span>
     mc: false
     cd: false
-    lore: Само сердце колдовства раскрашено цветами, узреть которые способны лишь
-      самые одаренные.
+    lore: Самая основа колдовства скрыта в цветах, узреть которые способны лишь самые
+      одарённые.
     components:
     - mystic_staff
     - soul_booster
@@ -2813,7 +2900,7 @@ itemdata:
     attrib: ''
     mc: false
     cd: false
-    lore: Лишающий сил камень, обнаруженный на полях Вечной бойни.
+    lore: Лишающий стойкости камень, обнаруженный на полях Вечной бойни.
     components: 
     created: false
   ancient_janggo:
@@ -2821,22 +2908,22 @@ itemdata:
     img: ancient_janggo_lg.png?3
     dname: Drum of Endurance
     qual: rare
-    cost: 1640
+    cost: 1615
     desc: "<h1>Активируемая: Endurance</h1> Действует на союзников вокруг. Увеличивает
-      их скорость атаки на 25 и скорость передвижения на 13%. Действует 6 сек. <br><br>Радиус:
+      их скорость атаки на 35 и скорость передвижения на 13%. Действует 6 сек. <br><br>Радиус:
       900<br />\r\n<h1>Пассивная: Swiftness Aura</h1> Увеличивает союзникам вокруг
       скорость передвижения на 20. <br><br>Радиус: 900"
     notes: Покупка рецепта Drum of Endurance восстановит его заряды.<br />Эффект от
       нескольких Swiftness Aura не складывается.
     attrib: |-
       + <span class="attribVal">6</span> <span class="attribValText">к интеллекту</span><br />
-      + <span class="attribVal">6</span> <span class="attribValText">к силе</span><br />
+      + <span class="attribVal">7</span> <span class="attribValText">к силе</span><br />
       + <span class="attribVal">3</span> <span class="attribValText">к ловкости</span><br />
-      + <span class="attribVal">3</span> <span class="attribValText">к урону</span><br />
-      + <span class="attribVal">50%</span> <span class="attribValText">к регенерации маны</span>
+      + <span class="attribVal">0.75%</span> <span class="attribValText">к восстановлению маны</span>
     mc: false
     cd: 30
-    lore: Артефакт, дающий жизненные силы и ускоряющий всех вокруг.
+    lore: Реликвия, в неспокойные времена зачаровывающая тела воинов вокруг, дабы
+      те двигались скорее.
     components:
     - sobi_mask
     - bracer
@@ -2855,7 +2942,7 @@ itemdata:
     notes: ''
     attrib: |-
       + <span class="attribVal">7</span> <span class="attribValText">к броне</span><br />
-      + <span class="attribVal">50%</span> <span class="attribValText">к регенерации маны</span>
+      + <span class="attribVal">0.5</span> <span class="attribValText">к восстановлению маны</span>
     mc: false
     cd: 7
     lore: Его носитель не боится сражений.
@@ -2872,17 +2959,17 @@ itemdata:
     cost: 2625
     desc: "<h1>Активируемая: Shine</h1>Если использовать на союзника, увеличит его
       броню на 10 и шанс уклонения на 20%. <br><br>Если использовать на врага, уменьшит
-      его броню на 10 и увеличит точность атак по нему на 35%. <br><br>Лишает владельца
+      его броню на 10 и увеличит точность атак по нему на 40%. <br><br>Лишает владельца
       дополнительных брони и уклонения. <br><br>Не действует на невосприимчивых к
       магии противников.<br><br>Дальность применения: 1000"
     notes: ''
     attrib: |-
       + <span class="attribVal">10</span> <span class="attribValText">к броне</span><br />
-      + <span class="attribVal">75%</span> <span class="attribValText">к регенерации маны</span><br />
+      + <span class="attribVal">1</span> <span class="attribValText">к восстановлению маны</span><br />
       + <span class="attribVal">20%</span> <span class="attribValText">к уклонению</span>
     mc: false
     cd: 7
-    lore: Талисман, выкованный в честь дневного неба.
+    lore: Талисман, выкованный во хвалу дневного неба.
     components:
     - medallion_of_courage
     - talisman_of_evasion
@@ -2892,7 +2979,7 @@ itemdata:
     img: smoke_of_deceit_lg.png?3
     dname: Smoke of Deceit
     qual: consumable
-    cost: 50
+    cost: 80
     desc: "<h1>Использование: Disguise</h1> Все подконтрольные игрокам существа и
       герои в радиусе 1025 на 35 секунд становятся невидимыми, а скорость их передвижения
       увеличивается на 15%. <br><br>Если совершить атаку или приблизиться к вражескому
@@ -2912,9 +2999,9 @@ itemdata:
     dname: Tome of Knowledge
     qual: consumable
     cost: 150
-    desc: "<h1>Использование: Enlighten</h1> Даёт 500 базового опыта + 135 опыта за
+    desc: "<h1>Использование: Enlighten</h1> Даёт 700 базового опыта + 135 опыта за
       каждое предыдущее применение этого предмета в вашей команде.<br><br>Применений
-      в команде: 0"
+      в команде: %customval_team_tomes_used%"
     notes: ''
     attrib: ''
     mc: false
@@ -2927,18 +3014,17 @@ itemdata:
     img: veil_of_discord_lg.png?3
     dname: Veil of Discord
     qual: rare
-    cost: 2340
+    cost: 2330
     desc: "<h1>Активируемая: Magic Weakness</h1> Ослабляет врагов в области радиусом
       600, уменьшая их сопротивление магическому урону на 25%.<br><br>Дальность применения:
       1000<br>Длительность: 16 сек."
     notes: ''
     attrib: |-
-      + <span class="attribVal">6</span> <span class="attribValText">к регенерации здоровья</span><br />
+      + <span class="attribVal">5</span> <span class="attribValText">к регенерации здоровья</span><br />
       + <span class="attribVal">6</span> <span class="attribValText">к броне</span><br />
       + <span class="attribVal">6</span> <span class="attribValText">к ловкости</span><br />
       + <span class="attribVal">6</span> <span class="attribValText">к силе</span><br />
-      + <span class="attribVal">6</span> <span class="attribValText">к урону</span><br />
-      + <span class="attribVal">12</span> <span class="attribValText">к интеллекту</span>
+      + <span class="attribVal">14</span> <span class="attribValText">к интеллекту</span>
     mc: 50
     cd: 20
     lore: Головной убор испорченных магов.
@@ -2952,13 +3038,13 @@ itemdata:
     img: guardian_greaves_lg.png?3
     dname: Guardian Greaves
     qual: rare
-    cost: 5375
+    cost: 5450
     desc: "<h1>Активируемая: Mend</h1>Восстанавливает 250 здоровья и 160 маны всем
       союзникам вокруг, а также снимает с владельца большинство отрицательных эффектов.<br><br>Радиус:
       900<br>Тип развеивания: <span class=\"GameplayValues GameplayVariable\">Нормальное</span><br
       />\r\n<h1>Пассивная: Guardian Aura</h1> Действует на союзников вокруг. Увеличивает
-      их восстановление здоровья на 4 и броню на 2. Если уровень здоровья союзного
-      героя ниже 20%, то аура будет действовать на него сильнее, восстанавливая 15
+      их восстановление здоровья на 3.5 и броню на 2. Если уровень здоровья союзного
+      героя ниже 20%, то аура будет действовать на него сильнее, восстанавливая 12
       здоровья в секунду и увеличивая броню на 15."
     notes: Аура усиливается только на героях.
     attrib: |-
@@ -2978,15 +3064,14 @@ itemdata:
     img: rod_of_atos_lg.png?3
     dname: Rod of Atos
     qual: rare
-    cost: 3080
+    cost: 3030
     desc: "<h1>Активируемая: Cripple</h1> На 2 сек. накладывает на цель оцепенение.<br><br>Дальность
       применения: 1150"
     notes: ''
     attrib: |-
       + <span class="attribVal">20</span> <span class="attribValText">к интеллекту</span><br />
       + <span class="attribVal">15</span> <span class="attribValText">к силе</span><br />
-      + <span class="attribVal">6</span> <span class="attribValText">к ловкости</span><br />
-      + <span class="attribVal">6</span> <span class="attribValText">к урону</span>
+      + <span class="attribVal">6</span> <span class="attribValText">к ловкости</span>
     mc: 50
     cd: 16
     lore: В этом простом на первый взгляд жезле заключено естество владыки чумы Атоса.
@@ -2995,12 +3080,26 @@ itemdata:
     - bracer
     - bracer
     created: true
+  recipe_iron_talon:
+    id: 238
+    img: iron_talon_lg.png?3
+    dname: 'Рецепт: Iron Talon1'
+    qual: false
+    cost: 0
+    desc: ''
+    notes: ''
+    attrib: ''
+    mc: false
+    cd: false
+    lore: ''
+    components: 
+    created: false
   iron_talon:
     id: 239
     img: iron_talon_lg.png?3
     dname: Iron Talon
     qual: common
-    cost: 500
+    cost: 0
     desc: "<h1>Активируемая: Chop</h1>Наносит вражескому существу, которое не контролируют
       игроки, урон в размере 40% от его текущего запаса здоровья.<br><br>Мгновенно
       уничтожает деревья и варды.<br><br>Дальность применения на существо: 350<br>Дальность
@@ -3009,14 +3108,13 @@ itemdata:
       24 для героев ближнего боя или на 7 — для дальнего."
     notes: 'Перезарядка при использовании на дереве: 4 секунды.<br />Не действует
       на древних крипов.'
-    attrib: + <span class="attribVal">2</span> <span class="attribValText">к броне</span>
+    attrib: + <span class="attribVal">2</span> <span class="attribValText">к регенерации
+      здоровья</span>
     mc: false
     cd: 20
     lore: Простое, но эффективное оружие, некогда подавившее великое восстание медведемонов.
-    components:
-    - quelling_blade
-    - ring_of_protection
-    created: true
+    components: 
+    created: false
   abyssal_blade:
     id: 208
     img: abyssal_blade_lg.png?3
@@ -3024,19 +3122,18 @@ itemdata:
     qual: epic
     cost: 6400
     desc: "<h1>Активируемая: Overwhelm</h1> Оглушает выбранного противника на 2 сек.
-      <br><br>Проходит сквозь невосприимчивость к заклинаниям.<br />\r\n<h1>Пассивная:
-      Bash</h1> Каждая атака может оглушить цель на 1.4 сек. и нанести 85 дополнительного
-      урона. Вероятность зависит от типа атаки владельца: 25% в ближнем бою, 10% —
-      в дальнем.<br />\r\n<h1>Пассивная: Damage Block</h1>С вероятностью в 50% блокирует
-      70 урона, если владелец — герой ближнего боя, или 35 урона, если герой дальнего
-      боя."
+      <br><br>Проходит сквозь невосприимчивость к магии.<br />\r\n<h1>Пассивная: Bash</h1>
+      Каждая атака может оглушить цель на 1.4 сек. и нанести 100 дополнительного урона.
+      От оглушающей атаки нельзя уклониться. Вероятность зависит от типа атаки владельца:
+      25% в ближнем бою, 10% — в дальнем.<br />\r\n<h1>Пассивная: Damage Block</h1>С
+      вероятностью в 50% блокирует 70 урона от атак, если владелец — герой ближнего
+      боя, или 35 урона, если герой дальнего боя."
     notes: Оглушение наносится на дистанции ближнего боя.<br />Не сочетается с другими
       оглушениями от ударов.<br />Способность Bash не будет работать у Spirit Breaker,
       Faceless Void, Slardar и Troll Warlord.
     attrib: |-
       + <span class="attribVal">250</span> <span class="attribValText">к здоровью</span><br />
-      + <span class="attribVal">15</span> <span class="attribValText">к регенерации здоровья</span><br />
-      + <span class="attribVal">10</span> <span class="attribValText">к урону</span><br />
+      + <span class="attribVal">7</span> <span class="attribValText">к регенерации здоровья</span><br />
       + <span class="attribVal">10</span> <span class="attribValText">к силе</span>
     mc: 75
     cd: 35
@@ -3065,8 +3162,8 @@ itemdata:
       + <span class="attribVal">20</span> <span class="attribValText">к силе</span>
     mc: 100
     cd: 18
-    lore: Эта алебарда движется со скоростью меньшего оружия, позволяя владельцу одержать
-      победу в тех дуэлях, где более тяжелое орудие не справилось бы.
+    lore: Эта алебарда движется со скоростью небольшого клинка, позволяя владельцу
+      одержать победу в тех дуэлях, где более тяжёлое орудие не справилось бы.
     components:
     - sange
     - talisman_of_evasion
@@ -3076,12 +3173,12 @@ itemdata:
     img: ring_of_aquila_lg.png?3
     dname: Ring of Aquila
     qual: rare
-    cost: 985
+    cost: 965
     desc: "<h1>Пассивная: Aquila Aura</h1> Действует на союзников вокруг. Увеличивает
-      их восстановление маны на 0.65 и броню на 2.<br><br>Радиус: 900<br />\r\n<h1>Переключаемая
+      их восстановление маны на 0.5 и броню на 2.<br><br>Радиус: 900<br />\r\n<h1>Переключаемая
       аура</h1>Если выключить способность, аура будет действовать только на героев."
-    notes: Не сочетается с аурами Ring of Basilius, Ring of Aquila или Vladmir's Offering.<br
-      />Эффекты от нескольких Aquila Aura не складываются.
+    notes: Не сочетается с аурами Ring of Basilius или Ring of Aquila.<br />Эффекты
+      от нескольких Aquila Aura не складываются.
     attrib: |-
       + <span class="attribVal">10</span> <span class="attribValText">к урону</span><br />
       + <span class="attribVal">3</span> <span class="attribValText">к силе</span><br />
@@ -3099,7 +3196,7 @@ itemdata:
     img: tranquil_boots_lg.png?3
     dname: Tranquil Boots
     qual: rare
-    cost: 975
+    cost: 1050
     desc: "<h1>Пассивная: Break</h1> Если владельца атаковали или он атаковал сам,
       то предмет на 13 сек. потеряет бонус к восстановлению здоровья, а бонус к скорости
       передвижения уменьшится на 65.<br><br>Основные бонусы к скорости передвижения
@@ -3107,10 +3204,10 @@ itemdata:
     notes: ''
     attrib: |-
       + <span class="attribVal">90</span> <span class="attribValText">к скорости передвижения</span><br />
-      + <span class="attribVal">14</span> <span class="attribValText">к регенерации здоровья</span>
+      + <span class="attribVal">13</span> <span class="attribValText">к регенерации здоровья</span>
     mc: false
     cd: 13
-    lore: Хоть эти сапоги и увеличивают выживаемость владельца, они не слишком надежны.
+    lore: Хоть эти сапоги и увеличивают живучесть владельца, они не слишком надёжны.
     components:
     - boots
     - wind_lace
@@ -3131,7 +3228,7 @@ itemdata:
       атаки</span>
     mc: false
     cd: 7
-    lore: Маленький талисман, затеняющий чувства ваших врагов, но требующий абсолютной
+    lore: Маленький талисман, затеняющий взор ваших врагов, но требующий абсолютной
       неподвижности.
     components: 
     created: false
@@ -3143,8 +3240,8 @@ itemdata:
     cost: 1850
     desc: "<h1>Активируемая: Glimmer</h1> С задержкой в 0.6 сек. накладывает на героя
       или выбранного союзника невидимость и увеличивает сопротивление магии на 45%.
-      Действует 5 сек. <br><br>Дальность применения: 800<br><br>Можно использовать
-      во время произнесения заклинаний."
+      Действует 5 сек. <br><br>Дальность применения: 800<br><br>Не останавливает прерываемые
+      способности."
     notes: ''
     attrib: |-
       + <span class="attribVal">20</span> <span class="attribValText">к скорости атаки</span><br />

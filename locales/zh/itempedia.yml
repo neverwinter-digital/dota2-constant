@@ -10,7 +10,7 @@ itemdata:
     notes: 快速点击两次会将自己往己方泉水方向传送。<br />如果闪烁传送的距离超过最长施法距离，那么只能传送到最长距离的4/5。
     attrib: ''
     mc: false
-    cd: 12
+    cd: 14
     lore: 传说中这块大陆上来去如风的刺客使用的匕首。
     components: 
     created: false
@@ -80,7 +80,7 @@ itemdata:
     notes: ''
     attrib: |-
       + <span class="attribVal">5</span> <span class="attribValText">护甲</span><br />
-      + <span class="attribVal">3</span> <span class="attribValText">生命恢复速率</span>
+      + <span class="attribVal">3</span> <span class="attribValText">生命恢复</span>
     mc: false
     cd: false
     lore: 一位战死沙场的传奇般的武士穿戴过的头盔。
@@ -91,10 +91,10 @@ itemdata:
     img: javelin_lg.png?3
     dname: 标枪
     qual: component
-    cost: 1500
-    desc: "<h1>被动：穿刺</h1> 每次攻击有25%的概率造成额外85点伤害。"
+    cost: 1100
+    desc: "<h1>被动：穿刺</h1> 每次攻击有25%的概率无视闪避并造成额外100点伤害。"
     notes: ''
-    attrib: + <span class="attribVal">10</span> <span class="attribValText">攻击力</span>
+    attrib: ''
     mc: false
     cd: false
     lore: 一把相当有特色的长矛，用来攻击时有时会刺穿敌人的盔甲。
@@ -165,7 +165,7 @@ itemdata:
     dname: 仙灵之火
     qual: consumable
     cost: 70
-    desc: "<h1>使用：吞服</h1>立刻回复75点生命值。"
+    desc: "<h1>使用：吞服</h1>立刻回复85点生命值。"
     notes: ''
     attrib: + <span class="attribVal">2</span> <span class="attribValText">攻击力</span>
     mc: false
@@ -176,12 +176,12 @@ itemdata:
   infused_raindrop:
     id: 265
     img: infused_raindrop_lg.png?3
-    dname: 凝魂之泪
+    dname: 凝魂之露
     qual: component
     cost: 225
     desc: "<h1>被动：魔法伤害抵挡</h1>受到超过50点伤害时自动触发，消耗一点能量并抵挡120点魔法伤害。<br><br>自带5点能量。能量耗尽后消失。"
     notes: 每次受到伤害时最多使用一点能量。
-    attrib: + <span class="attribVal">0.85</span> <span class="attribValText">魔法恢复</span>
+    attrib: + <span class="attribVal">0.5</span> <span class="attribValText">魔法恢复</span>
     mc: false
     cd: 7
     lore: 为魔法突袭提供质朴的防护。
@@ -221,7 +221,7 @@ itemdata:
     dname: 圆盾
     qual: component
     cost: 200
-    desc: "<h1>被动：伤害格挡</h1> 拥有50%的概率格挡伤害，近战英雄可格挡16点伤害，远程英雄可格挡8点。"
+    desc: "<h1>被动：伤害格挡</h1> 拥有50%的概率格挡伤害，近战英雄可格挡18点伤害，远程英雄可格挡9点。"
     notes: 多种伤害格挡物品的效果互不叠加。
     attrib: ''
     mc: false
@@ -233,7 +233,7 @@ itemdata:
     id: 247
     img: moon_shard_lg.png?3
     dname: 银月之晶
-    qual: common
+    qual: consumable
     cost: 4000
     desc: "<h1>使用：吞噬</h1> 吞噬银月之晶，永久获得60攻击速度和150夜间视野加成。最多使用1次。<br />\r\n<h1>被动：月夜之视</h1>提供额外300夜间视野。"
     notes: 额外夜间视野在暗夜魔王的黑暗时间技能下同样生效。
@@ -250,7 +250,7 @@ itemdata:
     img: gauntlets_lg.png?3
     dname: 力量手套
     qual: component
-    cost: 150
+    cost: 135
     desc: ''
     notes: ''
     attrib: + <span class="attribVal">3</span> <span class="attribValText">力量</span>
@@ -264,7 +264,7 @@ itemdata:
     img: slippers_lg.png?3
     dname: 敏捷便鞋
     qual: component
-    cost: 150
+    cost: 135
     desc: ''
     notes: ''
     attrib: + <span class="attribVal">3</span> <span class="attribValText">敏捷</span>
@@ -278,7 +278,7 @@ itemdata:
     img: mantle_lg.png?3
     dname: 智力斗篷
     qual: component
-    cost: 150
+    cost: 135
     desc: ''
     notes: ''
     attrib: + <span class="attribVal">3</span> <span class="attribValText">智力</span>
@@ -433,7 +433,7 @@ itemdata:
     dname: 吸血面具
     qual: component
     cost: 1100
-    desc: "<h1>被动：吸血</h1>攻击者每次攻击都将根据造成的伤害回复15%的生命值。<br><br>吸血面具是独占攻效，不与其它独占攻效叠加。"
+    desc: "<h1>被动：吸血</h1>攻击者每次攻击都将根据造成的伤害回复15%的生命值。"
     notes: ''
     attrib: + <span class="attribVal">10</span> <span class="attribValText">攻击力</span>
     mc: false
@@ -446,10 +446,10 @@ itemdata:
     img: ring_of_regen_lg.png?3
     dname: 回复戒指
     qual: component
-    cost: 325
+    cost: 300
     desc: ''
     notes: 回复戒指可以共享。
-    attrib: + <span class="attribVal">2</span> <span class="attribValText">生命恢复速率</span>
+    attrib: + <span class="attribVal">1.5</span> <span class="attribValText">生命恢复</span>
     mc: false
     cd: false
     lore: 一些侏儒迷信这个戒指能带来好运气。
@@ -463,7 +463,7 @@ itemdata:
     cost: 325
     desc: ''
     notes: 贤者面罩可以共享。
-    attrib: + <span class="attribVal">50%</span> <span class="attribValText">魔法恢复</span>
+    attrib: + <span class="attribVal">0.5</span> <span class="attribValText">魔法恢复</span>
     mc: false
     cd: false
     lore: 法师和术士用作举办仪式常用的面罩。
@@ -474,10 +474,10 @@ itemdata:
     img: boots_lg.png?3
     dname: 速度之靴
     qual: component
-    cost: 400
+    cost: 500
     desc: 多个鞋类物品提供的移动速度加成不叠加。
     notes: ''
-    attrib: + <span class="attribVal">45</span> <span class="attribValText">移动速度</span>
+    attrib: + <span class="attribVal">50</span> <span class="attribValText">移动速度</span>
     mc: false
     cd: false
     lore: 穿双鞋子，跑的更快。
@@ -530,7 +530,7 @@ itemdata:
     id: 33
     img: cheese_lg.png?3
     dname: 奶酪
-    qual: epic
+    qual: consumable
     cost: 1000
     desc: "<h1>使用：干酪</h1>立刻回复2500点生命与1500点魔法。"
     notes: 奶酪可以共享。
@@ -559,18 +559,20 @@ itemdata:
     img: magic_wand_lg.png?3
     dname: 魔杖
     qual: common
-    cost: 465
+    cost: 400
     desc: "<h1>主动：充能</h1>立刻根据能量点数回复相应的生命和魔法，每点能量恢复15点生命和魔法。<br><br>每当周围1200视野范围内有敌人施放技能都会自动充能（最多17点能量）。"
     notes: 1200码视野范围内敌人使用技能就会获得点数。<br />部分英雄技能和物品技能的施放将不会增加点数。
-    attrib: + <span class="attribVal">4</span> <span class="attribValText">全属性</span>
+    attrib: |-
+      + <span class="attribVal">2</span> <span class="attribValText">全属性</span><br />
+      + <span class="attribVal">1.5</span> <span class="attribValText">生命恢复</span>
     mc: false
     cd: 13
     lore: 一个简易但实用的魔杖，能够补充使用者的能量--巫师学徒和高级术士都喜欢。
     components:
-    - circlet
-    - branches
-    - branches
     - magic_stick
+    - branches
+    - branches
+    - enchanted_mango
     created: true
   ghost:
     id: 37
@@ -592,7 +594,7 @@ itemdata:
     dname: 净化药水
     qual: consumable
     cost: 50
-    desc: "<h1>使用：回魔</h1>在50秒内持续恢复目标单位的魔法值，总计190点。 <br><br>受到敌方英雄或Roshan攻击时效果会被驱散。<br><br>对友军施放距离：250"
+    desc: "<h1>使用：回魔</h1>向目标提供3.2点/秒魔法恢复，持续50秒。<br><br>受到敌方英雄或Roshan攻击时效果会被驱散。<br><br>对友军施放距离：250"
     notes: ''
     attrib: ''
     mc: false
@@ -606,9 +608,9 @@ itemdata:
     dname: 魔法芒果
     qual: consumable
     cost: 100
-    desc: "<h1>使用：吞食芒果</h1>立刻回复150点魔法。<br><br>对友军施放距离：400"
+    desc: "<h1>使用：吞食芒果</h1>立刻回复175点魔法。<br><br>对友军施放距离：400"
     notes: 按住Ctrl键点击附近友方英雄可以对其使用。
-    attrib: + <span class="attribVal">1</span> <span class="attribValText">生命恢复速率</span>
+    attrib: + <span class="attribVal">1</span> <span class="attribValText">生命恢复</span>
     mc: false
     cd: false
     lore: 基迪岛上特有的苦甜参半风味让两栖动物无法抗拒。
@@ -620,7 +622,7 @@ itemdata:
     dname: 治疗药膏
     qual: consumable
     cost: 110
-    desc: "<h1>使用：药膏</h1>在8秒内持续恢复生命值，总计400点。<br><br>受到敌方英雄或Roshan攻击时效果会被驱散。"
+    desc: "<h1>使用：药膏</h1>向目标提供50点/秒生命恢复，持续8秒。<br><br>受到敌方英雄或Roshan攻击时效果会被驱散。<br><br>对友军施放距离：250"
     notes: ''
     attrib: ''
     mc: false
@@ -648,7 +650,7 @@ itemdata:
     dname: 魔瓶
     qual: common
     cost: 650
-    desc: "<h1>使用：恢复</h1>每使用一次都能在2.5秒内恢复90点生命与60点魔法。<br><br>对友军施放距离：350<br><br>受到来自敌方英雄或Roshan的攻击会驱散效果。魔瓶在靠近友方泉水时会被灌满。你也能用魔瓶装载神符以备用，但神符在2分钟后会自动激活。"
+    desc: "<h1>使用：恢复</h1>每使用一次都能在2.5秒内恢复80点生命与40点魔法。<br><br>对友军施放距离：350<br><br>受到来自敌方英雄或Roshan的攻击会驱散效果。魔瓶在靠近友方泉水时会被灌满。你也能用魔瓶装载神符以备用，但神符在2分钟后会自动激活。"
     notes: 魔瓶可以共享。储存的神符无法共享。按住Ctrl键对友方英雄点击使用可以使其享受恢复效果。<br />赏金神符使用后只回到2/3。<br />如果魔瓶为非满状态，放在信使上会导致信使被减速30%。
     attrib: ''
     mc: false
@@ -661,7 +663,7 @@ itemdata:
     img: ward_observer_lg.png?3
     dname: 侦查守卫
     qual: consumable
-    cost: 60
+    cost: 80
     desc: "<h1>使用：放置</h1>放置隐形的侦查守卫来获得附近区域1600范围内的视野。持续6分钟。<br><br>按住Ctrl键可以对友方英雄使用，将1个守卫转移到他的物品栏中。<br><br>施法距离：500"
     notes: ''
     attrib: ''
@@ -689,7 +691,7 @@ itemdata:
     img: ward_dispenser_lg.png?3
     dname: 侦查·岗哨守卫
     qual: common
-    cost: 160
+    cost: 180
     desc: "<h1>使用：放置</h1>放置当前可用的守卫。双击守卫切换当前可用的守卫。<br><br>对友军施放距离：500"
     notes: ''
     attrib: |-
@@ -709,9 +711,8 @@ itemdata:
     img: tango_lg.png?3
     dname: 树之祭祀
     qual: consumable
-    cost: 125
-    desc: "<h1>使用：吞食</h1>吃掉一棵树或一个守卫，在16秒内恢复115点生命值。食用守卫或铁树枝干种下的小树后恢复量加倍。<br><br>可以使用4
-      次。对友方英雄使用可以分给他一次使用机会。<br><br>吞食树木施法距离：165<br>吞食守卫施法距离：450"
+    cost: 90
+    desc: "<h1>使用：吞食</h1>吃掉一棵树或一个守卫，获得7点/秒生命恢复，持续16秒。食用守卫或铁树枝干种下的小树后恢复量加倍。<br><br>可以使用3次。对友方英雄使用可以分给他一次使用机会。<br><br>吞食树木施法距离：165<br>吞食守卫施法距离：450"
     notes: ''
     attrib: ''
     mc: false
@@ -725,7 +726,7 @@ itemdata:
     dname: 树之祭祀（共享）
     qual: consumable
     cost: 30
-    desc: "<h1>使用：食用树木/守卫</h1>吃掉一棵树或一个守卫，持续恢复115点生命值。食用守卫或铁树枝干种下的小树后恢复量加倍。"
+    desc: "<h1>使用：吞食</h1>吃掉一棵树或一个守卫，获得7点/秒生命恢复，持续16秒。食用守卫或铁树枝干种下的小树后恢复量加倍。<br><br>距离：165<br>距离（对守卫）450"
     notes: ''
     attrib: ''
     mc: false
@@ -738,7 +739,7 @@ itemdata:
     img: courier_lg.png?3
     dname: 动物信使
     qual: consumable
-    cost: 100
+    cost: 50
     desc: "<h1>使用：配置信使</h1> 配置可以运载物品往返于基地的生物。"
     notes: ''
     attrib: ''
@@ -766,8 +767,8 @@ itemdata:
     img: travel_boots_lg.png?3
     dname: 远行鞋
     qual: common
-    cost: 2400
-    desc: "<h1>主动：传送</h1>传送至一个友方建筑或非英雄单位附近。<br><br>与回程卷轴共享冷却时间。<br><br>多个鞋类物品提供的移动速度加成不叠加。"
+    cost: 2500
+    desc: "<h1>主动：传送</h1>传送至一个友方建筑或非英雄单位附近。<br><br>与回城卷轴共享冷却时间。<br><br>多个鞋类物品提供的移动速度加成不叠加。"
     notes: ''
     attrib: + <span class="attribVal">100</span> <span class="attribValText">移动速度</span>
     mc: 75
@@ -781,7 +782,7 @@ itemdata:
     img: travel_boots_2_lg.png?3
     dname: 远行鞋
     qual: common
-    cost: 4400
+    cost: 4500
     desc: "<h1>主动：传送</h1> 将你传送到一个友方建筑或单位身边，包括英雄。<br><br>双击将直接传送至己方泉水。<br><br>多个鞋类物品提供的移动速度加成不叠加。"
     notes: ''
     attrib: + <span class="attribVal">100</span> <span class="attribValText">移动速度</span>
@@ -797,11 +798,11 @@ itemdata:
     img: phase_boots_lg.png?3
     dname: 相位鞋
     qual: common
-    cost: 1240
+    cost: 1340
     desc: "<h1>主动：相位移动</h1>提升移动速度并使你可以穿越单位。近战英雄提升24%移动速度，远程英雄提升20%移动速度，状态持续2.5秒。<br><br>多个鞋类物品提供的移动速度加成不叠加。"
     notes: ''
     attrib: |-
-      + <span class="attribVal">45</span> <span class="attribValText">移动速度</span><br />
+      + <span class="attribVal">50</span> <span class="attribValText">移动速度</span><br />
       + <span class="attribVal">24</span> <span class="attribValText">攻击力</span>
     mc: false
     cd: 8
@@ -889,7 +890,7 @@ itemdata:
     cost: 850
     desc: ''
     notes: 治疗指环可以共享。
-    attrib: + <span class="attribVal">6</span> <span class="attribValText">生命恢复速率</span>
+    attrib: + <span class="attribVal">5</span> <span class="attribValText">生命恢复</span>
     mc: false
     cd: false
     lore: 一枚闪闪发光的指环，在一个胖乎乎的半身人尸体下被人所发现。
@@ -903,7 +904,7 @@ itemdata:
     cost: 850
     desc: ''
     notes: 虚无宝石可以共享。
-    attrib: + <span class="attribVal">100%</span> <span class="attribValText">魔法恢复</span>
+    attrib: + <span class="attribVal">1</span> <span class="attribValText">魔法恢复</span>
     mc: false
     cd: false
     lore: 一件曾被用来引导冥界魔法的珠宝，这个戒指中跃动着魔力。
@@ -972,11 +973,11 @@ itemdata:
     img: power_treads_lg.png?3
     dname: 动力鞋
     qual: common
-    cost: 1350
+    cost: 1450
     desc: "<h1>主动：属性切换</h1>将附加属性在力量，敏捷以及智力三者间切换，选择+10点力量，+10点敏捷或+10点智力。<br><br>多个鞋类物品提供的移动速度加成不叠加。"
     notes: 动力鞋可以使用力量腰带、精灵布带或法师长袍合成。<br />攻击速度加成效果不会与其他动力鞋叠加。
     attrib: |-
-      + <span class="attribVal">45</span> <span class="attribValText">移动速度</span><br />
+      + <span class="attribVal">50</span> <span class="attribValText">移动速度</span><br />
       + <span class="attribVal">10</span> <span class="attribValText">所选属性</span><br />
       + <span class="attribVal">25</span> <span class="attribValText">攻击速度</span>
     mc: false
@@ -1014,7 +1015,7 @@ itemdata:
       + <span class="attribVal">10</span> <span class="attribValText">智力</span><br />
       + <span class="attribVal">10</span> <span class="attribValText">攻击速度</span><br />
       + <span class="attribVal">10</span> <span class="attribValText">攻击力</span><br />
-      + <span class="attribVal">75%</span> <span class="attribValText">魔法恢复</span>
+      + <span class="attribVal">0.75</span> <span class="attribValText">魔法恢复</span>
     mc: false
     cd: false
     lore: 在让人误以为只是根普通铁头木棒的外表下的，其实是根非常强大的法杖，其威力如影惧神殿一样捉摸不透。
@@ -1032,9 +1033,8 @@ itemdata:
     desc: ''
     notes: 坚韧球可以共享。
     attrib: |-
-      + <span class="attribVal">6</span> <span class="attribValText">生命恢复速率</span><br />
-      + <span class="attribVal">125%</span> <span class="attribValText">魔法恢复</span><br />
-      + <span class="attribVal">10</span> <span class="attribValText">攻击力</span>
+      + <span class="attribVal">5.5</span> <span class="attribValText">生命恢复</span><br />
+      + <span class="attribVal">1.5</span> <span class="attribValText">魔法恢复</span>
     mc: false
     cd: false
     lore: 给持有者带来勇气的宝石。
@@ -1047,31 +1047,27 @@ itemdata:
     img: poor_mans_shield_lg.png?3
     dname: 穷鬼盾
     qual: common
-    cost: 500
-    desc: "<h1>被动：伤害格挡</h1> 拥有100%的概率格挡来自敌方英雄的伤害，近战英雄可格挡20点伤害，远程英雄可格挡10点。<br><br>拥有50%的概率格挡来自普通单位的伤害。"
+    cost: 0
+    desc: "<h1>被动：伤害格挡</h1> 拥有%block_chance_hero%%的概率格挡来自敌方英雄的伤害，近战英雄可格挡18点伤害，远程英雄可格挡9点。<br><br>拥有50%的概率格挡来自普通单位的伤害。"
     notes: 多种伤害格挡物品的效果互不叠加。
     attrib: + <span class="attribVal">6</span> <span class="attribValText">敏捷</span>
     mc: false
-    cd: false
+    cd: 25
     lore: 一块破旧的老式盾牌，格挡效果却比想象中要好。
-    components:
-    - slippers
-    - slippers
-    - stout_shield
-    created: true
+    components: 
+    created: false
   bracer:
     id: 73
     img: bracer_lg.png?3
     dname: 护腕
     qual: common
-    cost: 490
+    cost: 465
     desc: ''
     notes: ''
     attrib: |-
-      + <span class="attribVal">6</span> <span class="attribValText">力量</span><br />
+      + <span class="attribVal">7</span> <span class="attribValText">力量</span><br />
       + <span class="attribVal">3</span> <span class="attribValText">敏捷</span><br />
-      + <span class="attribVal">3</span> <span class="attribValText">智力</span><br />
-      + <span class="attribVal">3</span> <span class="attribValText">攻击力</span>
+      + <span class="attribVal">3</span> <span class="attribValText">智力</span>
     mc: false
     cd: false
     lore: 护腕是增强防御和延长寿命的常见选择。
@@ -1084,14 +1080,13 @@ itemdata:
     img: wraith_band_lg.png?3
     dname: 怨灵系带
     qual: common
-    cost: 485
+    cost: 465
     desc: ''
     notes: ''
     attrib: |-
       + <span class="attribVal">3</span> <span class="attribValText">力量</span><br />
-      + <span class="attribVal">6</span> <span class="attribValText">敏捷</span><br />
-      + <span class="attribVal">3</span> <span class="attribValText">智力</span><br />
-      + <span class="attribVal">3</span> <span class="attribValText">攻击力</span>
+      + <span class="attribVal">7</span> <span class="attribValText">敏捷</span><br />
+      + <span class="attribVal">3</span> <span class="attribValText">智力</span>
     mc: false
     cd: false
     lore: 总是回响着微弱耳语的圆环。
@@ -1104,14 +1099,13 @@ itemdata:
     img: null_talisman_lg.png?3
     dname: 空灵挂件
     qual: common
-    cost: 470
+    cost: 465
     desc: ''
     notes: ''
     attrib: |-
       + <span class="attribVal">3</span> <span class="attribValText">力量</span><br />
       + <span class="attribVal">3</span> <span class="attribValText">敏捷</span><br />
-      + <span class="attribVal">6</span> <span class="attribValText">智力</span><br />
-      + <span class="attribVal">3</span> <span class="attribValText">攻击力</span>
+      + <span class="attribVal">7</span> <span class="attribValText">智力</span>
     mc: false
     cd: false
     lore: 由锁链装饰起来的小巧的宝石。
@@ -1124,8 +1118,8 @@ itemdata:
     img: mekansm_lg.png?3
     dname: 梅肯斯姆
     qual: rare
-    cost: 2375
-    desc: "<h1>主动：回复</h1>为900范围内友方单位回复250点生命值，并提升2点护甲。<br />\r\n<h1>被动：梅肯斯姆光环</h1>提升900范围内友方单位4点生命恢复速率。"
+    cost: 2350
+    desc: "<h1>主动：回复</h1>为900范围内友方单位回复250点生命值，并提升2点护甲。<br />\r\n<h1>被动：梅肯斯姆光环</h1>提升900范围内友方单位3.5点/秒生命恢复。"
     notes: 回复不能作用于25秒内已经被回复作用过的单位。<br />多个梅肯斯姆光环效果不会叠加。
     attrib: |-
       + <span class="attribVal">5</span> <span class="attribValText">全属性</span><br />
@@ -1142,9 +1136,9 @@ itemdata:
     img: vladmir_lg.png?3
     dname: 弗拉迪米尔的祭品
     qual: rare
-    cost: 2275
-    desc: "<h1>被动：弗拉迪米尔光环</h1> 为900范围内附近的友军提供吸血、3点/秒生命恢复、0.8点/秒魔法恢复、15%额外攻击力和4点护甲。吸血光环效果对近战为15%，远程为10%。<br><br>作用范围：900"
-    notes: 王者之戒，天鹰之戒和弗拉迪米尔的祭品拥有的护甲光环互不叠加。<br />多个弗拉迪米尔光环效果不会叠加。
+    cost: 2250
+    desc: "<h1>被动：弗拉迪米尔光环</h1> 为900范围内附近的友军提供吸血、2.5点/秒生命恢复、0.65点/秒魔法恢复、15%额外攻击力和4点护甲。吸血光环效果对近战为15%，远程为10%。<br><br>作用范围：900"
+    notes: 多个弗拉迪米尔的祭品拥有的护甲光环互不叠加。
     attrib: + <span class="attribVal">2</span> <span class="attribValText">全属性</span>
     mc: false
     cd: false
@@ -1154,20 +1148,6 @@ itemdata:
     - ring_of_basilius
     - lifesteal
     created: true
-  flying_courier:
-    id: 84
-    img: flying_courier_lg.png?3
-    dname: 飞行信使
-    qual: consumable
-    cost: 150
-    desc: "<h1>使用：升级信使</h1>升级己方的动物信使，使其可以跨越地形运载物品往返于基地。<br><br>需要先配置动物信使。"
-    notes: ''
-    attrib: ''
-    mc: false
-    cd: false
-    lore: 可靠的坐骑，战争的财富在它背上一飞冲天。
-    components: 
-    created: false
   buckler:
     id: 86
     img: buckler_lg.png?3
@@ -1192,8 +1172,8 @@ itemdata:
     dname: 王者之戒
     qual: rare
     cost: 500
-    desc: "<h1>被动：王者光环</h1>为900范围内友军提供0.65点/秒魔法恢复和2点护甲加成。<br />\r\n<h1>开关：光环</h1>点击以切换护甲加成光环是否对非英雄单位生效。"
-    notes: 王者之戒，天鹰之戒和弗拉迪米尔的祭品拥有的护甲光环互不叠加。<br />多个王者光环效果不会叠加。
+    desc: "<h1>被动：王者光环</h1>为900范围内友军提供0.5点/秒魔法恢复和2点护甲加成。<br />\r\n<h1>开关：光环</h1>点击以切换护甲加成光环是否对非英雄单位生效。"
+    notes: 王者之戒和天鹰之戒拥有的护甲光环互不叠加。<br />多个王者光环效果不会叠加。
     attrib: + <span class="attribVal">7</span> <span class="attribValText">攻击力</span>
     mc: false
     cd: false
@@ -1207,12 +1187,12 @@ itemdata:
     img: pipe_lg.png?3
     dname: 洞察烟斗
     qual: rare
-    cost: 3200
-    desc: "<h1>主动：法术护盾</h1>为周围友方单位套上能抵挡400点法术伤害的护盾。持续12秒。<br><br>作用范围：900<br />\r\n<h1>被动：洞察光环</h1>
-      提升友方单位每秒生命恢复速度4点和10%的魔法抗性。<br><br>作用范围：900"
-    notes: 多个法术护盾效果不会叠加。<br />能与其他提高魔法抗性的技能叠加。
+    cost: 3150
+    desc: "<h1>主动：魔法护盾</h1>为周围友方单位套上能抵挡400点魔法伤害的护盾。持续12秒。<br><br>作用范围：900<br />\r\n<h1>被动：洞察光环</h1>
+      提升友方单位每秒生命恢复速度2点和10%的魔法抗性。<br><br>作用范围：900"
+    notes: 多个魔法护盾效果不会叠加。<br />能与其他提高魔法抗性的技能叠加。
     attrib: |-
-      + <span class="attribVal">8</span> <span class="attribValText">生命恢复速率</span><br />
+      + <span class="attribVal">6.5</span> <span class="attribValText">生命恢复</span><br />
       + <span class="attribVal">30%</span> <span class="attribValText">魔法抗性</span>
     mc: 100
     cd: 60
@@ -1227,7 +1207,7 @@ itemdata:
     dname: 影之灵龛
     qual: rare
     cost: 875
-    desc: "<h1>主动：灵魂释放</h1> 为友方单位在8秒内恢复400点生命值，对敌方单位则在8秒内造成150点纯粹伤害。<br><br>治疗效果在受到英雄或防御塔攻击后会消失。<br><br>每当敌方英雄在1400范围内死亡时获得充能。只有最靠近阵亡英雄的灵龛能得到充能。<br><br>施法距离：950"
+    desc: "<h1>主动：灵魂释放</h1> 对友方单位施放时提供35点/秒生命恢复，对敌方单位则造成25点每秒伤害。<br><br>持续8秒。<br><br>每当敌方英雄在1400范围内死亡时获得充能。只有最靠近阵亡英雄的灵龛能得到充能。<br><br>施法距离：950"
     notes: 点数为0的灵龛将获得2个点数。<br />如果对已经被施放灵魂释放的英雄使用，那么将刷新它的持续时间。
     attrib: |-
       + <span class="attribVal">1</span> <span class="attribValText">魔法恢复</span><br />
@@ -1246,8 +1226,8 @@ itemdata:
     img: headdress_lg.png?3
     dname: 恢复头巾
     qual: rare
-    cost: 675
-    desc: "<h1>被动：恢复光环</h1>提升友方单位3点/秒的生命恢复速率。<br><br>作用范围：900"
+    cost: 650
+    desc: "<h1>被动：恢复光环</h1>提升友方单位2点/秒生命恢复。<br><br>作用范围：900"
     notes: 多个回复光环效果不会叠加。
     attrib: + <span class="attribVal">2</span> <span class="attribValText">全属性</span>
     mc: false
@@ -1269,7 +1249,7 @@ itemdata:
       + <span class="attribVal">10</span> <span class="attribValText">力量</span><br />
       + <span class="attribVal">10</span> <span class="attribValText">敏捷</span><br />
       + <span class="attribVal">35</span> <span class="attribValText">智力</span><br />
-      + <span class="attribVal">150%</span> <span class="attribValText">魔法恢复</span>
+      + <span class="attribVal">2.25</span> <span class="attribValText">魔法恢复</span>
     mc: 100
     cd: 22
     lore: 维斯教会中守卫最为森严的圣物，也是法师们最为垂涎的武器。
@@ -1290,7 +1270,7 @@ itemdata:
       + <span class="attribVal">25</span> <span class="attribValText">智力</span><br />
       + <span class="attribVal">30</span> <span class="attribValText">攻击速度</span><br />
       + <span class="attribVal">30</span> <span class="attribValText">攻击力</span><br />
-      + <span class="attribVal">150%</span> <span class="attribValText">魔法恢复</span>
+      + <span class="attribVal">2.25</span> <span class="attribValText">魔法恢复</span>
     mc: 100
     cd: 18
     lore: 一颗诞自火焰恶魔精华的榴石。
@@ -1311,7 +1291,7 @@ itemdata:
       + <span class="attribVal">25</span> <span class="attribValText">智力</span><br />
       + <span class="attribVal">30</span> <span class="attribValText">攻击速度</span><br />
       + <span class="attribVal">60</span> <span class="attribValText">攻击力</span><br />
-      + <span class="attribVal">150%</span> <span class="attribValText">魔法恢复</span>
+      + <span class="attribVal">2.25</span> <span class="attribValText">魔法恢复</span>
     mc: 100
     cd: 18
     lore: 一把亵渎之刃，受害者临死前的每次挣扎都会使其砍得更深。
@@ -1332,7 +1312,7 @@ itemdata:
       + <span class="attribVal">10</span> <span class="attribValText">力量</span><br />
       + <span class="attribVal">10</span> <span class="attribValText">攻击速度</span><br />
       + <span class="attribVal">15</span> <span class="attribValText">攻击力</span><br />
-      + <span class="attribVal">75%</span> <span class="attribValText">魔法恢复</span>
+      + <span class="attribVal">0.75</span> <span class="attribValText">魔法恢复</span>
     mc: false
     cd: 5
     lore: 一把看似迅捷异常的战刃，其中注入了共鸣魔力。
@@ -1351,7 +1331,7 @@ itemdata:
     notes: 不能对队友使用龙卷风。<br />对自己施放龙卷风时无视技能免疫。<br />龙卷风可以驱散部分正面和负面状态。
     attrib: |-
       + <span class="attribVal">10</span> <span class="attribValText">智力</span><br />
-      + <span class="attribVal">150%</span> <span class="attribValText">魔法恢复</span><br />
+      + <span class="attribVal">2.25</span> <span class="attribValText">魔法恢复</span><br />
       + <span class="attribVal">40</span> <span class="attribValText">移动速度</span>
     mc: 175
     cd: 23
@@ -1367,12 +1347,11 @@ itemdata:
     dname: 以太之镜
     qual: rare
     cost: 2350
-    desc: "<h1>被动：以太焦点</h1> 指向性技能和物品的施法距离增加220。"
+    desc: "<h1>被动：以太焦点</h1> 指向性技能和物品的施法距离增加250。"
     notes: 被动效果不会叠加。
     attrib: |-
-      + <span class="attribVal">250</span> <span class="attribValText">魔法值</span><br />
-      + <span class="attribVal">100%</span> <span class="attribValText">魔法恢复</span><br />
-      + <span class="attribVal">6%</span> <span class="attribValText">技能伤害</span>
+      + <span class="attribVal">450</span> <span class="attribValText">魔法值</span><br />
+      + <span class="attribVal">1.25</span> <span class="attribValText">魔法恢复</span>
     mc: false
     cd: false
     lore: 装饰着最后一口气的咒语，这件礼物是由一位行将就木的法师赠予他体弱多病的孩子。
@@ -1386,13 +1365,13 @@ itemdata:
     dname: 原力法杖
     qual: rare
     cost: 2250
-    desc: "<h1>主动：原力</h1>将任何目标单位向其面对方向推进600距离。<br><br>施法距离：800"
+    desc: "<h1>主动：原力</h1>将任何目标单位向其面对方向推进600距离。<br><br>施法距离：750"
     notes: 快速点击两次可以对自身施放原力。<br />原力法杖不会打断目标的动作。<br />对时间结界，决斗或黑洞内的单位无效。
     attrib: |-
       + <span class="attribVal">10</span> <span class="attribValText">智力</span><br />
-      + <span class="attribVal">6</span> <span class="attribValText">生命恢复速率</span>
+      + <span class="attribVal">5</span> <span class="attribValText">生命恢复</span>
     mc: 25
-    cd: 20
+    cd: 23
     lore: 让你可以操纵他人，不论出于善或恶。
     components:
     - staff_of_wizardry
@@ -1403,19 +1382,20 @@ itemdata:
     img: hurricane_pike_lg.png?3
     dname: 飓风长戟
     qual: epic
-    cost: 4650
+    cost: 4615
     desc: "<h1>主动：飓风之力</h1> 将自己和敌方目标朝相反方向各推开450距离，并且接下来的攻击不受英雄攻击距离的限制，持续4次攻击或5秒，并且获得100攻击速度加成。<br><br>对自身或友军使用时效果等同于原力法杖。<br><br>对友军施法距离：800<br>对敌军施法距离：400<br
-      />\r\n<h1>被动：魔龙之能</h1> 提升远程英雄140攻击距离。"
+      />\r\n<h1>被动：魔龙之能</h1> 远程英雄的攻击距离增加140。"
     notes: 对自身施法会对自己使用飓风长戟。<br />飓风长戟不会打断目标的动作。<br />对时间结界，决斗或黑洞内的单位无效。
     attrib: |-
-      + <span class="attribVal">10</span> <span class="attribValText">智力</span><br />
-      + <span class="attribVal">6</span> <span class="attribValText">生命恢复速率</span><br />
+      + <span class="attribVal">13</span> <span class="attribValText">智力</span><br />
+      + <span class="attribVal">5.5</span> <span class="attribValText">生命恢复</span><br />
       + <span class="attribVal">20</span> <span class="attribValText">敏捷</span><br />
       + <span class="attribVal">15</span> <span class="attribValText">力量</span>
     mc: 25
-    cd: 15
+    cd: 23
     lore: 一柄传奇战戟，曾是远古飞龙骑士的皇家印记。
     components:
+    - wraith_band
     - force_staff
     - dragon_lance
     created: true
@@ -1424,13 +1404,12 @@ itemdata:
     img: dagon_lg.png?3
     dname: 达贡之神力
     qual: rare
-    cost: 2720
+    cost: 2715
     desc: "<h1>主动：能量冲击</h1> 释放高伤害的魔法爆发冲击敌方目标单位。可以升级。<br><br>伤害：400<br>施法距离：600<br>魔法消耗：180"
     notes: 立刻消灭幻象。
     attrib: |-
-      + <span class="attribVal">13</span>/16/19/22/25 <span class="attribValText">智力</span><br />
-      + <span class="attribVal"><span class="attribVal">3</span></span> <span class="attribValText">全属性</span><br />
-      + <span class="attribVal"><span class="attribVal">9</span></span> <span class="attribValText">攻击力</span>
+      + <span class="attribVal">15</span>/18/21/24/27 <span class="attribValText">智力</span><br />
+      + <span class="attribVal"><span class="attribVal">3</span></span> <span class="attribValText">全属性</span>
     mc: 180
     cd: 35
     lore: 越用威力就越大的次级法杖，让持有者的魔法从指尖喷涌而出。
@@ -1443,13 +1422,12 @@ itemdata:
     img: dagon_2_lg.png?3
     dname: 达贡之神力
     qual: rare
-    cost: 3970
+    cost: 3965
     desc: "<h1>主动：能量冲击</h1> 释放高伤害的魔法爆发冲击敌方目标单位。可以升级。<br><br>伤害：400<br>施法距离：600<br>魔法消耗：180"
     notes: 立刻消灭幻象。
     attrib: |-
-      + 13/<span class="attribVal">16</span>/19/22/25 <span class="attribValText">智力</span><br />
-      + <span class="attribVal">3</span> <span class="attribValText">全属性</span><br />
-      + <span class="attribVal">9</span> <span class="attribValText">攻击力</span>
+      + 15/<span class="attribVal">18</span>/21/24/27 <span class="attribValText">智力</span><br />
+      + <span class="attribVal">3</span> <span class="attribValText">全属性</span>
     mc: 180
     cd: 35
     lore: 越用威力就越大的次级法杖，让持有者的魔法从指尖喷涌而出。
@@ -1462,13 +1440,12 @@ itemdata:
     img: dagon_3_lg.png?3
     dname: 达贡之神力
     qual: rare
-    cost: 5220
+    cost: 5215
     desc: "<h1>主动：能量冲击</h1> 释放高伤害的魔法爆发冲击敌方目标单位。可以升级。<br><br>伤害：400<br>施法距离：600<br>魔法消耗：180"
     notes: 立刻消灭幻象。
     attrib: |-
-      + 13/16/<span class="attribVal">19</span>/22/25 <span class="attribValText">智力</span><br />
-      + <span class="attribVal">3</span> <span class="attribValText">全属性</span><br />
-      + <span class="attribVal">9</span> <span class="attribValText">攻击力</span>
+      + 15/18/<span class="attribVal">21</span>/24/27 <span class="attribValText">智力</span><br />
+      + <span class="attribVal">3</span> <span class="attribValText">全属性</span>
     mc: 180
     cd: 35
     lore: 越用威力就越大的次级法杖，让持有者的魔法从指尖喷涌而出。
@@ -1481,13 +1458,12 @@ itemdata:
     img: dagon_4_lg.png?3
     dname: 达贡之神力
     qual: rare
-    cost: 6470
+    cost: 6465
     desc: "<h1>主动：能量冲击</h1> 释放高伤害的魔法爆发冲击敌方目标单位。可以升级。<br><br>伤害：400<br>施法距离：600<br>魔法消耗：180"
     notes: 立刻消灭幻象。
     attrib: |-
-      + 13/16/19/<span class="attribVal">22</span>/25 <span class="attribValText">智力</span><br />
-      + <span class="attribVal">3</span> <span class="attribValText">全属性</span><br />
-      + <span class="attribVal">9</span> <span class="attribValText">攻击力</span>
+      + 15/18/21/<span class="attribVal">24</span>/27 <span class="attribValText">智力</span><br />
+      + <span class="attribVal">3</span> <span class="attribValText">全属性</span>
     mc: 180
     cd: 35
     lore: 越用威力就越大的次级法杖，让持有者的魔法从指尖喷涌而出。
@@ -1500,13 +1476,12 @@ itemdata:
     img: dagon_5_lg.png?3
     dname: 达贡之神力
     qual: rare
-    cost: 7720
+    cost: 7715
     desc: "<h1>主动：能量冲击</h1> 释放高伤害的魔法爆发冲击敌方目标单位。<br><br>伤害：400<br>施法距离：600<br>魔法消耗：180"
     notes: 立刻消灭幻象。
     attrib: |-
-      + 13/16/19/22/<span class="attribVal">25</span> <span class="attribValText">智力</span><br />
-      + <span class="attribVal">3</span> <span class="attribValText">全属性</span><br />
-      + <span class="attribVal">9</span> <span class="attribValText">攻击力</span>
+      + 15/18/21/24/<span class="attribVal">27</span> <span class="attribValText">智力</span><br />
+      + <span class="attribVal">3</span> <span class="attribValText">全属性</span>
     mc: 180
     cd: 35
     lore: 越用威力就越大的次级法杖，让持有者的魔法从指尖喷涌而出。
@@ -1519,17 +1494,18 @@ itemdata:
     img: necronomicon_lg.png?3
     dname: 死灵书
     qual: rare
-    cost: 2650
-    desc: "<h1>主动：召唤死灵</h1>召唤一个死灵战士和死灵射手为你作战，持续50秒。<br><br><h1>战士：</h1>每次攻击燃烧魔法，并且对将其击杀的单位造成魔法伤害。3级时获得真实视域。<br>生命值：700<br>攻击力：75<br>法力损毁伤害：20<br>遗愿伤害：550<br><br><h1>射手：</h1>拥有主动施放的魔力燃烧技能，和提升移动速度与攻击速度的被动光环。<br>生命值：700<br>攻击力：60<br>法力损毁伤害：125<br>光环移动速度：5<br>光环攻击速度：5<br>光环作用范围：900"
+    cost: 2400
+    desc: "<h1>主动：召唤死灵</h1>召唤一个死灵战士和死灵射手为你作战，持续50秒。<br><br><h1>战士：</h1>每次攻击燃烧魔法，并且对将其击杀的单位造成魔法伤害。3级时获得真实视域。<br>生命值：700<br>攻击力：75<br>法力损毁伤害：30<br>遗愿伤害：550<br><br><h1>射手：</h1>拥有提升移动速度与攻击速度的被动光环。3级时拥有主动施放的净化技能。<br>生命值：700<br>攻击力：60<br>光环移动速度：5<br>光环攻击速度：5<br>光环作用范围：900"
     notes: ''
     attrib: |-
-      + <span class="attribVal">15</span>/21/24 <span class="attribValText">智力</span><br />
-      + <span class="attribVal">8</span>/12/16 <span class="attribValText">力量</span>
+      + <span class="attribVal">10</span>/15/20 <span class="attribValText">力量</span><br />
+      + <span class="attribVal">1</span>/1.25/1.5 <span class="attribValText">魔法恢复</span>
     mc: 50
     cd: 90
     lore: 借助亡灵术和恶魔学的终极奥义，强大的邪恶力量被封印在书页之内。
     components:
-    - staff_of_wizardry
+    - sobi_mask
+    - sobi_mask
     - belt_of_strength
     created: true
   necronomicon_2:
@@ -1537,12 +1513,12 @@ itemdata:
     img: necronomicon_2_lg.png?3
     dname: 死灵书
     qual: rare
-    cost: 3850
-    desc: "<h1>主动：召唤死灵</h1>召唤一个死灵战士和死灵射手为你作战，持续50秒。<br><br><h1>战士：</h1>每次攻击燃烧魔法，并且对将其击杀的单位造成魔法伤害。3级时获得真实视域。<br>生命值：700<br>攻击力：75<br>法力损毁伤害：20<br>遗愿伤害：550<br><br><h1>射手：</h1>拥有主动施放的魔力燃烧技能，和提升移速与攻速的被动光环。<br>生命值：700<br>攻击力：60<br>法力损毁伤害：125<br>光环移动速度：5<br>光环攻击速度：5<br>光环作用范围：900"
+    cost: 3700
+    desc: "<h1>主动：召唤死灵</h1>召唤一个死灵战士和死灵射手为你作战，持续50秒。<br><br><h1>战士：</h1>每次攻击燃烧魔法，并且对将其击杀的单位造成魔法伤害。3级时获得真实视域。<br>生命值：700<br>攻击力：75<br>法力损毁伤害：30<br>遗愿伤害：550<br><br><h1>射手：</h1>拥有提升移动速度与攻击速度的被动光环。3级时拥有主动施放的净化技能。<br>生命值：700<br>攻击力：60<br>光环移动速度：5<br>光环攻击速度：5<br>光环作用范围：900"
     notes: ''
     attrib: |-
-      + 15/<span class="attribVal">21</span>/24 <span class="attribValText">智力</span><br />
-      + 8/<span class="attribVal">12</span>/16 <span class="attribValText">力量</span>
+      + 10/<span class="attribVal">15</span>/20 <span class="attribValText">力量</span><br />
+      + 1/<span class="attribVal">1.25</span>/1.5 <span class="attribValText">魔法恢复</span>
     mc: 50
     cd: 90
     lore: 借助亡灵术和恶魔学的终极奥义，强大的邪恶力量被封印在书页之内。
@@ -1555,14 +1531,14 @@ itemdata:
     img: necronomicon_3_lg.png?3
     dname: 死灵书
     qual: rare
-    cost: 5050
+    cost: 5000
     desc: "<h1>主动：召唤死灵</h1>召唤一个死灵战士和死灵射手为你作战，持续50秒。<br><br><h1>战士：</h1>每次攻击燃烧魔法，并且对将其击杀的单位造成魔法伤害。3级时获得真实视域。<br><font
-      color='#a1a1a1'>生命值：700<br>攻击力：75<br>法力损毁伤害：20<br>遗愿伤害：550</font><br><br><h1>射手：</h1>拥有主动施放的魔力燃烧技能，和提升移速与攻速的被动光环。<br><font
-      color='#a1a1a1'>生命值：700<br>攻击力：60<br>法力损毁伤害：125<br>光环移动速度：5<br>光环攻击速度：5<br>光环作用范围：900</font>"
+      color='#a1a1a1'>生命值：700<br>攻击力：75<br>法力损毁伤害：30<br>遗愿伤害：550</font><br><br><h1>射手：</h1>拥有提升移动速度与攻击速度的被动光环。3级时拥有主动施放的净化技能。<br><font
+      color='#a1a1a1'>生命值：700<br>攻击力：60<br>光环移动速度：5<br>光环攻击速度：5<br>光环作用范围：900</font>"
     notes: ''
     attrib: |-
-      + 15/21/<span class="attribVal">24</span> <span class="attribValText">智力</span><br />
-      + 8/12/<span class="attribVal">16</span> <span class="attribValText">力量</span>
+      + 10/15/<span class="attribVal">20</span> <span class="attribValText">力量</span><br />
+      + 1/1.25/<span class="attribVal">1.5</span> <span class="attribValText">魔法恢复</span>
     mc: 50
     cd: 90
     lore: 借助亡灵术和恶魔学的终极奥义，强大的邪恶力量被封印在书页之内。
@@ -1597,12 +1573,11 @@ itemdata:
     dname: 刷新球
     qual: rare
     cost: 5200
-    desc: "<h1>主动：完全重置</h1>重置你所有物品和技能的冷却时间。"
+    desc: "<h1>主动：完全重置</h1>重置所有物品和技能的冷却时间。"
     notes: ''
     attrib: |-
-      + <span class="attribVal">12</span> <span class="attribValText">生命恢复速率</span><br />
-      + <span class="attribVal">250%</span> <span class="attribValText">魔法恢复</span><br />
-      + <span class="attribVal">20</span> <span class="attribValText">攻击力</span>
+      + <span class="attribVal">11</span> <span class="attribValText">生命恢复</span><br />
+      + <span class="attribVal">3</span> <span class="attribValText">魔法恢复</span>
     mc: 375
     cd: 195
     lore: 一件为巫师量身定做的强力物品。
@@ -1661,7 +1636,7 @@ itemdata:
       + <span class="attribVal">10</span> <span class="attribValText">力量</span><br />
       + <span class="attribVal">24</span> <span class="attribValText">攻击力</span>
     mc: false
-    cd: 80
+    cd: 70
     lore: 渗透了巨人之力的强大法杖。
     components:
     - ogre_axe
@@ -1705,20 +1680,19 @@ itemdata:
     img: bloodstone_lg.png?3
     dname: 血精石
     qual: epic
-    cost: 4850
-    desc: "<h1>主动：绝地自尽</h1>立刻原地自杀。<br><br>必须点地施放，无法点自身施放。<br />\r\n<h1>被动：血之契约</h1>具有12点初始能量，1600范围内有敌方英雄死亡时获得1点能量。<br><br>每点能量给予1点/秒的魔法回复，死亡时减少3秒重生时间。<br><br>当持有者死亡时，回复周围友军单位500
-      + 30 × 能量点数的生命值，并失去1/3的能量。<br><br>回复范围：1675"
+    cost: 4900
+    desc: "<h1>主动：绝地自尽</h1>立刻原地自杀。<br><br>必须点地施放，无法点自身施放。<br />\r\n<h1>被动：血之契约</h1>具有14点初始能量，1600范围内有敌方英雄死亡时获得1点能量。<br><br>每点能量给予%tooltip_mana_per_charge%点/秒的魔法回复，死亡时减少3秒重生时间。<br><br>当持有者死亡时，血精石失去1/3的能量。"
     notes: 如果英雄身上有多个血精石，只有第一个会获得点数。
     attrib: |-
       + <span class="attribVal">475</span> <span class="attribValText">生命值</span><br />
       + <span class="attribVal">425</span> <span class="attribValText">魔法值</span><br />
-      + <span class="attribVal">9</span> <span class="attribValText">生命恢复速率</span><br />
-      + <span class="attribVal">200%</span> <span class="attribValText">魔法恢复</span>
+      + <span class="attribVal">7</span> <span class="attribValText">生命恢复</span><br />
+      + <span class="attribVal">2</span> <span class="attribValText">魔法恢复</span>
     mc: false
     cd: 300
     lore: 血精石鲜红的色彩在战场上绝对不会被看错，拥有者似乎有无限的生命力和精力。
     components:
-    - soul_ring
+    - pers
     - soul_booster
     created: true
   sphere:
@@ -1726,14 +1700,13 @@ itemdata:
     img: sphere_lg.png?3
     dname: 林肯法球
     qual: epic
-    cost: 4850
+    cost: 5050
     desc: "<h1>被动：法术抵抗</h1>每13秒被动抵挡一次大部分指向性法术。<br />\r\n<h1>主动：抵抗转移</h1>将抵挡状态暂时转移给一个友方单位，持续13秒。<br><br>施法距离：700"
     notes: ''
     attrib: |-
       + <span class="attribVal">15</span> <span class="attribValText">全属性</span><br />
-      + <span class="attribVal">6</span> <span class="attribValText">生命恢复速率</span><br />
-      + <span class="attribVal">150%</span> <span class="attribValText">魔法恢复</span><br />
-      + <span class="attribVal">15</span> <span class="attribValText">攻击力</span>
+      + <span class="attribVal">5.5</span> <span class="attribValText">生命恢复</span><br />
+      + <span class="attribVal">2.25</span> <span class="attribValText">魔法恢复</span>
     mc: false
     cd: 13
     lore: 这个有魔力的球体曾经保护了一位历史上最有名的英雄。
@@ -1751,10 +1724,9 @@ itemdata:
       class="GameplayValues GameplayVariable">弱驱散</span>
     notes: ''
     attrib: |-
-      + <span class="attribVal">10</span> <span class="attribValText">攻击力</span><br />
       + <span class="attribVal">10</span> <span class="attribValText">护甲</span><br />
-      + <span class="attribVal">6</span> <span class="attribValText">生命恢复速率</span><br />
-      + <span class="attribVal">125%</span> <span class="attribValText">魔法恢复</span><br />
+      + <span class="attribVal">5.5</span> <span class="attribValText">生命恢复</span><br />
+      + <span class="attribVal">1.75</span> <span class="attribValText">魔法恢复</span><br />
       + <span class="attribVal">250</span> <span class="attribValText">魔法值</span>
     mc: 75
     cd: 15
@@ -1763,6 +1735,153 @@ itemdata:
     - pers
     - platemail
     - energy_booster
+    created: true
+  meteor_hammer:
+    id: 223
+    img: meteor_hammer_lg.png?3
+    dname: 陨星锤
+    qual: epic
+    cost: 2625
+    desc: "<h1>主动：陨星锤</h1> 持续施法 - 成功施法后召唤一颗陨石，打击300范围内敌人，造成2秒眩晕和冲击伤害。对敌方单位和建筑造成持续伤害，持续6秒。<BR><BR>对建筑冲击伤害：75<BR>对建筑持续伤害：50<BR><BR>对非建筑冲击伤害：150<BR>对非建筑持续伤害：90<BR><BR>持续施法时间：2.5秒<BR>落地时间：0.5秒。"
+    notes: ''
+    attrib: |-
+      + <span class="attribVal">12</span> <span class="attribValText">力量</span><br />
+      + <span class="attribVal">12</span> <span class="attribValText">智力</span><br />
+      + <span class="attribVal">4</span> <span class="attribValText">生命恢复</span><br />
+      + <span class="attribVal">1.5</span> <span class="attribValText">魔法恢复</span>
+    mc: 125
+    cd: 28
+    lore: 一柄带有魔力的战锤，铸造所用的金属发掘自被流星雨摧毁的村庄废墟之内。
+    components:
+    - ogre_axe
+    - staff_of_wizardry
+    - ring_of_regen
+    - sobi_mask
+    created: true
+  nullifier:
+    id: 225
+    img: nullifier_lg.png?3
+    dname: 否决挂饰
+    qual: epic
+    cost: 4700
+    desc: "<h1>主动：否决</h1> 驱散目标身上的效果，并且施加锁闭，持续5秒。每次被锁闭的目标受到攻击都会被减速100%，持续0.4秒。"
+    notes: ''
+    attrib: |-
+      + <span class="attribVal">65</span> <span class="attribValText">攻击力</span><br />
+      + <span class="attribVal">5</span> <span class="attribValText">护甲</span><br />
+      + <span class="attribVal">5</span> <span class="attribValText">生命恢复</span>
+    mc: 75
+    cd: 13
+    lore: 危险的武器，盗自一个反维度。
+    components:
+    - relic
+    - helm_of_iron_will
+    created: true
+  aeon_disk:
+    id: 256
+    img: aeon_disk_lg.png?3
+    dname: Aeon Disk
+    qual: epic
+    cost: 3350
+    desc: "<h1>Passive: Combo Breaker</h1> When you take damage and your health falls
+      below 70%, a strong dispel is applied and you gain a 2.5 second buff that causes
+      all damage you deal and are dealt to be reduced to zero. Only triggers on player
+      based damage. <br />\r\n<br />\r\n<h1>Passive: Status Resistance</h1> Reduces
+      status effect durations by 25%. "
+    notes: ''
+    attrib: |-
+      + <span class="attribVal">250</span> <span class="attribValText">生命值</span><br />
+      + <span class="attribVal">250</span> <span class="attribValText">魔法值</span>
+    mc: false
+    cd: 90
+    lore: A powerful artifact long ago smuggled out of the Ivory Incubarium. Or so
+      many believe.
+    components:
+    - vitality_booster
+    - energy_booster
+    created: true
+  kaya:
+    id: 259
+    img: kaya_lg.png?3
+    dname: Kaya
+    qual: epic
+    cost: 1950
+    desc: ''
+    notes: Multiple instances of this item do not stack.
+    attrib: |-
+      + <span class="attribVal">16</span> <span class="attribValText">智力</span><br />
+      +Spell Amplification <span class="attribVal">10%</span><br />
+      +Manacost and Manaloss Reduction <span class="attribVal">10%</span>
+    mc: false
+    cd: false
+    lore: The staff of a renowned sorceress, lost for countless millennia.
+    components:
+    - staff_of_wizardry
+    - robe
+    created: true
+  trident:
+    id: 275
+    img: trident_lg.png?3
+    dname: DOTA_Tooltip_Ability_item_trident
+    qual: false
+    cost: 
+    desc: ''
+    notes: ''
+    attrib: ''
+    mc: false
+    cd: false
+    lore: ''
+    components: 
+    created: false
+  combo_breaker:
+    id: 276
+    img: combo_breaker_lg.png?3
+    dname: DOTA_Tooltip_Ability_item_combo_breaker
+    qual: false
+    cost: 
+    desc: ''
+    notes: ''
+    attrib: ''
+    mc: false
+    cd: false
+    lore: ''
+    components: 
+    created: false
+  refresher_shard:
+    id: 260
+    img: refresher_shard_lg.png?3
+    dname: 刷新球碎片
+    qual: consumable
+    cost: 1000
+    desc: "<h1>主动：完全重置</h1>重置所有物品和技能的冷却时间。"
+    notes: 刷新球碎片可以共享。
+    attrib: ''
+    mc: false
+    cd: 200
+    lore: 无尽之战时代的前前后后，不朽者的求胜之志始终从未动摇。
+    components: 
+    created: false
+  spirit_vessel:
+    id: 267
+    img: spirit_vessel_lg.png?3
+    dname: 魂之灵瓮
+    qual: rare
+    cost: 2975
+    desc: "<h1>主动：灵魂释放</h1> 对敌人使用时，每秒减少3%当前生命值，并且生命恢复速率和治疗效果降低70%。每秒造成20点伤害。<br><br>对友军使用时，每秒增加1%当前生命值，并且生命恢复速率和治疗效果提升20%。提供35点/秒生命恢复。<br><br>持续8秒。<br><br>每当敌方英雄在1400范围内死亡时获得充能。只有最靠近阵亡英雄的灵瓮能得到充能。<br><br>施法距离：950 "
+    notes: ''
+    attrib: |-
+      + <span class="attribVal">250</span> <span class="attribValText">生命值</span><br />
+      + <span class="attribVal">30</span> <span class="attribValText">移动速度</span><br />
+      + <span class="attribVal">1</span> <span class="attribValText">魔法恢复</span><br />
+      + <span class="attribVal">2</span> <span class="attribValText">全属性</span><br />
+      + <span class="attribVal">2</span> <span class="attribValText">护甲</span>
+    mc: false
+    cd: 7
+    lore: 由一位神铸造，用来俘获同类的灵魂。
+    components:
+    - urn_of_shadows
+    - vitality_booster
+    - wind_lace
     created: true
   vanguard:
     id: 125
@@ -1774,7 +1893,7 @@ itemdata:
     notes: 多种伤害格挡物品的效果互不叠加。
     attrib: |-
       + <span class="attribVal">250</span> <span class="attribValText">生命值</span><br />
-      + <span class="attribVal">8</span> <span class="attribValText">生命恢复速率</span>
+      + <span class="attribVal">5.5</span> <span class="attribValText">生命恢复</span>
     mc: false
     cd: false
     lore: 能够让持有者躲过最致命攻击的强力盾牌。
@@ -1794,7 +1913,7 @@ itemdata:
     notes: 多种伤害格挡效果不会叠加。
     attrib: |-
       + <span class="attribVal">250</span> <span class="attribValText">生命值</span><br />
-      + <span class="attribVal">8</span> <span class="attribValText">生命恢复速率</span><br />
+      + <span class="attribVal">6</span> <span class="attribValText">生命恢复</span><br />
       + <span class="attribVal">2</span> <span class="attribValText">全属性</span><br />
       + <span class="attribVal">5</span> <span class="attribValText">护甲</span>
     mc: false
@@ -1848,11 +1967,11 @@ itemdata:
     img: hood_of_defiance_lg.png?3
     dname: 挑战头巾
     qual: epic
-    cost: 1725
+    cost: 1700
     desc: "<h1>主动：绝缘</h1>创造一个技能护盾，可以吸收325点魔法伤害。持续12秒。"
     notes: 能与其他提高魔法抗性的技能叠加。
     attrib: |-
-      + <span class="attribVal">8</span> <span class="attribValText">生命恢复速率</span><br />
+      + <span class="attribVal">6.5</span> <span class="attribValText">生命恢复</span><br />
       + <span class="attribVal">25%</span> <span class="attribValText">魔法抗性</span>
     mc: 75
     cd: 60
@@ -1883,15 +2002,15 @@ itemdata:
     img: monkey_king_bar_lg.png?3
     dname: 金箍棒
     qual: epic
-    cost: 5200
-    desc: "<h1>被动：猛击</h1>每次攻击均有35%的概率猛击敌人，造成短暂眩晕和额外160点伤害。<br />\r\n<h1>被动：克敌机先</h1>攻击不会落空。攻击敌方建筑时不会生效。"
-    notes: 克敌机先在攻击敌方建筑时不会生效。
-    attrib: + <span class="attribVal">66</span> <span class="attribValText">攻击力</span>
+    cost: 4200
+    desc: "<h1>被动：穿刺</h1>每次攻击均有75%的概率无视闪避，并造成额外60点纯粹伤害。"
+    notes: ''
+    attrib: + <span class="attribVal">60</span> <span class="attribValText">攻击速度</span>
     mc: false
     cd: false
     lore: 一位大师级战士使用的强力棍棒。
     components:
-    - demon_edge
+    - hyperstone
     - javelin
     - javelin
     created: true
@@ -1916,11 +2035,11 @@ itemdata:
     dname: 蝴蝶
     qual: epic
     cost: 5525
-    desc: "<h1>主动：振翅</h1> 牺牲35%闪避效果，获得35%移动速度提升，持续4秒。"
+    desc: "<h1>主动：振翅</h1> 获得35%移动速度提升，持续2秒。"
     notes: 与其他闪避效果为非线性叠加。
     attrib: |-
       + <span class="attribVal">35</span> <span class="attribValText">敏捷</span><br />
-      + <span class="attribVal">30</span> <span class="attribValText">攻击力</span><br />
+      + <span class="attribVal">25</span> <span class="attribValText">攻击力</span><br />
       + <span class="attribVal">35%</span> <span class="attribValText">闪避</span><br />
       + <span class="attribVal">30</span> <span class="attribValText">攻击速度</span>
     mc: false
@@ -1953,11 +2072,9 @@ itemdata:
     dname: 碎颅锤
     qual: epic
     cost: 2700
-    desc: "<h1>被动：重击</h1><br />\r\n近战英雄的攻击有25%的概率击晕目标1.4秒并额外造成85点伤害。远程英雄的击晕概率为10%。"
-    notes: 不与其他击晕类技能叠加，但是能与短暂击晕类（如金箍棒）叠加。<br />以下英雄无法触发该物品的重击效果：裂魂人，虚空假面，斯拉达，以及巨魔战将。
-    attrib: |-
-      + <span class="attribVal">10</span> <span class="attribValText">攻击力</span><br />
-      + <span class="attribVal">10</span> <span class="attribValText">力量</span>
+    desc: "<h1>被动：重击</h1><br />\r\n近战英雄的攻击有25%的概率击晕目标1.4秒并额外造成100点伤害。触发重击时无视闪避。远程英雄的击晕概率为10%。"
+    notes: 不与其他击晕类技能叠加，但是能与短暂击晕类叠加。<br />以下英雄无法触发该物品的重击效果：裂魂人，虚空假面，斯拉达，以及巨魔战将。
+    attrib: + <span class="attribVal">10</span> <span class="attribValText">力量</span>
     mc: false
     cd: 2
     lore: 正确使用下会是件恐怖的武器，不要低估这把大槌粉碎对手防御的能力。
@@ -1970,22 +2087,21 @@ itemdata:
     img: bfury_lg.png?3
     dname: 狂战斧
     qual: epic
-    cost: 4500
+    cost: 4100
     desc: "<h1>主动：砍伐/排眼</h1><br />\r\n砍伐一根指定树木，或者摧毁一个守卫。<br><br>砍伐施法距离：350<br>排眼施法距离：450
       <br />\r\n<h1>被动：压制</h1><br />\r\n对非英雄单位进行物理攻击会造成额外伤害，近战英雄为60%，远程英雄为25%。<br
-      />\r\n<h1>被动：分裂</h1><br />\r\n普通攻击时对目标周围最远570距离的锥形区域内敌人造成40%的分裂伤害。（仅近战有效）"
+      />\r\n<h1>被动：分裂</h1><br />\r\n普通攻击时对目标周围最远625距离的锥形区域内敌人造成40%的分裂伤害。（仅近战有效）"
     notes: 分裂伤害会根据护甲类型有所减少，但是与护甲数值无关。<br />分裂伤害无视技能免疫。<br />如果存在多个分裂效果，每个分裂的伤害都会单独计算。<br
       />砍伐可以用于摧毁工程师的遥控炸弹。
     attrib: |-
-      + <span class="attribVal">55</span> <span class="attribValText">攻击力</span><br />
-      + <span class="attribVal">6</span> <span class="attribValText">生命恢复速率</span><br />
-      + <span class="attribVal">150%</span> <span class="attribValText">魔法恢复</span>
+      + <span class="attribVal">45</span> <span class="attribValText">攻击力</span><br />
+      + <span class="attribVal">6</span> <span class="attribValText">生命恢复</span><br />
+      + <span class="attribVal">2.25</span> <span class="attribValText">魔法恢复</span>
     mc: false
     cd: 4
     lore: 持有这把强大斧头的人可以一次砍倒一片敌人。
     components:
-    - broadsword
-    - claymore
+    - demon_edge
     - pers
     - quelling_blade
     created: true
@@ -2002,8 +2118,8 @@ itemdata:
       + <span class="attribVal">10</span> <span class="attribValText">力量</span><br />
       + <span class="attribVal">26</span> <span class="attribValText">敏捷</span><br />
       + <span class="attribVal">10</span> <span class="attribValText">智力</span><br />
-      + <span class="attribVal">15</span> <span class="attribValText">攻击速度</span><br />
-      + <span class="attribVal">10%</span> <span class="attribValText">移动速度</span>
+      + <span class="attribVal">10</span> <span class="attribValText">攻击速度</span><br />
+      + <span class="attribVal">8%</span> <span class="attribValText">移动速度</span>
     mc: 125
     cd: 45
     lore: 用反光材料制成的斧头，能够混淆敌军。
@@ -2052,14 +2168,14 @@ itemdata:
     dname: 莫尔迪基安的臂章
     qual: epic
     cost: 2370
-    desc: "<h1>激活：邪恶之力</h1><br />\r\n激活后邪恶之力将提升31点攻击力、25点力量和4点护甲，但每秒失去45点生命值。<br><br>
+    desc: "<h1>激活：邪恶之力</h1><br />\r\n激活后邪恶之力将提升31点攻击力、25点力量和4点护甲，但每秒失去54点生命值。<br><br>
       开启邪恶之力后生命流失并不会导致死亡，关闭邪恶之力后力量降低也不会导致死亡。"
     notes: 力量值的变化会影响血量上限和当前生命值，但是不会致死。<br />力量的增加将在0.6秒内完成。<br />开启或关闭邪恶之力并不会打断持续施法。
     attrib: |-
       + <span class="attribVal">9</span> <span class="attribValText">攻击力</span><br />
       + <span class="attribVal">25</span> <span class="attribValText">攻击速度</span><br />
       + <span class="attribVal">5</span> <span class="attribValText">护甲</span><br />
-      + <span class="attribVal">7</span> <span class="attribValText">生命恢复速率</span>
+      + <span class="attribVal">4</span> <span class="attribValText">生命恢复</span>
     mc: false
     cd: 0
     lore: 能让你成为野兽的武器，持有者牺牲自己的生命能量来获得巨大力量。
@@ -2092,8 +2208,8 @@ itemdata:
     dname: 白银之锋
     qual: epic
     cost: 5550
-    desc: "<h1>主动：暗影步</h1>进入隐身直到14秒持续时间结束、攻击或施法。隐身时，移动速度将提升20%，而且可以穿越单位。<br><br>破隐一击将造成175点额外伤害，
-      并且5秒内目标的被动技能无效，同时目标的伤害输出降低50%。"
+    desc: "<h1>主动：暗影步</h1>进入隐身直到14秒持续时间结束、攻击或施法。隐身时，移动速度将提升25%，而且可以穿越单位。<br><br>破隐一击将造成175点额外伤害，
+      并且5秒内目标的被动技能无效。"
     notes: 暗影步无法闪避。<br />暗影步并不能无视技能免疫。
     attrib: |-
       + <span class="attribVal">30</span> <span class="attribValText">攻击力</span><br />
@@ -2132,8 +2248,8 @@ itemdata:
     img: satanic_lg.png?3
     dname: 撒旦之邪力
     qual: artifact
-    cost: 5700
-    desc: "<h1>主动：不洁狂热</h1>吸血效果提升至200%，持续4.5秒。<br />\r\n<h1>被动：吸血</h1>攻击者每次攻击都将根据造成的伤害回复25%的生命值。<br><br>撒旦之邪力是独占攻效，不与其它独占攻效叠加。"
+    cost: 5500
+    desc: "<h1>主动：不洁狂热</h1>吸血效果提升至200%，持续4.5秒。<br />\r\n<h1>被动：吸血</h1>攻击者每次攻击都将根据造成的伤害回复25%的生命值。"
     notes: ''
     attrib: |-
       + <span class="attribVal">25</span> <span class="attribValText">力量</span><br />
@@ -2143,7 +2259,7 @@ itemdata:
     lore: 无穷的力量，需要你付出灵魂作为代价。
     components:
     - lifesteal
-    - mithril_hammer
+    - claymore
     - reaver
     created: true
   mjollnir:
@@ -2171,8 +2287,8 @@ itemdata:
     img: skadi_lg.png?3
     dname: 斯嘉蒂之眼
     qual: artifact
-    cost: 5775
-    desc: "<h1>被动: 霜冻攻击</h1> 攻击附带使敌人移动速度减缓35%和攻击速度降低45%的霜冻效果。<br><br>效果在近战英雄上持续5秒，在远程英雄上持续2.5秒。"
+    cost: 5500
+    desc: "<h1>被动：霜冻攻击</h1> 攻击附带使敌人移动速度减缓35%和攻击速度降低45%的霜冻效果。<br><br>效果在近战英雄上持续5秒，在远程英雄上持续2.5秒。"
     notes: 近战单位的霜冻攻击效果持续5秒，远程单位的持续2.5秒。
     attrib: |-
       + <span class="attribVal">25</span> <span class="attribValText">全属性</span><br />
@@ -2185,7 +2301,6 @@ itemdata:
     - ultimate_orb
     - ultimate_orb
     - point_booster
-    - orb_of_venom
     created: true
   sange:
     id: 162
@@ -2210,13 +2325,13 @@ itemdata:
     img: helm_of_the_dominator_lg.png?3
     dname: 支配头盔
     qual: artifact
-    cost: 2025
-    desc: "<h1>主动：支配</h1>控制一个普通、非远古单位，其移动速度变为425。被支配单位的生命值将不会少于1500点。<br><br>被支配单位的最大生命值大于1500点时将保留原来的最大生命值。被支配单位的击杀奖励为固定%tooltip_bounty%金。<br
-      />\r\n<h1>被动：支配光环</h1> 周围友方单位的攻击速度提升15，生命恢复速率提升10点。<br><br>作用范围：900"
+    cost: 2000
+    desc: "<h1>主动：支配</h1>控制一个普通、非远古单位，其移动速度变为425。被支配单位的生命值将不会少于1500点。<br><br>被支配单位的最大生命值大于1500点时将保留原来的最大生命值。被支配单位的击杀奖励为固定125金。<br
+      />\r\n<h1>被动：支配光环</h1> 周围友方单位的攻击速度提升20，生命恢复提升8点/秒。<br><br>作用范围：900"
     notes: 只能存在一个被支配的单位。如果支配了新的单位，原来的单位将会死亡。<br />出售或升级支配头盔会导致支配的单位死亡。
     attrib: |-
       + <span class="attribVal">2</span> <span class="attribValText">全属性</span><br />
-      + <span class="attribVal">10</span> <span class="attribValText">攻击速度</span>
+      + <span class="attribVal">5</span> <span class="attribValText">攻击速度</span>
     mc: false
     cd: 60
     lore: 死去的死灵法师留下的可怕头盔。
@@ -2249,7 +2364,7 @@ itemdata:
     dname: 黯灭
     qual: artifact
     cost: 3500
-    desc: "<h1>被动：腐蚀</h1> 物理攻击将降低目标7点护甲，持续15秒。"
+    desc: "<h1>被动：腐蚀</h1> 物理攻击将降低目标6点护甲，持续15秒。"
     notes: 护甲降低效果对建筑有效。
     attrib: + <span class="attribVal">50</span> <span class="attribValText">攻击力</span>
     mc: false
@@ -2285,7 +2400,7 @@ itemdata:
     dname: 疯狂面具
     qual: artifact
     cost: 1975
-    desc: "<h1>主动：狂热</h1>攻击速度提升110，移动速度提升17%，但是护甲降低6点，并且被沉默。持续8秒。<br />\r\n<h1>被动：吸血</h1>攻击者每次攻击都将根据造成的伤害回复15%的生命值。<br><br>疯狂面具是独占攻效，不与其它独占攻效叠加。"
+    desc: "<h1>主动：狂热</h1>攻击速度提升110，移动速度提升12%，但是护甲降低8点，并且被沉默。持续8秒。<br />\r\n<h1>被动：吸血</h1>攻击者每次攻击都将根据造成的伤害回复15%的生命值。"
     notes: ''
     attrib: |-
       + <span class="attribVal">20</span> <span class="attribValText">攻击力</span><br />
@@ -2303,38 +2418,18 @@ itemdata:
     dname: 净魂之刃
     qual: artifact
     cost: 3150
-    desc: "<h1>主动：净化</h1> 以敌方单位为目标，移除其身上的增益效果，移动速度也会被减缓，持续4秒。<br><br>施法距离：600<br />\r\n<h1>被动：破法</h1>每次攻击将燃烧目标50点魔法，而且每燃烧一点魔法都会造成0.8点物理伤害。<br><br>近战英雄的幻象每次攻击将燃烧16点魔法。远程英雄的幻象每次攻击将燃烧8点魔法。<br><br>驱散类型：<span
-      class=\"GameplayValues GameplayVariable\">弱驱散</span>"
+    desc: "<h1>主动：阻止</h1> 以敌方单位为目标，减缓其移动速度，持续4秒。<br><br>施法距离：600<br />\r\n<h1>被动：破法</h1>每次攻击将燃烧目标50点魔法，而且每燃烧一点魔法都会造成0.8点物理伤害。<br><br>近战英雄的幻象每次攻击将燃烧16点魔法。远程英雄的幻象每次攻击将燃烧8点魔法。"
     notes: 不会与其他法力损毁技能叠加。
     attrib: |-
-      + <span class="attribVal">20</span>/30 <span class="attribValText">敏捷</span><br />
-      + <span class="attribVal">10</span>/15 <span class="attribValText">智力</span>
+      + <span class="attribVal">20</span> <span class="attribValText">敏捷</span><br />
+      + <span class="attribVal">10</span> <span class="attribValText">智力</span>
     mc: false
-    cd: 4
+    cd: 15
     lore: 一把直接切入敌人灵魂的魔力之刃。
     components:
     - blade_of_alacrity
     - blade_of_alacrity
     - robe
-    created: true
-  diffusal_blade_2:
-    id: 196
-    img: diffusal_blade_2_lg.png?3
-    dname: 净魂之刃
-    qual: artifact
-    cost: 3850
-    desc: "<h1>主动：净化</h1> 以敌方单位为目标，移除其身上的增益效果，移动速度也会被减缓，持续4秒。<br><br>施法距离：600<br />\r\n<h1>被动：破法</h1>每次攻击将燃烧目标50点魔法，而且每燃烧一点魔法都会造成0.8点物理伤害。<br><br>近战英雄的幻象每次攻击将燃烧16点魔法。远程英雄的幻象每次攻击将燃烧8点魔法。<br><br>驱散类型：<span
-      class=\"GameplayValues GameplayVariable\">弱驱散</span>"
-    notes: 不会与其他法力损毁技能叠加。
-    attrib: |-
-      + 20/<span class="attribVal">30</span> <span class="attribValText">敏捷</span><br />
-      + 10/<span class="attribVal">15</span> <span class="attribValText">智力</span>
-    mc: false
-    cd: 4
-    lore: 一把直接切入敌人灵魂的魔力之刃。
-    components:
-    - diffusal_blade
-    - recipe_diffusal_blade
     created: true
   ethereal_blade:
     id: 176
@@ -2343,7 +2438,7 @@ itemdata:
     qual: epic
     cost: 4700
     desc: "<h1>主动：虚化冲击</h1>发射一道能量波，将目标转变为虚无状态，接下来受到的魔法伤害将会提升40%，并且无法攻击或被攻击。友方单位受到作用时持续4秒，敌方单位则持续3秒。<br><br>如果目标是敌人还将被减速80%，并额外受到2x[你的主属性]+75点魔法伤害。<br><br>施法距离：800"
-    notes: 与幽魂权杖共享冷却时间。<br />虚无状态下的单位将额外受到40%的魔法伤害。<br />自身或友方单位身上的效果额外增加一秒。<br />使用回程卷轴或远行鞋不会驱散虚无状态。
+    notes: 与幽魂权杖共享冷却时间。<br />虚无状态下的单位将额外受到40%的魔法伤害。<br />自身或友方单位身上的效果额外增加一秒。<br />使用回城卷轴或远行鞋不会驱散虚无状态。
     attrib: |-
       + <span class="attribVal">40</span> <span class="attribValText">敏捷</span><br />
       + <span class="attribVal">10</span> <span class="attribValText">力量</span><br />
@@ -2360,26 +2455,26 @@ itemdata:
     img: soul_ring_lg.png?3
     dname: 灵魂之戒
     qual: common
-    cost: 750
-    desc: "<h1>主动：献身</h1> 消耗150点生命值来暂时获取150点魔法值。持续10秒。<br><br>如果获得魔法后超过了自身的魔法上限，多出来的魔法会加入上限，并优先被使用。"
+    cost: 770
+    desc: "<h1>主动：献身</h1> 消耗170点生命值来暂时获取150点魔法值。持续10秒。<br><br>如果获得魔法后超过了自身的魔法上限，多出来的魔法会加入上限，并优先被使用。"
     notes: 如果在持续时间结束时没有使用，额外的魔法将会消失。
     attrib: |-
-      + <span class="attribVal">3</span> <span class="attribValText">生命恢复速率</span><br />
-      + <span class="attribVal">50%</span> <span class="attribValText">魔法恢复</span>
+      + <span class="attribVal">6</span> <span class="attribValText">力量</span><br />
+      + <span class="attribVal">2</span> <span class="attribValText">生命恢复</span>
     mc: false
-    cd: 30
+    cd: 25
     lore: 一个能吞噬佩带者灵魂的戒指。
     components:
     - ring_of_regen
-    - sobi_mask
-    - enchanted_mango
+    - gauntlets
+    - gauntlets
     created: true
   arcane_boots:
     id: 180
     img: arcane_boots_lg.png?3
     dname: 奥术鞋
     qual: rare
-    cost: 1300
+    cost: 1400
     desc: "<h1>主动：补魔</h1>回复英雄周围友方单位135点魔法。<br><br>作用范围：900<br><br>多个鞋类物品提供的移动速度加成不叠加。<br><br>作用范围：900"
     notes: 米波的克隆体不能使用。
     attrib: |-
@@ -2444,15 +2539,14 @@ itemdata:
     img: ancient_janggo_lg.png?3
     dname: 韧鼓
     qual: rare
-    cost: 1640
-    desc: "<h1>主动：坚韧</h1> 为周围友军提供+25的攻速加成和+13%的移动速度加成，持续6秒。<br><br>作用范围：900<br />\r\n<h1>被动：迅捷光环</h1>为周围友军提供20移动速度加成。<br><br>作用范围：900"
+    cost: 1615
+    desc: "<h1>主动：坚韧</h1> 为周围友军提供+35的攻速加成和+13%的移动速度加成，持续6秒。<br><br>作用范围：900<br />\r\n<h1>被动：迅捷光环</h1>为周围友军提供20移动速度加成。<br><br>作用范围：900"
     notes: 重新购买韧鼓的配方可以刷新其使用次数。<br />多个迅捷光环效果不会叠加。
     attrib: |-
       + <span class="attribVal">6</span> <span class="attribValText">智力</span><br />
-      + <span class="attribVal">6</span> <span class="attribValText">力量</span><br />
+      + <span class="attribVal">7</span> <span class="attribValText">力量</span><br />
       + <span class="attribVal">3</span> <span class="attribValText">敏捷</span><br />
-      + <span class="attribVal">3</span> <span class="attribValText">攻击力</span><br />
-      + <span class="attribVal">50%</span> <span class="attribValText">魔法恢复</span>
+      + <span class="attribVal">0.75</span> <span class="attribValText">魔法恢复</span>
     mc: false
     cd: 30
     lore: 在危难时刻能鼓舞周围人士气的遗物。
@@ -2471,7 +2565,7 @@ itemdata:
     notes: ''
     attrib: |-
       + <span class="attribVal">7</span> <span class="attribValText">护甲</span><br />
-      + <span class="attribVal">50%</span> <span class="attribValText">魔法恢复</span>
+      + <span class="attribVal">0.5</span> <span class="attribValText">魔法恢复</span>
     mc: false
     cd: 7
     lore: 持有者将无惧于战斗。
@@ -2486,11 +2580,11 @@ itemdata:
     dname: 炎阳纹章
     qual: rare
     cost: 2625
-    desc: "<h1>主动：日耀</h1>对队友施放可以提供10点护甲和20%的闪避。对敌人施放将降低其10点护甲，友军对目标发动攻击时带有35%的必中效果。<br><br>使用时自身会暂时失去炎阳纹章的护甲和闪避加成。<br><br>无法对技能免疫的敌人施放。<br><br>施法距离：1000"
+    desc: "<h1>主动：日耀</h1>对队友施放可以提供10点护甲和20%的闪避。对敌人施放将降低其10点护甲，友军对目标发动攻击时带有40%的必中效果。<br><br>使用时自身会暂时失去炎阳纹章的护甲和闪避加成。<br><br>无法对技能免疫的敌人施放。<br><br>施法距离：1000"
     notes: ''
     attrib: |-
       + <span class="attribVal">10</span> <span class="attribValText">护甲</span><br />
-      + <span class="attribVal">75%</span> <span class="attribValText">魔法恢复</span><br />
+      + <span class="attribVal">1</span> <span class="attribValText">魔法恢复</span><br />
       + <span class="attribVal">20%</span> <span class="attribValText">闪避</span>
     mc: false
     cd: 7
@@ -2504,7 +2598,7 @@ itemdata:
     img: smoke_of_deceit_lg.png?3
     dname: 诡计之雾
     qual: consumable
-    cost: 50
+    cost: 80
     desc: "<h1>使用：潜行</h1>使用者和附近1025范围内的友方玩家控制单位在35秒内获得隐身效果和15%移动速度加成。他们在小地图上的图标也会消失。<br><br>发动攻击，或靠近敌方英雄或防御塔1025距离后将打破隐身效果。<br><br>潜行的隐身效果不受真实视域影响。"
     notes: ''
     attrib: ''
@@ -2519,7 +2613,7 @@ itemdata:
     dname: 知识之书
     qual: consumable
     cost: 150
-    desc: "<h1>使用：启迪</h1>直接获得500点经验值，而且己方每消耗一本知识之书，将额外获得135点经验。<br><br>己方已使用本数：0"
+    desc: "<h1>使用：启迪</h1>直接获得700点经验值，而且己方每消耗一本知识之书，将额外获得135点经验。<br><br>己方已使用本数：%customval_team_tomes_used%"
     notes: ''
     attrib: ''
     mc: false
@@ -2532,16 +2626,15 @@ itemdata:
     img: veil_of_discord_lg.png?3
     dname: 纷争面纱
     qual: rare
-    cost: 2340
+    cost: 2330
     desc: "<h1>主动：魔法虚弱</h1> 发出一波弱化冲击，使600范围内敌人的魔法抗性降低25%。<br><br>施法距离：1000<br>持续时间：16"
     notes: ''
     attrib: |-
-      + <span class="attribVal">6</span> <span class="attribValText">生命恢复速率</span><br />
+      + <span class="attribVal">5</span> <span class="attribValText">生命恢复</span><br />
       + <span class="attribVal">6</span> <span class="attribValText">护甲</span><br />
       + <span class="attribVal">6</span> <span class="attribValText">敏捷</span><br />
       + <span class="attribVal">6</span> <span class="attribValText">力量</span><br />
-      + <span class="attribVal">6</span> <span class="attribValText">攻击力</span><br />
-      + <span class="attribVal">12</span> <span class="attribValText">智力</span>
+      + <span class="attribVal">14</span> <span class="attribValText">智力</span>
     mc: 50
     cd: 20
     lore: 一个堕落法师的头饰。
@@ -2555,11 +2648,10 @@ itemdata:
     img: guardian_greaves_lg.png?3
     dname: 卫士胫甲
     qual: rare
-    cost: 5375
+    cost: 5450
     desc: "<h1>主动：修复</h1>使周围友军回复250点生命和160点魔法，并移除施法者身上大部分的负面效果。<br><br>作用范围：900<br>驱散类型：<span
       class=\"GameplayValues GameplayVariable\">弱驱散</span><br />\r\n<h1>被动：卫士光环</h1>
-      为周围友军提供4点/秒的额外生命恢复速率和2点额外护甲。如果友方英雄的生命值低于20%，他们将获得15点/秒的额外生命恢复速率和15点额外护甲。<br
-      />\r\n多个鞋类物品提供的移动速度加成不叠加。"
+      为周围友军提供3.5点/秒额外生命恢复和2点额外护甲。如果友方英雄的生命值低于20%，他们将获得12点/秒额外生命恢复和15点额外护甲。<br />\r\n多个鞋类物品提供的移动速度加成不叠加。"
     notes: 光环效果仅对英雄有效。
     attrib: |-
       + <span class="attribVal">55</span> <span class="attribValText">移动速度</span><br />
@@ -2578,14 +2670,13 @@ itemdata:
     img: rod_of_atos_lg.png?3
     dname: 阿托斯之棍
     qual: rare
-    cost: 3080
+    cost: 3030
     desc: "<h1>主动：致残</h1>缠绕目标，持续2秒。<br><br>施法距离：1150"
     notes: ''
     attrib: |-
       + <span class="attribVal">20</span> <span class="attribValText">智力</span><br />
       + <span class="attribVal">15</span> <span class="attribValText">力量</span><br />
-      + <span class="attribVal">6</span> <span class="attribValText">敏捷</span><br />
-      + <span class="attribVal">6</span> <span class="attribValText">攻击力</span>
+      + <span class="attribVal">6</span> <span class="attribValText">敏捷</span>
     mc: 50
     cd: 16
     lore: 荒芜之王阿托斯将他的精粹储存在这根看似平平无奇的魔杖中。
@@ -2594,36 +2685,47 @@ itemdata:
     - bracer
     - bracer
     created: true
+  recipe_iron_talon:
+    id: 238
+    img: iron_talon_lg.png?3
+    dname: 卷轴：寒铁钢爪1
+    qual: false
+    cost: 0
+    desc: ''
+    notes: ''
+    attrib: ''
+    mc: false
+    cd: false
+    lore: ''
+    components: 
+    created: false
   iron_talon:
     id: 239
     img: iron_talon_lg.png?3
     dname: 寒铁钢爪
     qual: common
-    cost: 500
+    cost: 0
     desc: "<h1>主动：砍伐</h1>对非玩家控制的敌方单位使用，移除当前生命值的40%。<br><br>对树木或守卫施放会立刻将其摧毁。 <br><br>砍伐单位施法距离：350<br>砍伐树木施法距离：350<BR>砍伐守卫施法距离：450<br
       />\r\n<h1>被动：压制</h1> 对非英雄单位进行物理攻击会造成额外伤害，近战英雄为24点，远程英雄为7点。"
     notes: 对树木使用时冷却时间为4秒。<br />不能以远古生物为目标。
-    attrib: + <span class="attribVal">2</span> <span class="attribValText">护甲</span>
+    attrib: + <span class="attribVal">2</span> <span class="attribValText">生命恢复</span>
     mc: false
     cd: 20
     lore: 简单却有效的武器，为镇压地狱熊怪的起义而设计。
-    components:
-    - quelling_blade
-    - ring_of_protection
-    created: true
+    components: 
+    created: false
   abyssal_blade:
     id: 208
     img: abyssal_blade_lg.png?3
     dname: 深渊之刃
     qual: epic
     cost: 6400
-    desc: "<h1>主动：强击</h1> 击晕一个敌方目标，持续2秒。<br><br>无视技能免疫。<br />\r\n<h1>被动：重击</h1>近战英雄攻击时有25%的概率击晕对手1.4秒，并造成85点额外伤害。远程英雄的击晕概率为10%。<br
+    desc: "<h1>主动：强击</h1> 击晕一个敌方目标，持续2秒。<br><br>无视技能免疫。<br />\r\n<h1>被动：重击</h1>近战英雄攻击时有25%的概率击晕对手1.4秒，并造成100点额外伤害。触发重击时无视闪避。远程英雄的击晕概率为10%。<br
       />\r\n<h1>被动：伤害格挡</h1> 有50%几率格挡物理攻击造成的伤害，近战英雄可格挡70点伤害，远程英雄可格挡35点伤害。"
     notes: 眩晕的施法距离与近战单位的攻击距离相同。<br />不与其他重击效果叠加。<br />以下英雄无法触发该物品的重击效果：裂魂人，虚空假面，斯拉达，以及巨魔战将。
     attrib: |-
       + <span class="attribVal">250</span> <span class="attribValText">生命值</span><br />
-      + <span class="attribVal">15</span> <span class="attribValText">生命恢复速率</span><br />
-      + <span class="attribVal">10</span> <span class="attribValText">攻击力</span><br />
+      + <span class="attribVal">7</span> <span class="attribValText">生命恢复</span><br />
       + <span class="attribVal">10</span> <span class="attribValText">力量</span>
     mc: 75
     cd: 35
@@ -2656,10 +2758,10 @@ itemdata:
     img: ring_of_aquila_lg.png?3
     dname: 天鹰之戒
     qual: rare
-    cost: 985
-    desc: "<h1>被动：天鹰光环</h1>给予周围友军额外的0.65点/秒魔法恢复速率和2点护甲。<br><br>作用范围：900<br />\r\n<h1>开关：光环</h1>
+    cost: 965
+    desc: "<h1>被动：天鹰光环</h1>给予周围友军额外的0.5点/秒魔法恢复速率和2点护甲。<br><br>作用范围：900<br />\r\n<h1>开关：光环</h1>
       关闭后不会作用于非英雄单位。"
-    notes: 王者之戒，天鹰之戒和弗拉迪米尔的祭品拥有的护甲光环互不叠加。<br />多个天鹰光环效果不会叠加。
+    notes: 王者之戒和天鹰之戒拥有的护甲光环互不叠加。<br />多个天鹰光环效果不会叠加。
     attrib: |-
       + <span class="attribVal">10</span> <span class="attribValText">攻击力</span><br />
       + <span class="attribVal">3</span> <span class="attribValText">力量</span><br />
@@ -2677,12 +2779,12 @@ itemdata:
     img: tranquil_boots_lg.png?3
     dname: 静谧之鞋
     qual: rare
-    cost: 975
+    cost: 1050
     desc: "<h1>被动：破损</h1> 只要主动攻击或受到攻击，静谧之鞋就会损失%bonus_health_health%点/秒回复效果，并且移动速度加成降低至65，持续13秒。<br><br>多个鞋类物品提供的移动速度加成不叠加。"
     notes: ''
     attrib: |-
       + <span class="attribVal">90</span> <span class="attribValText">移动速度</span><br />
-      + <span class="attribVal">14</span> <span class="attribValText">生命恢复速率</span>
+      + <span class="attribVal">13</span> <span class="attribValText">生命恢复</span>
     mc: false
     cd: 13
     lore: 虽然延长了穿戴者的寿命，但这鞋子其实并不可靠。

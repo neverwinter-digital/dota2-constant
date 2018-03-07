@@ -7,14 +7,14 @@ herodata:
     attribs:
       str:
         b: 22
-        g: '1.50'
+        g: '1.30'
       int:
-        b: 15
+        b: 12
         g: '1.80'
       agi:
         b: 22
         g: '2.80'
-      ms: 315
+      ms: 310
       dmg:
         min: 27
         max: 31
@@ -77,7 +77,7 @@ herodata:
       agi:
         b: 24
         g: '3.00'
-      ms: 290
+      ms: 285
       dmg:
         min: 33
         max: 39
@@ -119,7 +119,7 @@ herodata:
       agi:
         b: 26
         g: '1.90'
-      ms: 290
+      ms: 285
       dmg:
         min: 14
         max: 25
@@ -161,7 +161,7 @@ herodata:
       agi:
         b: 26
         g: '2.40'
-      ms: 300
+      ms: 295
       dmg:
         min: 22
         max: 26
@@ -180,13 +180,13 @@ herodata:
         b: 17
         g: '1.65'
       agi:
-        b: 20
-        g: '3.60'
-      ms: 300
+        b: 18
+        g: '3.20'
+      ms: 295
       dmg:
         min: 21
         max: 32
-      armor: 1.8
+      armor: 1.52
     dac: 원거리
     droles: 캐리 - 지원 - 도주기 - 누커 - 무력화
   nevermore:
@@ -203,7 +203,7 @@ herodata:
       agi:
         b: 20
         g: '2.90'
-      ms: 315
+      ms: 310
       dmg:
         min: 15
         max: 21
@@ -219,12 +219,12 @@ herodata:
         b: 19
         g: '2.30'
       int:
-        b: 17
+        b: 13
         g: '1.10'
       agi:
         b: 24
         g: '3.70'
-      ms: 285
+      ms: 280
       dmg:
         min: 9
         max: 18
@@ -245,7 +245,7 @@ herodata:
       agi:
         b: 29
         g: '2.80'
-      ms: 290
+      ms: 285
       dmg:
         min: 22
         max: 44
@@ -308,7 +308,7 @@ herodata:
       agi:
         b: 22
         g: '1.80'
-      ms: 295
+      ms: 285
       dmg:
         min: 23
         max: 25
@@ -349,7 +349,7 @@ herodata:
         g: '3.00'
       agi:
         b: 22
-        g: '1.80'
+        g: '1.50'
       ms: 285
       dmg:
         min: 22
@@ -384,19 +384,19 @@ herodata:
     pa: str
     attribs:
       str:
-        b: 26
+        b: 30
         g: '3.30'
       int:
         b: 17
         g: '1.60'
       agi:
-        b: 9
-        g: '0.90'
+        b: 0
+        g: '0.00'
       ms: 285
       dmg:
         min: 44
         max: 50
-      armor: 0.26
+      armor: 0
     dac: 근접
     droles: 캐리 - 누커 - 압박 - 전투개시자 - 생존력 - 무력화
   vengefulspirit:
@@ -413,10 +413,10 @@ herodata:
       agi:
         b: 27
         g: '3.30'
-      ms: 300
+      ms: 295
       dmg:
         min: 12
-        max: 26
+        max: 20
       armor: 3.78
     dac: 원거리
     droles: 지원 - 전투개시자 - 무력화 - 누커 - 도주기
@@ -492,15 +492,15 @@ herodata:
         b: 18
         g: '1.80'
       int:
-        b: 27
+        b: 30
         g: '3.20'
       agi:
         b: 16
         g: '1.50'
       ms: 295
       dmg:
-        min: 13
-        max: 31
+        min: 16
+        max: 28
       armor: 1.24
     dac: 원거리
     droles: 지원 - 캐리 - 누커 - 무력화
@@ -642,13 +642,13 @@ herodata:
         b: 14
         g: '1.30'
       agi:
-        b: 34
+        b: 30
         g: '2.20'
-      ms: 285
+      ms: 275
       dmg:
         min: 4
         max: 8
-      armor: 4.76
+      armor: 4.2
     dac: 근접
     droles: 캐리 - 도주기 - 무력화
   enigma:
@@ -657,7 +657,7 @@ herodata:
     pa: int
     attribs:
       str:
-        b: 17
+        b: 19
         g: '2.40'
       int:
         b: 20
@@ -686,7 +686,7 @@ herodata:
       agi:
         b: 13
         g: '1.20'
-      ms: 305
+      ms: 290
       dmg:
         min: 22
         max: 28
@@ -700,14 +700,14 @@ herodata:
     attribs:
       str:
         b: 16
-        g: '2.00'
+        g: '1.70'
       int:
         b: 15
         g: '2.60'
       agi:
         b: 21
         g: '2.70'
-      ms: 290
+      ms: 285
       dmg:
         min: 15
         max: 21
@@ -812,10 +812,10 @@ herodata:
       agi:
         b: 22
         g: '2.80'
-      ms: 285
+      ms: 275
       dmg:
-        min: 19
-        max: 21
+        min: 16
+        max: 18
       armor: 3.08
     dac: 원거리
     droles: 지원 - 누커 - 전투개시자 - 압박 - 무력화
@@ -833,7 +833,7 @@ herodata:
       agi:
         b: 23
         g: '2.80'
-      ms: 300
+      ms: 295
       dmg:
         min: 33
         max: 39
@@ -847,7 +847,7 @@ herodata:
     attribs:
       str:
         b: 22
-        g: '3.20'
+        g: '2.80'
       int:
         b: 18
         g: '1.60'
@@ -896,7 +896,7 @@ herodata:
       agi:
         b: 23
         g: '3.15'
-      ms: 310
+      ms: 305
       dmg:
         min: 23
         max: 25
@@ -938,7 +938,7 @@ herodata:
       agi:
         b: 23
         g: '2.30'
-      ms: 305
+      ms: 300
       dmg:
         min: 30
         max: 36
@@ -959,11 +959,11 @@ herodata:
       agi:
         b: 21
         g: '2.90'
-      ms: 285
+      ms: 275
       dmg:
         min: 23
         max: 25
-      armor: 1.94
+      armor: 0.94
     dac: 원거리
     droles: 캐리 - 생존력 - 전투개시자 - 무력화
   luna:
@@ -973,14 +973,14 @@ herodata:
     attribs:
       str:
         b: 15
-        g: '2.50'
+        g: '2.20'
       int:
         b: 16
         g: '1.85'
       agi:
         b: 18
         g: '3.30'
-      ms: 335
+      ms: 330
       dmg:
         min: 20
         max: 26
@@ -1000,7 +1000,7 @@ herodata:
         g: '1.70'
       agi:
         b: 19
-        g: '2.20'
+        g: '2.00'
       ms: 290
       dmg:
         min: 31
@@ -1022,7 +1022,7 @@ herodata:
       agi:
         b: 21
         g: '1.70'
-      ms: 305
+      ms: 310
       dmg:
         min: 14
         max: 32
@@ -1147,8 +1147,8 @@ herodata:
         g: '1.55'
       agi:
         b: 22
-        g: '3.30'
-      ms: 300
+        g: '2.60'
+      ms: 295
       dmg:
         min: 15
         max: 21
@@ -1164,7 +1164,7 @@ herodata:
         b: 22
         g: '3.10'
       int:
-        b: 17
+        b: 15
         g: '1.80'
       agi:
         b: 15
@@ -1192,8 +1192,8 @@ herodata:
         g: '1.80'
       ms: 340
       dmg:
-        min: 31
-        max: 41
+        min: 28
+        max: 38
       armor: 0.66
     dac: 원거리
     droles: 지원 - 정글러 - 압박 - 생존력 - 무력화
@@ -1211,7 +1211,7 @@ herodata:
       agi:
         b: 15
         g: '1.40'
-      ms: 300
+      ms: 295
       dmg:
         min: 21
         max: 30
@@ -1253,7 +1253,7 @@ herodata:
       agi:
         b: 18
         g: '2.20'
-      ms: 295
+      ms: 270
       dmg:
         min: 26
         max: 32
@@ -1274,7 +1274,7 @@ herodata:
       agi:
         b: 21
         g: '3.00'
-      ms: 320
+      ms: 315
       dmg:
         min: 24
         max: 38
@@ -1295,7 +1295,7 @@ herodata:
       agi:
         b: 14
         g: '2.80'
-      ms: 285
+      ms: 280
       dmg:
         min: 36
         max: 46
@@ -1358,10 +1358,10 @@ herodata:
       agi:
         b: 15
         g: '2.10'
-      ms: 300
+      ms: 310
       dmg:
-        min: 22
-        max: 32
+        min: 27
+        max: 37
       armor: 1.1
     dac: 원거리
     droles: 지원 - 정글러 - 압박
@@ -1379,7 +1379,7 @@ herodata:
       agi:
         b: 23
         g: '1.80'
-      ms: 290
+      ms: 285
       dmg:
         min: 23
         max: 27
@@ -1395,7 +1395,7 @@ herodata:
         b: 26
         g: '3.50'
       int:
-        b: 13
+        b: 15
         g: '2.10'
       agi:
         b: 11
@@ -1442,7 +1442,7 @@ herodata:
       agi:
         b: 18
         g: '2.10'
-      ms: 310
+      ms: 305
       dmg:
         min: 24
         max: 28
@@ -1484,7 +1484,7 @@ herodata:
       agi:
         b: 24
         g: '2.80'
-      ms: 325
+      ms: 320
       dmg:
         min: 13
         max: 23
@@ -1591,9 +1591,9 @@ herodata:
         g: '1.00'
       ms: 305
       dmg:
-        min: 36
-        max: 41
-      armor: 3.24
+        min: 33
+        max: 38
+      armor: 2.24
     dac: 근접
     droles: 캐리 - 압박 - 정글러 - 생존력 - 도주기
   brewmaster:
@@ -1652,7 +1652,7 @@ herodata:
       agi:
         b: 24
         g: '2.70'
-      ms: 325
+      ms: 320
       dmg:
         min: 18
         max: 22
@@ -1694,7 +1694,7 @@ herodata:
       agi:
         b: 23
         g: '2.20'
-      ms: 315
+      ms: 310
       dmg:
         min: 20
         max: 26
@@ -1820,7 +1820,7 @@ herodata:
       agi:
         b: 19
         g: '2.20'
-      ms: 300
+      ms: 295
       dmg:
         min: 27
         max: 31
@@ -1840,8 +1840,8 @@ herodata:
         g: '2.00'
       agi:
         b: 21
-        g: '2.75'
-      ms: 320
+        g: '3.20'
+      ms: 315
       dmg:
         min: 23
         max: 25
@@ -1925,7 +1925,7 @@ herodata:
       agi:
         b: 21
         g: '1.50'
-      ms: 300
+      ms: 295
       dmg:
         min: 33
         max: 41
@@ -1939,14 +1939,14 @@ herodata:
     attribs:
       str:
         b: 14
-        g: '1.95'
+        g: '1.30'
       int:
         b: 19
         g: '2.10'
       agi:
         b: 20
         g: '2.50'
-      ms: 290
+      ms: 275
       dmg:
         min: 24
         max: 30
@@ -1967,7 +1967,7 @@ herodata:
       agi:
         b: 21
         g: '2.50'
-      ms: 300
+      ms: 295
       dmg:
         min: 17
         max: 35
@@ -1987,7 +1987,7 @@ herodata:
         g: '1.60'
       agi:
         b: 15
-        g: '1.60'
+        g: '1.00'
       ms: 300
       dmg:
         min: 32
@@ -2001,7 +2001,7 @@ herodata:
     pa: str
     attribs:
       str:
-        b: 21
+        b: 22
         g: '3.20'
       int:
         b: 19
@@ -2065,7 +2065,7 @@ herodata:
     attribs:
       str:
         b: 23
-        g: '2.60'
+        g: '3.00'
       int:
         b: 18
         g: '1.70'
@@ -2177,7 +2177,7 @@ herodata:
       agi:
         b: 22
         g: '1.80'
-      ms: 310
+      ms: 305
       dmg:
         min: 30
         max: 34
@@ -2215,11 +2215,11 @@ herodata:
         g: '1.70'
       int:
         b: 19
-        g: '1.75'
+        g: '1.60'
       agi:
         b: 22
         g: '3.20'
-      ms: 315
+      ms: 310
       dmg:
         min: 26
         max: 32
@@ -2257,7 +2257,7 @@ herodata:
         g: '2.20'
       int:
         b: 23
-        g: '2.90'
+        g: '3.20'
       agi:
         b: 15
         g: '1.70'
@@ -2305,8 +2305,8 @@ herodata:
         g: '1.90'
       ms: 285
       dmg:
-        min: 13
-        max: 20
+        min: 10
+        max: 17
       armor: 1.24
     dac: 원거리
     droles: 지원 - 무력화 - 누커
@@ -2324,7 +2324,7 @@ herodata:
       agi:
         b: 15
         g: '1.80'
-      ms: 285
+      ms: 280
       dmg:
         min: 29
         max: 39
@@ -2366,10 +2366,52 @@ herodata:
       agi:
         b: 22
         g: '3.20'
-      ms: 305
+      ms: 300
       dmg:
-        min: 30
-        max: 36
+        min: 29
+        max: 35
       armor: 0.08
     dac: 근접
     droles: 캐리 - 도주기 - 무력화 - 전투개시자
+  pangolier:
+    dname: 천갑검사
+    u: pangolier
+    pa: agi
+    attribs:
+      str:
+        b: 16
+        g: '2.50'
+      int:
+        b: 16
+        g: '1.90'
+      agi:
+        b: 18
+        g: '2.80'
+      ms: 305
+      dmg:
+        min: 29
+        max: 35
+      armor: 3.52
+    dac: 근접
+    droles: 캐리 - 누커 - 무력화 - 생존력 - 도주기 - 전투개시자
+  dark_willow:
+    dname: 흑버들
+    u: dark_willow
+    pa: int
+    attribs:
+      str:
+        b: 18
+        g: '1.80'
+      int:
+        b: 20
+        g: '3.00'
+      agi:
+        b: 18
+        g: '1.60'
+      ms: 295
+      dmg:
+        min: 25
+        max: 33
+      armor: 1.52
+    dac: 원거리
+    droles: 지원 - 누커 - 무력화 - 도주기

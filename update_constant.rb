@@ -198,7 +198,6 @@ def run_update_yml(urls)
     filepath = "yml/#{key}.yml"
     request_and_save(uri, filepath)
   end
-  update_abilities
 end
 
 def update_abilities
