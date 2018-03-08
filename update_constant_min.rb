@@ -39,7 +39,7 @@ class UpdateConstantMin
       next if value.empty? || value['ID'].nil?
       ability_id_to_name[value['ID'].to_i] = key
     end
-    save_hash_to_yml('yml_min/abilities.yml', ability_id_to_name)
+    save_hash_to_yml('active_yml/abilities.yml', ability_id_to_name)
   end
 
   def update_items
@@ -51,7 +51,7 @@ class UpdateConstantMin
       next if value['ID'].nil?
       item_id_to_name[value['ID'].to_i] = key[@item_.length..-1]
     end
-    save_hash_to_yml('yml_min/items.yml', item_id_to_name)
+    save_hash_to_yml('active_yml/items.yml', item_id_to_name)
   end
 
   def update_heroes
@@ -64,7 +64,7 @@ class UpdateConstantMin
       next if value['HeroID'].nil?
       hero_id_to_name[value['HeroID'].to_i] = key[@npc_dota_hero_.length..-1]
     end
-    save_hash_to_yml('yml_min/heroes.yml', hero_id_to_name)
+    save_hash_to_yml('active_yml/heroes.yml', hero_id_to_name)
   end
 
   def save_hash_to_yml(file_path, data)
