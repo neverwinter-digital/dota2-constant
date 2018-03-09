@@ -7,4 +7,9 @@
   
   `update_constant_min.rb`解析这些json文件并生成了相关的yml文件存储在`active_yml`文件夹下
 
+### active_yml
+当前在用的yml文件
+  - `filtered_abilities.yml`
+    - 不展示的一些技能，主要是toggle类的
+
  
