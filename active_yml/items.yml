@@ -25,6 +25,7 @@
 18: boots_of_elves
 19: robe
 20: circlet
+261: crown
 21: ogre_axe
 22: blade_of_alacrity
 23: staff_of_wizardry
@@ -32,6 +33,7 @@
 25: gloves
 26: lifesteal
 27: ring_of_regen
+279: ring_of_tarrasque
 28: sobi_mask
 29: boots
 30: gem
@@ -96,6 +98,8 @@
 86: buckler
 87: recipe_ring_of_basilius
 88: ring_of_basilius
+268: recipe_holy_locket
+269: holy_locket
 89: recipe_pipe
 90: pipe
 91: recipe_urn_of_shadows
@@ -204,6 +208,10 @@
 249: silver_edge
 153: recipe_sange_and_yasha
 154: sange_and_yasha
+272: recipe_kaya_and_sange
+273: kaya_and_sange
+274: recipe_yasha_and_kaya
+277: yasha_and_kaya
 155: recipe_satanic
 156: satanic
 157: recipe_mjollnir
@@ -268,3 +276,7 @@
 1025: river_painter5
 1026: river_painter6
 1027: river_painter7
+1028: mutation_tombstone
+1029: super_blink
+1030: pocket_tower
+1032: pocket_roshan

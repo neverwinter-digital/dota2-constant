@@ -6,6 +6,7 @@
 5003: antimage_mana_break
 5004: antimage_blink
 5005: antimage_spell_shield
+7314: antimage_counterspell
 5006: antimage_mana_void
 5007: axe_berserkers_call
 5008: axe_battle_hunger
@@ -138,8 +139,11 @@
 5132: windrunner_windrun
 5133: windrunner_focusfire
 5134: lich_frost_nova
+7311: lich_dark_sorcery
+7325: lich_sinister_gaze
+7312: lich_frost_aura
 5135: lich_frost_armor
-5136: lich_dark_ritual
+5136: lich_frost_shield
 5137: lich_chain_frost
 5138: witch_doctor_paralyzing_cask
 5139: witch_doctor_voodoo_restoration
@@ -174,6 +178,8 @@
 5167: warlock_golem_permanent_immolation
 5168: beastmaster_wild_axes
 5169: beastmaster_call_of_the_wild
+7230: beastmaster_call_of_the_wild_boar
+7231: beastmaster_call_of_the_wild_hawk
 5170: beastmaster_hawk_invisibility
 5171: beastmaster_boar_poison
 5352: beastmaster_greater_boar_poison
@@ -223,6 +229,7 @@
 5234: dazzle_shallow_grave
 5235: dazzle_shadow_wave
 5236: dazzle_weave
+7304: dazzle_bad_juju
 5237: rattletrap_battery_assault
 5238: rattletrap_power_cogs
 5239: rattletrap_rocket_flare
@@ -254,9 +261,11 @@
 5259: clinkz_strafe
 5260: clinkz_searing_arrows
 5261: clinkz_wind_walk
+7319: clinkz_burning_army
 5262: clinkz_death_pact
 5263: omniknight_purification
 5264: omniknight_repel
+7323: omniknight_pacify
 5265: omniknight_degen_aura
 5266: omniknight_guardian_angel
 5267: enchantress_untouchable
@@ -264,6 +273,7 @@
 5269: enchantress_natures_attendants
 5270: enchantress_impetus
 5271: huskar_inner_vitality
+7300: huskar_inner_fire
 5272: huskar_burning_spear
 5273: huskar_berserkers_blood
 5274: huskar_life_break
@@ -295,6 +305,7 @@
 5323: batrider_flaming_lasso
 5328: chen_penitence
 5329: chen_test_of_faith
+7306: chen_divine_favor
 5522: chen_test_of_faith_teleport
 5330: chen_holy_persuasion
 5331: chen_hand_of_god
@@ -315,6 +326,7 @@
 5348: ancient_apparition_ice_blast
 5349: ancient_apparition_ice_blast_release
 5353: spirit_breaker_charge_of_darkness
+7301: spirit_breaker_bulldoze
 5354: spirit_breaker_empowering_haste
 5355: spirit_breaker_greater_bash
 5356: spirit_breaker_nether_strike
@@ -356,7 +368,7 @@
 5391: obsidian_destroyer_arcane_orb
 5392: obsidian_destroyer_astral_imprisonment
 5393: obsidian_destroyer_essence_aura
-5684: obsidian_destroyer_mind_over_matter
+5684: obsidian_destroyer_equilibrium
 5394: obsidian_destroyer_sanity_eclipse
 5395: lycan_summon_wolves
 5396: lycan_howl
@@ -366,6 +378,7 @@
 5500: lycan_summon_wolves_invisibility
 5412: lone_druid_spirit_bear
 5413: lone_druid_rabid
+7309: lone_druid_spirit_link
 5414: lone_druid_savage_roar
 5687: lone_druid_savage_roar_bear
 5415: lone_druid_true_form
@@ -373,9 +386,11 @@
 5417: lone_druid_true_form_battle_cry
 5418: lone_druid_spirit_bear_return
 5419: lone_druid_spirit_bear_entangle
+7308: lone_druid_spirit_bear_defender
 5420: lone_druid_spirit_bear_demolish
 5400: brewmaster_thunder_clap
 5401: brewmaster_drunken_haze
+7310: brewmaster_cinder_brew
 5402: brewmaster_drunken_brawler
 5403: brewmaster_primal_split
 5404: brewmaster_earth_hurl_boulder
@@ -397,6 +412,7 @@
 5430: meepo_earthbind
 5431: meepo_poof
 5432: meepo_geostrike
+7318: meepo_ransack
 5433: meepo_divided_we_stand
 5434: treant_natures_guise
 5435: treant_leech_seed
@@ -418,6 +434,7 @@
 5449: rubick_telekinesis_land
 5450: rubick_fade_bolt
 5451: rubick_null_field
+7320: rubick_arcane_supremacy
 5452: rubick_spell_steal
 5453: rubick_empty1
 5454: rubick_empty2
@@ -441,6 +458,7 @@
 5478: naga_siren_song_of_the_siren_cancel
 5471: keeper_of_the_light_illuminate
 5472: keeper_of_the_light_mana_leak
+7316: keeper_of_the_light_will_o_wisp
 5473: keeper_of_the_light_chakra_magic
 5501: keeper_of_the_light_empty1
 5502: keeper_of_the_light_empty2
@@ -500,6 +518,7 @@
 5566: tusk_snowball
 5641: tusk_launch_snowball
 5567: tusk_frozen_sigil
+7322: tusk_tag_team
 5568: tusk_walrus_punch
 5672: tusk_walrus_kick
 5581: skywrath_mage_arcane_bolt
@@ -565,6 +584,7 @@
 6344: pangolier_swashbuckle
 6461: pangolier_shield_crash
 6346: pangolier_heartpiercer
+7307: pangolier_lucky_shot
 6343: pangolier_gyroshell
 6459: pangolier_gyroshell_stop
 6339: dark_willow_bramble_maze
@@ -572,6 +592,10 @@
 8340: dark_willow_terrorize
 6341: dark_willow_shadow_realm
 6342: dark_willow_cursed_crown
+8000: grimstroke_dark_artistry
+8006: grimstroke_ink_creature
+8007: grimstroke_spirit_walk
+6491: grimstroke_soul_chain
 5350: backdoor_protection
 5351: backdoor_protection_in_base
 6226: filler_ability
@@ -581,6 +605,7 @@
 5203: necronomicon_archer_mana_burn
 8203: necronomicon_archer_purge
 5204: necronomicon_archer_aoe
+84: courier_autodeliver
 5205: courier_return_to_base
 5492: courier_go_to_secretshop
 5206: courier_transfer_items
@@ -773,8 +798,10 @@
 6603: special_bonus_cleave_20
 6801: special_bonus_cleave_25
 7122: special_bonus_cleave_30
+7200: special_bonus_cleave_40
 6631: special_bonus_cleave_60
 6827: special_bonus_cleave_100
+7201: special_bonus_cleave_130
 7124: special_bonus_cleave_150
 6629: special_bonus_haste
 6922: special_bonus_truestrike
@@ -794,6 +821,7 @@
 6730: special_bonus_hp_regen_12
 5913: special_bonus_hp_regen_14
 5914: special_bonus_hp_regen_15
+7188: special_bonus_hp_regen_16
 6079: special_bonus_hp_regen_20
 6308: special_bonus_hp_regen_25
 6351: special_bonus_hp_regen_30
@@ -802,6 +830,7 @@
 6302: special_bonus_hp_regen_50
 6660: special_bonus_hp_regen_80
 5915: special_bonus_mp_regen_1
+7132: special_bonus_mp_regen_150
 6926: special_bonus_mp_regen_175
 5961: special_bonus_mp_regen_2
 5916: special_bonus_mp_regen_4
@@ -821,6 +850,7 @@
 6249: special_bonus_movement_speed_45
 6306: special_bonus_movement_speed_50
 6373: special_bonus_movement_speed_60
+7130: special_bonus_movement_speed_65
 6355: special_bonus_movement_speed_75
 6706: special_bonus_movement_speed_90
 6422: special_bonus_movement_speed_100
@@ -942,6 +972,8 @@
 6556: special_bonus_attack_damage_250
 7039: special_bonus_attack_damage_251
 6553: special_bonus_attack_damage_400
+7372: special_bonus_attack_base_damage_30
+7370: special_bonus_attack_base_damage_45
 5992: special_bonus_attack_range_50
 6027: special_bonus_attack_range_75
 5943: special_bonus_attack_range_100
@@ -1014,6 +1046,7 @@
 6025: special_bonus_20_bash_2
 6851: special_bonus_30_crit_2
 7045: special_bonus_20_crit_15
+7145: special_bonus_50_crit_40
 5983: special_bonus_exp_boost_5
 5985: special_bonus_exp_boost_10
 5986: special_bonus_exp_boost_15
@@ -1065,6 +1098,7 @@
 6023: special_bonus_unique_pudge_1
 6245: special_bonus_unique_pudge_2
 6506: special_bonus_unique_pudge_3
+7142: special_bonus_unique_pudge_4
 6024: special_bonus_unique_treant
 6531: special_bonus_unique_treant_2
 6955: special_bonus_unique_treant_3
@@ -1088,6 +1122,7 @@
 6039: special_bonus_unique_lich_1
 6292: special_bonus_unique_lich_2
 6387: special_bonus_unique_lich_3
+7360: special_bonus_unique_lich_4
 6041: special_bonus_unique_rubick
 6862: special_bonus_unique_rubick_2
 6863: special_bonus_unique_rubick_3
@@ -1162,6 +1197,7 @@
 6939: special_bonus_unique_templar_assassin_4
 6940: special_bonus_unique_templar_assassin_5
 7058: special_bonus_unique_templar_assassin_6
+7371: special_bonus_unique_templar_assassin_7
 6072: special_bonus_unique_crystal_maiden_1
 6234: special_bonus_unique_crystal_maiden_2
 6520: special_bonus_unique_crystal_maiden_3
@@ -1208,6 +1244,7 @@
 6385: special_bonus_unique_kunkka_2
 6666: special_bonus_unique_kunkka_3
 6667: special_bonus_unique_kunkka_4
+7131: special_bonus_unique_kunkka_5
 6090: special_bonus_unique_dragon_knight
 6635: special_bonus_unique_dragon_knight_2
 7113: special_bonus_unique_dragon_knight_3
@@ -1220,13 +1257,17 @@
 6811: special_bonus_unique_invoker_6
 7016: special_bonus_unique_invoker_7
 7017: special_bonus_unique_invoker_8
+7148: special_bonus_unique_invoker_9
 6100: special_bonus_unique_abaddon
 6601: special_bonus_unique_abaddon_2
 6602: special_bonus_unique_abaddon_3
+7335: special_bonus_unique_abaddon_4
+7340: special_bonus_unique_abaddon_5
 6101: special_bonus_unique_alchemist
 6350: special_bonus_unique_alchemist_2
 6604: special_bonus_unique_alchemist_3
 7054: special_bonus_unique_alchemist_4
+7144: special_bonus_unique_alchemist_5
 6102: special_bonus_unique_axe
 6608: special_bonus_unique_axe_2
 6815: special_bonus_unique_axe_3
@@ -1271,6 +1312,7 @@
 6974: special_bonus_unique_ursa_3
 6975: special_bonus_unique_ursa_4
 6976: special_bonus_unique_ursa_5
+7133: special_bonus_unique_ursa_6
 6133: special_bonus_unique_chaos_knight
 6618: special_bonus_unique_chaos_knight_2
 6619: special_bonus_unique_chaos_knight_3
@@ -1337,6 +1379,7 @@
 6171: special_bonus_unique_elder_titan
 6378: special_bonus_unique_elder_titan_2
 6720: special_bonus_unique_elder_titan_3
+7350: special_bonus_unique_elder_titan_4
 6172: special_bonus_unique_ember_spirit_1
 6176: special_bonus_unique_ember_spirit_2
 6647: special_bonus_unique_ember_spirit_3
@@ -1403,6 +1446,8 @@
 6204: special_bonus_unique_huskar
 6380: special_bonus_unique_huskar_2
 6655: special_bonus_unique_huskar_3
+7140: special_bonus_unique_huskar_4
+7143: special_bonus_unique_huskar_5
 6205: special_bonus_unique_naga_siren
 6398: special_bonus_unique_naga_siren_2
 6701: special_bonus_unique_naga_siren_3
@@ -1445,9 +1490,11 @@
 6652: special_bonus_unique_gyrocopter_3
 6653: special_bonus_unique_gyrocopter_4
 6654: special_bonus_unique_gyrocopter_5
+7141: special_bonus_unique_gyrocopter_6
 6241: special_bonus_unique_outworld_devourer
 6711: special_bonus_unique_outworld_devourer_2
 6712: special_bonus_unique_outworld_devourer_3
+7375: special_bonus_unique_outworld_devourer_4
 6217: special_bonus_unique_keeper_of_the_light
 6527: special_bonus_unique_keeper_of_the_light_2
 6665: special_bonus_unique_keeper_of_the_light_3
@@ -1494,6 +1541,7 @@
 6659: special_bonus_unique_wisp_3
 6808: special_bonus_unique_wisp_4
 6924: special_bonus_unique_wisp_5
+7070: special_bonus_unique_wisp_6
 6282: special_bonus_unique_techies
 6552: special_bonus_unique_techies_2
 6997: special_bonus_unique_techies_3
@@ -1502,6 +1550,7 @@
 6354: special_bonus_unique_arc_warden_2
 7104: special_bonus_unique_arc_warden_3
 7105: special_bonus_unique_arc_warden_4
+7120: special_bonus_unique_arc_warden_5
 6288: special_bonus_unique_meepo
 6689: special_bonus_unique_meepo_2
 7027: special_bonus_unique_meepo_3
@@ -1517,8 +1566,13 @@
 9060: special_bonus_unique_pangolier_3
 9061: special_bonus_unique_pangolier_4
 9062: special_bonus_unique_pangolier_5
+9135: special_bonus_unique_pangolier_6
 6464: special_bonus_unique_dark_willow_1
 6465: special_bonus_unique_dark_willow_2
+8001: special_bonus_unique_grimstroke_1
+8002: special_bonus_unique_grimstroke_2
+8003: special_bonus_unique_grimstroke_3
+8004: special_bonus_unique_grimstroke_4
 6251: generic_hidden
 82: bear_empty1
 83: bear_empty2
